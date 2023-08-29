@@ -14,7 +14,8 @@ This ASP.NET Core project uses <a href="<a href="https://www.vintasoft.com/vsima
 
 
 ## Screenshot
-<img src="vintasoft-aspnet.core-annotation-demo.png" alt="VintaSoft ASP.NET Core Annotation Demo">
+<img src="vintasoft_aspnet.core-annotation_demo.png" alt="VintaSoft ASP.NET Core Annotation Demo"><br />
+<img src="vintasoft_aspnet.core-annotation_demo-annotation_settings.png" alt="VintaSoft ASP.NET Core Annotation Demo, Annotation settings">
 
 
 ## Usage
