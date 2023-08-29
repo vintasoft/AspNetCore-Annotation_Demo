@@ -18,7 +18,7 @@ The project demonstrates how to view and annotate images and documents in ASP.NE
 
 ## Screenshot
 <img src="vintasoft_aspnet.core-annotation_demo.png" alt="VintaSoft ASP.NET Core Annotation Demo"><br />
-<img src="vintasoft_aspnet.core-annotation_demo-annotation_settings.png" alt="VintaSoft ASP.NET Core Annotation Demo, Annotation settings">
+<img src="vintasoft_aspnet.core-annotation_demo-annotation_settings.png" title="VintaSoft ASP.NET Core Annotation Demo, Annotation settings">
 
 
 ## Usage
