@@ -1,6 +1,6 @@
 # VintaSoft ASP.NET Core Annotation Demo
 
-This ASP.NET Core project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a> and demonstrates how to view and annotate images and documents in ASP.NET Core:
+This ASP.NET Core project uses <a href="<a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a> and demonstrates how to view and annotate images and documents in ASP.NET Core:
 * Open file with annotations (multipage image file or PDF document).
 * View images with annotations.
 * Annotate images using 25 annotation types: rectangle, ellipse, highlight, image, text, sticky note, free text, stamp, line, polyline, polygon, freehand, freehand polygon, ruler, angle, mark, etc.
@@ -9,6 +9,8 @@ This ASP.NET Core project uses <a href="https://www.vintasoft.com/vsimaging-dotn
 * Undo/redo actions with annotations.
 * Print images with annotations.
 * Download annotated file.
+* The application can be used in any modern HTML5 web browser.
+* The application UI is localized into 30 languages (Afrikaans, Arabic, Belarusian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, German, Greece, English, Finnish, French, Hebrew, Hindi, Hungarian, Italian, Japanese, Korean, Norwegian, Portugese, Romanian, Russian, Slovakian, Slovenian, Spanish, Swedish, Turkish, Vietnamese).
 
 
 ## Screenshot
