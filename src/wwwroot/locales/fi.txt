@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Tiedosto"
+		},
+		"viewLabel": {
+			"text": "Näytä"
+		},
+		"toolsLabel": {
+			"text": "Työkalut"
+		},
+		"annotationsLabel": {
+			"text": "Merkinnät"
+		},
+		"uploadFileButton": {
+			"title": "Lataa ja avaa tiedosto"
+		},
+		"previousUploadFilesButton": {
+			"title": "Näytä luettelo aiemmin ladatuista tiedostoista"
+		},
+		"printImagesButton": {
+			"title": "Tulosta kuvat"
+		},
+		"downloadFileButton": {
+			"title": "Lataa tiedosto"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Sovita leveyteen"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "Kierrä kuvaa vastapäivään"
+		},
+		"rotateAngleInput": {
+			"title": "Kiertokulma"
+		},
+		"rotateClockwiseButton": {
+			"title": "Kierrä kuvaa myötäpäivään"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Kuvankatseluohjelman asetukset"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Pikkukuvien katseluohjelman asetukset"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "Merkinnät, asiakirjanavigointi, tekstin valinta"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"magnifierToolButton": {
+			"title": "Suurennuslasi"
+		},
+		"zoomToolButton": {
+			"title": "Asteikko"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Skaalan valinta"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Suorakaide"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Ellipsi"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Taustavalo"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Kuva"
+		},
+		"addTextAnnotationButton": {
+			"title": "Teksti"
+		},
+		"addStampAnnotationButton": {
+			"title": "Leima"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Linkki"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Nuoli"
+		},
+		"addLineAnnotationButton": {
+			"title": "Line"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Polyviiva"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Monikulmio"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Vivain"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Kolmio"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Vuorovaikutustila 'Kirjoittaja'"
+		},
+		"copyAnnotationButton": {
+			"title": "Kopioi kohdistettu huomautus"
+		},
+		"pasteAnnotationButton": {
+			"title": "Liitä kopioitu huomautus"
+		},
+		"removeAnnotationButton": {
+			"title": "Poista valittu huomautus"
+		},
+		"burnAnnotationsButton": {
+			"title": "Pota kokoelma huomautuksia kuvaan"
+		},
+		"saveAnnotationsButton": {
+			"title": "Tallenna muutokset huomautuskokoelmaan palvelimella"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Kierrä huomautettua kuvaa"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Ota muutoshistoria käyttöön"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Peruuta"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Toista"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Keskitason vuorovaikutuspisteet"
+		},
+		"showMobileMenuButton": {
+			"title": "Lisää"
+		},
+		"sidePanelCloseButton": {
+			"title": "Näytä sivupalkki"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Pikkukuvat"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Merkinnät"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Korosta teksti"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Etsi tekstiä"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Tekstin valintatila:"
+			},
+			"rectangleOption": {
+				"text": "Suorakaide"
+			},
+			"fullLinesOption": {
+				"text": "Täydet rivit"
+			},
+			"selectionColorLabel": {
+				"text": "Valitun tekstin väri:"
+			},
+			"selectedTextLabel": {
+				"text": "Valittu teksti:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Etsi:"
+			},
+			"whereLookLabel": {
+				"text": "Haku:"
+			},
+			"currentPageOption": {
+				"text": "Nykyinen sivu"
+			},
+			"allPagesOption": {
+				"text": "Kaikki sivut"
+			},
+			"wholeWordLabel": {
+				"text": "Hae koko sana"
+			},
+			"caseSensitiveLabel": {
+				"text": "Kirjainkoolla on merkitystä"
+			},
+			"textNotFoundLabel": {
+				"text": "Tekstiä ei löydy."
+			},
+			"startSearchButton": {
+				"value": "Aloita haku"
+			},
+			"stopSearchButton": {
+				"value": "Lopeta haku"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Siirry ensimmäiseen kuvaan"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Siirry edelliseen kuvaan"
+		},
+		"gotoPageInput": {
+			"title": "Sivu"
+		},
+		"gotoNextPageButton": {
+			"title": "Siirry seuraavaan kuvaan"
+		},
+		"gotoLastPageButton": {
+			"title": "Siirry viimeiseen kuvaan"
+		},
+		"zoomOutButton": {
+			"title": "Loitonna"
+		},
+		"zoomValueInput": {
+			"title": "Asteikko"
+		},
+		"zoomInButton": {
+			"title": "Lähennä"
+		},
+		"normalSizeModeButton": {
+			"title": "Normaali"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Sopivin"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Sovituskorkeus"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel to Pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Asteikko"
+		},
+		"addArcAnnotationButton": {
+			"title": "kaari"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Huom"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Vapaa teksti"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Kaksoisnuoli"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Polyviiva interpoloinnilla"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Vapaakätinen polyline"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Monikulmio interpoloinnilla"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Vapaakäden monikulmio"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Pilvipolygoni"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Rulette"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Kulma"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Etiketti"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Ei vuorovaikutusta"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Vuorovaikutustilan 'View'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Pienet vuorovaikutuskohdat"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Suuret kosketuspisteet (kosketusnäyttö)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "Kopioi huomautus"
+			},
+			"pasteAnnotationLabel": {
+				"text": "Lisää huomautus"
+			},
+			"removeAnnotationLabel": {
+				"text": "Poista huomautus"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "Lähetä takaisin"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "Tuo eteen"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "Ryhmittele kaikki huomautukset"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "Poista huomautus"
+			},
+			"annotationPropertiesLabel": {
+				"text": "Merkintäominaisuudet..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Tämä asiakirja on suojattu salasanalla. Ole hyvä ja anna salasana."
+			},
+			"passwordLabel": {
+				"text": "Salasana:"
+			},
+			"showPasswordLabel": {
+				"text": "Näytä salasana"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Väärä salasana"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Kuvat:"
+			},
+			"currentImageOption": {
+				"text": "Nykyinen kuva"
+			},
+			"allImagesOption": {
+				"text": "Kaikki kuvat"
+			},
+			"customImagesOption": {
+				"text": "Muokattu alue"
+			},
+			"imageRangeLabel": {
+				"text": "Kuvaalue:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Virheellinen sivualue. Esimerkki: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Hakemisto ei ole kuvakokoelman indeksialueella."
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Kuvat:"
+			},
+			"currentImageOption": {
+				"text": "Nykyinen kuva"
+			},
+			"allImagesOption": {
+				"text": "Kaikki kuvat"
+			},
+			"customImagesOption": {
+				"text": "Käyttäjän määrittämä"
+			},
+			"imageRangeLabel": {
+				"text": "Kuvaalue:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Virheellinen sivualue. Esimerkki: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Hakemisto on kuvakokoelman alueen ulkopuolella."
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Pikkukuvan koko:"
+			},
+			"scaleLabel": {
+				"text": "Pikkukuvan asteikko:"
+			},
+			"smallestOption": {
+				"text": "Vähintään"
+			},
+			"smallOption": {
+				"text": "Pieni"
+			},
+			"normalOption": {
+				"text": "Normaali"
+			},
+			"largeOption": {
+				"text": "Suuri"
+			},
+			"flowStyleLabel": {
+				"text": "Pikkukuvan sijoittelutyyli:"
+			},
+			"singleColumnOption": {
+				"text": "Yksi sarake"
+			},
+			"singleRowOption": {
+				"text": "Yksi rivi"
+			},
+			"fixedColumnsOption": {
+				"text": "Kiinteä määrä sarakkeita"
+			},
+			"wrappedRowsOption": {
+				"text": "Kelluva rivimäärä"
+			},
+			"columnCountLabel": {
+				"text": "Sarakkeiden määrä:"
+			},
+			"marginLabel": {
+				"text": "Ulkopuolinen pehmuste:"
+			},
+			"paddingTopLabel": {
+				"text": "Yläpehmuste:"
+			},
+			"paddingRightLabel": {
+				"text": "Oikea sisennys:"
+			},
+			"paddingBottomLabel": {
+				"text": "Alhainen pehmuste:"
+			},
+			"paddingLeftLabel": {
+				"text": "Vasen sisennys:"
+			},
+			"showCaptionLabel": {
+				"text": "Näytä pikkukuvan kuvatekstit:"
+			},
+			"captionFormatLabel": {
+				"text": "Allekirjoituksen muoto:"
+			},
+			"captionAnchorLabel": {
+				"text": "Allekirjoitusankkuri:"
+			},
+			"topLeftOption": {
+				"text": "Ylä|Vasen"
+			},
+			"topOption": {
+				"text": "Yläosa"
+			},
+			"topRightOption": {
+				"text": "Yläosa|Oikea"
+			},
+			"rightOption": {
+				"text": "Oikein"
+			},
+			"bottomRightOption": {
+				"text": "Alhaalla|Oikealla"
+			},
+			"bottomOption": {
+				"text": "Pohja"
+			},
+			"bottomLeftOption": {
+				"text": "Alhaalla|Vasen"
+			},
+			"leftOption": {
+				"text": "Vasen"
+			},
+			"centerOption": {
+				"text": "Keskitetty"
+			},
+			"focusOnHoverLabel": {
+				"text": "Liikun tarkennus:"
+			},
+			"multiSelectLabel": {
+				"text": "Salli useiden pikkukuvien valinta:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Kiertokulma:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Reunuksen värityyppi:"
+			},
+			"autoDetectOption": {
+				"text": "Automaattinen tunnistus"
+			},
+			"blackOption": {
+				"text": "Musta"
+			},
+			"whiteOption": {
+				"text": "Valkoinen"
+			},
+			"transparentOption": {
+				"text": "Läpinäkyvä"
+			},
+			"customOption": {
+				"text": "Mukautettu"
+			},
+			"borderColorLabel": {
+				"text": "Reunuksen väri:"
+			},
+			"changeSourceLabel": {
+				"text": "Vaihda lähdettä"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Aiemmin ladatut tiedostot"
+		},
+		"openButton": {
+			"text": "Avaa tiedosto"
+		},
+		"closeButton": {
+			"text": "Sulje"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "Kuvankatseluohjelman asetukset"
+		},
+		"imageDisplayModeLabel": {
+			"text": "Kuvan näyttötila"
+		},
+		"imageAnchorLabel": {
+			"text": "Kuvan ankkuri:"
+		},
+		"imageAnchorSelect": {
+			"value": "Ei",
+			"noneOption": {
+				"text": "Ei mitään"
+			},
+			"topLeftOption": {
+				"text": "Ylä|Vasen"
+			},
+			"topOption": {
+				"text": "Yläosa"
+			},
+			"topRightOption": {
+				"text": "Yläosa|Oikea"
+			},
+			"rightOption": {
+				"text": "Oikein"
+			},
+			"bottomRightOption": {
+				"text": "Alhaalla|Oikealla"
+			},
+			"bottomOption": {
+				"text": "Alhaalla"
+			},
+			"bottomLeftOption": {
+				"text": "Alhaalla|Vasen"
+			},
+			"leftOption": {
+				"text": "Vasen"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "Monisivuinen näyttötila:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "Kiinteät kuvat",
+			"allImagesOption": {
+				"text": "Kaikki kuvat"
+			},
+			"fixedImagesOption": {
+				"text": "Kiinteät kuvat"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "Asettelusuunta:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "Pysty",
+			"horizontalOption": {
+				"text": "Vaaka"
+			},
+			"verticalOption": {
+				"text": "Pysty"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "Kuvat riviä/saraketta kohti:"
+		},
+		"imagesPaddingLabel": {
+			"text": "Kuvan täyttö:"
+		},
+		"appearancesLabel": {
+			"text": "Ulkoasu"
+		},
+		"imageAppearanceLabel": {
+			"text": "Kuvan ulkoasu"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "Taustaväri:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "Reunuksen väri:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "Reunuksen leveys:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "Tarkennetun kuvan ulkoasu"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "Käytä kuvan ulkoasua yhden sivun tilassa"
+		},
+		"renderingSettigsLabel": {
+			"text": "Renderointiasetukset"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "Oletusasetukset"
+		},
+		"horResLabel": {
+			"text": "Vaaka resoluutio:"
+		},
+		"vertResLabel": {
+			"text": "Pystyresoluutio:"
+		},
+		"smoothingLabel": {
+			"text": "Smooth-tila:"
+		},
+		"interpolationLabel": {
+			"text": "Interpolointitila:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "Piirrä huomautus ilman merkintöjä"
+		},
+		"otherSettigsLabel": {
+			"text": "Muut asetukset"
+		},
+		"backgroundColorLabel": {
+			"text": "Kuvankatseluohjelman taustaväri:"
+		},
+		"centerImageLabel": {
+			"text": "Keskikuva:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "Koon muuttamisen aikakatkaisu:"
+		},
+		"tileSizeLabel": {
+			"text": "Laatan koko:"
+		},
+		"colorManagementLabel": {
+			"text": "Ota käyttöön värinhallinta:"
+		},
+		"useVectorRendering": {
+			"text": "Käytä vektorirenderöintiä asiakirjoissa:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "Vektorisisällön taustaväri:"
+		},
+		"okButton": {
+			"text": "OK"
+		},
+		"cancelButton": {
+			"text": "Sulje"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "Merkintäominaisuudet"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "Raja:"
+			},
+			"CanMirror": {
+				"text": "Voit peilata:"
+			},
+			"CanMove": {
+				"text": "Voi liikkua:"
+			},
+			"CanResize": {
+				"text": "Voidaan muuttaa kokoa:"
+			},
+			"CanRotate": {
+				"text": "Voidaan kääntää:"
+			},
+			"CreatedBy": {
+				"text": "Kirjoittaja:"
+			},
+			"CreationTime": {
+				"text": "Luontiaika:"
+			},
+			"+ FillBrush": {
+				"text": "+ Täyttö:"
+			},
+			"Color": {
+				"text": "Väri:"
+			},
+			"Type": {
+				"text": "Tyyppi:"
+			},
+			"+ Font": {
+				"text": "+ Fontti:"
+			},
+			"Bold": {
+				"text": "Lihavoitu:"
+			},
+			"FamilyName": {
+				"text": "Sukunimi:"
+			},
+			"Italic": {
+				"text": "Kursivoitu:"
+			},
+			"Size": {
+				"text": "Koko:"
+			},
+			"Strikeout": {
+				"text": "Yliviivaus:"
+			},
+			"Underline": {
+				"text": "Alleviivaus:"
+			},
+			"Unit": {
+				"text": "Yksikkö:"
+			},
+			"+ FontBrush": {
+				"text": "+ Fonttisivellin:"
+			},
+			"FontTransparent": {
+				"text": "Läpinäkyvä fontti:"
+			},
+			"Guid": {
+				"text": "ID:"
+			},
+			"HorizontalMirrored": {
+				"text": "Käännetty vaakasuunnassa:"
+			},
+			"IsBuilding": {
+				"text": "Merkintä on rakennettu:"
+			},
+			"IsVisible": {
+				"text": "Merkintä on näkyvissä:"
+			},
+			"LineStyle": {
+				"text": "Viivan tyyli:"
+			},
+			"LineStylePatternSize": {
+				"text": "Viivityylimallin koko:"
+			},
+			"+ Location": {
+				"text": "+ Sijainti:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "Muuttanut:"
+			},
+			"ModifiedTime": {
+				"text": "Muutosaika:"
+			},
+			"Name": {
+				"text": "Nimi:"
+			},
+			"+ Outline": {
+				"text": "+ Kaavio:"
+			},
+			"DashPattern": {
+				"text": "Katkova kuvio:"
+			},
+			"DashStyle": {
+				"text": "viivatyyli:"
+			},
+			"+ EndCap": {
+				"text": "+ Korkki rivin lopussa:"
+			},
+			"+ Size": {
+				"text": "+ Koko:"
+			},
+			"width": {
+				"text": "Leveys:"
+			},
+			"height": {
+				"text": "Korkeus:"
+			},
+			"Style": {
+				"text": "Tyyli:"
+			},
+			"LineJoin": {
+				"text": "Linjayhteys:"
+			},
+			"MiterLimit": {
+				"text": "MiterLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ Korkki rivin alussa:"
+			},
+			"Width": {
+				"text": "Leveys:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ Muuta pisteen kokoa:"
+			},
+			"BorderColor": {
+				"text": "Reunuksen väri:"
+			},
+			"BorderWidth": {
+				"text": "Reunuksen leveys:"
+			},
+			"FillColor": {
+				"text": "Täyttöväri:"
+			},
+			"InteractionRadius": {
+				"text": "Vuorovaikutusalueen säde:"
+			},
+			"Radius": {
+				"text": "Säde:"
+			},
+			"Rotation": {
+				"text": "Kierto:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ Kierron keskipiste:"
+			},
+			"Cursor": {
+				"text": "Osoitin:"
+			},
+			"+ RotationPoint": {
+				"text": "+ Pivot point:"
+			},
+			"RotationPointDistance": {
+				"text": "Etäisyys kääntöpisteeseen:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ Varjosivellin:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ Sisennys varjon piirtämiseen:"
+			},
+			"Symmetry": {
+				"text": "Symmetria:"
+			},
+			"Text": {
+				"text": "Teksti:"
+			},
+			"TextAlign": {
+				"text": "Tekstin tasaus:"
+			},
+			"+ TextBox": {
+				"text": "+ Tekstikenttä:"
+			},
+			"FontColor": {
+				"text": "Fontin väri:"
+			},
+			"FontFamily": {
+				"text": "Fonttiperhe:"
+			},
+			"FontSize": {
+				"text": "Fonttikoko:"
+			},
+			"TextBoxHeight": {
+				"text": "Tekstikentän korkeus:"
+			},
+			"TextBoxWidth": {
+				"text": "Tekstikentän leveys:"
+			},
+			"+ TextPadding": {
+				"text": "+ Tekstin sisennys:"
+			},
+			"left": {
+				"text": "Vasen:"
+			},
+			"right": {
+				"text": "Oikea:"
+			},
+			"top": {
+				"text": "Yläosa:"
+			},
+			"bottom": {
+				"text": "Alhaalla:"
+			},
+			"ToolTip": {
+				"text": "Vihje:"
+			},
+			"VerticalMirrored": {
+				"text": "Pystypeilaus:"
+			}
+		},
+		"okButton": {
+			"text": "OK"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Virhe"
+		},
+		"closeButton": {
+			"text": "Sulje"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "Sivu",
+		"vssde-annotationPanel-annotationPropertiesLabel": "Merkintäominaisuudet",
+		"vssde-textSearchPanel-pageLabel": "Sivu",
+		"vssde-documentPasswordDialog-title": "Asiakirjan salasana",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Peruuta",
+		"vssde-imageSelectionDialog-currentImageString": "Nykyinen kuva",
+		"vssde-imageSelectionDialog-allImagesString": "Kaikki kuvat",
+		"vssde-imageSelectionDialog-customImagesString": "Muokattu alue",
+		"vssde-imageSelectionDialog-title": "Valitse kuvat",
+		"vssde-printImagesDialog-withAnnotationsLabel": "huomautuksilla",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "Kuvaa valmistellaan tulostusta varten",
+		"vssde-printImagesDialog-title": "Tulosta kuvat",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
+		"vssde-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kiertokulma ei saa olla 0.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotoitua kuvaa käännetään",
+		"vssde-rotateImageWithAnnotationsDialog-title": "Kierrä huomautettua kuvaa"
+	}
+}

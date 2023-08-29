@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Fil"
+		},
+		"viewLabel": {
+			"text": "Vis"
+		},
+		"toolsLabel": {
+			"text": "Verktøy"
+		},
+		"annotationsLabel": {
+			"text": "Anmerkninger"
+		},
+		"uploadFileButton": {
+			"title": "Last ned og åpne filen"
+		},
+		"previousUploadFilesButton": {
+			"title": "Vis en liste over tidligere nedlastede filer"
+		},
+		"printImagesButton": {
+			"title": "Skriv ut bilder"
+		},
+		"downloadFileButton": {
+			"title": "Last opp fil"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Tilpass til bredde"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "Roter bildet mot klokken"
+		},
+		"rotateAngleInput": {
+			"title": "Rotasjonsvinkel"
+		},
+		"rotateClockwiseButton": {
+			"title": "Roter bildet med klokken"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Innstillinger for bildevisning"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Innstillinger for miniatyrbildevisning"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "Anmerkninger, dokumentnavigering, tekstvalg"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"magnifierToolButton": {
+			"title": "Forstørrelsesglass"
+		},
+		"zoomToolButton": {
+			"title": "Skala"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Skalavalg"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Rektangel"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Ellipse"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Bakgrunnsbelysning"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Bilde"
+		},
+		"addTextAnnotationButton": {
+			"title": "Tekst"
+		},
+		"addStampAnnotationButton": {
+			"title": "Stempel"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Link"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Pil"
+		},
+		"addLineAnnotationButton": {
+			"title": "Linje"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Polyline"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Polygon"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Linjal"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Trekant"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Interaksjonsmodus 'Forfatter'"
+		},
+		"copyAnnotationButton": {
+			"title": "Kopier fokusert merknad"
+		},
+		"pasteAnnotationButton": {
+			"title": "Lim inn kopiert merknad"
+		},
+		"removeAnnotationButton": {
+			"title": "Slett valgt merknad"
+		},
+		"burnAnnotationsButton": {
+			"title": "Brenn samling av merknader til bilde"
+		},
+		"saveAnnotationsButton": {
+			"title": "Lagre endringer i merknadssamlingen på serveren"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Roter annotert bilde"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Aktiver endringshistorikk"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Avbryt"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Gjenta"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Middels interaksjonspunkter"
+		},
+		"showMobileMenuButton": {
+			"title": "Mer"
+		},
+		"sidePanelCloseButton": {
+			"title": "Vis sidefelt"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatyrbilder"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Kommentarer"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Uthev tekst"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Søk etter tekst"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Tekstvalgmodus:"
+			},
+			"rectangleOption": {
+				"text": "Rektangel"
+			},
+			"fullLinesOption": {
+				"text": "Hele linjer"
+			},
+			"selectionColorLabel": {
+				"text": "Farge på valgt tekst:"
+			},
+			"selectedTextLabel": {
+				"text": "Valgt tekst:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Finn:"
+			},
+			"whereLookLabel": {
+				"text": "Søk på:"
+			},
+			"currentPageOption": {
+				"text": "Gjeldende side"
+			},
+			"allPagesOption": {
+				"text": "Alle sider"
+			},
+			"wholeWordLabel": {
+				"text": "Søk i hele ordet"
+			},
+			"caseSensitiveLabel": {
+				"text": "Skiller mellom store og små bokstaver"
+			},
+			"textNotFoundLabel": {
+				"text": "Tekst ikke funnet."
+			},
+			"startSearchButton": {
+				"value": "Start søk"
+			},
+			"stopSearchButton": {
+				"value": "Stopp søket"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Gå til det første bildet"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Gå til forrige bilde"
+		},
+		"gotoPageInput": {
+			"title": "Side"
+		},
+		"gotoNextPageButton": {
+			"title": "Gå til neste bilde"
+		},
+		"gotoLastPageButton": {
+			"title": "Gå til siste bilde"
+		},
+		"zoomOutButton": {
+			"title": "Zoom ut"
+		},
+		"zoomValueInput": {
+			"title": "Skala"
+		},
+		"zoomInButton": {
+			"title": "Zoom inn"
+		},
+		"normalSizeModeButton": {
+			"title": "Normal"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Mest egnet"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Tilpass høyde"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Piksel til piksel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Skala"
+		},
+		"addArcAnnotationButton": {
+			"title": "bue"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Merk"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Fritekst"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Dobbelpil"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Polylinje med interpolasjon"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Frihånds polylinje"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Polygon med interpolasjon"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Frihåndspolygon"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Skypolygon"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Roulett"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Vinkel"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Etikett"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Ingen interaksjon"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Interaksjonsmodus 'Vis'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Små interaksjonspunkter"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Store berøringspunkter (berøringsskjerm)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "Kopier merknad"
+			},
+			"pasteAnnotationLabel": {
+				"text": "Sett inn merknad"
+			},
+			"removeAnnotationLabel": {
+				"text": "Slett merknad"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "Send til baksiden"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "Bring frem"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "Grupper alle merknader"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "Opphev merknad i grupper"
+			},
+			"annotationPropertiesLabel": {
+				"text": "Annoteringsegenskaper..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Dette dokumentet er passordbeskyttet. Vennligst skriv inn et passord."
+			},
+			"passwordLabel": {
+				"text": "Passord:"
+			},
+			"showPasswordLabel": {
+				"text": "Vis passord"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Feil passord"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Bilder:"
+			},
+			"currentImageOption": {
+				"text": "Gjeldende bilde"
+			},
+			"allImagesOption": {
+				"text": "Alle bilder"
+			},
+			"customImagesOption": {
+				"text": "Egendefinert område"
+			},
+			"imageRangeLabel": {
+				"text": "Bildeområde:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Ugyldig sideområde. Eksempel: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeksen er ikke innenfor indeksområdet til bildesamlingen."
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Bilder:"
+			},
+			"currentImageOption": {
+				"text": "Gjeldende bilde"
+			},
+			"allImagesOption": {
+				"text": "Alle bilder"
+			},
+			"customImagesOption": {
+				"text": "Brukerdefinert"
+			},
+			"imageRangeLabel": {
+				"text": "Bildeområde:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Ugyldig sideområde. Eksempel: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeksen er utenfor området for bildesamlingen."
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Miniatyrbildestørrelse:"
+			},
+			"scaleLabel": {
+				"text": "Miniatyrbildeskala:"
+			},
+			"smallestOption": {
+				"text": "Minst"
+			},
+			"smallOption": {
+				"text": "Liten"
+			},
+			"normalOption": {
+				"text": "Normal"
+			},
+			"largeOption": {
+				"text": "Stor"
+			},
+			"flowStyleLabel": {
+				"text": "Miniatyrplasseringsstil:"
+			},
+			"singleColumnOption": {
+				"text": "Enkelt kolonne"
+			},
+			"singleRowOption": {
+				"text": "En linje"
+			},
+			"fixedColumnsOption": {
+				"text": "Fast antall kolonner"
+			},
+			"wrappedRowsOption": {
+				"text": "Flytende antall rader"
+			},
+			"columnCountLabel": {
+				"text": "Antall kolonner:"
+			},
+			"marginLabel": {
+				"text": "Utvendig polstring:"
+			},
+			"paddingTopLabel": {
+				"text": "Topppolstring:"
+			},
+			"paddingRightLabel": {
+				"text": "Høyre innrykk:"
+			},
+			"paddingBottomLabel": {
+				"text": "Bundpolstring:"
+			},
+			"paddingLeftLabel": {
+				"text": "Venstre innrykk:"
+			},
+			"showCaptionLabel": {
+				"text": "Vis miniatyrbildetekster:"
+			},
+			"captionFormatLabel": {
+				"text": "Signaturformat:"
+			},
+			"captionAnchorLabel": {
+				"text": "Signaturanker:"
+			},
+			"topLeftOption": {
+				"text": "Topp|Venstre"
+			},
+			"topOption": {
+				"text": "Topp"
+			},
+			"topRightOption": {
+				"text": "Topp|Høyre"
+			},
+			"rightOption": {
+				"text": "Høyre"
+			},
+			"bottomRightOption": {
+				"text": "Nederst|Høyre"
+			},
+			"bottomOption": {
+				"text": "Bund"
+			},
+			"bottomLeftOption": {
+				"text": "Nederst|Venstre"
+			},
+			"leftOption": {
+				"text": "Venstre"
+			},
+			"centerOption": {
+				"text": "Sentrert"
+			},
+			"focusOnHoverLabel": {
+				"text": "Fokus ved markør:"
+			},
+			"multiSelectLabel": {
+				"text": "Tillat valg av flere miniatyrbilder:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Rotasjonsvinkel:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Kantfargetype:"
+			},
+			"autoDetectOption": {
+				"text": "Automatisk gjenkjenning"
+			},
+			"blackOption": {
+				"text": "Svart"
+			},
+			"whiteOption": {
+				"text": "Hvit"
+			},
+			"transparentOption": {
+				"text": "Transparent"
+			},
+			"customOption": {
+				"text": "Egendefinert"
+			},
+			"borderColorLabel": {
+				"text": "Kantfarge:"
+			},
+			"changeSourceLabel": {
+				"text": "Endre kilde"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Tidligere nedlastede filer"
+		},
+		"openButton": {
+			"text": "Åpne fil"
+		},
+		"closeButton": {
+			"text": "Lukk"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "Innstillinger for bildevisning"
+		},
+		"imageDisplayModeLabel": {
+			"text": "Bildevisningsmodus"
+		},
+		"imageAnchorLabel": {
+			"text": "Bildeanker:"
+		},
+		"imageAnchorSelect": {
+			"value": "Nei",
+			"noneOption": {
+				"text": "Ingen"
+			},
+			"topLeftOption": {
+				"text": "Topp|Venstre"
+			},
+			"topOption": {
+				"text": "Topp"
+			},
+			"topRightOption": {
+				"text": "Topp|Høyre"
+			},
+			"rightOption": {
+				"text": "Høyre"
+			},
+			"bottomRightOption": {
+				"text": "Nederst|Høyre"
+			},
+			"bottomOption": {
+				"text": "Bund"
+			},
+			"bottomLeftOption": {
+				"text": "Nederst|Venstre"
+			},
+			"leftOption": {
+				"text": "Venstre"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "Multi-side display mode:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "Fiksede bilder",
+			"allImagesOption": {
+				"text": "Alle bilder"
+			},
+			"fixedImagesOption": {
+				"text": "Fiksede bilder"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "Layoutretning:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "Vertikal",
+			"horizontalOption": {
+				"text": "Horisontal"
+			},
+			"verticalOption": {
+				"text": "Vertikal"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "Bilder per rad/kolonne:"
+		},
+		"imagesPaddingLabel": {
+			"text": "Bildeutfylling:"
+		},
+		"appearancesLabel": {
+			"text": "Utseende"
+		},
+		"imageAppearanceLabel": {
+			"text": "Bildeutseende"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "Bakgrunnsfarge:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "Kantfarge:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "Rammebredde:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "Utseendet til bildet i fokus"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "Bruk bildeutseende i enkeltsidemodus"
+		},
+		"renderingSettigsLabel": {
+			"text": "Gjengivelsesinnstillinger"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "Standardinnstillinger"
+		},
+		"horResLabel": {
+			"text": "Horisontal oppløsning:"
+		},
+		"vertResLabel": {
+			"text": "Vertikal oppløsning:"
+		},
+		"smoothingLabel": {
+			"text": "Glatt modus:"
+		},
+		"interpolationLabel": {
+			"text": "Interpolasjonsmodus:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "Tegn merknad uten markering"
+		},
+		"otherSettigsLabel": {
+			"text": "Andre innstillinger"
+		},
+		"backgroundColorLabel": {
+			"text": "Bakgrunnsfarge for bildefremviser:"
+		},
+		"centerImageLabel": {
+			"text": "Senterbilde:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "Tidsavbrudd for endring av størrelse:"
+		},
+		"tileSizeLabel": {
+			"text": "Flisstørrelse:"
+		},
+		"colorManagementLabel": {
+			"text": "Aktiver fargebehandling:"
+		},
+		"useVectorRendering": {
+			"text": "Bruk vektorgjengivelse for dokumenter:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "Bakgrunnsfarge for vektorinnhold:"
+		},
+		"okButton": {
+			"text": "OK"
+		},
+		"cancelButton": {
+			"text": "Lukk"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "Annoteringsegenskaper"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "Grense:"
+			},
+			"CanMirror": {
+				"text": "Du kan speile:"
+			},
+			"CanMove": {
+				"text": "Kan flytte:"
+			},
+			"CanResize": {
+				"text": "Kan endres størrelse:"
+			},
+			"CanRotate": {
+				"text": "Kan roteres:"
+			},
+			"CreatedBy": {
+				"text": "Forfatter:"
+			},
+			"CreationTime": {
+				"text": "Opprettelsestid:"
+			},
+			"+ FillBrush": {
+				"text": "+ Fyll:"
+			},
+			"Color": {
+				"text": "Farge:"
+			},
+			"Type": {
+				"text": "Type:"
+			},
+			"+ Font": {
+				"text": "+ Skrift:"
+			},
+			"Bold": {
+				"text": "Fet:"
+			},
+			"FamilyName": {
+				"text": "Familienavn:"
+			},
+			"Italic": {
+				"text": "Kursiv:"
+			},
+			"Size": {
+				"text": "Størrelse:"
+			},
+			"Strikeout": {
+				"text": "Gjennomstrekning:"
+			},
+			"Underline": {
+				"text": "Understrek:"
+			},
+			"Unit": {
+				"text": "Enhet:"
+			},
+			"+ FontBrush": {
+				"text": "+ Skriftpensel:"
+			},
+			"FontTransparent": {
+				"text": "Transparent skrift:"
+			},
+			"Guid": {
+				"text": "ID:"
+			},
+			"HorizontalMirrored": {
+				"text": "Vendt horisontalt:"
+			},
+			"IsBuilding": {
+				"text": "Annotering er bygget:"
+			},
+			"IsVisible": {
+				"text": "Kommentaren er synlig:"
+			},
+			"LineStyle": {
+				"text": "Linjestil:"
+			},
+			"LineStylePatternSize": {
+				"text": "Linjestilmalstørrelse:"
+			},
+			"+ Location": {
+				"text": "+ Sted:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "Endret av:"
+			},
+			"ModifiedTime": {
+				"text": "Endringstid:"
+			},
+			"Name": {
+				"text": "Navn:"
+			},
+			"+ Outline": {
+				"text": "+ Opplegg:"
+			},
+			"DashPattern": {
+				"text": "Dashmønster:"
+			},
+			"DashStyle": {
+				"text": "Dash-stil:"
+			},
+			"+ EndCap": {
+				"text": "+ Topp på slutten av linjen:"
+			},
+			"+ Size": {
+				"text": "+ Størrelse:"
+			},
+			"width": {
+				"text": "Bredde:"
+			},
+			"height": {
+				"text": "Høyde:"
+			},
+			"Style": {
+				"text": "Stil:"
+			},
+			"LineJoin": {
+				"text": "Linjeforbindelse:"
+			},
+			"MiterLimit": {
+				"text": "MitreLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ Topp ved start av linjen:"
+			},
+			"Width": {
+				"text": "Bredde:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ Endre størrelse på punktmal:"
+			},
+			"BorderColor": {
+				"text": "Kantfarge:"
+			},
+			"BorderWidth": {
+				"text": "Rammebredde:"
+			},
+			"FillColor": {
+				"text": "Fyllfarge:"
+			},
+			"InteractionRadius": {
+				"text": "Interaksjonsområderadius:"
+			},
+			"Radius": {
+				"text": "Radius:"
+			},
+			"Rotation": {
+				"text": "Rotasjon:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ Senterpunkt for rotasjon:"
+			},
+			"Cursor": {
+				"text": "Markør:"
+			},
+			"+ RotationPoint": {
+				"text": "+ Pivotpunkt:"
+			},
+			"RotationPointDistance": {
+				"text": "Avstand til pivotpunkt:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ Skyggebørste:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ Innrykk for å tegne skygge:"
+			},
+			"Symmetry": {
+				"text": "Symmetri:"
+			},
+			"Text": {
+				"text": "Tekst:"
+			},
+			"TextAlign": {
+				"text": "Tekstjustering:"
+			},
+			"+ TextBox": {
+				"text": "+ Tekstfelt:"
+			},
+			"FontColor": {
+				"text": "Skriftfarge:"
+			},
+			"FontFamily": {
+				"text": "Skriftfamilie:"
+			},
+			"FontSize": {
+				"text": "Skriftstørrelse:"
+			},
+			"TextBoxHeight": {
+				"text": "Tekstfelthøyde:"
+			},
+			"TextBoxWidth": {
+				"text": "Tekstfeltbredde:"
+			},
+			"+ TextPadding": {
+				"text": "+ Tekstinnrykk:"
+			},
+			"left": {
+				"text": "Venstre:"
+			},
+			"right": {
+				"text": "Høyre:"
+			},
+			"top": {
+				"text": "Topp:"
+			},
+			"bottom": {
+				"text": "Bund:"
+			},
+			"ToolTip": {
+				"text": "Tips:"
+			},
+			"VerticalMirrored": {
+				"text": "Vertikal speiling:"
+			}
+		},
+		"okButton": {
+			"text": "OK"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Feil"
+		},
+		"closeButton": {
+			"text": "Lukk"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "Side",
+		"vssde-annotationPanel-annotationPropertiesLabel": "Annoteringsegenskaper",
+		"vssde-textSearchPanel-pageLabel": "Side",
+		"vssde-documentPasswordDialog-title": "Dokumentpassord",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Avbryt",
+		"vssde-imageSelectionDialog-currentImageString": "Gjeldende bilde",
+		"vssde-imageSelectionDialog-allImagesString": "Alle bilder",
+		"vssde-imageSelectionDialog-customImagesString": "Egendefinert område",
+		"vssde-imageSelectionDialog-title": "Velg bilder",
+		"vssde-printImagesDialog-withAnnotationsLabel": "med merknader",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "Bildet forberedes for utskrift",
+		"vssde-printImagesDialog-title": "Skriv ut bilder",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
+		"vssde-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotasjonsvinkelen må ikke være 0.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommentert bilde blir rotert",
+		"vssde-rotateImageWithAnnotationsDialog-title": "Roter annotert bilde"
+	}
+}

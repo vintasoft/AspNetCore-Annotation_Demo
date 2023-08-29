@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "ファイル"
+		},
+		"viewLabel": {
+			"text": "表示"
+		},
+		"toolsLabel": {
+			"text": "ツール"
+		},
+		"annotationsLabel": {
+			"text": "注釈"
+		},
+		"uploadFileButton": {
+			"title": "ファイルをダウンロードして開きます"
+		},
+		"previousUploadFilesButton": {
+			"title": "以前にダウンロードしたファイルのリストを表示する"
+		},
+		"printImagesButton": {
+			"title": "画像を印刷"
+		},
+		"downloadFileButton": {
+			"title": "ファイルをアップロード"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "幅に合わせる"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "画像を反時計回りに回転します"
+		},
+		"rotateAngleInput": {
+			"title": "回転角度"
+		},
+		"rotateClockwiseButton": {
+			"title": "画像を時計回りに回転します"
+		},
+		"imageViewerSettingsButton": {
+			"title": "画像ビューアの設定"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "サムネイル ビューアの設定"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "注釈、ドキュメント ナビゲーション、テキスト選択"
+		},
+		"panToolButton": {
+			"title": "パン"
+		},
+		"magnifierToolButton": {
+			"title": "拡大鏡"
+		},
+		"zoomToolButton": {
+			"title": "スケール"
+		},
+		"zoomSelectionToolButton": {
+			"title": "スケールの選択"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "長方形"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "楕円"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "バックライト"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "画像"
+		},
+		"addTextAnnotationButton": {
+			"title": "テキスト"
+		},
+		"addStampAnnotationButton": {
+			"title": "スタンプ"
+		},
+		"addLinkAnnotationButton": {
+			"title": "リンク"
+		},
+		"addArrowAnnotationButton": {
+			"title": "矢印"
+		},
+		"addLineAnnotationButton": {
+			"title": "ライン"
+		},
+		"addLinesAnnotationButton": {
+			"title": "ポリライン"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "多角形"
+		},
+		"addRulerAnnotationButton": {
+			"title": "定規"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "三角形"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "対話モード「作成者」"
+		},
+		"copyAnnotationButton": {
+			"title": "フォーカスされた注釈をコピー"
+		},
+		"pasteAnnotationButton": {
+			"title": "コピーした注釈を貼り付け"
+		},
+		"removeAnnotationButton": {
+			"title": "選択した注釈を削除します"
+		},
+		"burnAnnotationsButton": {
+			"title": "注釈のコレクションを画像に書き込みます"
+		},
+		"saveAnnotationsButton": {
+			"title": "サーバー上の注釈コレクションへの変更を保存します"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "注釈付き画像を回転"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "変更履歴を有効にする"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "キャンセル"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "繰り返し"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "中間のインタラクション ポイント"
+		},
+		"showMobileMenuButton": {
+			"title": "詳細"
+		},
+		"sidePanelCloseButton": {
+			"title": "サイドバーを表示"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "サムネイル"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "注釈"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "テキストを強調表示"
+		},
+		"showTextSearchPanelButton": {
+			"title": "テキストを検索"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "テキスト選択モード:"
+			},
+			"rectangleOption": {
+				"text": "長方形"
+			},
+			"fullLinesOption": {
+				"text": "全行"
+			},
+			"selectionColorLabel": {
+				"text": "選択したテキストの色:"
+			},
+			"selectedTextLabel": {
+				"text": "選択されたテキスト:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "検索:"
+			},
+			"whereLookLabel": {
+				"text": "検索:"
+			},
+			"currentPageOption": {
+				"text": "現在のページ"
+			},
+			"allPagesOption": {
+				"text": "すべてのページ"
+			},
+			"wholeWordLabel": {
+				"text": "単語全体を検索"
+			},
+			"caseSensitiveLabel": {
+				"text": "大文字と小文字を区別します"
+			},
+			"textNotFoundLabel": {
+				"text": "テキストが見つかりません。"
+			},
+			"startSearchButton": {
+				"value": "検索を開始"
+			},
+			"stopSearchButton": {
+				"value": "検索を停止"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "最初の画像に移動"
+		},
+		"gotoPreviousPageButton": {
+			"title": "前の画像に移動"
+		},
+		"gotoPageInput": {
+			"title": "ページ"
+		},
+		"gotoNextPageButton": {
+			"title": "次の画像に移動"
+		},
+		"gotoLastPageButton": {
+			"title": "最後の画像に移動"
+		},
+		"zoomOutButton": {
+			"title": "ズームアウト"
+		},
+		"zoomValueInput": {
+			"title": "スケール"
+		},
+		"zoomInButton": {
+			"title": "ズームイン"
+		},
+		"normalSizeModeButton": {
+			"title": "通常"
+		},
+		"bestFitSizeModeButton": {
+			"title": "最も適しています"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "フィット高さ"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "ピクセルからピクセル"
+		},
+		"zoomSizeModeButton": {
+			"title": "スケール"
+		},
+		"addArcAnnotationButton": {
+			"title": "円弧"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "注"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "フリーテキスト"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "二重矢印"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "補間を含むポリライン"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "フリーハンドのポリライン"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "補間を含むポリゴン"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "フリーハンド ポリゴン"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "雲のポリゴン"
+		},
+		"addRulersAnnotationButton": {
+			"title": "ルーレット"
+		},
+		"addAngleAnnotationButton": {
+			"title": "角度"
+		},
+		"addMarkAnnotationButton": {
+			"title": "ラベル"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "対話なし"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "インタラクション モード「表示」"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "小さな相互作用ポイント"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "大きなタッチポイント (タッチスクリーン)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "注釈をコピー"
+			},
+			"pasteAnnotationLabel": {
+				"text": "注釈を挿入"
+			},
+			"removeAnnotationLabel": {
+				"text": "注釈を削除"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "最後へ移動"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "前面に移動"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "すべての注釈をグループ化"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "注釈のグループ化を解除"
+			},
+			"annotationPropertiesLabel": {
+				"text": "注釈のプロパティ..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "このドキュメントはパスワードで保護されています。 パスワードを入力してください。"
+			},
+			"passwordLabel": {
+				"text": "パスワード:"
+			},
+			"showPasswordLabel": {
+				"text": "パスワードを表示"
+			},
+			"incorrectPasswordLabel": {
+				"text": "パスワードが間違っています"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "画像:"
+			},
+			"currentImageOption": {
+				"text": "現在の画像"
+			},
+			"allImagesOption": {
+				"text": "すべての画像"
+			},
+			"customImagesOption": {
+				"text": "カスタム範囲"
+			},
+			"imageRangeLabel": {
+				"text": "画像範囲:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "ページ範囲が無効です。 例: 1 ～ 5、8、12 ～ 15。"
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "インデックスはイメージ コレクションのインデックス範囲内にありません。"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "画像:"
+			},
+			"currentImageOption": {
+				"text": "現在の画像"
+			},
+			"allImagesOption": {
+				"text": "すべての画像"
+			},
+			"customImagesOption": {
+				"text": "ユーザー定義"
+			},
+			"imageRangeLabel": {
+				"text": "画像範囲:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "ページ範囲が無効です。 例: 1 ～ 5、8、12 ～ 15。"
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "インデックスは画像コレクションの範囲外です。"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "サムネイルのサイズ:"
+			},
+			"scaleLabel": {
+				"text": "サムネイルのスケール:"
+			},
+			"smallestOption": {
+				"text": "最低"
+			},
+			"smallOption": {
+				"text": "小"
+			},
+			"normalOption": {
+				"text": "通常"
+			},
+			"largeOption": {
+				"text": "大"
+			},
+			"flowStyleLabel": {
+				"text": "サムネイルの配置スタイル:"
+			},
+			"singleColumnOption": {
+				"text": "単一列"
+			},
+			"singleRowOption": {
+				"text": "1 行"
+			},
+			"fixedColumnsOption": {
+				"text": "固定列数"
+			},
+			"wrappedRowsOption": {
+				"text": "浮動行数"
+			},
+			"columnCountLabel": {
+				"text": "列数:"
+			},
+			"marginLabel": {
+				"text": "外側のパディング:"
+			},
+			"paddingTopLabel": {
+				"text": "上部パディング:"
+			},
+			"paddingRightLabel": {
+				"text": "右インデント:"
+			},
+			"paddingBottomLabel": {
+				"text": "下部のパディング:"
+			},
+			"paddingLeftLabel": {
+				"text": "左インデント:"
+			},
+			"showCaptionLabel": {
+				"text": "サムネイルのキャプションを表示:"
+			},
+			"captionFormatLabel": {
+				"text": "署名形式:"
+			},
+			"captionAnchorLabel": {
+				"text": "署名アンカー:"
+			},
+			"topLeftOption": {
+				"text": "上|左"
+			},
+			"topOption": {
+				"text": "トップ"
+			},
+			"topRightOption": {
+				"text": "上|右"
+			},
+			"rightOption": {
+				"text": "右"
+			},
+			"bottomRightOption": {
+				"text": "下|右"
+			},
+			"bottomOption": {
+				"text": "下"
+			},
+			"bottomLeftOption": {
+				"text": "下|左"
+			},
+			"leftOption": {
+				"text": "左"
+			},
+			"centerOption": {
+				"text": "中央揃え"
+			},
+			"focusOnHoverLabel": {
+				"text": "ホバーフォーカス:"
+			},
+			"multiSelectLabel": {
+				"text": "複数のサムネイルの選択を許可します:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "回転角度:"
+			},
+			"borderColorTypeLabel": {
+				"text": "境界線の色のタイプ:"
+			},
+			"autoDetectOption": {
+				"text": "自動検出"
+			},
+			"blackOption": {
+				"text": "黒"
+			},
+			"whiteOption": {
+				"text": "白"
+			},
+			"transparentOption": {
+				"text": "透明"
+			},
+			"customOption": {
+				"text": "カスタム"
+			},
+			"borderColorLabel": {
+				"text": "境界線の色:"
+			},
+			"changeSourceLabel": {
+				"text": "ソースを変更"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "以前にダウンロードしたファイル"
+		},
+		"openButton": {
+			"text": "ファイルを開く"
+		},
+		"closeButton": {
+			"text": "閉じる"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "画像ビューアの設定"
+		},
+		"imageDisplayModeLabel": {
+			"text": "画像表示モード"
+		},
+		"imageAnchorLabel": {
+			"text": "画像アンカー:"
+		},
+		"imageAnchorSelect": {
+			"value": "いいえ",
+			"noneOption": {
+				"text": "なし"
+			},
+			"topLeftOption": {
+				"text": "上|左"
+			},
+			"topOption": {
+				"text": "トップ"
+			},
+			"topRightOption": {
+				"text": "上|右"
+			},
+			"rightOption": {
+				"text": "右"
+			},
+			"bottomRightOption": {
+				"text": "下|右"
+			},
+			"bottomOption": {
+				"text": "下"
+			},
+			"bottomLeftOption": {
+				"text": "下|左"
+			},
+			"leftOption": {
+				"text": "左"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "複数ページ表示モード:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "固定イメージ",
+			"allImagesOption": {
+				"text": "すべての画像"
+			},
+			"fixedImagesOption": {
+				"text": "固定イメージ"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "レイアウト方向:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "垂直",
+			"horizontalOption": {
+				"text": "水平"
+			},
+			"verticalOption": {
+				"text": "垂直"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "行/列ごとの画像:"
+		},
+		"imagesPaddingLabel": {
+			"text": "画像のパディング:"
+		},
+		"appearancesLabel": {
+			"text": "外観"
+		},
+		"imageAppearanceLabel": {
+			"text": "画像の外観"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "背景色:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "境界線の色:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "境界線の幅:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "焦点の合った画像の外観"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "単一ページ モードで画像の外観を使用する"
+		},
+		"renderingSettigsLabel": {
+			"text": "レンダリング設定"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "デフォルト設定"
+		},
+		"horResLabel": {
+			"text": "水平解像度:"
+		},
+		"vertResLabel": {
+			"text": "垂直解像度:"
+		},
+		"smoothingLabel": {
+			"text": "スムーズ モード:"
+		},
+		"interpolationLabel": {
+			"text": "補間モード:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "マークアップなしで注釈を描画します"
+		},
+		"otherSettigsLabel": {
+			"text": "その他の設定"
+		},
+		"backgroundColorLabel": {
+			"text": "画像ビューアの背景色:"
+		},
+		"centerImageLabel": {
+			"text": "中央画像:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "サイズ変更タイムアウト:"
+		},
+		"tileSizeLabel": {
+			"text": "タイル サイズ:"
+		},
+		"colorManagementLabel": {
+			"text": "カラー管理を有効にする:"
+		},
+		"useVectorRendering": {
+			"text": "ドキュメントにベクター レンダリングを使用します:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "ベクター コンテンツの背景色:"
+		},
+		"okButton": {
+			"text": "OK"
+		},
+		"cancelButton": {
+			"text": "閉じる"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "注釈のプロパティ"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "境界:"
+			},
+			"CanMirror": {
+				"text": "ミラーリングできます:"
+			},
+			"CanMove": {
+				"text": "移動可能:"
+			},
+			"CanResize": {
+				"text": "サイズ変更可能:"
+			},
+			"CanRotate": {
+				"text": "回転可能:"
+			},
+			"CreatedBy": {
+				"text": "著者:"
+			},
+			"CreationTime": {
+				"text": "作成時間:"
+			},
+			"+ FillBrush": {
+				"text": "+ 入力:"
+			},
+			"Color": {
+				"text": "色:"
+			},
+			"Type": {
+				"text": "タイプ:"
+			},
+			"+ Font": {
+				"text": "+ フォント:"
+			},
+			"Bold": {
+				"text": "太字:"
+			},
+			"FamilyName": {
+				"text": "姓:"
+			},
+			"Italic": {
+				"text": "斜体:"
+			},
+			"Size": {
+				"text": "サイズ:"
+			},
+			"Strikeout": {
+				"text": "取り消し線:"
+			},
+			"Underline": {
+				"text": "下線:"
+			},
+			"Unit": {
+				"text": "単位:"
+			},
+			"+ FontBrush": {
+				"text": "+ フォント ブラシ:"
+			},
+			"FontTransparent": {
+				"text": "透明フォント:"
+			},
+			"Guid": {
+				"text": "ID:"
+			},
+			"HorizontalMirrored": {
+				"text": "水平方向に反転:"
+			},
+			"IsBuilding": {
+				"text": "注釈が構築されました:"
+			},
+			"IsVisible": {
+				"text": "注釈が表示されます:"
+			},
+			"LineStyle": {
+				"text": "線のスタイル:"
+			},
+			"LineStylePatternSize": {
+				"text": "線種テンプレートのサイズ:"
+			},
+			"+ Location": {
+				"text": "+ 場所:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "変更者:"
+			},
+			"ModifiedTime": {
+				"text": "変更時間:"
+			},
+			"Name": {
+				"text": "名前:"
+			},
+			"+ Outline": {
+				"text": "+ スキーム:"
+			},
+			"DashPattern": {
+				"text": "破線パターン:"
+			},
+			"DashStyle": {
+				"text": "ダッシュスタイル:"
+			},
+			"+ EndCap": {
+				"text": "+ 行末のキャップ:"
+			},
+			"+ Size": {
+				"text": "+ サイズ:"
+			},
+			"width": {
+				"text": "幅:"
+			},
+			"height": {
+				"text": "高さ:"
+			},
+			"Style": {
+				"text": "スタイル:"
+			},
+			"LineJoin": {
+				"text": "回線接続:"
+			},
+			"MiterLimit": {
+				"text": "マイター制限:"
+			},
+			"+ StartCap": {
+				"text": "+ 行頭の上限:"
+			},
+			"Width": {
+				"text": "幅:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ ポイント テンプレートのサイズ変更:"
+			},
+			"BorderColor": {
+				"text": "境界線の色:"
+			},
+			"BorderWidth": {
+				"text": "境界線の幅:"
+			},
+			"FillColor": {
+				"text": "塗りつぶしの色:"
+			},
+			"InteractionRadius": {
+				"text": "インタラクションエリアの半径:"
+			},
+			"Radius": {
+				"text": "半径:"
+			},
+			"Rotation": {
+				"text": "回転:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ 回転の中心点:"
+			},
+			"Cursor": {
+				"text": "カーソル:"
+			},
+			"+ RotationPoint": {
+				"text": "+ ピボット ポイント:"
+			},
+			"RotationPointDistance": {
+				"text": "ピボットポイントまでの距離:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ シャドウ ブラシ:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ 影を描画するためのインデント:"
+			},
+			"Symmetry": {
+				"text": "対称性:"
+			},
+			"Text": {
+				"text": "テキスト:"
+			},
+			"TextAlign": {
+				"text": "テキストの配置:"
+			},
+			"+ TextBox": {
+				"text": "+ テキストフィールド:"
+			},
+			"FontColor": {
+				"text": "フォントの色:"
+			},
+			"FontFamily": {
+				"text": "フォント ファミリ:"
+			},
+			"FontSize": {
+				"text": "フォント サイズ:"
+			},
+			"TextBoxHeight": {
+				"text": "テキストフィールドの高さ:"
+			},
+			"TextBoxWidth": {
+				"text": "テキストフィールドの幅:"
+			},
+			"+ TextPadding": {
+				"text": "+ テキストのインデント:"
+			},
+			"left": {
+				"text": "左:"
+			},
+			"right": {
+				"text": "右:"
+			},
+			"top": {
+				"text": "上:"
+			},
+			"bottom": {
+				"text": "下:"
+			},
+			"ToolTip": {
+				"text": "ヒント:"
+			},
+			"VerticalMirrored": {
+				"text": "垂直ミラーリング:"
+			}
+		},
+		"okButton": {
+			"text": "OK"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "エラー"
+		},
+		"closeButton": {
+			"text": "閉じる"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "ページ",
+		"vssde-annotationPanel-annotationPropertiesLabel": "注釈のプロパティ",
+		"vssde-textSearchPanel-pageLabel": "ページ",
+		"vssde-documentPasswordDialog-title": "文書のパスワード",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "キャンセル",
+		"vssde-imageSelectionDialog-currentImageString": "現在の画像",
+		"vssde-imageSelectionDialog-allImagesString": "すべての画像",
+		"vssde-imageSelectionDialog-customImagesString": "カスタム範囲",
+		"vssde-imageSelectionDialog-title": "画像を選択",
+		"vssde-printImagesDialog-withAnnotationsLabel": "注釈あり",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "画像は印刷の準備中です",
+		"vssde-printImagesDialog-title": "画像を印刷する",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
+		"vssde-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "回転角度は 0 であってはなりません。",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注釈付き画像は回転中です",
+		"vssde-rotateImageWithAnnotationsDialog-title": "注釈付き画像を回転"
+	}
+}

@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Datoteka"
+		},
+		"viewLabel": {
+			"text": "Pogledaj"
+		},
+		"toolsLabel": {
+			"text": "Alati"
+		},
+		"annotationsLabel": {
+			"text": "Bilješke"
+		},
+		"uploadFileButton": {
+			"title": "Preuzmi i otvori datoteku"
+		},
+		"previousUploadFilesButton": {
+			"title": "Pogledajte popis prethodno preuzetih datoteka"
+		},
+		"printImagesButton": {
+			"title": "Ispis slika"
+		},
+		"downloadFileButton": {
+			"title": "Učitaj datoteku"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Prilagodi širini"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "Zakreni sliku suprotno od kazaljke na satu"
+		},
+		"rotateAngleInput": {
+			"title": "Kut rotacije"
+		},
+		"rotateClockwiseButton": {
+			"title": "Okreni sliku u smjeru kazaljke na satu"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Postavke preglednika slika"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Postavke pregledača sličica"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "Bilješke, navigacija dokumentom, odabir teksta"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"magnifierToolButton": {
+			"title": "Povećalo"
+		},
+		"zoomToolButton": {
+			"title": "Razmjer"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Odabir mjerila"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Pravokutnik"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Elipsa"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Pozadinsko osvjetljenje"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Slika"
+		},
+		"addTextAnnotationButton": {
+			"title": "Tekst"
+		},
+		"addStampAnnotationButton": {
+			"title": "Pečat"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Veza"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Strelica"
+		},
+		"addLineAnnotationButton": {
+			"title": "Linija"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Polilinija"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Poligon"
+		},
+		"addRulerAnnotationButton": {
+			"title": "ravnalo"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Trokut"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Način interakcije 'Autor'"
+		},
+		"copyAnnotationButton": {
+			"title": "Kopiraj fokusiranu napomenu"
+		},
+		"pasteAnnotationButton": {
+			"title": "Zalijepi kopiranu napomenu"
+		},
+		"removeAnnotationButton": {
+			"title": "Izbriši odabranu napomenu"
+		},
+		"burnAnnotationsButton": {
+			"title": "Snimi kolekciju komentara na sliku"
+		},
+		"saveAnnotationsButton": {
+			"title": "Spremite promjene u zbirci komentara na poslužitelju"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Zakreni označenu sliku"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Omogući povijest promjena"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Odustani"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Ponovi"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Srednje točke interakcije"
+		},
+		"showMobileMenuButton": {
+			"title": "Više"
+		},
+		"sidePanelCloseButton": {
+			"title": "Prikaži bočnu traku"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Sličice"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Bilješke"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Označi tekst"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Traži tekst"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Način odabira teksta:"
+			},
+			"rectangleOption": {
+				"text": "Pravokutnik"
+			},
+			"fullLinesOption": {
+				"text": "Puni redovi"
+			},
+			"selectionColorLabel": {
+				"text": "Boja odabranog teksta:"
+			},
+			"selectedTextLabel": {
+				"text": "Odabrani tekst:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Pronađi:"
+			},
+			"whereLookLabel": {
+				"text": "Traži na:"
+			},
+			"currentPageOption": {
+				"text": "Trenutna stranica"
+			},
+			"allPagesOption": {
+				"text": "Sve stranice"
+			},
+			"wholeWordLabel": {
+				"text": "Traži cijelu riječ"
+			},
+			"caseSensitiveLabel": {
+				"text": "Razlikuje velika i mala slova"
+			},
+			"textNotFoundLabel": {
+				"text": "Tekst nije pronađen."
+			},
+			"startSearchButton": {
+				"value": "Pokreni pretragu"
+			},
+			"stopSearchButton": {
+				"value": "Prekini pretragu"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Idi na prvu sliku"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Idi na prethodnu sliku"
+		},
+		"gotoPageInput": {
+			"title": "Stranica"
+		},
+		"gotoNextPageButton": {
+			"title": "Idi na sljedeću sliku"
+		},
+		"gotoLastPageButton": {
+			"title": "Idi na posljednju sliku"
+		},
+		"zoomOutButton": {
+			"title": "Smanji"
+		},
+		"zoomValueInput": {
+			"title": "Razmjer"
+		},
+		"zoomInButton": {
+			"title": "Uvećaj"
+		},
+		"normalSizeModeButton": {
+			"title": "Normalno"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Najprikladnije"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Prilagodi visini"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel to Pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Razmjer"
+		},
+		"addArcAnnotationButton": {
+			"title": "Luk"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Napomena"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Slobodan tekst"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Dvostruka strelica"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Polilinija s interpolacijom"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Slobodna polilinija"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Poligon s interpolacijom"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Prostoručni poligon"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Poligon oblaka"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Rulet"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Kut"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Oznaka"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Nema interakcije"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Način interakcije 'Pogled'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Male interakcijske točke"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Velike dodirne točke (zaslon osjetljiv na dodir)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "Kopiraj komentar"
+			},
+			"pasteAnnotationLabel": {
+				"text": "Umetni komentar"
+			},
+			"removeAnnotationLabel": {
+				"text": "Izbriši komentar"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "Pošalji nazad"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "Stavi naprijed"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "Grupiraj sve bilješke"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "Razgrupiraj komentar"
+			},
+			"annotationPropertiesLabel": {
+				"text": "Svojstva komentara..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Ovaj dokument je zaštićen lozinkom. Molimo unesite lozinku."
+			},
+			"passwordLabel": {
+				"text": "Lozinka:"
+			},
+			"showPasswordLabel": {
+				"text": "Prikaži lozinku"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Pogrešna lozinka"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Slike:"
+			},
+			"currentImageOption": {
+				"text": "Trenutna slika"
+			},
+			"allImagesOption": {
+				"text": "Sve slike"
+			},
+			"customImagesOption": {
+				"text": "Prilagođeni raspon"
+			},
+			"imageRangeLabel": {
+				"text": "Raspon slike:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Nevažeći raspon stranica. Primjer: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeks nije unutar raspona indeksa zbirke slika."
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Slike:"
+			},
+			"currentImageOption": {
+				"text": "Trenutna slika"
+			},
+			"allImagesOption": {
+				"text": "Sve slike"
+			},
+			"customImagesOption": {
+				"text": "Korisnički definirano"
+			},
+			"imageRangeLabel": {
+				"text": "Raspon slike:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Nevažeći raspon stranica. Primjer: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeks je izvan raspona za zbirku slika."
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Veličina sličice:"
+			},
+			"scaleLabel": {
+				"text": "Sličica:"
+			},
+			"smallestOption": {
+				"text": "Najmanje"
+			},
+			"smallOption": {
+				"text": "Mali"
+			},
+			"normalOption": {
+				"text": "Normalno"
+			},
+			"largeOption": {
+				"text": "Veliki"
+			},
+			"flowStyleLabel": {
+				"text": "Stil postavljanja sličica:"
+			},
+			"singleColumnOption": {
+				"text": "Jedan stupac"
+			},
+			"singleRowOption": {
+				"text": "Jedan redak"
+			},
+			"fixedColumnsOption": {
+				"text": "Fiksni broj stupaca"
+			},
+			"wrappedRowsOption": {
+				"text": "Plutajući broj redaka"
+			},
+			"columnCountLabel": {
+				"text": "Broj stupaca:"
+			},
+			"marginLabel": {
+				"text": "Vanjsko punjenje:"
+			},
+			"paddingTopLabel": {
+				"text": "Gornje punjenje:"
+			},
+			"paddingRightLabel": {
+				"text": "Desna uvlaka:"
+			},
+			"paddingBottomLabel": {
+				"text": "Donja podloga:"
+			},
+			"paddingLeftLabel": {
+				"text": "Lijeva uvlaka:"
+			},
+			"showCaptionLabel": {
+				"text": "Prikaži opise minijatura:"
+			},
+			"captionFormatLabel": {
+				"text": "Format potpisa:"
+			},
+			"captionAnchorLabel": {
+				"text": "Sidro potpisa:"
+			},
+			"topLeftOption": {
+				"text": "Gore|Lijevo"
+			},
+			"topOption": {
+				"text": "Vrh"
+			},
+			"topRightOption": {
+				"text": "Gore|desno"
+			},
+			"rightOption": {
+				"text": "Tačno"
+			},
+			"bottomRightOption": {
+				"text": "Dolje|desno"
+			},
+			"bottomOption": {
+				"text": "Dno"
+			},
+			"bottomLeftOption": {
+				"text": "Dolje|lijevo"
+			},
+			"leftOption": {
+				"text": "Lijevo"
+			},
+			"centerOption": {
+				"text": "Centrirano"
+			},
+			"focusOnHoverLabel": {
+				"text": "Fokus pri lebdenju:"
+			},
+			"multiSelectLabel": {
+				"text": "Dopusti odabir više sličica:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Kut rotacije:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Vrsta boje obruba:"
+			},
+			"autoDetectOption": {
+				"text": "Automatsko otkrivanje"
+			},
+			"blackOption": {
+				"text": "Crna"
+			},
+			"whiteOption": {
+				"text": "Bijela"
+			},
+			"transparentOption": {
+				"text": "Prozirno"
+			},
+			"customOption": {
+				"text": "Prilagođeno"
+			},
+			"borderColorLabel": {
+				"text": "Boja obruba:"
+			},
+			"changeSourceLabel": {
+				"text": "Promijeni izvor"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Prethodno preuzete datoteke"
+		},
+		"openButton": {
+			"text": "Otvori datoteku"
+		},
+		"closeButton": {
+			"text": "Zatvori"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "Postavke preglednika slika"
+		},
+		"imageDisplayModeLabel": {
+			"text": "Način prikaza slike"
+		},
+		"imageAnchorLabel": {
+			"text": "Sidro slike:"
+		},
+		"imageAnchorSelect": {
+			"value": "Ne",
+			"noneOption": {
+				"text": "Ništa"
+			},
+			"topLeftOption": {
+				"text": "Gore|Lijevo"
+			},
+			"topOption": {
+				"text": "Vrh"
+			},
+			"topRightOption": {
+				"text": "Gore|desno"
+			},
+			"rightOption": {
+				"text": "Tačno"
+			},
+			"bottomRightOption": {
+				"text": "Dolje|desno"
+			},
+			"bottomOption": {
+				"text": "Dno"
+			},
+			"bottomLeftOption": {
+				"text": "Dolje|lijevo"
+			},
+			"leftOption": {
+				"text": "Lijevo"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "Način prikaza s više stranica:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "Fiksne slike",
+			"allImagesOption": {
+				"text": "Sve slike"
+			},
+			"fixedImagesOption": {
+				"text": "Fiksne slike"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "Smjer izgleda:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "Okomito",
+			"horizontalOption": {
+				"text": "Vodoravno"
+			},
+			"verticalOption": {
+				"text": "Okomito"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "Slike po retku/stupcu:"
+		},
+		"imagesPaddingLabel": {
+			"text": "Dopuna slike:"
+		},
+		"appearancesLabel": {
+			"text": "Izgledi"
+		},
+		"imageAppearanceLabel": {
+			"text": "Izgled slike"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "Boja pozadine:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "Boja obruba:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "Širina obruba:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "Izgled slike u fokusu"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "Koristite izgled slike u načinu rada jedne stranice"
+		},
+		"renderingSettigsLabel": {
+			"text": "Postavke iscrtavanja"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "Zadane postavke"
+		},
+		"horResLabel": {
+			"text": "Vodoravna razlučivost:"
+		},
+		"vertResLabel": {
+			"text": "Okomita razlučivost:"
+		},
+		"smoothingLabel": {
+			"text": "Glatki način rada:"
+		},
+		"interpolationLabel": {
+			"text": "Način interpolacije:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "Nacrtaj bilješku bez označavanja"
+		},
+		"otherSettigsLabel": {
+			"text": "Druge postavke"
+		},
+		"backgroundColorLabel": {
+			"text": "Boja pozadine preglednika slika:"
+		},
+		"centerImageLabel": {
+			"text": "Središnja slika:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "Istek vremena promjene veličine:"
+		},
+		"tileSizeLabel": {
+			"text": "Veličina pločice:"
+		},
+		"colorManagementLabel": {
+			"text": "Omogući upravljanje bojama:"
+		},
+		"useVectorRendering": {
+			"text": "Koristi vektorsko iscrtavanje za dokumente:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "Boja pozadine vektorskog sadržaja:"
+		},
+		"okButton": {
+			"text": "OK"
+		},
+		"cancelButton": {
+			"text": "Zatvori"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "Svojstva zabilješki"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "Granica:"
+			},
+			"CanMirror": {
+				"text": "Možete zrcaliti:"
+			},
+			"CanMove": {
+				"text": "Može se kretati:"
+			},
+			"CanResize": {
+				"text": "Može se promijeniti veličina:"
+			},
+			"CanRotate": {
+				"text": "Može se rotirati:"
+			},
+			"CreatedBy": {
+				"text": "Autor:"
+			},
+			"CreationTime": {
+				"text": "Vrijeme stvaranja:"
+			},
+			"+ FillBrush": {
+				"text": "+ Ispuni:"
+			},
+			"Color": {
+				"text": "Boja:"
+			},
+			"Type": {
+				"text": "Tip:"
+			},
+			"+ Font": {
+				"text": "+ Font:"
+			},
+			"Bold": {
+				"text": "Podebljano:"
+			},
+			"FamilyName": {
+				"text": "Prezime:"
+			},
+			"Italic": {
+				"text": "kurziv:"
+			},
+			"Size": {
+				"text": "Veličina:"
+			},
+			"Strikeout": {
+				"text": "Precrtano:"
+			},
+			"Underline": {
+				"text": "Podvučeno:"
+			},
+			"Unit": {
+				"text": "Jedinica:"
+			},
+			"+ FontBrush": {
+				"text": "+ Kist fonta:"
+			},
+			"FontTransparent": {
+				"text": "Prozirni font:"
+			},
+			"Guid": {
+				"text": "ID:"
+			},
+			"HorizontalMirrored": {
+				"text": "Okrenuto vodoravno:"
+			},
+			"IsBuilding": {
+				"text": "Napomena je napravljena:"
+			},
+			"IsVisible": {
+				"text": "Napomena je vidljiva:"
+			},
+			"LineStyle": {
+				"text": "Stil linije:"
+			},
+			"LineStylePatternSize": {
+				"text": "Veličina predloška stila linije:"
+			},
+			"+ Location": {
+				"text": "+ Lokacija:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "Promijenio:"
+			},
+			"ModifiedTime": {
+				"text": "Vrijeme promjene:"
+			},
+			"Name": {
+				"text": "Ime:"
+			},
+			"+ Outline": {
+				"text": "+ Shema:"
+			},
+			"DashPattern": {
+				"text": "Uzorak crtice:"
+			},
+			"DashStyle": {
+				"text": "Stil crtice:"
+			},
+			"+ EndCap": {
+				"text": "+ Kap na kraju retka:"
+			},
+			"+ Size": {
+				"text": "+ Veličina:"
+			},
+			"width": {
+				"text": "Širina:"
+			},
+			"height": {
+				"text": "Visina:"
+			},
+			"Style": {
+				"text": "Stil:"
+			},
+			"LineJoin": {
+				"text": "Linijska veza:"
+			},
+			"MiterLimit": {
+				"text": "MiterLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ Ograničenje na početku retka:"
+			},
+			"Width": {
+				"text": "Širina:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ Promjena veličine predloška točke:"
+			},
+			"BorderColor": {
+				"text": "Boja obruba:"
+			},
+			"BorderWidth": {
+				"text": "Širina obruba:"
+			},
+			"FillColor": {
+				"text": "Boja ispune:"
+			},
+			"InteractionRadius": {
+				"text": "Polumjer područja interakcije:"
+			},
+			"Radius": {
+				"text": "Radijus:"
+			},
+			"Rotation": {
+				"text": "Rotacija:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ Središnja točka rotacije:"
+			},
+			"Cursor": {
+				"text": "Pokazivač:"
+			},
+			"+ RotationPoint": {
+				"text": "+ Okretna točka:"
+			},
+			"RotationPointDistance": {
+				"text": "Udaljenost do točke zakretanja:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ Kist za sjene:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ Uvlaka za crtanje sjene:"
+			},
+			"Symmetry": {
+				"text": "Simetrija:"
+			},
+			"Text": {
+				"text": "Tekst:"
+			},
+			"TextAlign": {
+				"text": "Poravnanje teksta:"
+			},
+			"+ TextBox": {
+				"text": "+ Tekstualno polje:"
+			},
+			"FontColor": {
+				"text": "Boja fonta:"
+			},
+			"FontFamily": {
+				"text": "Obitelj fontova:"
+			},
+			"FontSize": {
+				"text": "Veličina fonta:"
+			},
+			"TextBoxHeight": {
+				"text": "Visina tekstualnog polja:"
+			},
+			"TextBoxWidth": {
+				"text": "Širina tekstualnog polja:"
+			},
+			"+ TextPadding": {
+				"text": "+ Uvlačenje teksta:"
+			},
+			"left": {
+				"text": "Lijevo:"
+			},
+			"right": {
+				"text": "U redu:"
+			},
+			"top": {
+				"text": "Na vrhu:"
+			},
+			"bottom": {
+				"text": "Dno:"
+			},
+			"ToolTip": {
+				"text": "Savjet:"
+			},
+			"VerticalMirrored": {
+				"text": "Okomito zrcaljenje:"
+			}
+		},
+		"okButton": {
+			"text": "OK"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Pogreška"
+		},
+		"closeButton": {
+			"text": "Zatvori"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "Stranica",
+		"vssde-annotationPanel-annotationPropertiesLabel": "Svojstva zabilješki",
+		"vssde-textSearchPanel-pageLabel": "Stranica",
+		"vssde-documentPasswordDialog-title": "Lozinka dokumenta",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Odustani",
+		"vssde-imageSelectionDialog-currentImageString": "Trenutna slika",
+		"vssde-imageSelectionDialog-allImagesString": "Sve slike",
+		"vssde-imageSelectionDialog-customImagesString": "Prilagođeni raspon",
+		"vssde-imageSelectionDialog-title": "Odaberite slike",
+		"vssde-printImagesDialog-withAnnotationsLabel": "s komentarima",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "Slika se priprema za ispis",
+		"vssde-printImagesDialog-title": "Ispiši slike",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
+		"vssde-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kut rotacije ne smije biti 0.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Označena slika se rotira",
+		"vssde-rotateImageWithAnnotationsDialog-title": "Zakreni označenu sliku"
+	}
+}

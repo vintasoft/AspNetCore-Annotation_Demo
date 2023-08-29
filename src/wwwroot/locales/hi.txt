@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "फ़ाइल"
+		},
+		"viewLabel": {
+			"text": "देखें"
+		},
+		"toolsLabel": {
+			"text": "उपकरण"
+		},
+		"annotationsLabel": {
+			"text": "टिप्पणियाँ"
+		},
+		"uploadFileButton": {
+			"title": "फ़ाइल डाउनलोड करें और खोलें"
+		},
+		"previousUploadFilesButton": {
+			"title": "पहले डाउनलोड की गई फ़ाइलों की सूची देखें"
+		},
+		"printImagesButton": {
+			"title": "छवियाँ मुद्रित करें"
+		},
+		"downloadFileButton": {
+			"title": "फ़ाइल अपलोड करें"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "चौड़ाई के अनुरूप"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "छवि को वामावर्त घुमाएँ"
+		},
+		"rotateAngleInput": {
+			"title": "घूर्णन कोण"
+		},
+		"rotateClockwiseButton": {
+			"title": "छवि को दक्षिणावर्त घुमाएँ"
+		},
+		"imageViewerSettingsButton": {
+			"title": "छवि दर्शक सेटिंग्स"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "थंबनेल व्यूअर सेटिंग्स"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "एनोटेशन, दस्तावेज़ नेविगेशन, पाठ चयन"
+		},
+		"panToolButton": {
+			"title": "पैन"
+		},
+		"magnifierToolButton": {
+			"title": "आवर्धक"
+		},
+		"zoomToolButton": {
+			"title": "पैमाना"
+		},
+		"zoomSelectionToolButton": {
+			"title": "पैमाने का चयन"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "आयत"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "दीर्घवृत्त"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "बैकलाइट"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "छवि"
+		},
+		"addTextAnnotationButton": {
+			"title": "पाठ"
+		},
+		"addStampAnnotationButton": {
+			"title": "स्टाम्प"
+		},
+		"addLinkAnnotationButton": {
+			"title": "लिंक"
+		},
+		"addArrowAnnotationButton": {
+			"title": "तीर"
+		},
+		"addLineAnnotationButton": {
+			"title": "लाइन"
+		},
+		"addLinesAnnotationButton": {
+			"title": "पॉलीलाइन"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "बहुभुज"
+		},
+		"addRulerAnnotationButton": {
+			"title": "शासक"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "त्रिकोण"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "इंटरैक्शन मोड 'लेखक'"
+		},
+		"copyAnnotationButton": {
+			"title": "केंद्रित एनोटेशन कॉपी करें"
+		},
+		"pasteAnnotationButton": {
+			"title": "कॉपी किया गया एनोटेशन चिपकाएँ"
+		},
+		"removeAnnotationButton": {
+			"title": "चयनित एनोटेशन हटाएं"
+		},
+		"burnAnnotationsButton": {
+			"title": "एनोटेशन के संग्रह को छवि में जलाएँ"
+		},
+		"saveAnnotationsButton": {
+			"title": "सर्वर पर एनोटेशन संग्रह में परिवर्तन सहेजें"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "एनोटेटेड छवि घुमाएँ"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "परिवर्तन इतिहास सक्षम करें"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "रद्द करें"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "दोहराएँ"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "मध्य इंटरेक्शन बिंदु"
+		},
+		"showMobileMenuButton": {
+			"title": "अधिक"
+		},
+		"sidePanelCloseButton": {
+			"title": "साइडबार दिखाएँ"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "थंबनेल"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "टिप्पणियाँ"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "पाठ को हाइलाइट करें"
+		},
+		"showTextSearchPanelButton": {
+			"title": "पाठ खोजें"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "पाठ चयन मोड:"
+			},
+			"rectangleOption": {
+				"text": "आयत"
+			},
+			"fullLinesOption": {
+				"text": "पूर्ण पंक्तियाँ"
+			},
+			"selectionColorLabel": {
+				"text": "चयनित पाठ का रंग:"
+			},
+			"selectedTextLabel": {
+				"text": "चयनित पाठ:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "ढूंढें:"
+			},
+			"whereLookLabel": {
+				"text": "इस पर खोजें:"
+			},
+			"currentPageOption": {
+				"text": "वर्तमान पृष्ठ"
+			},
+			"allPagesOption": {
+				"text": "सभी पृष्ठ"
+			},
+			"wholeWordLabel": {
+				"text": "पूरा शब्द खोजें"
+			},
+			"caseSensitiveLabel": {
+				"text": "केस संवेदनशील"
+			},
+			"textNotFoundLabel": {
+				"text": "पाठ नहीं मिला."
+			},
+			"startSearchButton": {
+				"value": "खोज प्रारंभ करें"
+			},
+			"stopSearchButton": {
+				"value": "खोजना बंद करो"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "पहली छवि पर जाएँ"
+		},
+		"gotoPreviousPageButton": {
+			"title": "पिछली छवि पर जाएँ"
+		},
+		"gotoPageInput": {
+			"title": "पेज"
+		},
+		"gotoNextPageButton": {
+			"title": "अगली छवि पर जाएँ"
+		},
+		"gotoLastPageButton": {
+			"title": "अंतिम छवि पर जाएँ"
+		},
+		"zoomOutButton": {
+			"title": "ज़ूम आउट"
+		},
+		"zoomValueInput": {
+			"title": "पैमाना"
+		},
+		"zoomInButton": {
+			"title": "ज़ूम इन करें"
+		},
+		"normalSizeModeButton": {
+			"title": "सामान्य"
+		},
+		"bestFitSizeModeButton": {
+			"title": "सबसे उपयुक्त"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "फिट ऊंचाई"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "पिक्सेल से पिक्सेल"
+		},
+		"zoomSizeModeButton": {
+			"title": "पैमाना"
+		},
+		"addArcAnnotationButton": {
+			"title": "आर्क"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "नोट"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "निःशुल्क पाठ"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "डबल एरो"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "प्रक्षेप के साथ पॉलीलाइन"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "फ्रीहैंड पॉलीलाइन"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "प्रक्षेप सहित बहुभुज"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "मुक्तहस्त बहुभुज"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "बादल बहुभुज"
+		},
+		"addRulersAnnotationButton": {
+			"title": "रूलेट"
+		},
+		"addAngleAnnotationButton": {
+			"title": "कोण"
+		},
+		"addMarkAnnotationButton": {
+			"title": "लेबल"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "कोई इंटरैक्शन नहीं"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "इंटरैक्शन मोड 'देखें'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "छोटे इंटरेक्शन बिंदु"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "बड़े टचप्वाइंट (टचस्क्रीन)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "एनोटेशन कॉपी करें"
+			},
+			"pasteAnnotationLabel": {
+				"text": "एनोटेशन डालें"
+			},
+			"removeAnnotationLabel": {
+				"text": "एनोटेशन हटाएं"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "वापस भेजें"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "सामने लाओ"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "सभी एनोटेशन को समूहित करें"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "अनग्रुप एनोटेशन"
+			},
+			"annotationPropertiesLabel": {
+				"text": "एनोटेशन गुण..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "यह दस्तावेज़ पासवर्ड से सुरक्षित है. कृपया पासवर्ड दर्ज करें।"
+			},
+			"passwordLabel": {
+				"text": "पासवर्ड:"
+			},
+			"showPasswordLabel": {
+				"text": "पासवर्ड दिखाएँ"
+			},
+			"incorrectPasswordLabel": {
+				"text": "गलत पासवर्ड"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "छवियाँ:"
+			},
+			"currentImageOption": {
+				"text": "वर्तमान छवि"
+			},
+			"allImagesOption": {
+				"text": "सभी छवियाँ"
+			},
+			"customImagesOption": {
+				"text": "कस्टम रेंज"
+			},
+			"imageRangeLabel": {
+				"text": "छवि श्रेणी:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "अमान्य पृष्ठ श्रेणी. उदाहरण: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "सूचकांक छवि संग्रह की अनुक्रमणिका सीमा के भीतर नहीं है।"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "छवियाँ:"
+			},
+			"currentImageOption": {
+				"text": "वर्तमान छवि"
+			},
+			"allImagesOption": {
+				"text": "सभी छवियाँ"
+			},
+			"customImagesOption": {
+				"text": "उपयोगकर्ता परिभाषित"
+			},
+			"imageRangeLabel": {
+				"text": "छवि श्रेणी:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "अमान्य पृष्ठ श्रेणी. उदाहरण: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "छवि संग्रह के लिए सूचकांक सीमा से बाहर है।"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "थंबनेल आकार:"
+			},
+			"scaleLabel": {
+				"text": "थंबनेल स्केल:"
+			},
+			"smallestOption": {
+				"text": "न्यूनतम"
+			},
+			"smallOption": {
+				"text": "छोटा"
+			},
+			"normalOption": {
+				"text": "सामान्य"
+			},
+			"largeOption": {
+				"text": "बड़ा"
+			},
+			"flowStyleLabel": {
+				"text": "थंबनेल प्लेसमेंट शैली:"
+			},
+			"singleColumnOption": {
+				"text": "एकल स्तंभ"
+			},
+			"singleRowOption": {
+				"text": "एक पंक्ति"
+			},
+			"fixedColumnsOption": {
+				"text": "स्तंभों की निश्चित संख्या"
+			},
+			"wrappedRowsOption": {
+				"text": "पंक्तियों की अस्थायी संख्या"
+			},
+			"columnCountLabel": {
+				"text": "स्तंभों की संख्या:"
+			},
+			"marginLabel": {
+				"text": "बाहर पैडिंग:"
+			},
+			"paddingTopLabel": {
+				"text": "शीर्ष पैडिंग:"
+			},
+			"paddingRightLabel": {
+				"text": "दायां इंडेंट:"
+			},
+			"paddingBottomLabel": {
+				"text": "बॉटम पैडिंग:"
+			},
+			"paddingLeftLabel": {
+				"text": "बायाँ इंडेंट:"
+			},
+			"showCaptionLabel": {
+				"text": "थंबनेल कैप्शन दिखाएँ:"
+			},
+			"captionFormatLabel": {
+				"text": "हस्ताक्षर प्रारूप:"
+			},
+			"captionAnchorLabel": {
+				"text": "हस्ताक्षर एंकर:"
+			},
+			"topLeftOption": {
+				"text": "ऊपर|बाएँ"
+			},
+			"topOption": {
+				"text": "शीर्ष"
+			},
+			"topRightOption": {
+				"text": "शीर्ष|दाएं"
+			},
+			"rightOption": {
+				"text": "सही"
+			},
+			"bottomRightOption": {
+				"text": "नीचे|दाएँ"
+			},
+			"bottomOption": {
+				"text": "नीचे"
+			},
+			"bottomLeftOption": {
+				"text": "नीचे|बाएं"
+			},
+			"leftOption": {
+				"text": "बाएं"
+			},
+			"centerOption": {
+				"text": "केंद्रित"
+			},
+			"focusOnHoverLabel": {
+				"text": "होवर फोकस:"
+			},
+			"multiSelectLabel": {
+				"text": "एकाधिक थंबनेल चयन की अनुमति दें:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "घूर्णन कोण:"
+			},
+			"borderColorTypeLabel": {
+				"text": "बॉर्डर रंग प्रकार:"
+			},
+			"autoDetectOption": {
+				"text": "स्वतः पता लगाएं"
+			},
+			"blackOption": {
+				"text": "काला"
+			},
+			"whiteOption": {
+				"text": "सफ़ेद"
+			},
+			"transparentOption": {
+				"text": "पारदर्शी"
+			},
+			"customOption": {
+				"text": "कस्टम"
+			},
+			"borderColorLabel": {
+				"text": "सीमा रंग:"
+			},
+			"changeSourceLabel": {
+				"text": "स्रोत बदलें"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "पहले डाउनलोड की गई फ़ाइलें"
+		},
+		"openButton": {
+			"text": "फ़ाइल खोलें"
+		},
+		"closeButton": {
+			"text": "बंद करें"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "छवि दर्शक सेटिंग्स"
+		},
+		"imageDisplayModeLabel": {
+			"text": "छवि प्रदर्शन मोड"
+		},
+		"imageAnchorLabel": {
+			"text": "छवि एंकर:"
+		},
+		"imageAnchorSelect": {
+			"value": "नहीं",
+			"noneOption": {
+				"text": "कोई नहीं"
+			},
+			"topLeftOption": {
+				"text": "ऊपर|बाएँ"
+			},
+			"topOption": {
+				"text": "शीर्ष"
+			},
+			"topRightOption": {
+				"text": "शीर्ष|दाएँ"
+			},
+			"rightOption": {
+				"text": "सही"
+			},
+			"bottomRightOption": {
+				"text": "नीचे|दाएं"
+			},
+			"bottomOption": {
+				"text": "नीचे"
+			},
+			"bottomLeftOption": {
+				"text": "नीचे|बाएं"
+			},
+			"leftOption": {
+				"text": "बाएं"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "मल्टी-पेज डिस्प्ले मोड:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "निश्चित छवियाँ",
+			"allImagesOption": {
+				"text": "सभी छवियाँ"
+			},
+			"fixedImagesOption": {
+				"text": "निश्चित छवियाँ"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "लेआउट दिशा:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "ऊर्ध्वाधर",
+			"horizontalOption": {
+				"text": "क्षैतिज"
+			},
+			"verticalOption": {
+				"text": "ऊर्ध्वाधर"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "प्रति पंक्ति/स्तंभ छवियाँ:"
+		},
+		"imagesPaddingLabel": {
+			"text": "छवि पैडिंग:"
+		},
+		"appearancesLabel": {
+			"text": "उपस्थितियाँ"
+		},
+		"imageAppearanceLabel": {
+			"text": "छवि उपस्थिति"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "पृष्ठभूमि का रंग:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "सीमा रंग:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "सीमा चौड़ाई:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "इन-फोकस छवि का प्रकटन"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "एकल पृष्ठ मोड में छवि उपस्थिति का उपयोग करें"
+		},
+		"renderingSettigsLabel": {
+			"text": "रेंडर सेटिंग्स"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "डिफ़ॉल्ट सेटिंग्स"
+		},
+		"horResLabel": {
+			"text": "क्षैतिज संकल्प:"
+		},
+		"vertResLabel": {
+			"text": "ऊर्ध्वाधर रिज़ॉल्यूशन:"
+		},
+		"smoothingLabel": {
+			"text": "स्मूथ मोड:"
+		},
+		"interpolationLabel": {
+			"text": "इंटरपोलेशन मोड:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "बिना मार्कअप के एनोटेशन बनाएं"
+		},
+		"otherSettigsLabel": {
+			"text": "अन्य सेटिंग्स"
+		},
+		"backgroundColorLabel": {
+			"text": "छवि दर्शक पृष्ठभूमि रंग:"
+		},
+		"centerImageLabel": {
+			"text": "केंद्र छवि:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "आकार बदलें टाइमआउट:"
+		},
+		"tileSizeLabel": {
+			"text": "टाइल का आकार:"
+		},
+		"colorManagementLabel": {
+			"text": "रंग प्रबंधन सक्षम करें:"
+		},
+		"useVectorRendering": {
+			"text": "दस्तावेज़ों के लिए वेक्टर रेंडरिंग का उपयोग करें:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "वेक्टर सामग्री पृष्ठभूमि रंग:"
+		},
+		"okButton": {
+			"text": "ठीक है"
+		},
+		"cancelButton": {
+			"text": "बंद करें"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "एनोटेशन गुण"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "सीमा:"
+			},
+			"CanMirror": {
+				"text": "आप दर्पण कर सकते हैं:"
+			},
+			"CanMove": {
+				"text": "स्थानांतरित किया जा सकता है:"
+			},
+			"CanResize": {
+				"text": "आकार बदला जा सकता है:"
+			},
+			"CanRotate": {
+				"text": "घुमाया जा सकता है:"
+			},
+			"CreatedBy": {
+				"text": "लेखक:"
+			},
+			"CreationTime": {
+				"text": "निर्माण समय:"
+			},
+			"+ FillBrush": {
+				"text": "+ भरें:"
+			},
+			"Color": {
+				"text": "रंग:"
+			},
+			"Type": {
+				"text": "प्रकार:"
+			},
+			"+ Font": {
+				"text": "+ फ़ॉन्ट:"
+			},
+			"Bold": {
+				"text": "बोल्ड:"
+			},
+			"FamilyName": {
+				"text": "परिवार का नाम:"
+			},
+			"Italic": {
+				"text": "इटैलिक:"
+			},
+			"Size": {
+				"text": "आकार:"
+			},
+			"Strikeout": {
+				"text": "स्ट्राइकथ्रू:"
+			},
+			"Underline": {
+				"text": "रेखांकित करें:"
+			},
+			"Unit": {
+				"text": "इकाई:"
+			},
+			"+ FontBrush": {
+				"text": "+ फ़ॉन्ट ब्रश:"
+			},
+			"FontTransparent": {
+				"text": "पारदर्शी फ़ॉन्ट:"
+			},
+			"Guid": {
+				"text": "आईडी:"
+			},
+			"HorizontalMirrored": {
+				"text": "क्षैतिज रूप से फ़्लिप किया गया:"
+			},
+			"IsBuilding": {
+				"text": "एनोटेशन बनाया गया है:"
+			},
+			"IsVisible": {
+				"text": "एनोटेशन दृश्यमान है:"
+			},
+			"LineStyle": {
+				"text": "रेखा शैली:"
+			},
+			"LineStylePatternSize": {
+				"text": "रेखा शैली टेम्पलेट आकार:"
+			},
+			"+ Location": {
+				"text": "+ स्थान:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "इसके द्वारा बदला गया:"
+			},
+			"ModifiedTime": {
+				"text": "परिवर्तन का समय:"
+			},
+			"Name": {
+				"text": "नाम:"
+			},
+			"+ Outline": {
+				"text": "+ योजना:"
+			},
+			"DashPattern": {
+				"text": "डैश पैटर्न:"
+			},
+			"DashStyle": {
+				"text": "डैश शैली:"
+			},
+			"+ EndCap": {
+				"text": "+ पंक्ति के अंत में कैप:"
+			},
+			"+ Size": {
+				"text": "+ आकार:"
+			},
+			"width": {
+				"text": "चौड़ाई:"
+			},
+			"height": {
+				"text": "ऊंचाई:"
+			},
+			"Style": {
+				"text": "शैली:"
+			},
+			"LineJoin": {
+				"text": "लाइन कनेक्शन:"
+			},
+			"MiterLimit": {
+				"text": "मिटरलिमिट:"
+			},
+			"+ StartCap": {
+				"text": "+ लाइन की शुरुआत में कैप:"
+			},
+			"Width": {
+				"text": "चौड़ाई:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ बिंदु टेम्पलेट का आकार बदलें:"
+			},
+			"BorderColor": {
+				"text": "बॉर्डर का रंग:"
+			},
+			"BorderWidth": {
+				"text": "सीमा चौड़ाई:"
+			},
+			"FillColor": {
+				"text": "रंग भरें:"
+			},
+			"InteractionRadius": {
+				"text": "इंटरैक्शन क्षेत्र त्रिज्या:"
+			},
+			"Radius": {
+				"text": "त्रिज्या:"
+			},
+			"Rotation": {
+				"text": "रोटेशन:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ घूर्णन का केंद्र बिंदु:"
+			},
+			"Cursor": {
+				"text": "कर्सर:"
+			},
+			"+ RotationPoint": {
+				"text": "+ धुरी बिंदु:"
+			},
+			"RotationPointDistance": {
+				"text": "धुरी बिंदु से दूरी:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ छाया ब्रश:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ छाया खींचने के लिए इंडेंट:"
+			},
+			"Symmetry": {
+				"text": "समरूपता:"
+			},
+			"Text": {
+				"text": "पाठ:"
+			},
+			"TextAlign": {
+				"text": "पाठ संरेखण:"
+			},
+			"+ TextBox": {
+				"text": "+ टेक्स्ट फ़ील्ड:"
+			},
+			"FontColor": {
+				"text": "फ़ॉन्ट रंग:"
+			},
+			"FontFamily": {
+				"text": "फ़ॉन्ट परिवार:"
+			},
+			"FontSize": {
+				"text": "फ़ॉन्ट आकार:"
+			},
+			"TextBoxHeight": {
+				"text": "पाठ फ़ील्ड ऊंचाई:"
+			},
+			"TextBoxWidth": {
+				"text": "पाठ फ़ील्ड चौड़ाई:"
+			},
+			"+ TextPadding": {
+				"text": "+ टेक्स्ट इंडेंटेशन:"
+			},
+			"left": {
+				"text": "बायाँ:"
+			},
+			"right": {
+				"text": "दाएं:"
+			},
+			"top": {
+				"text": "शीर्ष:"
+			},
+			"bottom": {
+				"text": "नीचे:"
+			},
+			"ToolTip": {
+				"text": "संकेत:"
+			},
+			"VerticalMirrored": {
+				"text": "ऊर्ध्वाधर मिररिंग:"
+			}
+		},
+		"okButton": {
+			"text": "ठीक है"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "त्रुटि"
+		},
+		"closeButton": {
+			"text": "बंद करें"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "पेज",
+		"vssde-annotationPanel-annotationPropertiesLabel": "एनोटेशन गुण",
+		"vssde-textSearchPanel-pageLabel": "पेज",
+		"vssde-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
+		"vssde-dialog-okButton": "ठीक है",
+		"vssde-dialog-cancelButton": "रद्द करें",
+		"vssde-imageSelectionDialog-currentImageString": "वर्तमान छवि",
+		"vssde-imageSelectionDialog-allImagesString": "सभी छवियाँ",
+		"vssde-imageSelectionDialog-customImagesString": "कस्टम रेंज",
+		"vssde-imageSelectionDialog-title": "छवियां चुनें",
+		"vssde-printImagesDialog-withAnnotationsLabel": "एनोटेशन के साथ",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "छवि मुद्रण के लिए तैयार की जा रही है",
+		"vssde-printImagesDialog-title": "चित्र मुद्रित करें",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
+		"vssde-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "घूर्णन कोण 0 नहीं होना चाहिए.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "एनोटेट छवि को घुमाया जा रहा है",
+		"vssde-rotateImageWithAnnotationsDialog-title": "एनोटेटेड छवि घुमाएँ"
+	}
+}

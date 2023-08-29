@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Dosya"
+		},
+		"viewLabel": {
+			"text": "Görüntüle"
+		},
+		"toolsLabel": {
+			"text": "Araçlar"
+		},
+		"annotationsLabel": {
+			"text": "Açıklamalar"
+		},
+		"uploadFileButton": {
+			"title": "Dosyayı indir ve aç"
+		},
+		"previousUploadFilesButton": {
+			"title": "Önceden indirilen dosyaların listesini görüntüleyin"
+		},
+		"printImagesButton": {
+			"title": "Görüntüleri Yazdır"
+		},
+		"downloadFileButton": {
+			"title": "Dosya Yükle"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Genişliğe Sığdır"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "Görüntüyü saat yönünün tersine döndür"
+		},
+		"rotateAngleInput": {
+			"title": "Dönme açısı"
+		},
+		"rotateClockwiseButton": {
+			"title": "Görüntüyü saat yönünde döndür"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Resim görüntüleyici ayarları"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Küçük Resim Görüntüleyici Ayarları"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "Açıklamalar, Belgede Gezinme, Metin Seçimi"
+		},
+		"panToolButton": {
+			"title": "Kaydır"
+		},
+		"magnifierToolButton": {
+			"title": "Büyüteç"
+		},
+		"zoomToolButton": {
+			"title": "Ölçek"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Ölçek Seçimi"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Dikdörtgen"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Elips"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Arka Işık"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Resim"
+		},
+		"addTextAnnotationButton": {
+			"title": "Metin"
+		},
+		"addStampAnnotationButton": {
+			"title": "Damga"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Bağlantı"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Ok"
+		},
+		"addLineAnnotationButton": {
+			"title": "Çizgi"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Poliline"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Çokgen"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Cetvel"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Üçgen"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Etkileşim modu 'Yazar'"
+		},
+		"copyAnnotationButton": {
+			"title": "Kopya odaklı açıklama"
+		},
+		"pasteAnnotationButton": {
+			"title": "Kopyalanan açıklamayı yapıştır"
+		},
+		"removeAnnotationButton": {
+			"title": "Seçili açıklamayı sil"
+		},
+		"burnAnnotationsButton": {
+			"title": "Ek açıklamalar koleksiyonunu resme yaz"
+		},
+		"saveAnnotationsButton": {
+			"title": "Sunucudaki açıklama koleksiyonundaki değişiklikleri kaydet"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Açıklamalı Görüntüyü Döndür"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Değişiklik geçmişini etkinleştir"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "İptal"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Tekrarla"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Orta Etkileşim Noktaları"
+		},
+		"showMobileMenuButton": {
+			"title": "Daha fazla"
+		},
+		"sidePanelCloseButton": {
+			"title": "Kenar çubuğunu göster"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Küçük resimler"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Açıklamalar"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Metni vurgula"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Metin ara"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Metin seçim modu:"
+			},
+			"rectangleOption": {
+				"text": "Dikdörtgen"
+			},
+			"fullLinesOption": {
+				"text": "Tam satırlar"
+			},
+			"selectionColorLabel": {
+				"text": "Seçilen metnin rengi:"
+			},
+			"selectedTextLabel": {
+				"text": "Seçili metin:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Bul:"
+			},
+			"whereLookLabel": {
+				"text": "Ara:"
+			},
+			"currentPageOption": {
+				"text": "Mevcut sayfa"
+			},
+			"allPagesOption": {
+				"text": "Tüm Sayfalar"
+			},
+			"wholeWordLabel": {
+				"text": "Tüm kelimeyi ara"
+			},
+			"caseSensitiveLabel": {
+				"text": "Büyük/küçük harfe duyarlı"
+			},
+			"textNotFoundLabel": {
+				"text": "Metin bulunamadı."
+			},
+			"startSearchButton": {
+				"value": "Aramaya Başla"
+			},
+			"stopSearchButton": {
+				"value": "Aramayı durdur"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "İlk resme git"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Önceki resme git"
+		},
+		"gotoPageInput": {
+			"title": "Sayfa"
+		},
+		"gotoNextPageButton": {
+			"title": "Sonraki resme git"
+		},
+		"gotoLastPageButton": {
+			"title": "Son resme git"
+		},
+		"zoomOutButton": {
+			"title": "Uzaklaştır"
+		},
+		"zoomValueInput": {
+			"title": "Ölçek"
+		},
+		"zoomInButton": {
+			"title": "Yakınlaştır"
+		},
+		"normalSizeModeButton": {
+			"title": "Normal"
+		},
+		"bestFitSizeModeButton": {
+			"title": "En Uygun"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Yüksekliğe Sığdır"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pikselden Piksele"
+		},
+		"zoomSizeModeButton": {
+			"title": "Ölçek"
+		},
+		"addArcAnnotationButton": {
+			"title": "Yay"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Not"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Serbest metin"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Çift Ok"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "İnterpolasyonlu çoklu çizgi"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Serbest çizim çoklu çizgi"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "İnterpolasyonlu çokgen"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Serbest Şekilde Çokgen"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Bulut poligonu"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Rulet"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Açı"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Etiket"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Etkileşim yok"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Etkileşim Modu 'Görüntüle'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Küçük etkileşim noktaları"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Büyük temas noktaları (dokunmatik ekran)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "Açıklamayı Kopyala"
+			},
+			"pasteAnnotationLabel": {
+				"text": "Açıklama Ekle"
+			},
+			"removeAnnotationLabel": {
+				"text": "Açıklamayı Sil"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "Arkaya Gönder"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "Öne Getir"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "Tüm açıklamaları gruplandır"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "Açıklamanın Grubunu Çöz"
+			},
+			"annotationPropertiesLabel": {
+				"text": "Açıklama özellikleri..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Bu belge parola korumalıdır. Lütfen bir şifre girin."
+			},
+			"passwordLabel": {
+				"text": "Şifre:"
+			},
+			"showPasswordLabel": {
+				"text": "Şifreyi göster"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Yanlış şifre"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Resimler:"
+			},
+			"currentImageOption": {
+				"text": "Geçerli Resim"
+			},
+			"allImagesOption": {
+				"text": "Tüm resimler"
+			},
+			"customImagesOption": {
+				"text": "Özel Aralık"
+			},
+			"imageRangeLabel": {
+				"text": "Görüntü aralığı:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Geçersiz sayfa aralığı. Örnek: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Dizin, görüntü koleksiyonunun indeks aralığında değil."
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Resimler:"
+			},
+			"currentImageOption": {
+				"text": "Geçerli Resim"
+			},
+			"allImagesOption": {
+				"text": "Tüm resimler"
+			},
+			"customImagesOption": {
+				"text": "Kullanıcı tanımlı"
+			},
+			"imageRangeLabel": {
+				"text": "Görüntü aralığı:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Geçersiz sayfa aralığı. Örnek: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Dizin, görüntü koleksiyonu için aralığın dışında."
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Küçük Resim Boyutu:"
+			},
+			"scaleLabel": {
+				"text": "Küçük Resim Ölçeği:"
+			},
+			"smallestOption": {
+				"text": "En az"
+			},
+			"smallOption": {
+				"text": "Küçük"
+			},
+			"normalOption": {
+				"text": "Normal"
+			},
+			"largeOption": {
+				"text": "Büyük"
+			},
+			"flowStyleLabel": {
+				"text": "Küçük resim yerleştirme stili:"
+			},
+			"singleColumnOption": {
+				"text": "Tek sütun"
+			},
+			"singleRowOption": {
+				"text": "Bir satır"
+			},
+			"fixedColumnsOption": {
+				"text": "Sabit sütun sayısı"
+			},
+			"wrappedRowsOption": {
+				"text": "Kayan satır sayısı"
+			},
+			"columnCountLabel": {
+				"text": "Sütun sayısı:"
+			},
+			"marginLabel": {
+				"text": "Dış dolgu:"
+			},
+			"paddingTopLabel": {
+				"text": "Üst dolgu:"
+			},
+			"paddingRightLabel": {
+				"text": "Sağ Girinti:"
+			},
+			"paddingBottomLabel": {
+				"text": "Alt dolgu:"
+			},
+			"paddingLeftLabel": {
+				"text": "Sol girinti:"
+			},
+			"showCaptionLabel": {
+				"text": "Küçük resim yazılarını göster:"
+			},
+			"captionFormatLabel": {
+				"text": "İmza Biçimi:"
+			},
+			"captionAnchorLabel": {
+				"text": "İmza Bağlantısı:"
+			},
+			"topLeftOption": {
+				"text": "Üst|Sol"
+			},
+			"topOption": {
+				"text": "Üst"
+			},
+			"topRightOption": {
+				"text": "Üst|Sağ"
+			},
+			"rightOption": {
+				"text": "Sağ"
+			},
+			"bottomRightOption": {
+				"text": "Alt|Sağ"
+			},
+			"bottomOption": {
+				"text": "Alt"
+			},
+			"bottomLeftOption": {
+				"text": "Alt|Sol"
+			},
+			"leftOption": {
+				"text": "Sol"
+			},
+			"centerOption": {
+				"text": "Ortalanmış"
+			},
+			"focusOnHoverLabel": {
+				"text": "Fokusla Odaklanma:"
+			},
+			"multiSelectLabel": {
+				"text": "Birden çok küçük resim seçimine izin ver:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Dönme açısı:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Kenarlık rengi türü:"
+			},
+			"autoDetectOption": {
+				"text": "Otomatik algılama"
+			},
+			"blackOption": {
+				"text": "Siyah"
+			},
+			"whiteOption": {
+				"text": "Beyaz"
+			},
+			"transparentOption": {
+				"text": "Şeffaf"
+			},
+			"customOption": {
+				"text": "Özel"
+			},
+			"borderColorLabel": {
+				"text": "Kenar rengi:"
+			},
+			"changeSourceLabel": {
+				"text": "Kaynağı Değiştir"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Önceden indirilen dosyalar"
+		},
+		"openButton": {
+			"text": "Dosya aç"
+		},
+		"closeButton": {
+			"text": "Kapat"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "Görüntü görüntüleyici ayarları"
+		},
+		"imageDisplayModeLabel": {
+			"text": "Görüntü görüntüleme modu"
+		},
+		"imageAnchorLabel": {
+			"text": "Görüntü Bağlantısı:"
+		},
+		"imageAnchorSelect": {
+			"value": "Hayır",
+			"noneOption": {
+				"text": "Yok"
+			},
+			"topLeftOption": {
+				"text": "Üst|Sol"
+			},
+			"topOption": {
+				"text": "Üst"
+			},
+			"topRightOption": {
+				"text": "Üst|Sağ"
+			},
+			"rightOption": {
+				"text": "Sağ"
+			},
+			"bottomRightOption": {
+				"text": "Alt|Sağ"
+			},
+			"bottomOption": {
+				"text": "Alt"
+			},
+			"bottomLeftOption": {
+				"text": "Alt|Sol"
+			},
+			"leftOption": {
+				"text": "Sol"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "Çok sayfalı görüntüleme modu:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "Sabit Görüntüler",
+			"allImagesOption": {
+				"text": "Tüm resimler"
+			},
+			"fixedImagesOption": {
+				"text": "Sabit Görüntüler"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "Yerleşim Yönü:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "Dikey",
+			"horizontalOption": {
+				"text": "Yatay"
+			},
+			"verticalOption": {
+				"text": "Dikey"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "Satır/sütun başına görüntü sayısı:"
+		},
+		"imagesPaddingLabel": {
+			"text": "Görüntü dolgusu:"
+		},
+		"appearancesLabel": {
+			"text": "Görünüşler"
+		},
+		"imageAppearanceLabel": {
+			"text": "Görüntü Görünümü"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "Arka Plan Rengi:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "Kenar rengi:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "Kenar genişliği:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "Odaktaki görüntünün görünümü"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "Tek Sayfa Modunda Görüntü Görünümünü Kullan"
+		},
+		"renderingSettigsLabel": {
+			"text": "İşleme Ayarları"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "Varsayılan ayarlar"
+		},
+		"horResLabel": {
+			"text": "Yatay Çözünürlük:"
+		},
+		"vertResLabel": {
+			"text": "Dikey Çözünürlük:"
+		},
+		"smoothingLabel": {
+			"text": "Düzgün Mod:"
+		},
+		"interpolationLabel": {
+			"text": "İnterpolasyon Modu:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "İşaretleme olmadan ek açıklama çiz"
+		},
+		"otherSettigsLabel": {
+			"text": "Diğer ayarlar"
+		},
+		"backgroundColorLabel": {
+			"text": "Resim Görüntüleyici Arka Plan Rengi:"
+		},
+		"centerImageLabel": {
+			"text": "Merkez Görüntü:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "Yeniden Boyutlandırma Zaman Aşımı:"
+		},
+		"tileSizeLabel": {
+			"text": "Döşeme boyutu:"
+		},
+		"colorManagementLabel": {
+			"text": "Renk yönetimini etkinleştir:"
+		},
+		"useVectorRendering": {
+			"text": "Belgeler için vektör oluşturmayı kullan:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "Vektör içeriği arka plan rengi:"
+		},
+		"okButton": {
+			"text": "Tamam"
+		},
+		"cancelButton": {
+			"text": "Kapat"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "Açıklama özellikleri"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "Sınır:"
+			},
+			"CanMirror": {
+				"text": "Aşağıdakileri yansıtabilirsiniz:"
+			},
+			"CanMove": {
+				"text": "Hareket edebilir:"
+			},
+			"CanResize": {
+				"text": "Yeniden boyutlandırılabilir:"
+			},
+			"CanRotate": {
+				"text": "Döndürülebilir:"
+			},
+			"CreatedBy": {
+				"text": "Yazar:"
+			},
+			"CreationTime": {
+				"text": "Oluşturma Zamanı:"
+			},
+			"+ FillBrush": {
+				"text": "+ Doldurun:"
+			},
+			"Color": {
+				"text": "Renk:"
+			},
+			"Type": {
+				"text": "Tür:"
+			},
+			"+ Font": {
+				"text": "+ Yazı Tipi:"
+			},
+			"Bold": {
+				"text": "Kalın:"
+			},
+			"FamilyName": {
+				"text": "Soyadı:"
+			},
+			"Italic": {
+				"text": "İtalik:"
+			},
+			"Size": {
+				"text": "Boyut:"
+			},
+			"Strikeout": {
+				"text": "Üstü çizili:"
+			},
+			"Underline": {
+				"text": "Altını Çiz:"
+			},
+			"Unit": {
+				"text": "Birim:"
+			},
+			"+ FontBrush": {
+				"text": "+ Yazı Tipi Fırçası:"
+			},
+			"FontTransparent": {
+				"text": "Şeffaf yazı tipi:"
+			},
+			"Guid": {
+				"text": "Kimlik:"
+			},
+			"HorizontalMirrored": {
+				"text": "Yatay olarak çevrildi:"
+			},
+			"IsBuilding": {
+				"text": "Açıklama oluşturuldu:"
+			},
+			"IsVisible": {
+				"text": "Açıklama görünür durumda:"
+			},
+			"LineStyle": {
+				"text": "Çizgi stili:"
+			},
+			"LineStylePatternSize": {
+				"text": "Çizgi stili şablon boyutu:"
+			},
+			"+ Location": {
+				"text": "+ Konum:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "Değiştiren:"
+			},
+			"ModifiedTime": {
+				"text": "Değişim Süresi:"
+			},
+			"Name": {
+				"text": "Ad:"
+			},
+			"+ Outline": {
+				"text": "+ Şema:"
+			},
+			"DashPattern": {
+				"text": "Tire deseni:"
+			},
+			"DashStyle": {
+				"text": "Tire Stili:"
+			},
+			"+ EndCap": {
+				"text": "+ Satırın sonundaki başlık:"
+			},
+			"+ Size": {
+				"text": "+ Boyut:"
+			},
+			"width": {
+				"text": "Genişlik:"
+			},
+			"height": {
+				"text": "Boy:"
+			},
+			"Style": {
+				"text": "Stil:"
+			},
+			"LineJoin": {
+				"text": "Hat bağlantısı:"
+			},
+			"MiterLimit": {
+				"text": "GönyeLimiti:"
+			},
+			"+ StartCap": {
+				"text": "+ Satır başında kapak:"
+			},
+			"Width": {
+				"text": "Genişlik:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ Yeniden boyutlandırma noktası şablonu:"
+			},
+			"BorderColor": {
+				"text": "Kenar Rengi:"
+			},
+			"BorderWidth": {
+				"text": "Kenar genişliği:"
+			},
+			"FillColor": {
+				"text": "Dolgu rengi:"
+			},
+			"InteractionRadius": {
+				"text": "Etkileşim alanı yarıçapı:"
+			},
+			"Radius": {
+				"text": "Yarıçap:"
+			},
+			"Rotation": {
+				"text": "Döndürme:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ Merkez dönüş noktası:"
+			},
+			"Cursor": {
+				"text": "İmleç:"
+			},
+			"+ RotationPoint": {
+				"text": "+ Pivot noktası:"
+			},
+			"RotationPointDistance": {
+				"text": "Döngü noktasına olan mesafe:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ Gölge fırçası:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ Çizim gölgesi için girinti:"
+			},
+			"Symmetry": {
+				"text": "Simetri:"
+			},
+			"Text": {
+				"text": "Metin:"
+			},
+			"TextAlign": {
+				"text": "Metin hizalaması:"
+			},
+			"+ TextBox": {
+				"text": "+ Metin alanı:"
+			},
+			"FontColor": {
+				"text": "Yazı Tipi Rengi:"
+			},
+			"FontFamily": {
+				"text": "Yazı tipi ailesi:"
+			},
+			"FontSize": {
+				"text": "Yazı tipi boyutu:"
+			},
+			"TextBoxHeight": {
+				"text": "Metin alanı yüksekliği:"
+			},
+			"TextBoxWidth": {
+				"text": "Metin alanı genişliği:"
+			},
+			"+ TextPadding": {
+				"text": "+ Metin girintisi:"
+			},
+			"left": {
+				"text": "Sol:"
+			},
+			"right": {
+				"text": "Sağ:"
+			},
+			"top": {
+				"text": "Üst:"
+			},
+			"bottom": {
+				"text": "Alt:"
+			},
+			"ToolTip": {
+				"text": "İpucu:"
+			},
+			"VerticalMirrored": {
+				"text": "Dikey yansıtma:"
+			}
+		},
+		"okButton": {
+			"text": "Tamam"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Hata"
+		},
+		"closeButton": {
+			"text": "Kapat"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "Sayfa",
+		"vssde-annotationPanel-annotationPropertiesLabel": "Açıklama özellikleri",
+		"vssde-textSearchPanel-pageLabel": "Sayfa",
+		"vssde-documentPasswordDialog-title": "Belge parolası",
+		"vssde-dialog-okButton": "Tamam",
+		"vssde-dialog-cancelButton": "İptal",
+		"vssde-imageSelectionDialog-currentImageString": "Geçerli Resim",
+		"vssde-imageSelectionDialog-allImagesString": "Tüm resimler",
+		"vssde-imageSelectionDialog-customImagesString": "Özel Aralık",
+		"vssde-imageSelectionDialog-title": "Görüntüleri Seçin",
+		"vssde-printImagesDialog-withAnnotationsLabel": "açıklamalarla",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "Resim baskı için hazırlanıyor",
+		"vssde-printImagesDialog-title": "Görüntüleri yazdır",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
+		"vssde-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Dönme açısı 0 olmamalıdır.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Açıklamalı resim döndürülüyor",
+		"vssde-rotateImageWithAnnotationsDialog-title": "Açıklamalı Görüntüyü Döndür"
+	}
+}

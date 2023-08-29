@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"viewLabel": {
+			"text": "Преглед"
+		},
+		"toolsLabel": {
+			"text": "Инструменти"
+		},
+		"annotationsLabel": {
+			"text": "Пояснения"
+		},
+		"uploadFileButton": {
+			"title": "Изтеглете и отворете файл"
+		},
+		"previousUploadFilesButton": {
+			"title": "Вижте списък с предварително изтеглени файлове"
+		},
+		"printImagesButton": {
+			"title": "Печат на изображения"
+		},
+		"downloadFileButton": {
+			"title": "Качване на файл"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Побиране по ширина"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "Завъртане на изображението обратно на часовниковата стрелка"
+		},
+		"rotateAngleInput": {
+			"title": "Ъгъл на въртене"
+		},
+		"rotateClockwiseButton": {
+			"title": "Завъртане на изображението по часовниковата стрелка"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Настройки за преглед на изображения"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Настройки за преглед на миниатюри"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "Пояснения, Навигация в документа, Избор на текст"
+		},
+		"panToolButton": {
+			"title": "Панорамиране"
+		},
+		"magnifierToolButton": {
+			"title": "Лупа"
+		},
+		"zoomToolButton": {
+			"title": "Мащаб"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Избор на мащаб"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Правоъгълник"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Елипса"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Подсветка"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Изображение"
+		},
+		"addTextAnnotationButton": {
+			"title": "Текст"
+		},
+		"addStampAnnotationButton": {
+			"title": "Печат"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Връзка"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Стрелка"
+		},
+		"addLineAnnotationButton": {
+			"title": "Линия"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Полилиния"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Многоъгълник"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Линийка"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Триъгълник"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Режим на взаимодействие 'Автор'"
+		},
+		"copyAnnotationButton": {
+			"title": "Копирайте фокусираната анотация"
+		},
+		"pasteAnnotationButton": {
+			"title": "Поставяне на копирана анотация"
+		},
+		"removeAnnotationButton": {
+			"title": "Изтриване на избраната анотация"
+		},
+		"burnAnnotationsButton": {
+			"title": "Запис на колекция от пояснения към изображение"
+		},
+		"saveAnnotationsButton": {
+			"title": "Запазете промените в колекцията от анотации на сървъра"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Завъртане на анотираното изображение"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Активиране на историята на промените"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Отказ"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Повторете"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Средни точки на взаимодействие"
+		},
+		"showMobileMenuButton": {
+			"title": "Още"
+		},
+		"sidePanelCloseButton": {
+			"title": "Показване на страничната лента"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Миниатюри"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Пояснения"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Маркирайте текст"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Търсене на текст"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Режим за избор на текст:"
+			},
+			"rectangleOption": {
+				"text": "Правоъгълник"
+			},
+			"fullLinesOption": {
+				"text": "Цели редове"
+			},
+			"selectionColorLabel": {
+				"text": "Цвят на избрания текст:"
+			},
+			"selectedTextLabel": {
+				"text": "Избран текст:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Намерете:"
+			},
+			"whereLookLabel": {
+				"text": "Търсене на:"
+			},
+			"currentPageOption": {
+				"text": "Текуща страница"
+			},
+			"allPagesOption": {
+				"text": "Всички страници"
+			},
+			"wholeWordLabel": {
+				"text": "Търсене на цялата дума"
+			},
+			"caseSensitiveLabel": {
+				"text": "Регистърът на буквите е чувствителен"
+			},
+			"textNotFoundLabel": {
+				"text": "Текстът не е намерен."
+			},
+			"startSearchButton": {
+				"value": "Стартирайте търсенето"
+			},
+			"stopSearchButton": {
+				"value": "Спрете търсенето"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Отидете на първото изображение"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Отидете на предишното изображение"
+		},
+		"gotoPageInput": {
+			"title": "Страница"
+		},
+		"gotoNextPageButton": {
+			"title": "Отидете на следващото изображение"
+		},
+		"gotoLastPageButton": {
+			"title": "Отидете на последното изображение"
+		},
+		"zoomOutButton": {
+			"title": "Намаляване"
+		},
+		"zoomValueInput": {
+			"title": "Мащаб"
+		},
+		"zoomInButton": {
+			"title": "Увеличаване"
+		},
+		"normalSizeModeButton": {
+			"title": "Нормално"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Най-подходящ"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Подходяща височина"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Пиксел към пиксел"
+		},
+		"zoomSizeModeButton": {
+			"title": "Мащаб"
+		},
+		"addArcAnnotationButton": {
+			"title": "Арк"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Забележка"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Свободен текст"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Двойна стрелка"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Полилиния с интерполация"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Свободна полилиния"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Многоъгълник с интерполация"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Многоъгълник със свободна ръка"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Облачен многоъгълник"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Рулетка"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Ъгъл"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Етикет"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Няма взаимодействие"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Режим на взаимодействие 'Преглед'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Малки точки на взаимодействие"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Големи допирни точки (тъчскрийн)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "Копиране на анотация"
+			},
+			"pasteAnnotationLabel": {
+				"text": "Вмъкване на анотация"
+			},
+			"removeAnnotationLabel": {
+				"text": "Изтриване на анотация"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "Изпращане назад"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "Извеждане отпред"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "Групиране на всички анотации"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "Анотация за разгрупиране"
+			},
+			"annotationPropertiesLabel": {
+				"text": "Свойства на анотацията..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Този документ е защитен с парола. Моля, въведете парола."
+			},
+			"passwordLabel": {
+				"text": "Парола:"
+			},
+			"showPasswordLabel": {
+				"text": "Покажи паролата"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Грешна парола"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Изображения:"
+			},
+			"currentImageOption": {
+				"text": "Текущо изображение"
+			},
+			"allImagesOption": {
+				"text": "Всички изображения"
+			},
+			"customImagesOption": {
+				"text": "Персонализиран диапазон"
+			},
+			"imageRangeLabel": {
+				"text": "Обхват на изображението:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Невалиден диапазон от страници. Пример: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Индексът не е в обхвата на индекса на колекцията от изображения."
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Изображения:"
+			},
+			"currentImageOption": {
+				"text": "Текущо изображение"
+			},
+			"allImagesOption": {
+				"text": "Всички изображения"
+			},
+			"customImagesOption": {
+				"text": "Дефиниран от потребителя"
+			},
+			"imageRangeLabel": {
+				"text": "Обхват на изображението:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Невалиден диапазон от страници. Пример: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Индексът е извън диапазона за колекцията от изображения."
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Размер на миниатюра:"
+			},
+			"scaleLabel": {
+				"text": "Мащаб на миниатюри:"
+			},
+			"smallestOption": {
+				"text": "Най-малко"
+			},
+			"smallOption": {
+				"text": "Малък"
+			},
+			"normalOption": {
+				"text": "Нормално"
+			},
+			"largeOption": {
+				"text": "Голям"
+			},
+			"flowStyleLabel": {
+				"text": "Стил на разположение на миниатюри:"
+			},
+			"singleColumnOption": {
+				"text": "Единична колона"
+			},
+			"singleRowOption": {
+				"text": "Един ред"
+			},
+			"fixedColumnsOption": {
+				"text": "Фиксиран брой колони"
+			},
+			"wrappedRowsOption": {
+				"text": "Плаващ брой редове"
+			},
+			"columnCountLabel": {
+				"text": "Брой колони:"
+			},
+			"marginLabel": {
+				"text": "Външна подложка:"
+			},
+			"paddingTopLabel": {
+				"text": "Горна подложка:"
+			},
+			"paddingRightLabel": {
+				"text": "Десен отстъп:"
+			},
+			"paddingBottomLabel": {
+				"text": "Долна подложка:"
+			},
+			"paddingLeftLabel": {
+				"text": "Ляв отстъп:"
+			},
+			"showCaptionLabel": {
+				"text": "Показване на надписи с миниатюри:"
+			},
+			"captionFormatLabel": {
+				"text": "Формат на подписа:"
+			},
+			"captionAnchorLabel": {
+				"text": "Котва на подписа:"
+			},
+			"topLeftOption": {
+				"text": "Горе|Вляво"
+			},
+			"topOption": {
+				"text": "Най-горе"
+			},
+			"topRightOption": {
+				"text": "Горе|Вдясно"
+			},
+			"rightOption": {
+				"text": "Точно"
+			},
+			"bottomRightOption": {
+				"text": "Долу|вдясно"
+			},
+			"bottomOption": {
+				"text": "Отдолу"
+			},
+			"bottomLeftOption": {
+				"text": "Долу|Вляво"
+			},
+			"leftOption": {
+				"text": "Наляво"
+			},
+			"centerOption": {
+				"text": "Центрирано"
+			},
+			"focusOnHoverLabel": {
+				"text": "Фокус при задържане на курсора на мишката:"
+			},
+			"multiSelectLabel": {
+				"text": "Разрешаване на избор на няколко миниатюри:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Ъгъл на въртене:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Тип цвят на рамката:"
+			},
+			"autoDetectOption": {
+				"text": "Автоматично откриване"
+			},
+			"blackOption": {
+				"text": "Черен"
+			},
+			"whiteOption": {
+				"text": "Бяло"
+			},
+			"transparentOption": {
+				"text": "Прозрачен"
+			},
+			"customOption": {
+				"text": "По избор"
+			},
+			"borderColorLabel": {
+				"text": "Цвят на рамката:"
+			},
+			"changeSourceLabel": {
+				"text": "Промяна на източника"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Изтеглени преди това файлове"
+		},
+		"openButton": {
+			"text": "Отворете файл"
+		},
+		"closeButton": {
+			"text": "Затвори"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "Настройки за преглед на изображения"
+		},
+		"imageDisplayModeLabel": {
+			"text": "Режим на показване на изображение"
+		},
+		"imageAnchorLabel": {
+			"text": "Котва на изображение:"
+		},
+		"imageAnchorSelect": {
+			"value": "Не",
+			"noneOption": {
+				"text": "Няма"
+			},
+			"topLeftOption": {
+				"text": "Горе|Вляво"
+			},
+			"topOption": {
+				"text": "Най-горе"
+			},
+			"topRightOption": {
+				"text": "Горе|Вдясно"
+			},
+			"rightOption": {
+				"text": "Точно"
+			},
+			"bottomRightOption": {
+				"text": "Долу|вдясно"
+			},
+			"bottomOption": {
+				"text": "Отдолу"
+			},
+			"bottomLeftOption": {
+				"text": "Долу|Вляво"
+			},
+			"leftOption": {
+				"text": "Наляво"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "Режим на показване на много страници:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "Фиксирани изображения",
+			"allImagesOption": {
+				"text": "Всички изображения"
+			},
+			"fixedImagesOption": {
+				"text": "Фиксирани изображения"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "Посока на оформлението:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "Вертикално",
+			"horizontalOption": {
+				"text": "Хоризонтално"
+			},
+			"verticalOption": {
+				"text": "Вертикално"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "Изображения на ред/колона:"
+		},
+		"imagesPaddingLabel": {
+			"text": "Попълване на изображение:"
+		},
+		"appearancesLabel": {
+			"text": "Появи"
+		},
+		"imageAppearanceLabel": {
+			"text": "Външен вид на изображението"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "Цвят на фона:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "Цвят на рамката:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "Ширина на границата:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "Външен вид на фокусирано изображение"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "Използване на изгледа на изображението в режим на една страница"
+		},
+		"renderingSettigsLabel": {
+			"text": "Настройки за изобразяване"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "Настройки по подразбиране"
+		},
+		"horResLabel": {
+			"text": "Хоризонтална разделителна способност:"
+		},
+		"vertResLabel": {
+			"text": "Вертикална разделителна способност:"
+		},
+		"smoothingLabel": {
+			"text": "Плавен режим:"
+		},
+		"interpolationLabel": {
+			"text": "Режим на интерполация:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "Начертайте анотация без маркиране"
+		},
+		"otherSettigsLabel": {
+			"text": "Други настройки"
+		},
+		"backgroundColorLabel": {
+			"text": "Цвят на фона на програмата за преглед на изображения:"
+		},
+		"centerImageLabel": {
+			"text": "Централно изображение:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "Изчакване за преоразмеряване:"
+		},
+		"tileSizeLabel": {
+			"text": "Размер на плочката:"
+		},
+		"colorManagementLabel": {
+			"text": "Активиране на управлението на цветовете:"
+		},
+		"useVectorRendering": {
+			"text": "Използване на векторно изобразяване за документи:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "Цвят на фона на векторното съдържание:"
+		},
+		"okButton": {
+			"text": "ОК"
+		},
+		"cancelButton": {
+			"text": "Затвори"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "Свойства на анотация"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "Граница:"
+			},
+			"CanMirror": {
+				"text": "Можете да дублирате:"
+			},
+			"CanMove": {
+				"text": "Може да се движи:"
+			},
+			"CanResize": {
+				"text": "Може да се преоразмерява:"
+			},
+			"CanRotate": {
+				"text": "Може да се върти:"
+			},
+			"CreatedBy": {
+				"text": "Автор:"
+			},
+			"CreationTime": {
+				"text": "Време на създаване:"
+			},
+			"+ FillBrush": {
+				"text": "+ Попълване:"
+			},
+			"Color": {
+				"text": "Цвят:"
+			},
+			"Type": {
+				"text": "Тип:"
+			},
+			"+ Font": {
+				"text": "+ Шрифт:"
+			},
+			"Bold": {
+				"text": "Удебелен:"
+			},
+			"FamilyName": {
+				"text": "Фамилия:"
+			},
+			"Italic": {
+				"text": "Кусив:"
+			},
+			"Size": {
+				"text": "Размер:"
+			},
+			"Strikeout": {
+				"text": "Зачертано:"
+			},
+			"Underline": {
+				"text": "Подчертано:"
+			},
+			"Unit": {
+				"text": "Единица:"
+			},
+			"+ FontBrush": {
+				"text": "+ Четка за шрифт:"
+			},
+			"FontTransparent": {
+				"text": "Прозрачен шрифт:"
+			},
+			"Guid": {
+				"text": "ID:"
+			},
+			"HorizontalMirrored": {
+				"text": "Обърнато хоризонтално:"
+			},
+			"IsBuilding": {
+				"text": "Анотацията е изградена:"
+			},
+			"IsVisible": {
+				"text": "Анотацията се вижда:"
+			},
+			"LineStyle": {
+				"text": "Стил на линията:"
+			},
+			"LineStylePatternSize": {
+				"text": "Размер на шаблона за стил на линия:"
+			},
+			"+ Location": {
+				"text": "+ Местоположение:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "Променено от:"
+			},
+			"ModifiedTime": {
+				"text": "Време за промяна:"
+			},
+			"Name": {
+				"text": "Име:"
+			},
+			"+ Outline": {
+				"text": "+ Схема:"
+			},
+			"DashPattern": {
+				"text": "Модел с тире:"
+			},
+			"DashStyle": {
+				"text": "Стил на тире:"
+			},
+			"+ EndCap": {
+				"text": "+ Капачка в края на реда:"
+			},
+			"+ Size": {
+				"text": "+ Размер:"
+			},
+			"width": {
+				"text": "Ширина:"
+			},
+			"height": {
+				"text": "Височина:"
+			},
+			"Style": {
+				"text": "Стил:"
+			},
+			"LineJoin": {
+				"text": "Връзка по линия:"
+			},
+			"MiterLimit": {
+				"text": "MiterLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ Ограничение в началото на реда:"
+			},
+			"Width": {
+				"text": "Ширина:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ Шаблон за преоразмеряване на точки:"
+			},
+			"BorderColor": {
+				"text": "Цвят на рамката:"
+			},
+			"BorderWidth": {
+				"text": "Ширина на границата:"
+			},
+			"FillColor": {
+				"text": "Цвят на запълване:"
+			},
+			"InteractionRadius": {
+				"text": "Радиус на зоната на взаимодействие:"
+			},
+			"Radius": {
+				"text": "Радиус:"
+			},
+			"Rotation": {
+				"text": "Ротация:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ Централна точка на въртене:"
+			},
+			"Cursor": {
+				"text": "Курсор:"
+			},
+			"+ RotationPoint": {
+				"text": "+ Опорна точка:"
+			},
+			"RotationPointDistance": {
+				"text": "Разстояние до опорна точка:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ Четка за сенки:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ Отстъп за рисуване на сянка:"
+			},
+			"Symmetry": {
+				"text": "Симетрия:"
+			},
+			"Text": {
+				"text": "Текст:"
+			},
+			"TextAlign": {
+				"text": "Подравняване на текст:"
+			},
+			"+ TextBox": {
+				"text": "+ Текстово поле:"
+			},
+			"FontColor": {
+				"text": "Цвят на шрифта:"
+			},
+			"FontFamily": {
+				"text": "Семейство шрифтове:"
+			},
+			"FontSize": {
+				"text": "Размер на шрифта:"
+			},
+			"TextBoxHeight": {
+				"text": "Височина на текстовото поле:"
+			},
+			"TextBoxWidth": {
+				"text": "Ширина на текстовото поле:"
+			},
+			"+ TextPadding": {
+				"text": "+ Отстъп на текста:"
+			},
+			"left": {
+				"text": "Наляво:"
+			},
+			"right": {
+				"text": "Дясно:"
+			},
+			"top": {
+				"text": "Нагоре:"
+			},
+			"bottom": {
+				"text": "Долу:"
+			},
+			"ToolTip": {
+				"text": "Съвет:"
+			},
+			"VerticalMirrored": {
+				"text": "Вертикално отразяване:"
+			}
+		},
+		"okButton": {
+			"text": "ОК"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Грешка"
+		},
+		"closeButton": {
+			"text": "Затвори"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "Страница",
+		"vssde-annotationPanel-annotationPropertiesLabel": "Свойства на анотация",
+		"vssde-textSearchPanel-pageLabel": "Страница",
+		"vssde-documentPasswordDialog-title": "Парола за документ",
+		"vssde-dialog-okButton": "ОК",
+		"vssde-dialog-cancelButton": "Отказ",
+		"vssde-imageSelectionDialog-currentImageString": "Текущо изображение",
+		"vssde-imageSelectionDialog-allImagesString": "Всички изображения",
+		"vssde-imageSelectionDialog-customImagesString": "Персонализиран диапазон",
+		"vssde-imageSelectionDialog-title": "Изберете изображения",
+		"vssde-printImagesDialog-withAnnotationsLabel": "с анотации",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "Изображението се подготвя за печат",
+		"vssde-printImagesDialog-title": "Отпечатайте изображения",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:",
+		"vssde-thumbnailViewerSettingDialog-title": "Настройки за преглед на миниатюри",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Ъгълът на въртене не трябва да е 0.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Коментираното изображение се завърта",
+		"vssde-rotateImageWithAnnotationsDialog-title": "Завъртане на анотирано изображение"
+	}
+}

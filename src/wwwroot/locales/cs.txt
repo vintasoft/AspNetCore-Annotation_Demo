@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Soubor"
+		},
+		"viewLabel": {
+			"text": "Zobrazit"
+		},
+		"toolsLabel": {
+			"text": "Nástroje"
+		},
+		"annotationsLabel": {
+			"text": "Anotace"
+		},
+		"uploadFileButton": {
+			"title": "Stáhněte a otevřete soubor"
+		},
+		"previousUploadFilesButton": {
+			"title": "Zobrazit seznam dříve stažených souborů"
+		},
+		"printImagesButton": {
+			"title": "Tisk obrázků"
+		},
+		"downloadFileButton": {
+			"title": "Nahrát soubor"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Přizpůsobit šířce"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "Otočit obrázek proti směru hodinových ručiček"
+		},
+		"rotateAngleInput": {
+			"title": "Úhel otočení"
+		},
+		"rotateClockwiseButton": {
+			"title": "Otočit obrázek ve směru hodinových ručiček"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Nastavení prohlížeče obrázků"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Nastavení prohlížeče miniatur"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "Anotace, navigace v dokumentu, výběr textu"
+		},
+		"panToolButton": {
+			"title": "Pán"
+		},
+		"magnifierToolButton": {
+			"title": "Lupa"
+		},
+		"zoomToolButton": {
+			"title": "Měřítko"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Výběr měřítka"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Obdélník"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Elipsa"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Podsvícení"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Obrázek"
+		},
+		"addTextAnnotationButton": {
+			"title": "Text"
+		},
+		"addStampAnnotationButton": {
+			"title": "Razítko"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Odkaz"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Šipka"
+		},
+		"addLineAnnotationButton": {
+			"title": "Řádek"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Křivka"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Mnohoúhelník"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Pravítko"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Trojúhelník"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Režim interakce 'Autor'"
+		},
+		"copyAnnotationButton": {
+			"title": "Kopírovat zaměřenou anotaci"
+		},
+		"pasteAnnotationButton": {
+			"title": "Vložit zkopírovanou anotaci"
+		},
+		"removeAnnotationButton": {
+			"title": "Smazat vybranou anotaci"
+		},
+		"burnAnnotationsButton": {
+			"title": "Vypálit kolekci anotací do obrázku"
+		},
+		"saveAnnotationsButton": {
+			"title": "Uložte změny do kolekce anotací na serveru"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Otočit anotovaný obrázek"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Povolit historii změn"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Zrušit"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Opakujte"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Střední body interakce"
+		},
+		"showMobileMenuButton": {
+			"title": "Více"
+		},
+		"sidePanelCloseButton": {
+			"title": "Zobrazit postranní panel"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatury"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Anotace"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Zvýrazněte text"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Hledat text"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Režim výběru textu:"
+			},
+			"rectangleOption": {
+				"text": "Obdélník"
+			},
+			"fullLinesOption": {
+				"text": "Úplné řádky"
+			},
+			"selectionColorLabel": {
+				"text": "Barva vybraného textu:"
+			},
+			"selectedTextLabel": {
+				"text": "Vybraný text:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Najít:"
+			},
+			"whereLookLabel": {
+				"text": "Hledat na:"
+			},
+			"currentPageOption": {
+				"text": "Aktuální stránka"
+			},
+			"allPagesOption": {
+				"text": "Všechny stránky"
+			},
+			"wholeWordLabel": {
+				"text": "Hledat celé slovo"
+			},
+			"caseSensitiveLabel": {
+				"text": "Rozlišují se malá a velká písmena"
+			},
+			"textNotFoundLabel": {
+				"text": "Text nebyl nalezen."
+			},
+			"startSearchButton": {
+				"value": "Zahájit vyhledávání"
+			},
+			"stopSearchButton": {
+				"value": "Zastavit vyhledávání"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Přejít na první obrázek"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Přejít na předchozí obrázek"
+		},
+		"gotoPageInput": {
+			"title": "Stránka"
+		},
+		"gotoNextPageButton": {
+			"title": "Přejít na další obrázek"
+		},
+		"gotoLastPageButton": {
+			"title": "Přejít na poslední obrázek"
+		},
+		"zoomOutButton": {
+			"title": "Oddálit"
+		},
+		"zoomValueInput": {
+			"title": "Měřítko"
+		},
+		"zoomInButton": {
+			"title": "Přiblížit"
+		},
+		"normalSizeModeButton": {
+			"title": "Normální"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Nejvhodnější"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Přizpůsobit výšku"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel to Pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Měřítko"
+		},
+		"addArcAnnotationButton": {
+			"title": "Oblouk"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Poznámka"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Volný text"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Dvojitá šipka"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Křivka s interpolací"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Křivka od ruky"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Mnohoúhelník s interpolací"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": " Mnohoúhelník od ruky"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Mrakový mnohoúhelník"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Ruleta"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Úhel"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Štítek"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Žádná interakce"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Režim interakce „Zobrazit“"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Malé interakční body"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Velké dotykové body (dotyková obrazovka)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "Kopírovat anotaci"
+			},
+			"pasteAnnotationLabel": {
+				"text": "Vložit anotaci"
+			},
+			"removeAnnotationLabel": {
+				"text": "Odstranit anotaci"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "Odeslat zpět"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "Přenést dopředu"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "Seskupit všechny anotace"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "Zrušit seskupení anotace"
+			},
+			"annotationPropertiesLabel": {
+				"text": "Vlastnosti anotace..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Tento dokument je chráněn heslem. Prosím, vložte heslo."
+			},
+			"passwordLabel": {
+				"text": "Heslo:"
+			},
+			"showPasswordLabel": {
+				"text": "Zobrazit heslo"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Špatné heslo"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Obrázky:"
+			},
+			"currentImageOption": {
+				"text": "Aktuální obrázek"
+			},
+			"allImagesOption": {
+				"text": "Všechny obrázky"
+			},
+			"customImagesOption": {
+				"text": "Vlastní rozsah"
+			},
+			"imageRangeLabel": {
+				"text": "Rozsah obrázků:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Neplatný rozsah stránek. Příklad: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Index není v rozsahu indexů kolekce obrázků."
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Obrázky:"
+			},
+			"currentImageOption": {
+				"text": "Aktuální obrázek"
+			},
+			"allImagesOption": {
+				"text": "Všechny obrázky"
+			},
+			"customImagesOption": {
+				"text": "Definováno uživatelem"
+			},
+			"imageRangeLabel": {
+				"text": "Rozsah obrázků:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Neplatný rozsah stránek. Příklad: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Index je mimo rozsah pro kolekci obrázků."
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Velikost miniatury:"
+			},
+			"scaleLabel": {
+				"text": "Měřítko miniatur:"
+			},
+			"smallestOption": {
+				"text": "Nejméně"
+			},
+			"smallOption": {
+				"text": "Malé"
+			},
+			"normalOption": {
+				"text": "Normální"
+			},
+			"largeOption": {
+				"text": "Velký"
+			},
+			"flowStyleLabel": {
+				"text": "Styl umístění miniatur:"
+			},
+			"singleColumnOption": {
+				"text": "Jeden sloupec"
+			},
+			"singleRowOption": {
+				"text": "Jeden řádek"
+			},
+			"fixedColumnsOption": {
+				"text": "Pevný počet sloupců"
+			},
+			"wrappedRowsOption": {
+				"text": "Plovoucí počet řádků"
+			},
+			"columnCountLabel": {
+				"text": "Počet sloupců:"
+			},
+			"marginLabel": {
+				"text": "Vnější polstrování:"
+			},
+			"paddingTopLabel": {
+				"text": "Horní výplň:"
+			},
+			"paddingRightLabel": {
+				"text": "Pravé odsazení:"
+			},
+			"paddingBottomLabel": {
+				"text": "Spodní výplň:"
+			},
+			"paddingLeftLabel": {
+				"text": "Levé odsazení:"
+			},
+			"showCaptionLabel": {
+				"text": "Zobrazit titulky miniatur:"
+			},
+			"captionFormatLabel": {
+				"text": "Formát podpisu:"
+			},
+			"captionAnchorLabel": {
+				"text": "Ukotvení podpisu:"
+			},
+			"topLeftOption": {
+				"text": "Nahoře|Vlevo"
+			},
+			"topOption": {
+				"text": "Nahoře"
+			},
+			"topRightOption": {
+				"text": "Nahoře|Vpravo"
+			},
+			"rightOption": {
+				"text": "Správně"
+			},
+			"bottomRightOption": {
+				"text": "Dole|Vpravo"
+			},
+			"bottomOption": {
+				"text": "Dolní"
+			},
+			"bottomLeftOption": {
+				"text": "Dole|Vlevo"
+			},
+			"leftOption": {
+				"text": "Vlevo"
+			},
+			"centerOption": {
+				"text": "Na střed"
+			},
+			"focusOnHoverLabel": {
+				"text": "Zaměření kurzoru:"
+			},
+			"multiSelectLabel": {
+				"text": "Povolit výběr více miniatur:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Úhel otočení:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Typ barvy okraje:"
+			},
+			"autoDetectOption": {
+				"text": "Automatická detekce"
+			},
+			"blackOption": {
+				"text": "Černá"
+			},
+			"whiteOption": {
+				"text": "Bílá"
+			},
+			"transparentOption": {
+				"text": "Transparentní"
+			},
+			"customOption": {
+				"text": "Vlastní"
+			},
+			"borderColorLabel": {
+				"text": "Barva ohraničení:"
+			},
+			"changeSourceLabel": {
+				"text": "Změnit zdroj"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Dříve stažené soubory"
+		},
+		"openButton": {
+			"text": "Otevřít soubor"
+		},
+		"closeButton": {
+			"text": "Zavřít"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "Nastavení prohlížeče obrázků"
+		},
+		"imageDisplayModeLabel": {
+			"text": "Režim zobrazení obrazu"
+		},
+		"imageAnchorLabel": {
+			"text": "Ukotvení obrázku:"
+		},
+		"imageAnchorSelect": {
+			"value": "Ne",
+			"noneOption": {
+				"text": "Žádné"
+			},
+			"topLeftOption": {
+				"text": "Nahoře|Vlevo"
+			},
+			"topOption": {
+				"text": "Nahoře"
+			},
+			"topRightOption": {
+				"text": "Nahoře|Vpravo"
+			},
+			"rightOption": {
+				"text": "Správně"
+			},
+			"bottomRightOption": {
+				"text": "Dole|Vpravo"
+			},
+			"bottomOption": {
+				"text": "Dolní"
+			},
+			"bottomLeftOption": {
+				"text": "Dole|Vlevo"
+			},
+			"leftOption": {
+				"text": "Vlevo"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "Režim vícestránkového zobrazení:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "Opravené obrázky",
+			"allImagesOption": {
+				"text": "Všechny obrázky"
+			},
+			"fixedImagesOption": {
+				"text": "Opravené obrázky"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "Směr rozložení:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "Vertikální",
+			"horizontalOption": {
+				"text": "Horizontální"
+			},
+			"verticalOption": {
+				"text": "Vertikální"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "Obrázky na řádek/sloupec:"
+		},
+		"imagesPaddingLabel": {
+			"text": "Odsazení obrázku:"
+		},
+		"appearancesLabel": {
+			"text": "Vzhledy"
+		},
+		"imageAppearanceLabel": {
+			"text": "Vzhled obrázku"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "Barva pozadí:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "Barva ohraničení:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "Šířka okraje:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "Vzhled zaostřeného obrazu"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "Použít vzhled obrazu v režimu jedné stránky"
+		},
+		"renderingSettigsLabel": {
+			"text": "Nastavení vykreslování"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "Výchozí nastavení"
+		},
+		"horResLabel": {
+			"text": "Horizontální rozlišení:"
+		},
+		"vertResLabel": {
+			"text": "Vertikální rozlišení:"
+		},
+		"smoothingLabel": {
+			"text": "Smooth Mode:"
+		},
+		"interpolationLabel": {
+			"text": "Režim interpolace:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "Nakreslete anotaci bez označení"
+		},
+		"otherSettigsLabel": {
+			"text": "Další nastavení"
+		},
+		"backgroundColorLabel": {
+			"text": "Barva pozadí prohlížeče obrázků:"
+		},
+		"centerImageLabel": {
+			"text": "Obrázek uprostřed:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "Časový limit změny velikosti:"
+		},
+		"tileSizeLabel": {
+			"text": "Velikost dlaždice:"
+		},
+		"colorManagementLabel": {
+			"text": "Povolit správu barev:"
+		},
+		"useVectorRendering": {
+			"text": "Použít vektorové vykreslování pro dokumenty:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "Barva pozadí vektorového obsahu:"
+		},
+		"okButton": {
+			"text": "OK"
+		},
+		"cancelButton": {
+			"text": "Zavřít"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "Vlastnosti anotace"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "Hranice:"
+			},
+			"CanMirror": {
+				"text": "Můžete zrcadlit:"
+			},
+			"CanMove": {
+				"text": "Může se pohybovat:"
+			},
+			"CanResize": {
+				"text": "Velikost lze změnit:"
+			},
+			"CanRotate": {
+				"text": "Lze otáčet:"
+			},
+			"CreatedBy": {
+				"text": "Autor:"
+			},
+			"CreationTime": {
+				"text": "Čas vytvoření:"
+			},
+			"+ FillBrush": {
+				"text": "+ Výplň:"
+			},
+			"Color": {
+				"text": "Barva:"
+			},
+			"Type": {
+				"text": "Typ:"
+			},
+			"+ Font": {
+				"text": "+ Písmo:"
+			},
+			"Bold": {
+				"text": "Tučné:"
+			},
+			"FamilyName": {
+				"text": "Příjmení:"
+			},
+			"Italic": {
+				"text": "kurzíva:"
+			},
+			"Size": {
+				"text": "Velikost:"
+			},
+			"Strikeout": {
+				"text": "Přeškrtnuté:"
+			},
+			"Underline": {
+				"text": "Podtrženo:"
+			},
+			"Unit": {
+				"text": "Jednotka:"
+			},
+			"+ FontBrush": {
+				"text": "+ Štětec písma:"
+			},
+			"FontTransparent": {
+				"text": "Transparentní písmo:"
+			},
+			"Guid": {
+				"text": "ID:"
+			},
+			"HorizontalMirrored": {
+				"text": "Vodorovně převrácené:"
+			},
+			"IsBuilding": {
+				"text": "Poznámka je vytvořena:"
+			},
+			"IsVisible": {
+				"text": "Je viditelná anotace:"
+			},
+			"LineStyle": {
+				"text": "Styl čáry:"
+			},
+			"LineStylePatternSize": {
+				"text": "Velikost šablony stylu čáry:"
+			},
+			"+ Location": {
+				"text": "+ Místo:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "Změnil:"
+			},
+			"ModifiedTime": {
+				"text": "Čas změny:"
+			},
+			"Name": {
+				"text": "Jméno:"
+			},
+			"+ Outline": {
+				"text": "+ Schéma:"
+			},
+			"DashPattern": {
+				"text": "Vzor čárky:"
+			},
+			"DashStyle": {
+				"text": "Styl pomlčky:"
+			},
+			"+ EndCap": {
+				"text": "+ Cap na konci řádku:"
+			},
+			"+ Size": {
+				"text": "+ Velikost:"
+			},
+			"width": {
+				"text": "Šířka:"
+			},
+			"height": {
+				"text": "Výška:"
+			},
+			"Style": {
+				"text": "Styl:"
+			},
+			"LineJoin": {
+				"text": "Linkové připojení:"
+			},
+			"MiterLimit": {
+				"text": "MiterLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ Omezení na začátku řádku:"
+			},
+			"Width": {
+				"text": "Šířka:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ Šablona bodu pro změnu velikosti:"
+			},
+			"BorderColor": {
+				"text": "Barva ohraničení:"
+			},
+			"BorderWidth": {
+				"text": "Šířka okraje:"
+			},
+			"FillColor": {
+				"text": "Barva výplně:"
+			},
+			"InteractionRadius": {
+				"text": "Poloměr interakční oblasti:"
+			},
+			"Radius": {
+				"text": "Poloměr:"
+			},
+			"Rotation": {
+				"text": "Rotace:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ Střed otáčení:"
+			},
+			"Cursor": {
+				"text": "Kurzor:"
+			},
+			"+ RotationPoint": {
+				"text": "+ Pivot bod:"
+			},
+			"RotationPointDistance": {
+				"text": "Vzdálenost k bodu otáčení:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ Štětec na stíny:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ Odsazení pro kreslení stínu:"
+			},
+			"Symmetry": {
+				"text": "Symetrie:"
+			},
+			"Text": {
+				"text": "Text:"
+			},
+			"TextAlign": {
+				"text": "Zarovnání textu:"
+			},
+			"+ TextBox": {
+				"text": "+ Textové pole:"
+			},
+			"FontColor": {
+				"text": "Barva písma:"
+			},
+			"FontFamily": {
+				"text": "Rodina písem:"
+			},
+			"FontSize": {
+				"text": "Velikost písma:"
+			},
+			"TextBoxHeight": {
+				"text": "Výška textového pole:"
+			},
+			"TextBoxWidth": {
+				"text": "Šířka textového pole:"
+			},
+			"+ TextPadding": {
+				"text": "+ Odsazení textu:"
+			},
+			"left": {
+				"text": "Vlevo:"
+			},
+			"right": {
+				"text": "Vpravo:"
+			},
+			"top": {
+				"text": "Nahoře:"
+			},
+			"bottom": {
+				"text": "Dole:"
+			},
+			"ToolTip": {
+				"text": "Nápověda:"
+			},
+			"VerticalMirrored": {
+				"text": "Vertikální zrcadlení:"
+			}
+		},
+		"okButton": {
+			"text": "OK"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Chyba"
+		},
+		"closeButton": {
+			"text": "Zavřít"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "Stránka",
+		"vssde-annotationPanel-annotationPropertiesLabel": "Vlastnosti anotace",
+		"vssde-textSearchPanel-pageLabel": "Stránka",
+		"vssde-documentPasswordDialog-title": "Heslo dokumentu",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Zrušit",
+		"vssde-imageSelectionDialog-currentImageString": "Aktuální obrázek",
+		"vssde-imageSelectionDialog-allImagesString": "Všechny obrázky",
+		"vssde-imageSelectionDialog-customImagesString": "Vlastní rozsah",
+		"vssde-imageSelectionDialog-title": "Vyberte obrázky",
+		"vssde-printImagesDialog-withAnnotationsLabel": "s poznámkami",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "Obrázek se připravuje k tisku",
+		"vssde-printImagesDialog-title": "Tisk obrázků",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobrazení poznámek na miniaturách:",
+		"vssde-thumbnailViewerSettingDialog-title": "Nastavení prohlížeče miniatur",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Úhel otočení nesmí být 0.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Anotovaný obrázek se otáčí",
+		"vssde-rotateImageWithAnnotationsDialog-title": "Otočit anotovaný obrázek"
+	}
+}

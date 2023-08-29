@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Αρχείο"
+		},
+		"viewLabel": {
+			"text": "Προβολή"
+		},
+		"toolsLabel": {
+			"text": "Εργαλεία"
+		},
+		"annotationsLabel": {
+			"text": "Σχολιασμοί"
+		},
+		"uploadFileButton": {
+			"title": "Λήψη και άνοιγμα αρχείου"
+		},
+		"previousUploadFilesButton": {
+			"title": "Προβολή λίστας αρχείων που έχετε λάβει προηγουμένως"
+		},
+		"printImagesButton": {
+			"title": "Εκτύπωση εικόνων"
+		},
+		"downloadFileButton": {
+			"title": "Μεταφόρτωση αρχείου"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Προσαρμογή στο πλάτος"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "Περιστροφή εικόνας αριστερόστροφα"
+		},
+		"rotateAngleInput": {
+			"title": "Γωνία περιστροφής"
+		},
+		"rotateClockwiseButton": {
+			"title": "Περιστροφή εικόνας δεξιόστροφα"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Ρυθμίσεις προβολής εικόνων"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Ρυθμίσεις προβολής μικρογραφιών"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "Σχολιασμοί, Πλοήγηση εγγράφων, Επιλογή κειμένου"
+		},
+		"panToolButton": {
+			"title": "Παν"
+		},
+		"magnifierToolButton": {
+			"title": "Μεγεθυντικός φακός"
+		},
+		"zoomToolButton": {
+			"title": "Κλίμακα"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Επιλογή κλίμακας"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Ορθογώνιο"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Έλειψη"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Οπίσθιος φωτισμός"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Εικόνα"
+		},
+		"addTextAnnotationButton": {
+			"title": "Κείμενο"
+		},
+		"addStampAnnotationButton": {
+			"title": "Σφραγίδα"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Σύνδεσμος"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Βέλος"
+		},
+		"addLineAnnotationButton": {
+			"title": "Γραμμή"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Πολυγραμμή"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Πολύγωνο"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Χάρακας"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Τρίγωνο"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Λειτουργία αλληλεπίδρασης 'Συγγραφέας'"
+		},
+		"copyAnnotationButton": {
+			"title": "Αντιγραφή εστιασμένου σχολιασμού"
+		},
+		"pasteAnnotationButton": {
+			"title": "Επικόλληση αντιγραμμένου σχολιασμού"
+		},
+		"removeAnnotationButton": {
+			"title": "Διαγραφή επιλεγμένου σχολιασμού"
+		},
+		"burnAnnotationsButton": {
+			"title": "Εγγραφή συλλογής σχολιασμών σε εικόνα"
+		},
+		"saveAnnotationsButton": {
+			"title": "Αποθηκεύστε τις αλλαγές στη συλλογή σχολίων στον διακομιστή"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Περιστροφή σχολιασμένης εικόνας"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Ενεργοποίηση ιστορικού αλλαγών"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Ακύρωση"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Επανάληψη"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Μεσαία σημεία αλληλεπίδρασης"
+		},
+		"showMobileMenuButton": {
+			"title": "Περισσότερα"
+		},
+		"sidePanelCloseButton": {
+			"title": "Εμφάνιση πλαϊνής γραμμής"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Μικρογραφίες"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Σχολιασμοί"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Επισήμανση κειμένου"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Αναζήτηση κειμένου"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Λειτουργία επιλογής κειμένου:"
+			},
+			"rectangleOption": {
+				"text": "Ορθογώνιο"
+			},
+			"fullLinesOption": {
+				"text": "Πλήρες γραμμές"
+			},
+			"selectionColorLabel": {
+				"text": "Χρώμα επιλεγμένου κειμένου:"
+			},
+			"selectedTextLabel": {
+				"text": "Επιλεγμένο κείμενο:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Εύρεση:"
+			},
+			"whereLookLabel": {
+				"text": "Αναζήτηση σε:"
+			},
+			"currentPageOption": {
+				"text": "Τρέχουσα σελίδα"
+			},
+			"allPagesOption": {
+				"text": "Όλες οι σελίδες"
+			},
+			"wholeWordLabel": {
+				"text": "Αναζήτηση ολόκληρης της λέξης"
+			},
+			"caseSensitiveLabel": {
+				"text": "Διάκριση πεζών-κεφαλαίων"
+			},
+			"textNotFoundLabel": {
+				"text": "Το κείμενο δεν βρέθηκε."
+			},
+			"startSearchButton": {
+				"value": "Έναρξη αναζήτησης"
+			},
+			"stopSearchButton": {
+				"value": "Διακοπή αναζήτησης"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Μετάβαση στην πρώτη εικόνα"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Μετάβαση στην προηγούμενη εικόνα"
+		},
+		"gotoPageInput": {
+			"title": "Σελίδα"
+		},
+		"gotoNextPageButton": {
+			"title": "Μετάβαση στην επόμενη εικόνα"
+		},
+		"gotoLastPageButton": {
+			"title": "Μετάβαση στην τελευταία εικόνα"
+		},
+		"zoomOutButton": {
+			"title": "Σμίκρυνση"
+		},
+		"zoomValueInput": {
+			"title": "Κλίμακα"
+		},
+		"zoomInButton": {
+			"title": "Μεγέθυνση"
+		},
+		"normalSizeModeButton": {
+			"title": "Κανονικό"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Πιο κατάλληλο"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Καθορισμένο ύψος"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel σε Pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Κλίμακα"
+		},
+		"addArcAnnotationButton": {
+			"title": "Τόξο"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Σημείωση"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Ελεύθερο κείμενο"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Διπλό βέλος"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Πολυγραμμή με παρεμβολή"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Ελεύθερη πολύγραμμη"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Πολύγωνο με παρεμβολή"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Ελεύθερο πολύγωνο"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": " Σύννεφο πολύγωνο"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Ρουλέτα"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Γωνία"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Ετικέτα"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Καμία αλληλεπίδραση"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Λειτουργία αλληλεπίδρασης 'Προβολή'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Μικρά σημεία αλληλεπίδρασης"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Μεγάλα σημεία επαφής (οθόνη αφής)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "Αντιγραφή σχολιασμού"
+			},
+			"pasteAnnotationLabel": {
+				"text": "Εισαγωγή σχολιασμού"
+			},
+			"removeAnnotationLabel": {
+				"text": "Διαγραφή σχολιασμού"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "Αποστολή στην Πίσω"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "Μεταφορά στο μπροστινό μέρος"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "Ομαδοποιήστε όλους τους σχολιασμούς"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "Κατάργηση ομαδοποίησης σχολιασμού"
+			},
+			"annotationPropertiesLabel": {
+				"text": "Ιδιότητες σχολιασμού..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Αυτό το έγγραφο προστατεύεται με κωδικό πρόσβασης. Εισαγάγετε έναν κωδικό πρόσβασης."
+			},
+			"passwordLabel": {
+				"text": "Κωδικός πρόσβασης:"
+			},
+			"showPasswordLabel": {
+				"text": "Εμφάνιση κωδικού πρόσβασης"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Λάθος κωδικός πρόσβασης"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Εικόνες:"
+			},
+			"currentImageOption": {
+				"text": "Τρέχουσα εικόνα"
+			},
+			"allImagesOption": {
+				"text": "Όλες οι εικόνες"
+			},
+			"customImagesOption": {
+				"text": "Προσαρμοσμένο εύρος"
+			},
+			"imageRangeLabel": {
+				"text": "Εύρος εικόνων:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Μη έγκυρο εύρος σελίδων. Παράδειγμα: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Το ευρετήριο δεν βρίσκεται εντός του εύρους ευρετηρίου της συλλογής εικόνων."
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Εικόνες:"
+			},
+			"currentImageOption": {
+				"text": "Τρέχουσα εικόνα"
+			},
+			"allImagesOption": {
+				"text": "Όλες οι εικόνες"
+			},
+			"customImagesOption": {
+				"text": "Ορίστηκε από το χρήστη"
+			},
+			"imageRangeLabel": {
+				"text": "Εύρος εικόνων:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Μη έγκυρο εύρος σελίδων. Παράδειγμα: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Το ευρετήριο είναι εκτός εύρους για τη συλλογή εικόνων."
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Μέγεθος μικρογραφίας:"
+			},
+			"scaleLabel": {
+				"text": "Κλίμακα μικρογραφιών:"
+			},
+			"smallestOption": {
+				"text": "Ελάχιστο"
+			},
+			"smallOption": {
+				"text": "Μικρό"
+			},
+			"normalOption": {
+				"text": "Κανονικό"
+			},
+			"largeOption": {
+				"text": "Μεγάλο"
+			},
+			"flowStyleLabel": {
+				"text": "Στιλ τοποθέτησης μικρογραφίας:"
+			},
+			"singleColumnOption": {
+				"text": "Μονή στήλη"
+			},
+			"singleRowOption": {
+				"text": "Μία γραμμή"
+			},
+			"fixedColumnsOption": {
+				"text": "Σταθερός αριθμός στηλών"
+			},
+			"wrappedRowsOption": {
+				"text": "Κινούμενος αριθμός σειρών"
+			},
+			"columnCountLabel": {
+				"text": "Αριθμός στηλών:"
+			},
+			"marginLabel": {
+				"text": "Εξωτερική επένδυση:"
+			},
+			"paddingTopLabel": {
+				"text": " Επάνω γέμιση:"
+			},
+			"paddingRightLabel": {
+				"text": "Δεξιά εσοχή:"
+			},
+			"paddingBottomLabel": {
+				"text": "Κάτω γέμιση:"
+			},
+			"paddingLeftLabel": {
+				"text": "Αριστερή εσοχή:"
+			},
+			"showCaptionLabel": {
+				"text": "Εμφάνιση λεζάντας μικρογραφιών:"
+			},
+			"captionFormatLabel": {
+				"text": "Μορφή υπογραφής:"
+			},
+			"captionAnchorLabel": {
+				"text": "Άγκυρα υπογραφής:"
+			},
+			"topLeftOption": {
+				"text": "Επάνω|Αριστερά"
+			},
+			"topOption": {
+				"text": "Κορυφ"
+			},
+			"topRightOption": {
+				"text": "Επάνω|Δεξιά"
+			},
+			"rightOption": {
+				"text": "Σωστά"
+			},
+			"bottomRightOption": {
+				"text": "Κάτω|Δεξιά"
+			},
+			"bottomOption": {
+				"text": "Κάτω"
+			},
+			"bottomLeftOption": {
+				"text": "Κάτω|Αριστερά"
+			},
+			"leftOption": {
+				"text": "Αριστερά"
+			},
+			"centerOption": {
+				"text": "Σε κέντρο"
+			},
+			"focusOnHoverLabel": {
+				"text": "Εστίαση με το δείκτη του ποντικιού:"
+			},
+			"multiSelectLabel": {
+				"text": "Να επιτρέπεται η επιλογή πολλαπλών μικρογραφιών:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Γωνία περιστροφής:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Τύπος χρώματος περιγράμματος:"
+			},
+			"autoDetectOption": {
+				"text": "Αυτόματος εντοπισμός"
+			},
+			"blackOption": {
+				"text": "Μαύρο"
+			},
+			"whiteOption": {
+				"text": "Λευκό"
+			},
+			"transparentOption": {
+				"text": "Διαφανές"
+			},
+			"customOption": {
+				"text": "Προσαρμοσμένο"
+			},
+			"borderColorLabel": {
+				"text": "Χρώμα περιγράμματος:"
+			},
+			"changeSourceLabel": {
+				"text": "Αλλαγή πηγής"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Αρχεία που έχουν ληφθεί προηγουμένως"
+		},
+		"openButton": {
+			"text": "Άνοιγμα αρχείου"
+		},
+		"closeButton": {
+			"text": "Κλείσιμο"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "Ρυθμίσεις προβολής εικόνων"
+		},
+		"imageDisplayModeLabel": {
+			"text": "Λειτουργία προβολής εικόνας"
+		},
+		"imageAnchorLabel": {
+			"text": "Άγκυρα εικόνας:"
+		},
+		"imageAnchorSelect": {
+			"value": "Όχι",
+			"noneOption": {
+				"text": "Κανένα"
+			},
+			"topLeftOption": {
+				"text": "Επάνω|Αριστερά"
+			},
+			"topOption": {
+				"text": "Κορυφ"
+			},
+			"topRightOption": {
+				"text": "Επάνω|Δεξιά"
+			},
+			"rightOption": {
+				"text": "Σωστά"
+			},
+			"bottomRightOption": {
+				"text": "Κάτω|Δεξιά"
+			},
+			"bottomOption": {
+				"text": "Κάτω"
+			},
+			"bottomLeftOption": {
+				"text": "Κάτω|Αριστερά"
+			},
+			"leftOption": {
+				"text": "Αριστερά"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "Λειτουργία προβολής πολλών σελίδων:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "Διορθώθηκαν εικόνες",
+			"allImagesOption": {
+				"text": "Όλες οι εικόνες"
+			},
+			"fixedImagesOption": {
+				"text": "Διορθώθηκαν εικόνες"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "Κατεύθυνση διάταξης:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "Κάθετη",
+			"horizontalOption": {
+				"text": "Οριζόντια"
+			},
+			"verticalOption": {
+				"text": "Κάθετη"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "Εικόνες ανά σειρά/στήλη:"
+		},
+		"imagesPaddingLabel": {
+			"text": "Προσθήκη εικόνας:"
+		},
+		"appearancesLabel": {
+			"text": "Εμφανίσεις"
+		},
+		"imageAppearanceLabel": {
+			"text": "Εμφάνιση εικόνας"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "Χρώμα φόντου:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "Χρώμα περιγράμματος:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "Πλάτος περιγράμματος:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "Εμφάνιση εικόνας σε εστίαση"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "Χρησιμοποιήστε την εμφάνιση εικόνας σε λειτουργία μίας σελίδας"
+		},
+		"renderingSettigsLabel": {
+			"text": "Ρυθμίσεις απόδοσης"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "Προεπιλεγμένες ρυθμίσεις"
+		},
+		"horResLabel": {
+			"text": "Οριζόντια ανάλυση:"
+		},
+		"vertResLabel": {
+			"text": "Κάθετη ανάλυση:"
+		},
+		"smoothingLabel": {
+			"text": "Ομαλή λειτουργία:"
+		},
+		"interpolationLabel": {
+			"text": "Λειτουργία παρεμβολής:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "Σχεδιάστε σχολιασμούς χωρίς σήμανση"
+		},
+		"otherSettigsLabel": {
+			"text": "Άλλες ρυθμίσεις"
+		},
+		"backgroundColorLabel": {
+			"text": "Χρώμα φόντου προβολής εικόνων:"
+		},
+		"centerImageLabel": {
+			"text": "Κεντρική εικόνα:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "Χρονικό όριο αλλαγής μεγέθους:"
+		},
+		"tileSizeLabel": {
+			"text": "Μέγεθος πλακιδίων:"
+		},
+		"colorManagementLabel": {
+			"text": "Ενεργοποίηση διαχείρισης χρωμάτων:"
+		},
+		"useVectorRendering": {
+			"text": "Χρησιμοποιήστε διανυσματική απόδοση για έγγραφα:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "Χρώμα φόντου περιεχομένου διάνυσμα:"
+		},
+		"okButton": {
+			"text": "ΟΚ"
+		},
+		"cancelButton": {
+			"text": "Κλείσιμο"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "Ιδιότητες σχολιασμού"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "Όριο:"
+			},
+			"CanMirror": {
+				"text": "Μπορείτε να αντικατοπτρίσετε:"
+			},
+			"CanMove": {
+				"text": "Μπορεί να μετακινηθεί:"
+			},
+			"CanResize": {
+				"text": "Μπορεί να αλλάξει μέγεθος:"
+			},
+			"CanRotate": {
+				"text": "Μπορεί να περιστραφεί:"
+			},
+			"CreatedBy": {
+				"text": "Συγγραφέας:"
+			},
+			"CreationTime": {
+				"text": "Χρόνος δημιουργίας:"
+			},
+			"+ FillBrush": {
+				"text": "+ Γέμισμα:"
+			},
+			"Color": {
+				"text": "Χρώμα:"
+			},
+			"Type": {
+				"text": "Τύπος:"
+			},
+			"+ Font": {
+				"text": "+ Γραμματοσειρά:"
+			},
+			"Bold": {
+				"text": "Έντονη:"
+			},
+			"FamilyName": {
+				"text": "Ονοματεπώνυμο:"
+			},
+			"Italic": {
+				"text": "Πλάγια:"
+			},
+			"Size": {
+				"text": "Μέγεθος:"
+			},
+			"Strikeout": {
+				"text": "Παράβαση:"
+			},
+			"Underline": {
+				"text": "Υπογράμμιση:"
+			},
+			"Unit": {
+				"text": "Μονάδα:"
+			},
+			"+ FontBrush": {
+				"text": "+ Πινέλο γραμματοσειράς:"
+			},
+			"FontTransparent": {
+				"text": "Διαφανής γραμματοσειρά:"
+			},
+			"Guid": {
+				"text": "Αναγνωριστικό:"
+			},
+			"HorizontalMirrored": {
+				"text": "Αναστροφή οριζόντια:"
+			},
+			"IsBuilding": {
+				"text": "Δημιουργήθηκε σχολιασμός:"
+			},
+			"IsVisible": {
+				"text": "Ο σχολιασμός είναι ορατός:"
+			},
+			"LineStyle": {
+				"text": "Στιλ γραμμής:"
+			},
+			"LineStylePatternSize": {
+				"text": "Μέγεθος προτύπου στυλ γραμμής:"
+			},
+			"+ Location": {
+				"text": "+ Τοποθεσία:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "Αλλαγή από:"
+			},
+			"ModifiedTime": {
+				"text": "Ώρα αλλαγής:"
+			},
+			"Name": {
+				"text": "Όνομα:"
+			},
+			"+ Outline": {
+				"text": "+ Σχέδιο:"
+			},
+			"DashPattern": {
+				"text": "Μοτίβο παύλας:"
+			},
+			"DashStyle": {
+				"text": "Στιλ παύλας:"
+			},
+			"+ EndCap": {
+				"text": "+ Καπάκι στο τέλος της γραμμής:"
+			},
+			"+ Size": {
+				"text": "+ Μέγεθος:"
+			},
+			"width": {
+				"text": "Πλάτος:"
+			},
+			"height": {
+				"text": "Ύψος:"
+			},
+			"Style": {
+				"text": "Στυλ:"
+			},
+			"LineJoin": {
+				"text": "Σύνδεση γραμμής:"
+			},
+			"MiterLimit": {
+				"text": "MiterLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ Καπάκι στην αρχή της γραμμής:"
+			},
+			"Width": {
+				"text": "Πλάτος:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ Πρότυπο αλλαγής μεγέθους:"
+			},
+			"BorderColor": {
+				"text": "Χρώμα περιγράμματος:"
+			},
+			"BorderWidth": {
+				"text": "Πλάτος περιγράμματος:"
+			},
+			"FillColor": {
+				"text": "Χρώμα γεμίσματος:"
+			},
+			"InteractionRadius": {
+				"text": "Ακτίνα περιοχής αλληλεπίδρασης:"
+			},
+			"Radius": {
+				"text": "Ακτίνα:"
+			},
+			"Rotation": {
+				"text": "Περιστροφή:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ Κεντρικό σημείο περιστροφής:"
+			},
+			"Cursor": {
+				"text": "Δρομέας:"
+			},
+			"+ RotationPoint": {
+				"text": "+ Σημείο περιστροφής:"
+			},
+			"RotationPointDistance": {
+				"text": "Απόσταση από το σημείο περιστροφής:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ Πινέλο σκιών:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ Εσοχή για σχεδίαση σκιάς:"
+			},
+			"Symmetry": {
+				"text": "Συμμετρία:"
+			},
+			"Text": {
+				"text": "Κείμενο:"
+			},
+			"TextAlign": {
+				"text": "Στοίχιση κειμένου:"
+			},
+			"+ TextBox": {
+				"text": "+ Πεδίο κειμένου:"
+			},
+			"FontColor": {
+				"text": "Χρώμα γραμματοσειράς:"
+			},
+			"FontFamily": {
+				"text": "Οικογένεια γραμματοσειρών:"
+			},
+			"FontSize": {
+				"text": "Μέγεθος γραμματοσειράς:"
+			},
+			"TextBoxHeight": {
+				"text": "Ύψος πεδίου κειμένου:"
+			},
+			"TextBoxWidth": {
+				"text": "Πλάτος πεδίου κειμένου:"
+			},
+			"+ TextPadding": {
+				"text": "+ Εσοχή κειμένου:"
+			},
+			"left": {
+				"text": "Αριστερά:"
+			},
+			"right": {
+				"text": "Δεξιά:"
+			},
+			"top": {
+				"text": "Αρχή:"
+			},
+			"bottom": {
+				"text": "Κάτω:"
+			},
+			"ToolTip": {
+				"text": "Υπόδειξη:"
+			},
+			"VerticalMirrored": {
+				"text": "Κάθετος κατοπτρισμός:"
+			}
+		},
+		"okButton": {
+			"text": "ΟΚ"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Σφάλμα"
+		},
+		"closeButton": {
+			"text": "Κλείσιμο"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "Σελίδα",
+		"vssde-annotationPanel-annotationPropertiesLabel": "Ιδιότητες σχολιασμού",
+		"vssde-textSearchPanel-pageLabel": "Σελίδα",
+		"vssde-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
+		"vssde-dialog-okButton": "ΟΚ",
+		"vssde-dialog-cancelButton": "Ακύρωση",
+		"vssde-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
+		"vssde-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
+		"vssde-imageSelectionDialog-customImagesString": "Προσαρμοσμένο εύρος",
+		"vssde-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
+		"vssde-printImagesDialog-withAnnotationsLabel": "με σχολιασμούς",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "Η εικόνα προετοιμάζεται για εκτύπωση",
+		"vssde-printImagesDialog-title": "Εκτύπωση εικόνων",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
+		"vssde-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Η γωνία περιστροφής δεν πρέπει να είναι 0.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται",
+		"vssde-rotateImageWithAnnotationsDialog-title": "Περιστροφή σχολιασμένης εικόνας"
+	}
+}

@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Fájl"
+		},
+		"viewLabel": {
+			"text": "Megtekintés"
+		},
+		"toolsLabel": {
+			"text": "Eszközök"
+		},
+		"annotationsLabel": {
+			"text": "Annotációk"
+		},
+		"uploadFileButton": {
+			"title": "Fájl letöltése és megnyitása"
+		},
+		"previousUploadFilesButton": {
+			"title": "A korábban letöltött fájlok listájának megtekintése"
+		},
+		"printImagesButton": {
+			"title": "Képek nyomtatása"
+		},
+		"downloadFileButton": {
+			"title": "Fájl feltöltése"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Szélességhez igazítás"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "A kép elforgatása az óramutató járásával ellentétes irányba"
+		},
+		"rotateAngleInput": {
+			"title": "Elforgatási szög"
+		},
+		"rotateClockwiseButton": {
+			"title": "A kép elforgatása az óramutató járásával megegyező irányba"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Képnézegető beállításai"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Miniatűr-nézegető beállításai"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "Jegyzetek, Dokumentumnavigáció, Szövegkijelölés"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"magnifierToolButton": {
+			"title": "Nagyító"
+		},
+		"zoomToolButton": {
+			"title": "Skála"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Skála kiválasztása"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Téglalap"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Ellipszis"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Háttérvilágítás"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Kép"
+		},
+		"addTextAnnotationButton": {
+			"title": "Szöveg"
+		},
+		"addStampAnnotationButton": {
+			"title": "Bélyegző"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Link"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Nyíl"
+		},
+		"addLineAnnotationButton": {
+			"title": "Vonal"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Vonallánc"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Sokszög"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Vonalzó"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Háromszög"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Interakciós mód 'Szerző'"
+		},
+		"copyAnnotationButton": {
+			"title": "Fókuszált megjegyzés másolása"
+		},
+		"pasteAnnotationButton": {
+			"title": "Másolt megjegyzés beillesztése"
+		},
+		"removeAnnotationButton": {
+			"title": "A kiválasztott megjegyzés törlése"
+		},
+		"burnAnnotationsButton": {
+			"title": "A megjegyzések gyűjteményének írása a képre"
+		},
+		"saveAnnotationsButton": {
+			"title": "Változások mentése a megjegyzésgyűjteményben a kiszolgálón"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "A megjegyzésekkel ellátott kép elforgatása"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Változástörténet engedélyezése"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Mégse"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Ismétlés"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Közepes interakciós pontok"
+		},
+		"showMobileMenuButton": {
+			"title": "Továbbiak"
+		},
+		"sidePanelCloseButton": {
+			"title": "Oldalsáv megjelenítése"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Indexképek"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Annotációk"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Szöveg kiemelése"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Szöveg keresése"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Szövegkiválasztási mód:"
+			},
+			"rectangleOption": {
+				"text": "Téglalap"
+			},
+			"fullLinesOption": {
+				"text": "Teljes sorok"
+			},
+			"selectionColorLabel": {
+				"text": "A kiválasztott szöveg színe:"
+			},
+			"selectedTextLabel": {
+				"text": "Kiválasztott szöveg:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Keresés:"
+			},
+			"whereLookLabel": {
+				"text": "Keresés itt:"
+			},
+			"currentPageOption": {
+				"text": "Aktuális oldal"
+			},
+			"allPagesOption": {
+				"text": "Minden oldal"
+			},
+			"wholeWordLabel": {
+				"text": "A teljes szó keresése"
+			},
+			"caseSensitiveLabel": {
+				"text": "Kis- és nagybetűk megkülönböztetése"
+			},
+			"textNotFoundLabel": {
+				"text": "A szöveg nem található."
+			},
+			"startSearchButton": {
+				"value": "Keresés indítása"
+			},
+			"stopSearchButton": {
+				"value": "Hagyja abba a keresést"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Ugrás az első képre"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Ugrás az előző képre"
+		},
+		"gotoPageInput": {
+			"title": "Oldal"
+		},
+		"gotoNextPageButton": {
+			"title": "Ugrás a következő képre"
+		},
+		"gotoLastPageButton": {
+			"title": "Ugrás az utolsó képre"
+		},
+		"zoomOutButton": {
+			"title": "Kicsinyítés"
+		},
+		"zoomValueInput": {
+			"title": "Skála"
+		},
+		"zoomInButton": {
+			"title": "Nagyítás"
+		},
+		"normalSizeModeButton": {
+			"title": "Normál"
+		},
+		"bestFitSizeModeButton": {
+			"title": "A legalkalmasabb"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Fitt magasság"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel–pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Skála"
+		},
+		"addArcAnnotationButton": {
+			"title": "Ív"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Megjegyzés"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Szabad szöveg"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Dupla nyíl"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Polyline interpolációval"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Szabadkézi vonallánc"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Sokszög interpolációval"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Szabadkézi sokszög"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Felhőpoligon"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Rulett"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Szög"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Címke"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Nincs interakció"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Interakciós mód 'View'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Kis interakciós pontok"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Nagy érintési pontok (érintőképernyő)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "Jegyzet másolása"
+			},
+			"pasteAnnotationLabel": {
+				"text": "Jegyzet beszúrása"
+			},
+			"removeAnnotationLabel": {
+				"text": "Jegyzet törlése"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "Küldés vissza"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "Előre hozza"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "Az összes megjegyzés csoportosítása"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "A megjegyzés csoportosítása"
+			},
+			"annotationPropertiesLabel": {
+				"text": "Annotáció tulajdonságai..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Ez a dokumentum jelszóval védett. Adjon meg egy jelszót."
+			},
+			"passwordLabel": {
+				"text": "Jelszó:"
+			},
+			"showPasswordLabel": {
+				"text": "Jelszó megjelenítése"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Rossz jelszó"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Képek:"
+			},
+			"currentImageOption": {
+				"text": "Aktuális kép"
+			},
+			"allImagesOption": {
+				"text": "Minden kép"
+			},
+			"customImagesOption": {
+				"text": "Egyéni tartomány"
+			},
+			"imageRangeLabel": {
+				"text": "Képtartomány:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Érvénytelen oldaltartomány. Példa: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Az index nincs a képgyűjtemény indextartományán belül."
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Képek:"
+			},
+			"currentImageOption": {
+				"text": "Aktuális kép"
+			},
+			"allImagesOption": {
+				"text": "Minden kép"
+			},
+			"customImagesOption": {
+				"text": "Felhasználó által meghatározott"
+			},
+			"imageRangeLabel": {
+				"text": "Képtartomány:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Érvénytelen oldaltartomány. Példa: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Az index kívül esik a képgyűjtemény tartományán."
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Indexkép mérete:"
+			},
+			"scaleLabel": {
+				"text": "Indexkép léptéke:"
+			},
+			"smallestOption": {
+				"text": "Legkisebb"
+			},
+			"smallOption": {
+				"text": "Kicsi"
+			},
+			"normalOption": {
+				"text": "Normál"
+			},
+			"largeOption": {
+				"text": "Nagy"
+			},
+			"flowStyleLabel": {
+				"text": "Miniatűr elhelyezési stílus:"
+			},
+			"singleColumnOption": {
+				"text": "Egy oszlop"
+			},
+			"singleRowOption": {
+				"text": "Egy sor"
+			},
+			"fixedColumnsOption": {
+				"text": "Rögzített számú oszlop"
+			},
+			"wrappedRowsOption": {
+				"text": "Lebegő sorok száma"
+			},
+			"columnCountLabel": {
+				"text": "Oszlopok száma:"
+			},
+			"marginLabel": {
+				"text": "Külső párnázás:"
+			},
+			"paddingTopLabel": {
+				"text": "Felső párnázás:"
+			},
+			"paddingRightLabel": {
+				"text": "Jobb behúzás:"
+			},
+			"paddingBottomLabel": {
+				"text": "Alsó párnázás:"
+			},
+			"paddingLeftLabel": {
+				"text": "Bal behúzás:"
+			},
+			"showCaptionLabel": {
+				"text": "Miniatűr feliratok megjelenítése:"
+			},
+			"captionFormatLabel": {
+				"text": "Aláírás formátuma:"
+			},
+			"captionAnchorLabel": {
+				"text": "Aláírási horgony:"
+			},
+			"topLeftOption": {
+				"text": "Fent|Bal"
+			},
+			"topOption": {
+				"text": "Felső"
+			},
+			"topRightOption": {
+				"text": "Fent|Jobbra"
+			},
+			"rightOption": {
+				"text": "Jobb"
+			},
+			"bottomRightOption": {
+				"text": "Alul|Jobbra"
+			},
+			"bottomOption": {
+				"text": "Alul"
+			},
+			"bottomLeftOption": {
+				"text": "Alul|Bal"
+			},
+			"leftOption": {
+				"text": "Bal"
+			},
+			"centerOption": {
+				"text": "Középen"
+			},
+			"focusOnHoverLabel": {
+				"text": "Hover fókusz:"
+			},
+			"multiSelectLabel": {
+				"text": "Több indexkép kiválasztásának engedélyezése:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Elforgatási szög:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Szegély színtípusa:"
+			},
+			"autoDetectOption": {
+				"text": "Automatikus felismerés"
+			},
+			"blackOption": {
+				"text": "Fekete"
+			},
+			"whiteOption": {
+				"text": "Fehér"
+			},
+			"transparentOption": {
+				"text": "Átlátszó"
+			},
+			"customOption": {
+				"text": "Egyedi"
+			},
+			"borderColorLabel": {
+				"text": "Szegély színe:"
+			},
+			"changeSourceLabel": {
+				"text": "Forrás módosítása"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Korábban letöltött fájlok"
+		},
+		"openButton": {
+			"text": "Fájl megnyitása"
+		},
+		"closeButton": {
+			"text": "Bezárás"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "A képnézegető beállításai"
+		},
+		"imageDisplayModeLabel": {
+			"text": "Kép megjelenítési mód"
+		},
+		"imageAnchorLabel": {
+			"text": "Képhorgony:"
+		},
+		"imageAnchorSelect": {
+			"value": "Nem",
+			"noneOption": {
+				"text": "Nincs"
+			},
+			"topLeftOption": {
+				"text": "Fent|Bal"
+			},
+			"topOption": {
+				"text": "Felső"
+			},
+			"topRightOption": {
+				"text": "Fent|Jobbra"
+			},
+			"rightOption": {
+				"text": "Jobb"
+			},
+			"bottomRightOption": {
+				"text": "Alul|Jobbra"
+			},
+			"bottomOption": {
+				"text": "Alul"
+			},
+			"bottomLeftOption": {
+				"text": "Alul|Bal"
+			},
+			"leftOption": {
+				"text": "Bal"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "Többoldalas megjelenítési mód:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "Rögzített képek",
+			"allImagesOption": {
+				"text": "Minden kép"
+			},
+			"fixedImagesOption": {
+				"text": "Rögzített képek"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "Elrendezés iránya:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "Függőleges",
+			"horizontalOption": {
+				"text": "Vízszintes"
+			},
+			"verticalOption": {
+				"text": "Függőleges"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "Képek soronként/oszloponként:"
+		},
+		"imagesPaddingLabel": {
+			"text": "Kép kitöltés:"
+		},
+		"appearancesLabel": {
+			"text": "Megjelenések"
+		},
+		"imageAppearanceLabel": {
+			"text": "Kép megjelenése"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "Háttérszín:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "Szegély színe:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "Szegély szélessége:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "Az éles kép megjelenése"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "A képmegjelenés használata egyoldalas módban"
+		},
+		"renderingSettigsLabel": {
+			"text": "Renderezési beállítások"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "Alapértelmezett beállítások"
+		},
+		"horResLabel": {
+			"text": "Vízszintes felbontás:"
+		},
+		"vertResLabel": {
+			"text": "Függőleges felbontás:"
+		},
+		"smoothingLabel": {
+			"text": "Sima mód:"
+		},
+		"interpolationLabel": {
+			"text": "Interpolációs mód:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "Annotáció rajzolása jelölés nélkül"
+		},
+		"otherSettigsLabel": {
+			"text": "Egyéb beállítások"
+		},
+		"backgroundColorLabel": {
+			"text": "Képnézegető háttérszíne:"
+		},
+		"centerImageLabel": {
+			"text": "Kép középső része:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "Átméretezés időtúllépése:"
+		},
+		"tileSizeLabel": {
+			"text": "Csempe mérete:"
+		},
+		"colorManagementLabel": {
+			"text": "Színkezelés engedélyezése:"
+		},
+		"useVectorRendering": {
+			"text": "Vektoros renderelés használata dokumentumokhoz:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "Vektortartalom háttérszíne:"
+		},
+		"okButton": {
+			"text": "Rendben"
+		},
+		"cancelButton": {
+			"text": "Bezárás"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "Annotáció tulajdonságai"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "Határ:"
+			},
+			"CanMirror": {
+				"text": "Tükrözheti:"
+			},
+			"CanMove": {
+				"text": "Mozgatható:"
+			},
+			"CanResize": {
+				"text": "Átméretezhető:"
+			},
+			"CanRotate": {
+				"text": "Elforgatható:"
+			},
+			"CreatedBy": {
+				"text": "Szerző:"
+			},
+			"CreationTime": {
+				"text": "Létrehozási idő:"
+			},
+			"+ FillBrush": {
+				"text": "+ Kitöltés:"
+			},
+			"Color": {
+				"text": "Szín:"
+			},
+			"Type": {
+				"text": "Típus:"
+			},
+			"+ Font": {
+				"text": "+ Betűtípus:"
+			},
+			"Bold": {
+				"text": "félkövér:"
+			},
+			"FamilyName": {
+				"text": "Családnév:"
+			},
+			"Italic": {
+				"text": "Dőlt:"
+			},
+			"Size": {
+				"text": "Méret:"
+			},
+			"Strikeout": {
+				"text": "Áthúzás:"
+			},
+			"Underline": {
+				"text": "Aláhúzás:"
+			},
+			"Unit": {
+				"text": "Egység:"
+			},
+			"+ FontBrush": {
+				"text": "+ Betűkefe:"
+			},
+			"FontTransparent": {
+				"text": "Átlátszó betűtípus:"
+			},
+			"Guid": {
+				"text": "ID:"
+			},
+			"HorizontalMirrored": {
+				"text": "Vízszintesen elfordítva:"
+			},
+			"IsBuilding": {
+				"text": "A kommentár elkészült:"
+			},
+			"IsVisible": {
+				"text": "A kommentár látható:"
+			},
+			"LineStyle": {
+				"text": "Vonalstílus:"
+			},
+			"LineStylePatternSize": {
+				"text": "Vonalstílus-sablon mérete:"
+			},
+			"+ Location": {
+				"text": "+ Helyszín:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "Módosította:"
+			},
+			"ModifiedTime": {
+				"text": "Változási idő:"
+			},
+			"Name": {
+				"text": "Név:"
+			},
+			"+ Outline": {
+				"text": "+ Séma:"
+			},
+			"DashPattern": {
+				"text": "Szaggatott minta:"
+			},
+			"DashStyle": {
+				"text": "Stílus:"
+			},
+			"+ EndCap": {
+				"text": "+ Cap a sor végén:"
+			},
+			"+ Size": {
+				"text": "+ Méret:"
+			},
+			"width": {
+				"text": "Szélesség:"
+			},
+			"height": {
+				"text": "Magasság:"
+			},
+			"Style": {
+				"text": "Stílus:"
+			},
+			"LineJoin": {
+				"text": "Vonal kapcsolat:"
+			},
+			"MiterLimit": {
+				"text": "Mérhatár:"
+			},
+			"+ StartCap": {
+				"text": "+ sapka a sor elején:"
+			},
+			"Width": {
+				"text": "Szélesség:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ Pontsablon átméretezése:"
+			},
+			"BorderColor": {
+				"text": "Szegély színe:"
+			},
+			"BorderWidth": {
+				"text": "Szegély szélessége:"
+			},
+			"FillColor": {
+				"text": "Kitöltés színe:"
+			},
+			"InteractionRadius": {
+				"text": "Az interakciós terület sugara:"
+			},
+			"Radius": {
+				"text": "Sugár:"
+			},
+			"Rotation": {
+				"text": "Forgatás:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ Forgás középpontja:"
+			},
+			"Cursor": {
+				"text": "Kurzor:"
+			},
+			"+ RotationPoint": {
+				"text": "+ Forgáspont:"
+			},
+			"RotationPointDistance": {
+				"text": "Távolság a forgásponttól:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ Árnyakecset:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ Behúzás az árnyék rajzolásához:"
+			},
+			"Symmetry": {
+				"text": "Szimmetria:"
+			},
+			"Text": {
+				"text": "Szöveg:"
+			},
+			"TextAlign": {
+				"text": "Szöveg igazítása:"
+			},
+			"+ TextBox": {
+				"text": "+ Szövegmező:"
+			},
+			"FontColor": {
+				"text": "Betűszín:"
+			},
+			"FontFamily": {
+				"text": "Betűcsalád:"
+			},
+			"FontSize": {
+				"text": "Betűméret:"
+			},
+			"TextBoxHeight": {
+				"text": "Szövegmező magassága:"
+			},
+			"TextBoxWidth": {
+				"text": "Szövegmező szélessége:"
+			},
+			"+ TextPadding": {
+				"text": "+ Szöveg behúzása:"
+			},
+			"left": {
+				"text": "Bal:"
+			},
+			"right": {
+				"text": "Jobbra:"
+			},
+			"top": {
+				"text": "Felső:"
+			},
+			"bottom": {
+				"text": "Alul:"
+			},
+			"ToolTip": {
+				"text": "Tipp:"
+			},
+			"VerticalMirrored": {
+				"text": "Függőleges tükrözés:"
+			}
+		},
+		"okButton": {
+			"text": "Rendben"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Hiba"
+		},
+		"closeButton": {
+			"text": "Bezárás"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "Oldal",
+		"vssde-annotationPanel-annotationPropertiesLabel": "Annotáció tulajdonságai",
+		"vssde-textSearchPanel-pageLabel": "Oldal",
+		"vssde-documentPasswordDialog-title": "Dokumentum jelszava",
+		"vssde-dialog-okButton": "Rendben",
+		"vssde-dialog-cancelButton": "Mégse",
+		"vssde-imageSelectionDialog-currentImageString": "Aktuális kép",
+		"vssde-imageSelectionDialog-allImagesString": "Minden kép",
+		"vssde-imageSelectionDialog-customImagesString": "Egyéni tartomány",
+		"vssde-imageSelectionDialog-title": "Képek kiválasztása",
+		"vssde-printImagesDialog-withAnnotationsLabel": "jegyzetekkel",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "A kép nyomtatásra készül",
+		"vssde-printImagesDialog-title": "Képek nyomtatása",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
+		"vssde-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Az elforgatási szög nem lehet 0.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "A megjegyzésekkel ellátott kép elforgatása folyamatban van",
+		"vssde-rotateImageWithAnnotationsDialog-title": "A megjegyzésekkel ellátott kép elforgatása"
+	}
+}

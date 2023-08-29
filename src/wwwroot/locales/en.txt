@@ -1,0 +1,929 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "File"
+		},
+		"viewLabel": {
+			"text": "View"
+		},
+		"toolsLabel": {
+			"text": "Tools"
+		},
+		"annotationsLabel": {
+			"text": "Annotations"
+		},
+		"uploadFileButton": {
+			"title": "Upload and open file"
+		},
+		"previousUploadFilesButton": {
+			"title": "Previously Uploaded Files"
+		},
+		"printImagesButton": {
+			"title": "Print images"
+		},
+		"downloadFileButton": {
+			"title": "Download image file"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Fit to width"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "Rotate image counterclockwise"
+		},
+		"rotateAngleInput": {
+			"title": "Angle"
+		},
+		"rotateClockwiseButton": {
+			"title": "Rotate image clockwise"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Show Image Viewer Settings"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Thumbnail viewer settings"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "Annotations, Document navigation, Text selection"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"magnifierToolButton": {
+			"title": "Magnifier"
+		},
+		"zoomToolButton": {
+			"title": "Zoom"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Zoom selection"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Rectangle"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Ellipse"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Highlight"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Referenced image"
+		},
+		"addTextAnnotationButton": {
+			"title": "Text"
+		},
+		"addStampAnnotationButton": {
+			"title": "Stamp"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Link"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Arrow"
+		},
+		"addLineAnnotationButton": {
+			"title": "Line"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Lines"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Polygon"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Ruler"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Triangle"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Interaction mode 'Author'"
+		},
+		"copyAnnotationButton": {
+			"title": "Copy focused annotation"
+		},
+		"pasteAnnotationButton": {
+			"title": "Paste copied annotation"
+		},
+		"removeAnnotationButton": {
+			"title": "Remove focused annotation"
+		},
+		"burnAnnotationsButton": {
+			"title": "Burn annotation collection on image"
+		},
+		"saveAnnotationsButton": {
+			"title": "Save annotation collection changes to the server"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Rotate image with annotations"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Enable undo/redo"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Undo"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Redo"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Medium interaction points"
+		},
+		"showMobileMenuButton": {
+			"title": "More"
+		},
+		"sidePanelCloseButton": {
+			"title": "Show Side Panel"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Thumbnails"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Annotations"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Text selection"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Find text"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Selection mode:"
+			},
+			"rectangleOption": {
+				"text": "Rectangle"
+			},
+			"fullLinesOption": {
+				"text": "Full lines"
+			},
+			"selectionColorLabel": {
+				"text": "Selection color:"
+			},
+			"selectedTextLabel": {
+				"text": "Selected text:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Find:"
+			},
+			"whereLookLabel": {
+				"text": "Look in:"
+			},
+			"currentPageOption": {
+				"text": "Current page"
+			},
+			"allPagesOption": {
+				"text": "All pages"
+			},
+			"wholeWordLabel": {
+				"text": "Whole word"
+			},
+			"caseSensitiveLabel": {
+				"text": "Case-sensitive"
+			},
+			"startSearchButton": {
+				"value": "Start"
+			},
+			"stopSearchButton": {
+				"value": "Stop"
+			},
+			"textNotFoundLabel": {
+				"text": "Text is not found."
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Go to the first image"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Go to the previous image"
+		},
+		"gotoPageInput": {
+			"title": "Page"
+		},
+		"gotoNextPageButton": {
+			"title": "Go to the next image"
+		},
+		"gotoLastPageButton": {
+			"title": "Go to the last image"
+		},
+		"zoomOutButton": {
+			"title": "Zoom out"
+		},
+		"zoomValueInput": {
+			"title": "Zoom"
+		},
+		"zoomInButton": {
+			"title": "Zoom in"
+		},
+		"normalSizeModeButton": {
+			"title": "Normal"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Best fit"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Fit to height"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel to pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Zoom"
+		},
+		"addArcAnnotationButton": {
+			"title": "Arc"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Sticky note"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Free text"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Double arrow"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Lines with interpolation"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Freehand lines"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Polygon with interpolation"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Freehand polygon"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Cloud polygon"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Rulers"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Angle"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Mark"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Interaction mode 'None'"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Interaction mode 'View'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Small interaction points"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Large interaction points (Touch screen)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "Copy annotation"
+			},
+			"pasteAnnotationLabel": {
+				"text": "Paste annotation"
+			},
+			"removeAnnotationLabel": {
+				"text": "Remove annotation"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "Bring to back"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "Bring to front"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "Group all annotations"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "Ungroup annotation"
+			},
+			"annotationPropertiesLabel": {
+				"text": "Annotation properties..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "This document is password protected. Please enter a password."
+			},
+			"passwordLabel": {
+				"text": "Password:"
+			},
+			"showPasswordLabel": {
+				"text": "Show password"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Incorrect password"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Images:"
+			},
+			"currentImageOption": {
+				"text": "Current image"
+			},
+			"allImagesOption": {
+				"text": "All images"
+			},
+			"customImagesOption": {
+				"text": "Custom"
+			},
+			"imageRangeLabel": {
+				"text": "Image range:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Invalid page range. Example: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Index out of range of image collection."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Images:"
+			},
+			"currentImageOption": {
+				"text": "Current image"
+			},
+			"allImagesOption": {
+				"text": "All images"
+			},
+			"customImagesOption": {
+				"text": "Custom"
+			},
+			"imageRangeLabel": {
+				"text": "Image range:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Invalid page range. Example: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Index out of range of image collection."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Size:"
+			},
+			"scaleLabel": {
+				"text": "Scale:"
+			},
+			"smallestOption": {
+				"text": "Smallest"
+			},
+			"smallOption": {
+				"text": "Small"
+			},
+			"normalOption": {
+				"text": "Normal"
+			},
+			"largeOption": {
+				"text": "Large"
+			},
+			"flowStyleLabel": {
+				"text": "Flow Style:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Column Count:"
+			},
+			"marginLabel": {
+				"text": "Margin:"
+			},
+			"paddingTopLabel": {
+				"text": "Padding Top:"
+			},
+			"paddingRightLabel": {
+				"text": "Padding Right:"
+			},
+			"paddingBottomLabel": {
+				"text": "Padding Bottom:"
+			},
+			"paddingLeftLabel": {
+				"text": "Padding Left:"
+			},
+			"showCaptionLabel": {
+				"text": "Show Captions:"
+			},
+			"captionFormatLabel": {
+				"text": "Caption Format:"
+			},
+			"captionAnchorLabel": {
+				"text": "Caption Anchor:"
+			},
+			"topLeftOption": {
+				"text": "Top|Left"
+			},
+			"topOption": {
+				"text": "Top"
+			},
+			"topRightOption": {
+				"text": "Top|Right"
+			},
+			"rightOption": {
+				"text": "Right"
+			},
+			"bottomRightOption": {
+				"text": "Bottom|Right"
+			},
+			"bottomOption": {
+				"text": "Bottom"
+			},
+			"bottomLeftOption": {
+				"text": "Bottom|Left"
+			},
+			"leftOption": {
+				"text": "Left"
+			},
+			"centerOption": {
+				"text": "Center"
+			},
+			"focusOnHoverLabel": {
+				"text": "Focus OnHover:"
+			},
+			"multiSelectLabel": {
+				"text": "Multiselect:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Angle:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Border color type:"
+			},
+			"autoDetectOption": {
+				"text": "AutoDetect"
+			},
+			"blackOption": {
+				"text": "Black"
+			},
+			"whiteOption": {
+				"text": "White"
+			},
+			"transparentOption": {
+				"text": "Transparent"
+			},
+			"customOption": {
+				"text": "Custom"
+			},
+			"borderColorLabel": {
+				"text": "Border Color:"
+			},
+			"changeSourceLabel": {
+				"text": "Change Source"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Previously uploaded files"
+		},
+		"openButton": {
+			"text": "Open"
+		},
+		"closeButton": {
+			"text": "Close"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "Image viewer settings"
+		},
+		"imageDisplayModeLabel": {
+			"text": "Image display mode"
+		},
+		"imageAnchorLabel": {
+			"text": "Image anchor:"
+		},
+		"imageAnchorSelect": {
+			"value": "None",
+			"noneOption": {
+				"text": "None"
+			},
+			"topLeftOption": {
+				"text": "Top|Left"
+			},
+			"topOption": {
+				"text": "Top"
+			},
+			"topRightOption": {
+				"text": "Top|Right"
+			},
+			"rightOption": {
+				"text": "Right"
+			},
+			"bottomRightOption": {
+				"text": "Bottom|Right"
+			},
+			"bottomOption": {
+				"text": "Bottom"
+			},
+			"bottomLeftOption": {
+				"text": "Bottom|Left"
+			},
+			"leftOption": {
+				"text": "Left"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "Multipage display mode:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "FixedImages",
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "Layout direction:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "Vertical",
+			"horizontalOption": {
+				"text": "Horizontal"
+			},
+			"verticalOption": {
+				"text": "Vertical"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "Images in row/column: "
+		},
+		"imagesPaddingLabel": {
+			"text": "Images padding: "
+		},
+		"appearancesLabel": {
+			"text": "Appearances"
+		},
+		"imageAppearanceLabel": {
+			"text": "Image appearance"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "Back color:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "Border color:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "Border width:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "Focused image appearance"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "Use image appearance in single-page mode"
+		},
+		"renderingSettigsLabel": {
+			"text": "Rendering settings"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "Default Settings"
+		},
+		"horResLabel": {
+			"text": "Horizontal Resolution:"
+		},
+		"vertResLabel": {
+			"text": "Vertical Resolution:"
+		},
+		"smoothingLabel": {
+			"text": "Smoothing Mode:"
+		},
+		"interpolationLabel": {
+			"text": "Interpolation Mode:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "Draw non markup annotation"
+		},
+		"otherSettigsLabel": {
+			"text": "Other settings"
+		},
+		"backgroundColorLabel": {
+			"text": "Viewer background color:"
+		},
+		"centerImageLabel": {
+			"text": "Center image:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "Resize timeout:"
+		},
+		"tileSizeLabel": {
+			"text": "Tile size:"
+		},
+		"colorManagementLabel": {
+			"text": "Enable color management:"
+		},
+		"useVectorRendering": {
+			"text": "Use vector rendering for documents:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "Vector content background color:"
+		},
+		"okButton": {
+			"text": "OK"
+		},
+		"cancelButton": {
+			"text": "Close"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "Annotation properties"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "Border:"
+			},
+			"CanMirror": {
+				"text": "CanMirror:"
+			},
+			"CanMove": {
+				"text": "CanMove:"
+			},
+			"CanResize": {
+				"text": "CanResize:"
+			},
+			"CanRotate": {
+				"text": "CanRotate:"
+			},
+			"CreatedBy": {
+				"text": "CreatedBy:"
+			},
+			"CreationTime": {
+				"text": "CreationTime:"
+			},
+			"+ FillBrush": {
+				"text": "+ FillBrush:"
+			},
+			"Color": {
+				"text": "Color:"
+			},
+			"Type": {
+				"text": "Type:"
+			},
+			"+ Font": {
+				"text": "+ Font:"
+			},
+			"Bold": {
+				"text": "Bold:"
+			},
+			"FamilyName": {
+				"text": "FamilyName:"
+			},
+			"Italic": {
+				"text": "Italic:"
+			},
+			"Size": {
+				"text": "Size:"
+			},
+			"Strikeout": {
+				"text": "Strikeout:"
+			},
+			"Underline": {
+				"text": "Underline:"
+			},
+			"Unit": {
+				"text": "Unit:"
+			},
+			"+ FontBrush": {
+				"text": "+ FontBrush:"
+			},
+			"FontTransparent": {
+				"text": "FontTransparent:"
+			},
+			"Guid": {
+				"text": "Guid:"
+			},
+			"HorizontalMirrored": {
+				"text": "HorizontalMirrored:"
+			},
+			"IsBuilding": {
+				"text": "IsBuilding:"
+			},
+			"IsVisible": {
+				"text": "IsVisible:"
+			},
+			"LineStyle": {
+				"text": "LineStyle:"
+			},
+			"LineStylePatternSize": {
+				"text": "LineStylePatternSize:"
+			},
+			"+ Location": {
+				"text": "+ Location:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "ModifiedBy:"
+			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
+			"Name": {
+				"text": "Name:"
+			},
+			"+ Outline": {
+				"text": "+ Outline:"
+			},
+			"DashPattern": {
+				"text": "DashPattern:"
+			},
+			"DashStyle": {
+				"text": "DashStyle:"
+			},
+			"+ EndCap": {
+				"text": "+ EndCap:"
+			},
+			"+ Size": {
+				"text": "+ Size:"
+			},
+			"width": {
+				"text": "width:"
+			},
+			"height": {
+				"text": "height:"
+			},
+			"Style": {
+				"text": "Style:"
+			},
+			"LineJoin": {
+				"text": "LineJoin:"
+			},
+			"MiterLimit": {
+				"text": "MiterLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ StartCap:"
+			},
+			"Width": {
+				"text": "Width:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ ResizePointTemplate:"
+			},
+			"BorderColor": {
+				"text": "BorderColor:"
+			},
+			"BorderWidth": {
+				"text": "BorderWidth:"
+			},
+			"FillColor": {
+				"text": "FillColor:"
+			},
+			"InteractionRadius": {
+				"text": "InteractionRadius:"
+			},
+			"Radius": {
+				"text": "Radius:"
+			},
+			"Rotation": {
+				"text": "Rotation:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ RotationCenterPoint:"
+			},
+			"Cursor": {
+				"text": "Cursor:"
+			},
+			"+ RotationPoint": {
+				"text": "+ RotationPoint:"
+			},
+			"RotationPointDistance": {
+				"text": "RotationPointDistance:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ ShadowBrush:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ ShadowOffset:"
+			},
+			"Symmetry": {
+				"text": "Symmetry:"
+			},
+			"Text": {
+				"text": "Text:"
+			},
+			"TextAlign": {
+				"text": "TextAlign:"
+			},
+			"+ TextBox": {
+				"text": "+ TextBox:"
+			},
+			"FontColor": {
+				"text": "FontColor:"
+			},
+			"FontFamily": {
+				"text": "FontFamily:"
+			},
+			"FontSize": {
+				"text": "FontSize:"
+			},
+			"TextBoxHeight": {
+				"text": "TextBoxHeight:"
+			},
+			"TextBoxWidth": {
+				"text": "TextBoxWidth:"
+			},
+			"+ TextPadding": {
+				"text": "+ TextPadding:"
+			},
+			"left": {
+				"text": "left:"
+			},
+			"right": {
+				"text": "right:"
+			},
+			"top": {
+				"text": "top:"
+			},
+			"bottom": {
+				"text": "bottom:"
+			},
+			"ToolTip": {
+				"text": "ToolTip:"
+			},
+			"VerticalMirrored": {
+				"text": "VerticalMirrored:"
+			}
+		},
+		"okButton": {
+			"text": "OK"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Error"
+		},
+		"closeButton": {
+			"text": "Close"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "Page",
+		"vssde-annotationPanel-annotationPropertiesLabel": "Annotation Properties",
+		"vssde-textSearchPanel-pageLabel": "Page",
+		"vssde-documentPasswordDialog-title": "Document password",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Cancel",
+		"vssde-imageSelectionDialog-currentImageString": "Current image",
+		"vssde-imageSelectionDialog-allImagesString": "All images",
+		"vssde-imageSelectionDialog-customImagesString": "Custom",
+		"vssde-imageSelectionDialog-title": "Select images",
+		"vssde-printImagesDialog-withAnnotationsLabel": "with annotations",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "Image prepared to print",
+		"vssde-printImagesDialog-title": "Print images",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
+		"vssde-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotation angle should be more than zero.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotating image with annotations",
+		"vssde-rotateImageWithAnnotationsDialog-title": "Rotate image with annotations"
+	}
+}

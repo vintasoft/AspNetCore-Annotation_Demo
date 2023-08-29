@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Fil"
+		},
+		"viewLabel": {
+			"text": "Visa"
+		},
+		"toolsLabel": {
+			"text": "Verktyg"
+		},
+		"annotationsLabel": {
+			"text": "Anteckningar"
+		},
+		"uploadFileButton": {
+			"title": "Ladda ner och öppna filen"
+		},
+		"previousUploadFilesButton": {
+			"title": "Visa en lista över tidigare nedladdade filer"
+		},
+		"printImagesButton": {
+			"title": "Skriv ut bilder"
+		},
+		"downloadFileButton": {
+			"title": "Ladda upp fil"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Anpassa till bredd"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "Rotera bilden moturs"
+		},
+		"rotateAngleInput": {
+			"title": "Rotationsvinkel"
+		},
+		"rotateClockwiseButton": {
+			"title": "Rotera bilden medurs"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Inställningar för bildvisning"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Inställningar för miniatyrvisning"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "Anteckningar, dokumentnavigering, textval"
+		},
+		"panToolButton": {
+			"title": "Panera"
+		},
+		"magnifierToolButton": {
+			"title": "Förstoringsglas"
+		},
+		"zoomToolButton": {
+			"title": "Skala"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Skalval"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Rektangel"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Ellips"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Bakgrundsbelysning"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Bild"
+		},
+		"addTextAnnotationButton": {
+			"title": "Text"
+		},
+		"addStampAnnotationButton": {
+			"title": "Stämpel"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Länk"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Pil"
+		},
+		"addLineAnnotationButton": {
+			"title": "Linje"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Polyline"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Polygon"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Linjal"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Triangel"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Interaktionsläge 'Författare'"
+		},
+		"copyAnnotationButton": {
+			"title": "Kopiera fokuserad kommentar"
+		},
+		"pasteAnnotationButton": {
+			"title": "Klistra in kopierad anteckning"
+		},
+		"removeAnnotationButton": {
+			"title": "Ta bort vald anteckning"
+		},
+		"burnAnnotationsButton": {
+			"title": "Bränn samling av kommentarer till bild"
+		},
+		"saveAnnotationsButton": {
+			"title": "Spara ändringar i anteckningssamlingen på servern"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Rotera kommenterad bild"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Aktivera ändringshistorik"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Avbryt"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Upprepa"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Mellan interaktionspunkter"
+		},
+		"showMobileMenuButton": {
+			"title": "Mer"
+		},
+		"sidePanelCloseButton": {
+			"title": "Visa sidofältet"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatyrer"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Anteckningar"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Markera text"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Sök efter text"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Textvalsläge:"
+			},
+			"rectangleOption": {
+				"text": "Rektangel"
+			},
+			"fullLinesOption": {
+				"text": "Fullständiga rader"
+			},
+			"selectionColorLabel": {
+				"text": "Färg på vald text:"
+			},
+			"selectedTextLabel": {
+				"text": "Vald text:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Sök:"
+			},
+			"whereLookLabel": {
+				"text": "Sök på:"
+			},
+			"currentPageOption": {
+				"text": "Aktuell sida"
+			},
+			"allPagesOption": {
+				"text": "Alla sidor"
+			},
+			"wholeWordLabel": {
+				"text": "Sök hela ordet"
+			},
+			"caseSensitiveLabel": {
+				"text": " Skiftlägeskänslig"
+			},
+			"textNotFoundLabel": {
+				"text": "Texten hittades inte."
+			},
+			"startSearchButton": {
+				"value": "Starta sökning"
+			},
+			"stopSearchButton": {
+				"value": "Sluta söka"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Gå till första bilden"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Gå till föregående bild"
+		},
+		"gotoPageInput": {
+			"title": "Sida"
+		},
+		"gotoNextPageButton": {
+			"title": "Gå till nästa bild"
+		},
+		"gotoLastPageButton": {
+			"title": "Gå till sista bilden"
+		},
+		"zoomOutButton": {
+			"title": "Zooma ut"
+		},
+		"zoomValueInput": {
+			"title": "Skala"
+		},
+		"zoomInButton": {
+			"title": "Zooma in"
+		},
+		"normalSizeModeButton": {
+			"title": "Normal"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Best lämplig"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Finhöjd"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel till Pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Skala"
+		},
+		"addArcAnnotationButton": {
+			"title": "Båge"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Obs"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Fritext"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Dubbelpil"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Polylinje med interpolation"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Frihandspolylinje"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Polygon med interpolation"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Frihandspolygon"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Molnpolygon"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Roulett"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Vinkel"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Etikett"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Ingen interaktion"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Interaktionsläge 'Visa'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Små interaktionspunkter"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Stora pekpunkter (pekskärm)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "Kopiera anteckning"
+			},
+			"pasteAnnotationLabel": {
+				"text": "Infoga anteckning"
+			},
+			"removeAnnotationLabel": {
+				"text": "Ta bort anteckning"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "Skicka till baksidan"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "Ta fram"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "Gruppera alla kommentarer"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "Avgruppera anteckning"
+			},
+			"annotationPropertiesLabel": {
+				"text": "Anteckningsegenskaper..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Detta dokument är lösenordsskyddat. Vänligen ange ett lösenord."
+			},
+			"passwordLabel": {
+				"text": "Lösenord:"
+			},
+			"showPasswordLabel": {
+				"text": "Visa lösenord"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Fel lösenord"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Bilder:"
+			},
+			"currentImageOption": {
+				"text": "Aktuell bild"
+			},
+			"allImagesOption": {
+				"text": "Alla bilder"
+			},
+			"customImagesOption": {
+				"text": "Anpassat intervall"
+			},
+			"imageRangeLabel": {
+				"text": "Bildintervall:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Ogiltigt sidintervall. Exempel: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indexet ligger inte inom bildsamlingens indexintervall."
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Bilder:"
+			},
+			"currentImageOption": {
+				"text": "Aktuell bild"
+			},
+			"allImagesOption": {
+				"text": "Alla bilder"
+			},
+			"customImagesOption": {
+				"text": "Användardefinierad"
+			},
+			"imageRangeLabel": {
+				"text": "Bildintervall:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Ogiltigt sidintervall. Exempel: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indexet är utanför intervallet för bildsamlingen."
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Miniatyrstorlek:"
+			},
+			"scaleLabel": {
+				"text": "Miniatyrskala:"
+			},
+			"smallestOption": {
+				"text": "Minst"
+			},
+			"smallOption": {
+				"text": "Liten"
+			},
+			"normalOption": {
+				"text": "Normal"
+			},
+			"largeOption": {
+				"text": "Stor"
+			},
+			"flowStyleLabel": {
+				"text": "Miniatyrplaceringsstil:"
+			},
+			"singleColumnOption": {
+				"text": "En kolumn"
+			},
+			"singleRowOption": {
+				"text": "En rad"
+			},
+			"fixedColumnsOption": {
+				"text": "Fast antal kolumner"
+			},
+			"wrappedRowsOption": {
+				"text": "Flytande antal rader"
+			},
+			"columnCountLabel": {
+				"text": "Antal kolumner:"
+			},
+			"marginLabel": {
+				"text": "Utanvänd stoppning:"
+			},
+			"paddingTopLabel": {
+				"text": "Övre stoppning:"
+			},
+			"paddingRightLabel": {
+				"text": "Höger indrag:"
+			},
+			"paddingBottomLabel": {
+				"text": "Undertillsats:"
+			},
+			"paddingLeftLabel": {
+				"text": "Vänster indrag:"
+			},
+			"showCaptionLabel": {
+				"text": "Visa miniatyrbildstexter:"
+			},
+			"captionFormatLabel": {
+				"text": "Signaturformat:"
+			},
+			"captionAnchorLabel": {
+				"text": "Signaturankare:"
+			},
+			"topLeftOption": {
+				"text": "Överst|Vänster"
+			},
+			"topOption": {
+				"text": "Överst"
+			},
+			"topRightOption": {
+				"text": "Överst|Höger"
+			},
+			"rightOption": {
+				"text": "Höger"
+			},
+			"bottomRightOption": {
+				"text": "Nedre|Höger"
+			},
+			"bottomOption": {
+				"text": "Nedertill"
+			},
+			"bottomLeftOption": {
+				"text": "Nedre|Vänster"
+			},
+			"leftOption": {
+				"text": "Vänster"
+			},
+			"centerOption": {
+				"text": "Centrerad"
+			},
+			"focusOnHoverLabel": {
+				"text": "Fokus vid muspekaren:"
+			},
+			"multiSelectLabel": {
+				"text": "Tillåt val av flera miniatyrer:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Rotationsvinkel:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Kantfärgstyp:"
+			},
+			"autoDetectOption": {
+				"text": "Automatisk upptäckt"
+			},
+			"blackOption": {
+				"text": "Svart"
+			},
+			"whiteOption": {
+				"text": "Vit"
+			},
+			"transparentOption": {
+				"text": "Transparent"
+			},
+			"customOption": {
+				"text": "Anpassad"
+			},
+			"borderColorLabel": {
+				"text": "Kantfärg:"
+			},
+			"changeSourceLabel": {
+				"text": "Ändra källa"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Tidigare nedladdade filer"
+		},
+		"openButton": {
+			"text": "Öppna fil"
+		},
+		"closeButton": {
+			"text": "Stäng"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "Inställningar för bildvisning"
+		},
+		"imageDisplayModeLabel": {
+			"text": "Bildvisningsläge"
+		},
+		"imageAnchorLabel": {
+			"text": "Bildankare:"
+		},
+		"imageAnchorSelect": {
+			"value": "Nej",
+			"noneOption": {
+				"text": "Ingen"
+			},
+			"topLeftOption": {
+				"text": "Överst|Vänster"
+			},
+			"topOption": {
+				"text": "Överst"
+			},
+			"topRightOption": {
+				"text": "Överst|Höger"
+			},
+			"rightOption": {
+				"text": "Höger"
+			},
+			"bottomRightOption": {
+				"text": "Nedre|Höger"
+			},
+			"bottomOption": {
+				"text": "Under"
+			},
+			"bottomLeftOption": {
+				"text": "Nedre|Vänster"
+			},
+			"leftOption": {
+				"text": "Vänster"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "Visningsläge för flera sidor:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "Fixade bilder",
+			"allImagesOption": {
+				"text": "Alla bilder"
+			},
+			"fixedImagesOption": {
+				"text": "Fixade bilder"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "Layoutriktning:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "Vertikal",
+			"horizontalOption": {
+				"text": "Horisontell"
+			},
+			"verticalOption": {
+				"text": "Vertikal"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "Bilder per rad/kolumn:"
+		},
+		"imagesPaddingLabel": {
+			"text": "Bildutfyllnad:"
+		},
+		"appearancesLabel": {
+			"text": "Utseende"
+		},
+		"imageAppearanceLabel": {
+			"text": "Bildens utseende"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "Bakgrundsfärg:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "Kantfärg:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "Kantbredd:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "Utseendet på bilden i fokus"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "Använd bildens utseende i ensidigt läge"
+		},
+		"renderingSettigsLabel": {
+			"text": "Återgivningsinställningar"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "Standardinställningar"
+		},
+		"horResLabel": {
+			"text": "Horisontell upplösning:"
+		},
+		"vertResLabel": {
+			"text": "Vertikal upplösning:"
+		},
+		"smoothingLabel": {
+			"text": "Smidigt läge:"
+		},
+		"interpolationLabel": {
+			"text": "Interpolationsläge:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "Rita anteckning utan uppmärkning"
+		},
+		"otherSettigsLabel": {
+			"text": "Andra inställningar"
+		},
+		"backgroundColorLabel": {
+			"text": "Bildvisarens bakgrundsfärg:"
+		},
+		"centerImageLabel": {
+			"text": "Centerbild:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "Timeout för ändra storlek:"
+		},
+		"tileSizeLabel": {
+			"text": "Brickstorlek:"
+		},
+		"colorManagementLabel": {
+			"text": "Aktivera färghantering:"
+		},
+		"useVectorRendering": {
+			"text": "Använd vektorrendering för dokument:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "Vektorinnehållets bakgrundsfärg:"
+		},
+		"okButton": {
+			"text": "OK"
+		},
+		"cancelButton": {
+			"text": "Stäng"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "Anteckningsegenskaper"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "Gräns:"
+			},
+			"CanMirror": {
+				"text": "Du kan spegla:"
+			},
+			"CanMove": {
+				"text": "Kan flytta:"
+			},
+			"CanResize": {
+				"text": "Kan ändras storlek:"
+			},
+			"CanRotate": {
+				"text": "Kan roteras:"
+			},
+			"CreatedBy": {
+				"text": "Författare:"
+			},
+			"CreationTime": {
+				"text": "Skapningstid:"
+			},
+			"+ FillBrush": {
+				"text": "+ Fyll:"
+			},
+			"Color": {
+				"text": "Färg:"
+			},
+			"Type": {
+				"text": "Typ:"
+			},
+			"+ Font": {
+				"text": "+ Teckensnitt:"
+			},
+			"Bold": {
+				"text": "Fet:"
+			},
+			"FamilyName": {
+				"text": "Familjenamn:"
+			},
+			"Italic": {
+				"text": "Kursiv:"
+			},
+			"Size": {
+				"text": "Storlek:"
+			},
+			"Strikeout": {
+				"text": "Genomstruken:"
+			},
+			"Underline": {
+				"text": "Understrykning:"
+			},
+			"Unit": {
+				"text": "Enhet:"
+			},
+			"+ FontBrush": {
+				"text": "+ Teckensnittspensel:"
+			},
+			"FontTransparent": {
+				"text": "Transparent teckensnitt:"
+			},
+			"Guid": {
+				"text": "ID:"
+			},
+			"HorizontalMirrored": {
+				"text": "Vänds horisontellt:"
+			},
+			"IsBuilding": {
+				"text": "Anteckning är byggd:"
+			},
+			"IsVisible": {
+				"text": "Anteckning är synlig:"
+			},
+			"LineStyle": {
+				"text": "Linjestil:"
+			},
+			"LineStylePatternSize": {
+				"text": "Linjeformatmallstorlek:"
+			},
+			"+ Location": {
+				"text": "+ Plats:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "Ändrad av:"
+			},
+			"ModifiedTime": {
+				"text": "Ändringstid:"
+			},
+			"Name": {
+				"text": "Namn:"
+			},
+			"+ Outline": {
+				"text": "+ Schema:"
+			},
+			"DashPattern": {
+				"text": "Streckmönster:"
+			},
+			"DashStyle": {
+				"text": "Beststreckstil:"
+			},
+			"+ EndCap": {
+				"text": "+ Cap i slutet av raden:"
+			},
+			"+ Size": {
+				"text": "+ Storlek:"
+			},
+			"width": {
+				"text": "Bredd:"
+			},
+			"height": {
+				"text": "Höjd:"
+			},
+			"Style": {
+				"text": "Stil:"
+			},
+			"LineJoin": {
+				"text": "Linjeanslutning:"
+			},
+			"MiterLimit": {
+				"text": "MitreLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ Tak vid början av raden:"
+			},
+			"Width": {
+				"text": "Bredd:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ Ändra storlek på punktmall:"
+			},
+			"BorderColor": {
+				"text": "Kantfärg:"
+			},
+			"BorderWidth": {
+				"text": "Kantbredd:"
+			},
+			"FillColor": {
+				"text": "Fyllfärg:"
+			},
+			"InteractionRadius": {
+				"text": "Interaktionsområdesradie:"
+			},
+			"Radius": {
+				"text": "Radie:"
+			},
+			"Rotation": {
+				"text": "Rotation:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ Rotationscentrum:"
+			},
+			"Cursor": {
+				"text": "Markör:"
+			},
+			"+ RotationPoint": {
+				"text": "+ Pivotpunkt:"
+			},
+			"RotationPointDistance": {
+				"text": "Avstånd till pivotpunkt:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ Skuggborste:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ Indrag för att rita skugga:"
+			},
+			"Symmetry": {
+				"text": "Symmetri:"
+			},
+			"Text": {
+				"text": "Text:"
+			},
+			"TextAlign": {
+				"text": "Textjustering:"
+			},
+			"+ TextBox": {
+				"text": "+ Textfält:"
+			},
+			"FontColor": {
+				"text": "Teckensnittsfärg:"
+			},
+			"FontFamily": {
+				"text": "Teckensnittsfamilj:"
+			},
+			"FontSize": {
+				"text": "Teckenstorlek:"
+			},
+			"TextBoxHeight": {
+				"text": "Textfältets höjd:"
+			},
+			"TextBoxWidth": {
+				"text": "Textfältets bredd:"
+			},
+			"+ TextPadding": {
+				"text": "+ Textindrag:"
+			},
+			"left": {
+				"text": "Vänster:"
+			},
+			"right": {
+				"text": "Höger:"
+			},
+			"top": {
+				"text": "Överst:"
+			},
+			"bottom": {
+				"text": "Under:"
+			},
+			"ToolTip": {
+				"text": "Tips:"
+			},
+			"VerticalMirrored": {
+				"text": "Vertikal spegling:"
+			}
+		},
+		"okButton": {
+			"text": "OK"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Fel"
+		},
+		"closeButton": {
+			"text": "Stäng"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "Sida",
+		"vssde-annotationPanel-annotationPropertiesLabel": "Anteckningsegenskaper",
+		"vssde-textSearchPanel-pageLabel": "Sida",
+		"vssde-documentPasswordDialog-title": "Dokumentlösenord",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Avbryt",
+		"vssde-imageSelectionDialog-currentImageString": "Aktuell bild",
+		"vssde-imageSelectionDialog-allImagesString": "Alla bilder",
+		"vssde-imageSelectionDialog-customImagesString": "Anpassat intervall",
+		"vssde-imageSelectionDialog-title": "Välj bilder",
+		"vssde-printImagesDialog-withAnnotationsLabel": "med kommentarer",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "Bilden förbereds för utskrift",
+		"vssde-printImagesDialog-title": "Skriv ut bilder",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
+		"vssde-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinkeln får inte vara 0.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras",
+		"vssde-rotateImageWithAnnotationsDialog-title": "Rotera kommenterad bild"
+	}
+}

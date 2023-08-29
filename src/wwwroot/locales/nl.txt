@@ -1,0 +1,905 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Bestand"
+		},
+		"viewLabel": {
+			"text": "Bekijken"
+		},
+		"toolsLabel": {
+			"text": "Gereedschap"
+		},
+		"annotationsLabel": {
+			"text": "Annotaties"
+		},
+		"uploadFileButton": {
+			"title": "Bestand downloaden en openen"
+		},
+		"previousUploadFilesButton": {
+			"title": "Bekijk een lijst met eerder gedownloade bestanden"
+		},
+		"printImagesButton": {
+			"title": "Afbeeldingen afdrukken"
+		},
+		"downloadFileButton": {
+			"title": "Bestand uploaden"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Aanpassen aan breedte"
+		},
+		"rotateCounterClockwiseButton": {
+			"title": "Draai afbeelding linksom"
+		},
+		"rotateAngleInput": {
+			"title": "Rotatiehoek"
+		},
+		"rotateClockwiseButton": {
+			"title": "Draai de afbeelding met de klok mee"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Instellingen afbeeldingsviewer"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Miniatuurweergave-instellingen"
+		},
+		"annotationAndNavigationAndTextSelectionToolButton": {
+			"title": "Annotaties, documentnavigatie, tekstselectie"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"magnifierToolButton": {
+			"title": "Vergrootglas"
+		},
+		"zoomToolButton": {
+			"title": "Schaal"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Schaalselectie"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Rechthoek"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Ellips"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Tegenlicht"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Afbeelding"
+		},
+		"addTextAnnotationButton": {
+			"title": "Tekst"
+		},
+		"addStampAnnotationButton": {
+			"title": "Stempel"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Koppeling"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Pijl"
+		},
+		"addLineAnnotationButton": {
+			"title": "Lijn"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Polylijn"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Veelhoek"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Liniaal"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Driehoek"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Interactiemodus 'Auteur'"
+		},
+		"copyAnnotationButton": {
+			"title": "Gerichte annotatie kopiëren"
+		},
+		"pasteAnnotationButton": {
+			"title": "Plak gekopieerde annotatie"
+		},
+		"removeAnnotationButton": {
+			"title": "Verwijder geselecteerde annotatie"
+		},
+		"burnAnnotationsButton": {
+			"title": "Verzameling van annotaties naar afbeelding branden"
+		},
+		"saveAnnotationsButton": {
+			"title": "Sla wijzigingen in de annotatieverzameling op de server op"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Geannoteerde afbeelding roteren"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Wijzigingsgeschiedenis inschakelen"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Annuleren"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Herhalen"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Middelste interactiepunten"
+		},
+		"showMobileMenuButton": {
+			"title": "Meer"
+		},
+		"sidePanelCloseButton": {
+			"title": "Toon zijbalk"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniaturen"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Annotaties"
+		},
+		"showTextSelectionPanelButton": {
+			"title": "Markeer tekst"
+		},
+		"showTextSearchPanelButton": {
+			"title": "Zoek naar tekst"
+		},
+		"textSelectionPanel": {
+			"selectionModeLabel": {
+				"text": "Tekstselectiemodus:"
+			},
+			"rectangleOption": {
+				"text": "Rechthoek"
+			},
+			"fullLinesOption": {
+				"text": "Volledige regels"
+			},
+			"selectionColorLabel": {
+				"text": "Kleur van geselecteerde tekst:"
+			},
+			"selectedTextLabel": {
+				"text": "Geselecteerde tekst:"
+			}
+		},
+		"textSearchPanel": {
+			"findLabel": {
+				"text": "Zoeken:"
+			},
+			"whereLookLabel": {
+				"text": "Zoeken op:"
+			},
+			"currentPageOption": {
+				"text": "Huidige pagina"
+			},
+			"allPagesOption": {
+				"text": "Alle pagina's"
+			},
+			"wholeWordLabel": {
+				"text": "Zoek het hele woord"
+			},
+			"caseSensitiveLabel": {
+				"text": "Hoofdlettergevoelig"
+			},
+			"textNotFoundLabel": {
+				"text": "Tekst niet gevonden."
+			},
+			"startSearchButton": {
+				"value": "Start zoeken"
+			},
+			"stopSearchButton": {
+				"value": "Stop met zoeken"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Ga naar eerste afbeelding"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Ga naar vorige afbeelding"
+		},
+		"gotoPageInput": {
+			"title": "Pagina"
+		},
+		"gotoNextPageButton": {
+			"title": "Ga naar volgende afbeelding"
+		},
+		"gotoLastPageButton": {
+			"title": "Ga naar laatste afbeelding"
+		},
+		"zoomOutButton": {
+			"title": "Uitzoomen"
+		},
+		"zoomValueInput": {
+			"title": "Schaal"
+		},
+		"zoomInButton": {
+			"title": "Inzoomen"
+		},
+		"normalSizeModeButton": {
+			"title": "Normaal"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Meest geschikt"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Aangepaste hoogte"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel naar pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Schaal"
+		},
+		"addArcAnnotationButton": {
+			"title": "Boog"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Opmerking"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Vrije tekst"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Dubbele pijl"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Polylijn met interpolatie"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Uit de vrije hand polylijn"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Veelhoek met interpolatie"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Veelhoek uit vrije hand"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Cloud-polygoon"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Roulette"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Hoek"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Label"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Geen interactie"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Interactiemodus 'Weergeven'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Kleine interactiepunten"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Grote aanraakpunten (touchscreen)"
+		},
+		"annotationContextMenu": {
+			"copyAnnotationLabel": {
+				"text": "Annotatie kopiëren"
+			},
+			"pasteAnnotationLabel": {
+				"text": "Annotatie invoegen"
+			},
+			"removeAnnotationLabel": {
+				"text": "Annotatie verwijderen"
+			},
+			"bringAnnotationToBackLabel": {
+				"text": "Verzenden naar terug"
+			},
+			"bringAnnotationToFrontLabel": {
+				"text": "Naar voren brengen"
+			},
+			"groupAllAnnotationsLabel": {
+				"text": "Groepeer alle annotaties"
+			},
+			"ungroupAnnotationLabel": {
+				"text": "Annotatie degroeperen"
+			},
+			"annotationPropertiesLabel": {
+				"text": "Annotatie-eigenschappen..."
+			}
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Dit document is beveiligd met een wachtwoord. Voer een wachtwoord in alstublieft."
+			},
+			"passwordLabel": {
+				"text": "Wachtwoord:"
+			},
+			"showPasswordLabel": {
+				"text": "Toon wachtwoord"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Verkeerd wachtwoord"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Afbeeldingen:"
+			},
+			"currentImageOption": {
+				"text": "Huidige afbeelding"
+			},
+			"allImagesOption": {
+				"text": "Alle afbeeldingen"
+			},
+			"customImagesOption": {
+				"text": "Aangepast bereik"
+			},
+			"imageRangeLabel": {
+				"text": "Beeldbereik:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Ongeldig paginabereik. Voorbeeld: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "De index valt niet binnen het indexbereik van de afbeeldingencollectie."
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Afbeeldingen:"
+			},
+			"currentImageOption": {
+				"text": "Huidige afbeelding"
+			},
+			"allImagesOption": {
+				"text": "Alle afbeeldingen"
+			},
+			"customImagesOption": {
+				"text": "Door gebruiker gedefinieerd"
+			},
+			"imageRangeLabel": {
+				"text": "Beeldbereik:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Ongeldig paginabereik. Voorbeeld: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "De index is buiten bereik voor de afbeeldingscollectie."
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Miniatuurgrootte:"
+			},
+			"scaleLabel": {
+				"text": "Miniatuurschaal:"
+			},
+			"smallestOption": {
+				"text": "Minste"
+			},
+			"smallOption": {
+				"text": "Klein"
+			},
+			"normalOption": {
+				"text": "Normaal"
+			},
+			"largeOption": {
+				"text": "Groot"
+			},
+			"flowStyleLabel": {
+				"text": "Plaatsingsstijl van miniaturen:"
+			},
+			"singleColumnOption": {
+				"text": "Enkele kolom"
+			},
+			"singleRowOption": {
+				"text": "Eén regel"
+			},
+			"fixedColumnsOption": {
+				"text": "Vast aantal kolommen"
+			},
+			"wrappedRowsOption": {
+				"text": "Zwevend aantal rijen"
+			},
+			"columnCountLabel": {
+				"text": "Aantal kolommen:"
+			},
+			"marginLabel": {
+				"text": "Buiten opvulling:"
+			},
+			"paddingTopLabel": {
+				"text": "Bovenste vulling:"
+			},
+			"paddingRightLabel": {
+				"text": "Rechts inspringen:"
+			},
+			"paddingBottomLabel": {
+				"text": "Bottom vulling:"
+			},
+			"paddingLeftLabel": {
+				"text": "Links inspringen:"
+			},
+			"showCaptionLabel": {
+				"text": "Toon miniatuurbijschriften:"
+			},
+			"captionFormatLabel": {
+				"text": "Handtekeningformaat:"
+			},
+			"captionAnchorLabel": {
+				"text": "Handtekening Anker:"
+			},
+			"topLeftOption": {
+				"text": "Boven|Links"
+			},
+			"topOption": {
+				"text": "Top"
+			},
+			"topRightOption": {
+				"text": "Boven|Rechts"
+			},
+			"rightOption": {
+				"text": "Juist"
+			},
+			"bottomRightOption": {
+				"text": "Onder|Rechts"
+			},
+			"bottomOption": {
+				"text": "Onderkant"
+			},
+			"bottomLeftOption": {
+				"text": "Onder|Links"
+			},
+			"leftOption": {
+				"text": "Links"
+			},
+			"centerOption": {
+				"text": "Gecentreerd"
+			},
+			"focusOnHoverLabel": {
+				"text": "Zweeffocus:"
+			},
+			"multiSelectLabel": {
+				"text": "Sta meerdere miniatuurselectie toe:"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Rotatiehoek:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Randkleurtype:"
+			},
+			"autoDetectOption": {
+				"text": "Autodetectie"
+			},
+			"blackOption": {
+				"text": "Zwart"
+			},
+			"whiteOption": {
+				"text": "Wit"
+			},
+			"transparentOption": {
+				"text": "Transparant"
+			},
+			"customOption": {
+				"text": "Aangepast"
+			},
+			"borderColorLabel": {
+				"text": "Randkleur:"
+			},
+			"changeSourceLabel": {
+				"text": "Wijzig bron"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Eerder gedownloade bestanden"
+		},
+		"openButton": {
+			"text": "Bestand openen"
+		},
+		"closeButton": {
+			"text": "Sluiten"
+		}
+	},
+	"imageViewerSettingsDialog": {
+		"title": {
+			"text": "Instellingen afbeeldingsviewer"
+		},
+		"imageDisplayModeLabel": {
+			"text": "Beeldweergavemodus"
+		},
+		"imageAnchorLabel": {
+			"text": "Beeldanker:"
+		},
+		"imageAnchorSelect": {
+			"value": "Nee",
+			"noneOption": {
+				"text": "Geen"
+			},
+			"topLeftOption": {
+				"text": "Boven|Links"
+			},
+			"topOption": {
+				"text": "Top"
+			},
+			"topRightOption": {
+				"text": "Boven|Rechts"
+			},
+			"rightOption": {
+				"text": "Juist"
+			},
+			"bottomRightOption": {
+				"text": "Onder|Rechts"
+			},
+			"bottomOption": {
+				"text": "Onderkant"
+			},
+			"bottomLeftOption": {
+				"text": "Onder|Links"
+			},
+			"leftOption": {
+				"text": "Links"
+			}
+		},
+		"multipageDisplayModeLabel": {
+			"text": "Weergavemodus voor meerdere pagina's:"
+		},
+		"multipageDisplayModeSelect": {
+			"value": "Vaste afbeeldingen",
+			"allImagesOption": {
+				"text": "Alle afbeeldingen"
+			},
+			"fixedImagesOption": {
+				"text": "Vaste afbeeldingen"
+			}
+		},
+		"layoutDirectionLabel": {
+			"text": "Opmaakrichting:"
+		},
+		"multipageLayoutDirectionSelect": {
+			"value": "Verticaal",
+			"horizontalOption": {
+				"text": "Horizontaal"
+			},
+			"verticalOption": {
+				"text": "Verticaal"
+			}
+		},
+		"rowColumnCountLabel": {
+			"text": "Afbeeldingen per rij/kolom:"
+		},
+		"imagesPaddingLabel": {
+			"text": "Afbeelding opvulling:"
+		},
+		"appearancesLabel": {
+			"text": "Uiterlijk"
+		},
+		"imageAppearanceLabel": {
+			"text": "Uiterlijk beeld"
+		},
+		"imageAppearanceBackColorLabel": {
+			"text": "Achtergrondkleur:"
+		},
+		"imageAppearanceBorderColorLabel": {
+			"text": "Randkleur:"
+		},
+		"imageAppearanceBorderWidthLabel": {
+			"text": "Randbreedte:"
+		},
+		"focusedImageAppearanceLabel": {
+			"text": "Uiterlijk van scherpgesteld beeld"
+		},
+		"useAppearanceInSinglePageModeLabel": {
+			"text": "Gebruik afbeeldingsweergave in enkele paginamodus"
+		},
+		"renderingSettigsLabel": {
+			"text": "Renderinstellingen"
+		},
+		"defaultRenderingSettigsLabel": {
+			"text": "Standaardinstellingen"
+		},
+		"horResLabel": {
+			"text": "Horizontale resolutie:"
+		},
+		"vertResLabel": {
+			"text": "Verticale resolutie:"
+		},
+		"smoothingLabel": {
+			"text": "Vloeiende modus:"
+		},
+		"interpolationLabel": {
+			"text": "Interpolatiemodus:"
+		},
+		"drawNonMarkupAnnotationsLabel": {
+			"text": "Teken annotatie zonder markeringen"
+		},
+		"otherSettigsLabel": {
+			"text": "Andere instellingen"
+		},
+		"backgroundColorLabel": {
+			"text": "Achtergrondkleur afbeeldingviewer:"
+		},
+		"centerImageLabel": {
+			"text": "Afbeelding midden:"
+		},
+		"resizeTimeoutLabel": {
+			"text": "Formaat wijzigen time-out:"
+		},
+		"tileSizeLabel": {
+			"text": "Tegelmaat:"
+		},
+		"colorManagementLabel": {
+			"text": "Kleurbeheer inschakelen:"
+		},
+		"useVectorRendering": {
+			"text": "Gebruik vectorweergave voor documenten:"
+		},
+		"vectorContentBackgroundColorLabel": {
+			"text": "Achtergrondkleur vectorinhoud:"
+		},
+		"okButton": {
+			"text": "OK"
+		},
+		"cancelButton": {
+			"text": "Sluiten"
+		}
+	},
+	"annotationSettingsDialog": {
+		"title": {
+			"text": "Annotatie-eigenschappen"
+		},
+		"annotationPropertyGrid": {
+			"Border": {
+				"text": "Grens:"
+			},
+			"CanMirror": {
+				"text": "U kunt spiegelen:"
+			},
+			"CanMove": {
+				"text": "Kan verplaatsen:"
+			},
+			"CanResize": {
+				"text": "Kan worden aangepast:"
+			},
+			"CanRotate": {
+				"text": "Kan worden gedraaid:"
+			},
+			"CreatedBy": {
+				"text": "Auteur:"
+			},
+			"CreationTime": {
+				"text": "Aanmaaktijd:"
+			},
+			"+ FillBrush": {
+				"text": "+ Vul in:"
+			},
+			"Color": {
+				"text": "Kleur:"
+			},
+			"Type": {
+				"text": "Type:"
+			},
+			"+ Font": {
+				"text": "+ Lettertype:"
+			},
+			"Bold": {
+				"text": "Vetgedrukt:"
+			},
+			"FamilyName": {
+				"text": "Achternaam:"
+			},
+			"Italic": {
+				"text": "Cursief:"
+			},
+			"Size": {
+				"text": "Maat:"
+			},
+			"Strikeout": {
+				"text": "Doorhalen:"
+			},
+			"Underline": {
+				"text": "Onderstrepen:"
+			},
+			"Unit": {
+				"text": "Eenheid:"
+			},
+			"+ FontBrush": {
+				"text": "+ Lettertypepenseel:"
+			},
+			"FontTransparent": {
+				"text": "Transparant lettertype:"
+			},
+			"Guid": {
+				"text": "ID:"
+			},
+			"HorizontalMirrored": {
+				"text": "Horizontaal gespiegeld:"
+			},
+			"IsBuilding": {
+				"text": "Annotatie is gemaakt:"
+			},
+			"IsVisible": {
+				"text": "Annotatie is zichtbaar:"
+			},
+			"LineStyle": {
+				"text": "Lijnstijl:"
+			},
+			"LineStylePatternSize": {
+				"text": "Lijnstijl sjabloongrootte:"
+			},
+			"+ Location": {
+				"text": "+ Locatie:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "Gewijzigd door:"
+			},
+			"ModifiedTime": {
+				"text": "Wijzig Tijd:"
+			},
+			"Name": {
+				"text": "Naam:"
+			},
+			"+ Outline": {
+				"text": "+ Schema:"
+			},
+			"DashPattern": {
+				"text": "Streepjespatroon:"
+			},
+			"DashStyle": {
+				"text": "Dash-stijl:"
+			},
+			"+ EndCap": {
+				"text": "+ Cap aan het einde van de regel:"
+			},
+			"+ Size": {
+				"text": "+ Maat:"
+			},
+			"width": {
+				"text": "Breedte:"
+			},
+			"height": {
+				"text": "Hoogte:"
+			},
+			"Style": {
+				"text": "Stijl:"
+			},
+			"LineJoin": {
+				"text": "Lijnverbinding:"
+			},
+			"MiterLimit": {
+				"text": "Versteklimiet:"
+			},
+			"+ StartCap": {
+				"text": "+ Cap aan het begin van de regel:"
+			},
+			"Width": {
+				"text": "Breedte:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ Formaat puntsjabloon wijzigen:"
+			},
+			"BorderColor": {
+				"text": "Randkleur:"
+			},
+			"BorderWidth": {
+				"text": "Randbreedte:"
+			},
+			"FillColor": {
+				"text": "Vulkleur:"
+			},
+			"InteractionRadius": {
+				"text": "Raad van interactiegebied:"
+			},
+			"Radius": {
+				"text": "Straal:"
+			},
+			"Rotation": {
+				"text": "Rotatie:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ Middelpunt van rotatie:"
+			},
+			"Cursor": {
+				"text": "Cursor:"
+			},
+			"+ RotationPoint": {
+				"text": "+ Draaipunt:"
+			},
+			"RotationPointDistance": {
+				"text": "Afstand tot draaipunt:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ Schaduwpenseel:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ Inspringen om schaduw te tekenen:"
+			},
+			"Symmetry": {
+				"text": "Symmetrie:"
+			},
+			"Text": {
+				"text": "Tekst:"
+			},
+			"TextAlign": {
+				"text": "Tekstuitlijning:"
+			},
+			"+ TextBox": {
+				"text": "+ Tekstveld:"
+			},
+			"FontColor": {
+				"text": "Letterkleur:"
+			},
+			"FontFamily": {
+				"text": "Lettertypefamilie:"
+			},
+			"FontSize": {
+				"text": "Lettergrootte:"
+			},
+			"TextBoxHeight": {
+				"text": "Hoogte tekstveld:"
+			},
+			"TextBoxWidth": {
+				"text": "Tekstveldbreedte:"
+			},
+			"+ TextPadding": {
+				"text": "+ Tekst inspringen:"
+			},
+			"left": {
+				"text": "Links:"
+			},
+			"right": {
+				"text": "Rechts:"
+			},
+			"top": {
+				"text": "Boven:"
+			},
+			"bottom": {
+				"text": "Onder:"
+			},
+			"ToolTip": {
+				"text": "Tip:"
+			},
+			"VerticalMirrored": {
+				"text": "Verticaal spiegelen:"
+			}
+		},
+		"okButton": {
+			"text": "OK"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Fout"
+		},
+		"closeButton": {
+			"text": "Sluiten"
+		}
+	},
+	"strings": {
+		"vssde-annotationPanel-pageLabel": "Pagina",
+		"vssde-annotationPanel-annotationPropertiesLabel": "Annotatie-eigenschappen",
+		"vssde-textSearchPanel-pageLabel": "Pagina",
+		"vssde-documentPasswordDialog-title": "Documentwachtwoord",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Annuleren",
+		"vssde-imageSelectionDialog-currentImageString": "Huidige afbeelding",
+		"vssde-imageSelectionDialog-allImagesString": "Alle afbeeldingen",
+		"vssde-imageSelectionDialog-customImagesString": "Aangepast bereik",
+		"vssde-imageSelectionDialog-title": "Selecteer afbeeldingen",
+		"vssde-printImagesDialog-withAnnotationsLabel": "met annotaties",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "Afbeelding wordt voorbereid voor afdrukken",
+		"vssde-printImagesDialog-title": "Afbeeldingen afdrukken",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
+		"vssde-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotatiehoek mag niet 0 zijn.",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd",
+		"vssde-rotateImageWithAnnotationsDialog-title": "Geannoteerde afbeelding roteren"
+	}
+}
