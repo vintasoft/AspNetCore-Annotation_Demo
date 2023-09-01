@@ -13,7 +13,7 @@ The project demonstrates how to view and annotate images and documents in ASP.NE
 * Print images with annotations.
 * Download annotated file.
 * The application can be used in any modern HTML5 web browser.
-* The application UI is localized into 30 languages (Afrikaans, Arabic, Belarusian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, German, Greece, English, Finnish, French, Hebrew, Hindi, Hungarian, Italian, Japanese, Korean, Norwegian, Portugese, Romanian, Russian, Slovakian, Slovenian, Spanish, Swedish, Turkish, Vietnamese).
+* The application UI is localized into 32 languages (Afrikaans, Arabic, Belarusian, Bulgarian, Chinese (Simplified), Croatian, Czech, Danish, Dutch, German, Greece, English, Finnish, French, Hebrew, Hindi, Hungarian, Italian, Japanese, Korean, Norwegian, Portugese, Romanian, Russian, Slovakian, Slovenian, Spanish, Swahili, Swedish, Turkish, Vietnamese, Zulu).
 
 
 ## Screenshot
