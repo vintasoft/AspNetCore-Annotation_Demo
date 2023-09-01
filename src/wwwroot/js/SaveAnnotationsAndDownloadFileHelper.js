@@ -17,7 +17,7 @@ SaveAnnotationsAndDownloadFileHelperJS = function (showErrorMessageFunc) {
         var element = new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
             cssClass: "vsdv-downloadImageFileButton",
             title: "Download Image File",
-            localizationId: "downloadImageButton",
+            localizationId: "downloadFileButton",
             onClick: __downloadImageFileButton_clicked
         });
         return element;

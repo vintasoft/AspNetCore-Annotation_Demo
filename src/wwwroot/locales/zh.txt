@@ -4,7 +4,7 @@
 			"text": "文件"
 		},
 		"viewLabel": {
-			"text": "查看"
+			"text": "看法"
 		},
 		"toolsLabel": {
 			"text": "工具"
@@ -13,16 +13,16 @@
 			"text": "注释"
 		},
 		"uploadFileButton": {
-			"title": "下载并打开文件"
+			"title": "上传并打开文件"
 		},
 		"previousUploadFilesButton": {
-			"title": "查看以前下载的文件列表"
+			"title": "之前上传的文件"
 		},
 		"printImagesButton": {
 			"title": "打印图像"
 		},
 		"downloadFileButton": {
-			"title": "上传文件"
+			"title": "下载图像文件"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "适合宽度"
@@ -31,13 +31,13 @@
 			"title": "逆时针旋转图像"
 		},
 		"rotateAngleInput": {
-			"title": "旋转角度"
+			"title": "角度"
 		},
 		"rotateClockwiseButton": {
 			"title": "顺时针旋转图像"
 		},
 		"imageViewerSettingsButton": {
-			"title": "图像查看器设置"
+			"title": "显示图像查看器设置"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "缩略图查看器设置"
@@ -46,28 +46,28 @@
 			"title": "注释、文档导航、文本选择"
 		},
 		"panToolButton": {
-			"title": "潘"
+			"title": "平底锅"
 		},
 		"magnifierToolButton": {
 			"title": "放大镜"
 		},
 		"zoomToolButton": {
-			"title": "比例"
+			"title": "飞涨"
 		},
 		"zoomSelectionToolButton": {
-			"title": "比例选择"
+			"title": "缩放选择"
 		},
 		"addRectangleAnnotationButton": {
-			"title": "矩形"
+			"title": "长方形"
 		},
 		"addEllipseAnnotationButton": {
 			"title": "椭圆"
 		},
 		"addHighlightAnnotationButton": {
-			"title": "背光"
+			"title": "强调"
 		},
 		"addReferencedImageAnnotationButton": {
-			"title": "图像"
+			"title": "参考图像"
 		},
 		"addTextAnnotationButton": {
 			"title": "文本"
@@ -76,22 +76,22 @@
 			"title": "邮票"
 		},
 		"addLinkAnnotationButton": {
-			"title": "链接"
+			"title": "关联"
 		},
 		"addArrowAnnotationButton": {
-			"title": "箭头"
+			"title": "箭"
 		},
 		"addLineAnnotationButton": {
-			"title": "行"
+			"title": "线"
 		},
 		"addLinesAnnotationButton": {
-			"title": "折线"
+			"title": "线路"
 		},
 		"addPolygonAnnotationButton": {
 			"title": "多边形"
 		},
 		"addRulerAnnotationButton": {
-			"title": "尺子"
+			"title": "统治者"
 		},
 		"addTriangleAnnotationButton": {
 			"title": "三角形"
@@ -106,34 +106,34 @@
 			"title": "粘贴复制的注释"
 		},
 		"removeAnnotationButton": {
-			"title": "删除选定的注释"
+			"title": "删除焦点注释"
 		},
 		"burnAnnotationsButton": {
-			"title": "将注释集合刻录到图像"
+			"title": "在图像上刻录注释集合"
 		},
 		"saveAnnotationsButton": {
-			"title": "将更改保存到服务器上的注释集合"
+			"title": "将注释集合更改保存到服务器"
 		},
 		"rotateImageWithAnnotationsButton": {
-			"title": "旋转带注释的图像"
+			"title": "旋转带有注释的图像"
 		},
 		"enableAnnotationHistoryButton": {
-			"title": "启用更改历史记录"
+			"title": "启用撤消/重做"
 		},
 		"undoAnnotationHistoryButton": {
-			"title": "取消"
+			"title": "撤消"
 		},
 		"redoAnnotationHistoryButton": {
-			"title": "重复"
+			"title": "重做"
 		},
 		"mediumAnnotationInteractionPoints": {
-			"title": "中间交互点"
+			"title": "中等交互点"
 		},
 		"showMobileMenuButton": {
-			"title": "更多"
+			"title": "更多的"
 		},
 		"sidePanelCloseButton": {
-			"title": "显示侧边栏"
+			"title": "显示侧面板"
 		},
 		"showThumbnailViewerPanelButton": {
 			"title": "缩略图"
@@ -142,23 +142,23 @@
 			"title": "注释"
 		},
 		"showTextSelectionPanelButton": {
-			"title": "突出显示文本"
+			"title": "文本选择"
 		},
 		"showTextSearchPanelButton": {
-			"title": "搜索文本"
+			"title": "查找文字"
 		},
 		"textSelectionPanel": {
 			"selectionModeLabel": {
-				"text": "文本选择模式："
+				"text": "选择方式："
 			},
 			"rectangleOption": {
-				"text": "矩形"
+				"text": "长方形"
 			},
 			"fullLinesOption": {
-				"text": "整行"
+				"text": "全线"
 			},
 			"selectionColorLabel": {
-				"text": "所选文本的颜色:"
+				"text": "选择颜色："
 			},
 			"selectedTextLabel": {
 				"text": "所选文本："
@@ -166,31 +166,31 @@
 		},
 		"textSearchPanel": {
 			"findLabel": {
-				"text": "查找："
+				"text": "寻找："
 			},
 			"whereLookLabel": {
-				"text": "搜索："
+				"text": "在看："
 			},
 			"currentPageOption": {
-				"text": "当前页"
+				"text": "当前页面"
 			},
 			"allPagesOption": {
 				"text": "所有页面"
 			},
 			"wholeWordLabel": {
-				"text": "搜索整个单词"
+				"text": "整个词"
 			},
 			"caseSensitiveLabel": {
 				"text": "区分大小写"
 			},
-			"textNotFoundLabel": {
-				"text": "未找到文本。"
-			},
 			"startSearchButton": {
-				"value": "开始搜索"
+				"value": "开始"
 			},
 			"stopSearchButton": {
-				"value": "停止搜索"
+				"value": "停止"
+			},
+			"textNotFoundLabel": {
+				"text": "未找到文本。"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -200,7 +200,7 @@
 			"title": "转到上一张图片"
 		},
 		"gotoPageInput": {
-			"title": "页码"
+			"title": "页"
 		},
 		"gotoNextPageButton": {
 			"title": "转到下一张图片"
@@ -212,31 +212,31 @@
 			"title": "缩小"
 		},
 		"zoomValueInput": {
-			"title": "比例"
+			"title": "飞涨"
 		},
 		"zoomInButton": {
 			"title": "放大"
 		},
 		"normalSizeModeButton": {
-			"title": "正常"
+			"title": "普通的"
 		},
 		"bestFitSizeModeButton": {
 			"title": "最合适"
 		},
 		"fitToHeightSizeModeButton": {
-			"title": "适合高度"
+			"title": "适合身高"
 		},
 		"pixelToPixelSizeModeButton": {
 			"title": "像素到像素"
 		},
 		"zoomSizeModeButton": {
-			"title": "比例"
+			"title": "飞涨"
 		},
 		"addArcAnnotationButton": {
-			"title": "圆弧"
+			"title": "弧"
 		},
 		"addStickyNoteAnnotationButton": {
-			"title": "注意"
+			"title": "便利贴"
 		},
 		"addFreeTextAnnotationButton": {
 			"title": "自由文本"
@@ -245,10 +245,10 @@
 			"title": "双箭头"
 		},
 		"addInterpolatedLinesAnnotationButton": {
-			"title": "带插值的多段线"
+			"title": "带插值的线"
 		},
 		"addFreehandLinesAnnotationButton": {
-			"title": "徒手折线"
+			"title": "写意线条"
 		},
 		"addInterpolatedPolygonAnnotationButton": {
 			"title": "带插值的多边形"
@@ -260,44 +260,44 @@
 			"title": "云多边形"
 		},
 		"addRulersAnnotationButton": {
-			"title": "轮盘赌"
+			"title": "统治者"
 		},
 		"addAngleAnnotationButton": {
 			"title": "角度"
 		},
 		"addMarkAnnotationButton": {
-			"title": "标签"
+			"title": "标记"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "无交互"
+			"title": "交互模式“无”"
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "交互模式“查看”"
 		},
 		"smallAnnotationInteractionPoints": {
-			"title": "小交互点"
+			"title": "小互动点"
 		},
 		"largeAnnotationInteractionPoints": {
-			"title": "大触摸点（触摸屏）"
+			"title": "大交互点（触摸屏）"
 		},
 		"annotationContextMenu": {
 			"copyAnnotationLabel": {
 				"text": "复制注释"
 			},
 			"pasteAnnotationLabel": {
-				"text": "插入注释"
+				"text": "粘贴注释"
 			},
 			"removeAnnotationLabel": {
 				"text": "删除注释"
 			},
 			"bringAnnotationToBackLabel": {
-				"text": "发送到后面"
+				"text": "带到后面"
 			},
 			"bringAnnotationToFrontLabel": {
-				"text": "置于最前面"
+				"text": "带到前面"
 			},
 			"groupAllAnnotationsLabel": {
-				"text": "对所有注释进行分组"
+				"text": "将所有注释分组"
 			},
 			"ungroupAnnotationLabel": {
 				"text": "取消注释分组"
@@ -308,7 +308,7 @@
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
-				"text": "该文档受密码保护。 请输入密码。"
+				"text": "本文档受密码保护。 请输入密码。"
 			},
 			"passwordLabel": {
 				"text": "密码："
@@ -328,10 +328,10 @@
 				"text": "当前图像"
 			},
 			"allImagesOption": {
-				"text": "所有图像"
+				"text": "所有图片"
 			},
 			"customImagesOption": {
-				"text": "自定义范围"
+				"text": "风俗"
 			},
 			"imageRangeLabel": {
 				"text": "图像范围："
@@ -340,7 +340,13 @@
 				"text": "页面范围无效。 示例：1-5、8、12-15。"
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "索引不在图像集合的索引范围内。"
+				"text": "索引超出图像集合范围。"
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"сancelButton": {
+				"value": "取消"
 			}
 		},
 		"printImagesDialog": {
@@ -351,10 +357,10 @@
 				"text": "当前图像"
 			},
 			"allImagesOption": {
-				"text": "所有图像"
+				"text": "所有图片"
 			},
 			"customImagesOption": {
-				"text": "用户定义"
+				"text": "风俗"
 			},
 			"imageRangeLabel": {
 				"text": "图像范围："
@@ -363,69 +369,75 @@
 				"text": "页面范围无效。 示例：1-5、8、12-15。"
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "索引超出图像集合的范围。"
+				"text": "索引超出图像集合范围。"
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
 			"sizeLabel": {
-				"text": "缩略图大小："
+				"text": "尺寸："
 			},
 			"scaleLabel": {
-				"text": "缩略图比例："
+				"text": "规模："
 			},
 			"smallestOption": {
-				"text": "最少"
+				"text": "最小"
 			},
 			"smallOption": {
-				"text": "小"
+				"text": "小的"
 			},
 			"normalOption": {
-				"text": "正常"
+				"text": "普通的"
 			},
 			"largeOption": {
-				"text": "大"
+				"text": "大的"
 			},
 			"flowStyleLabel": {
-				"text": "缩略图放置样式："
+				"text": "流程风格："
 			},
 			"singleColumnOption": {
 				"text": "单列"
 			},
 			"singleRowOption": {
-				"text": "一行"
+				"text": "单排"
 			},
 			"fixedColumnsOption": {
-				"text": "固定列数"
+				"text": "固定列"
 			},
 			"wrappedRowsOption": {
-				"text": "浮动行数"
+				"text": "换行"
 			},
 			"columnCountLabel": {
-				"text": "列数:"
+				"text": "列数："
 			},
 			"marginLabel": {
-				"text": "外部填充："
+				"text": "利润："
 			},
 			"paddingTopLabel": {
-				"text": "顶部填充："
+				"text": "衬垫上衣："
 			},
 			"paddingRightLabel": {
-				"text": "右缩进："
+				"text": "右填充："
 			},
 			"paddingBottomLabel": {
 				"text": "底部填充："
 			},
 			"paddingLeftLabel": {
-				"text": "左缩进："
+				"text": "左内边距："
 			},
 			"showCaptionLabel": {
-				"text": "显示缩略图标题："
+				"text": "显示字幕："
 			},
 			"captionFormatLabel": {
-				"text": "签名格式："
+				"text": "字幕格式："
 			},
 			"captionAnchorLabel": {
-				"text": "签名锚："
+				"text": "标题锚点："
 			},
 			"topLeftOption": {
 				"text": "顶部|左侧"
@@ -437,66 +449,78 @@
 				"text": "顶部|右侧"
 			},
 			"rightOption": {
-				"text": "右"
+				"text": "正确的"
 			},
 			"bottomRightOption": {
-				"text": "底部|右侧"
+				"text": "下|右"
 			},
 			"bottomOption": {
 				"text": "底部"
 			},
 			"bottomLeftOption": {
-				"text": "底部|左侧"
+				"text": "底部|左"
 			},
 			"leftOption": {
-				"text": "左"
+				"text": "左边"
 			},
 			"centerOption": {
-				"text": "居中"
+				"text": "中心"
 			},
 			"focusOnHoverLabel": {
-				"text": "悬停焦点："
+				"text": "焦点悬停："
 			},
 			"multiSelectLabel": {
-				"text": "允许选择多个缩略图:"
+				"text": "多选："
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"сancelButton": {
+				"value": "取消"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
 			"rotationAngleLabel": {
-				"text": "旋转角度："
+				"text": "角度："
 			},
 			"borderColorTypeLabel": {
 				"text": "边框颜色类型："
 			},
 			"autoDetectOption": {
-				"text": "自动检测"
+				"text": "自动侦测"
 			},
 			"blackOption": {
-				"text": "黑色"
+				"text": "黑色的"
 			},
 			"whiteOption": {
-				"text": "白色"
+				"text": "白色的"
 			},
 			"transparentOption": {
-				"text": "透明"
+				"text": "透明的"
 			},
 			"customOption": {
-				"text": "自定义"
+				"text": "风俗"
 			},
 			"borderColorLabel": {
 				"text": "边框颜色："
 			},
 			"changeSourceLabel": {
-				"text": "更改源"
+				"text": "更改来源"
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
 			}
 		}
 	},
 	"previouslyUploadedFilesDialog": {
 		"title": {
-			"text": "以前下载的文件"
+			"text": "之前上传的文件"
 		},
 		"openButton": {
-			"text": "打开文件"
+			"text": "打开"
 		},
 		"closeButton": {
 			"text": "关闭"
@@ -507,15 +531,15 @@
 			"text": "图像查看器设置"
 		},
 		"imageDisplayModeLabel": {
-			"text": "图像显示模式"
+			"text": "图像显示方式"
 		},
 		"imageAnchorLabel": {
-			"text": "图像锚点："
+			"text": "图片锚点："
 		},
 		"imageAnchorSelect": {
-			"value": "否",
+			"value": "没有任何",
 			"noneOption": {
-				"text": "无"
+				"text": "没有任何"
 			},
 			"topLeftOption": {
 				"text": "顶部|左侧"
@@ -527,28 +551,28 @@
 				"text": "顶部|右侧"
 			},
 			"rightOption": {
-				"text": "右"
+				"text": "正确的"
 			},
 			"bottomRightOption": {
-				"text": "底部|右侧"
+				"text": "下|右"
 			},
 			"bottomOption": {
 				"text": "底部"
 			},
 			"bottomLeftOption": {
-				"text": "底部|左侧"
+				"text": "底部|左"
 			},
 			"leftOption": {
-				"text": "左"
+				"text": "左边"
 			}
 		},
 		"multipageDisplayModeLabel": {
-			"text": "多页显示模式:"
+			"text": "多页显示模式："
 		},
 		"multipageDisplayModeSelect": {
 			"value": "固定图像",
 			"allImagesOption": {
-				"text": "所有图像"
+				"text": "所有图片"
 			},
 			"fixedImagesOption": {
 				"text": "固定图像"
@@ -558,37 +582,37 @@
 			"text": "布局方向："
 		},
 		"multipageLayoutDirectionSelect": {
-			"value": "垂直",
+			"value": "垂直的",
 			"horizontalOption": {
-				"text": "水平"
+				"text": "水平的"
 			},
 			"verticalOption": {
-				"text": "垂直"
+				"text": "垂直的"
 			}
 		},
 		"rowColumnCountLabel": {
-			"text": "每行/列图像："
+			"text": "行/列中的图像："
 		},
 		"imagesPaddingLabel": {
 			"text": "图像填充："
 		},
 		"appearancesLabel": {
-			"text": "出场"
+			"text": "出场次数"
 		},
 		"imageAppearanceLabel": {
 			"text": "图像外观"
 		},
 		"imageAppearanceBackColorLabel": {
-			"text": "背景颜色："
+			"text": "背面颜色："
 		},
 		"imageAppearanceBorderColorLabel": {
-			"text": "边框颜色:"
+			"text": "边框颜色："
 		},
 		"imageAppearanceBorderWidthLabel": {
-			"text": "边框宽度:"
+			"text": "边框宽度："
 		},
 		"focusedImageAppearanceLabel": {
-			"text": "对焦图像的外观"
+			"text": "聚焦图像外观"
 		},
 		"useAppearanceInSinglePageModeLabel": {
 			"text": "在单页模式下使用图像外观"
@@ -612,19 +636,19 @@
 			"text": "插值模式："
 		},
 		"drawNonMarkupAnnotationsLabel": {
-			"text": "绘制不带标记的注释"
+			"text": "绘制非标记注释"
 		},
 		"otherSettigsLabel": {
 			"text": "其他设置"
 		},
 		"backgroundColorLabel": {
-			"text": "图像查看器背景颜色："
+			"text": "查看器背景颜色："
 		},
 		"centerImageLabel": {
 			"text": "中心图像："
 		},
 		"resizeTimeoutLabel": {
-			"text": "调整大小超时："
+			"text": "调整超时大小："
 		},
 		"tileSizeLabel": {
 			"text": "瓷砖尺寸："
@@ -636,10 +660,10 @@
 			"text": "对文档使用矢量渲染："
 		},
 		"vectorContentBackgroundColorLabel": {
-			"text": "矢量内容背景颜色:"
+			"text": "矢量内容背景颜色："
 		},
 		"okButton": {
-			"text": "确定"
+			"text": "好的"
 		},
 		"cancelButton": {
 			"text": "关闭"
@@ -654,7 +678,7 @@
 				"text": "边界："
 			},
 			"CanMirror": {
-				"text": "您可以镜像："
+				"text": "可以镜像："
 			},
 			"CanMove": {
 				"text": "可以移动："
@@ -666,13 +690,13 @@
 				"text": "可以旋转："
 			},
 			"CreatedBy": {
-				"text": "作者："
+				"text": "由...制作："
 			},
 			"CreationTime": {
 				"text": "创建时间："
 			},
 			"+ FillBrush": {
-				"text": "+ 填充："
+				"text": "+ 填充画笔："
 			},
 			"Color": {
 				"text": "颜色："
@@ -684,10 +708,10 @@
 				"text": "+ 字体："
 			},
 			"Bold": {
-				"text": "粗体："
+				"text": "大胆的："
 			},
 			"FamilyName": {
-				"text": "姓氏："
+				"text": "姓："
 			},
 			"Italic": {
 				"text": "斜体："
@@ -696,58 +720,58 @@
 				"text": "尺寸："
 			},
 			"Strikeout": {
-				"text": "删除线："
+				"text": "三振："
 			},
 			"Underline": {
-				"text": "下划线："
+				"text": "强调："
 			},
 			"Unit": {
-				"text": "单位："
+				"text": "单元："
 			},
 			"+ FontBrush": {
 				"text": "+ 字体刷："
 			},
 			"FontTransparent": {
-				"text": "透明字体："
+				"text": "字体透明："
 			},
 			"Guid": {
-				"text": "ID:"
+				"text": "指导："
 			},
 			"HorizontalMirrored": {
-				"text": "水平翻转："
+				"text": "水平镜像："
 			},
 			"IsBuilding": {
-				"text": "注释已构建："
+				"text": "正在建设："
 			},
 			"IsVisible": {
-				"text": "注释可见："
+				"text": "是否可见："
 			},
 			"LineStyle": {
 				"text": "线条样式："
 			},
 			"LineStylePatternSize": {
-				"text": "线型模板尺寸："
+				"text": "线条样式图案尺寸："
 			},
 			"+ Location": {
-				"text": "+ 位置："
+				"text": "+ 地点："
 			},
 			"x": {
-				"text": "x:"
+				"text": "X："
 			},
 			"y": {
-				"text": "y:"
+				"text": "y："
 			},
 			"ModifiedBy": {
-				"text": "更改者："
+				"text": "修改者："
 			},
 			"ModifiedTime": {
-				"text": "更改时间："
+				"text": "修改时间："
 			},
 			"Name": {
-				"text": "名称："
+				"text": "姓名："
 			},
 			"+ Outline": {
-				"text": "+方案："
+				"text": "+ 概要："
 			},
 			"DashPattern": {
 				"text": "破折号图案："
@@ -756,7 +780,7 @@
 				"text": "破折号样式："
 			},
 			"+ EndCap": {
-				"text": "+ 行尾的大写字母："
+				"text": "+ 端盖："
 			},
 			"+ Size": {
 				"text": "+ 尺寸："
@@ -777,7 +801,7 @@
 				"text": "斜接限制："
 			},
 			"+ StartCap": {
-				"text": "+ 行首的上限："
+				"text": "+ 启动资本："
 			},
 			"Width": {
 				"text": "宽度："
@@ -786,52 +810,52 @@
 				"text": "+ 调整点模板大小："
 			},
 			"BorderColor": {
-				"text": "边框颜色:"
+				"text": "边框颜色："
 			},
 			"BorderWidth": {
-				"text": "边框宽度:"
+				"text": "边框宽度："
 			},
 			"FillColor": {
-				"text": "填充颜色："
+				"text": "填色："
 			},
 			"InteractionRadius": {
-				"text": "交互区域半径："
+				"text": "交互半径："
 			},
 			"Radius": {
 				"text": "半径："
 			},
 			"Rotation": {
-				"text": "旋转："
+				"text": "回转："
 			},
 			"+ RotationCenterPoint": {
 				"text": "+ 旋转中心点："
 			},
 			"Cursor": {
-				"text": "光标:"
+				"text": "光标："
 			},
 			"+ RotationPoint": {
-				"text": "+ 枢轴点："
+				"text": "+ 旋转点："
 			},
 			"RotationPointDistance": {
-				"text": "到枢轴点的距离："
+				"text": "旋转点距离："
 			},
 			"+ ShadowBrush": {
 				"text": "+ 阴影笔刷："
 			},
 			"+ ShadowOffset": {
-				"text": "+ 绘制阴影的缩进："
+				"text": "+ 阴影偏移："
 			},
 			"Symmetry": {
-				"text": "对称性："
+				"text": "对称："
 			},
 			"Text": {
 				"text": "文本："
 			},
 			"TextAlign": {
-				"text": "文本对齐方式："
+				"text": "文本对齐："
 			},
 			"+ TextBox": {
-				"text": "+ 文本字段："
+				"text": "+ 文本框："
 			},
 			"FontColor": {
 				"text": "字体颜色："
@@ -840,22 +864,22 @@
 				"text": "字体系列："
 			},
 			"FontSize": {
-				"text": "字体大小:"
+				"text": "字体大小："
 			},
 			"TextBoxHeight": {
-				"text": "文本字段高度："
+				"text": "文本框高度："
 			},
 			"TextBoxWidth": {
-				"text": "文本字段宽度："
+				"text": "文本框宽度："
 			},
 			"+ TextPadding": {
-				"text": "+ 文本缩进："
+				"text": "+ 文本填充："
 			},
 			"left": {
-				"text": "左："
+				"text": "左边："
 			},
 			"right": {
-				"text": "右："
+				"text": "正确的："
 			},
 			"top": {
 				"text": "顶部："
@@ -864,14 +888,14 @@
 				"text": "底部："
 			},
 			"ToolTip": {
-				"text": "提示："
+				"text": "工具提示："
 			},
 			"VerticalMirrored": {
 				"text": "垂直镜像："
 			}
 		},
 		"okButton": {
-			"text": "确定"
+			"text": "好的"
 		}
 	},
 	"errorMessageDialog": {
@@ -883,23 +907,23 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "页码",
+		"vssde-annotationPanel-pageLabel": "页",
 		"vssde-annotationPanel-annotationPropertiesLabel": "注释属性",
-		"vssde-textSearchPanel-pageLabel": "页码",
+		"vssde-textSearchPanel-pageLabel": "页",
 		"vssde-documentPasswordDialog-title": "文档密码",
-		"vssde-dialog-okButton": "确定",
+		"vssde-dialog-okButton": "好的",
 		"vssde-dialog-cancelButton": "取消",
 		"vssde-imageSelectionDialog-currentImageString": "当前图像",
-		"vssde-imageSelectionDialog-allImagesString": "所有图像",
-		"vssde-imageSelectionDialog-customImagesString": "自定义范围",
+		"vssde-imageSelectionDialog-allImagesString": "所有图片",
+		"vssde-imageSelectionDialog-customImagesString": "风俗",
 		"vssde-imageSelectionDialog-title": "选择图像",
 		"vssde-printImagesDialog-withAnnotationsLabel": "带注释",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "图像正在准备打印",
+		"vssde-printImagesDialog-imagePreparedToPrintString": "准备打印的图像",
 		"vssde-printImagesDialog-title": "打印图像",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "在缩略图上显示注释：",
+		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
 		"vssde-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "旋转角度不能为0。",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注释图像正在旋转",
-		"vssde-rotateImageWithAnnotationsDialog-title": "旋转带注释的图像"
+		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "旋转角度应大于零。",
+		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "带注释旋转图像",
+		"vssde-rotateImageWithAnnotationsDialog-title": "旋转带有注释的图像"
 	}
 }
