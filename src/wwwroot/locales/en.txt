@@ -22,7 +22,7 @@
 			"title": "Print images"
 		},
 		"downloadFileButton": {
-			"title": "Download image file"
+			"title": "Download Image File"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Fit to width"
@@ -37,7 +37,7 @@
 			"title": "Rotate image clockwise"
 		},
 		"imageViewerSettingsButton": {
-			"title": "Show Image Viewer Settings"
+			"title": "Image viewer settings"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Thumbnail viewer settings"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Incorrect password"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Cancel"
 			}
 		},
 		"selectImagesDialog": {
@@ -375,6 +381,164 @@
 				"value": "OK"
 			},
 			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Image display mode:"
+			},
+			"imageAnchorLabel": {
+				"text": "Image anchor:"
+			},
+			"noneOption": {
+				"text": "None"
+			},
+			"topLeftOption": {
+				"text": "Top|Left"
+			},
+			"topOption": {
+				"text": "Top"
+			},
+			"topRightOption": {
+				"text": "Top|Right"
+			},
+			"rightOption": {
+				"text": "Right"
+			},
+			"bottomRightOption": {
+				"text": "Bottom|Right"
+			},
+			"bottomOption": {
+				"text": "Bottom"
+			},
+			"bottomLeftOption": {
+				"text": "Bottom|Left"
+			},
+			"leftOption": {
+				"text": "Left"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Multipage display mode:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Layout direction:"
+			},
+			"horizontalOption": {
+				"text": "Horizontal"
+			},
+			"verticalOption": {
+				"text": "Vertical"
+			},
+			"rowColumnCountLabel": {
+				"text": "Images in row/column:"
+			},
+			"imagePaddingLabel": {
+				"text": "Images padding:"
+			},
+			"appearancesLabel": {
+				"text": "Appearances"
+			},
+			"imageAppearanceLabel": {
+				"text": "Image appearance"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Back color:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Border color:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Border width:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Focused image appearance"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Back color:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Border color:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Border width:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Use image appearance in single-page mode"
+			},
+			"renderingSettingsLabel": {
+				"text": "Rendering settings"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Default Settings"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horizontal Resolution:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Vertical Resolution:"
+			},
+			"smoothingModeLabel": {
+				"text": "Smoothing Mode:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "None"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolation Mode:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Other settings"
+			},
+			"backgroundColorLabel": {
+				"text": "Viewer background color:"
+			},
+			"centerImageLabel": {
+				"text": "Center image:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Resize timeout:"
+			},
+			"tileSizeLabel": {
+				"text": "Tile size:"
+			},
+			"colorManagementLabel": {
+				"text": "Enable color management:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Use vector rendering for documents:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vector content background color:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
 				"value": "Cancel"
 			}
 		},
@@ -523,149 +687,6 @@
 			"text": "Open"
 		},
 		"closeButton": {
-			"text": "Close"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Image viewer settings"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Image display mode"
-		},
-		"imageAnchorLabel": {
-			"text": "Image anchor:"
-		},
-		"imageAnchorSelect": {
-			"value": "None",
-			"noneOption": {
-				"text": "None"
-			},
-			"topLeftOption": {
-				"text": "Top|Left"
-			},
-			"topOption": {
-				"text": "Top"
-			},
-			"topRightOption": {
-				"text": "Top|Right"
-			},
-			"rightOption": {
-				"text": "Right"
-			},
-			"bottomRightOption": {
-				"text": "Bottom|Right"
-			},
-			"bottomOption": {
-				"text": "Bottom"
-			},
-			"bottomLeftOption": {
-				"text": "Bottom|Left"
-			},
-			"leftOption": {
-				"text": "Left"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Multipage display mode:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "FixedImages",
-			"allImagesOption": {
-				"text": "AllImages"
-			},
-			"fixedImagesOption": {
-				"text": "FixedImages"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Layout direction:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Vertical",
-			"horizontalOption": {
-				"text": "Horizontal"
-			},
-			"verticalOption": {
-				"text": "Vertical"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Images in row/column: "
-		},
-		"imagesPaddingLabel": {
-			"text": "Images padding: "
-		},
-		"appearancesLabel": {
-			"text": "Appearances"
-		},
-		"imageAppearanceLabel": {
-			"text": "Image appearance"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Back color:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Border color:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Border width:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Focused image appearance"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Use image appearance in single-page mode"
-		},
-		"renderingSettigsLabel": {
-			"text": "Rendering settings"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Default Settings"
-		},
-		"horResLabel": {
-			"text": "Horizontal Resolution:"
-		},
-		"vertResLabel": {
-			"text": "Vertical Resolution:"
-		},
-		"smoothingLabel": {
-			"text": "Smoothing Mode:"
-		},
-		"interpolationLabel": {
-			"text": "Interpolation Mode:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Draw non markup annotation"
-		},
-		"otherSettigsLabel": {
-			"text": "Other settings"
-		},
-		"backgroundColorLabel": {
-			"text": "Viewer background color:"
-		},
-		"centerImageLabel": {
-			"text": "Center image:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Resize timeout:"
-		},
-		"tileSizeLabel": {
-			"text": "Tile size:"
-		},
-		"colorManagementLabel": {
-			"text": "Enable color management:"
-		},
-		"useVectorRendering": {
-			"text": "Use vector rendering for documents:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Vector content background color:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Close"
 		}
 	},
@@ -909,6 +930,8 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Page",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Annotation Properties",
+		"vssde-annotationListPanel-pageLabel": "Page",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Annotation Properties",
 		"vssde-textSearchPanel-pageLabel": "Page",
 		"vssde-documentPasswordDialog-title": "Document password",
 		"vssde-dialog-okButton": "OK",
@@ -924,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotation angle should be more than zero.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotating image with annotations",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Rotate image with annotations"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Rotate image with annotations",
+		"vssde-imageViewerSettingsDialog-title": "Image viewer settings"
 	}
 }

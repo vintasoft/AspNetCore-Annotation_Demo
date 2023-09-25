@@ -22,7 +22,7 @@
 			"title": "Afbeeldingen afdrukken"
 		},
 		"downloadFileButton": {
-			"title": "Bestand uploaden"
+			"title": "Afbeeldingsbestand downloaden"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Aanpassen aan breedte"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "Hoofdlettergevoelig"
 			},
-			"textNotFoundLabel": {
-				"text": "Tekst niet gevonden."
-			},
 			"startSearchButton": {
 				"value": "Start zoeken"
 			},
 			"stopSearchButton": {
 				"value": "Stop met zoeken"
+			},
+			"textNotFoundLabel": {
+				"text": "Tekst niet gevonden."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "Roulette"
 		},
 		"addAngleAnnotationButton": {
-			"title": "Hoek"
+			"title": "Rotatiehoek"
 		},
 		"addMarkAnnotationButton": {
 			"title": "Label"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Verkeerd wachtwoord"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuleren"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "Alle afbeeldingen"
 			},
 			"customImagesOption": {
-				"text": "Aangepast bereik"
+				"text": "Aangepast"
 			},
 			"imageRangeLabel": {
 				"text": "Beeldbereik:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "De index valt niet binnen het indexbereik van de afbeeldingencollectie."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuleren"
 			}
 		},
 		"printImagesDialog": {
@@ -354,7 +366,7 @@
 				"text": "Alle afbeeldingen"
 			},
 			"customImagesOption": {
-				"text": "Door gebruiker gedefinieerd"
+				"text": "Aangepast"
 			},
 			"imageRangeLabel": {
 				"text": "Beeldbereik:"
@@ -363,7 +375,171 @@
 				"text": "Ongeldig paginabereik. Voorbeeld: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "De index is buiten bereik voor de afbeeldingscollectie."
+				"text": "De index valt niet binnen het indexbereik van de afbeeldingencollectie."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Beeldweergavemodus:"
+			},
+			"imageAnchorLabel": {
+				"text": "Beeldanker:"
+			},
+			"noneOption": {
+				"text": "Nee"
+			},
+			"topLeftOption": {
+				"text": "Boven|Links"
+			},
+			"topOption": {
+				"text": "Top"
+			},
+			"topRightOption": {
+				"text": "Boven|Rechts"
+			},
+			"rightOption": {
+				"text": "Juist"
+			},
+			"bottomRightOption": {
+				"text": "Onder|Rechts"
+			},
+			"bottomOption": {
+				"text": "Onderkant"
+			},
+			"bottomLeftOption": {
+				"text": "Onder|Links"
+			},
+			"leftOption": {
+				"text": "Links"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Weergavemodus voor meerdere pagina's:"
+			},
+			"allImagesOption": {
+				"text": "Alle afbeeldingen"
+			},
+			"fixedImagesOption": {
+				"text": "Vaste afbeeldingen"
+			},
+			"layoutDirectionLabel": {
+				"text": "Opmaakrichting:"
+			},
+			"horizontalOption": {
+				"text": "Horizontaal"
+			},
+			"verticalOption": {
+				"text": "Verticaal"
+			},
+			"rowColumnCountLabel": {
+				"text": "Afbeeldingen in rij/kolom:"
+			},
+			"imagePaddingLabel": {
+				"text": "Afbeeldingen opvulling:"
+			},
+			"appearancesLabel": {
+				"text": "Uiterlijk"
+			},
+			"imageAppearanceLabel": {
+				"text": "Uiterlijk beeld"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Achtergrondkleur:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Randkleur:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Randbreedte:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Uiterlijk van scherpgesteld beeld"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Achtergrondkleur:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Randkleur:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Randbreedte:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Gebruik afbeeldingsweergave in enkele paginamodus"
+			},
+			"renderingSettingsLabel": {
+				"text": "Renderinstellingen"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Standaardinstellingen"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horizontale resolutie:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Verticale resolutie:"
+			},
+			"smoothingModeLabel": {
+				"text": "Vloeiende modus:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Nee"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolatiemodus:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Andere instellingen"
+			},
+			"backgroundColorLabel": {
+				"text": "Achtergrondkleur afbeeldingviewer:"
+			},
+			"centerImageLabel": {
+				"text": "Afbeelding midden:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Formaat wijzigen time-out:"
+			},
+			"tileSizeLabel": {
+				"text": "Tegelmaat:"
+			},
+			"colorManagementLabel": {
+				"text": "Kleurbeheer inschakelen:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Gebruik vectorweergave voor documenten:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Achtergrondkleur vectorinhoud:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuleren"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "Links"
 			},
 			"centerOption": {
-				"text": "Gecentreerd"
+				"text": "Gecentreerd uitlijnen"
 			},
 			"focusOnHoverLabel": {
 				"text": "Zweeffocus:"
 			},
 			"multiSelectLabel": {
 				"text": "Sta meerdere miniatuurselectie toe:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuleren"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "Wijzig bron"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "Bestand openen"
 		},
 		"closeButton": {
-			"text": "Sluiten"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Instellingen afbeeldingsviewer"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Beeldweergavemodus"
-		},
-		"imageAnchorLabel": {
-			"text": "Beeldanker:"
-		},
-		"imageAnchorSelect": {
-			"value": "Nee",
-			"noneOption": {
-				"text": "Geen"
-			},
-			"topLeftOption": {
-				"text": "Boven|Links"
-			},
-			"topOption": {
-				"text": "Top"
-			},
-			"topRightOption": {
-				"text": "Boven|Rechts"
-			},
-			"rightOption": {
-				"text": "Juist"
-			},
-			"bottomRightOption": {
-				"text": "Onder|Rechts"
-			},
-			"bottomOption": {
-				"text": "Onderkant"
-			},
-			"bottomLeftOption": {
-				"text": "Onder|Links"
-			},
-			"leftOption": {
-				"text": "Links"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Weergavemodus voor meerdere pagina's:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "Vaste afbeeldingen",
-			"allImagesOption": {
-				"text": "Alle afbeeldingen"
-			},
-			"fixedImagesOption": {
-				"text": "Vaste afbeeldingen"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Opmaakrichting:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Verticaal",
-			"horizontalOption": {
-				"text": "Horizontaal"
-			},
-			"verticalOption": {
-				"text": "Verticaal"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Afbeeldingen per rij/kolom:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Afbeelding opvulling:"
-		},
-		"appearancesLabel": {
-			"text": "Uiterlijk"
-		},
-		"imageAppearanceLabel": {
-			"text": "Uiterlijk beeld"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Achtergrondkleur:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Randkleur:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Randbreedte:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Uiterlijk van scherpgesteld beeld"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Gebruik afbeeldingsweergave in enkele paginamodus"
-		},
-		"renderingSettigsLabel": {
-			"text": "Renderinstellingen"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Standaardinstellingen"
-		},
-		"horResLabel": {
-			"text": "Horizontale resolutie:"
-		},
-		"vertResLabel": {
-			"text": "Verticale resolutie:"
-		},
-		"smoothingLabel": {
-			"text": "Vloeiende modus:"
-		},
-		"interpolationLabel": {
-			"text": "Interpolatiemodus:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Teken annotatie zonder markeringen"
-		},
-		"otherSettigsLabel": {
-			"text": "Andere instellingen"
-		},
-		"backgroundColorLabel": {
-			"text": "Achtergrondkleur afbeeldingviewer:"
-		},
-		"centerImageLabel": {
-			"text": "Afbeelding midden:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Formaat wijzigen time-out:"
-		},
-		"tileSizeLabel": {
-			"text": "Tegelmaat:"
-		},
-		"colorManagementLabel": {
-			"text": "Kleurbeheer inschakelen:"
-		},
-		"useVectorRendering": {
-			"text": "Gebruik vectorweergave voor documenten:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Achtergrondkleur vectorinhoud:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Sluiten"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "Cursief:"
 			},
 			"Size": {
-				"text": "Maat:"
+				"text": "Miniatuurgrootte:"
 			},
 			"Strikeout": {
 				"text": "Doorhalen:"
@@ -885,13 +930,15 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Pagina",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Annotatie-eigenschappen",
+		"vssde-annotationListPanel-pageLabel": "Pagina",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Annotatie-eigenschappen",
 		"vssde-textSearchPanel-pageLabel": "Pagina",
 		"vssde-documentPasswordDialog-title": "Documentwachtwoord",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Annuleren",
 		"vssde-imageSelectionDialog-currentImageString": "Huidige afbeelding",
 		"vssde-imageSelectionDialog-allImagesString": "Alle afbeeldingen",
-		"vssde-imageSelectionDialog-customImagesString": "Aangepast bereik",
+		"vssde-imageSelectionDialog-customImagesString": "Aangepast",
 		"vssde-imageSelectionDialog-title": "Selecteer afbeeldingen",
 		"vssde-printImagesDialog-withAnnotationsLabel": "met annotaties",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "Afbeelding wordt voorbereid voor afdrukken",
@@ -900,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotatiehoek mag niet 0 zijn.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Geannoteerde afbeelding roteren"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Geannoteerde afbeelding roteren",
+		"vssde-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer"
 	}
 }

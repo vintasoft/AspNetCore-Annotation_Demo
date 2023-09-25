@@ -22,7 +22,7 @@
 			"title": "Imprimir imágenes"
 		},
 		"downloadFileButton": {
-			"title": "Subir archivo"
+			"title": "Descargar archivo de imagen"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ajustar al ancho"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "Sensible a mayúsculas y minúsculas"
 			},
-			"textNotFoundLabel": {
-				"text": "Texto no encontrado."
-			},
 			"startSearchButton": {
 				"value": "Iniciar búsqueda"
 			},
 			"stopSearchButton": {
 				"value": "Dejar de buscar"
+			},
+			"textNotFoundLabel": {
+				"text": "Texto no encontrado."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "Ruleta"
 		},
 		"addAngleAnnotationButton": {
-			"title": "Ángulo"
+			"title": "Ángulo de rotación"
 		},
 		"addMarkAnnotationButton": {
 			"title": "Etiqueta"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Contraseña incorrecta"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Cancelar"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "Todas las imágenes"
 			},
 			"customImagesOption": {
-				"text": "Rango personalizado"
+				"text": "Personalizado"
 			},
 			"imageRangeLabel": {
 				"text": "Rango de imagen:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "El índice no está dentro del rango de índice de la colección de imágenes."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Cancelar"
 			}
 		},
 		"printImagesDialog": {
@@ -354,7 +366,7 @@
 				"text": "Todas las imágenes"
 			},
 			"customImagesOption": {
-				"text": "Definido por el usuario"
+				"text": "Personalizado"
 			},
 			"imageRangeLabel": {
 				"text": "Rango de imagen:"
@@ -363,7 +375,171 @@
 				"text": "Intervalo de páginas no válido. Ejemplo: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "El índice está fuera de rango para la colección de imágenes."
+				"text": "El índice no está dentro del rango de índice de la colección de imágenes."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancelar"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Modo de visualización de imágenes:"
+			},
+			"imageAnchorLabel": {
+				"text": "Anclaje de imagen:"
+			},
+			"noneOption": {
+				"text": "No"
+			},
+			"topLeftOption": {
+				"text": "Arriba|Izquierda"
+			},
+			"topOption": {
+				"text": "Arriba"
+			},
+			"topRightOption": {
+				"text": "Arriba|Derecha"
+			},
+			"rightOption": {
+				"text": "Derecha"
+			},
+			"bottomRightOption": {
+				"text": "Abajo|Derecha"
+			},
+			"bottomOption": {
+				"text": "Abajo"
+			},
+			"bottomLeftOption": {
+				"text": "Abajo|Izquierda"
+			},
+			"leftOption": {
+				"text": "Izquierda"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Modo de visualización de varias páginas:"
+			},
+			"allImagesOption": {
+				"text": "Todas las imágenes"
+			},
+			"fixedImagesOption": {
+				"text": "Imágenes fijas"
+			},
+			"layoutDirectionLabel": {
+				"text": "Dirección del diseño:"
+			},
+			"horizontalOption": {
+				"text": "Horizontal"
+			},
+			"verticalOption": {
+				"text": "Vertical"
+			},
+			"rowColumnCountLabel": {
+				"text": "Imágenes en fila/columna:"
+			},
+			"imagePaddingLabel": {
+				"text": "Relleno de imágenes:"
+			},
+			"appearancesLabel": {
+				"text": "Apariciones"
+			},
+			"imageAppearanceLabel": {
+				"text": "Aspecto de la imagen"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Color de fondo:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Color del borde:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Ancho del borde:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Aspecto de la imagen enfocada"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Color de fondo:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Color del borde:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Ancho del borde:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Usar apariencia de imagen en modo de página única"
+			},
+			"renderingSettingsLabel": {
+				"text": "Configuración de procesamiento"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Configuración predeterminada"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Resolución horizontal:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Resolución vertical:"
+			},
+			"smoothingModeLabel": {
+				"text": "Modo suave:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "No"
+			},
+			"interpolationModeLabel": {
+				"text": "Modo de interpolación:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Otras configuraciones"
+			},
+			"backgroundColorLabel": {
+				"text": "Color de fondo del visor de imágenes:"
+			},
+			"centerImageLabel": {
+				"text": "Imagen central:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Tiempo de espera de cambio de tamaño:"
+			},
+			"tileSizeLabel": {
+				"text": "Tamaño de mosaico:"
+			},
+			"colorManagementLabel": {
+				"text": "Activar gestión de color:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Usar representación vectorial para documentos:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Color de fondo del contenido del vector:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Cancelar"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "Izquierda"
 			},
 			"centerOption": {
-				"text": "Centrado"
+				"text": "Alinear al centro"
 			},
 			"focusOnHoverLabel": {
 				"text": "Enfoque flotante:"
 			},
 			"multiSelectLabel": {
 				"text": "Permitir selección múltiple de miniaturas:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Cancelar"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "Cambiar fuente"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancelar"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "Abrir archivo"
 		},
 		"closeButton": {
-			"text": "Cerrar"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Configuración del visor de imágenes"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Modo de visualización de imagen"
-		},
-		"imageAnchorLabel": {
-			"text": "Anclaje de imagen:"
-		},
-		"imageAnchorSelect": {
-			"value": "No",
-			"noneOption": {
-				"text": "Ninguno"
-			},
-			"topLeftOption": {
-				"text": "Arriba|Izquierda"
-			},
-			"topOption": {
-				"text": "Arriba"
-			},
-			"topRightOption": {
-				"text": "Arriba|Derecha"
-			},
-			"rightOption": {
-				"text": "Derecho"
-			},
-			"bottomRightOption": {
-				"text": "Abajo|Derecha"
-			},
-			"bottomOption": {
-				"text": "Abajo"
-			},
-			"bottomLeftOption": {
-				"text": "Abajo|Izquierda"
-			},
-			"leftOption": {
-				"text": "Izquierda"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Modo de visualización de varias páginas:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "Imágenes fijas",
-			"allImagesOption": {
-				"text": "Todas las imágenes"
-			},
-			"fixedImagesOption": {
-				"text": "Imágenes fijas"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Dirección del diseño:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Vertical",
-			"horizontalOption": {
-				"text": "Horizontal"
-			},
-			"verticalOption": {
-				"text": "Vertical"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Imágenes por fila/columna:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Relleno de imagen:"
-		},
-		"appearancesLabel": {
-			"text": "Apariciones"
-		},
-		"imageAppearanceLabel": {
-			"text": "Aspecto de la imagen"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Color de fondo:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Color del borde:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Ancho del borde:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Aspecto de la imagen enfocada"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Usar apariencia de imagen en modo de página única"
-		},
-		"renderingSettigsLabel": {
-			"text": "Configuración de procesamiento"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Configuración predeterminada"
-		},
-		"horResLabel": {
-			"text": "Resolución horizontal:"
-		},
-		"vertResLabel": {
-			"text": "Resolución vertical:"
-		},
-		"smoothingLabel": {
-			"text": "Modo suave:"
-		},
-		"interpolationLabel": {
-			"text": "Modo de interpolación:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Dibujar anotación sin marcado"
-		},
-		"otherSettigsLabel": {
-			"text": "Otras configuraciones"
-		},
-		"backgroundColorLabel": {
-			"text": "Color de fondo del visor de imágenes:"
-		},
-		"centerImageLabel": {
-			"text": "Imagen central:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Tiempo de espera de cambio de tamaño:"
-		},
-		"tileSizeLabel": {
-			"text": "Tamaño de mosaico:"
-		},
-		"colorManagementLabel": {
-			"text": "Activar gestión de color:"
-		},
-		"useVectorRendering": {
-			"text": "Usar representación vectorial para documentos:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Color de fondo del contenido del vector:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Cerrar"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "Cursiva:"
 			},
 			"Size": {
-				"text": "Tamaño:"
+				"text": "Tamaño de miniatura:"
 			},
 			"Strikeout": {
 				"text": "Tachado:"
@@ -885,13 +930,15 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Página",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Propiedades de la anotación",
+		"vssde-annotationListPanel-pageLabel": "Página",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Propiedades de la anotación",
 		"vssde-textSearchPanel-pageLabel": "Página",
 		"vssde-documentPasswordDialog-title": "Contraseña del documento",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Cancelar",
 		"vssde-imageSelectionDialog-currentImageString": "Imagen actual",
 		"vssde-imageSelectionDialog-allImagesString": "Todas las imágenes",
-		"vssde-imageSelectionDialog-customImagesString": "Rango personalizado",
+		"vssde-imageSelectionDialog-customImagesString": "Personalizado",
 		"vssde-imageSelectionDialog-title": "Seleccionar imágenes",
 		"vssde-printImagesDialog-withAnnotationsLabel": "con anotaciones",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "La imagen se está preparando para imprimir",
@@ -900,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "Configuración del visor de miniaturas",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "El ángulo de rotación no debe ser 0.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "La imagen anotada se está rotando",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Rotar imagen anotada"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Rotar imagen anotada",
+		"vssde-imageViewerSettingsDialog-title": "Configuración del visor de imágenes"
 	}
 }

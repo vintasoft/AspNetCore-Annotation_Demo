@@ -22,7 +22,7 @@
 			"title": "طباعة الصور"
 		},
 		"downloadFileButton": {
-			"title": "تحميل الملف"
+			"title": "تحميل ملف الصورة"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "ملائم للعرض"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "تحسس حالة الأحرف"
 			},
-			"textNotFoundLabel": {
-				"text": "النص غير موجود."
-			},
 			"startSearchButton": {
 				"value": "بدء البحث"
 			},
 			"stopSearchButton": {
 				"value": "توقف عن البحث"
+			},
+			"textNotFoundLabel": {
+				"text": "النص غير موجود."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "الروليت"
 		},
 		"addAngleAnnotationButton": {
-			"title": "الزاوية"
+			"title": "زاوية الدوران"
 		},
 		"addMarkAnnotationButton": {
 			"title": "تسمية"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "كلمة مرور خاطئة"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"сancelButton": {
+				"value": "إلغاء"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "كل الصور"
 			},
 			"customImagesOption": {
-				"text": "نطاق مخصص"
+				"text": "مخصص"
 			},
 			"imageRangeLabel": {
 				"text": "نطاق الصورة:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "الفهرس ليس ضمن نطاق الفهرس لمجموعة الصور."
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"сancelButton": {
+				"value": "إلغاء"
 			}
 		},
 		"printImagesDialog": {
@@ -354,7 +366,7 @@
 				"text": "كل الصور"
 			},
 			"customImagesOption": {
-				"text": "معرف المستخدم"
+				"text": "مخصص"
 			},
 			"imageRangeLabel": {
 				"text": "نطاق الصورة:"
@@ -363,7 +375,171 @@
 				"text": "نطاق الصفحات غير صالح. مثال: 1-5 ، 8 ، 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "الفهرس خارج نطاق مجموعة الصور."
+				"text": "الفهرس ليس ضمن نطاق الفهرس لمجموعة الصور."
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "وضع عرض الصورة:"
+			},
+			"imageAnchorLabel": {
+				"text": "مرساة الصورة:"
+			},
+			"noneOption": {
+				"text": "لا"
+			},
+			"topLeftOption": {
+				"text": "أعلى | يسار"
+			},
+			"topOption": {
+				"text": "الأعلى"
+			},
+			"topRightOption": {
+				"text": "أعلى | يمين"
+			},
+			"rightOption": {
+				"text": "صحيح"
+			},
+			"bottomRightOption": {
+				"text": "أسفل | يمين"
+			},
+			"bottomOption": {
+				"text": "القاع"
+			},
+			"bottomLeftOption": {
+				"text": "أسفل | يسار"
+			},
+			"leftOption": {
+				"text": "يسار"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "وضع عرض متعدد الصفحات:"
+			},
+			"allImagesOption": {
+				"text": "كل الصور"
+			},
+			"fixedImagesOption": {
+				"text": "صور ثابتة"
+			},
+			"layoutDirectionLabel": {
+				"text": "اتجاه التخطيط:"
+			},
+			"horizontalOption": {
+				"text": "أفقي"
+			},
+			"verticalOption": {
+				"text": "عمودي"
+			},
+			"rowColumnCountLabel": {
+				"text": "الصور في الصف/العمود:"
+			},
+			"imagePaddingLabel": {
+				"text": "حشوة الصور:"
+			},
+			"appearancesLabel": {
+				"text": "المظهر"
+			},
+			"imageAppearanceLabel": {
+				"text": "مظهر الصورة"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "لون الخلفية:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "لون الحد:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "عرض الحد:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "ظهور الصورة في التركيز البؤري"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "لون الخلفية:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "لون الحد:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "عرض الحد:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "استخدم مظهر الصورة في وضع الصفحة الواحدة"
+			},
+			"renderingSettingsLabel": {
+				"text": "إعدادات التقديم"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "الإعدادات الافتراضية"
+			},
+			"horizontalResolutionLabel": {
+				"text": "الدقة الأفقية:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "الدقة الرأسية:"
+			},
+			"smoothingModeLabel": {
+				"text": "الوضع السلس:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "لا"
+			},
+			"interpolationModeLabel": {
+				"text": "وضع الاستيفاء:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "إعدادات أخرى"
+			},
+			"backgroundColorLabel": {
+				"text": "لون خلفية عارض الصور:"
+			},
+			"centerImageLabel": {
+				"text": "صورة المركز:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "تغيير حجم المهلة:"
+			},
+			"tileSizeLabel": {
+				"text": "حجم البلاط:"
+			},
+			"colorManagementLabel": {
+				"text": "تمكين إدارة الألوان:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "استخدام العرض المتجه للمستندات:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "لون خلفية محتوى المتجه:"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"сancelButton": {
+				"value": "إلغاء"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "يسار"
 			},
 			"centerOption": {
-				"text": "توسيط"
+				"text": "محاذاة للوسط"
 			},
 			"focusOnHoverLabel": {
 				"text": "تركيز التحويم:"
 			},
 			"multiSelectLabel": {
 				"text": "السماح باختيار صور مصغرة متعددة:"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"сancelButton": {
+				"value": "إلغاء"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "تغيير المصدر"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "فتح ملف"
 		},
 		"closeButton": {
-			"text": "إغلاق"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "إعدادات عارض الصور"
-		},
-		"imageDisplayModeLabel": {
-			"text": "وضع عرض الصورة"
-		},
-		"imageAnchorLabel": {
-			"text": "مرساة الصورة:"
-		},
-		"imageAnchorSelect": {
-			"value": "لا",
-			"noneOption": {
-				"text": "بلا"
-			},
-			"topLeftOption": {
-				"text": "أعلى | يسار"
-			},
-			"topOption": {
-				"text": "الأعلى"
-			},
-			"topRightOption": {
-				"text": "أعلى | يمين"
-			},
-			"rightOption": {
-				"text": "يمين"
-			},
-			"bottomRightOption": {
-				"text": "أسفل | يمين"
-			},
-			"bottomOption": {
-				"text": "القاع"
-			},
-			"bottomLeftOption": {
-				"text": "أسفل | يسار"
-			},
-			"leftOption": {
-				"text": "يسار"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "وضع عرض متعدد الصفحات:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "صور ثابتة",
-			"allImagesOption": {
-				"text": "كل الصور"
-			},
-			"fixedImagesOption": {
-				"text": "صور ثابتة"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "اتجاه التخطيط:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "عمودي",
-			"horizontalOption": {
-				"text": "أفقي"
-			},
-			"verticalOption": {
-				"text": "عمودي"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "صور لكل صف / عمود:"
-		},
-		"imagesPaddingLabel": {
-			"text": "مساحة الصورة:"
-		},
-		"appearancesLabel": {
-			"text": "المظهر"
-		},
-		"imageAppearanceLabel": {
-			"text": "مظهر الصورة"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "لون الخلفية:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "لون الحد:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "عرض الحد:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "ظهور الصورة في التركيز البؤري"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "استخدم مظهر الصورة في وضع الصفحة الواحدة"
-		},
-		"renderingSettigsLabel": {
-			"text": "إعدادات التقديم"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "الإعدادات الافتراضية"
-		},
-		"horResLabel": {
-			"text": "الدقة الأفقية:"
-		},
-		"vertResLabel": {
-			"text": "الدقة الرأسية:"
-		},
-		"smoothingLabel": {
-			"text": "الوضع السلس:"
-		},
-		"interpolationLabel": {
-			"text": "وضع الاستيفاء:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "ارسم تعليقًا توضيحيًا بدون علامات"
-		},
-		"otherSettigsLabel": {
-			"text": "إعدادات أخرى"
-		},
-		"backgroundColorLabel": {
-			"text": "لون خلفية عارض الصور:"
-		},
-		"centerImageLabel": {
-			"text": "صورة المركز:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "تغيير حجم المهلة:"
-		},
-		"tileSizeLabel": {
-			"text": "حجم البلاط:"
-		},
-		"colorManagementLabel": {
-			"text": "تمكين إدارة الألوان:"
-		},
-		"useVectorRendering": {
-			"text": "استخدام العرض المتجه للمستندات:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "لون خلفية محتوى المتجه:"
-		},
-		"okButton": {
-			"text": "موافق"
-		},
-		"cancelButton": {
 			"text": "إغلاق"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "مائل:"
 			},
 			"Size": {
-				"text": "الحجم:"
+				"text": "حجم الصورة المصغرة:"
 			},
 			"Strikeout": {
 				"text": "يتوسطه خط:"
@@ -885,13 +930,15 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "الصفحة",
 		"vssde-annotationPanel-annotationPropertiesLabel": "خصائص التعليق التوضيحي",
+		"vssde-annotationListPanel-pageLabel": "الصفحة",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "خصائص التعليق التوضيحي",
 		"vssde-textSearchPanel-pageLabel": "الصفحة",
 		"vssde-documentPasswordDialog-title": "كلمة مرور المستند",
 		"vssde-dialog-okButton": "موافق",
 		"vssde-dialog-cancelButton": "إلغاء",
 		"vssde-imageSelectionDialog-currentImageString": "الصورة الحالية",
 		"vssde-imageSelectionDialog-allImagesString": "كل الصور",
-		"vssde-imageSelectionDialog-customImagesString": "نطاق مخصص",
+		"vssde-imageSelectionDialog-customImagesString": "مخصص",
 		"vssde-imageSelectionDialog-title": "اختر الصور",
 		"vssde-printImagesDialog-withAnnotationsLabel": "مع التعليقات التوضيحية",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "جاري تحضير الصورة للطباعة",
@@ -900,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "زاوية الدوران يجب ألا تكون 0.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة",
-		"vssde-rotateImageWithAnnotationsDialog-title": "تدوير الصورة المشروحة"
+		"vssde-rotateImageWithAnnotationsDialog-title": "تدوير الصورة المشروحة",
+		"vssde-imageViewerSettingsDialog-title": "إعدادات عارض الصور"
 	}
 }

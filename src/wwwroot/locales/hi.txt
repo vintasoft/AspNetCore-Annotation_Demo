@@ -22,7 +22,7 @@
 			"title": "छवियाँ मुद्रित करें"
 		},
 		"downloadFileButton": {
-			"title": "फ़ाइल अपलोड करें"
+			"title": "छवि फ़ाइल डाउनलोड करें"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "चौड़ाई के अनुरूप"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "केस संवेदनशील"
 			},
-			"textNotFoundLabel": {
-				"text": "पाठ नहीं मिला."
-			},
 			"startSearchButton": {
 				"value": "खोज प्रारंभ करें"
 			},
 			"stopSearchButton": {
 				"value": "खोजना बंद करो"
+			},
+			"textNotFoundLabel": {
+				"text": "पाठ नहीं मिला."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "रूलेट"
 		},
 		"addAngleAnnotationButton": {
-			"title": "कोण"
+			"title": "घूर्णन कोण"
 		},
 		"addMarkAnnotationButton": {
 			"title": "लेबल"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "गलत पासवर्ड"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"сancelButton": {
+				"value": "रद्द करें"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "सभी छवियाँ"
 			},
 			"customImagesOption": {
-				"text": "कस्टम रेंज"
+				"text": "कस्टम"
 			},
 			"imageRangeLabel": {
 				"text": "छवि श्रेणी:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "सूचकांक छवि संग्रह की अनुक्रमणिका सीमा के भीतर नहीं है।"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"сancelButton": {
+				"value": "रद्द करें"
 			}
 		},
 		"printImagesDialog": {
@@ -354,7 +366,7 @@
 				"text": "सभी छवियाँ"
 			},
 			"customImagesOption": {
-				"text": "उपयोगकर्ता परिभाषित"
+				"text": "कस्टम"
 			},
 			"imageRangeLabel": {
 				"text": "छवि श्रेणी:"
@@ -363,7 +375,171 @@
 				"text": "अमान्य पृष्ठ श्रेणी. उदाहरण: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "छवि संग्रह के लिए सूचकांक सीमा से बाहर है।"
+				"text": "सूचकांक छवि संग्रह की अनुक्रमणिका सीमा के भीतर नहीं है।"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "छवि प्रदर्शन मोड:"
+			},
+			"imageAnchorLabel": {
+				"text": "छवि एंकर:"
+			},
+			"noneOption": {
+				"text": "नहीं"
+			},
+			"topLeftOption": {
+				"text": "ऊपर|बाएँ"
+			},
+			"topOption": {
+				"text": "शीर्ष"
+			},
+			"topRightOption": {
+				"text": "शीर्ष|दाएं"
+			},
+			"rightOption": {
+				"text": "सही"
+			},
+			"bottomRightOption": {
+				"text": "नीचे|दाएँ"
+			},
+			"bottomOption": {
+				"text": "नीचे"
+			},
+			"bottomLeftOption": {
+				"text": "नीचे|बाएं"
+			},
+			"leftOption": {
+				"text": "बाएं"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "मल्टी-पेज डिस्प्ले मोड:"
+			},
+			"allImagesOption": {
+				"text": "सभी छवियाँ"
+			},
+			"fixedImagesOption": {
+				"text": "निश्चित छवियाँ"
+			},
+			"layoutDirectionLabel": {
+				"text": "लेआउट दिशा:"
+			},
+			"horizontalOption": {
+				"text": "क्षैतिज"
+			},
+			"verticalOption": {
+				"text": "ऊर्ध्वाधर"
+			},
+			"rowColumnCountLabel": {
+				"text": "पंक्ति/स्तंभ में छवियाँ:"
+			},
+			"imagePaddingLabel": {
+				"text": "छवियाँ पैडिंग:"
+			},
+			"appearancesLabel": {
+				"text": "उपस्थितियाँ"
+			},
+			"imageAppearanceLabel": {
+				"text": "छवि उपस्थिति"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "पृष्ठभूमि का रंग:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "सीमा रंग:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "सीमा चौड़ाई:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "इन-फोकस छवि का प्रकटन"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "पृष्ठभूमि का रंग:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "सीमा रंग:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "सीमा चौड़ाई:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "एकल पृष्ठ मोड में छवि उपस्थिति का उपयोग करें"
+			},
+			"renderingSettingsLabel": {
+				"text": "रेंडर सेटिंग्स"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "डिफ़ॉल्ट सेटिंग्स"
+			},
+			"horizontalResolutionLabel": {
+				"text": "क्षैतिज संकल्प:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "ऊर्ध्वाधर रिज़ॉल्यूशन:"
+			},
+			"smoothingModeLabel": {
+				"text": "स्मूथ मोड:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "नहीं"
+			},
+			"interpolationModeLabel": {
+				"text": "इंटरपोलेशन मोड:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "अन्य सेटिंग्स"
+			},
+			"backgroundColorLabel": {
+				"text": "छवि दर्शक पृष्ठभूमि रंग:"
+			},
+			"centerImageLabel": {
+				"text": "केंद्र छवि:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "आकार बदलें टाइमआउट:"
+			},
+			"tileSizeLabel": {
+				"text": "टाइल का आकार:"
+			},
+			"colorManagementLabel": {
+				"text": "रंग प्रबंधन सक्षम करें:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "दस्तावेज़ों के लिए वेक्टर रेंडरिंग का उपयोग करें:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "वेक्टर सामग्री पृष्ठभूमि रंग:"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"сancelButton": {
+				"value": "रद्द करें"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "बाएं"
 			},
 			"centerOption": {
-				"text": "केंद्रित"
+				"text": "केंद्र संरेखित करें"
 			},
 			"focusOnHoverLabel": {
 				"text": "होवर फोकस:"
 			},
 			"multiSelectLabel": {
 				"text": "एकाधिक थंबनेल चयन की अनुमति दें:"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"сancelButton": {
+				"value": "रद्द करें"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "स्रोत बदलें"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "फ़ाइल खोलें"
 		},
 		"closeButton": {
-			"text": "बंद करें"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "छवि दर्शक सेटिंग्स"
-		},
-		"imageDisplayModeLabel": {
-			"text": "छवि प्रदर्शन मोड"
-		},
-		"imageAnchorLabel": {
-			"text": "छवि एंकर:"
-		},
-		"imageAnchorSelect": {
-			"value": "नहीं",
-			"noneOption": {
-				"text": "कोई नहीं"
-			},
-			"topLeftOption": {
-				"text": "ऊपर|बाएँ"
-			},
-			"topOption": {
-				"text": "शीर्ष"
-			},
-			"topRightOption": {
-				"text": "शीर्ष|दाएँ"
-			},
-			"rightOption": {
-				"text": "सही"
-			},
-			"bottomRightOption": {
-				"text": "नीचे|दाएं"
-			},
-			"bottomOption": {
-				"text": "नीचे"
-			},
-			"bottomLeftOption": {
-				"text": "नीचे|बाएं"
-			},
-			"leftOption": {
-				"text": "बाएं"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "मल्टी-पेज डिस्प्ले मोड:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "निश्चित छवियाँ",
-			"allImagesOption": {
-				"text": "सभी छवियाँ"
-			},
-			"fixedImagesOption": {
-				"text": "निश्चित छवियाँ"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "लेआउट दिशा:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "ऊर्ध्वाधर",
-			"horizontalOption": {
-				"text": "क्षैतिज"
-			},
-			"verticalOption": {
-				"text": "ऊर्ध्वाधर"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "प्रति पंक्ति/स्तंभ छवियाँ:"
-		},
-		"imagesPaddingLabel": {
-			"text": "छवि पैडिंग:"
-		},
-		"appearancesLabel": {
-			"text": "उपस्थितियाँ"
-		},
-		"imageAppearanceLabel": {
-			"text": "छवि उपस्थिति"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "पृष्ठभूमि का रंग:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "सीमा रंग:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "सीमा चौड़ाई:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "इन-फोकस छवि का प्रकटन"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "एकल पृष्ठ मोड में छवि उपस्थिति का उपयोग करें"
-		},
-		"renderingSettigsLabel": {
-			"text": "रेंडर सेटिंग्स"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "डिफ़ॉल्ट सेटिंग्स"
-		},
-		"horResLabel": {
-			"text": "क्षैतिज संकल्प:"
-		},
-		"vertResLabel": {
-			"text": "ऊर्ध्वाधर रिज़ॉल्यूशन:"
-		},
-		"smoothingLabel": {
-			"text": "स्मूथ मोड:"
-		},
-		"interpolationLabel": {
-			"text": "इंटरपोलेशन मोड:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "बिना मार्कअप के एनोटेशन बनाएं"
-		},
-		"otherSettigsLabel": {
-			"text": "अन्य सेटिंग्स"
-		},
-		"backgroundColorLabel": {
-			"text": "छवि दर्शक पृष्ठभूमि रंग:"
-		},
-		"centerImageLabel": {
-			"text": "केंद्र छवि:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "आकार बदलें टाइमआउट:"
-		},
-		"tileSizeLabel": {
-			"text": "टाइल का आकार:"
-		},
-		"colorManagementLabel": {
-			"text": "रंग प्रबंधन सक्षम करें:"
-		},
-		"useVectorRendering": {
-			"text": "दस्तावेज़ों के लिए वेक्टर रेंडरिंग का उपयोग करें:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "वेक्टर सामग्री पृष्ठभूमि रंग:"
-		},
-		"okButton": {
-			"text": "ठीक है"
-		},
-		"cancelButton": {
 			"text": "बंद करें"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "इटैलिक:"
 			},
 			"Size": {
-				"text": "आकार:"
+				"text": "थंबनेल आकार:"
 			},
 			"Strikeout": {
 				"text": "स्ट्राइकथ्रू:"
@@ -885,21 +930,24 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "पेज",
 		"vssde-annotationPanel-annotationPropertiesLabel": "एनोटेशन गुण",
+		"vssde-annotationListPanel-pageLabel": "पेज",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "एनोटेशन गुण",
 		"vssde-textSearchPanel-pageLabel": "पेज",
 		"vssde-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
 		"vssde-dialog-okButton": "ठीक है",
 		"vssde-dialog-cancelButton": "रद्द करें",
 		"vssde-imageSelectionDialog-currentImageString": "वर्तमान छवि",
 		"vssde-imageSelectionDialog-allImagesString": "सभी छवियाँ",
-		"vssde-imageSelectionDialog-customImagesString": "कस्टम रेंज",
+		"vssde-imageSelectionDialog-customImagesString": "कस्टम",
 		"vssde-imageSelectionDialog-title": "छवियां चुनें",
 		"vssde-printImagesDialog-withAnnotationsLabel": "एनोटेशन के साथ",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "छवि मुद्रण के लिए तैयार की जा रही है",
-		"vssde-printImagesDialog-title": "चित्र मुद्रित करें",
+		"vssde-printImagesDialog-title": "छवियाँ मुद्रित करें",
 		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
 		"vssde-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "घूर्णन कोण 0 नहीं होना चाहिए.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "एनोटेट छवि को घुमाया जा रहा है",
-		"vssde-rotateImageWithAnnotationsDialog-title": "एनोटेटेड छवि घुमाएँ"
+		"vssde-rotateImageWithAnnotationsDialog-title": "एनोटेटेड छवि घुमाएँ",
+		"vssde-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स"
 	}
 }

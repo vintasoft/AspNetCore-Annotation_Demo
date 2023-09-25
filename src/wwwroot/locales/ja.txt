@@ -22,7 +22,7 @@
 			"title": "画像を印刷"
 		},
 		"downloadFileButton": {
-			"title": "ファイルをアップロード"
+			"title": "画像ファイルのダウンロード"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "幅に合わせる"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "大文字と小文字を区別します"
 			},
-			"textNotFoundLabel": {
-				"text": "テキストが見つかりません。"
-			},
 			"startSearchButton": {
 				"value": "検索を開始"
 			},
 			"stopSearchButton": {
 				"value": "検索を停止"
+			},
+			"textNotFoundLabel": {
+				"text": "テキストが見つかりません。"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "ルーレット"
 		},
 		"addAngleAnnotationButton": {
-			"title": "角度"
+			"title": "回転角度"
 		},
 		"addMarkAnnotationButton": {
 			"title": "ラベル"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "パスワードが間違っています"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "キャンセル"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "すべての画像"
 			},
 			"customImagesOption": {
-				"text": "カスタム範囲"
+				"text": "カスタム"
 			},
 			"imageRangeLabel": {
 				"text": "画像範囲:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "インデックスはイメージ コレクションのインデックス範囲内にありません。"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "キャンセル"
 			}
 		},
 		"printImagesDialog": {
@@ -354,7 +366,7 @@
 				"text": "すべての画像"
 			},
 			"customImagesOption": {
-				"text": "ユーザー定義"
+				"text": "カスタム"
 			},
 			"imageRangeLabel": {
 				"text": "画像範囲:"
@@ -363,7 +375,171 @@
 				"text": "ページ範囲が無効です。 例: 1 ～ 5、8、12 ～ 15。"
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "インデックスは画像コレクションの範囲外です。"
+				"text": "インデックスはイメージ コレクションのインデックス範囲内にありません。"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "画像表示モード："
+			},
+			"imageAnchorLabel": {
+				"text": "画像アンカー:"
+			},
+			"noneOption": {
+				"text": "いいえ"
+			},
+			"topLeftOption": {
+				"text": "上|左"
+			},
+			"topOption": {
+				"text": "トップ"
+			},
+			"topRightOption": {
+				"text": "上|右"
+			},
+			"rightOption": {
+				"text": "右"
+			},
+			"bottomRightOption": {
+				"text": "下|右"
+			},
+			"bottomOption": {
+				"text": "下"
+			},
+			"bottomLeftOption": {
+				"text": "下|左"
+			},
+			"leftOption": {
+				"text": "左"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "複数ページ表示モード:"
+			},
+			"allImagesOption": {
+				"text": "すべての画像"
+			},
+			"fixedImagesOption": {
+				"text": "固定イメージ"
+			},
+			"layoutDirectionLabel": {
+				"text": "レイアウト方向:"
+			},
+			"horizontalOption": {
+				"text": "水平"
+			},
+			"verticalOption": {
+				"text": "垂直"
+			},
+			"rowColumnCountLabel": {
+				"text": "行/列の画像:"
+			},
+			"imagePaddingLabel": {
+				"text": "画像のパディング:"
+			},
+			"appearancesLabel": {
+				"text": "外観"
+			},
+			"imageAppearanceLabel": {
+				"text": "画像の外観"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "背景色:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "境界線の色:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "境界線の幅:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "焦点の合った画像の外観"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "背景色:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "境界線の色:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "境界線の幅:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "単一ページ モードで画像の外観を使用する"
+			},
+			"renderingSettingsLabel": {
+				"text": "レンダリング設定"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "デフォルト設定"
+			},
+			"horizontalResolutionLabel": {
+				"text": "水平解像度:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "垂直解像度:"
+			},
+			"smoothingModeLabel": {
+				"text": "スムーズ モード:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "いいえ"
+			},
+			"interpolationModeLabel": {
+				"text": "補間モード:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "その他の設定"
+			},
+			"backgroundColorLabel": {
+				"text": "画像ビューアの背景色:"
+			},
+			"centerImageLabel": {
+				"text": "中央画像:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "サイズ変更タイムアウト:"
+			},
+			"tileSizeLabel": {
+				"text": "タイル サイズ:"
+			},
+			"colorManagementLabel": {
+				"text": "カラー管理を有効にする:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "ドキュメントにベクター レンダリングを使用します:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "ベクター コンテンツの背景色:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "キャンセル"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -459,6 +635,12 @@
 			},
 			"multiSelectLabel": {
 				"text": "複数のサムネイルの選択を許可します:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "キャンセル"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "ソースを変更"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "ファイルを開く"
 		},
 		"closeButton": {
-			"text": "閉じる"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "画像ビューアの設定"
-		},
-		"imageDisplayModeLabel": {
-			"text": "画像表示モード"
-		},
-		"imageAnchorLabel": {
-			"text": "画像アンカー:"
-		},
-		"imageAnchorSelect": {
-			"value": "いいえ",
-			"noneOption": {
-				"text": "なし"
-			},
-			"topLeftOption": {
-				"text": "上|左"
-			},
-			"topOption": {
-				"text": "トップ"
-			},
-			"topRightOption": {
-				"text": "上|右"
-			},
-			"rightOption": {
-				"text": "右"
-			},
-			"bottomRightOption": {
-				"text": "下|右"
-			},
-			"bottomOption": {
-				"text": "下"
-			},
-			"bottomLeftOption": {
-				"text": "下|左"
-			},
-			"leftOption": {
-				"text": "左"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "複数ページ表示モード:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "固定イメージ",
-			"allImagesOption": {
-				"text": "すべての画像"
-			},
-			"fixedImagesOption": {
-				"text": "固定イメージ"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "レイアウト方向:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "垂直",
-			"horizontalOption": {
-				"text": "水平"
-			},
-			"verticalOption": {
-				"text": "垂直"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "行/列ごとの画像:"
-		},
-		"imagesPaddingLabel": {
-			"text": "画像のパディング:"
-		},
-		"appearancesLabel": {
-			"text": "外観"
-		},
-		"imageAppearanceLabel": {
-			"text": "画像の外観"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "背景色:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "境界線の色:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "境界線の幅:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "焦点の合った画像の外観"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "単一ページ モードで画像の外観を使用する"
-		},
-		"renderingSettigsLabel": {
-			"text": "レンダリング設定"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "デフォルト設定"
-		},
-		"horResLabel": {
-			"text": "水平解像度:"
-		},
-		"vertResLabel": {
-			"text": "垂直解像度:"
-		},
-		"smoothingLabel": {
-			"text": "スムーズ モード:"
-		},
-		"interpolationLabel": {
-			"text": "補間モード:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "マークアップなしで注釈を描画します"
-		},
-		"otherSettigsLabel": {
-			"text": "その他の設定"
-		},
-		"backgroundColorLabel": {
-			"text": "画像ビューアの背景色:"
-		},
-		"centerImageLabel": {
-			"text": "中央画像:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "サイズ変更タイムアウト:"
-		},
-		"tileSizeLabel": {
-			"text": "タイル サイズ:"
-		},
-		"colorManagementLabel": {
-			"text": "カラー管理を有効にする:"
-		},
-		"useVectorRendering": {
-			"text": "ドキュメントにベクター レンダリングを使用します:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "ベクター コンテンツの背景色:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "閉じる"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "斜体:"
 			},
 			"Size": {
-				"text": "サイズ:"
+				"text": "サムネイルのサイズ:"
 			},
 			"Strikeout": {
 				"text": "取り消し線:"
@@ -885,21 +930,24 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "ページ",
 		"vssde-annotationPanel-annotationPropertiesLabel": "注釈のプロパティ",
+		"vssde-annotationListPanel-pageLabel": "ページ",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "注釈のプロパティ",
 		"vssde-textSearchPanel-pageLabel": "ページ",
 		"vssde-documentPasswordDialog-title": "文書のパスワード",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "キャンセル",
 		"vssde-imageSelectionDialog-currentImageString": "現在の画像",
 		"vssde-imageSelectionDialog-allImagesString": "すべての画像",
-		"vssde-imageSelectionDialog-customImagesString": "カスタム範囲",
+		"vssde-imageSelectionDialog-customImagesString": "カスタム",
 		"vssde-imageSelectionDialog-title": "画像を選択",
 		"vssde-printImagesDialog-withAnnotationsLabel": "注釈あり",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "画像は印刷の準備中です",
-		"vssde-printImagesDialog-title": "画像を印刷する",
+		"vssde-printImagesDialog-title": "画像を印刷",
 		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
 		"vssde-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "回転角度は 0 であってはなりません。",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注釈付き画像は回転中です",
-		"vssde-rotateImageWithAnnotationsDialog-title": "注釈付き画像を回転"
+		"vssde-rotateImageWithAnnotationsDialog-title": "注釈付き画像を回転",
+		"vssde-imageViewerSettingsDialog-title": "画像ビューアの設定"
 	}
 }

@@ -37,7 +37,7 @@
 			"title": "Otočte obrázok v smere hodinových ručičiek"
 		},
 		"imageViewerSettingsButton": {
-			"title": "Zobraziť nastavenia prehliadača obrázkov"
+			"title": "Nastavenia prehliadača obrázkov"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Nastavenia prehliadača miniatúr"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Nesprávne heslo"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Zrušiť"
 			}
 		},
 		"selectImagesDialog": {
@@ -375,6 +381,164 @@
 				"value": "OK"
 			},
 			"cancelButton": {
+				"value": "Zrušiť"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Režim zobrazenia obrazu:"
+			},
+			"imageAnchorLabel": {
+				"text": "Ukotvenie obrázka:"
+			},
+			"noneOption": {
+				"text": "Ziadne"
+			},
+			"topLeftOption": {
+				"text": "Hore|Vľavo"
+			},
+			"topOption": {
+				"text": "Hore"
+			},
+			"topRightOption": {
+				"text": "Hore|vpravo"
+			},
+			"rightOption": {
+				"text": "Správny"
+			},
+			"bottomRightOption": {
+				"text": "Dolu|vpravo"
+			},
+			"bottomOption": {
+				"text": "Spodná časť"
+			},
+			"bottomLeftOption": {
+				"text": "Dolu|Vľavo"
+			},
+			"leftOption": {
+				"text": "Vľavo"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Režim viacstránkového zobrazenia:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Smer rozloženia:"
+			},
+			"horizontalOption": {
+				"text": "Horizontálne"
+			},
+			"verticalOption": {
+				"text": "Vertikálne"
+			},
+			"rowColumnCountLabel": {
+				"text": "Obrázky v riadku/stĺpci:"
+			},
+			"imagePaddingLabel": {
+				"text": "Výplň obrázkov:"
+			},
+			"appearancesLabel": {
+				"text": "Vystúpenia"
+			},
+			"imageAppearanceLabel": {
+				"text": "Vzhľad obrazu"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Farba chrbta:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Farba okraja:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Šírka okraja:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Vzhľad zaostreného obrazu"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Farba chrbta:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Farba okraja:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Šírka okraja:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Použite vzhľad obrázka v režime jednej strany"
+			},
+			"renderingSettingsLabel": {
+				"text": "Nastavenia vykresľovania"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Predvolené nastavenia"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horizontálne rozlíšenie:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Vertikálne rozlíšenie:"
+			},
+			"smoothingModeLabel": {
+				"text": "Režim vyhladzovania:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Ziadne"
+			},
+			"interpolationModeLabel": {
+				"text": "Režim interpolácie:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Iné nastavenia"
+			},
+			"backgroundColorLabel": {
+				"text": "Farba pozadia prehliadača:"
+			},
+			"centerImageLabel": {
+				"text": "Stredový obrázok:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Časový limit zmeny veľkosti:"
+			},
+			"tileSizeLabel": {
+				"text": "Veľkosť dlaždice:"
+			},
+			"colorManagementLabel": {
+				"text": "Povoliť správu farieb:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Použite vektorové vykresľovanie pre dokumenty:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Farba pozadia vektorového obsahu:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
 				"value": "Zrušiť"
 			}
 		},
@@ -523,149 +687,6 @@
 			"text": "Otvorené"
 		},
 		"closeButton": {
-			"text": "Zavrieť"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Nastavenia prehliadača obrázkov"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Režim zobrazenia obrazu"
-		},
-		"imageAnchorLabel": {
-			"text": "Ukotvenie obrázka:"
-		},
-		"imageAnchorSelect": {
-			"value": "Ziadne",
-			"noneOption": {
-				"text": "Ziadne"
-			},
-			"topLeftOption": {
-				"text": "Hore|Vľavo"
-			},
-			"topOption": {
-				"text": "Hore"
-			},
-			"topRightOption": {
-				"text": "Hore|vpravo"
-			},
-			"rightOption": {
-				"text": "Správny"
-			},
-			"bottomRightOption": {
-				"text": "Dolu|vpravo"
-			},
-			"bottomOption": {
-				"text": "Spodná časť"
-			},
-			"bottomLeftOption": {
-				"text": "Dolu|Vľavo"
-			},
-			"leftOption": {
-				"text": "Vľavo"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Režim viacstránkového zobrazenia:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "FixedImages",
-			"allImagesOption": {
-				"text": "AllImages"
-			},
-			"fixedImagesOption": {
-				"text": "FixedImages"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Smer rozloženia:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Vertikálne",
-			"horizontalOption": {
-				"text": "Horizontálne"
-			},
-			"verticalOption": {
-				"text": "Vertikálne"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Obrázky v riadku/stĺpci:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Výplň obrázkov:"
-		},
-		"appearancesLabel": {
-			"text": "Vystúpenia"
-		},
-		"imageAppearanceLabel": {
-			"text": "Vzhľad obrazu"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Farba chrbta:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Farba okraja:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Šírka okraja:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Vzhľad zaostreného obrazu"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Použite vzhľad obrázka v režime jednej strany"
-		},
-		"renderingSettigsLabel": {
-			"text": "Nastavenia vykresľovania"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Predvolené nastavenia"
-		},
-		"horResLabel": {
-			"text": "Horizontálne rozlíšenie:"
-		},
-		"vertResLabel": {
-			"text": "Vertikálne rozlíšenie:"
-		},
-		"smoothingLabel": {
-			"text": "Režim vyhladzovania:"
-		},
-		"interpolationLabel": {
-			"text": "Režim interpolácie:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Nakreslite anotáciu bez značiek"
-		},
-		"otherSettigsLabel": {
-			"text": "Iné nastavenia"
-		},
-		"backgroundColorLabel": {
-			"text": "Farba pozadia prehliadača:"
-		},
-		"centerImageLabel": {
-			"text": "Stredový obrázok:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Časový limit zmeny veľkosti:"
-		},
-		"tileSizeLabel": {
-			"text": "Veľkosť dlaždice:"
-		},
-		"colorManagementLabel": {
-			"text": "Povoliť správu farieb:"
-		},
-		"useVectorRendering": {
-			"text": "Použite vektorové vykresľovanie pre dokumenty:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Farba pozadia vektorového obsahu:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Zavrieť"
 		}
 	},
@@ -909,6 +930,8 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Stránka",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Vlastnosti anotácie",
+		"vssde-annotationListPanel-pageLabel": "Stránka",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Vlastnosti anotácie",
 		"vssde-textSearchPanel-pageLabel": "Stránka",
 		"vssde-documentPasswordDialog-title": "Heslo dokumentu",
 		"vssde-dialog-okButton": "OK",
@@ -924,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "Nastavenia prehliadača miniatúr",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Uhol natočenia by mal byť väčší ako nula.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Otočný obrázok s anotáciami",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Otočte obrázok s anotáciami"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Otočte obrázok s anotáciami",
+		"vssde-imageViewerSettingsDialog-title": "Nastavenia prehliadača obrázkov"
 	}
 }

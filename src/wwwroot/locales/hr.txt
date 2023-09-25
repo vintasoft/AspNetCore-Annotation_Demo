@@ -22,7 +22,7 @@
 			"title": "Ispis slika"
 		},
 		"downloadFileButton": {
-			"title": "Učitaj datoteku"
+			"title": "Preuzmite slikovnu datoteku"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prilagodi širini"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "Razlikuje velika i mala slova"
 			},
-			"textNotFoundLabel": {
-				"text": "Tekst nije pronađen."
-			},
 			"startSearchButton": {
 				"value": "Pokreni pretragu"
 			},
 			"stopSearchButton": {
 				"value": "Prekini pretragu"
+			},
+			"textNotFoundLabel": {
+				"text": "Tekst nije pronađen."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "Rulet"
 		},
 		"addAngleAnnotationButton": {
-			"title": "Kut"
+			"title": "Kut rotacije"
 		},
 		"addMarkAnnotationButton": {
 			"title": "Oznaka"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Pogrešna lozinka"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Odustani"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "Sve slike"
 			},
 			"customImagesOption": {
-				"text": "Prilagođeni raspon"
+				"text": "Prilagođeno"
 			},
 			"imageRangeLabel": {
 				"text": "Raspon slike:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks nije unutar raspona indeksa zbirke slika."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Odustani"
 			}
 		},
 		"printImagesDialog": {
@@ -354,7 +366,7 @@
 				"text": "Sve slike"
 			},
 			"customImagesOption": {
-				"text": "Korisnički definirano"
+				"text": "Prilagođeno"
 			},
 			"imageRangeLabel": {
 				"text": "Raspon slike:"
@@ -363,7 +375,171 @@
 				"text": "Nevažeći raspon stranica. Primjer: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Indeks je izvan raspona za zbirku slika."
+				"text": "Indeks nije unutar raspona indeksa zbirke slika."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Odustani"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Način prikaza slike:"
+			},
+			"imageAnchorLabel": {
+				"text": "Sidro slike:"
+			},
+			"noneOption": {
+				"text": "Ne"
+			},
+			"topLeftOption": {
+				"text": "Gore|Lijevo"
+			},
+			"topOption": {
+				"text": "Vrh"
+			},
+			"topRightOption": {
+				"text": "Gore|desno"
+			},
+			"rightOption": {
+				"text": "Tačno"
+			},
+			"bottomRightOption": {
+				"text": "Dolje|desno"
+			},
+			"bottomOption": {
+				"text": "Dno"
+			},
+			"bottomLeftOption": {
+				"text": "Dolje|lijevo"
+			},
+			"leftOption": {
+				"text": "Lijevo"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Način prikaza s više stranica:"
+			},
+			"allImagesOption": {
+				"text": "Sve slike"
+			},
+			"fixedImagesOption": {
+				"text": "Fiksne slike"
+			},
+			"layoutDirectionLabel": {
+				"text": "Smjer izgleda:"
+			},
+			"horizontalOption": {
+				"text": "Vodoravno"
+			},
+			"verticalOption": {
+				"text": "Okomito"
+			},
+			"rowColumnCountLabel": {
+				"text": "Slike u retku/stupcu:"
+			},
+			"imagePaddingLabel": {
+				"text": "Ispod slika:"
+			},
+			"appearancesLabel": {
+				"text": "Izgledi"
+			},
+			"imageAppearanceLabel": {
+				"text": "Izgled slike"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Boja pozadine:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Boja obruba:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Širina obruba:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Izgled slike u fokusu"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Boja pozadine:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Boja obruba:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Širina obruba:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Koristite izgled slike u načinu rada jedne stranice"
+			},
+			"renderingSettingsLabel": {
+				"text": "Postavke iscrtavanja"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Zadane postavke"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Vodoravna razlučivost:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Okomita razlučivost:"
+			},
+			"smoothingModeLabel": {
+				"text": "Glatki način rada:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Ne"
+			},
+			"interpolationModeLabel": {
+				"text": "Način interpolacije:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Druge postavke"
+			},
+			"backgroundColorLabel": {
+				"text": "Boja pozadine preglednika slika:"
+			},
+			"centerImageLabel": {
+				"text": "Središnja slika:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Istek vremena promjene veličine:"
+			},
+			"tileSizeLabel": {
+				"text": "Veličina pločice:"
+			},
+			"colorManagementLabel": {
+				"text": "Omogući upravljanje bojama:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Koristi vektorsko iscrtavanje za dokumente:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Boja pozadine vektorskog sadržaja:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Odustani"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "Lijevo"
 			},
 			"centerOption": {
-				"text": "Centrirano"
+				"text": "Poravnaj u sredinu"
 			},
 			"focusOnHoverLabel": {
 				"text": "Fokus pri lebdenju:"
 			},
 			"multiSelectLabel": {
 				"text": "Dopusti odabir više sličica:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Odustani"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "Promijeni izvor"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Odustani"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "Otvori datoteku"
 		},
 		"closeButton": {
-			"text": "Zatvori"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Postavke preglednika slika"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Način prikaza slike"
-		},
-		"imageAnchorLabel": {
-			"text": "Sidro slike:"
-		},
-		"imageAnchorSelect": {
-			"value": "Ne",
-			"noneOption": {
-				"text": "Ništa"
-			},
-			"topLeftOption": {
-				"text": "Gore|Lijevo"
-			},
-			"topOption": {
-				"text": "Vrh"
-			},
-			"topRightOption": {
-				"text": "Gore|desno"
-			},
-			"rightOption": {
-				"text": "Tačno"
-			},
-			"bottomRightOption": {
-				"text": "Dolje|desno"
-			},
-			"bottomOption": {
-				"text": "Dno"
-			},
-			"bottomLeftOption": {
-				"text": "Dolje|lijevo"
-			},
-			"leftOption": {
-				"text": "Lijevo"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Način prikaza s više stranica:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "Fiksne slike",
-			"allImagesOption": {
-				"text": "Sve slike"
-			},
-			"fixedImagesOption": {
-				"text": "Fiksne slike"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Smjer izgleda:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Okomito",
-			"horizontalOption": {
-				"text": "Vodoravno"
-			},
-			"verticalOption": {
-				"text": "Okomito"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Slike po retku/stupcu:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Dopuna slike:"
-		},
-		"appearancesLabel": {
-			"text": "Izgledi"
-		},
-		"imageAppearanceLabel": {
-			"text": "Izgled slike"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Boja pozadine:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Boja obruba:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Širina obruba:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Izgled slike u fokusu"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Koristite izgled slike u načinu rada jedne stranice"
-		},
-		"renderingSettigsLabel": {
-			"text": "Postavke iscrtavanja"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Zadane postavke"
-		},
-		"horResLabel": {
-			"text": "Vodoravna razlučivost:"
-		},
-		"vertResLabel": {
-			"text": "Okomita razlučivost:"
-		},
-		"smoothingLabel": {
-			"text": "Glatki način rada:"
-		},
-		"interpolationLabel": {
-			"text": "Način interpolacije:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Nacrtaj bilješku bez označavanja"
-		},
-		"otherSettigsLabel": {
-			"text": "Druge postavke"
-		},
-		"backgroundColorLabel": {
-			"text": "Boja pozadine preglednika slika:"
-		},
-		"centerImageLabel": {
-			"text": "Središnja slika:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Istek vremena promjene veličine:"
-		},
-		"tileSizeLabel": {
-			"text": "Veličina pločice:"
-		},
-		"colorManagementLabel": {
-			"text": "Omogući upravljanje bojama:"
-		},
-		"useVectorRendering": {
-			"text": "Koristi vektorsko iscrtavanje za dokumente:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Boja pozadine vektorskog sadržaja:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Zatvori"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "kurziv:"
 			},
 			"Size": {
-				"text": "Veličina:"
+				"text": "Veličina sličice:"
 			},
 			"Strikeout": {
 				"text": "Precrtano:"
@@ -885,21 +930,24 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Stranica",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Svojstva zabilješki",
+		"vssde-annotationListPanel-pageLabel": "Stranica",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Svojstva zabilješki",
 		"vssde-textSearchPanel-pageLabel": "Stranica",
 		"vssde-documentPasswordDialog-title": "Lozinka dokumenta",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Odustani",
 		"vssde-imageSelectionDialog-currentImageString": "Trenutna slika",
 		"vssde-imageSelectionDialog-allImagesString": "Sve slike",
-		"vssde-imageSelectionDialog-customImagesString": "Prilagođeni raspon",
+		"vssde-imageSelectionDialog-customImagesString": "Prilagođeno",
 		"vssde-imageSelectionDialog-title": "Odaberite slike",
 		"vssde-printImagesDialog-withAnnotationsLabel": "s komentarima",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "Slika se priprema za ispis",
-		"vssde-printImagesDialog-title": "Ispiši slike",
+		"vssde-printImagesDialog-title": "Ispis slika",
 		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
 		"vssde-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kut rotacije ne smije biti 0.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Označena slika se rotira",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Zakreni označenu sliku"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Zakreni označenu sliku",
+		"vssde-imageViewerSettingsDialog-title": "Postavke preglednika slika"
 	}
 }

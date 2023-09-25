@@ -22,7 +22,7 @@
 			"title": "Skriv ut bilder"
 		},
 		"downloadFileButton": {
-			"title": "Ladda upp fil"
+			"title": "Ladda ner bildfil"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Anpassa till bredd"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": " Skiftlägeskänslig"
 			},
-			"textNotFoundLabel": {
-				"text": "Texten hittades inte."
-			},
 			"startSearchButton": {
 				"value": "Starta sökning"
 			},
 			"stopSearchButton": {
 				"value": "Sluta söka"
+			},
+			"textNotFoundLabel": {
+				"text": "Texten hittades inte."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "Roulett"
 		},
 		"addAngleAnnotationButton": {
-			"title": "Vinkel"
+			"title": "Rotationsvinkel"
 		},
 		"addMarkAnnotationButton": {
 			"title": "Etikett"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Fel lösenord"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Avbryt"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "Alla bilder"
 			},
 			"customImagesOption": {
-				"text": "Anpassat intervall"
+				"text": "Anpassad"
 			},
 			"imageRangeLabel": {
 				"text": "Bildintervall:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indexet ligger inte inom bildsamlingens indexintervall."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Avbryt"
 			}
 		},
 		"printImagesDialog": {
@@ -354,7 +366,7 @@
 				"text": "Alla bilder"
 			},
 			"customImagesOption": {
-				"text": "Användardefinierad"
+				"text": "Anpassad"
 			},
 			"imageRangeLabel": {
 				"text": "Bildintervall:"
@@ -363,7 +375,171 @@
 				"text": "Ogiltigt sidintervall. Exempel: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Indexet är utanför intervallet för bildsamlingen."
+				"text": "Indexet ligger inte inom bildsamlingens indexintervall."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Bildvisningsläge:"
+			},
+			"imageAnchorLabel": {
+				"text": "Bildankare:"
+			},
+			"noneOption": {
+				"text": "Nej"
+			},
+			"topLeftOption": {
+				"text": "Överst|Vänster"
+			},
+			"topOption": {
+				"text": "Överst"
+			},
+			"topRightOption": {
+				"text": "Överst|Höger"
+			},
+			"rightOption": {
+				"text": "Höger"
+			},
+			"bottomRightOption": {
+				"text": "Nedre|Höger"
+			},
+			"bottomOption": {
+				"text": "Nedertill"
+			},
+			"bottomLeftOption": {
+				"text": "Nedre|Vänster"
+			},
+			"leftOption": {
+				"text": "Vänster"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Visningsläge för flera sidor:"
+			},
+			"allImagesOption": {
+				"text": "Alla bilder"
+			},
+			"fixedImagesOption": {
+				"text": "Fixade bilder"
+			},
+			"layoutDirectionLabel": {
+				"text": "Layoutriktning:"
+			},
+			"horizontalOption": {
+				"text": "Horisontell"
+			},
+			"verticalOption": {
+				"text": "Vertikal"
+			},
+			"rowColumnCountLabel": {
+				"text": "Bilder i rad/kolumn:"
+			},
+			"imagePaddingLabel": {
+				"text": "Utfyllnad av bilder:"
+			},
+			"appearancesLabel": {
+				"text": "Utseende"
+			},
+			"imageAppearanceLabel": {
+				"text": "Bildens utseende"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Bakgrundsfärg:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Kantfärg:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Kantbredd:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Utseendet på bilden i fokus"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Bakgrundsfärg:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Kantfärg:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Kantbredd:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Använd bildens utseende i ensidigt läge"
+			},
+			"renderingSettingsLabel": {
+				"text": "Återgivningsinställningar"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Standardinställningar"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horisontell upplösning:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Vertikal upplösning:"
+			},
+			"smoothingModeLabel": {
+				"text": "Smidigt läge:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Nej"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolationsläge:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Andra inställningar"
+			},
+			"backgroundColorLabel": {
+				"text": "Bildvisarens bakgrundsfärg:"
+			},
+			"centerImageLabel": {
+				"text": "Centerbild:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Timeout för ändra storlek:"
+			},
+			"tileSizeLabel": {
+				"text": "Brickstorlek:"
+			},
+			"colorManagementLabel": {
+				"text": "Aktivera färghantering:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Använd vektorrendering för dokument:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektorinnehållets bakgrundsfärg:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Avbryt"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "Vänster"
 			},
 			"centerOption": {
-				"text": "Centrerad"
+				"text": "Justera centrera"
 			},
 			"focusOnHoverLabel": {
 				"text": "Fokus vid muspekaren:"
 			},
 			"multiSelectLabel": {
 				"text": "Tillåt val av flera miniatyrer:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Avbryt"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "Ändra källa"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "Öppna fil"
 		},
 		"closeButton": {
-			"text": "Stäng"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Inställningar för bildvisning"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Bildvisningsläge"
-		},
-		"imageAnchorLabel": {
-			"text": "Bildankare:"
-		},
-		"imageAnchorSelect": {
-			"value": "Nej",
-			"noneOption": {
-				"text": "Ingen"
-			},
-			"topLeftOption": {
-				"text": "Överst|Vänster"
-			},
-			"topOption": {
-				"text": "Överst"
-			},
-			"topRightOption": {
-				"text": "Överst|Höger"
-			},
-			"rightOption": {
-				"text": "Höger"
-			},
-			"bottomRightOption": {
-				"text": "Nedre|Höger"
-			},
-			"bottomOption": {
-				"text": "Under"
-			},
-			"bottomLeftOption": {
-				"text": "Nedre|Vänster"
-			},
-			"leftOption": {
-				"text": "Vänster"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Visningsläge för flera sidor:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "Fixade bilder",
-			"allImagesOption": {
-				"text": "Alla bilder"
-			},
-			"fixedImagesOption": {
-				"text": "Fixade bilder"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Layoutriktning:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Vertikal",
-			"horizontalOption": {
-				"text": "Horisontell"
-			},
-			"verticalOption": {
-				"text": "Vertikal"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Bilder per rad/kolumn:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Bildutfyllnad:"
-		},
-		"appearancesLabel": {
-			"text": "Utseende"
-		},
-		"imageAppearanceLabel": {
-			"text": "Bildens utseende"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Bakgrundsfärg:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Kantfärg:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Kantbredd:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Utseendet på bilden i fokus"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Använd bildens utseende i ensidigt läge"
-		},
-		"renderingSettigsLabel": {
-			"text": "Återgivningsinställningar"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Standardinställningar"
-		},
-		"horResLabel": {
-			"text": "Horisontell upplösning:"
-		},
-		"vertResLabel": {
-			"text": "Vertikal upplösning:"
-		},
-		"smoothingLabel": {
-			"text": "Smidigt läge:"
-		},
-		"interpolationLabel": {
-			"text": "Interpolationsläge:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Rita anteckning utan uppmärkning"
-		},
-		"otherSettigsLabel": {
-			"text": "Andra inställningar"
-		},
-		"backgroundColorLabel": {
-			"text": "Bildvisarens bakgrundsfärg:"
-		},
-		"centerImageLabel": {
-			"text": "Centerbild:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Timeout för ändra storlek:"
-		},
-		"tileSizeLabel": {
-			"text": "Brickstorlek:"
-		},
-		"colorManagementLabel": {
-			"text": "Aktivera färghantering:"
-		},
-		"useVectorRendering": {
-			"text": "Använd vektorrendering för dokument:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Vektorinnehållets bakgrundsfärg:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Stäng"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "Kursiv:"
 			},
 			"Size": {
-				"text": "Storlek:"
+				"text": "Miniatyrstorlek:"
 			},
 			"Strikeout": {
 				"text": "Genomstruken:"
@@ -885,13 +930,15 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Sida",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Anteckningsegenskaper",
+		"vssde-annotationListPanel-pageLabel": "Sida",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Anteckningsegenskaper",
 		"vssde-textSearchPanel-pageLabel": "Sida",
 		"vssde-documentPasswordDialog-title": "Dokumentlösenord",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Avbryt",
 		"vssde-imageSelectionDialog-currentImageString": "Aktuell bild",
 		"vssde-imageSelectionDialog-allImagesString": "Alla bilder",
-		"vssde-imageSelectionDialog-customImagesString": "Anpassat intervall",
+		"vssde-imageSelectionDialog-customImagesString": "Anpassad",
 		"vssde-imageSelectionDialog-title": "Välj bilder",
 		"vssde-printImagesDialog-withAnnotationsLabel": "med kommentarer",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "Bilden förbereds för utskrift",
@@ -900,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinkeln får inte vara 0.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Rotera kommenterad bild"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Rotera kommenterad bild",
+		"vssde-imageViewerSettingsDialog-title": "Inställningar för bildvisning"
 	}
 }

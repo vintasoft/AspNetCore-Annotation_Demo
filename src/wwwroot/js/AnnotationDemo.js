@@ -8,8 +8,6 @@ var _openFileHelper;
 
 var _previouslyUploadedFilesDialog;
 
-var _imageViewerSettingsDialog;
-
 var _blockUiDialog;
 
 
@@ -39,35 +37,6 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
             _previouslyUploadedFilesDialog = new PreviouslyUploadedFilesDialogJS(_fileService, docViewer, _openFileHelper, __showErrorMessage);
         // show the dialog
         _previouslyUploadedFilesDialog.show();
-    }
-}
-
-
-
-// === "View" toolbar ===
-
-/**
- Creates UI button for showing image viewer settings dialog.
-*/
-function __createImageViewerSettingsButton() {
-    // create the button that allows to show a dialog with image viewer settings
-    return new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
-        cssClass: "vsdv-imageViewerSettingsButton",
-        title: "Show Image Viewer Settings",
-        localizationId: "imageViewerSettingsButton",
-        onClick: __imageViewerSettingsButton_clicked
-    });
-}
-
-function __imageViewerSettingsButton_clicked(event, uiElement) {
-    var docViewer = uiElement.get_RootControl();
-    if (docViewer != null) {
-        var imageViewer = docViewer.get_ImageViewer();
-        if (imageViewer != null) {
-            if (_imageViewerSettingsDialog == null)
-                _imageViewerSettingsDialog = new ImageViewerSettingsDialogJS(imageViewer);
-            _imageViewerSettingsDialog.show();
-        }
     }
 }
 
@@ -123,9 +92,6 @@ function __registerNewUiElements() {
     // override the "Download image" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("downloadFileButton", saveAnnotationsAndDownloadFileHelper.createDownloadFileWithAnnotationsButton);
 
-    // register the "Image viewer settings" button in web UI elements factory
-    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("imageViewerSettingsButton", __createImageViewerSettingsButton);
-
     // register the "Pan" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("panToolButton", __createAnnotationAndPanToolButton);
 }
@@ -162,16 +128,6 @@ function __initMenu(docViewerSettings) {
 
         // add the "Previous uploaded files" button to the menu panel
         fileMenuPanelItems.insertItem(1, "previousUploadFilesButton");
-    }
-
-    // get the "View" menu panel
-    var viewMenuPanel = items.getItemByRegisteredId("viewMenuPanel");
-    // if menu panel is found
-    if (viewMenuPanel != null) {
-        // get items of menu panel
-        var viewMenuPanelItems = viewMenuPanel.get_Items();
-        // add the "Image viewer settings" button to the menu panel
-        viewMenuPanelItems.insertItem(viewMenuPanelItems.get_Count() - 1, "imageViewerSettingsButton");
     }
 }
 

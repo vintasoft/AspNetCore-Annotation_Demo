@@ -22,7 +22,7 @@
 			"title": "הדפס תמונות"
 		},
 		"downloadFileButton": {
-			"title": "העלה קובץ"
+			"title": "הורד קובץ תמונה"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "התאם לרוחב"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "תלוי רישיות"
 			},
-			"textNotFoundLabel": {
-				"text": "הטקסט לא נמצא."
-			},
 			"startSearchButton": {
 				"value": "התחל חיפוש"
 			},
 			"stopSearchButton": {
 				"value": "הפסק לחפש"
+			},
+			"textNotFoundLabel": {
+				"text": "הטקסט לא נמצא."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "רולטה"
 		},
 		"addAngleAnnotationButton": {
-			"title": "זווית"
+			"title": "זווית סיבוב"
 		},
 		"addMarkAnnotationButton": {
 			"title": "תווית"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "סיסמה שגויה"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"сancelButton": {
+				"value": "בטל"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "כל התמונות"
 			},
 			"customImagesOption": {
-				"text": "טווח מותאם אישית"
+				"text": "מותאם אישית"
 			},
 			"imageRangeLabel": {
 				"text": "טווח תמונות:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "האינדקס אינו בטווח האינדקס של אוסף התמונות."
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"сancelButton": {
+				"value": "בטל"
 			}
 		},
 		"printImagesDialog": {
@@ -354,7 +366,7 @@
 				"text": "כל התמונות"
 			},
 			"customImagesOption": {
-				"text": "המשתמש מוגדר"
+				"text": "מותאם אישית"
 			},
 			"imageRangeLabel": {
 				"text": "טווח תמונות:"
@@ -363,7 +375,171 @@
 				"text": "טווח דפים לא חוקי. דוגמה: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "האינדקס נמצא מחוץ לטווח של אוסף התמונות."
+				"text": "האינדקס אינו בטווח האינדקס של אוסף התמונות."
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "מצב תצוגת תמונה:"
+			},
+			"imageAnchorLabel": {
+				"text": "עוגן תמונה:"
+			},
+			"noneOption": {
+				"text": "לא"
+			},
+			"topLeftOption": {
+				"text": "למעלה|משמאל"
+			},
+			"topOption": {
+				"text": "למעלה"
+			},
+			"topRightOption": {
+				"text": "למעלה|מימין"
+			},
+			"rightOption": {
+				"text": "נכון"
+			},
+			"bottomRightOption": {
+				"text": "למטה|מימין"
+			},
+			"bottomOption": {
+				"text": "למטה"
+			},
+			"bottomLeftOption": {
+				"text": "למטה|שמאל"
+			},
+			"leftOption": {
+				"text": "שמאל"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "מצב תצוגה מרובה עמודים:"
+			},
+			"allImagesOption": {
+				"text": "כל התמונות"
+			},
+			"fixedImagesOption": {
+				"text": "תמונות מתוקנות"
+			},
+			"layoutDirectionLabel": {
+				"text": "כיוון פריסה:"
+			},
+			"horizontalOption": {
+				"text": "אופקי"
+			},
+			"verticalOption": {
+				"text": "אנכי"
+			},
+			"rowColumnCountLabel": {
+				"text": "תמונות בשורה/עמודה:"
+			},
+			"imagePaddingLabel": {
+				"text": "ריפוד תמונות:"
+			},
+			"appearancesLabel": {
+				"text": "הופעות"
+			},
+			"imageAppearanceLabel": {
+				"text": "מראה התמונה"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "צבע רקע:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "צבע גבול:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "רוחב גבול:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "הופעה של תמונה ממוקדת"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "צבע רקע:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "צבע גבול:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "רוחב גבול:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "השתמש במראה התמונה במצב עמוד יחיד"
+			},
+			"renderingSettingsLabel": {
+				"text": "הגדרות עיבוד"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "הגדרות ברירת מחדל"
+			},
+			"horizontalResolutionLabel": {
+				"text": "רזולוציה אופקית:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "רזולוציה אנכית:"
+			},
+			"smoothingModeLabel": {
+				"text": "מצב חלק:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "לא"
+			},
+			"interpolationModeLabel": {
+				"text": "מצב אינטרפולציה:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "הגדרות אחרות"
+			},
+			"backgroundColorLabel": {
+				"text": "צבע רקע של מציג התמונה:"
+			},
+			"centerImageLabel": {
+				"text": "מרכז תמונה:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "תפוגה לשינוי גודל:"
+			},
+			"tileSizeLabel": {
+				"text": "גודל אריחים:"
+			},
+			"colorManagementLabel": {
+				"text": "אפשר ניהול צבע:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "השתמש בעיבוד וקטורי עבור מסמכים:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "צבע רקע של תוכן וקטור:"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"сancelButton": {
+				"value": "בטל"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "שמאל"
 			},
 			"centerOption": {
-				"text": "מרוכז"
+				"text": "יישור מרכז"
 			},
 			"focusOnHoverLabel": {
 				"text": "מיקוד ריחוף:"
 			},
 			"multiSelectLabel": {
 				"text": "אפשר בחירת תמונות ממוזערות מרובות:"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"сancelButton": {
+				"value": "בטל"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "שנה מקור"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "פתח קובץ"
 		},
 		"closeButton": {
-			"text": "סגור"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "הגדרות מציג תמונות"
-		},
-		"imageDisplayModeLabel": {
-			"text": "מצב תצוגת תמונה"
-		},
-		"imageAnchorLabel": {
-			"text": "עוגן תמונה:"
-		},
-		"imageAnchorSelect": {
-			"value": "לא",
-			"noneOption": {
-				"text": "אין"
-			},
-			"topLeftOption": {
-				"text": "למעלה|משמאל"
-			},
-			"topOption": {
-				"text": "למעלה"
-			},
-			"topRightOption": {
-				"text": "למעלה|מימין"
-			},
-			"rightOption": {
-				"text": "נכון"
-			},
-			"bottomRightOption": {
-				"text": "למטה|מימין"
-			},
-			"bottomOption": {
-				"text": "למטה"
-			},
-			"bottomLeftOption": {
-				"text": "למטה|שמאל"
-			},
-			"leftOption": {
-				"text": "שמאל"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "מצב תצוגה מרובה עמודים:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "תמונות מתוקנות",
-			"allImagesOption": {
-				"text": "כל התמונות"
-			},
-			"fixedImagesOption": {
-				"text": "תמונות מתוקנות"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "כיוון פריסה:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "אנכי",
-			"horizontalOption": {
-				"text": "אופקי"
-			},
-			"verticalOption": {
-				"text": "אנכי"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "תמונות בכל שורה/עמודה:"
-		},
-		"imagesPaddingLabel": {
-			"text": "ריפוד תמונה:"
-		},
-		"appearancesLabel": {
-			"text": "הופעות"
-		},
-		"imageAppearanceLabel": {
-			"text": "מראה התמונה"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "צבע רקע:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "צבע גבול:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "רוחב גבול:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "הופעה של תמונה ממוקדת"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "השתמש במראה התמונה במצב עמוד יחיד"
-		},
-		"renderingSettigsLabel": {
-			"text": "הגדרות עיבוד"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "הגדרות ברירת מחדל"
-		},
-		"horResLabel": {
-			"text": "רזולוציה אופקית:"
-		},
-		"vertResLabel": {
-			"text": "רזולוציה אנכית:"
-		},
-		"smoothingLabel": {
-			"text": "מצב חלק:"
-		},
-		"interpolationLabel": {
-			"text": "מצב אינטרפולציה:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "צייר הערה ללא סימון"
-		},
-		"otherSettigsLabel": {
-			"text": "הגדרות אחרות"
-		},
-		"backgroundColorLabel": {
-			"text": "צבע רקע של מציג התמונה:"
-		},
-		"centerImageLabel": {
-			"text": "מרכז תמונה:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "תפוגה לשינוי גודל:"
-		},
-		"tileSizeLabel": {
-			"text": "גודל אריחים:"
-		},
-		"colorManagementLabel": {
-			"text": "אפשר ניהול צבע:"
-		},
-		"useVectorRendering": {
-			"text": "השתמש בעיבוד וקטורי עבור מסמכים:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "צבע רקע של תוכן וקטור:"
-		},
-		"okButton": {
-			"text": "בסדר"
-		},
-		"cancelButton": {
 			"text": "סגור"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "נטוי:"
 			},
 			"Size": {
-				"text": "גודל:"
+				"text": "גודל תמונה ממוזערת:"
 			},
 			"Strikeout": {
 				"text": "מחצה:"
@@ -885,13 +930,15 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "דף",
 		"vssde-annotationPanel-annotationPropertiesLabel": "מאפייני הערה",
+		"vssde-annotationListPanel-pageLabel": "דף",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "מאפייני הערה",
 		"vssde-textSearchPanel-pageLabel": "דף",
 		"vssde-documentPasswordDialog-title": "סיסמת מסמך",
 		"vssde-dialog-okButton": "בסדר",
 		"vssde-dialog-cancelButton": "בטל",
 		"vssde-imageSelectionDialog-currentImageString": "תמונה נוכחית",
 		"vssde-imageSelectionDialog-allImagesString": "כל התמונות",
-		"vssde-imageSelectionDialog-customImagesString": "טווח מותאם אישית",
+		"vssde-imageSelectionDialog-customImagesString": "מותאם אישית",
 		"vssde-imageSelectionDialog-title": "בחר תמונות",
 		"vssde-printImagesDialog-withAnnotationsLabel": "עם הערות",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "התמונה מתכוננת להדפסה",
@@ -900,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "זווית הסיבוב לא יכולה להיות 0.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות",
-		"vssde-rotateImageWithAnnotationsDialog-title": "סובב תמונה מוערת"
+		"vssde-rotateImageWithAnnotationsDialog-title": "סובב תמונה מוערת",
+		"vssde-imageViewerSettingsDialog-title": "הגדרות מציג תמונות"
 	}
 }

@@ -22,7 +22,7 @@
 			"title": "Tipărește imagini"
 		},
 		"downloadFileButton": {
-			"title": "Încărcați fișierul"
+			"title": "Descărcați fișierul imagine"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Potrivire la lățime"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "Se face distincție între majuscule și minuscule"
 			},
-			"textNotFoundLabel": {
-				"text": "Textul nu a fost găsit."
-			},
 			"startSearchButton": {
 				"value": "Începe căutarea"
 			},
 			"stopSearchButton": {
 				"value": "Opriți căutarea"
+			},
+			"textNotFoundLabel": {
+				"text": "Textul nu a fost găsit."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -209,7 +209,7 @@
 			"title": "Mergeți la ultima imagine"
 		},
 		"zoomOutButton": {
-			"title": "Mărire mic"
+			"title": "Mărire"
 		},
 		"zoomValueInput": {
 			"title": "Scală"
@@ -263,7 +263,7 @@
 			"title": "Ruletă"
 		},
 		"addAngleAnnotationButton": {
-			"title": "Unghi"
+			"title": "Unghiul de rotație"
 		},
 		"addMarkAnnotationButton": {
 			"title": "Etichetă"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Parolă greșită"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Anulează"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "Toate imaginile"
 			},
 			"customImagesOption": {
-				"text": "Interval personalizat"
+				"text": "Personalizat"
 			},
 			"imageRangeLabel": {
 				"text": "Interval de imagini:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indexul nu se află în intervalul de index al colecției de imagini."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Anulează"
 			}
 		},
 		"printImagesDialog": {
@@ -354,7 +366,7 @@
 				"text": "Toate imaginile"
 			},
 			"customImagesOption": {
-				"text": "Definit de utilizator"
+				"text": "Personalizat"
 			},
 			"imageRangeLabel": {
 				"text": "Interval de imagini:"
@@ -363,7 +375,171 @@
 				"text": "Interval de pagini nevalid. Exemplu: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Indexul este în afara intervalului pentru colecția de imagini."
+				"text": "Indexul nu se află în intervalul de index al colecției de imagini."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Mod de afișare a imaginii:"
+			},
+			"imageAnchorLabel": {
+				"text": "Ancora imaginii:"
+			},
+			"noneOption": {
+				"text": "Nu"
+			},
+			"topLeftOption": {
+				"text": "Sus|Stânga"
+			},
+			"topOption": {
+				"text": "Sus"
+			},
+			"topRightOption": {
+				"text": "Sus|Dreapta"
+			},
+			"rightOption": {
+				"text": "Corect"
+			},
+			"bottomRightOption": {
+				"text": "Jos|Dreapta"
+			},
+			"bottomOption": {
+				"text": "De jos"
+			},
+			"bottomLeftOption": {
+				"text": "Jos|Stânga"
+			},
+			"leftOption": {
+				"text": "Stânga"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Mod de afișare cu mai multe pagini:"
+			},
+			"allImagesOption": {
+				"text": "Toate imaginile"
+			},
+			"fixedImagesOption": {
+				"text": "Imagini fixe"
+			},
+			"layoutDirectionLabel": {
+				"text": "Directia aspectului:"
+			},
+			"horizontalOption": {
+				"text": "Orizontal"
+			},
+			"verticalOption": {
+				"text": "Verticală"
+			},
+			"rowColumnCountLabel": {
+				"text": "Imagini pe rând/coloană:"
+			},
+			"imagePaddingLabel": {
+				"text": "Umplutură cu imagini:"
+			},
+			"appearancesLabel": {
+				"text": "Apariții"
+			},
+			"imageAppearanceLabel": {
+				"text": "Aspectul imaginii"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Culoarea fundalului:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Culoarea chenarului:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Lățimea chenarului:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Aspectul imaginii focalizate"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Culoarea fundalului:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Culoarea chenarului:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Lățimea chenarului:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Utilizați aspectul imaginii în modul o singură pagină"
+			},
+			"renderingSettingsLabel": {
+				"text": "Setări de randare"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Setări implicite"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Rezoluție orizontală:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Rezoluție verticală:"
+			},
+			"smoothingModeLabel": {
+				"text": "Mod neted:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Nu"
+			},
+			"interpolationModeLabel": {
+				"text": "Modul de interpolare:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Alte setări"
+			},
+			"backgroundColorLabel": {
+				"text": "Culoarea de fundal a vizualizatorului de imagini:"
+			},
+			"centerImageLabel": {
+				"text": "Imaginea din centru:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Redimensionare Timeout:"
+			},
+			"tileSizeLabel": {
+				"text": "Dimensiunea plăcilor:"
+			},
+			"colorManagementLabel": {
+				"text": "Activați gestionarea culorilor:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Utilizați redarea vectorială pentru documente:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Culoarea de fundal a conținutului vectorial:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Anulează"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "Stânga"
 			},
 			"centerOption": {
-				"text": "Centrat"
+				"text": "Aliniere la centru"
 			},
 			"focusOnHoverLabel": {
 				"text": "Hover Focus:"
 			},
 			"multiSelectLabel": {
 				"text": "Permite selecția mai multor miniaturi:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Anulează"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "Schimba sursa"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "Deschideți fișierul"
 		},
 		"closeButton": {
-			"text": "Închidere"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Setări pentru vizualizarea imaginilor"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Modul de afișare a imaginii"
-		},
-		"imageAnchorLabel": {
-			"text": "Ancora imaginii:"
-		},
-		"imageAnchorSelect": {
-			"value": "Nu",
-			"noneOption": {
-				"text": "Niciuna"
-			},
-			"topLeftOption": {
-				"text": "Sus|Stânga"
-			},
-			"topOption": {
-				"text": "Sus"
-			},
-			"topRightOption": {
-				"text": "Sus|Dreapta"
-			},
-			"rightOption": {
-				"text": "Corect"
-			},
-			"bottomRightOption": {
-				"text": "Jos|Dreapta"
-			},
-			"bottomOption": {
-				"text": "De jos"
-			},
-			"bottomLeftOption": {
-				"text": "Jos|Stânga"
-			},
-			"leftOption": {
-				"text": "Stânga"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Mod de afișare cu mai multe pagini:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "Imagini fixe",
-			"allImagesOption": {
-				"text": "Toate imaginile"
-			},
-			"fixedImagesOption": {
-				"text": "Imagini fixe"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Directia aspectului:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Verticală",
-			"horizontalOption": {
-				"text": "Orizontal"
-			},
-			"verticalOption": {
-				"text": "Verticală"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Imagini pe rând/coloană:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Umplutură cu imagine:"
-		},
-		"appearancesLabel": {
-			"text": "Apariții"
-		},
-		"imageAppearanceLabel": {
-			"text": "Aspectul imaginii"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Culoarea fundalului:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Culoarea chenarului:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Lățimea chenarului:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Aspectul imaginii focalizate"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Utilizați aspectul imaginii în modul o singură pagină"
-		},
-		"renderingSettigsLabel": {
-			"text": "Setări de randare"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Setări implicite"
-		},
-		"horResLabel": {
-			"text": "Rezoluție orizontală:"
-		},
-		"vertResLabel": {
-			"text": "Rezoluție verticală:"
-		},
-		"smoothingLabel": {
-			"text": "Mod neted:"
-		},
-		"interpolationLabel": {
-			"text": "Modul de interpolare:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Desenați adnotare fără marcaj"
-		},
-		"otherSettigsLabel": {
-			"text": "Alte setări"
-		},
-		"backgroundColorLabel": {
-			"text": "Culoarea de fundal a vizualizatorului de imagini:"
-		},
-		"centerImageLabel": {
-			"text": "Imaginea din centru:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Redimensionare Timeout:"
-		},
-		"tileSizeLabel": {
-			"text": "Dimensiunea plăcilor:"
-		},
-		"colorManagementLabel": {
-			"text": "Activați gestionarea culorilor:"
-		},
-		"useVectorRendering": {
-			"text": "Utilizați redarea vectorială pentru documente:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Culoarea de fundal a conținutului vectorial:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Închidere"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "Italică:"
 			},
 			"Size": {
-				"text": "Dimensiune:"
+				"text": "Dimensiunea miniaturii:"
 			},
 			"Strikeout": {
 				"text": "Baraj:"
@@ -885,13 +930,15 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Pagină",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Proprietăți de adnotare",
+		"vssde-annotationListPanel-pageLabel": "Pagină",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Proprietăți de adnotare",
 		"vssde-textSearchPanel-pageLabel": "Pagină",
 		"vssde-documentPasswordDialog-title": "Parola documentului",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Anulează",
 		"vssde-imageSelectionDialog-currentImageString": "Imaginea curentă",
 		"vssde-imageSelectionDialog-allImagesString": "Toate imaginile",
-		"vssde-imageSelectionDialog-customImagesString": "Interval personalizat",
+		"vssde-imageSelectionDialog-customImagesString": "Personalizat",
 		"vssde-imageSelectionDialog-title": "Selectați imagini",
 		"vssde-printImagesDialog-withAnnotationsLabel": "cu adnotări",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "Imaginea este în curs de pregătire pentru imprimare",
@@ -900,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Unghiul de rotație nu trebuie să fie 0.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Imaginea adnotată este rotită",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Rotire imaginea adnotată"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Rotire imaginea adnotată",
+		"vssde-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor"
 	}
 }

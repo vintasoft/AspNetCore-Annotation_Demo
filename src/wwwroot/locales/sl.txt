@@ -37,7 +37,7 @@
 			"title": "Zasukaj sliko v smeri urinega kazalca"
 		},
 		"imageViewerSettingsButton": {
-			"title": "Prikaži nastavitve pregledovalnika slik"
+			"title": "Nastavitve pregledovalnika slik"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Nastavitve pregledovalnika sličic"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "napačno geslo"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Prekliči"
 			}
 		},
 		"selectImagesDialog": {
@@ -375,6 +381,164 @@
 				"value": "OK"
 			},
 			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Način prikaza slike:"
+			},
+			"imageAnchorLabel": {
+				"text": "Sidro slike:"
+			},
+			"noneOption": {
+				"text": "Noben"
+			},
+			"topLeftOption": {
+				"text": "Zgoraj|Levo"
+			},
+			"topOption": {
+				"text": "Vrh"
+			},
+			"topRightOption": {
+				"text": "Zgoraj|desno"
+			},
+			"rightOption": {
+				"text": "Prav"
+			},
+			"bottomRightOption": {
+				"text": "Spodaj|desno"
+			},
+			"bottomOption": {
+				"text": "Spodaj"
+			},
+			"bottomLeftOption": {
+				"text": "Spodaj|levo"
+			},
+			"leftOption": {
+				"text": "Levo"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Večstranski način prikaza:"
+			},
+			"allImagesOption": {
+				"text": "Vse slike"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Smer postavitve:"
+			},
+			"horizontalOption": {
+				"text": "Vodoravno"
+			},
+			"verticalOption": {
+				"text": "Navpično"
+			},
+			"rowColumnCountLabel": {
+				"text": "Slike v vrstici/stolpcu:"
+			},
+			"imagePaddingLabel": {
+				"text": "Oblazinjenje slik:"
+			},
+			"appearancesLabel": {
+				"text": "Nastopi"
+			},
+			"imageAppearanceLabel": {
+				"text": "Videz slike"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Barva hrbta:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Barva obrobe:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Širina obrobe:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Osredotočen videz slike"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Barva hrbta:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Barva obrobe:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Širina obrobe:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Uporabite videz slike v enostranskem načinu"
+			},
+			"renderingSettingsLabel": {
+				"text": "Nastavitve upodabljanja"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Privzete nastavitve"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Vodoravna ločljivost:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Navpična ločljivost:"
+			},
+			"smoothingModeLabel": {
+				"text": "Način glajenja:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Noben"
+			},
+			"interpolationModeLabel": {
+				"text": "Način interpolacije:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Druge nastavitve"
+			},
+			"backgroundColorLabel": {
+				"text": "Barva ozadja pregledovalnika:"
+			},
+			"centerImageLabel": {
+				"text": "Slika na sredini:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Časovna omejitev za spremembo velikosti:"
+			},
+			"tileSizeLabel": {
+				"text": "Velikost ploščice:"
+			},
+			"colorManagementLabel": {
+				"text": "Omogoči upravljanje barv:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Uporabi vektorsko upodabljanje za dokumente:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Barva ozadja vektorske vsebine:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
 				"value": "Prekliči"
 			}
 		},
@@ -523,149 +687,6 @@
 			"text": "Odprto"
 		},
 		"closeButton": {
-			"text": "Zapri"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Nastavitve pregledovalnika slik"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Način prikaza slike"
-		},
-		"imageAnchorLabel": {
-			"text": "Sidro slike:"
-		},
-		"imageAnchorSelect": {
-			"value": "Noben",
-			"noneOption": {
-				"text": "Noben"
-			},
-			"topLeftOption": {
-				"text": "Zgoraj|Levo"
-			},
-			"topOption": {
-				"text": "Vrh"
-			},
-			"topRightOption": {
-				"text": "Zgoraj|desno"
-			},
-			"rightOption": {
-				"text": "Prav"
-			},
-			"bottomRightOption": {
-				"text": "Spodaj|desno"
-			},
-			"bottomOption": {
-				"text": "Spodaj"
-			},
-			"bottomLeftOption": {
-				"text": "Spodaj|levo"
-			},
-			"leftOption": {
-				"text": "Levo"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Večstranski način prikaza:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "FixedImages",
-			"allImagesOption": {
-				"text": "Vse slike"
-			},
-			"fixedImagesOption": {
-				"text": "FixedImages"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Smer postavitve:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Navpično",
-			"horizontalOption": {
-				"text": "Vodoravno"
-			},
-			"verticalOption": {
-				"text": "Navpično"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Slike v vrstici/stolpcu:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Oblazinjenje slik:"
-		},
-		"appearancesLabel": {
-			"text": "Nastopi"
-		},
-		"imageAppearanceLabel": {
-			"text": "Videz slike"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Barva hrbta:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Barva obrobe:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Širina obrobe:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Osredotočen videz slike"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Uporabite videz slike v enostranskem načinu"
-		},
-		"renderingSettigsLabel": {
-			"text": "Nastavitve upodabljanja"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Privzete nastavitve"
-		},
-		"horResLabel": {
-			"text": "Vodoravna ločljivost:"
-		},
-		"vertResLabel": {
-			"text": "Navpična ločljivost:"
-		},
-		"smoothingLabel": {
-			"text": "Način glajenja:"
-		},
-		"interpolationLabel": {
-			"text": "Način interpolacije:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Narišite opombo brez oznake"
-		},
-		"otherSettigsLabel": {
-			"text": "Druge nastavitve"
-		},
-		"backgroundColorLabel": {
-			"text": "Barva ozadja pregledovalnika:"
-		},
-		"centerImageLabel": {
-			"text": "Slika na sredini:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Časovna omejitev za spremembo velikosti:"
-		},
-		"tileSizeLabel": {
-			"text": "Velikost ploščice:"
-		},
-		"colorManagementLabel": {
-			"text": "Omogoči upravljanje barv:"
-		},
-		"useVectorRendering": {
-			"text": "Uporabi vektorsko upodabljanje za dokumente:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Barva ozadja vektorske vsebine:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Zapri"
 		}
 	},
@@ -909,6 +930,8 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Stran",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Lastnosti pripisov",
+		"vssde-annotationListPanel-pageLabel": "Stran",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Lastnosti pripisov",
 		"vssde-textSearchPanel-pageLabel": "Stran",
 		"vssde-documentPasswordDialog-title": "Geslo za dokument",
 		"vssde-dialog-okButton": "OK",
@@ -924,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kot vrtenja mora biti večji od nič.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Vrteča se slika z opombami",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Zasukaj sliko z opombami"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Zasukaj sliko z opombami",
+		"vssde-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik"
 	}
 }

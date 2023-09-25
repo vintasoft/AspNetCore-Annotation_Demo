@@ -22,7 +22,7 @@
 			"title": "Görüntüleri Yazdır"
 		},
 		"downloadFileButton": {
-			"title": "Dosya Yükle"
+			"title": "Resim Dosyasını İndir"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Genişliğe Sığdır"
@@ -37,7 +37,7 @@
 			"title": "Görüntüyü saat yönünde döndür"
 		},
 		"imageViewerSettingsButton": {
-			"title": "Resim görüntüleyici ayarları"
+			"title": "Görüntü görüntüleyici ayarları"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Küçük Resim Görüntüleyici Ayarları"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "Büyük/küçük harfe duyarlı"
 			},
-			"textNotFoundLabel": {
-				"text": "Metin bulunamadı."
-			},
 			"startSearchButton": {
 				"value": "Aramaya Başla"
 			},
 			"stopSearchButton": {
 				"value": "Aramayı durdur"
+			},
+			"textNotFoundLabel": {
+				"text": "Metin bulunamadı."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "Rulet"
 		},
 		"addAngleAnnotationButton": {
-			"title": "Açı"
+			"title": "Dönme açısı"
 		},
 		"addMarkAnnotationButton": {
 			"title": "Etiket"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Yanlış şifre"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"сancelButton": {
+				"value": "İptal"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "Tüm resimler"
 			},
 			"customImagesOption": {
-				"text": "Özel Aralık"
+				"text": "Özel"
 			},
 			"imageRangeLabel": {
 				"text": "Görüntü aralığı:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Dizin, görüntü koleksiyonunun indeks aralığında değil."
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"сancelButton": {
+				"value": "İptal"
 			}
 		},
 		"printImagesDialog": {
@@ -354,7 +366,7 @@
 				"text": "Tüm resimler"
 			},
 			"customImagesOption": {
-				"text": "Kullanıcı tanımlı"
+				"text": "Özel"
 			},
 			"imageRangeLabel": {
 				"text": "Görüntü aralığı:"
@@ -363,7 +375,171 @@
 				"text": "Geçersiz sayfa aralığı. Örnek: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Dizin, görüntü koleksiyonu için aralığın dışında."
+				"text": "Dizin, görüntü koleksiyonunun indeks aralığında değil."
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Görüntü görüntüleme modu:"
+			},
+			"imageAnchorLabel": {
+				"text": "Görüntü Bağlantısı:"
+			},
+			"noneOption": {
+				"text": "Hayır"
+			},
+			"topLeftOption": {
+				"text": "Üst|Sol"
+			},
+			"topOption": {
+				"text": "Üst"
+			},
+			"topRightOption": {
+				"text": "Üst|Sağ"
+			},
+			"rightOption": {
+				"text": "Sağ"
+			},
+			"bottomRightOption": {
+				"text": "Alt|Sağ"
+			},
+			"bottomOption": {
+				"text": "Alt"
+			},
+			"bottomLeftOption": {
+				"text": "Alt|Sol"
+			},
+			"leftOption": {
+				"text": "Sol"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Çok sayfalı görüntüleme modu:"
+			},
+			"allImagesOption": {
+				"text": "Tüm resimler"
+			},
+			"fixedImagesOption": {
+				"text": "Sabit Görüntüler"
+			},
+			"layoutDirectionLabel": {
+				"text": "Yerleşim Yönü:"
+			},
+			"horizontalOption": {
+				"text": "Yatay"
+			},
+			"verticalOption": {
+				"text": "Dikey"
+			},
+			"rowColumnCountLabel": {
+				"text": "Satır/sütundaki resimler:"
+			},
+			"imagePaddingLabel": {
+				"text": "Görüntü dolgusu:"
+			},
+			"appearancesLabel": {
+				"text": "Görünüşler"
+			},
+			"imageAppearanceLabel": {
+				"text": "Görüntü Görünümü"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Arka Plan Rengi:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Kenar rengi:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Kenar genişliği:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Odaktaki görüntünün görünümü"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Arka Plan Rengi:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Kenar rengi:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Kenar genişliği:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Tek Sayfa Modunda Görüntü Görünümünü Kullan"
+			},
+			"renderingSettingsLabel": {
+				"text": "İşleme Ayarları"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Varsayılan ayarlar"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Yatay Çözünürlük:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Dikey Çözünürlük:"
+			},
+			"smoothingModeLabel": {
+				"text": "Düzgün Mod:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Hayır"
+			},
+			"interpolationModeLabel": {
+				"text": "İnterpolasyon Modu:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Diğer ayarlar"
+			},
+			"backgroundColorLabel": {
+				"text": "Resim Görüntüleyici Arka Plan Rengi:"
+			},
+			"centerImageLabel": {
+				"text": "Merkez Görüntü:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Yeniden Boyutlandırma Zaman Aşımı:"
+			},
+			"tileSizeLabel": {
+				"text": "Döşeme boyutu:"
+			},
+			"colorManagementLabel": {
+				"text": "Renk yönetimini etkinleştir:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Belgeler için vektör oluşturmayı kullan:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektör içeriği arka plan rengi:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"сancelButton": {
+				"value": "İptal"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "Sol"
 			},
 			"centerOption": {
-				"text": "Ortalanmış"
+				"text": "Ortaya Hizala"
 			},
 			"focusOnHoverLabel": {
 				"text": "Fokusla Odaklanma:"
 			},
 			"multiSelectLabel": {
 				"text": "Birden çok küçük resim seçimine izin ver:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"сancelButton": {
+				"value": "İptal"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "Kaynağı Değiştir"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "Dosya aç"
 		},
 		"closeButton": {
-			"text": "Kapat"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Görüntü görüntüleyici ayarları"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Görüntü görüntüleme modu"
-		},
-		"imageAnchorLabel": {
-			"text": "Görüntü Bağlantısı:"
-		},
-		"imageAnchorSelect": {
-			"value": "Hayır",
-			"noneOption": {
-				"text": "Yok"
-			},
-			"topLeftOption": {
-				"text": "Üst|Sol"
-			},
-			"topOption": {
-				"text": "Üst"
-			},
-			"topRightOption": {
-				"text": "Üst|Sağ"
-			},
-			"rightOption": {
-				"text": "Sağ"
-			},
-			"bottomRightOption": {
-				"text": "Alt|Sağ"
-			},
-			"bottomOption": {
-				"text": "Alt"
-			},
-			"bottomLeftOption": {
-				"text": "Alt|Sol"
-			},
-			"leftOption": {
-				"text": "Sol"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Çok sayfalı görüntüleme modu:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "Sabit Görüntüler",
-			"allImagesOption": {
-				"text": "Tüm resimler"
-			},
-			"fixedImagesOption": {
-				"text": "Sabit Görüntüler"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Yerleşim Yönü:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Dikey",
-			"horizontalOption": {
-				"text": "Yatay"
-			},
-			"verticalOption": {
-				"text": "Dikey"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Satır/sütun başına görüntü sayısı:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Görüntü dolgusu:"
-		},
-		"appearancesLabel": {
-			"text": "Görünüşler"
-		},
-		"imageAppearanceLabel": {
-			"text": "Görüntü Görünümü"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Arka Plan Rengi:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Kenar rengi:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Kenar genişliği:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Odaktaki görüntünün görünümü"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Tek Sayfa Modunda Görüntü Görünümünü Kullan"
-		},
-		"renderingSettigsLabel": {
-			"text": "İşleme Ayarları"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Varsayılan ayarlar"
-		},
-		"horResLabel": {
-			"text": "Yatay Çözünürlük:"
-		},
-		"vertResLabel": {
-			"text": "Dikey Çözünürlük:"
-		},
-		"smoothingLabel": {
-			"text": "Düzgün Mod:"
-		},
-		"interpolationLabel": {
-			"text": "İnterpolasyon Modu:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "İşaretleme olmadan ek açıklama çiz"
-		},
-		"otherSettigsLabel": {
-			"text": "Diğer ayarlar"
-		},
-		"backgroundColorLabel": {
-			"text": "Resim Görüntüleyici Arka Plan Rengi:"
-		},
-		"centerImageLabel": {
-			"text": "Merkez Görüntü:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Yeniden Boyutlandırma Zaman Aşımı:"
-		},
-		"tileSizeLabel": {
-			"text": "Döşeme boyutu:"
-		},
-		"colorManagementLabel": {
-			"text": "Renk yönetimini etkinleştir:"
-		},
-		"useVectorRendering": {
-			"text": "Belgeler için vektör oluşturmayı kullan:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Vektör içeriği arka plan rengi:"
-		},
-		"okButton": {
-			"text": "Tamam"
-		},
-		"cancelButton": {
 			"text": "Kapat"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "İtalik:"
 			},
 			"Size": {
-				"text": "Boyut:"
+				"text": "Küçük Resim Boyutu:"
 			},
 			"Strikeout": {
 				"text": "Üstü çizili:"
@@ -885,21 +930,24 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Sayfa",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Açıklama özellikleri",
+		"vssde-annotationListPanel-pageLabel": "Sayfa",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Açıklama özellikleri",
 		"vssde-textSearchPanel-pageLabel": "Sayfa",
 		"vssde-documentPasswordDialog-title": "Belge parolası",
 		"vssde-dialog-okButton": "Tamam",
 		"vssde-dialog-cancelButton": "İptal",
 		"vssde-imageSelectionDialog-currentImageString": "Geçerli Resim",
 		"vssde-imageSelectionDialog-allImagesString": "Tüm resimler",
-		"vssde-imageSelectionDialog-customImagesString": "Özel Aralık",
+		"vssde-imageSelectionDialog-customImagesString": "Özel",
 		"vssde-imageSelectionDialog-title": "Görüntüleri Seçin",
 		"vssde-printImagesDialog-withAnnotationsLabel": "açıklamalarla",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "Resim baskı için hazırlanıyor",
-		"vssde-printImagesDialog-title": "Görüntüleri yazdır",
+		"vssde-printImagesDialog-title": "Görüntüleri Yazdır",
 		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
 		"vssde-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Dönme açısı 0 olmamalıdır.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Açıklamalı resim döndürülüyor",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Açıklamalı Görüntüyü Döndür"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Açıklamalı Görüntüyü Döndür",
+		"vssde-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları"
 	}
 }

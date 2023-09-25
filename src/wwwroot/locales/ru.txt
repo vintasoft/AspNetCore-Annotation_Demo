@@ -22,7 +22,7 @@
 			"title": "Распечатать изображения"
 		},
 		"downloadFileButton": {
-			"title": "Выгрузить файл"
+			"title": "Загрузить файл изображения"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "По ширине"
@@ -70,7 +70,7 @@
 			"title": "Изображение"
 		},
 		"addTextAnnotationButton": {
-			"title": "Текст"
+			"title": "Текстовый"
 		},
 		"addStampAnnotationButton": {
 			"title": "Штамп"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "С учетом регистра"
 			},
-			"textNotFoundLabel": {
-				"text": "Текст не найден."
-			},
 			"startSearchButton": {
 				"value": "Начать поиск"
 			},
 			"stopSearchButton": {
 				"value": "Остановить поиск"
+			},
+			"textNotFoundLabel": {
+				"text": "Текст не найден."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "Рулетка"
 		},
 		"addAngleAnnotationButton": {
-			"title": "Угол"
+			"title": "Угол поворота"
 		},
 		"addMarkAnnotationButton": {
 			"title": "Метка"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Неверный пароль"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отмена"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "Все изображения"
 			},
 			"customImagesOption": {
-				"text": "Пользовательский диапазон"
+				"text": "Пользовательский"
 			},
 			"imageRangeLabel": {
 				"text": "Диапазон изображений:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс не попадает в диапазон индексов коллекции изображений."
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отмена"
 			}
 		},
 		"printImagesDialog": {
@@ -354,16 +366,180 @@
 				"text": "Все изображения"
 			},
 			"customImagesOption": {
-				"text": "Определены пользователем"
+				"text": "Пользовательский"
 			},
 			"imageRangeLabel": {
 				"text": "Диапазон изображений:"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Недопустимый диапазон страниц. Пример: 1-5, 8, 12-15."
+				"text": "Не верный диапазон страниц. Пример: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Индекс вне диапазона коллекции изображений."
+				"text": "Индекс не попадает в диапазон индексов коллекции изображений."
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Режим отображения изображения:"
+			},
+			"imageAnchorLabel": {
+				"text": "Привязка изображения:"
+			},
+			"noneOption": {
+				"text": "Нет"
+			},
+			"topLeftOption": {
+				"text": "Сверху|Слева"
+			},
+			"topOption": {
+				"text": "Сверху"
+			},
+			"topRightOption": {
+				"text": "Сверху|Справа"
+			},
+			"rightOption": {
+				"text": "Справа"
+			},
+			"bottomRightOption": {
+				"text": "Снизу|Справа"
+			},
+			"bottomOption": {
+				"text": "Снизу"
+			},
+			"bottomLeftOption": {
+				"text": "Снизу|Слева"
+			},
+			"leftOption": {
+				"text": "Слева"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Многостраничный режим отображения:"
+			},
+			"allImagesOption": {
+				"text": "Все изображения"
+			},
+			"fixedImagesOption": {
+				"text": "Фиксированные изображения"
+			},
+			"layoutDirectionLabel": {
+				"text": "Направление макета:"
+			},
+			"horizontalOption": {
+				"text": "Горизонтальное"
+			},
+			"verticalOption": {
+				"text": "Вертикальное"
+			},
+			"rowColumnCountLabel": {
+				"text": "Изображения в строке/столбце:"
+			},
+			"imagePaddingLabel": {
+				"text": "Заполнение изображений:"
+			},
+			"appearancesLabel": {
+				"text": "Внешние виды"
+			},
+			"imageAppearanceLabel": {
+				"text": "Внешний вид изображения"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Цвет фона:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Цвет границы:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Ширина границы:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Внешний вид сфокусированного изображения"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Цвет фона:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Цвет границы:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Ширина границы:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Использовать внешний вид изображения в одностраничном режиме"
+			},
+			"renderingSettingsLabel": {
+				"text": "Настройки рендеринга"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Настройки по умолчанию"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Разрешение по горизонтали:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Разрешение по вертикали:"
+			},
+			"smoothingModeLabel": {
+				"text": "Режим сглаживания:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Нет"
+			},
+			"interpolationModeLabel": {
+				"text": "Режим интерполяции:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Другие настройки"
+			},
+			"backgroundColorLabel": {
+				"text": "Цвет фона просмотрщика изображений:"
+			},
+			"centerImageLabel": {
+				"text": "Центрировать изображение:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Таймаут изменения размера:"
+			},
+			"tileSizeLabel": {
+				"text": "Размер тайла:"
+			},
+			"colorManagementLabel": {
+				"text": "Включить управление цветом:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Использовать векторный рендеринг для документов:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Цвет фона векторного содержимого:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отмена"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "Слева"
 			},
 			"centerOption": {
-				"text": "По центру"
+				"text": "Выровнять по центру"
 			},
 			"focusOnHoverLabel": {
 				"text": "Фокус при наведении:"
 			},
 			"multiSelectLabel": {
 				"text": "Разрешить выбор нескольких миниатюр:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отмена"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "Изменить источник"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "Открыть файл"
 		},
 		"closeButton": {
-			"text": "Закрыть"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Настройки просмотрщика изображений"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Режим отображения изображения"
-		},
-		"imageAnchorLabel": {
-			"text": "Привязка изображения:"
-		},
-		"imageAnchorSelect": {
-			"value": "Нет",
-			"noneOption": {
-				"text": "Нет"
-			},
-			"topLeftOption": {
-				"text": "Сверху|Слева"
-			},
-			"topOption": {
-				"text": "Сверху"
-			},
-			"topRightOption": {
-				"text": "Сверху|Справа"
-			},
-			"rightOption": {
-				"text": "Справа"
-			},
-			"bottomRightOption": {
-				"text": "Снизу|Справа"
-			},
-			"bottomOption": {
-				"text": "Снизу"
-			},
-			"bottomLeftOption": {
-				"text": "Снизу|Слева"
-			},
-			"leftOption": {
-				"text": "Слева"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Многостраничный режим отображения:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "Фиксированные изображения",
-			"allImagesOption": {
-				"text": "Все изображения"
-			},
-			"fixedImagesOption": {
-				"text": "Фиксированные изображения"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Направление макета:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Вертикальное",
-			"horizontalOption": {
-				"text": "Горизонтальное"
-			},
-			"verticalOption": {
-				"text": "Вертикальное"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Изображений в строке/столбце:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Отступы изображения:"
-		},
-		"appearancesLabel": {
-			"text": "Внешние виды"
-		},
-		"imageAppearanceLabel": {
-			"text": "Внешний вид изображения"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Цвет фона:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Цвет границы:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Ширина границы:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Внешний вид сфокусированного изображения"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Использовать внешний вид изображения в одностраничном режиме"
-		},
-		"renderingSettigsLabel": {
-			"text": "Настройки рендеринга"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Настройки по умолчанию"
-		},
-		"horResLabel": {
-			"text": "Разрешение по горизонтали:"
-		},
-		"vertResLabel": {
-			"text": "Разрешение по вертикали:"
-		},
-		"smoothingLabel": {
-			"text": "Режим сглаживания:"
-		},
-		"interpolationLabel": {
-			"text": "Режим интерполяции:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Нарисовать аннотацию без разметки"
-		},
-		"otherSettigsLabel": {
-			"text": "Другие настройки"
-		},
-		"backgroundColorLabel": {
-			"text": "Цвет фона просмотрщика изображений:"
-		},
-		"centerImageLabel": {
-			"text": "Центрировать изображение:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Таймаут изменения размера:"
-		},
-		"tileSizeLabel": {
-			"text": "Размер тайла:"
-		},
-		"colorManagementLabel": {
-			"text": "Включить управление цветом:"
-		},
-		"useVectorRendering": {
-			"text": "Использовать векторный рендеринг для документов:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Цвет фона векторного содержимого:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Закрыть"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "Курсив:"
 			},
 			"Size": {
-				"text": "Размер:"
+				"text": "Размер миниатюры:"
 			},
 			"Strikeout": {
 				"text": "Зачеркнуть:"
@@ -871,7 +916,7 @@
 			}
 		},
 		"okButton": {
-			"text": "OK"
+			"text": "ОК"
 		}
 	},
 	"errorMessageDialog": {
@@ -885,21 +930,24 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Страница",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Свойства аннотации",
+		"vssde-annotationListPanel-pageLabel": "Страница",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Свойства аннотации",
 		"vssde-textSearchPanel-pageLabel": "Страница",
 		"vssde-documentPasswordDialog-title": "Пароль к документу",
-		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-okButton": "ОК",
 		"vssde-dialog-cancelButton": "Отмена",
 		"vssde-imageSelectionDialog-currentImageString": "Текущее изображение",
 		"vssde-imageSelectionDialog-allImagesString": "Все изображения",
-		"vssde-imageSelectionDialog-customImagesString": "Пользовательский диапазон",
+		"vssde-imageSelectionDialog-customImagesString": "Пользовательский",
 		"vssde-imageSelectionDialog-title": "Выберите изображения",
 		"vssde-printImagesDialog-withAnnotationsLabel": "с аннотациями",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "Изображение готовится к печати",
-		"vssde-printImagesDialog-title": "Печать изображений",
+		"vssde-printImagesDialog-title": "Распечатать изображения",
 		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
 		"vssde-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Угол поворота должен быть не равен 0.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Выполняется поворот изображения с аннотациями",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Поворот изображения с аннотациями"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Повернуть изображение с аннотациями",
+		"vssde-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений"
 	}
 }

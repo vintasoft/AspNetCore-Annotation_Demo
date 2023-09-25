@@ -22,7 +22,7 @@
 			"title": "Tulosta kuvat"
 		},
 		"downloadFileButton": {
-			"title": "Lataa tiedosto"
+			"title": "Lataa kuvatiedosto"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Sovita leveyteen"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "Kirjainkoolla on merkitystä"
 			},
-			"textNotFoundLabel": {
-				"text": "Tekstiä ei löydy."
-			},
 			"startSearchButton": {
 				"value": "Aloita haku"
 			},
 			"stopSearchButton": {
 				"value": "Lopeta haku"
+			},
+			"textNotFoundLabel": {
+				"text": "Tekstiä ei löydy."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "Rulette"
 		},
 		"addAngleAnnotationButton": {
-			"title": "Kulma"
+			"title": "Kiertokulma"
 		},
 		"addMarkAnnotationButton": {
 			"title": "Etiketti"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Väärä salasana"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Peruuta"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "Kaikki kuvat"
 			},
 			"customImagesOption": {
-				"text": "Muokattu alue"
+				"text": "Mukautettu"
 			},
 			"imageRangeLabel": {
 				"text": "Kuvaalue:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Hakemisto ei ole kuvakokoelman indeksialueella."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Peruuta"
 			}
 		},
 		"printImagesDialog": {
@@ -354,7 +366,7 @@
 				"text": "Kaikki kuvat"
 			},
 			"customImagesOption": {
-				"text": "Käyttäjän määrittämä"
+				"text": "Mukautettu"
 			},
 			"imageRangeLabel": {
 				"text": "Kuvaalue:"
@@ -363,7 +375,171 @@
 				"text": "Virheellinen sivualue. Esimerkki: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Hakemisto on kuvakokoelman alueen ulkopuolella."
+				"text": "Hakemisto ei ole kuvakokoelman indeksialueella."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Kuvan näyttötila:"
+			},
+			"imageAnchorLabel": {
+				"text": "Kuvan ankkuri:"
+			},
+			"noneOption": {
+				"text": "Ei"
+			},
+			"topLeftOption": {
+				"text": "Ylä|Vasen"
+			},
+			"topOption": {
+				"text": "Yläosa"
+			},
+			"topRightOption": {
+				"text": "Yläosa|Oikea"
+			},
+			"rightOption": {
+				"text": "Oikein"
+			},
+			"bottomRightOption": {
+				"text": "Alhaalla|Oikealla"
+			},
+			"bottomOption": {
+				"text": "Pohja"
+			},
+			"bottomLeftOption": {
+				"text": "Alhaalla|Vasen"
+			},
+			"leftOption": {
+				"text": "Vasen"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Monisivuinen näyttötila:"
+			},
+			"allImagesOption": {
+				"text": "Kaikki kuvat"
+			},
+			"fixedImagesOption": {
+				"text": "Kiinteät kuvat"
+			},
+			"layoutDirectionLabel": {
+				"text": "Asettelusuunta:"
+			},
+			"horizontalOption": {
+				"text": "Vaaka"
+			},
+			"verticalOption": {
+				"text": "Pysty"
+			},
+			"rowColumnCountLabel": {
+				"text": "Kuvat rivissä/sarakkeessa:"
+			},
+			"imagePaddingLabel": {
+				"text": "Kuvien täyte:"
+			},
+			"appearancesLabel": {
+				"text": "Ulkoasu"
+			},
+			"imageAppearanceLabel": {
+				"text": "Kuvan ulkoasu"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Taustaväri:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Reunuksen väri:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Reunuksen leveys:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Tarkennetun kuvan ulkoasu"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Taustaväri:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Reunuksen väri:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Reunuksen leveys:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Käytä kuvan ulkoasua yhden sivun tilassa"
+			},
+			"renderingSettingsLabel": {
+				"text": "Renderointiasetukset"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Oletusasetukset"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Vaaka resoluutio:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Pystyresoluutio:"
+			},
+			"smoothingModeLabel": {
+				"text": "Smooth-tila:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Ei"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolointitila:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Muut asetukset"
+			},
+			"backgroundColorLabel": {
+				"text": "Kuvankatseluohjelman taustaväri:"
+			},
+			"centerImageLabel": {
+				"text": "Keskikuva:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Koon muuttamisen aikakatkaisu:"
+			},
+			"tileSizeLabel": {
+				"text": "Laatan koko:"
+			},
+			"colorManagementLabel": {
+				"text": "Ota käyttöön värinhallinta:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Käytä vektorirenderöintiä asiakirjoissa:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektorisisällön taustaväri:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Peruuta"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "Vasen"
 			},
 			"centerOption": {
-				"text": "Keskitetty"
+				"text": "Tasaa keskelle"
 			},
 			"focusOnHoverLabel": {
 				"text": "Liikun tarkennus:"
 			},
 			"multiSelectLabel": {
 				"text": "Salli useiden pikkukuvien valinta:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Peruuta"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "Vaihda lähdettä"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "Avaa tiedosto"
 		},
 		"closeButton": {
-			"text": "Sulje"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Kuvankatseluohjelman asetukset"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Kuvan näyttötila"
-		},
-		"imageAnchorLabel": {
-			"text": "Kuvan ankkuri:"
-		},
-		"imageAnchorSelect": {
-			"value": "Ei",
-			"noneOption": {
-				"text": "Ei mitään"
-			},
-			"topLeftOption": {
-				"text": "Ylä|Vasen"
-			},
-			"topOption": {
-				"text": "Yläosa"
-			},
-			"topRightOption": {
-				"text": "Yläosa|Oikea"
-			},
-			"rightOption": {
-				"text": "Oikein"
-			},
-			"bottomRightOption": {
-				"text": "Alhaalla|Oikealla"
-			},
-			"bottomOption": {
-				"text": "Alhaalla"
-			},
-			"bottomLeftOption": {
-				"text": "Alhaalla|Vasen"
-			},
-			"leftOption": {
-				"text": "Vasen"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Monisivuinen näyttötila:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "Kiinteät kuvat",
-			"allImagesOption": {
-				"text": "Kaikki kuvat"
-			},
-			"fixedImagesOption": {
-				"text": "Kiinteät kuvat"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Asettelusuunta:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Pysty",
-			"horizontalOption": {
-				"text": "Vaaka"
-			},
-			"verticalOption": {
-				"text": "Pysty"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Kuvat riviä/saraketta kohti:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Kuvan täyttö:"
-		},
-		"appearancesLabel": {
-			"text": "Ulkoasu"
-		},
-		"imageAppearanceLabel": {
-			"text": "Kuvan ulkoasu"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Taustaväri:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Reunuksen väri:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Reunuksen leveys:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Tarkennetun kuvan ulkoasu"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Käytä kuvan ulkoasua yhden sivun tilassa"
-		},
-		"renderingSettigsLabel": {
-			"text": "Renderointiasetukset"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Oletusasetukset"
-		},
-		"horResLabel": {
-			"text": "Vaaka resoluutio:"
-		},
-		"vertResLabel": {
-			"text": "Pystyresoluutio:"
-		},
-		"smoothingLabel": {
-			"text": "Smooth-tila:"
-		},
-		"interpolationLabel": {
-			"text": "Interpolointitila:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Piirrä huomautus ilman merkintöjä"
-		},
-		"otherSettigsLabel": {
-			"text": "Muut asetukset"
-		},
-		"backgroundColorLabel": {
-			"text": "Kuvankatseluohjelman taustaväri:"
-		},
-		"centerImageLabel": {
-			"text": "Keskikuva:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Koon muuttamisen aikakatkaisu:"
-		},
-		"tileSizeLabel": {
-			"text": "Laatan koko:"
-		},
-		"colorManagementLabel": {
-			"text": "Ota käyttöön värinhallinta:"
-		},
-		"useVectorRendering": {
-			"text": "Käytä vektorirenderöintiä asiakirjoissa:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Vektorisisällön taustaväri:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Sulje"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "Kursivoitu:"
 			},
 			"Size": {
-				"text": "Koko:"
+				"text": "Pikkukuvan koko:"
 			},
 			"Strikeout": {
 				"text": "Yliviivaus:"
@@ -885,13 +930,15 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Sivu",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Merkintäominaisuudet",
+		"vssde-annotationListPanel-pageLabel": "Sivu",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Merkintäominaisuudet",
 		"vssde-textSearchPanel-pageLabel": "Sivu",
 		"vssde-documentPasswordDialog-title": "Asiakirjan salasana",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Peruuta",
 		"vssde-imageSelectionDialog-currentImageString": "Nykyinen kuva",
 		"vssde-imageSelectionDialog-allImagesString": "Kaikki kuvat",
-		"vssde-imageSelectionDialog-customImagesString": "Muokattu alue",
+		"vssde-imageSelectionDialog-customImagesString": "Mukautettu",
 		"vssde-imageSelectionDialog-title": "Valitse kuvat",
 		"vssde-printImagesDialog-withAnnotationsLabel": "huomautuksilla",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "Kuvaa valmistellaan tulostusta varten",
@@ -900,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kiertokulma ei saa olla 0.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotoitua kuvaa käännetään",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Kierrä huomautettua kuvaa"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Kierrä huomautettua kuvaa",
+		"vssde-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset"
 	}
 }

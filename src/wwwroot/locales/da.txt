@@ -22,7 +22,7 @@
 			"title": "Udskriv billeder"
 		},
 		"downloadFileButton": {
-			"title": "Upload fil"
+			"title": "Download billedfil"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Tilpas til bredde"
@@ -183,14 +183,14 @@
 			"caseSensitiveLabel": {
 				"text": "Stilling mellem store og små bogstaver"
 			},
-			"textNotFoundLabel": {
-				"text": "Tekst ikke fundet."
-			},
 			"startSearchButton": {
 				"value": "Start søgning"
 			},
 			"stopSearchButton": {
 				"value": "Stop søgning"
+			},
+			"textNotFoundLabel": {
+				"text": "Tekst ikke fundet."
 			}
 		},
 		"gotoFirstPageButton": {
@@ -263,7 +263,7 @@
 			"title": "Roulette"
 		},
 		"addAngleAnnotationButton": {
-			"title": "Vinkel"
+			"title": "Rotationsvinkel"
 		},
 		"addMarkAnnotationButton": {
 			"title": "Etiket"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Forkert adgangskode"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuller"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "Alle billeder"
 			},
 			"customImagesOption": {
-				"text": "Brugerdefineret område"
+				"text": "Brugerdefineret"
 			},
 			"imageRangeLabel": {
 				"text": "Billedområde:"
@@ -341,6 +347,12 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indekset er ikke inden for billedsamlingens indeksområde."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuller"
 			}
 		},
 		"printImagesDialog": {
@@ -363,7 +375,171 @@
 				"text": "Ugyldigt sideinterval. Eksempel: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Indekset er uden for billedsamlingens område."
+				"text": "Indekset er ikke inden for billedsamlingens indeksområde."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Billedvisningstilstand:"
+			},
+			"imageAnchorLabel": {
+				"text": "Billedanker:"
+			},
+			"noneOption": {
+				"text": "Nej"
+			},
+			"topLeftOption": {
+				"text": "Top|Venstre"
+			},
+			"topOption": {
+				"text": "Top"
+			},
+			"topRightOption": {
+				"text": "Øverst|Højre"
+			},
+			"rightOption": {
+				"text": "Ret"
+			},
+			"bottomRightOption": {
+				"text": "Bund|Højre"
+			},
+			"bottomOption": {
+				"text": "Bund"
+			},
+			"bottomLeftOption": {
+				"text": "Bund|Venstre"
+			},
+			"leftOption": {
+				"text": "Venstre"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Multi-side display mode:"
+			},
+			"allImagesOption": {
+				"text": "Alle billeder"
+			},
+			"fixedImagesOption": {
+				"text": "Fixede billeder"
+			},
+			"layoutDirectionLabel": {
+				"text": "Layoutretning:"
+			},
+			"horizontalOption": {
+				"text": "Horisontal"
+			},
+			"verticalOption": {
+				"text": "Lodret"
+			},
+			"rowColumnCountLabel": {
+				"text": "Billeder i række/kolonne:"
+			},
+			"imagePaddingLabel": {
+				"text": "Udfyldning af billeder:"
+			},
+			"appearancesLabel": {
+				"text": "Udseende"
+			},
+			"imageAppearanceLabel": {
+				"text": "Billedets udseende"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Baggrundsfarve:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Kantfarve:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Kantbredde:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Udseende af billede i fokus"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Baggrundsfarve:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Kantfarve:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Kantbredde:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Brug billedets udseende i enkeltsidetilstand"
+			},
+			"renderingSettingsLabel": {
+				"text": "Gengivelsesindstillinger"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Standardindstillinger"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horisontal opløsning:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Lodret opløsning:"
+			},
+			"smoothingModeLabel": {
+				"text": "Jævn tilstand:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Nej"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolationstilstand:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Andre indstillinger"
+			},
+			"backgroundColorLabel": {
+				"text": "Billedfremviser baggrundsfarve:"
+			},
+			"centerImageLabel": {
+				"text": "Centerbillede:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Timeout til ændring af størrelse:"
+			},
+			"tileSizeLabel": {
+				"text": "Flisestørrelse:"
+			},
+			"colorManagementLabel": {
+				"text": "Aktiver farvestyring:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Brug vektorgengivelse til dokumenter:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektorindhold baggrundsfarve:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuller"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
@@ -452,13 +628,19 @@
 				"text": "Venstre"
 			},
 			"centerOption": {
-				"text": "Centreret"
+				"text": "Juster center"
 			},
 			"focusOnHoverLabel": {
 				"text": "Hover fokus:"
 			},
 			"multiSelectLabel": {
 				"text": "Tillad valg af flere miniaturebilleder:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuller"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
@@ -488,6 +670,12 @@
 			},
 			"changeSourceLabel": {
 				"text": "Skift kilde"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
 			}
 		}
 	},
@@ -499,149 +687,6 @@
 			"text": "Åbn fil"
 		},
 		"closeButton": {
-			"text": "Luk"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Indstillinger for billedfremviser"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Billedvisningstilstand"
-		},
-		"imageAnchorLabel": {
-			"text": "Billedanker:"
-		},
-		"imageAnchorSelect": {
-			"value": "Nej",
-			"noneOption": {
-				"text": "Ingen"
-			},
-			"topLeftOption": {
-				"text": "Top|Venstre"
-			},
-			"topOption": {
-				"text": "Top"
-			},
-			"topRightOption": {
-				"text": "Øverst|Højre"
-			},
-			"rightOption": {
-				"text": "Ret"
-			},
-			"bottomRightOption": {
-				"text": "Bund|Højre"
-			},
-			"bottomOption": {
-				"text": "Bund"
-			},
-			"bottomLeftOption": {
-				"text": "Bund|Venstre"
-			},
-			"leftOption": {
-				"text": "Venstre"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Multi-side display mode:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "Fixede billeder",
-			"allImagesOption": {
-				"text": "Alle billeder"
-			},
-			"fixedImagesOption": {
-				"text": "Fixede billeder"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Layoutretning:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Lodret",
-			"horizontalOption": {
-				"text": "Horisontal"
-			},
-			"verticalOption": {
-				"text": "Lodret"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Billeder pr. række/kolonne:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Billedudfyldning:"
-		},
-		"appearancesLabel": {
-			"text": "Udseende"
-		},
-		"imageAppearanceLabel": {
-			"text": "Billedets udseende"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Baggrundsfarve:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Kantfarve:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Kantbredde:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Udseende af billede i fokus"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Brug billedets udseende i enkeltsidetilstand"
-		},
-		"renderingSettigsLabel": {
-			"text": "Gengivelsesindstillinger"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Standardindstillinger"
-		},
-		"horResLabel": {
-			"text": "Horisontal opløsning:"
-		},
-		"vertResLabel": {
-			"text": "Lodret opløsning:"
-		},
-		"smoothingLabel": {
-			"text": "Jævn tilstand:"
-		},
-		"interpolationLabel": {
-			"text": "Interpolationstilstand:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Tegn annotering uden markering"
-		},
-		"otherSettigsLabel": {
-			"text": "Andre indstillinger"
-		},
-		"backgroundColorLabel": {
-			"text": "Billedfremviser baggrundsfarve:"
-		},
-		"centerImageLabel": {
-			"text": "Centerbillede:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Timeout til ændring af størrelse:"
-		},
-		"tileSizeLabel": {
-			"text": "Flisestørrelse:"
-		},
-		"colorManagementLabel": {
-			"text": "Aktiver farvestyring:"
-		},
-		"useVectorRendering": {
-			"text": "Brug vektorgengivelse til dokumenter:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Vektorindhold baggrundsfarve:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Luk"
 		}
 	},
@@ -693,7 +738,7 @@
 				"text": "Kursiv:"
 			},
 			"Size": {
-				"text": "Størrelse:"
+				"text": "Thumbnail størrelse:"
 			},
 			"Strikeout": {
 				"text": "Gennemstregning:"
@@ -885,13 +930,15 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Side",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Annoteringsegenskaber",
+		"vssde-annotationListPanel-pageLabel": "Side",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaber",
 		"vssde-textSearchPanel-pageLabel": "Side",
 		"vssde-documentPasswordDialog-title": "Dokumentadgangskode",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Annuller",
 		"vssde-imageSelectionDialog-currentImageString": "Aktuelt billede",
 		"vssde-imageSelectionDialog-allImagesString": "Alle billeder",
-		"vssde-imageSelectionDialog-customImagesString": "Brugerdefineret område",
+		"vssde-imageSelectionDialog-customImagesString": "Brugerdefineret",
 		"vssde-imageSelectionDialog-title": "Vælg billeder",
 		"vssde-printImagesDialog-withAnnotationsLabel": "med anmærkninger",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "Billedet forberedes til udskrivning",
@@ -900,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinklen må ikke være 0.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenteret billede bliver roteret",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Roter kommenteret billede"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Roter kommenteret billede",
+		"vssde-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser"
 	}
 }

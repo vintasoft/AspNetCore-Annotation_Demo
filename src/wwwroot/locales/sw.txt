@@ -22,7 +22,7 @@
 			"title": "Chapisha picha"
 		},
 		"downloadFileButton": {
-			"title": "Pakua faili ya picha"
+			"title": "Pakua Faili ya Picha"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inafaa kwa upana"
@@ -37,7 +37,7 @@
 			"title": "Zungusha picha kisaa"
 		},
 		"imageViewerSettingsButton": {
-			"title": "Onyesha Mipangilio ya Kitazamaji Picha"
+			"title": "Mipangilio ya kitazamaji picha"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Mipangilio ya kitazamaji cha kijipicha"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Nenosiri si sahihi"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"сancelButton": {
+				"value": "Ghairi"
 			}
 		},
 		"selectImagesDialog": {
@@ -375,6 +381,164 @@
 				"value": "sawa"
 			},
 			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Hali ya kuonyesha picha:"
+			},
+			"imageAnchorLabel": {
+				"text": "Anga ya picha:"
+			},
+			"noneOption": {
+				"text": "Hakuna"
+			},
+			"topLeftOption": {
+				"text": "Juu|Kushoto"
+			},
+			"topOption": {
+				"text": "Juu"
+			},
+			"topRightOption": {
+				"text": "Juu|kulia"
+			},
+			"rightOption": {
+				"text": "Haki"
+			},
+			"bottomRightOption": {
+				"text": "Chini|Kulia"
+			},
+			"bottomOption": {
+				"text": "Chini"
+			},
+			"bottomLeftOption": {
+				"text": "Chini|Kushoto"
+			},
+			"leftOption": {
+				"text": "Kushoto"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Hali ya kuonyesha kurasa nyingi:"
+			},
+			"allImagesOption": {
+				"text": "Picha Zote"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Mwelekeo wa mpangilio:"
+			},
+			"horizontalOption": {
+				"text": "Mlalo"
+			},
+			"verticalOption": {
+				"text": "Wima"
+			},
+			"rowColumnCountLabel": {
+				"text": "Picha katika safu / safu:"
+			},
+			"imagePaddingLabel": {
+				"text": "Ufungaji wa picha:"
+			},
+			"appearancesLabel": {
+				"text": "Mwonekano"
+			},
+			"imageAppearanceLabel": {
+				"text": "Mwonekano wa picha"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Rangi ya nyuma:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Rangi ya mpaka:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Upana wa mpaka:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Mwonekano wa picha uliolengwa"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Rangi ya nyuma:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Rangi ya mpaka:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Upana wa mpaka:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Tumia mwonekano wa picha katika hali ya ukurasa mmoja"
+			},
+			"renderingSettingsLabel": {
+				"text": "Mipangilio ya uwasilishaji"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Mipangilio Chaguomsingi"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Azimio la Mlalo:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Azimio la Wima:"
+			},
+			"smoothingModeLabel": {
+				"text": "Hali ya Kulainisha:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Hakuna"
+			},
+			"interpolationModeLabel": {
+				"text": "Hali ya Ukalimani:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Mipangilio mingine"
+			},
+			"backgroundColorLabel": {
+				"text": "Rangi ya mandharinyuma ya mtazamaji:"
+			},
+			"centerImageLabel": {
+				"text": "Picha ya katikati:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Badilisha ukubwa wa muda kuisha:"
+			},
+			"tileSizeLabel": {
+				"text": "Ukubwa wa vigae:"
+			},
+			"colorManagementLabel": {
+				"text": "Washa udhibiti wa rangi:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Tumia utoaji wa vekta kwa hati:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Rangi ya mandharinyuma ya maudhui ya Vekta:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"сancelButton": {
 				"value": "Ghairi"
 			}
 		},
@@ -523,149 +687,6 @@
 			"text": "Fungua"
 		},
 		"closeButton": {
-			"text": "Funga"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Mipangilio ya kitazamaji picha"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Hali ya kuonyesha picha"
-		},
-		"imageAnchorLabel": {
-			"text": "Anga ya picha:"
-		},
-		"imageAnchorSelect": {
-			"value": "Hakuna",
-			"noneOption": {
-				"text": "Hakuna"
-			},
-			"topLeftOption": {
-				"text": "Juu|Kushoto"
-			},
-			"topOption": {
-				"text": "Juu"
-			},
-			"topRightOption": {
-				"text": "Juu|kulia"
-			},
-			"rightOption": {
-				"text": "Haki"
-			},
-			"bottomRightOption": {
-				"text": "Chini|Kulia"
-			},
-			"bottomOption": {
-				"text": "Chini"
-			},
-			"bottomLeftOption": {
-				"text": "Chini|Kushoto"
-			},
-			"leftOption": {
-				"text": "Kushoto"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Hali ya kuonyesha kurasa nyingi:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "FixedImages",
-			"allImagesOption": {
-				"text": "Picha Zote"
-			},
-			"fixedImagesOption": {
-				"text": "FixedImages"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Mwelekeo wa mpangilio:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Wima",
-			"horizontalOption": {
-				"text": "Mlalo"
-			},
-			"verticalOption": {
-				"text": "Wima"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Picha katika safu / safu:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Ufungaji wa picha:"
-		},
-		"appearancesLabel": {
-			"text": "Mwonekano"
-		},
-		"imageAppearanceLabel": {
-			"text": "Mwonekano wa picha"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Rangi ya nyuma:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Rangi ya mpaka:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Upana wa mpaka:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Mwonekano wa picha uliolengwa"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Tumia mwonekano wa picha katika hali ya ukurasa mmoja"
-		},
-		"renderingSettigsLabel": {
-			"text": "Mipangilio ya uwasilishaji"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Mipangilio Chaguomsingi"
-		},
-		"horResLabel": {
-			"text": "Azimio la Mlalo:"
-		},
-		"vertResLabel": {
-			"text": "Azimio la Wima:"
-		},
-		"smoothingLabel": {
-			"text": "Hali ya Kulainisha:"
-		},
-		"interpolationLabel": {
-			"text": "Hali ya Ukalimani:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Chora kidokezo kisicho chapa"
-		},
-		"otherSettigsLabel": {
-			"text": "Mipangilio mingine"
-		},
-		"backgroundColorLabel": {
-			"text": "Rangi ya mandharinyuma ya mtazamaji:"
-		},
-		"centerImageLabel": {
-			"text": "Picha ya katikati:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Badilisha ukubwa wa muda kuisha:"
-		},
-		"tileSizeLabel": {
-			"text": "Ukubwa wa vigae:"
-		},
-		"colorManagementLabel": {
-			"text": "Washa udhibiti wa rangi:"
-		},
-		"useVectorRendering": {
-			"text": "Tumia utoaji wa vekta kwa hati:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Rangi ya mandharinyuma ya maudhui ya Vekta:"
-		},
-		"okButton": {
-			"text": "sawa"
-		},
-		"cancelButton": {
 			"text": "Funga"
 		}
 	},
@@ -909,6 +930,8 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "Ukurasa",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Sifa za Ufafanuzi",
+		"vssde-annotationListPanel-pageLabel": "Ukurasa",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Sifa za Ufafanuzi",
 		"vssde-textSearchPanel-pageLabel": "Ukurasa",
 		"vssde-documentPasswordDialog-title": "Nenosiri la hati",
 		"vssde-dialog-okButton": "sawa",
@@ -924,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Pembe ya mzunguko inapaswa kuwa zaidi ya sifuri.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Inazungusha picha na vidokezo",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Zungusha picha na vidokezo"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Zungusha picha na vidokezo",
+		"vssde-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha"
 	}
 }

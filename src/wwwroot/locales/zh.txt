@@ -22,7 +22,7 @@
 			"title": "打印图像"
 		},
 		"downloadFileButton": {
-			"title": "下载图像文件"
+			"title": "下载图片文件"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "适合宽度"
@@ -37,7 +37,7 @@
 			"title": "顺时针旋转图像"
 		},
 		"imageViewerSettingsButton": {
-			"title": "显示图像查看器设置"
+			"title": "图像查看器设置"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "缩略图查看器设置"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "密码错误"
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"сancelButton": {
+				"value": "取消"
 			}
 		},
 		"selectImagesDialog": {
@@ -375,6 +381,164 @@
 				"value": "好的"
 			},
 			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "图像显示方式："
+			},
+			"imageAnchorLabel": {
+				"text": "图片锚点："
+			},
+			"noneOption": {
+				"text": "没有任何"
+			},
+			"topLeftOption": {
+				"text": "顶部|左侧"
+			},
+			"topOption": {
+				"text": "顶部"
+			},
+			"topRightOption": {
+				"text": "顶部|右侧"
+			},
+			"rightOption": {
+				"text": "正确的"
+			},
+			"bottomRightOption": {
+				"text": "下|右"
+			},
+			"bottomOption": {
+				"text": "底部"
+			},
+			"bottomLeftOption": {
+				"text": "底部|左"
+			},
+			"leftOption": {
+				"text": "左边"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "多页显示模式："
+			},
+			"allImagesOption": {
+				"text": "所有图片"
+			},
+			"fixedImagesOption": {
+				"text": "固定图像"
+			},
+			"layoutDirectionLabel": {
+				"text": "布局方向："
+			},
+			"horizontalOption": {
+				"text": "水平的"
+			},
+			"verticalOption": {
+				"text": "垂直的"
+			},
+			"rowColumnCountLabel": {
+				"text": "行/列中的图像："
+			},
+			"imagePaddingLabel": {
+				"text": "图像填充："
+			},
+			"appearancesLabel": {
+				"text": "出场次数"
+			},
+			"imageAppearanceLabel": {
+				"text": "图像外观"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "背面颜色："
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "边框颜色："
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "边框宽度："
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "聚焦图像外观"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "背面颜色："
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "边框颜色："
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "边框宽度："
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "在单页模式下使用图像外观"
+			},
+			"renderingSettingsLabel": {
+				"text": "渲染设置"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "默认设置"
+			},
+			"horizontalResolutionLabel": {
+				"text": "水平分辨率："
+			},
+			"verticalResolutionLabel ": {
+				"text": "垂直分辨率："
+			},
+			"smoothingModeLabel": {
+				"text": "平滑模式："
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "没有任何"
+			},
+			"interpolationModeLabel": {
+				"text": "插值模式："
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "其他设置"
+			},
+			"backgroundColorLabel": {
+				"text": "查看器背景颜色："
+			},
+			"centerImageLabel": {
+				"text": "中心图像："
+			},
+			"resizeTimeoutLabel ": {
+				"text": "调整超时大小："
+			},
+			"tileSizeLabel": {
+				"text": "瓷砖尺寸："
+			},
+			"colorManagementLabel": {
+				"text": "启用颜色管理："
+			},
+			"useVectorRenderingLabel": {
+				"text": "对文档使用矢量渲染："
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "矢量内容背景颜色："
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"сancelButton": {
 				"value": "取消"
 			}
 		},
@@ -523,149 +687,6 @@
 			"text": "打开"
 		},
 		"closeButton": {
-			"text": "关闭"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "图像查看器设置"
-		},
-		"imageDisplayModeLabel": {
-			"text": "图像显示方式"
-		},
-		"imageAnchorLabel": {
-			"text": "图片锚点："
-		},
-		"imageAnchorSelect": {
-			"value": "没有任何",
-			"noneOption": {
-				"text": "没有任何"
-			},
-			"topLeftOption": {
-				"text": "顶部|左侧"
-			},
-			"topOption": {
-				"text": "顶部"
-			},
-			"topRightOption": {
-				"text": "顶部|右侧"
-			},
-			"rightOption": {
-				"text": "正确的"
-			},
-			"bottomRightOption": {
-				"text": "下|右"
-			},
-			"bottomOption": {
-				"text": "底部"
-			},
-			"bottomLeftOption": {
-				"text": "底部|左"
-			},
-			"leftOption": {
-				"text": "左边"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "多页显示模式："
-		},
-		"multipageDisplayModeSelect": {
-			"value": "固定图像",
-			"allImagesOption": {
-				"text": "所有图片"
-			},
-			"fixedImagesOption": {
-				"text": "固定图像"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "布局方向："
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "垂直的",
-			"horizontalOption": {
-				"text": "水平的"
-			},
-			"verticalOption": {
-				"text": "垂直的"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "行/列中的图像："
-		},
-		"imagesPaddingLabel": {
-			"text": "图像填充："
-		},
-		"appearancesLabel": {
-			"text": "出场次数"
-		},
-		"imageAppearanceLabel": {
-			"text": "图像外观"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "背面颜色："
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "边框颜色："
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "边框宽度："
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "聚焦图像外观"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "在单页模式下使用图像外观"
-		},
-		"renderingSettigsLabel": {
-			"text": "渲染设置"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "默认设置"
-		},
-		"horResLabel": {
-			"text": "水平分辨率："
-		},
-		"vertResLabel": {
-			"text": "垂直分辨率："
-		},
-		"smoothingLabel": {
-			"text": "平滑模式："
-		},
-		"interpolationLabel": {
-			"text": "插值模式："
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "绘制非标记注释"
-		},
-		"otherSettigsLabel": {
-			"text": "其他设置"
-		},
-		"backgroundColorLabel": {
-			"text": "查看器背景颜色："
-		},
-		"centerImageLabel": {
-			"text": "中心图像："
-		},
-		"resizeTimeoutLabel": {
-			"text": "调整超时大小："
-		},
-		"tileSizeLabel": {
-			"text": "瓷砖尺寸："
-		},
-		"colorManagementLabel": {
-			"text": "启用颜色管理："
-		},
-		"useVectorRendering": {
-			"text": "对文档使用矢量渲染："
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "矢量内容背景颜色："
-		},
-		"okButton": {
-			"text": "好的"
-		},
-		"cancelButton": {
 			"text": "关闭"
 		}
 	},
@@ -909,6 +930,8 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "页",
 		"vssde-annotationPanel-annotationPropertiesLabel": "注释属性",
+		"vssde-annotationListPanel-pageLabel": "页",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "注释属性",
 		"vssde-textSearchPanel-pageLabel": "页",
 		"vssde-documentPasswordDialog-title": "文档密码",
 		"vssde-dialog-okButton": "好的",
@@ -924,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "旋转角度应大于零。",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "带注释旋转图像",
-		"vssde-rotateImageWithAnnotationsDialog-title": "旋转带有注释的图像"
+		"vssde-rotateImageWithAnnotationsDialog-title": "旋转带有注释的图像",
+		"vssde-imageViewerSettingsDialog-title": "图像查看器设置"
 	}
 }

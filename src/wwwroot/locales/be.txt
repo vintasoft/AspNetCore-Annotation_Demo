@@ -37,7 +37,7 @@
 			"title": "Павярнуць малюнак па гадзіннікавай стрэлцы"
 		},
 		"imageViewerSettingsButton": {
-			"title": "Паказаць налады прагляду малюнкаў"
+			"title": "Налады прагляду малюнкаў"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Налады прагляду эскізаў"
@@ -318,6 +318,12 @@
 			},
 			"incorrectPasswordLabel": {
 				"text": "Няправільны пароль"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Адмяніць"
 			}
 		},
 		"selectImagesDialog": {
@@ -331,7 +337,7 @@
 				"text": "Усе выявы"
 			},
 			"customImagesOption": {
-				"text": "Прыстасаваныя"
+				"text": "Карыстацкі"
 			},
 			"imageRangeLabel": {
 				"text": "Дыяпазон выявы:"
@@ -360,7 +366,7 @@
 				"text": "Усе выявы"
 			},
 			"customImagesOption": {
-				"text": "Прыстасаваныя"
+				"text": "Карыстацкі"
 			},
 			"imageRangeLabel": {
 				"text": "Дыяпазон выявы:"
@@ -375,6 +381,164 @@
 				"value": "OK"
 			},
 			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Рэжым адлюстравання выявы:"
+			},
+			"imageAnchorLabel": {
+				"text": "Якар малюнка:"
+			},
+			"noneOption": {
+				"text": "Няма"
+			},
+			"topLeftOption": {
+				"text": "Зверху|Злева"
+			},
+			"topOption": {
+				"text": "Топ"
+			},
+			"topRightOption": {
+				"text": "Зверху|Справа"
+			},
+			"rightOption": {
+				"text": "правільна"
+			},
+			"bottomRightOption": {
+				"text": "Унізе|справа"
+			},
+			"bottomOption": {
+				"text": "Знізу"
+			},
+			"bottomLeftOption": {
+				"text": "Унізе|Злева"
+			},
+			"leftOption": {
+				"text": "налева"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Шматстаронкавы рэжым адлюстравання:"
+			},
+			"allImagesOption": {
+				"text": "Усе выявы"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Кірунак кампаноўкі:"
+			},
+			"horizontalOption": {
+				"text": "Гарызантальны"
+			},
+			"verticalOption": {
+				"text": "Вертыкальны"
+			},
+			"rowColumnCountLabel": {
+				"text": "Выявы ў радку/слупку:"
+			},
+			"imagePaddingLabel": {
+				"text": "Запаўненне малюнкаў:"
+			},
+			"appearancesLabel": {
+				"text": "З'яўленне"
+			},
+			"imageAppearanceLabel": {
+				"text": "Знешні выгляд малюнка"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Колер спінкі:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Колер мяжы:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Шырыня мяжы:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Сфакусаваны знешні выгляд малюнка"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Колер спінкі:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Колер мяжы:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Шырыня мяжы:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Выкарыстанне відарыса ў рэжыме адной старонкі"
+			},
+			"renderingSettingsLabel": {
+				"text": "Налады візуалізацыі"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Налады па змаўчанні"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Гарызантальнае дазвол:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Вертыкальнае дазвол:"
+			},
+			"smoothingModeLabel": {
+				"text": "Рэжым згладжвання:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Няма"
+			},
+			"interpolationModeLabel": {
+				"text": "Рэжым інтэрпаляцыі:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Іншыя налады"
+			},
+			"backgroundColorLabel": {
+				"text": "Колер фону аглядальніка:"
+			},
+			"centerImageLabel": {
+				"text": "Цэнтральная выява:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Час чакання змены памеру:"
+			},
+			"tileSizeLabel": {
+				"text": "Памер пліткі:"
+			},
+			"colorManagementLabel": {
+				"text": "Уключыць кіраванне колерам:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Выкарыстоўвайце вектарны рэндэрынг для дакументаў:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Колер фону вектарнага кантэнту:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
 				"value": "Адмяніць"
 			}
 		},
@@ -499,7 +663,7 @@
 				"text": "Празрысты"
 			},
 			"customOption": {
-				"text": "Прыстасаваныя"
+				"text": "Карыстацкі"
 			},
 			"borderColorLabel": {
 				"text": "Колер мяжы:"
@@ -523,149 +687,6 @@
 			"text": "Адкрыты"
 		},
 		"closeButton": {
-			"text": "Блізка"
-		}
-	},
-	"imageViewerSettingsDialog": {
-		"title": {
-			"text": "Налады прагляду малюнкаў"
-		},
-		"imageDisplayModeLabel": {
-			"text": "Рэжым адлюстравання выявы"
-		},
-		"imageAnchorLabel": {
-			"text": "Якар малюнка:"
-		},
-		"imageAnchorSelect": {
-			"value": "Няма",
-			"noneOption": {
-				"text": "Няма"
-			},
-			"topLeftOption": {
-				"text": "Зверху|Злева"
-			},
-			"topOption": {
-				"text": "Топ"
-			},
-			"topRightOption": {
-				"text": "Зверху|Справа"
-			},
-			"rightOption": {
-				"text": "правільна"
-			},
-			"bottomRightOption": {
-				"text": "Унізе|справа"
-			},
-			"bottomOption": {
-				"text": "Знізу"
-			},
-			"bottomLeftOption": {
-				"text": "Унізе|Злева"
-			},
-			"leftOption": {
-				"text": "налева"
-			}
-		},
-		"multipageDisplayModeLabel": {
-			"text": "Шматстаронкавы рэжым адлюстравання:"
-		},
-		"multipageDisplayModeSelect": {
-			"value": "FixedImages",
-			"allImagesOption": {
-				"text": "Усе выявы"
-			},
-			"fixedImagesOption": {
-				"text": "FixedImages"
-			}
-		},
-		"layoutDirectionLabel": {
-			"text": "Кірунак кампаноўкі:"
-		},
-		"multipageLayoutDirectionSelect": {
-			"value": "Вертыкальны",
-			"horizontalOption": {
-				"text": "Гарызантальны"
-			},
-			"verticalOption": {
-				"text": "Вертыкальны"
-			}
-		},
-		"rowColumnCountLabel": {
-			"text": "Выявы ў радку/слупку:"
-		},
-		"imagesPaddingLabel": {
-			"text": "Запаўненне малюнкаў:"
-		},
-		"appearancesLabel": {
-			"text": "З'яўленне"
-		},
-		"imageAppearanceLabel": {
-			"text": "Знешні выгляд малюнка"
-		},
-		"imageAppearanceBackColorLabel": {
-			"text": "Колер спінкі:"
-		},
-		"imageAppearanceBorderColorLabel": {
-			"text": "Колер мяжы:"
-		},
-		"imageAppearanceBorderWidthLabel": {
-			"text": "Шырыня мяжы:"
-		},
-		"focusedImageAppearanceLabel": {
-			"text": "Сфакусаваны знешні выгляд малюнка"
-		},
-		"useAppearanceInSinglePageModeLabel": {
-			"text": "Выкарыстанне відарыса ў рэжыме адной старонкі"
-		},
-		"renderingSettigsLabel": {
-			"text": "Налады візуалізацыі"
-		},
-		"defaultRenderingSettigsLabel": {
-			"text": "Налады па змаўчанні"
-		},
-		"horResLabel": {
-			"text": "Гарызантальнае дазвол:"
-		},
-		"vertResLabel": {
-			"text": "Вертыкальнае дазвол:"
-		},
-		"smoothingLabel": {
-			"text": "Рэжым згладжвання:"
-		},
-		"interpolationLabel": {
-			"text": "Рэжым інтэрпаляцыі:"
-		},
-		"drawNonMarkupAnnotationsLabel": {
-			"text": "Намалюйце анатацыю без разметкі"
-		},
-		"otherSettigsLabel": {
-			"text": "Іншыя налады"
-		},
-		"backgroundColorLabel": {
-			"text": "Колер фону аглядальніка:"
-		},
-		"centerImageLabel": {
-			"text": "Цэнтральная выява:"
-		},
-		"resizeTimeoutLabel": {
-			"text": "Час чакання змены памеру:"
-		},
-		"tileSizeLabel": {
-			"text": "Памер пліткі:"
-		},
-		"colorManagementLabel": {
-			"text": "Уключыць кіраванне колерам:"
-		},
-		"useVectorRendering": {
-			"text": "Выкарыстоўвайце вектарны рэндэрынг для дакументаў:"
-		},
-		"vectorContentBackgroundColorLabel": {
-			"text": "Колер фону вектарнага кантэнту:"
-		},
-		"okButton": {
-			"text": "OK"
-		},
-		"cancelButton": {
 			"text": "Блізка"
 		}
 	},
@@ -909,13 +930,15 @@
 	"strings": {
 		"vssde-annotationPanel-pageLabel": "старонка",
 		"vssde-annotationPanel-annotationPropertiesLabel": "Уласцівасці анатацыі",
+		"vssde-annotationListPanel-pageLabel": "старонка",
+		"vssde-annotationListPanel-annotationPropertiesLabel": "Уласцівасці анатацыі",
 		"vssde-textSearchPanel-pageLabel": "старонка",
 		"vssde-documentPasswordDialog-title": "Пароль дакумента",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Адмяніць",
 		"vssde-imageSelectionDialog-currentImageString": "Актуальны малюнак",
 		"vssde-imageSelectionDialog-allImagesString": "Усе выявы",
-		"vssde-imageSelectionDialog-customImagesString": "Прыстасаваныя",
+		"vssde-imageSelectionDialog-customImagesString": "Карыстацкі",
 		"vssde-imageSelectionDialog-title": "Выберыце выявы",
 		"vssde-printImagesDialog-withAnnotationsLabel": "з анатацыямі",
 		"vssde-printImagesDialog-imagePreparedToPrintString": "Выява падрыхтавана да друку",
@@ -924,6 +947,7 @@
 		"vssde-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
 		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут павароту павінен быць больш нуля.",
 		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Паварот малюнка з анатацыямі"
+		"vssde-rotateImageWithAnnotationsDialog-title": "Паварот малюнка з анатацыямі",
+		"vssde-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў"
 	}
 }
