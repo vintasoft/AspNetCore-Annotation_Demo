@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Vedeți o listă de fișiere descărcate anterior"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Încărcați și deschideți fișierul imagine după adresa URL"
+		},
 		"printImagesButton": {
 			"title": "Tipărește imagini"
 		},
 		"downloadFileButton": {
-			"title": "Descărcați fișierul imagine"
+			"title": "Descărcare fișier"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Exportați și descărcați fișierul"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Potrivire la lățime"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Rotiți imaginea în sens invers acelor de ceasornic"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Rotiți toate vizualizările în sens invers acelor de ceasornic"
 		},
 		"rotateAngleInput": {
 			"title": "Unghiul de rotație"
 		},
-		"rotateClockwiseButton": {
-			"title": "Rotiți imaginea în sensul acelor de ceasornic"
+		"rotateViewsClockwiseButton": {
+			"title": "Rotiți toate vizualizările în sensul acelor de ceasornic"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Setări pentru vizualizarea imaginilor"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Setări pentru vizualizatorul de miniaturi"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Adnotări, Navigare document, Selectare text"
 		},
 		"panToolButton": {
 			"title": "Pan"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Adnotări"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Evidențiați text"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Lista de comentarii pentru adnotări"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Căutați text"
+		"showFillAndSignPanelButton": {
+			"title": "Completați și semnați"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Modul de selectare a textului:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Fișierul certificatului:"
 			},
-			"rectangleOption": {
-				"text": "Dreptunghi"
+			"uploadCertificateFileButton": {
+				"title": "Încărcați fișierul certificat"
 			},
-			"fullLinesOption": {
-				"text": "Linii complete"
+			"certificatePasswordLabel": {
+				"text": "Parola certificatului:"
 			},
-			"selectionColorLabel": {
-				"text": "Culoarea textului selectat:"
+			"useTestCertificateLabel": {
+				"text": "Utilizați certificatul de testare"
 			},
-			"selectedTextLabel": {
-				"text": "Text selectat:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Găsiți:"
+			"serverLabel": {
+				"text": "Server:"
 			},
-			"whereLookLabel": {
-				"text": "Căutare pe:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Pagina curentă"
+			"passwordLabel": {
+				"text": "Parola:"
 			},
-			"allPagesOption": {
-				"text": "Toate paginile"
-			},
-			"wholeWordLabel": {
-				"text": "Căutați cuvântul întreg"
-			},
-			"caseSensitiveLabel": {
-				"text": "Se face distincție între majuscule și minuscule"
-			},
-			"startSearchButton": {
-				"value": "Începe căutarea"
-			},
-			"stopSearchButton": {
-				"value": "Opriți căutarea"
-			},
-			"textNotFoundLabel": {
-				"text": "Textul nu a fost găsit."
+			"fillAndSignButton": {
+				"value": "Completați și semnați"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Măriți"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"commentSubjectLabel": {
+				"text": "Subiect:"
+			},
+			"commentMessageLabel": {
+				"text": "Mesaj:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Utilizați starea comentariului"
+			},
+			"commentStatusLabel": {
+				"text": "Stare:"
+			},
+			"None": {
+				"text": "Nu"
+			},
+			"Accepted": {
+				"text": "Admis"
+			},
+			"Completed": {
+				"text": "Efectuat"
+			},
+			"Rejected": {
+				"text": "Respins"
+			},
+			"Cancelled": {
+				"text": "Anulat"
+			},
+			"showStateHistoryLabel": {
+				"text": "Afișați istoricul statului în răspunsuri"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Șterge"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Puncte de atingere mari (ecran tactil)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Copiați adnotarea"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Inserați adnotare"
-			},
-			"removeAnnotationLabel": {
-				"text": "Șterge adnotarea"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Trimite înapoi"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Aduceți în față"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Grupați toate adnotările"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Anuntarea adnotării"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Proprietățile adnotărilor..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "Mod de afișare cu mai multe pagini:"
 			},
 			"allImagesOption": {
-				"text": "Toate imaginile"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Imagini fixe"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Directia aspectului:"
@@ -565,16 +566,16 @@
 				"text": "Stil de plasare a miniaturii:"
 			},
 			"singleColumnOption": {
-				"text": "O singură coloană"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "O linie"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Număr fix de coloane"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Număr flotant de rânduri"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Număr de coloane:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Permite selecția mai multor miniaturi:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Poate trage miniaturi:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +655,7 @@
 				"text": "Tipul de culoare a chenarului:"
 			},
 			"autoDetectOption": {
-				"text": "Detectare automată"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Negru"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "Anulează"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Fișiere descărcate anterior"
 		},
-		"openButton": {
-			"text": "Deschideți fișierul"
-		},
-		"closeButton": {
-			"text": "Închidere"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Proprietăți de adnotare"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Setări de adnotare",
 			"Border": {
 				"text": "Delimitare:"
 			},
 			"CanMirror": {
-				"text": "Puteți oglindi:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Se poate muta:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Poate fi redimensionat:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Poate fi rotit:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Autor:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Timp de creare:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Completați:"
@@ -732,7 +721,7 @@
 				"text": "Aldin:"
 			},
 			"FamilyName": {
-				"text": "Nume de familie:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Italică:"
@@ -753,25 +742,25 @@
 				"text": "+ Penie de font:"
 			},
 			"FontTransparent": {
-				"text": "Font transparent:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "Răsturnat orizontal:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Adnotarea este construită:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Adnotarea este vizibilă:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Stil de linie:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Dimensiunea șablonului stilului de linie:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Locație:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Modificat de:"
-			},
-			"ModifiedTime": {
-				"text": "Ora schimbare:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Nume:"
@@ -795,10 +781,10 @@
 				"text": "+ Schemă:"
 			},
 			"DashPattern": {
-				"text": "Model de liniuță:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Stil liniuță:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Cap la sfârșitul rândului:"
@@ -816,7 +802,7 @@
 				"text": "Stil:"
 			},
 			"LineJoin": {
-				"text": "Conexiune de linie:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
 				"text": "MiterLimit:"
@@ -831,16 +817,16 @@
 				"text": "+ Redimensionați șablonul punct:"
 			},
 			"BorderColor": {
-				"text": "Culoarea chenarului:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Lățimea chenarului:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Culoarea umplerii:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Raza zonei de interacțiune:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Raza:"
@@ -858,7 +844,7 @@
 				"text": "+ Punct pivot:"
 			},
 			"RotationPointDistance": {
-				"text": "Distanța până la punctul de pivotare:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Pensula pentru umbre:"
@@ -873,25 +859,25 @@
 				"text": "Text:"
 			},
 			"TextAlign": {
-				"text": "Alinierea textului:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Câmp text:"
 			},
 			"FontColor": {
-				"text": "Culoarea fontului:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Familie de fonturi:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Dimensiunea fontului:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Înălțimea câmpului de text:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Lățimea câmpului de text:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Indentare text:"
@@ -909,14 +895,25 @@
 				"text": "De jos:"
 			},
 			"ToolTip": {
-				"text": "Sugestie:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Oglindire verticală:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Fișiere descărcate anterior"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Deschideți fișierul"
+		},
+		"closeButton": {
+			"text": "Închidere"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Pagină",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Proprietăți de adnotare",
-		"vssde-annotationListPanel-pageLabel": "Pagină",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Proprietăți de adnotare",
-		"vssde-textSearchPanel-pageLabel": "Pagină",
-		"vssde-documentPasswordDialog-title": "Parola documentului",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Anulează",
-		"vssde-imageSelectionDialog-currentImageString": "Imaginea curentă",
-		"vssde-imageSelectionDialog-allImagesString": "Toate imaginile",
-		"vssde-imageSelectionDialog-customImagesString": "Personalizat",
-		"vssde-imageSelectionDialog-title": "Selectați imagini",
-		"vssde-printImagesDialog-withAnnotationsLabel": "cu adnotări",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Imaginea este în curs de pregătire pentru imprimare",
-		"vssde-printImagesDialog-title": "Tipărește imagini",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
-		"vssde-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Unghiul de rotație nu trebuie să fie 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Imaginea adnotată este rotită",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Rotire imaginea adnotată",
-		"vssde-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor"
+		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
+		"vsdv-openFile-addFileString": "Adauga fisier",
+		"vsdv-openFile-authenticateFileString": "Autentificați fișierul",
+		"vsdv-downloadFile-actionMessage": "Descărcare fișier",
+		"vsdv-saveChanges-saveChangesInImages": "Salvați modificările în imagini",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ardeți adnotări",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salvați adnotările",
+		"vsdv-annotationListPanel-pageLabel": "Pagină",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Proprietăți de adnotare",
+		"vsdv-annotationCommentSettingsDialog-title": "Editați comentariul de adnotare",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-deleteButton": "Șterge",
+		"vsdv-dialog-cancelButton": "Anulează",
+		"vsdv-documentPasswordDialog-title": "Parola documentului",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
+		"vsdv-imageSelectionDialog-title": "Selectați imagini",
+		"vsdv-imageSelectionDialog-currentImageString": "Imaginea curentă",
+		"vsdv-imageSelectionDialog-allImagesString": "Toate imaginile",
+		"vsdv-imageSelectionDialog-customImagesString": "Personalizat",
+		"vsdv-printImagesDialog-title": "Tipărește imagini",
+		"vsdv-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
+		"vsdv-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
+		"vsdv-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotire imaginea adnotată",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Unghiul de rotație nu trebuie să fie 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Imaginea adnotată este rotită"
 	}
 }

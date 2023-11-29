@@ -2,29 +2,29 @@
 
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
-		<Version>12.2.12.1</Version>
+		<Version>12.3.0.1</Version>
 		<EnableDefaultItems>false</EnableDefaultItems>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.0" />
-		<PackageReference Include="SkiaSharp" Version="2.88.5" />
+		<PackageReference Include="SkiaSharp" Version="2.88.6" />
 	</ItemGroup>
 
 	<ItemGroup>
-    <PackageReference Include="Vintasoft.Shared" Version="4.0.0.3" />
-    <PackageReference Include="Vintasoft.Imaging" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.Pdf" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="8.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Shared.Web" Version="4.0.0.3" />
-    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.Web.Services" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.AspNetCore.ApiControllers" Version="12.2.7.1" />
+    <PackageReference Include="Vintasoft.Shared" Version="4.1.0.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.Pdf" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="8.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Shared.Web" Version="4.1.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.Web.Services" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.AspNetCore.ApiControllers" Version="12.3.0.1" />
 	</ItemGroup>
 <ItemGroup>
   <Compile Include="Controllers\API\Annotations\CustomAnnotations\AnnotationsMath.cs" />
@@ -35,7 +35,9 @@
   <Compile Include="Controllers\API\Annotations\CustomAnnotations\MarkAnnotation\MarkAnnotationType.cs" />
   <Compile Include="Controllers\API\Annotations\CustomAnnotations\TriangleAnnotation\TriangleAnnotationData.cs" />
   <Compile Include="Controllers\API\Annotations\MyVintasoftAnnotationCollectionApiController.cs" />
-  <Compile Include="Controllers\API\File\MyVintasoftAnnotatedFileApiController.cs" />
+  <Compile Include="Controllers\API\Annotations\RequestParams\FillAndSignRequestParams.cs" />
+  <Compile Include="Controllers\API\Annotations\ResponseParams\FillAndSignResponseParams.cs" />
+  <Compile Include="Controllers\API\File\MyVintasoftFileApiController.cs" />
   <Compile Include="Controllers\API\File\UploadedFilesListResponseParams.cs" />
   <Compile Include="Controllers\API\ImageCollection\MyVintasoftImageCollectionApiController.cs" />
   <Compile Include="Controllers\API\ImageRendering\MyVintasoftImageApiController.cs" />
@@ -51,10 +53,6 @@
   <Content Include="wwwroot\favicon.ico" />
   <Content Include="wwwroot\Images\fileUploadProgress.gif" />
   <Content Include="wwwroot\Images\VintaSoftLogo.png" />
-  <Content Include="wwwroot\lib\bootstrap-colorpicker\bootstrap-colorpicker.css" />
-  <Content Include="wwwroot\lib\bootstrap-colorpicker\bootstrap-colorpicker.min.css" />
-  <Content Include="wwwroot\lib\bootstrap-multiselect\bootstrap-multiselect.css" />
-  <Content Include="wwwroot\lib\bootstrap-multiselect\bootstrap-multiselect.min.css" />
   <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
   <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
   <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
@@ -76,6 +74,7 @@
   <Content Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.DocumentViewer.css" />
   <Content Include="wwwroot\locales\af.txt" />
   <Content Include="wwwroot\locales\ar.txt" />
+  <Content Include="wwwroot\locales\az.txt" />
   <Content Include="wwwroot\locales\be.txt" />
   <Content Include="wwwroot\locales\bg.txt" />
   <Content Include="wwwroot\locales\cs.txt" />
@@ -84,15 +83,22 @@
   <Content Include="wwwroot\locales\el.txt" />
   <Content Include="wwwroot\locales\en.txt" />
   <Content Include="wwwroot\locales\es.txt" />
+  <Content Include="wwwroot\locales\et.txt" />
   <Content Include="wwwroot\locales\fi.txt" />
   <Content Include="wwwroot\locales\fr.txt" />
   <Content Include="wwwroot\locales\he.txt" />
   <Content Include="wwwroot\locales\hi.txt" />
   <Content Include="wwwroot\locales\hr.txt" />
   <Content Include="wwwroot\locales\hu.txt" />
+  <Content Include="wwwroot\locales\hy.txt" />
   <Content Include="wwwroot\locales\it.txt" />
   <Content Include="wwwroot\locales\ja.txt" />
+  <Content Include="wwwroot\locales\ka.txt" />
+  <Content Include="wwwroot\locales\kk.txt" />
   <Content Include="wwwroot\locales\ko.txt" />
+  <Content Include="wwwroot\locales\ky.txt" />
+  <Content Include="wwwroot\locales\lt.txt" />
+  <Content Include="wwwroot\locales\lv.txt" />
   <Content Include="wwwroot\locales\nb.txt" />
   <Content Include="wwwroot\locales\nl.txt" />
   <Content Include="wwwroot\locales\pt.txt" />
@@ -103,7 +109,12 @@
   <Content Include="wwwroot\locales\sl.txt" />
   <Content Include="wwwroot\locales\sv.txt" />
   <Content Include="wwwroot\locales\sw.txt" />
+  <Content Include="wwwroot\locales\tg.txt" />
+  <Content Include="wwwroot\locales\tk.txt" />
   <Content Include="wwwroot\locales\tr.txt" />
+  <Content Include="wwwroot\locales\tt.txt" />
+  <Content Include="wwwroot\locales\uk.txt" />
+  <Content Include="wwwroot\locales\uz.txt" />
   <Content Include="wwwroot\locales\vi.txt" />
   <Content Include="wwwroot\locales\zh.txt" />
   <Content Include="wwwroot\locales\zu.txt" />
@@ -115,24 +126,13 @@
   <Content Include="Views\Shared\UI\Dialogs\BlockUiDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\ErrorMessageDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\PreviouslyUploadedFilesDialog.cshtml" />
-  <Content Include="Views\Shared\UI\Dialogs\AnnotationSettingsDialog.cshtml" />
-  <None Include="wwwroot\Content\Cursors\CloseHand.cur" />
-  <None Include="wwwroot\Content\Cursors\Magnifier.cur" />
-  <None Include="wwwroot\Content\Cursors\Rotate.cur" />
-  <None Include="wwwroot\Content\Cursors\Zoom.cur" />
   <None Include="wwwroot\js\AnnotationDemo.js" />
   <None Include="wwwroot\js\AnnotationUiHelper.js" />
+  <None Include="wwwroot\js\UI\Panels\FillAndSignPanel.js" />
   <None Include="wwwroot\js\OpenFileHelper.js" />
-  <None Include="wwwroot\js\SaveAnnotationsAndDownloadFileHelper.js" />
-  <None Include="wwwroot\js\UI\Controls\PropertyGridControl.Bootstrap.js" />
-  <None Include="wwwroot\js\UI\Dialogs\AnnotationSettingsDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\BlockUiDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\ErrorMessageDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\PreviouslyUploadedFilesDialog.js" />
-  <None Include="wwwroot\lib\bootstrap-colorpicker\bootstrap-colorpicker.js" />
-  <None Include="wwwroot\lib\bootstrap-colorpicker\bootstrap-colorpicker.min.js" />
-  <None Include="wwwroot\lib\bootstrap-multiselect\bootstrap-multiselect.js" />
-  <None Include="wwwroot\lib\bootstrap-multiselect\bootstrap-multiselect.min.js" />
   <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
   <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
   <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />

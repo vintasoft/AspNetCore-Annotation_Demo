@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Visa en lista över tidigare nedladdade filer"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Ladda upp och öppna bildfilen via URL"
+		},
 		"printImagesButton": {
 			"title": "Skriv ut bilder"
 		},
 		"downloadFileButton": {
-			"title": "Ladda ner bildfil"
+			"title": "Nedladdning fil"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Exportera och ladda ner fil"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Anpassa till bredd"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Rotera bilden moturs"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Rotera alla vyer moturs"
 		},
 		"rotateAngleInput": {
 			"title": "Rotationsvinkel"
 		},
-		"rotateClockwiseButton": {
-			"title": "Rotera bilden medurs"
+		"rotateViewsClockwiseButton": {
+			"title": "Rotera alla vyer medurs"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Inställningar för bildvisning"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Inställningar för miniatyrvisning"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anteckningar, dokumentnavigering, textval"
 		},
 		"panToolButton": {
 			"title": "Panera"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Anteckningar"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Markera text"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Anteckningskommentarlista"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Sök efter text"
+		"showFillAndSignPanelButton": {
+			"title": "Fyll och signera"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Textvalsläge:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Certifikatfil:"
 			},
-			"rectangleOption": {
-				"text": "Rektangel"
+			"uploadCertificateFileButton": {
+				"title": "Ladda upp certifikatfil"
 			},
-			"fullLinesOption": {
-				"text": "Fullständiga rader"
+			"certificatePasswordLabel": {
+				"text": "Certifikatlösenord:"
 			},
-			"selectionColorLabel": {
-				"text": "Färg på vald text:"
+			"useTestCertificateLabel": {
+				"text": "Använd testcertifikat"
 			},
-			"selectedTextLabel": {
-				"text": "Vald text:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Sök:"
+			"serverLabel": {
+				"text": "Server:"
 			},
-			"whereLookLabel": {
-				"text": "Sök på:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Aktuell sida"
+			"passwordLabel": {
+				"text": "Lösenord:"
 			},
-			"allPagesOption": {
-				"text": "Alla sidor"
-			},
-			"wholeWordLabel": {
-				"text": "Sök hela ordet"
-			},
-			"caseSensitiveLabel": {
-				"text": " Skiftlägeskänslig"
-			},
-			"startSearchButton": {
-				"value": "Starta sökning"
-			},
-			"stopSearchButton": {
-				"value": "Sluta söka"
-			},
-			"textNotFoundLabel": {
-				"text": "Texten hittades inte."
+			"fillAndSignButton": {
+				"value": "Fyll och signera"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Zooma in"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Författare:"
+			},
+			"commentSubjectLabel": {
+				"text": "Ämne:"
+			},
+			"commentMessageLabel": {
+				"text": "Meddelande:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Använd kommentarsstatus"
+			},
+			"commentStatusLabel": {
+				"text": "Status:"
+			},
+			"None": {
+				"text": "Nej"
+			},
+			"Accepted": {
+				"text": "Accepterad"
+			},
+			"Completed": {
+				"text": "Avslutad"
+			},
+			"Rejected": {
+				"text": "avvisade"
+			},
+			"Cancelled": {
+				"text": "Inställt"
+			},
+			"showStateHistoryLabel": {
+				"text": "Visa State History i svar"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Ta bort"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Stora pekpunkter (pekskärm)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Kopiera anteckning"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Infoga anteckning"
-			},
-			"removeAnnotationLabel": {
-				"text": "Ta bort anteckning"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Skicka till baksidan"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Ta fram"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Gruppera alla kommentarer"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Avgruppera anteckning"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Anteckningsegenskaper..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "Visningsläge för flera sidor:"
 			},
 			"allImagesOption": {
-				"text": "Alla bilder"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Fixade bilder"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Layoutriktning:"
@@ -565,16 +566,16 @@
 				"text": "Miniatyrplaceringsstil:"
 			},
 			"singleColumnOption": {
-				"text": "En kolumn"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "En rad"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Fast antal kolumner"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Flytande antal rader"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Antal kolumner:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Tillåt val av flera miniatyrer:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Kan dra miniatyrer:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +655,7 @@
 				"text": "Kantfärgstyp:"
 			},
 			"autoDetectOption": {
-				"text": "Automatisk upptäckt"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Svart"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "Avbryt"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Tidigare nedladdade filer"
 		},
-		"openButton": {
-			"text": "Öppna fil"
-		},
-		"closeButton": {
-			"text": "Stäng"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Anteckningsegenskaper"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Anteckningsinställningar",
 			"Border": {
 				"text": "Gräns:"
 			},
 			"CanMirror": {
-				"text": "Du kan spegla:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Kan flytta:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Kan ändras storlek:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Kan roteras:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Författare:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Skapningstid:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Fyll:"
@@ -732,7 +721,7 @@
 				"text": "Fet:"
 			},
 			"FamilyName": {
-				"text": "Familjenamn:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Kursiv:"
@@ -753,25 +742,25 @@
 				"text": "+ Teckensnittspensel:"
 			},
 			"FontTransparent": {
-				"text": "Transparent teckensnitt:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "Vänds horisontellt:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Anteckning är byggd:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Anteckning är synlig:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Linjestil:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Linjeformatmallstorlek:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Plats:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Ändrad av:"
-			},
-			"ModifiedTime": {
-				"text": "Ändringstid:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Namn:"
@@ -795,10 +781,10 @@
 				"text": "+ Schema:"
 			},
 			"DashPattern": {
-				"text": "Streckmönster:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Beststreckstil:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Cap i slutet av raden:"
@@ -816,10 +802,10 @@
 				"text": "Stil:"
 			},
 			"LineJoin": {
-				"text": "Linjeanslutning:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "MitreLimit:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ Tak vid början av raden:"
@@ -831,16 +817,16 @@
 				"text": "+ Ändra storlek på punktmall:"
 			},
 			"BorderColor": {
-				"text": "Kantfärg:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Kantbredd:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Fyllfärg:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Interaktionsområdesradie:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Radie:"
@@ -858,7 +844,7 @@
 				"text": "+ Pivotpunkt:"
 			},
 			"RotationPointDistance": {
-				"text": "Avstånd till pivotpunkt:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Skuggborste:"
@@ -873,25 +859,25 @@
 				"text": "Text:"
 			},
 			"TextAlign": {
-				"text": "Textjustering:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Textfält:"
 			},
 			"FontColor": {
-				"text": "Teckensnittsfärg:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Teckensnittsfamilj:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Teckenstorlek:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Textfältets höjd:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Textfältets bredd:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Textindrag:"
@@ -909,14 +895,25 @@
 				"text": "Under:"
 			},
 			"ToolTip": {
-				"text": "Tips:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Vertikal spegling:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Tidigare nedladdade filer"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Öppna fil"
+		},
+		"closeButton": {
+			"text": "Stäng"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Sida",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Anteckningsegenskaper",
-		"vssde-annotationListPanel-pageLabel": "Sida",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Anteckningsegenskaper",
-		"vssde-textSearchPanel-pageLabel": "Sida",
-		"vssde-documentPasswordDialog-title": "Dokumentlösenord",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Avbryt",
-		"vssde-imageSelectionDialog-currentImageString": "Aktuell bild",
-		"vssde-imageSelectionDialog-allImagesString": "Alla bilder",
-		"vssde-imageSelectionDialog-customImagesString": "Anpassad",
-		"vssde-imageSelectionDialog-title": "Välj bilder",
-		"vssde-printImagesDialog-withAnnotationsLabel": "med kommentarer",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Bilden förbereds för utskrift",
-		"vssde-printImagesDialog-title": "Skriv ut bilder",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
-		"vssde-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinkeln får inte vara 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Rotera kommenterad bild",
-		"vssde-imageViewerSettingsDialog-title": "Inställningar för bildvisning"
+		"vsdv-uploadFileButton-uploadFileString": "Ladda upp fil",
+		"vsdv-openFile-addFileString": "Lägg till fil",
+		"vsdv-openFile-authenticateFileString": "Autentisera fil",
+		"vsdv-downloadFile-actionMessage": "Nedladdning fil",
+		"vsdv-saveChanges-saveChangesInImages": "Spara ändringar i bilder",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Spara ändringar i kommentarer",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Bränn kommentarer på bilder",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Spara ändringar i PDF-dokument",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Bränn anteckningar",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Spara kommentarer",
+		"vsdv-annotationListPanel-pageLabel": "Sida",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Anteckningsegenskaper",
+		"vsdv-annotationCommentSettingsDialog-title": "Redigera kommentarkommentaren",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-deleteButton": "Ta bort",
+		"vsdv-dialog-cancelButton": "Avbryt",
+		"vsdv-documentPasswordDialog-title": "Dokumentlösenord",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Autentisera fil",
+		"vsdv-imageSelectionDialog-title": "Välj bilder",
+		"vsdv-imageSelectionDialog-currentImageString": "Aktuell bild",
+		"vsdv-imageSelectionDialog-allImagesString": "Alla bilder",
+		"vsdv-imageSelectionDialog-customImagesString": "Anpassad",
+		"vsdv-printImagesDialog-title": "Skriv ut bilder",
+		"vsdv-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
+		"vsdv-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
+		"vsdv-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotera kommenterad bild",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinkeln får inte vara 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras"
 	}
 }

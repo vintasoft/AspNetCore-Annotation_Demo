@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "以前にダウンロードしたファイルのリストを表示する"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "URLで画像ファイルをアップロードして開く"
+		},
 		"printImagesButton": {
 			"title": "画像を印刷"
 		},
 		"downloadFileButton": {
-			"title": "画像ファイルのダウンロード"
+			"title": "ダウンロードファイル"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "ファイルのエクスポートとダウンロード"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "幅に合わせる"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "画像を反時計回りに回転します"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "すべてのビューを反時計回りに回転します"
 		},
 		"rotateAngleInput": {
 			"title": "回転角度"
 		},
-		"rotateClockwiseButton": {
-			"title": "画像を時計回りに回転します"
+		"rotateViewsClockwiseButton": {
+			"title": "すべてのビューを時計回りに回転します"
 		},
 		"imageViewerSettingsButton": {
 			"title": "画像ビューアの設定"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "サムネイル ビューアの設定"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "注釈、ドキュメント ナビゲーション、テキスト選択"
 		},
 		"panToolButton": {
 			"title": "パン"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "注釈"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "テキストを強調表示"
+		"showAnnotationCommentListPanelButton": {
+			"title": "注釈コメント一覧"
 		},
-		"showTextSearchPanelButton": {
-			"title": "テキストを検索"
+		"showFillAndSignPanelButton": {
+			"title": "記入して署名する"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "テキスト選択モード:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "証明書ファイル:"
 			},
-			"rectangleOption": {
-				"text": "長方形"
+			"uploadCertificateFileButton": {
+				"title": "証明書ファイルのアップロード"
 			},
-			"fullLinesOption": {
-				"text": "全行"
+			"certificatePasswordLabel": {
+				"text": "証明書のパスワード:"
 			},
-			"selectionColorLabel": {
-				"text": "選択したテキストの色:"
+			"useTestCertificateLabel": {
+				"text": "テスト証明書を使用する"
 			},
-			"selectedTextLabel": {
-				"text": "選択されたテキスト:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "検索:"
+			"serverLabel": {
+				"text": "サーバ："
 			},
-			"whereLookLabel": {
-				"text": "検索:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "現在のページ"
+			"passwordLabel": {
+				"text": "パスワード:"
 			},
-			"allPagesOption": {
-				"text": "すべてのページ"
-			},
-			"wholeWordLabel": {
-				"text": "単語全体を検索"
-			},
-			"caseSensitiveLabel": {
-				"text": "大文字と小文字を区別します"
-			},
-			"startSearchButton": {
-				"value": "検索を開始"
-			},
-			"stopSearchButton": {
-				"value": "検索を停止"
-			},
-			"textNotFoundLabel": {
-				"text": "テキストが見つかりません。"
+			"fillAndSignButton": {
+				"value": "記入して署名する"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "ズームイン"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "著者："
+			},
+			"commentSubjectLabel": {
+				"text": "主題："
+			},
+			"commentMessageLabel": {
+				"text": "メッセージ："
+			},
+			"useCommentStatusLabel": {
+				"text": "コメントステータスを使用する"
+			},
+			"commentStatusLabel": {
+				"text": "状態："
+			},
+			"None": {
+				"text": "いいえ"
+			},
+			"Accepted": {
+				"text": "承認されました"
+			},
+			"Completed": {
+				"text": "完了"
+			},
+			"Rejected": {
+				"text": "拒否されました"
+			},
+			"Cancelled": {
+				"text": "キャンセル"
+			},
+			"showStateHistoryLabel": {
+				"text": "返信に状態履歴を表示する"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "削除"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "通常"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "大きなタッチポイント (タッチスクリーン)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "注釈をコピー"
-			},
-			"pasteAnnotationLabel": {
-				"text": "注釈を挿入"
-			},
-			"removeAnnotationLabel": {
-				"text": "注釈を削除"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "最後へ移動"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "前面に移動"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "すべての注釈をグループ化"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "注釈のグループ化を解除"
-			},
-			"annotationPropertiesLabel": {
-				"text": "注釈のプロパティ..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "複数ページ表示モード:"
 			},
 			"allImagesOption": {
-				"text": "すべての画像"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "固定イメージ"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "レイアウト方向:"
@@ -565,16 +566,16 @@
 				"text": "サムネイルの配置スタイル:"
 			},
 			"singleColumnOption": {
-				"text": "単一列"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "1 行"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "固定列数"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "浮動行数"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "列数:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "複数のサムネイルの選択を許可します:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "サムネイルをドラッグできます:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +655,7 @@
 				"text": "境界線の色のタイプ:"
 			},
 			"autoDetectOption": {
-				"text": "自動検出"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "黒"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "キャンセル"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "以前にダウンロードしたファイル"
 		},
-		"openButton": {
-			"text": "ファイルを開く"
-		},
-		"closeButton": {
-			"text": "閉じる"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "注釈のプロパティ"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "注釈設定",
 			"Border": {
 				"text": "境界:"
 			},
 			"CanMirror": {
-				"text": "ミラーリングできます:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "移動可能:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "サイズ変更可能:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "回転可能:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "著者:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "作成時間:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ 入力:"
@@ -732,7 +721,7 @@
 				"text": "太字:"
 			},
 			"FamilyName": {
-				"text": "姓:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "斜体:"
@@ -753,25 +742,25 @@
 				"text": "+ フォント ブラシ:"
 			},
 			"FontTransparent": {
-				"text": "透明フォント:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "水平方向に反転:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "注釈が構築されました:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "注釈が表示されます:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "線のスタイル:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "線種テンプレートのサイズ:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ 場所:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "変更者:"
-			},
-			"ModifiedTime": {
-				"text": "変更時間:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "名前:"
@@ -795,10 +781,10 @@
 				"text": "+ スキーム:"
 			},
 			"DashPattern": {
-				"text": "破線パターン:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "ダッシュスタイル:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ 行末のキャップ:"
@@ -816,10 +802,10 @@
 				"text": "スタイル:"
 			},
 			"LineJoin": {
-				"text": "回線接続:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "マイター制限:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ 行頭の上限:"
@@ -831,16 +817,16 @@
 				"text": "+ ポイント テンプレートのサイズ変更:"
 			},
 			"BorderColor": {
-				"text": "境界線の色:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "境界線の幅:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "塗りつぶしの色:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "インタラクションエリアの半径:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "半径:"
@@ -858,7 +844,7 @@
 				"text": "+ ピボット ポイント:"
 			},
 			"RotationPointDistance": {
-				"text": "ピボットポイントまでの距離:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ シャドウ ブラシ:"
@@ -873,25 +859,25 @@
 				"text": "テキスト:"
 			},
 			"TextAlign": {
-				"text": "テキストの配置:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ テキストフィールド:"
 			},
 			"FontColor": {
-				"text": "フォントの色:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "フォント ファミリ:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "フォント サイズ:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "テキストフィールドの高さ:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "テキストフィールドの幅:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ テキストのインデント:"
@@ -909,14 +895,25 @@
 				"text": "下:"
 			},
 			"ToolTip": {
-				"text": "ヒント:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "垂直ミラーリング:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "以前にダウンロードしたファイル"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "ファイルを開く"
+		},
+		"closeButton": {
+			"text": "閉じる"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "ページ",
-		"vssde-annotationPanel-annotationPropertiesLabel": "注釈のプロパティ",
-		"vssde-annotationListPanel-pageLabel": "ページ",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "注釈のプロパティ",
-		"vssde-textSearchPanel-pageLabel": "ページ",
-		"vssde-documentPasswordDialog-title": "文書のパスワード",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "キャンセル",
-		"vssde-imageSelectionDialog-currentImageString": "現在の画像",
-		"vssde-imageSelectionDialog-allImagesString": "すべての画像",
-		"vssde-imageSelectionDialog-customImagesString": "カスタム",
-		"vssde-imageSelectionDialog-title": "画像を選択",
-		"vssde-printImagesDialog-withAnnotationsLabel": "注釈あり",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "画像は印刷の準備中です",
-		"vssde-printImagesDialog-title": "画像を印刷",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
-		"vssde-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "回転角度は 0 であってはなりません。",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注釈付き画像は回転中です",
-		"vssde-rotateImageWithAnnotationsDialog-title": "注釈付き画像を回転",
-		"vssde-imageViewerSettingsDialog-title": "画像ビューアの設定"
+		"vsdv-uploadFileButton-uploadFileString": "ファイルをアップロードする",
+		"vsdv-openFile-addFileString": "ファイルを追加",
+		"vsdv-openFile-authenticateFileString": "ファイルを認証する",
+		"vsdv-downloadFile-actionMessage": "ダウンロードファイル",
+		"vsdv-saveChanges-saveChangesInImages": "画像の変更を保存する",
+		"vsdv-saveChanges-saveChangesInAnnotations": "注釈の変更を保存する",
+		"vsdv-saveChanges-burnAnnotationsInImages": "画像に注釈を書き込む",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "注釈を書き込む",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "注釈の保存",
+		"vsdv-annotationListPanel-pageLabel": "ページ",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "注釈のプロパティ",
+		"vsdv-annotationCommentSettingsDialog-title": "注釈のコメントを編集する",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-deleteButton": "削除",
+		"vsdv-dialog-cancelButton": "キャンセル",
+		"vsdv-documentPasswordDialog-title": "文書のパスワード",
+		"vsdv-documentPasswordPanel-authenticateFileString": "ファイルを認証する",
+		"vsdv-imageSelectionDialog-title": "画像を選択",
+		"vsdv-imageSelectionDialog-currentImageString": "現在の画像",
+		"vsdv-imageSelectionDialog-allImagesString": "すべての画像",
+		"vsdv-imageSelectionDialog-customImagesString": "カスタム",
+		"vsdv-printImagesDialog-title": "画像を印刷",
+		"vsdv-printImagesPanel-imagePrintingString": "画像を印刷中です",
+		"vsdv-imageViewerSettingsDialog-title": "画像ビューアの設定",
+		"vsdv-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "注釈付き画像を回転",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "回転角度は 0 であってはなりません。",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注釈付き画像は回転中です"
 	}
 }

@@ -1,0 +1,959 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Fails"
+		},
+		"viewLabel": {
+			"text": "Skatīt"
+		},
+		"toolsLabel": {
+			"text": "Rīki"
+		},
+		"annotationsLabel": {
+			"text": "Anotācijas"
+		},
+		"uploadFileButton": {
+			"title": "Augšupielādējiet un atveriet failu"
+		},
+		"previousUploadFilesButton": {
+			"title": "Iepriekš augšupielādētie faili"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Augšupielādējiet un atveriet attēla failu pēc URL"
+		},
+		"printImagesButton": {
+			"title": "Drukāt attēlus"
+		},
+		"downloadFileButton": {
+			"title": "Lejupielādēt failu"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Eksportēt un lejupielādēt failu"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Piemērots platumam"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Pagrieziet visus skatus pretēji pulksteņrādītāja virzienam"
+		},
+		"rotateAngleInput": {
+			"title": "Leņķis"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Pagriezt visus skatus pulksteņrādītāja virzienā"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Attēlu skatītāja iestatījumi"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Sīktēlu skatītāja iestatījumi"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"magnifierToolButton": {
+			"title": "Lupa"
+		},
+		"zoomToolButton": {
+			"title": "Tālummaiņa"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Tālummaiņas izvēle"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Taisnstūris"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Elipse"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Izcelt"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Atsauces attēls"
+		},
+		"addTextAnnotationButton": {
+			"title": "Teksts"
+		},
+		"addStampAnnotationButton": {
+			"title": "Zīmogs"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Saite"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Bultiņa"
+		},
+		"addLineAnnotationButton": {
+			"title": "Līnija"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Līnijas"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Daudzstūris"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Lineāls"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Trīsstūris"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Mijiedarbības režīms "Autors""
+		},
+		"copyAnnotationButton": {
+			"title": "Kopēt fokusēto anotāciju"
+		},
+		"pasteAnnotationButton": {
+			"title": "Ielīmēt nokopēto anotāciju"
+		},
+		"removeAnnotationButton": {
+			"title": "Noņemiet fokusēto anotāciju"
+		},
+		"burnAnnotationsButton": {
+			"title": "Ierakstīt anotāciju kolekciju uz attēla"
+		},
+		"saveAnnotationsButton": {
+			"title": "Saglabājiet anotāciju kolekcijas izmaiņas serverī"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Pagriezt attēlu ar anotācijām"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Iespējot atsaukšanu/atcelšanu"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Atsaukt"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Atkārtoti"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Vidēji mijiedarbības punkti"
+		},
+		"showMobileMenuButton": {
+			"title": "Vairāk"
+		},
+		"sidePanelCloseButton": {
+			"title": "Rādīt sānu paneli"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Sīktēli"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Anotācijas"
+		},
+		"showAnnotationCommentListPanelButton": {
+			"title": "Anotācijas komentāru saraksts"
+		},
+		"showFillAndSignPanelButton": {
+			"title": "Aizpildiet un parakstiet"
+		},
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Sertifikāta fails:"
+			},
+			"uploadCertificateFileButton": {
+				"title": "Augšupielādējiet sertifikāta failu"
+			},
+			"certificatePasswordLabel": {
+				"text": "Sertifikāta parole:"
+			},
+			"useTestCertificateLabel": {
+				"text": "Izmantojiet testa sertifikātu"
+			},
+			"serverLabel": {
+				"text": "Serveris:"
+			},
+			"loginLabel": {
+				"text": "Login:"
+			},
+			"passwordLabel": {
+				"text": "Parole:"
+			},
+			"fillAndSignButton": {
+				"value": "Aizpildiet un parakstiet"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Dodieties uz pirmo attēlu"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Pāriet uz iepriekšējo attēlu"
+		},
+		"gotoPageInput": {
+			"title": "Lappuse"
+		},
+		"gotoNextPageButton": {
+			"title": "Pārejiet uz nākamo attēlu"
+		},
+		"gotoLastPageButton": {
+			"title": "Pāriet uz pēdējo attēlu"
+		},
+		"zoomOutButton": {
+			"title": "Attālināt"
+		},
+		"zoomValueInput": {
+			"title": "Tālummaiņa"
+		},
+		"zoomInButton": {
+			"title": "Pietuvināt"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Autors:"
+			},
+			"commentSubjectLabel": {
+				"text": "Temats:"
+			},
+			"commentMessageLabel": {
+				"text": "Ziņa:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Izmantojiet komentāra statusu"
+			},
+			"commentStatusLabel": {
+				"text": "Statuss:"
+			},
+			"None": {
+				"text": "Nav"
+			},
+			"Accepted": {
+				"text": "Pieņemts"
+			},
+			"Completed": {
+				"text": "Pabeigts"
+			},
+			"Rejected": {
+				"text": "Noraidīts"
+			},
+			"Cancelled": {
+				"text": "Atcelts"
+			},
+			"showStateHistoryLabel": {
+				"text": "Rādīt atbildēs valsts vēsturi"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"deleteButton": {
+				"value": "Dzēst"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"normalSizeModeButton": {
+			"title": "Normāls"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Vislabāk piemērots"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Piemērots augumam"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "No pikseļa līdz pikselim"
+		},
+		"zoomSizeModeButton": {
+			"title": "Tālummaiņa"
+		},
+		"addArcAnnotationButton": {
+			"title": "Arc"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Līmlapiņa"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Brīvais teksts"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Dubultā bultiņa"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Līnijas ar interpolāciju"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Brīvrokas līnijas"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Daudzstūris ar interpolāciju"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Brīvrokas daudzstūris"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Mākoņu daudzstūris"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Valdnieki"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Leņķis"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Atzīmēt"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Mijiedarbības režīms “Nav”"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Mijiedarbības režīms "Skatīt""
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Mazie mijiedarbības punkti"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Lieli mijiedarbības punkti (skārienjūtīgs ekrāns)"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Šis dokuments ir aizsargāts ar paroli. Lūdzu, ievadiet paroli."
+			},
+			"passwordLabel": {
+				"text": "Parole:"
+			},
+			"showPasswordLabel": {
+				"text": "Rādīt paroli"
+			},
+			"incorrectPasswordLabel": {
+				"text": "nepareiza parole"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"сancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Attēli:"
+			},
+			"currentImageOption": {
+				"text": "Pašreizējais attēls"
+			},
+			"allImagesOption": {
+				"text": "Visi attēli"
+			},
+			"customImagesOption": {
+				"text": "Pielāgots"
+			},
+			"imageRangeLabel": {
+				"text": "Attēlu diapazons:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Nederīgs lapu diapazons. Piemērs: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indekss ir ārpus attēlu kolekcijas diapazona."
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"сancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Attēli:"
+			},
+			"currentImageOption": {
+				"text": "Pašreizējais attēls"
+			},
+			"allImagesOption": {
+				"text": "Visi attēli"
+			},
+			"customImagesOption": {
+				"text": "Pielāgots"
+			},
+			"imageRangeLabel": {
+				"text": "Attēlu diapazons:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Nederīgs lapu diapazons. Piemērs: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indekss ir ārpus attēlu kolekcijas diapazona."
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Attēla displeja režīms:"
+			},
+			"imageAnchorLabel": {
+				"text": "Attēla enkurs:"
+			},
+			"noneOption": {
+				"text": "Nav"
+			},
+			"topLeftOption": {
+				"text": "Augšā|Pa kreisi"
+			},
+			"topOption": {
+				"text": "Tops"
+			},
+			"topRightOption": {
+				"text": "Augšā|Pa labi"
+			},
+			"rightOption": {
+				"text": "Pa labi"
+			},
+			"bottomRightOption": {
+				"text": "Apakšā|Pa labi"
+			},
+			"bottomOption": {
+				"text": "Apakšā"
+			},
+			"bottomLeftOption": {
+				"text": "Apakšā|Pa kreisi"
+			},
+			"leftOption": {
+				"text": "Pa kreisi"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Vairāku lappušu displeja režīms:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Izkārtojuma virziens:"
+			},
+			"horizontalOption": {
+				"text": "Horizontāli"
+			},
+			"verticalOption": {
+				"text": "Vertikāli"
+			},
+			"rowColumnCountLabel": {
+				"text": "Attēli rindā/kolonnā:"
+			},
+			"imagePaddingLabel": {
+				"text": "Attēlu polsterējums:"
+			},
+			"appearancesLabel": {
+				"text": "Izskati"
+			},
+			"imageAppearanceLabel": {
+				"text": "Attēla izskats"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Muguras krāsa:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Apmales krāsa:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Apmales platums:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Fokusēts attēla izskats"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Muguras krāsa:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Apmales krāsa:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Apmales platums:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Izmantojiet attēla izskatu vienas lapas režīmā"
+			},
+			"renderingSettingsLabel": {
+				"text": "Renderēšanas iestatījumi"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Noklusējuma iestatījumi"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horizontālā izšķirtspēja:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Vertikālā izšķirtspēja:"
+			},
+			"smoothingModeLabel": {
+				"text": "Izlīdzināšanas režīms:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Nav"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolācijas režīms:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilineārs"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Citi iestatījumi"
+			},
+			"backgroundColorLabel": {
+				"text": "Skatītāja fona krāsa:"
+			},
+			"centerImageLabel": {
+				"text": "Centrālais attēls:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Izmēra maiņas taimauts:"
+			},
+			"tileSizeLabel": {
+				"text": "Flīžu izmērs:"
+			},
+			"colorManagementLabel": {
+				"text": "Iespējot krāsu pārvaldību:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Izmantojiet vektoru renderēšanu dokumentiem:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektora satura fona krāsa:"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"сancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Izmērs:"
+			},
+			"scaleLabel": {
+				"text": "Mērogs:"
+			},
+			"smallestOption": {
+				"text": "Mazākais"
+			},
+			"smallOption": {
+				"text": "Mazs"
+			},
+			"normalOption": {
+				"text": "Normāls"
+			},
+			"largeOption": {
+				"text": "Liels"
+			},
+			"flowStyleLabel": {
+				"text": "Plūsmas stils:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Kolonnu skaits:"
+			},
+			"marginLabel": {
+				"text": "Marža:"
+			},
+			"paddingTopLabel": {
+				"text": "Polsterējuma augšdaļa:"
+			},
+			"paddingRightLabel": {
+				"text": "Polsterējums pa labi:"
+			},
+			"paddingBottomLabel": {
+				"text": "Polsterējums apakšā:"
+			},
+			"paddingLeftLabel": {
+				"text": "Polsterējums pa kreisi:"
+			},
+			"showCaptionLabel": {
+				"text": "Rādīt parakstus:"
+			},
+			"captionFormatLabel": {
+				"text": "Parakstu formāts:"
+			},
+			"captionAnchorLabel": {
+				"text": "Parakstu enkurs:"
+			},
+			"topLeftOption": {
+				"text": "Augšā|Pa kreisi"
+			},
+			"topOption": {
+				"text": "Tops"
+			},
+			"topRightOption": {
+				"text": "Augšā|Pa labi"
+			},
+			"rightOption": {
+				"text": "Pa labi"
+			},
+			"bottomRightOption": {
+				"text": "Apakšā|Pa labi"
+			},
+			"bottomOption": {
+				"text": "Apakšā"
+			},
+			"bottomLeftOption": {
+				"text": "Apakšā|Pa kreisi"
+			},
+			"leftOption": {
+				"text": "Pa kreisi"
+			},
+			"centerOption": {
+				"text": "Centrs"
+			},
+			"focusOnHoverLabel": {
+				"text": "Focus OnHover:"
+			},
+			"multiSelectLabel": {
+				"text": "Vairāku atlase:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Var vilkt sīktēlus:"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"сancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Leņķis:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Apmales krāsas veids:"
+			},
+			"autoDetectOption": {
+				"text": "AutoDetect"
+			},
+			"blackOption": {
+				"text": "Melns"
+			},
+			"whiteOption": {
+				"text": "Balts"
+			},
+			"transparentOption": {
+				"text": "Caurspīdīgs"
+			},
+			"customOption": {
+				"text": "Pielāgots"
+			},
+			"borderColorLabel": {
+				"text": "Apmales krāsa:"
+			},
+			"changeSourceLabel": {
+				"text": "Mainīt avotu"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"annotationSettingsDialog": {
+			"title": "Anotācijas iestatījumi",
+			"Border": {
+				"text": "Robeža:"
+			},
+			"CanMirror": {
+				"text": "CanMirror:"
+			},
+			"CanMove": {
+				"text": "CanMove:"
+			},
+			"CanResize": {
+				"text": "CanResize:"
+			},
+			"CanRotate": {
+				"text": "CanRotate:"
+			},
+			"CreatedBy": {
+				"text": "CreatedBy:"
+			},
+			"CreationTime": {
+				"text": "CreationTime:"
+			},
+			"+ FillBrush": {
+				"text": "+ FillBrush:"
+			},
+			"Color": {
+				"text": "Krāsa:"
+			},
+			"Type": {
+				"text": "Veids:"
+			},
+			"+ Font": {
+				"text": "+ Fonts:"
+			},
+			"Bold": {
+				"text": "Treknrakstā:"
+			},
+			"FamilyName": {
+				"text": "FamilyName:"
+			},
+			"Italic": {
+				"text": "Kursīvs:"
+			},
+			"Size": {
+				"text": "Izmērs:"
+			},
+			"Strikeout": {
+				"text": "Izsvītrot:"
+			},
+			"Underline": {
+				"text": "Pasvītrot:"
+			},
+			"Unit": {
+				"text": "Vienība:"
+			},
+			"+ FontBrush": {
+				"text": "+ FontBrush:"
+			},
+			"FontTransparent": {
+				"text": "FontTransparent:"
+			},
+			"Guid": {
+				"text": "Ceļvedis:"
+			},
+			"HorizontalMirrored": {
+				"text": "HorizontalMirrored:"
+			},
+			"IsBuilding": {
+				"text": "IsBuilding:"
+			},
+			"IsVisible": {
+				"text": "IsVisible:"
+			},
+			"LineStyle": {
+				"text": "LineStyle:"
+			},
+			"LineStylePatternSize": {
+				"text": "LineStylePatternSize:"
+			},
+			"+ Location": {
+				"text": "+ Atrašanās vieta:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "ModifiedBy:"
+			},
+			"Name": {
+				"text": "Vārds:"
+			},
+			"+ Outline": {
+				"text": "+ Kontūra:"
+			},
+			"DashPattern": {
+				"text": "DashPattern:"
+			},
+			"DashStyle": {
+				"text": "DashStyle:"
+			},
+			"+ EndCap": {
+				"text": "+ EndCap:"
+			},
+			"+ Size": {
+				"text": "+ Izmērs:"
+			},
+			"width": {
+				"text": "platums:"
+			},
+			"height": {
+				"text": "augstums:"
+			},
+			"Style": {
+				"text": "Stils:"
+			},
+			"LineJoin": {
+				"text": "LineJoin:"
+			},
+			"MiterLimit": {
+				"text": "MiterLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ StartCap:"
+			},
+			"Width": {
+				"text": "Platums:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ ResizePointTemplate:"
+			},
+			"BorderColor": {
+				"text": "BorderColor:"
+			},
+			"BorderWidth": {
+				"text": "BorderWidth:"
+			},
+			"FillColor": {
+				"text": "FillColor:"
+			},
+			"InteractionRadius": {
+				"text": "InteractionRadius:"
+			},
+			"Radius": {
+				"text": "Rādiuss:"
+			},
+			"Rotation": {
+				"text": "Rotācija:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ RotationCenterPoint:"
+			},
+			"Cursor": {
+				"text": "Kursors:"
+			},
+			"+ RotationPoint": {
+				"text": "+ RotationPoint:"
+			},
+			"RotationPointDistance": {
+				"text": "RotationPointDistance:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ ShadowBrush:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ Ēnu nobīde:"
+			},
+			"Symmetry": {
+				"text": "Simetrija:"
+			},
+			"Text": {
+				"text": "Teksts:"
+			},
+			"TextAlign": {
+				"text": "TextAlign:"
+			},
+			"+ TextBox": {
+				"text": "+ Tekstlodziņš:"
+			},
+			"FontColor": {
+				"text": "FontColor:"
+			},
+			"FontFamily": {
+				"text": "FontFamily:"
+			},
+			"FontSize": {
+				"text": "FontSize:"
+			},
+			"TextBoxHeight": {
+				"text": "TextBoxHeight:"
+			},
+			"TextBoxWidth": {
+				"text": "TextBoxWidth:"
+			},
+			"+ TextPadding": {
+				"text": "+ Teksta iepildīšana:"
+			},
+			"left": {
+				"text": "pa kreisi:"
+			},
+			"right": {
+				"text": "pa labi:"
+			},
+			"top": {
+				"text": "tops:"
+			},
+			"bottom": {
+				"text": "apakšā:"
+			},
+			"ToolTip": {
+				"text": "ToolTip:"
+			},
+			"VerticalMirrored": {
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "labi"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Iepriekš augšupielādētie faili"
+		},
+		"openButton": {
+			"text": "Atvērt"
+		},
+		"closeButton": {
+			"text": "Aizvērt"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Kļūda"
+		},
+		"closeButton": {
+			"text": "Aizvērt"
+		}
+	},
+	"strings": {
+		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
+		"vsdv-openFile-addFileString": "Pievienot failu",
+		"vsdv-openFile-authenticateFileString": "Autentificēt failu",
+		"vsdv-downloadFile-actionMessage": "Lejupielādēt failu",
+		"vsdv-saveChanges-saveChangesInImages": "Saglabājiet izmaiņas attēlos",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Saglabājiet izmaiņas anotācijās",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Ierakstiet anotācijas uz attēliem",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ierakstīt anotācijas",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Saglabājiet anotācijas",
+		"vsdv-annotationListPanel-pageLabel": "Lappuse",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Anotācijas īpašības",
+		"vsdv-annotationCommentSettingsDialog-title": "Rediģējiet anotācijas komentāru",
+		"vsdv-dialog-okButton": "labi",
+		"vsdv-dialog-deleteButton": "Dzēst",
+		"vsdv-dialog-cancelButton": "Atcelt",
+		"vsdv-documentPasswordDialog-title": "Dokumenta parole",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificēt failu",
+		"vsdv-imageSelectionDialog-title": "Izvēlieties attēlus",
+		"vsdv-imageSelectionDialog-currentImageString": "Pašreizējais attēls",
+		"vsdv-imageSelectionDialog-allImagesString": "Visi attēli",
+		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
+		"vsdv-printImagesDialog-title": "Drukāt attēlus",
+		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
+		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
+		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Pagriezt attēlu ar anotācijām",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotācijas leņķim jābūt lielākam par nulli.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotējams attēls ar anotācijām"
+	}
+}

@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Προβολή λίστας αρχείων που έχετε λάβει προηγουμένως"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Μεταφόρτωση και άνοιγμα αρχείου εικόνας κατά διεύθυνση URL"
+		},
 		"printImagesButton": {
 			"title": "Εκτύπωση εικόνων"
 		},
 		"downloadFileButton": {
-			"title": "Λήψη αρχείου εικόνας"
+			"title": "Λήψη αρχείου"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Εξαγωγή και λήψη αρχείου"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Προσαρμογή στο πλάτος"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Περιστροφή εικόνας αριστερόστροφα"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Περιστρέψτε όλες τις προβολές αριστερόστροφα"
 		},
 		"rotateAngleInput": {
 			"title": "Γωνία περιστροφής"
 		},
-		"rotateClockwiseButton": {
-			"title": "Περιστροφή εικόνας δεξιόστροφα"
+		"rotateViewsClockwiseButton": {
+			"title": "Περιστρέψτε όλες τις προβολές δεξιόστροφα"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Ρυθμίσεις προβολής εικόνων"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Ρυθμίσεις προβολής μικρογραφιών"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Σχολιασμοί, Πλοήγηση εγγράφων, Επιλογή κειμένου"
 		},
 		"panToolButton": {
 			"title": "Παν"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Σχολιασμοί"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Επισήμανση κειμένου"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Λίστα σχολίων με σχόλια"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Αναζήτηση κειμένου"
+		"showFillAndSignPanelButton": {
+			"title": "Συμπληρώστε και υπογράψτε"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Λειτουργία επιλογής κειμένου:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Αρχείο πιστοποιητικού:"
 			},
-			"rectangleOption": {
-				"text": "Ορθογώνιο"
+			"uploadCertificateFileButton": {
+				"title": "Μεταφόρτωση αρχείου πιστοποιητικού"
 			},
-			"fullLinesOption": {
-				"text": "Πλήρες γραμμές"
+			"certificatePasswordLabel": {
+				"text": "Κωδικός πρόσβασης πιστοποιητικού:"
 			},
-			"selectionColorLabel": {
-				"text": "Χρώμα επιλεγμένου κειμένου:"
+			"useTestCertificateLabel": {
+				"text": "Χρησιμοποιήστε πιστοποιητικό δοκιμής"
 			},
-			"selectedTextLabel": {
-				"text": "Επιλεγμένο κείμενο:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Εύρεση:"
+			"serverLabel": {
+				"text": "Υπηρέτης:"
 			},
-			"whereLookLabel": {
-				"text": "Αναζήτηση σε:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Τρέχουσα σελίδα"
+			"passwordLabel": {
+				"text": "Κωδικός πρόσβασης:"
 			},
-			"allPagesOption": {
-				"text": "Όλες οι σελίδες"
-			},
-			"wholeWordLabel": {
-				"text": "Αναζήτηση ολόκληρης της λέξης"
-			},
-			"caseSensitiveLabel": {
-				"text": "Διάκριση πεζών-κεφαλαίων"
-			},
-			"startSearchButton": {
-				"value": "Έναρξη αναζήτησης"
-			},
-			"stopSearchButton": {
-				"value": "Διακοπή αναζήτησης"
-			},
-			"textNotFoundLabel": {
-				"text": "Το κείμενο δεν βρέθηκε."
+			"fillAndSignButton": {
+				"value": "Συμπληρώστε και υπογράψτε"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Μεγέθυνση"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Συγγραφέας:"
+			},
+			"commentSubjectLabel": {
+				"text": "Θέμα:"
+			},
+			"commentMessageLabel": {
+				"text": "Μήνυμα:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Χρησιμοποιήστε την κατάσταση σχολίου"
+			},
+			"commentStatusLabel": {
+				"text": "Κατάσταση:"
+			},
+			"None": {
+				"text": "Όχι"
+			},
+			"Accepted": {
+				"text": "Αποδεκτό"
+			},
+			"Completed": {
+				"text": "Ολοκληρώθηκε το"
+			},
+			"Rejected": {
+				"text": "Απορρίφθηκε"
+			},
+			"Cancelled": {
+				"text": "Ακυρώθηκε"
+			},
+			"showStateHistoryLabel": {
+				"text": "Εμφάνιση ιστορικού κράτους στις απαντήσεις"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"deleteButton": {
+				"value": "Διαγραφή"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Κανονικό"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Μεγάλα σημεία επαφής (οθόνη αφής)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Αντιγραφή σχολιασμού"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Εισαγωγή σχολιασμού"
-			},
-			"removeAnnotationLabel": {
-				"text": "Διαγραφή σχολιασμού"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Αποστολή στην Πίσω"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Μεταφορά στο μπροστινό μέρος"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Ομαδοποιήστε όλους τους σχολιασμούς"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Κατάργηση ομαδοποίησης σχολιασμού"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Ιδιότητες σχολιασμού..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "Λειτουργία προβολής πολλών σελίδων:"
 			},
 			"allImagesOption": {
-				"text": "Όλες οι εικόνες"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Διορθώθηκαν εικόνες"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Κατεύθυνση διάταξης:"
@@ -565,16 +566,16 @@
 				"text": "Στιλ τοποθέτησης μικρογραφίας:"
 			},
 			"singleColumnOption": {
-				"text": "Μονή στήλη"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Μία γραμμή"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Σταθερός αριθμός στηλών"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Κινούμενος αριθμός σειρών"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Αριθμός στηλών:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Να επιτρέπεται η επιλογή πολλαπλών μικρογραφιών:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Μπορεί να σύρει μικρογραφίες:"
+			},
 			"okButton": {
 				"value": "ΟΚ"
 			},
@@ -651,7 +655,7 @@
 				"text": "Τύπος χρώματος περιγράμματος:"
 			},
 			"autoDetectOption": {
-				"text": "Αυτόματος εντοπισμός"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Μαύρο"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "Ακύρωση"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Αρχεία που έχουν ληφθεί προηγουμένως"
 		},
-		"openButton": {
-			"text": "Άνοιγμα αρχείου"
-		},
-		"closeButton": {
-			"text": "Κλείσιμο"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Ιδιότητες σχολιασμού"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Ρυθμίσεις σχολιασμού",
 			"Border": {
 				"text": "Όριο:"
 			},
 			"CanMirror": {
-				"text": "Μπορείτε να αντικατοπτρίσετε:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Μπορεί να μετακινηθεί:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Μπορεί να αλλάξει μέγεθος:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Μπορεί να περιστραφεί:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Συγγραφέας:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Χρόνος δημιουργίας:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Γέμισμα:"
@@ -732,7 +721,7 @@
 				"text": "Έντονη:"
 			},
 			"FamilyName": {
-				"text": "Ονοματεπώνυμο:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Πλάγια:"
@@ -753,25 +742,25 @@
 				"text": "+ Πινέλο γραμματοσειράς:"
 			},
 			"FontTransparent": {
-				"text": "Διαφανής γραμματοσειρά:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "Αναγνωριστικό:"
 			},
 			"HorizontalMirrored": {
-				"text": "Αναστροφή οριζόντια:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Δημιουργήθηκε σχολιασμός:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Ο σχολιασμός είναι ορατός:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Στιλ γραμμής:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Μέγεθος προτύπου στυλ γραμμής:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Τοποθεσία:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Αλλαγή από:"
-			},
-			"ModifiedTime": {
-				"text": "Ώρα αλλαγής:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Όνομα:"
@@ -795,10 +781,10 @@
 				"text": "+ Σχέδιο:"
 			},
 			"DashPattern": {
-				"text": "Μοτίβο παύλας:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Στιλ παύλας:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Καπάκι στο τέλος της γραμμής:"
@@ -816,7 +802,7 @@
 				"text": "Στυλ:"
 			},
 			"LineJoin": {
-				"text": "Σύνδεση γραμμής:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
 				"text": "MiterLimit:"
@@ -831,16 +817,16 @@
 				"text": "+ Πρότυπο αλλαγής μεγέθους:"
 			},
 			"BorderColor": {
-				"text": "Χρώμα περιγράμματος:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Πλάτος περιγράμματος:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Χρώμα γεμίσματος:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Ακτίνα περιοχής αλληλεπίδρασης:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Ακτίνα:"
@@ -858,7 +844,7 @@
 				"text": "+ Σημείο περιστροφής:"
 			},
 			"RotationPointDistance": {
-				"text": "Απόσταση από το σημείο περιστροφής:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Πινέλο σκιών:"
@@ -873,25 +859,25 @@
 				"text": "Κείμενο:"
 			},
 			"TextAlign": {
-				"text": "Στοίχιση κειμένου:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Πεδίο κειμένου:"
 			},
 			"FontColor": {
-				"text": "Χρώμα γραμματοσειράς:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Οικογένεια γραμματοσειρών:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Μέγεθος γραμματοσειράς:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Ύψος πεδίου κειμένου:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Πλάτος πεδίου κειμένου:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Εσοχή κειμένου:"
@@ -909,14 +895,25 @@
 				"text": "Κάτω:"
 			},
 			"ToolTip": {
-				"text": "Υπόδειξη:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Κάθετος κατοπτρισμός:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Αρχεία που έχουν ληφθεί προηγουμένως"
 		},
-		"okButton": {
-			"text": "ΟΚ"
+		"openButton": {
+			"text": "Άνοιγμα αρχείου"
+		},
+		"closeButton": {
+			"text": "Κλείσιμο"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Σελίδα",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Ιδιότητες σχολιασμού",
-		"vssde-annotationListPanel-pageLabel": "Σελίδα",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Ιδιότητες σχολιασμού",
-		"vssde-textSearchPanel-pageLabel": "Σελίδα",
-		"vssde-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
-		"vssde-dialog-okButton": "ΟΚ",
-		"vssde-dialog-cancelButton": "Ακύρωση",
-		"vssde-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
-		"vssde-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
-		"vssde-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
-		"vssde-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
-		"vssde-printImagesDialog-withAnnotationsLabel": "με σχολιασμούς",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Η εικόνα προετοιμάζεται για εκτύπωση",
-		"vssde-printImagesDialog-title": "Εκτύπωση εικόνων",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
-		"vssde-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Η γωνία περιστροφής δεν πρέπει να είναι 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Περιστροφή σχολιασμένης εικόνας",
-		"vssde-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων"
+		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
+		"vsdv-openFile-addFileString": "Προσθήκη αρχείου",
+		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
+		"vsdv-downloadFile-actionMessage": "Λήψη αρχείου",
+		"vsdv-saveChanges-saveChangesInImages": "Αποθηκεύστε τις αλλαγές στις εικόνες",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Κάψτε σχολιασμούς",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Αποθήκευση σχολιασμών",
+		"vsdv-annotationListPanel-pageLabel": "Σελίδα",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Ιδιότητες σχολιασμού",
+		"vsdv-annotationCommentSettingsDialog-title": "Επεξεργαστείτε το σχόλιο του σχολιασμού",
+		"vsdv-dialog-okButton": "ΟΚ",
+		"vsdv-dialog-deleteButton": "Διαγραφή",
+		"vsdv-dialog-cancelButton": "Ακύρωση",
+		"vsdv-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
+		"vsdv-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
+		"vsdv-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
+		"vsdv-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
+		"vsdv-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
+		"vsdv-printImagesDialog-title": "Εκτύπωση εικόνων",
+		"vsdv-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
+		"vsdv-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
+		"vsdv-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Περιστροφή σχολιασμένης εικόνας",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Η γωνία περιστροφής δεν πρέπει να είναι 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται"
 	}
 }

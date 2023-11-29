@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Predtým nahrané súbory"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Nahrajte a otvorte súbor obrázka podľa adresy URL"
+		},
 		"printImagesButton": {
 			"title": "Tlač obrázkov"
 		},
 		"downloadFileButton": {
-			"title": "Stiahnite si súbor s obrázkom"
+			"title": "Stiahnuť súbor"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Exportujte a stiahnite súbor"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prispôsobiť na šírku"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Otočte obrázok proti smeru hodinových ručičiek"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Otočte všetky pohľady proti smeru hodinových ručičiek"
 		},
 		"rotateAngleInput": {
 			"title": "Uhol"
 		},
-		"rotateClockwiseButton": {
-			"title": "Otočte obrázok v smere hodinových ručičiek"
+		"rotateViewsClockwiseButton": {
+			"title": "Otočte všetky zobrazenia v smere hodinových ručičiek"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Nastavenia prehliadača obrázkov"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Nastavenia prehliadača miniatúr"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anotácie, Navigácia v dokumente, Výber textu"
 		},
 		"panToolButton": {
 			"title": "Panvica"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Anotácie"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Výber textu"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Zoznam komentárov anotácií"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Nájdite text"
+		"showFillAndSignPanelButton": {
+			"title": "Vyplňte a podpíšte"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Režim výberu:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Súbor certifikátu:"
 			},
-			"rectangleOption": {
-				"text": "Obdĺžnik"
+			"uploadCertificateFileButton": {
+				"title": "Nahrajte súbor certifikátu"
 			},
-			"fullLinesOption": {
-				"text": "Plné riadky"
+			"certificatePasswordLabel": {
+				"text": "Heslo certifikátu:"
 			},
-			"selectionColorLabel": {
-				"text": "Farba výberu:"
+			"useTestCertificateLabel": {
+				"text": "Použite testovací certifikát"
 			},
-			"selectedTextLabel": {
-				"text": "Vybraný text:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Nájsť:"
+			"serverLabel": {
+				"text": "Server:"
 			},
-			"whereLookLabel": {
-				"text": "Pozrieť sa do:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Aktuálna stránka"
+			"passwordLabel": {
+				"text": "Heslo:"
 			},
-			"allPagesOption": {
-				"text": "Všetky strany"
-			},
-			"wholeWordLabel": {
-				"text": "Celé slovo"
-			},
-			"caseSensitiveLabel": {
-				"text": "Rozlišujú sa malé a veľké písmená"
-			},
-			"startSearchButton": {
-				"value": "Štart"
-			},
-			"stopSearchButton": {
-				"value": "Stop"
-			},
-			"textNotFoundLabel": {
-				"text": "Text sa nenašiel."
+			"fillAndSignButton": {
+				"value": "Vyplňte a podpíšte"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Priblížiť"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "autor:"
+			},
+			"commentSubjectLabel": {
+				"text": "Predmet:"
+			},
+			"commentMessageLabel": {
+				"text": "Správa:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Použite stav komentára"
+			},
+			"commentStatusLabel": {
+				"text": "Postavenie:"
+			},
+			"None": {
+				"text": "Ziadne"
+			},
+			"Accepted": {
+				"text": "Prijatý"
+			},
+			"Completed": {
+				"text": "Dokončené"
+			},
+			"Rejected": {
+				"text": "Odmietnuté"
+			},
+			"Cancelled": {
+				"text": "Zrušené"
+			},
+			"showStateHistoryLabel": {
+				"text": "Zobraziť históriu stavu v odpovediach"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Odstrániť"
+			},
+			"cancelButton": {
+				"value": "Zrušiť"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normálne"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Veľké interakčné body (dotyková obrazovka)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Kopírovať anotáciu"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Prilepiť anotáciu"
-			},
-			"removeAnnotationLabel": {
-				"text": "Odstrániť anotáciu"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Preniesť späť"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Priveďte dopredu"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Zoskupte všetky anotácie"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Zrušiť zoskupenie anotácie"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Vlastnosti anotácie..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Viacnásobný výber:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Môže presúvať miniatúry:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +655,7 @@
 				"text": "Typ farby okraja:"
 			},
 			"autoDetectOption": {
-				"text": "Automatická detekcia"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Čierna"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "Zrušiť"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Predtým nahrané súbory"
 		},
-		"openButton": {
-			"text": "Otvorené"
-		},
-		"closeButton": {
-			"text": "Zavrieť"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Vlastnosti anotácie"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Nastavenia anotácií",
 			"Border": {
 				"text": "Hranica:"
 			},
 			"CanMirror": {
-				"text": "Môže zrkadliť:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Môže sa pohybovať:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Môže zmeniť veľkosť:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Môže sa otáčať:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Vytvoril:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Čas vytvorenia:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Plniaca kefa:"
@@ -732,7 +721,7 @@
 				"text": "Tučné:"
 			},
 			"FamilyName": {
-				"text": "Priezvisko:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "kurzíva:"
@@ -753,25 +742,25 @@
 				"text": "+ Stetec na písmo:"
 			},
 			"FontTransparent": {
-				"text": "Transparentné písmo:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "Sprievodca:"
 			},
 			"HorizontalMirrored": {
-				"text": "Horizontálne zrkadlové:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Buduje sa:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Je viditeľný:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Štýl čiary:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Veľkosť vzoru LineStyle:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Miesto:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Upravil:"
-			},
-			"ModifiedTime": {
-				"text": "Upravený čas:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Názov:"
@@ -795,10 +781,10 @@
 				"text": "+ Obrys:"
 			},
 			"DashPattern": {
-				"text": "Pomlčkový vzor:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Štýl pomlčky:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Záver:"
@@ -816,10 +802,10 @@
 				"text": "Štýl:"
 			},
 			"LineJoin": {
-				"text": "Linkový spoj:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "Limit pokosu:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ Start Cap:"
@@ -831,16 +817,16 @@
 				"text": "+ Šablóna na zmenu veľkosti:"
 			},
 			"BorderColor": {
-				"text": "Farba okraja:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Šírka okraja:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Farba výplne:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Interakčný polomer:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Polomer:"
@@ -858,7 +844,7 @@
 				"text": "+ Bod otáčania:"
 			},
 			"RotationPointDistance": {
-				"text": "Vzdialenosť rotačného bodu:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Štetec na tiene:"
@@ -873,25 +859,25 @@
 				"text": "Text:"
 			},
 			"TextAlign": {
-				"text": "Zarovnanie textu:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Textové pole:"
 			},
 			"FontColor": {
-				"text": "Farba písma:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Rodina písiem:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Veľkosť písma:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Výška textového poľa:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Šírka textového poľa:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ TextPadding:"
@@ -912,11 +898,22 @@
 				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Vertikálne zrkadlové:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Predtým nahrané súbory"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Otvorené"
+		},
+		"closeButton": {
+			"text": "Zavrieť"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Stránka",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Vlastnosti anotácie",
-		"vssde-annotationListPanel-pageLabel": "Stránka",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Vlastnosti anotácie",
-		"vssde-textSearchPanel-pageLabel": "Stránka",
-		"vssde-documentPasswordDialog-title": "Heslo dokumentu",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Zrušiť",
-		"vssde-imageSelectionDialog-currentImageString": "Aktuálny obrázok",
-		"vssde-imageSelectionDialog-allImagesString": "Všetky obrázky",
-		"vssde-imageSelectionDialog-customImagesString": "Vlastné",
-		"vssde-imageSelectionDialog-title": "Vyberte obrázky",
-		"vssde-printImagesDialog-withAnnotationsLabel": "s anotáciami",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Obrázok pripravený na tlač",
-		"vssde-printImagesDialog-title": "Tlač obrázkov",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobraziť anotácie:",
-		"vssde-thumbnailViewerSettingDialog-title": "Nastavenia prehliadača miniatúr",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Uhol natočenia by mal byť väčší ako nula.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Otočný obrázok s anotáciami",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Otočte obrázok s anotáciami",
-		"vssde-imageViewerSettingsDialog-title": "Nastavenia prehliadača obrázkov"
+		"vsdv-uploadFileButton-uploadFileString": "Nahrajte súbor",
+		"vsdv-openFile-addFileString": "Pridať súbor",
+		"vsdv-openFile-authenticateFileString": "Overiť súbor",
+		"vsdv-downloadFile-actionMessage": "Stiahnuť súbor",
+		"vsdv-saveChanges-saveChangesInImages": "Uložte zmeny v obrázkoch",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Uložte zmeny v anotáciách",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Vypáliť anotácie na obrázkoch",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Uložte zmeny v dokumente PDF",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Vypáliť anotácie",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Uložiť anotácie",
+		"vsdv-annotationListPanel-pageLabel": "Stránka",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Vlastnosti anotácie",
+		"vsdv-annotationCommentSettingsDialog-title": "Upravte komentár anotácie",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-deleteButton": "Odstrániť",
+		"vsdv-dialog-cancelButton": "Zrušiť",
+		"vsdv-documentPasswordDialog-title": "Heslo dokumentu",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Overiť súbor",
+		"vsdv-imageSelectionDialog-title": "Vyberte obrázky",
+		"vsdv-imageSelectionDialog-currentImageString": "Aktuálny obrázok",
+		"vsdv-imageSelectionDialog-allImagesString": "Všetky obrázky",
+		"vsdv-imageSelectionDialog-customImagesString": "Vlastné",
+		"vsdv-printImagesDialog-title": "Tlač obrázkov",
+		"vsdv-printImagesPanel-imagePrintingString": "Tlačí sa obrázok",
+		"vsdv-imageViewerSettingsDialog-title": "Nastavenia prehliadača obrázkov",
+		"vsdv-thumbnailViewerSettingDialog-title": "Nastavenia prehliadača miniatúr",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobraziť anotácie:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Otočte obrázok s anotáciami",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Uhol natočenia by mal byť väčší ako nula.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Otočný obrázok s anotáciami"
 	}
 }

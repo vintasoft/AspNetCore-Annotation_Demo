@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Amafayela Alayishwe Ngokudlule"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Layisha futhi uvule ifayela lesithombe nge-URL"
+		},
 		"printImagesButton": {
 			"title": "Phrinta izithombe"
 		},
 		"downloadFileButton": {
-			"title": "Landa Ifayela Lesithombe"
+			"title": "Landa ifayela"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Khipha futhi ulande ifayela"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Linganisa ububanzi"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Zungezisa isithombe ngokuphikisana newashi"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Zungezisa konke ukubuka ngokuphikisana newashi"
 		},
 		"rotateAngleInput": {
 			"title": "I-engeli"
 		},
-		"rotateClockwiseButton": {
-			"title": "Zungezisa isithombe ngokwewashi"
+		"rotateViewsClockwiseButton": {
+			"title": "Zungezisa konke ukubuka njengokuhamba kwewashi"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Izilungiselelo zesibukeli sesithombe"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Izilungiselelo zesibukeli sesithonjana"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Izichasiselo, Ukuzulazula kwedokhumenti, Ukukhetha umbhalo"
 		},
 		"panToolButton": {
 			"title": "Ipani"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Izichasiselo"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Ukukhetha umbhalo"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Uhlu lwamazwana esichasiselo"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Thola umbhalo"
+		"showFillAndSignPanelButton": {
+			"title": "Gcwalisa futhi usayine"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Imodi yokukhetha:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Ifayela lesitifiketi:"
 			},
-			"rectangleOption": {
-				"text": "Unxande"
+			"uploadCertificateFileButton": {
+				"title": "Layisha ifayela lesitifiketi"
 			},
-			"fullLinesOption": {
-				"text": "Imigqa egcwele"
+			"certificatePasswordLabel": {
+				"text": "Iphasiwedi yesitifiketi:"
 			},
-			"selectionColorLabel": {
-				"text": "Umbala wokukhetha:"
+			"useTestCertificateLabel": {
+				"text": "Sebenzisa isitifiketi sokuhlola"
 			},
-			"selectedTextLabel": {
-				"text": "Umbhalo okhethiwe:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Thola:"
+			"serverLabel": {
+				"text": "Server:"
 			},
-			"whereLookLabel": {
-				"text": "Bheka ngaphakathi:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Ikhasi lamanje"
+			"passwordLabel": {
+				"text": "Iphasiwedi:"
 			},
-			"allPagesOption": {
-				"text": "Wonke amakhasi"
-			},
-			"wholeWordLabel": {
-				"text": "Izwi lonke"
-			},
-			"caseSensitiveLabel": {
-				"text": "Iyazwela kofeleba"
-			},
-			"startSearchButton": {
-				"value": "Qala"
-			},
-			"stopSearchButton": {
-				"value": "Ima"
-			},
-			"textNotFoundLabel": {
-				"text": "Umbhalo awutholakali."
+			"fillAndSignButton": {
+				"value": "Gcwalisa futhi Usayine"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Sondeza isithombe"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Umbhali:"
+			},
+			"commentSubjectLabel": {
+				"text": "Isihloko:"
+			},
+			"commentMessageLabel": {
+				"text": "Umlayezo:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Sebenzisa isimo samazwana"
+			},
+			"commentStatusLabel": {
+				"text": "Isimo:"
+			},
+			"None": {
+				"text": "Lutho"
+			},
+			"Accepted": {
+				"text": "Kwamukelwe"
+			},
+			"Completed": {
+				"text": "Kuqediwe"
+			},
+			"Rejected": {
+				"text": "Kwaliwe"
+			},
+			"Cancelled": {
+				"text": "Kukhanseliwe"
+			},
+			"showStateHistoryLabel": {
+				"text": "Bonisa Umlando Wesifunda ezimpendulweni"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"deleteButton": {
+				"value": "Susa"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Okuvamile"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Amaphoyinti amakhulu okusebenzisana (Isikrini sokuthinta)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Kopisha isichasiselo"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Namathisela isichasiselo"
-			},
-			"removeAnnotationLabel": {
-				"text": "Susa isichasiselo"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Buyisa emuva"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Letha phambili"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Qoqa zonke izichasiselo"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Hlukanisa isichasiselo seqembu"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Izakhiwo zesichasiselo..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "Imodi yokubonisa yamakhasi amaningi:"
 			},
 			"allImagesOption": {
-				"text": "ZonkeIzithombe"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "I-FixedImages"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Isiqondiso sesakhiwo:"
@@ -565,16 +566,16 @@
 				"text": "Isitayela sokugeleza:"
 			},
 			"singleColumnOption": {
-				"text": "Ikholomu Eyodwa"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "I-SingleRow"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "I-FixedColumns"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Imigqa Egoqiwe"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Isibalo Sekholomu:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Ukukhetha okuningi:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Ingakwazi Ukuhudula Izithonjana:"
+			},
 			"okButton": {
 				"value": "KULUNGILE"
 			},
@@ -651,7 +655,7 @@
 				"text": "Uhlobo lombala womngcele:"
 			},
 			"autoDetectOption": {
-				"text": "Thola ngokuzenzakalelayo"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Mnyama"
@@ -677,41 +681,26 @@
 			"cancelButton": {
 				"value": "Khansela"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Amafayela alayishwe ngaphambilini"
 		},
-		"openButton": {
-			"text": "Vula"
-		},
-		"closeButton": {
-			"text": "Vala"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Izici zesichasiselo"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Izilungiselelo zesichasiselo",
 			"Border": {
 				"text": "Umngcele:"
 			},
 			"CanMirror": {
-				"text": "I-CanMirror:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "I-CanMove:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
 				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "I-CanRotate:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "IdalweNgu:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
 				"text": "CreationTime:"
@@ -732,7 +721,7 @@
 				"text": "Okugqamile:"
 			},
 			"FamilyName": {
-				"text": "Igama lomkhaya:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "I-ithalikhi"
@@ -753,19 +742,19 @@
 				"text": "+ FontBrush:"
 			},
 			"FontTransparent": {
-				"text": "I-FontTransparent:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "Umhlahlandlela:"
 			},
 			"HorizontalMirrored": {
-				"text": "I-HorizontalMirrored:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Kuyabonakala:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
 				"text": "LineStyle:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "KulungisweNgu:"
-			},
-			"ModifiedTime": {
-				"text": "I-ModifiedTime:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Igama:"
@@ -795,10 +781,10 @@
 				"text": "+ Uhlaka:"
 			},
 			"DashPattern": {
-				"text": "I-DashPattern:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "I-DashStyle:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ EndCap:"
@@ -816,10 +802,10 @@
 				"text": "Isitayela:"
 			},
 			"LineJoin": {
-				"text": "I-LineJoyina:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "I-MiterLimit:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ I-StartCap:"
@@ -831,10 +817,10 @@
 				"text": "+ ResizePointTemplate:"
 			},
 			"BorderColor": {
-				"text": "Umbala Womngcele:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Ububanzi Border:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
 				"text": "FillColor:"
@@ -858,7 +844,7 @@
 				"text": "+ RotationPoint:"
 			},
 			"RotationPointDistance": {
-				"text": "I-RotationPointDistance:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ ShadowBrush:"
@@ -873,22 +859,22 @@
 				"text": "Umbhalo:"
 			},
 			"TextAlign": {
-				"text": "Qondanisa umbhalo:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Ibhokisi Lombhalo:"
 			},
 			"FontColor": {
-				"text": "Umbala Wefonti:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "I-FontFamily:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Usayizi Wefonti:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "I-TextBoxHeight:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
 				"text": "TextBoxWidth:"
@@ -909,14 +895,25 @@
 				"text": "phansi:"
 			},
 			"ToolTip": {
-				"text": "Ithulithiphu:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "I-VerticalMirrored:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Amafayela alayishwe ngaphambilini"
 		},
-		"okButton": {
-			"text": "KULUNGILE"
+		"openButton": {
+			"text": "Vula"
+		},
+		"closeButton": {
+			"text": "Vala"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Ikhasi",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Izici zesichasiselo",
-		"vssde-annotationListPanel-pageLabel": "Ikhasi",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Izici zesichasiselo",
-		"vssde-textSearchPanel-pageLabel": "Ikhasi",
-		"vssde-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
-		"vssde-dialog-okButton": "KULUNGILE",
-		"vssde-dialog-cancelButton": "Khansela",
-		"vssde-imageSelectionDialog-currentImageString": "Isithombe samanje",
-		"vssde-imageSelectionDialog-allImagesString": "Zonke izithombe",
-		"vssde-imageSelectionDialog-customImagesString": "Ngokwezifiso",
-		"vssde-imageSelectionDialog-title": "Khetha izithombe",
-		"vssde-printImagesDialog-withAnnotationsLabel": "ngezichasiselo",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Isithombe silungiselwe ukuphrintwa",
-		"vssde-printImagesDialog-title": "Phrinta izithombe",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
-		"vssde-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "I-engeli yokuzungezisa kufanele ibe ngaphezu kukaziro.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izungezisa isithombe ngezichasiselo",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Zungezisa isithombe ngezichasiselo",
-		"vssde-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe"
+		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
+		"vsdv-openFile-addFileString": "Engeza ifayela",
+		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
+		"vsdv-downloadFile-actionMessage": "Landa ifayela",
+		"vsdv-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Shisa izichasiselo",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Londoloza izichasiselo",
+		"vsdv-annotationListPanel-pageLabel": "Ikhasi",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Izici zesichasiselo",
+		"vsdv-annotationCommentSettingsDialog-title": "Hlela amazwana esichasiselo",
+		"vsdv-dialog-okButton": "KULUNGILE",
+		"vsdv-dialog-deleteButton": "Susa",
+		"vsdv-dialog-cancelButton": "Khansela",
+		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
+		"vsdv-imageSelectionDialog-title": "Khetha izithombe",
+		"vsdv-imageSelectionDialog-currentImageString": "Isithombe samanje",
+		"vsdv-imageSelectionDialog-allImagesString": "Zonke izithombe",
+		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
+		"vsdv-printImagesDialog-title": "Phrinta izithombe",
+		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
+		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
+		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Zungezisa isithombe ngezichasiselo",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "I-engeli yokuzungezisa kufanele ibe ngaphezu kukaziro.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izungezisa isithombe ngezichasiselo"
 	}
 }

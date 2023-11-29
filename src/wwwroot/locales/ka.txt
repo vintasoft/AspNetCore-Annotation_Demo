@@ -1,0 +1,959 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "ფაილი"
+		},
+		"viewLabel": {
+			"text": "ხედი"
+		},
+		"toolsLabel": {
+			"text": "ხელსაწყოები"
+		},
+		"annotationsLabel": {
+			"text": "ანოტაციები"
+		},
+		"uploadFileButton": {
+			"title": "ატვირთეთ და გახსენით ფაილი"
+		},
+		"previousUploadFilesButton": {
+			"title": "ადრე ატვირთული ფაილები"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "ატვირთეთ და გახსენით სურათის ფაილი URL-ით"
+		},
+		"printImagesButton": {
+			"title": "სურათების დაბეჭდვა"
+		},
+		"downloadFileButton": {
+			"title": "Გადმოწერეთ ფაილი"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "ფაილის ექსპორტი და ჩამოტვირთვა"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "მოერგება სიგანეს"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "ყველა ხედის როტაცია საათის ისრის საწინააღმდეგოდ"
+		},
+		"rotateAngleInput": {
+			"title": "კუთხე"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "ყველა ხედის როტაცია საათის ისრის მიმართულებით"
+		},
+		"imageViewerSettingsButton": {
+			"title": "სურათების მაყურებლის პარამეტრები"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "მინიატურების მაყურებლის პარამეტრები"
+		},
+		"panToolButton": {
+			"title": "პან"
+		},
+		"magnifierToolButton": {
+			"title": "ლუპა"
+		},
+		"zoomToolButton": {
+			"title": "მასშტაბირება"
+		},
+		"zoomSelectionToolButton": {
+			"title": "მასშტაბირების შერჩევა"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "მართკუთხედი"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "ელიფსი"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "მონიშნეთ"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "მითითებული სურათი"
+		},
+		"addTextAnnotationButton": {
+			"title": "ტექსტი"
+		},
+		"addStampAnnotationButton": {
+			"title": "ბეჭედი"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Ბმული"
+		},
+		"addArrowAnnotationButton": {
+			"title": "ისარი"
+		},
+		"addLineAnnotationButton": {
+			"title": "ხაზი"
+		},
+		"addLinesAnnotationButton": {
+			"title": "ხაზები"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "მრავალკუთხედი"
+		},
+		"addRulerAnnotationButton": {
+			"title": "მმართველი"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "სამკუთხედი"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "ინტერაქციის რეჟიმი "ავტორი""
+		},
+		"copyAnnotationButton": {
+			"title": "დააკოპირეთ ორიენტირებული ანოტაცია"
+		},
+		"pasteAnnotationButton": {
+			"title": "კოპირებული ანოტაციის ჩასმა"
+		},
+		"removeAnnotationButton": {
+			"title": "ფოკუსირებული ანოტაციის წაშლა"
+		},
+		"burnAnnotationsButton": {
+			"title": "ანოტაციების კოლექციის დაწვა სურათზე"
+		},
+		"saveAnnotationsButton": {
+			"title": "შეინახეთ ანოტაციების კოლექციის ცვლილებები სერვერზე"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "სურათის როტაცია ანოტაციებით"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "ჩართეთ გაუქმება/გამეორება"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "გაუქმება"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "ხელახლა"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "საშუალო ურთიერთქმედების წერტილები"
+		},
+		"showMobileMenuButton": {
+			"title": "მეტი"
+		},
+		"sidePanelCloseButton": {
+			"title": "გვერდითი პანელის ჩვენება"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "ესკიზები"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "ანოტაციები"
+		},
+		"showAnnotationCommentListPanelButton": {
+			"title": "ანოტაციის კომენტარების სია"
+		},
+		"showFillAndSignPanelButton": {
+			"title": "შეავსეთ და მოაწერეთ ხელი"
+		},
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "სერთიფიკატის ფაილი:"
+			},
+			"uploadCertificateFileButton": {
+				"title": "ატვირთეთ სერთიფიკატის ფაილი"
+			},
+			"certificatePasswordLabel": {
+				"text": "სერთიფიკატის პაროლი:"
+			},
+			"useTestCertificateLabel": {
+				"text": "გამოიყენეთ ტესტის სერთიფიკატი"
+			},
+			"serverLabel": {
+				"text": "სერვერი:"
+			},
+			"loginLabel": {
+				"text": "Login:"
+			},
+			"passwordLabel": {
+				"text": "პაროლი:"
+			},
+			"fillAndSignButton": {
+				"value": "შეავსეთ და მოაწერეთ ხელი"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "გადადით პირველ სურათზე"
+		},
+		"gotoPreviousPageButton": {
+			"title": "გადადით წინა სურათზე"
+		},
+		"gotoPageInput": {
+			"title": "გვერდი"
+		},
+		"gotoNextPageButton": {
+			"title": "გადადით შემდეგ სურათზე"
+		},
+		"gotoLastPageButton": {
+			"title": "გადადით ბოლო სურათზე"
+		},
+		"zoomOutButton": {
+			"title": "მასშტაბირება"
+		},
+		"zoomValueInput": {
+			"title": "მასშტაბირება"
+		},
+		"zoomInButton": {
+			"title": "Მიახლოება"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "ავტორი:"
+			},
+			"commentSubjectLabel": {
+				"text": "თემა:"
+			},
+			"commentMessageLabel": {
+				"text": "შეტყობინება:"
+			},
+			"useCommentStatusLabel": {
+				"text": "გამოიყენეთ კომენტარის სტატუსი"
+			},
+			"commentStatusLabel": {
+				"text": "სტატუსი:"
+			},
+			"None": {
+				"text": "არცერთი"
+			},
+			"Accepted": {
+				"text": "მიღებულია"
+			},
+			"Completed": {
+				"text": "დასრულებული"
+			},
+			"Rejected": {
+				"text": "უარყოფილია"
+			},
+			"Cancelled": {
+				"text": "გაუქმდა"
+			},
+			"showStateHistoryLabel": {
+				"text": "აჩვენეთ სახელმწიფო ისტორია პასუხებში"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"deleteButton": {
+				"value": "წაშლა"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"normalSizeModeButton": {
+			"title": "ნორმალური"
+		},
+		"bestFitSizeModeButton": {
+			"title": "საუკეთესო მორგება"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "შეესაბამება სიმაღლეს"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "პიქსელი პიქსელამდე"
+		},
+		"zoomSizeModeButton": {
+			"title": "მასშტაბირება"
+		},
+		"addArcAnnotationButton": {
+			"title": "რკალი"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "წებოვანი შენიშვნა"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Თავისუფალი ტექსტი"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "ორმაგი ისარი"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "ხაზები ინტერპოლაციით"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "თავისუფალი ხაზები"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "პოლიგონი ინტერპოლაციით"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "თავისუფალი პოლიგონი"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "ღრუბლის პოლიგონი"
+		},
+		"addRulersAnnotationButton": {
+			"title": "მმართველები"
+		},
+		"addAngleAnnotationButton": {
+			"title": "კუთხე"
+		},
+		"addMarkAnnotationButton": {
+			"title": "მარკო"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "ურთიერთქმედების რეჟიმი "არცერთი""
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "ურთიერთქმედების რეჟიმი "ნახვა""
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "ურთიერთქმედების მცირე წერტილები"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "დიდი ურთიერთქმედების წერტილები (სენსორული ეკრანი)"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "ეს დოკუმენტი დაცულია პაროლით. გთხოვთ შეიყვანოთ პაროლი."
+			},
+			"passwordLabel": {
+				"text": "პაროლი:"
+			},
+			"showPasswordLabel": {
+				"text": "Აჩვენე პაროლი"
+			},
+			"incorrectPasswordLabel": {
+				"text": "არასწორი პაროლი"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"сancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "სურათები:"
+			},
+			"currentImageOption": {
+				"text": "მიმდინარე სურათი"
+			},
+			"allImagesOption": {
+				"text": "ყველა სურათი"
+			},
+			"customImagesOption": {
+				"text": "საბაჟო"
+			},
+			"imageRangeLabel": {
+				"text": "გამოსახულების დიაპაზონი:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "არასწორი გვერდის დიაპაზონი. მაგალითი: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "ინდექსი სურათების შეგროვების დიაპაზონის გარეთ."
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"сancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "სურათები:"
+			},
+			"currentImageOption": {
+				"text": "მიმდინარე სურათი"
+			},
+			"allImagesOption": {
+				"text": "ყველა სურათი"
+			},
+			"customImagesOption": {
+				"text": "საბაჟო"
+			},
+			"imageRangeLabel": {
+				"text": "გამოსახულების დიაპაზონი:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "არასწორი გვერდის დიაპაზონი. მაგალითი: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "ინდექსი სურათების შეგროვების დიაპაზონის გარეთ."
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "გამოსახულების ჩვენების რეჟიმი:"
+			},
+			"imageAnchorLabel": {
+				"text": "გამოსახულების წამყვანი:"
+			},
+			"noneOption": {
+				"text": "არცერთი"
+			},
+			"topLeftOption": {
+				"text": "ზედა|მარცხნივ"
+			},
+			"topOption": {
+				"text": "ზედა"
+			},
+			"topRightOption": {
+				"text": "ზედა|მარჯვნივ"
+			},
+			"rightOption": {
+				"text": "უფლება"
+			},
+			"bottomRightOption": {
+				"text": "ქვედა|მარჯვნივ"
+			},
+			"bottomOption": {
+				"text": "ქვედა"
+			},
+			"bottomLeftOption": {
+				"text": "ქვედა|მარცხნივ"
+			},
+			"leftOption": {
+				"text": "მარცხენა"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "მრავალგვერდიანი ჩვენების რეჟიმი:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "განლაგების მიმართულება:"
+			},
+			"horizontalOption": {
+				"text": "Ჰორიზონტალური"
+			},
+			"verticalOption": {
+				"text": "ვერტიკალური"
+			},
+			"rowColumnCountLabel": {
+				"text": "სურათები მწკრივში/სვეტში:"
+			},
+			"imagePaddingLabel": {
+				"text": "სურათების შევსება:"
+			},
+			"appearancesLabel": {
+				"text": "გარეგნობა"
+			},
+			"imageAppearanceLabel": {
+				"text": "გამოსახულების გარეგნობა"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "უკანა ფერი:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "საზღვრის ფერი:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "საზღვრის სიგანე:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "ორიენტირებული გამოსახულების გარეგნობა"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "უკანა ფერი:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "საზღვრის ფერი:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "საზღვრის სიგანე:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "გამოიყენეთ გამოსახულების გარეგნობა ერთგვერდიან რეჟიმში"
+			},
+			"renderingSettingsLabel": {
+				"text": "რენდერის პარამეტრები"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "ნაგულისხმევი პარამეტრები"
+			},
+			"horizontalResolutionLabel": {
+				"text": "ჰორიზონტალური გარჩევადობა:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "ვერტიკალური გარჩევადობა:"
+			},
+			"smoothingModeLabel": {
+				"text": "გლუვი რეჟიმი:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "არცერთი"
+			},
+			"interpolationModeLabel": {
+				"text": "ინტერპოლაციის რეჟიმი:"
+			},
+			"Bicubic": {
+				"text": "ბიკუბური"
+			},
+			"Bilinear": {
+				"text": "ორხაზოვანი"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "სხვა პარამეტრები"
+			},
+			"backgroundColorLabel": {
+				"text": "მნახველის ფონის ფერი:"
+			},
+			"centerImageLabel": {
+				"text": "ცენტრალური სურათი:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "ზომის შეცვლა დროის ამოწურვა:"
+			},
+			"tileSizeLabel": {
+				"text": "კრამიტის ზომა:"
+			},
+			"colorManagementLabel": {
+				"text": "ფერების მართვის ჩართვა:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "გამოიყენეთ ვექტორული რენდერი დოკუმენტებისთვის:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "ვექტორული შინაარსის ფონის ფერი:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"сancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "ზომა:"
+			},
+			"scaleLabel": {
+				"text": "მასშტაბი:"
+			},
+			"smallestOption": {
+				"text": "ყველაზე პატარა"
+			},
+			"smallOption": {
+				"text": "Პატარა"
+			},
+			"normalOption": {
+				"text": "ნორმალური"
+			},
+			"largeOption": {
+				"text": "დიდი"
+			},
+			"flowStyleLabel": {
+				"text": "ნაკადის სტილი:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "სვეტების რაოდენობა:"
+			},
+			"marginLabel": {
+				"text": "ზღვარი:"
+			},
+			"paddingTopLabel": {
+				"text": "ბალიშის ზედა:"
+			},
+			"paddingRightLabel": {
+				"text": "შეფუთვა მარჯვნივ:"
+			},
+			"paddingBottomLabel": {
+				"text": "ბალიშის ქვედა ნაწილი:"
+			},
+			"paddingLeftLabel": {
+				"text": "მარცხნივ შეფუთვა:"
+			},
+			"showCaptionLabel": {
+				"text": "წარწერების ჩვენება:"
+			},
+			"captionFormatLabel": {
+				"text": "წარწერის ფორმატი:"
+			},
+			"captionAnchorLabel": {
+				"text": "წარწერის წამყვანი:"
+			},
+			"topLeftOption": {
+				"text": "ზედა|მარცხნივ"
+			},
+			"topOption": {
+				"text": "ზედა"
+			},
+			"topRightOption": {
+				"text": "ზედა|მარჯვნივ"
+			},
+			"rightOption": {
+				"text": "უფლება"
+			},
+			"bottomRightOption": {
+				"text": "ქვედა|მარჯვნივ"
+			},
+			"bottomOption": {
+				"text": "ქვედა"
+			},
+			"bottomLeftOption": {
+				"text": "ქვედა|მარცხნივ"
+			},
+			"leftOption": {
+				"text": "მარცხენა"
+			},
+			"centerOption": {
+				"text": "ცენტრი"
+			},
+			"focusOnHoverLabel": {
+				"text": "ფოკუსირება ჰოვერზე:"
+			},
+			"multiSelectLabel": {
+				"text": "მრავალჯერადი შერჩევა:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "შეუძლია მინიატურების გადატანა:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"сancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "კუთხე:"
+			},
+			"borderColorTypeLabel": {
+				"text": "საზღვრის ფერის ტიპი:"
+			},
+			"autoDetectOption": {
+				"text": "AutoDetect"
+			},
+			"blackOption": {
+				"text": "შავი"
+			},
+			"whiteOption": {
+				"text": "თეთრი"
+			},
+			"transparentOption": {
+				"text": "გამჭვირვალე"
+			},
+			"customOption": {
+				"text": "საბაჟო"
+			},
+			"borderColorLabel": {
+				"text": "საზღვრის ფერი:"
+			},
+			"changeSourceLabel": {
+				"text": "წყაროს შეცვლა"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"annotationSettingsDialog": {
+			"title": "ანოტაციის პარამეტრები",
+			"Border": {
+				"text": "საზღვარი:"
+			},
+			"CanMirror": {
+				"text": "CanMirror:"
+			},
+			"CanMove": {
+				"text": "CanMove:"
+			},
+			"CanResize": {
+				"text": "CanResize:"
+			},
+			"CanRotate": {
+				"text": "CanRotate:"
+			},
+			"CreatedBy": {
+				"text": "CreatedBy:"
+			},
+			"CreationTime": {
+				"text": "CreationTime:"
+			},
+			"+ FillBrush": {
+				"text": "+ FillBrush:"
+			},
+			"Color": {
+				"text": "ფერი:"
+			},
+			"Type": {
+				"text": "ტიპი:"
+			},
+			"+ Font": {
+				"text": "+ შრიფტი:"
+			},
+			"Bold": {
+				"text": "თამამი:"
+			},
+			"FamilyName": {
+				"text": "FamilyName:"
+			},
+			"Italic": {
+				"text": "დახრილი:"
+			},
+			"Size": {
+				"text": "ზომა:"
+			},
+			"Strikeout": {
+				"text": "დარტყმა:"
+			},
+			"Underline": {
+				"text": "ხაზი გაუსვით:"
+			},
+			"Unit": {
+				"text": "ერთეული:"
+			},
+			"+ FontBrush": {
+				"text": "+ FontBrush:"
+			},
+			"FontTransparent": {
+				"text": "FontTransparent:"
+			},
+			"Guid": {
+				"text": "გიდი:"
+			},
+			"HorizontalMirrored": {
+				"text": "HorizontalMirrored:"
+			},
+			"IsBuilding": {
+				"text": "IsBuilding:"
+			},
+			"IsVisible": {
+				"text": "IsVisible:"
+			},
+			"LineStyle": {
+				"text": "LineStyle:"
+			},
+			"LineStylePatternSize": {
+				"text": "LineStylePatternSize:"
+			},
+			"+ Location": {
+				"text": "+ მდებარეობა:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "ModifiedBy:"
+			},
+			"Name": {
+				"text": "სახელი:"
+			},
+			"+ Outline": {
+				"text": "+ მონახაზი:"
+			},
+			"DashPattern": {
+				"text": "DashPattern:"
+			},
+			"DashStyle": {
+				"text": "DashStyle:"
+			},
+			"+ EndCap": {
+				"text": "+ EndCap:"
+			},
+			"+ Size": {
+				"text": "+ ზომა:"
+			},
+			"width": {
+				"text": "სიგანე:"
+			},
+			"height": {
+				"text": "სიმაღლე:"
+			},
+			"Style": {
+				"text": "სტილი:"
+			},
+			"LineJoin": {
+				"text": "LineJoin:"
+			},
+			"MiterLimit": {
+				"text": "MiterLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ StartCap:"
+			},
+			"Width": {
+				"text": "სიგანე:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ ResizePointTemplate:"
+			},
+			"BorderColor": {
+				"text": "BorderColor:"
+			},
+			"BorderWidth": {
+				"text": "BorderWidth:"
+			},
+			"FillColor": {
+				"text": "FillColor:"
+			},
+			"InteractionRadius": {
+				"text": "InteractionRadius:"
+			},
+			"Radius": {
+				"text": "რადიუსი:"
+			},
+			"Rotation": {
+				"text": "Როტაცია:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ RotationCenterPoint:"
+			},
+			"Cursor": {
+				"text": "კურსორი:"
+			},
+			"+ RotationPoint": {
+				"text": "+ ბრუნვის წერტილი:"
+			},
+			"RotationPointDistance": {
+				"text": "RotationPointDistance:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ ShadowBrush:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ ShadowOffset:"
+			},
+			"Symmetry": {
+				"text": "Სიმეტრია:"
+			},
+			"Text": {
+				"text": "ტექსტი:"
+			},
+			"TextAlign": {
+				"text": "TextAlign:"
+			},
+			"+ TextBox": {
+				"text": "+ ტექსტური ყუთი:"
+			},
+			"FontColor": {
+				"text": "FontColor:"
+			},
+			"FontFamily": {
+				"text": "FontFamily:"
+			},
+			"FontSize": {
+				"text": "FontSize:"
+			},
+			"TextBoxHeight": {
+				"text": "TextBoxHeight:"
+			},
+			"TextBoxWidth": {
+				"text": "TextBoxWidth:"
+			},
+			"+ TextPadding": {
+				"text": "+ ტექსტის დაფარვა:"
+			},
+			"left": {
+				"text": "მარცხენა:"
+			},
+			"right": {
+				"text": "უფლება:"
+			},
+			"top": {
+				"text": "ზედა:"
+			},
+			"bottom": {
+				"text": "ქვედა:"
+			},
+			"ToolTip": {
+				"text": "ToolTip:"
+			},
+			"VerticalMirrored": {
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "ადრე ატვირთული ფაილები"
+		},
+		"openButton": {
+			"text": "გახსენით"
+		},
+		"closeButton": {
+			"text": "დახურვა"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "შეცდომა"
+		},
+		"closeButton": {
+			"text": "დახურვა"
+		}
+	},
+	"strings": {
+		"vsdv-uploadFileButton-uploadFileString": "Ატვირთე ფაილი",
+		"vsdv-openFile-addFileString": "Ფაილის დამატება",
+		"vsdv-openFile-authenticateFileString": "ფაილის ავთენტიფიკაცია",
+		"vsdv-downloadFile-actionMessage": "Გადმოწერეთ ფაილი",
+		"vsdv-saveChanges-saveChangesInImages": "შეინახეთ ცვლილებები სურათებში",
+		"vsdv-saveChanges-saveChangesInAnnotations": "შეინახეთ ცვლილებები ანოტაციებში",
+		"vsdv-saveChanges-burnAnnotationsInImages": "ჩაწერეთ ანოტაციები სურათებზე",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "შეინახეთ ცვლილებები PDF დოკუმენტში",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "ანოტაციების დაწვა",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "შეინახეთ ანოტაციები",
+		"vsdv-annotationListPanel-pageLabel": "გვერდი",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "ანოტაციის თვისებები",
+		"vsdv-annotationCommentSettingsDialog-title": "ანოტაციის კომენტარის რედაქტირება",
+		"vsdv-dialog-okButton": "კარგი",
+		"vsdv-dialog-deleteButton": "წაშლა",
+		"vsdv-dialog-cancelButton": "გაუქმება",
+		"vsdv-documentPasswordDialog-title": "დოკუმენტის პაროლი",
+		"vsdv-documentPasswordPanel-authenticateFileString": "ფაილის ავთენტიფიკაცია",
+		"vsdv-imageSelectionDialog-title": "აირჩიეთ სურათები",
+		"vsdv-imageSelectionDialog-currentImageString": "მიმდინარე სურათი",
+		"vsdv-imageSelectionDialog-allImagesString": "ყველა სურათი",
+		"vsdv-imageSelectionDialog-customImagesString": "საბაჟო",
+		"vsdv-printImagesDialog-title": "სურათების დაბეჭდვა",
+		"vsdv-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
+		"vsdv-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
+		"vsdv-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "სურათის როტაცია ანოტაციებით",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "ბრუნვის კუთხე უნდა იყოს ნულზე მეტი.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "მბრუნავი სურათი ანოტაციებით"
+	}
+}

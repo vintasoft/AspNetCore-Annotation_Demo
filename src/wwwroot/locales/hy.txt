@@ -1,0 +1,959 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Ֆայլ"
+		},
+		"viewLabel": {
+			"text": "Դիտել"
+		},
+		"toolsLabel": {
+			"text": "Գործիքներ"
+		},
+		"annotationsLabel": {
+			"text": "Անոտացիաներ"
+		},
+		"uploadFileButton": {
+			"title": "Վերբեռնեք և բացեք ֆայլը"
+		},
+		"previousUploadFilesButton": {
+			"title": "Նախկինում բեռնված ֆայլեր"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Վերբեռնեք և բացեք պատկերի ֆայլը URL-ով"
+		},
+		"printImagesButton": {
+			"title": "Տպել պատկերներ"
+		},
+		"downloadFileButton": {
+			"title": "Ներբեռնել ֆայլը"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Արտահանել և ներբեռնել ֆայլը"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Հարմարեցրեք լայնությանը"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Պտտեցնել բոլոր դիտումները ժամացույցի սլաքի հակառակ ուղղությամբ"
+		},
+		"rotateAngleInput": {
+			"title": "Անկյուն"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Պտտեցնել բոլոր դիտումները ժամացույցի սլաքի ուղղությամբ"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Պատկերների դիտման կարգավորումներ"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Մանրապատկերների դիտման կարգավորումներ"
+		},
+		"panToolButton": {
+			"title": "Պան"
+		},
+		"magnifierToolButton": {
+			"title": "Խոշորացույց"
+		},
+		"zoomToolButton": {
+			"title": "Մեծացնել"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Մեծացնելու ընտրություն"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Ուղղանկյուն"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Էլիպս"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Ընդգծել"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Հղված պատկեր"
+		},
+		"addTextAnnotationButton": {
+			"title": "Տեքստ"
+		},
+		"addStampAnnotationButton": {
+			"title": "Կնիք"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Հղում"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Սլաք"
+		},
+		"addLineAnnotationButton": {
+			"title": "Գիծ"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Գծեր"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Բազմանկյուն"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Քանոն"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Եռանկյուն"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Փոխազդեցության ռեժիմ «Հեղինակ»"
+		},
+		"copyAnnotationButton": {
+			"title": "Պատճենել կենտրոնացված ծանոթագրությունը"
+		},
+		"pasteAnnotationButton": {
+			"title": "Տեղադրեք պատճենված ծանոթագրությունը"
+		},
+		"removeAnnotationButton": {
+			"title": "Հեռացրեք կենտրոնացված ծանոթագրությունը"
+		},
+		"burnAnnotationsButton": {
+			"title": "Այրել ծանոթագրությունների հավաքածու պատկերի վրա"
+		},
+		"saveAnnotationsButton": {
+			"title": "Պահպանեք ծանոթագրությունների հավաքածուի փոփոխությունները սերվերում"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Պտտեցնել պատկերը ծանոթագրություններով"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Միացնել հետարկել/վերագործարկել"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Հետարկել"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Կրկնել"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Միջին փոխազդեցության կետեր"
+		},
+		"showMobileMenuButton": {
+			"title": "Ավելին"
+		},
+		"sidePanelCloseButton": {
+			"title": "Ցույց տալ կողային վահանակը"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Մանրապատկերներ"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Անոտացիաներ"
+		},
+		"showAnnotationCommentListPanelButton": {
+			"title": "Անոտացիայի մեկնաբանությունների ցանկ"
+		},
+		"showFillAndSignPanelButton": {
+			"title": "Լրացրեք և ստորագրեք"
+		},
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Վկայագրի ֆայլ."
+			},
+			"uploadCertificateFileButton": {
+				"title": "Վերբեռնեք վկայագրի ֆայլը"
+			},
+			"certificatePasswordLabel": {
+				"text": "Վկայագրի գաղտնաբառը."
+			},
+			"useTestCertificateLabel": {
+				"text": "Օգտագործեք թեստի վկայական"
+			},
+			"serverLabel": {
+				"text": "Սերվեր:"
+			},
+			"loginLabel": {
+				"text": "Login:"
+			},
+			"passwordLabel": {
+				"text": "Գաղտնաբառ:"
+			},
+			"fillAndSignButton": {
+				"value": "Լրացրեք և ստորագրեք"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Անցեք առաջին պատկերին"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Անցեք նախորդ պատկերին"
+		},
+		"gotoPageInput": {
+			"title": "Էջ"
+		},
+		"gotoNextPageButton": {
+			"title": "Անցեք հաջորդ պատկերին"
+		},
+		"gotoLastPageButton": {
+			"title": "Անցեք վերջին պատկերին"
+		},
+		"zoomOutButton": {
+			"title": "Մանրացնել"
+		},
+		"zoomValueInput": {
+			"title": "Մեծացնել"
+		},
+		"zoomInButton": {
+			"title": "Խոշորացնել. մոտեցնել"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Հեղինակ:"
+			},
+			"commentSubjectLabel": {
+				"text": "Առարկա:"
+			},
+			"commentMessageLabel": {
+				"text": "Հաղորդագրություն:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Օգտագործեք մեկնաբանության կարգավիճակը"
+			},
+			"commentStatusLabel": {
+				"text": "Կարգավիճակը:"
+			},
+			"None": {
+				"text": "Ոչ ոք"
+			},
+			"Accepted": {
+				"text": "Ընդունված է"
+			},
+			"Completed": {
+				"text": "Ավարտված"
+			},
+			"Rejected": {
+				"text": "Մերժված է"
+			},
+			"Cancelled": {
+				"text": "Չեղարկված է"
+			},
+			"showStateHistoryLabel": {
+				"text": "Պատասխաններում ցույց տվեք պետության պատմությունը"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"deleteButton": {
+				"value": "Ջնջել"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"normalSizeModeButton": {
+			"title": "Նորմալ"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Լավագույն պիտանիությունը"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Հարմարվում է բարձրության վրա"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Պիքսելից պիքսել"
+		},
+		"zoomSizeModeButton": {
+			"title": "Մեծացնել"
+		},
+		"addArcAnnotationButton": {
+			"title": "Արկ"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Կպչուն նշում"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Ազատ տեքստ"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Կրկնակի սլաք"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Ինտերպոլացիայով գծեր"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Անվճար գծեր"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Բազմանկյուն ինտերպոլացիայով"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Ազատ ձեռքի բազմանկյուն"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Ամպային բազմանկյուն"
+		},
+		"addRulersAnnotationButton": {
+			"title": "տիրակալներ"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Անկյուն"
+		},
+		"addMarkAnnotationButton": {
+			"title": "նշագծել"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Փոխազդեցության ռեժիմ «Ոչ մի»"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Փոխազդեցության ռեժիմ «Դիտել»"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Փոխազդեցության փոքր կետեր"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Փոխազդեցության մեծ կետեր (սենսորային էկրան)"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Այս փաստաթուղթը պաշտպանված է գաղտնաբառով: Խնդրում ենք մուտքագրել գաղտնաբառ:"
+			},
+			"passwordLabel": {
+				"text": "Գաղտնաբառ:"
+			},
+			"showPasswordLabel": {
+				"text": "Ցույց տալ գաղտնաբառը"
+			},
+			"incorrectPasswordLabel": {
+				"text": "սխալ գաղտնաբառ"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"сancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Պատկերներ:"
+			},
+			"currentImageOption": {
+				"text": "Ընթացիկ պատկեր"
+			},
+			"allImagesOption": {
+				"text": "Բոլոր պատկերները"
+			},
+			"customImagesOption": {
+				"text": "Պատվերով"
+			},
+			"imageRangeLabel": {
+				"text": "Պատկերի տիրույթ:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Անվավեր էջի տիրույթ: Օրինակ՝ 1-5, 8, 12-15։"
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Ինդեքս՝ պատկերների հավաքածուից դուրս:"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"сancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Պատկերներ:"
+			},
+			"currentImageOption": {
+				"text": "Ընթացիկ պատկեր"
+			},
+			"allImagesOption": {
+				"text": "Բոլոր պատկերները"
+			},
+			"customImagesOption": {
+				"text": "Պատվերով"
+			},
+			"imageRangeLabel": {
+				"text": "Պատկերի տիրույթ:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Անվավեր էջի տիրույթ: Օրինակ՝ 1-5, 8, 12-15։"
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Ինդեքս՝ պատկերների հավաքածուից դուրս:"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Պատկերի ցուցադրման ռեժիմ."
+			},
+			"imageAnchorLabel": {
+				"text": "Պատկերի խարիսխ."
+			},
+			"noneOption": {
+				"text": "Ոչ ոք"
+			},
+			"topLeftOption": {
+				"text": "Վերև|Ձախ"
+			},
+			"topOption": {
+				"text": "Գագաթ"
+			},
+			"topRightOption": {
+				"text": "Վերև|Աջ"
+			},
+			"rightOption": {
+				"text": "Ճիշտ"
+			},
+			"bottomRightOption": {
+				"text": "Ներքևի|Աջ"
+			},
+			"bottomOption": {
+				"text": "Ներքևում"
+			},
+			"bottomLeftOption": {
+				"text": "Ներքևի|Ձախ"
+			},
+			"leftOption": {
+				"text": "Ձախ"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Բազմաէջ ցուցադրման ռեժիմ."
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Դասավորության ուղղությունը."
+			},
+			"horizontalOption": {
+				"text": "Հորիզոնական"
+			},
+			"verticalOption": {
+				"text": "Ուղղահայաց"
+			},
+			"rowColumnCountLabel": {
+				"text": "Պատկերներ տողով/սյունակով."
+			},
+			"imagePaddingLabel": {
+				"text": "Պատկերների լրացում."
+			},
+			"appearancesLabel": {
+				"text": "Արտաքին տեսք"
+			},
+			"imageAppearanceLabel": {
+				"text": "Պատկերի տեսքը"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Հետի գույնը."
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Սահմանի գույնը."
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Սահմանի լայնությունը."
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Կենտրոնացված պատկերի տեսք"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Հետի գույնը."
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Սահմանի գույնը."
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Սահմանի լայնությունը."
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Օգտագործեք պատկերի տեսքը մեկ էջի ռեժիմում"
+			},
+			"renderingSettingsLabel": {
+				"text": "Արտադրման կարգավորումներ"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Կանխադրված կարգավորումներ"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Հորիզոնական լուծում."
+			},
+			"verticalResolutionLabel ": {
+				"text": "Ուղղահայաց լուծում."
+			},
+			"smoothingModeLabel": {
+				"text": "Հարթեցման ռեժիմ."
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Ոչ ոք"
+			},
+			"interpolationModeLabel": {
+				"text": "Ինտերպոլացիայի ռեժիմ."
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Երկգծային"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Այլ կարգավորումներ"
+			},
+			"backgroundColorLabel": {
+				"text": "Դիտողի ֆոնի գույնը."
+			},
+			"centerImageLabel": {
+				"text": "Կենտրոնական պատկեր."
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Չափափոխել ժամկետը."
+			},
+			"tileSizeLabel": {
+				"text": "Սալիկի չափը:"
+			},
+			"colorManagementLabel": {
+				"text": "Միացնել գույների կառավարումը."
+			},
+			"useVectorRenderingLabel": {
+				"text": "Փաստաթղթերի համար օգտագործեք վեկտորային ձևավորում."
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Վեկտորի բովանդակության ֆոնի գույնը."
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"сancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Չափ:"
+			},
+			"scaleLabel": {
+				"text": "Սանդղակ:"
+			},
+			"smallestOption": {
+				"text": "Ամենափոքրը"
+			},
+			"smallOption": {
+				"text": "Փոքր"
+			},
+			"normalOption": {
+				"text": "Նորմալ"
+			},
+			"largeOption": {
+				"text": "Մեծ"
+			},
+			"flowStyleLabel": {
+				"text": "Հոսքի ոճ."
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Սյունակների քանակ."
+			},
+			"marginLabel": {
+				"text": "Լուսանցք:"
+			},
+			"paddingTopLabel": {
+				"text": "Լիցք վերև:"
+			},
+			"paddingRightLabel": {
+				"text": "Լիցքավորում աջ."
+			},
+			"paddingBottomLabel": {
+				"text": "Ներքևի լիցք."
+			},
+			"paddingLeftLabel": {
+				"text": "Լիցք ձախ."
+			},
+			"showCaptionLabel": {
+				"text": "Ցույց տալ ենթագրերը."
+			},
+			"captionFormatLabel": {
+				"text": "Վերնագրի ձևաչափ."
+			},
+			"captionAnchorLabel": {
+				"text": "Վերնագրի խարիսխ."
+			},
+			"topLeftOption": {
+				"text": "Վերև|Ձախ"
+			},
+			"topOption": {
+				"text": "Գագաթ"
+			},
+			"topRightOption": {
+				"text": "Վերև|Աջ"
+			},
+			"rightOption": {
+				"text": "Ճիշտ"
+			},
+			"bottomRightOption": {
+				"text": "Ներքևի|Աջ"
+			},
+			"bottomOption": {
+				"text": "Ներքևում"
+			},
+			"bottomLeftOption": {
+				"text": "Ներքևի|Ձախ"
+			},
+			"leftOption": {
+				"text": "Ձախ"
+			},
+			"centerOption": {
+				"text": "Կենտրոն"
+			},
+			"focusOnHoverLabel": {
+				"text": "Կենտրոնանալ Հովերի վրա."
+			},
+			"multiSelectLabel": {
+				"text": "Բազմակի ընտրություն."
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Կարող է քաշել մանրապատկերները՝"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"сancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Անկյուն:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Սահմանի գույնի տեսակը."
+			},
+			"autoDetectOption": {
+				"text": "AutoDetect"
+			},
+			"blackOption": {
+				"text": "Սեվ"
+			},
+			"whiteOption": {
+				"text": "Սպիտակ"
+			},
+			"transparentOption": {
+				"text": "Թափանցիկ"
+			},
+			"customOption": {
+				"text": "Պատվերով"
+			},
+			"borderColorLabel": {
+				"text": "Սահմանի գույնը:"
+			},
+			"changeSourceLabel": {
+				"text": "Փոխել աղբյուրը"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"annotationSettingsDialog": {
+			"title": "Անոտացիայի կարգավորումներ",
+			"Border": {
+				"text": "Սահման:"
+			},
+			"CanMirror": {
+				"text": "CanMirror:"
+			},
+			"CanMove": {
+				"text": "CanMove:"
+			},
+			"CanResize": {
+				"text": "CanResize:"
+			},
+			"CanRotate": {
+				"text": "CanRotate:"
+			},
+			"CreatedBy": {
+				"text": "CreatedBy:"
+			},
+			"CreationTime": {
+				"text": "CreationTime:"
+			},
+			"+ FillBrush": {
+				"text": "+ FillBrush:"
+			},
+			"Color": {
+				"text": "Գույնը:"
+			},
+			"Type": {
+				"text": "Տիպ:"
+			},
+			"+ Font": {
+				"text": "+ Տառատեսակը:"
+			},
+			"Bold": {
+				"text": "Համարձակ:"
+			},
+			"FamilyName": {
+				"text": "FamilyName:"
+			},
+			"Italic": {
+				"text": "Շեղագիր:"
+			},
+			"Size": {
+				"text": "Չափ:"
+			},
+			"Strikeout": {
+				"text": "Ստրայքաութ."
+			},
+			"Underline": {
+				"text": "Ընդգծիր."
+			},
+			"Unit": {
+				"text": "Միավոր:"
+			},
+			"+ FontBrush": {
+				"text": "+ FontBrush:"
+			},
+			"FontTransparent": {
+				"text": "FontTransparent:"
+			},
+			"Guid": {
+				"text": "Գիդ."
+			},
+			"HorizontalMirrored": {
+				"text": "HorizontalMirrored:"
+			},
+			"IsBuilding": {
+				"text": "IsBuilding:"
+			},
+			"IsVisible": {
+				"text": "IsVisible:"
+			},
+			"LineStyle": {
+				"text": "LineStyle:"
+			},
+			"LineStylePatternSize": {
+				"text": "LineStylePatternSize:"
+			},
+			"+ Location": {
+				"text": "+ Գտնվելու վայրը."
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "ModifiedBy:"
+			},
+			"Name": {
+				"text": "Անուն:"
+			},
+			"+ Outline": {
+				"text": "+ Ուրվագիծ."
+			},
+			"DashPattern": {
+				"text": "DashPattern:"
+			},
+			"DashStyle": {
+				"text": "DashStyle:"
+			},
+			"+ EndCap": {
+				"text": "+ EndCap:"
+			},
+			"+ Size": {
+				"text": "+ Չափ:"
+			},
+			"width": {
+				"text": "լայնությունը:"
+			},
+			"height": {
+				"text": "բարձրություն:"
+			},
+			"Style": {
+				"text": "Ոճը:"
+			},
+			"LineJoin": {
+				"text": "LineJoin:"
+			},
+			"MiterLimit": {
+				"text": "MiterLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ StartCap:"
+			},
+			"Width": {
+				"text": "Լայնությունը:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ ResizePointTemplate:"
+			},
+			"BorderColor": {
+				"text": "BorderColor:"
+			},
+			"BorderWidth": {
+				"text": "BorderWidth:"
+			},
+			"FillColor": {
+				"text": "FillColor:"
+			},
+			"InteractionRadius": {
+				"text": "InteractionRadius:"
+			},
+			"Radius": {
+				"text": "Շառավիղը:"
+			},
+			"Rotation": {
+				"text": "Ռոտացիա:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ RotationCenterPoint:"
+			},
+			"Cursor": {
+				"text": "Կուրսորը՝"
+			},
+			"+ RotationPoint": {
+				"text": "+ RotationPoint:"
+			},
+			"RotationPointDistance": {
+				"text": "RotationPointDistance:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ ShadowBrush:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ ShadowOffset:"
+			},
+			"Symmetry": {
+				"text": "Համաչափություն:"
+			},
+			"Text": {
+				"text": "Տեքստ՝"
+			},
+			"TextAlign": {
+				"text": "TextAlign:"
+			},
+			"+ TextBox": {
+				"text": "+ TextBox:"
+			},
+			"FontColor": {
+				"text": "FontColor:"
+			},
+			"FontFamily": {
+				"text": "FontFamily:"
+			},
+			"FontSize": {
+				"text": "FontSize:"
+			},
+			"TextBoxHeight": {
+				"text": "TextBoxHeight:"
+			},
+			"TextBoxWidth": {
+				"text": "TextBoxWidth:"
+			},
+			"+ TextPadding": {
+				"text": "+ TextPadding."
+			},
+			"left": {
+				"text": "ձախ:"
+			},
+			"right": {
+				"text": "ճիշտ:"
+			},
+			"top": {
+				"text": "գագաթ:"
+			},
+			"bottom": {
+				"text": "ներքեւ:"
+			},
+			"ToolTip": {
+				"text": "ToolTip:"
+			},
+			"VerticalMirrored": {
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "լավ"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Նախկինում վերբեռնված ֆայլերը"
+		},
+		"openButton": {
+			"text": "Բաց"
+		},
+		"closeButton": {
+			"text": "փակել"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Սխալ"
+		},
+		"closeButton": {
+			"text": "փակել"
+		}
+	},
+	"strings": {
+		"vsdv-uploadFileButton-uploadFileString": "Ներբեռնել ֆայլ",
+		"vsdv-openFile-addFileString": "Ավելացնել ֆայլ",
+		"vsdv-openFile-authenticateFileString": "Նույնականացնել ֆայլը",
+		"vsdv-downloadFile-actionMessage": "Ներբեռնել ֆայլը",
+		"vsdv-saveChanges-saveChangesInImages": "Պահպանեք պատկերների փոփոխությունները",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Պահպանեք փոփոխությունները ծանոթագրություններում",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Այրել ծանոթագրությունները պատկերների վրա",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Պահպանեք փոփոխությունները PDF փաստաթղթում",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Այրել ծանոթագրությունները",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Պահպանեք ծանոթագրությունները",
+		"vsdv-annotationListPanel-pageLabel": "Էջ",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Անոտացիայի հատկություններ",
+		"vsdv-annotationCommentSettingsDialog-title": "Խմբագրել անոտացիայի մեկնաբանությունը",
+		"vsdv-dialog-okButton": "լավ",
+		"vsdv-dialog-deleteButton": "Ջնջել",
+		"vsdv-dialog-cancelButton": "Չեղարկել",
+		"vsdv-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Նույնականացնել ֆայլը",
+		"vsdv-imageSelectionDialog-title": "Ընտրեք պատկերներ",
+		"vsdv-imageSelectionDialog-currentImageString": "Ընթացիկ պատկեր",
+		"vsdv-imageSelectionDialog-allImagesString": "Բոլոր պատկերները",
+		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
+		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
+		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
+		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
+		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Պտտեցնել պատկերը ծանոթագրություններով",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Պտտման անկյունը պետք է լինի զրոյից ավելի:",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Պտտվող պատկեր՝ ծանոթագրություններով"
+	}
+}

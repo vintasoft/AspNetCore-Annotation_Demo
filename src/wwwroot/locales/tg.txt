@@ -1,0 +1,959 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"viewLabel": {
+			"text": "Намоиш"
+		},
+		"toolsLabel": {
+			"text": "Воситаҳо"
+		},
+		"annotationsLabel": {
+			"text": "Аннотацияҳо"
+		},
+		"uploadFileButton": {
+			"title": "Файлро бор кунед ва кушоед"
+		},
+		"previousUploadFilesButton": {
+			"title": "Файлҳои қаблан боршуда"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Файли тасвириро тавассути URL бор кунед ва кушоед"
+		},
+		"printImagesButton": {
+			"title": "Тасвирҳоро чоп кунед"
+		},
+		"downloadFileButton": {
+			"title": "Файлро зеркашӣ кунед"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Файлро содирот ва зеркашӣ кунед"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Ба паҳнои мувофиқ"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Ҳама намудҳоро ба муқобили ақрабаки соат гардонед"
+		},
+		"rotateAngleInput": {
+			"title": "Кунҷ"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Ҳама намудҳоро бо ақрабаки соат гардиш кунед"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Танзимоти намоишгари тасвир"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Танзимоти намоишгари ангора"
+		},
+		"panToolButton": {
+			"title": "Пан"
+		},
+		"magnifierToolButton": {
+			"title": "Бузургкунанда"
+		},
+		"zoomToolButton": {
+			"title": "Масштаб"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Интихоби масштаб"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Росткунҷа"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Эллипс"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Таъкид кардан"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Тасвири истинодшуда"
+		},
+		"addTextAnnotationButton": {
+			"title": "Матн"
+		},
+		"addStampAnnotationButton": {
+			"title": "Мӯҳр"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Пайванд"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Тир"
+		},
+		"addLineAnnotationButton": {
+			"title": "Хат"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Хатҳо"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Бисёркунҷа"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Ҳоким"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Секунҷа"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Ҳолати ҳамкорӣ 'Муаллиф'"
+		},
+		"copyAnnotationButton": {
+			"title": "Аннотацияи мутамарказро нусхабардорӣ кунед"
+		},
+		"pasteAnnotationButton": {
+			"title": "Аннотацияи нусхабардориро часбонед"
+		},
+		"removeAnnotationButton": {
+			"title": "Аннотацияи мутамарказро хориҷ кунед"
+		},
+		"burnAnnotationsButton": {
+			"title": "Маҷмӯаи эзоҳҳоро дар тасвир сабт кунед"
+		},
+		"saveAnnotationsButton": {
+			"title": "Тағироти ҷамъоварии эзоҳҳоро дар сервер захира кунед"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Тасвирро бо эзоҳҳо гардиш кунед"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Барқарор/бозкоркуниро фаъол созед"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Бекор кардан"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Такрор кунед"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Нуқтаҳои мутақобилаи миёна"
+		},
+		"showMobileMenuButton": {
+			"title": "Бештар"
+		},
+		"sidePanelCloseButton": {
+			"title": "Намоиши панели паҳлӯ"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Суратҳо"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Аннотацияҳо"
+		},
+		"showAnnotationCommentListPanelButton": {
+			"title": "Рӯйхати шарҳҳои эзоҳ"
+		},
+		"showFillAndSignPanelButton": {
+			"title": "Пур кунед ва имзо кунед"
+		},
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Файли шаҳодатнома:"
+			},
+			"uploadCertificateFileButton": {
+				"title": "Файли сертификатро бор кунед"
+			},
+			"certificatePasswordLabel": {
+				"text": "Пароли сертификат:"
+			},
+			"useTestCertificateLabel": {
+				"text": "Шаҳодатномаи санҷишро истифода баред"
+			},
+			"serverLabel": {
+				"text": "Сервер:"
+			},
+			"loginLabel": {
+				"text": "Login:"
+			},
+			"passwordLabel": {
+				"text": "Рамз:"
+			},
+			"fillAndSignButton": {
+				"value": "Пур кунед ва имзо кунед"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Ба тасвири аввал гузаред"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Ба тасвири қаблӣ гузаред"
+		},
+		"gotoPageInput": {
+			"title": "Саҳифа"
+		},
+		"gotoNextPageButton": {
+			"title": "Ба тасвири навбатӣ гузаред"
+		},
+		"gotoLastPageButton": {
+			"title": "Ба тасвири охирин гузаред"
+		},
+		"zoomOutButton": {
+			"title": "Масоҳат кардан"
+		},
+		"zoomValueInput": {
+			"title": "Масштаб"
+		},
+		"zoomInButton": {
+			"title": "Масштаб кардан"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Муаллиф:"
+			},
+			"commentSubjectLabel": {
+				"text": "Мавзӯъ:"
+			},
+			"commentMessageLabel": {
+				"text": "Паём:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Ҳолати шарҳро истифода баред"
+			},
+			"commentStatusLabel": {
+				"text": "Статус:"
+			},
+			"None": {
+				"text": "Ҳеҷ"
+			},
+			"Accepted": {
+				"text": "Қабул карда шудааст"
+			},
+			"Completed": {
+				"text": "Ба итмом расид"
+			},
+			"Rejected": {
+				"text": "Рад карда шуд"
+			},
+			"Cancelled": {
+				"text": "Бекор карда шуд"
+			},
+			"showStateHistoryLabel": {
+				"text": "Дар ҷавобҳо таърихи давлатро нишон диҳед"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"deleteButton": {
+				"value": "Нобуд кунед"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"normalSizeModeButton": {
+			"title": "Муқаррарӣ"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Беҳтарин мувофиқ"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Ба баландӣ мувофиқат кунед"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Пиксел ба пиксел"
+		},
+		"zoomSizeModeButton": {
+			"title": "Масштаб"
+		},
+		"addArcAnnotationButton": {
+			"title": "Арк"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Ёддошти часпанда"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Матни озод"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Тирчаи дукарата"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Хатҳои бо интерполясия"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Хатҳои озод"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Бисёркунҷа бо интерполясия"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Бисёркунҷаи озод"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Бисёркунҷаи абрӣ"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Ҳокимон"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Кунҷ"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Марк"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Ҳолати ҳамкорӣ 'Не'"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Ҳолати ҳамкорӣ 'Намоиш'"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Нуқтаҳои хурди мутақобила"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Нуқтаҳои муштараки калон (экрани сенсорӣ)"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Ин ҳуҷҷат бо парол муҳофизат карда шудааст. Лутфан парол ворид кунед."
+			},
+			"passwordLabel": {
+				"text": "Рамз:"
+			},
+			"showPasswordLabel": {
+				"text": "Нишон додани парол"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Рамзи нодуруст"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"сancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Тасвирҳо:"
+			},
+			"currentImageOption": {
+				"text": "Тасвири ҷорӣ"
+			},
+			"allImagesOption": {
+				"text": "Ҳама тасвирҳо"
+			},
+			"customImagesOption": {
+				"text": "Фармоишгар"
+			},
+			"imageRangeLabel": {
+				"text": "Диапазони тасвир:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Диапазони саҳифа нодуруст. Масалан: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Индекс аз доираи ҷамъоварии тасвирҳо берун аст."
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"сancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Тасвирҳо:"
+			},
+			"currentImageOption": {
+				"text": "Тасвири ҷорӣ"
+			},
+			"allImagesOption": {
+				"text": "Ҳама тасвирҳо"
+			},
+			"customImagesOption": {
+				"text": "Фармоишгар"
+			},
+			"imageRangeLabel": {
+				"text": "Диапазони тасвир:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Диапазони саҳифа нодуруст. Масалан: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Индекс аз доираи ҷамъоварии тасвирҳо берун аст."
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Ҳолати намоиши тасвир:"
+			},
+			"imageAnchorLabel": {
+				"text": "Лангари тасвир:"
+			},
+			"noneOption": {
+				"text": "Ҳеҷ"
+			},
+			"topLeftOption": {
+				"text": "Боло | Чап"
+			},
+			"topOption": {
+				"text": "боло"
+			},
+			"topRightOption": {
+				"text": "боло|Раст"
+			},
+			"rightOption": {
+				"text": "Дуруст"
+			},
+			"bottomRightOption": {
+				"text": "Поён|Рост"
+			},
+			"bottomOption": {
+				"text": "Поён"
+			},
+			"bottomLeftOption": {
+				"text": "Поён|Чап"
+			},
+			"leftOption": {
+				"text": "Чап"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Ҳолати намоиши бисёрсаҳифа:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Самти тарҳрезӣ:"
+			},
+			"horizontalOption": {
+				"text": "Уфуқӣ"
+			},
+			"verticalOption": {
+				"text": "Амудӣ"
+			},
+			"rowColumnCountLabel": {
+				"text": "Тасвирҳо дар сатр/сутун:"
+			},
+			"imagePaddingLabel": {
+				"text": "Ҷойгиркунии тасвирҳо:"
+			},
+			"appearancesLabel": {
+				"text": "Намоишҳо"
+			},
+			"imageAppearanceLabel": {
+				"text": "Намуди зоҳирии тасвир"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Ранги пушти:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Ранги сарҳад:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Бари сарҳад:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Намуди зоҳирии тасвири мутамарказ"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Ранги пушти:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Ранги сарҳад:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Бари сарҳад:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Намуди тасвирро дар ҳолати яксаҳифа истифода баред"
+			},
+			"renderingSettingsLabel": {
+				"text": "Танзимоти намоиш"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Танзимоти пешфарз"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Ҳалли уфуқӣ:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Ҳалли амудӣ:"
+			},
+			"smoothingModeLabel": {
+				"text": "Ҳолати ҳамворкунӣ:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Ҳеҷ"
+			},
+			"interpolationModeLabel": {
+				"text": "Усули интерполяция:"
+			},
+			"Bicubic": {
+				"text": "Бикубӣ"
+			},
+			"Bilinear": {
+				"text": "Билинарӣ"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Дигар танзимот"
+			},
+			"backgroundColorLabel": {
+				"text": "Ранги заминаи тамошобин:"
+			},
+			"centerImageLabel": {
+				"text": "Тасвири марказӣ:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Тағйир додани андоза:"
+			},
+			"tileSizeLabel": {
+				"text": "Андозаи плитка:"
+			},
+			"colorManagementLabel": {
+				"text": "Идоракунии рангро фаъол созед:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Нусхаи векториро барои ҳуҷҷатҳо истифода баред:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Ранги заминаи мундариҷаи векторӣ:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"сancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "андоза:"
+			},
+			"scaleLabel": {
+				"text": "Миқёс:"
+			},
+			"smallestOption": {
+				"text": "Хурдтарин"
+			},
+			"smallOption": {
+				"text": "Хурд"
+			},
+			"normalOption": {
+				"text": "Муқаррарӣ"
+			},
+			"largeOption": {
+				"text": "Калон"
+			},
+			"flowStyleLabel": {
+				"text": "Услуби ҷараён:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Шумораи сутунҳо:"
+			},
+			"marginLabel": {
+				"text": "Маржа:"
+			},
+			"paddingTopLabel": {
+				"text": "Сарпӯши боло:"
+			},
+			"paddingRightLabel": {
+				"text": "Пӯсти рост:"
+			},
+			"paddingBottomLabel": {
+				"text": "Поёни пуркунӣ:"
+			},
+			"paddingLeftLabel": {
+				"text": "Пӯшидани чап:"
+			},
+			"showCaptionLabel": {
+				"text": "Нишон додани сарлавҳаҳо:"
+			},
+			"captionFormatLabel": {
+				"text": "Формати сарлавҳа:"
+			},
+			"captionAnchorLabel": {
+				"text": "Лангари сарлавҳа:"
+			},
+			"topLeftOption": {
+				"text": "Боло | Чап"
+			},
+			"topOption": {
+				"text": "боло"
+			},
+			"topRightOption": {
+				"text": "боло|Раст"
+			},
+			"rightOption": {
+				"text": "Дуруст"
+			},
+			"bottomRightOption": {
+				"text": "Поён|Рост"
+			},
+			"bottomOption": {
+				"text": "Поён"
+			},
+			"bottomLeftOption": {
+				"text": "Поён|Чап"
+			},
+			"leftOption": {
+				"text": "Чап"
+			},
+			"centerOption": {
+				"text": "Марказ"
+			},
+			"focusOnHoverLabel": {
+				"text": "Таваҷҷӯҳ ба Hoover:"
+			},
+			"multiSelectLabel": {
+				"text": "Интихоби бисёрҷониба:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Метавонад эскизҳоро кашад:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"сancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "Кунҷ:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Навъи ранги сарҳадӣ:"
+			},
+			"autoDetectOption": {
+				"text": "AutoDetect"
+			},
+			"blackOption": {
+				"text": "Сиёҳ"
+			},
+			"whiteOption": {
+				"text": "Сафед"
+			},
+			"transparentOption": {
+				"text": "Шаффоф"
+			},
+			"customOption": {
+				"text": "Фармоишгар"
+			},
+			"borderColorLabel": {
+				"text": "Ранги сарҳад:"
+			},
+			"changeSourceLabel": {
+				"text": "Тағйир додани манбаъ"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"annotationSettingsDialog": {
+			"title": "Танзимоти эзоҳ",
+			"Border": {
+				"text": "Сарҳад:"
+			},
+			"CanMirror": {
+				"text": "CanMirror:"
+			},
+			"CanMove": {
+				"text": "CanMove:"
+			},
+			"CanResize": {
+				"text": "CanResize:"
+			},
+			"CanRotate": {
+				"text": "CanRotate:"
+			},
+			"CreatedBy": {
+				"text": "CreatedBy:"
+			},
+			"CreationTime": {
+				"text": "CreationTime:"
+			},
+			"+ FillBrush": {
+				"text": "+ FillBrush:"
+			},
+			"Color": {
+				"text": "Ранги:"
+			},
+			"Type": {
+				"text": "Навъи:"
+			},
+			"+ Font": {
+				"text": "+ Шрифт:"
+			},
+			"Bold": {
+				"text": "ғафс:"
+			},
+			"FamilyName": {
+				"text": "FamilyName:"
+			},
+			"Italic": {
+				"text": "Курсив:"
+			},
+			"Size": {
+				"text": "андоза:"
+			},
+			"Strikeout": {
+				"text": "Барканор:"
+			},
+			"Underline": {
+				"text": "Зери хат кашидан:"
+			},
+			"Unit": {
+				"text": "Воҳиди:"
+			},
+			"+ FontBrush": {
+				"text": "+ FontBrush:"
+			},
+			"FontTransparent": {
+				"text": "FontTransparent:"
+			},
+			"Guid": {
+				"text": "Роҳнамо:"
+			},
+			"HorizontalMirrored": {
+				"text": "HorizontalMirrored:"
+			},
+			"IsBuilding": {
+				"text": "IsBuilding:"
+			},
+			"IsVisible": {
+				"text": "IsVisible:"
+			},
+			"LineStyle": {
+				"text": "LineStyle:"
+			},
+			"LineStylePatternSize": {
+				"text": "LineStylePatternSize:"
+			},
+			"+ Location": {
+				"text": "+ Ҷойгиршавӣ:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "ModifiedBy:"
+			},
+			"Name": {
+				"text": "Ном:"
+			},
+			"+ Outline": {
+				"text": "+ Шарҳ:"
+			},
+			"DashPattern": {
+				"text": "DashPattern:"
+			},
+			"DashStyle": {
+				"text": "DashStyle:"
+			},
+			"+ EndCap": {
+				"text": "+ EndCap:"
+			},
+			"+ Size": {
+				"text": "+ Андоза:"
+			},
+			"width": {
+				"text": "паҳнои:"
+			},
+			"height": {
+				"text": "баландӣ:"
+			},
+			"Style": {
+				"text": "Услуб:"
+			},
+			"LineJoin": {
+				"text": "LineJoin:"
+			},
+			"MiterLimit": {
+				"text": "MiterLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ StartCap:"
+			},
+			"Width": {
+				"text": "Бар:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ ResizePointTamplate:"
+			},
+			"BorderColor": {
+				"text": "BorderColor:"
+			},
+			"BorderWidth": {
+				"text": "BorderWidth:"
+			},
+			"FillColor": {
+				"text": "FillColor:"
+			},
+			"InteractionRadius": {
+				"text": "InteractionRadius:"
+			},
+			"Radius": {
+				"text": "Радиус:"
+			},
+			"Rotation": {
+				"text": "Ротатсия:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ RotationCenterPoint:"
+			},
+			"Cursor": {
+				"text": "Курсор:"
+			},
+			"+ RotationPoint": {
+				"text": "+ Нуқтаи гардиш:"
+			},
+			"RotationPointDistance": {
+				"text": "RotationPointDistance:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ ShadowBrush:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ ShadowOffset:"
+			},
+			"Symmetry": {
+				"text": "Симметрия:"
+			},
+			"Text": {
+				"text": "Матн:"
+			},
+			"TextAlign": {
+				"text": "TextAlign:"
+			},
+			"+ TextBox": {
+				"text": "+ Қуттии матн:"
+			},
+			"FontColor": {
+				"text": "FontColor:"
+			},
+			"FontFamily": {
+				"text": "FontFamily:"
+			},
+			"FontSize": {
+				"text": "FontSize:"
+			},
+			"TextBoxHeight": {
+				"text": "TextBoxHeight:"
+			},
+			"TextBoxWidth": {
+				"text": "TextBoxWidth:"
+			},
+			"+ TextPadding": {
+				"text": "+ TextPadding:"
+			},
+			"left": {
+				"text": "чап:"
+			},
+			"right": {
+				"text": "рост:"
+			},
+			"top": {
+				"text": "боло:"
+			},
+			"bottom": {
+				"text": "поён:"
+			},
+			"ToolTip": {
+				"text": "ToolTip:"
+			},
+			"VerticalMirrored": {
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Файлҳои қаблан боршуда"
+		},
+		"openButton": {
+			"text": "Кушодан"
+		},
+		"closeButton": {
+			"text": "Пӯшед"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Хатогӣ"
+		},
+		"closeButton": {
+			"text": "Пӯшед"
+		}
+	},
+	"strings": {
+		"vsdv-uploadFileButton-uploadFileString": "Файлро бор кунед",
+		"vsdv-openFile-addFileString": "Илова кардани файл",
+		"vsdv-openFile-authenticateFileString": "Файлро тасдиқ кунед",
+		"vsdv-downloadFile-actionMessage": "Файлро зеркашӣ кунед",
+		"vsdv-saveChanges-saveChangesInImages": "Тағиротро дар тасвирҳо захира кунед",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Тағиротро дар шарҳҳо захира кунед",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Аннотацияҳоро дар тасвирҳо сӯзонед",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Аннотацияҳоро сӯзондан",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Эзоҳҳоро захира кунед",
+		"vsdv-annotationListPanel-pageLabel": "Саҳифа",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Хусусиятҳои эзоҳ",
+		"vsdv-annotationCommentSettingsDialog-title": "Тафсири эзоҳро таҳрир кунед",
+		"vsdv-dialog-okButton": "ДУРУСТ",
+		"vsdv-dialog-deleteButton": "Нобуд кунед",
+		"vsdv-dialog-cancelButton": "Бекор кардан",
+		"vsdv-documentPasswordDialog-title": "Пароли ҳуҷҷат",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
+		"vsdv-imageSelectionDialog-title": "Тасвирҳоро интихоб кунед",
+		"vsdv-imageSelectionDialog-currentImageString": "Тасвири ҷорӣ",
+		"vsdv-imageSelectionDialog-allImagesString": "Ҳама тасвирҳо",
+		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
+		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
+		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
+		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
+		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Тасвирро бо эзоҳҳо гардиш кунед",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кунҷи гардиш бояд аз сифр зиёд бошад.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Тасвирро даврзананда бо эзоҳҳо"
+	}
+}

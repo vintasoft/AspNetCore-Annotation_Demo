@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Посмотреть список ранее загруженных файлов"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Загрузить и откройть файл изображения по URL-адресу"
+		},
 		"printImagesButton": {
 			"title": "Распечатать изображения"
 		},
 		"downloadFileButton": {
-			"title": "Загрузить файл изображения"
+			"title": "Загрузить файл"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Экспортировать и скачать файл"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "По ширине"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Повернуть изображение против часовой стрелки"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Повернуть все виды против часовой стрелки"
 		},
 		"rotateAngleInput": {
 			"title": "Угол поворота"
 		},
-		"rotateClockwiseButton": {
-			"title": "Повернуть изображение по часовой стрелке"
+		"rotateViewsClockwiseButton": {
+			"title": "Повернуть все виды по часовой стрелке"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Настройки просмотрщика изображений"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Настройки просмотрщика миниатюр"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Аннотации, Навигация по документу, Выбор текста"
 		},
 		"panToolButton": {
 			"title": "Панорамирование"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Аннотации"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Выделение текста"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Список комментариев к аннотации"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Поиск текста"
+		"showFillAndSignPanelButton": {
+			"title": "Заполните и подпишите"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Режим выбора текста:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Файл сертификата:"
 			},
-			"rectangleOption": {
-				"text": "Прямоугольник"
+			"uploadCertificateFileButton": {
+				"title": "Загрузить файл сертификата"
 			},
-			"fullLinesOption": {
-				"text": "Полные строки"
+			"certificatePasswordLabel": {
+				"text": "Пароль сертификата:"
 			},
-			"selectionColorLabel": {
-				"text": "Цвет выделенного текста:"
+			"useTestCertificateLabel": {
+				"text": "Использовать тестовый сертификат"
 			},
-			"selectedTextLabel": {
-				"text": "Выделенный текст:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Найти:"
+			"serverLabel": {
+				"text": "Сервер:"
 			},
-			"whereLookLabel": {
-				"text": "Искать на:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Текущей странице"
+			"passwordLabel": {
+				"text": "Пароль:"
 			},
-			"allPagesOption": {
-				"text": "Всех страницах"
-			},
-			"wholeWordLabel": {
-				"text": "Искать слово целиком"
-			},
-			"caseSensitiveLabel": {
-				"text": "С учетом регистра"
-			},
-			"startSearchButton": {
-				"value": "Начать поиск"
-			},
-			"stopSearchButton": {
-				"value": "Остановить поиск"
-			},
-			"textNotFoundLabel": {
-				"text": "Текст не найден."
+			"fillAndSignButton": {
+				"value": "Заполните и подпишите"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Увеличить масштаб"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"commentSubjectLabel": {
+				"text": "Предмет:"
+			},
+			"commentMessageLabel": {
+				"text": "Сообщение:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Использовать статус комментария"
+			},
+			"commentStatusLabel": {
+				"text": "Статус:"
+			},
+			"None": {
+				"text": "Нет"
+			},
+			"Accepted": {
+				"text": "Одобрено"
+			},
+			"Completed": {
+				"text": "Завершено"
+			},
+			"Rejected": {
+				"text": "Отклонено"
+			},
+			"Cancelled": {
+				"text": "Отменено"
+			},
+			"showStateHistoryLabel": {
+				"text": "Показывать историю состояния в ответах"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"deleteButton": {
+				"value": "Удалить"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Нормальный"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Большие точки взаимодействия (сенсорный экран)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Копировать аннотацию"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Вставить аннотацию"
-			},
-			"removeAnnotationLabel": {
-				"text": "Удалить аннотацию"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Переместить на задний план"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Переместить на передний план"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Группировать все аннотации"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Разгруппировать аннотацию"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Свойства аннотации..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "Многостраничный режим отображения:"
 			},
 			"allImagesOption": {
-				"text": "Все изображения"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Фиксированные изображения"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Направление макета:"
@@ -565,16 +566,16 @@
 				"text": "Стиль размещения миниатюр:"
 			},
 			"singleColumnOption": {
-				"text": "Один столбец"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Одна строка"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Фиксированное количество столбцов"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Плавающее количество строк"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Количество столбцов:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Разрешить выбор нескольких миниатюр:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Можно перетаскивать миниатюры:"
+			},
 			"okButton": {
 				"value": "ОК"
 			},
@@ -651,7 +655,7 @@
 				"text": "Тип цвета границы:"
 			},
 			"autoDetectOption": {
-				"text": "Автоопределение"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Черный"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "Отмена"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Ранее загруженные файлы"
 		},
-		"openButton": {
-			"text": "Открыть файл"
-		},
-		"closeButton": {
-			"text": "Закрыть"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Свойства аннотации"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Настройки аннотаций",
 			"Border": {
 				"text": "Граница:"
 			},
 			"CanMirror": {
-				"text": "Можно зеркалировать:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Можно перемещать:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Можно изменять размер:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Можно вращать:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Автор:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Время создания:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Заливка:"
@@ -732,7 +721,7 @@
 				"text": "Жирный шрифт:"
 			},
 			"FamilyName": {
-				"text": "Имя семейства:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Курсив:"
@@ -753,25 +742,25 @@
 				"text": "+ Кисть шрифта:"
 			},
 			"FontTransparent": {
-				"text": "Прозрачный шрифт:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "Идентификатор:"
 			},
 			"HorizontalMirrored": {
-				"text": "Отражено по горизонтали:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Аннотация строится:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Аннотация видима:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Стиль линии:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Размер шаблона стиля линии:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Местоположение:"
@@ -783,10 +772,7 @@
 				"text": "у:"
 			},
 			"ModifiedBy": {
-				"text": "Изменено кем:"
-			},
-			"ModifiedTime": {
-				"text": "Время изменения:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Имя:"
@@ -795,10 +781,10 @@
 				"text": "+ Схема:"
 			},
 			"DashPattern": {
-				"text": "Паттерн штрихов:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Стиль штрихов:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Колпачок на конце линии:"
@@ -816,7 +802,7 @@
 				"text": "Стиль:"
 			},
 			"LineJoin": {
-				"text": "Соединение линий:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
 				"text": "MiterLimit:"
@@ -831,16 +817,16 @@
 				"text": "+ Шаблон точки изменения размера:"
 			},
 			"BorderColor": {
-				"text": "Цвет бордюра:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Ширина границы:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Цвет заливки:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Радиус области взаимодействия:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Радиус:"
@@ -858,7 +844,7 @@
 				"text": "+ Точка вращения:"
 			},
 			"RotationPointDistance": {
-				"text": "Расстояние до точки вращения:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Кисть для рисования тени:"
@@ -873,25 +859,25 @@
 				"text": "Текст:"
 			},
 			"TextAlign": {
-				"text": "Выравнивание текста:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Текстовое поле:"
 			},
 			"FontColor": {
-				"text": "Цвет шрифта:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Семейство шрифта:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Размер шрифта:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Высота текстового поля:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Ширина текстового поля:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Отступ текста:"
@@ -909,14 +895,25 @@
 				"text": "Снизу:"
 			},
 			"ToolTip": {
-				"text": "Подсказка:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Вертикальное зеркалирование:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "ОК"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Ранее загруженные файлы"
 		},
-		"okButton": {
-			"text": "ОК"
+		"openButton": {
+			"text": "Открыть файл"
+		},
+		"closeButton": {
+			"text": "Закрыть"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Страница",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Свойства аннотации",
-		"vssde-annotationListPanel-pageLabel": "Страница",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Свойства аннотации",
-		"vssde-textSearchPanel-pageLabel": "Страница",
-		"vssde-documentPasswordDialog-title": "Пароль к документу",
-		"vssde-dialog-okButton": "ОК",
-		"vssde-dialog-cancelButton": "Отмена",
-		"vssde-imageSelectionDialog-currentImageString": "Текущее изображение",
-		"vssde-imageSelectionDialog-allImagesString": "Все изображения",
-		"vssde-imageSelectionDialog-customImagesString": "Пользовательский",
-		"vssde-imageSelectionDialog-title": "Выберите изображения",
-		"vssde-printImagesDialog-withAnnotationsLabel": "с аннотациями",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Изображение готовится к печати",
-		"vssde-printImagesDialog-title": "Распечатать изображения",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
-		"vssde-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Угол поворота должен быть не равен 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Выполняется поворот изображения с аннотациями",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Повернуть изображение с аннотациями",
-		"vssde-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений"
+		"vsdv-uploadFileButton-uploadFileString": "Загрузить файл",
+		"vsdv-openFile-addFileString": "Добавить файл",
+		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
+		"vsdv-downloadFile-actionMessage": "Загрузить файл",
+		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Прожечь аннотации",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Сохранить аннотации",
+		"vsdv-annotationListPanel-pageLabel": "Страница",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Свойства аннотации",
+		"vsdv-annotationCommentSettingsDialog-title": "Редактировать комментарий аннотации",
+		"vsdv-dialog-okButton": "ОК",
+		"vsdv-dialog-deleteButton": "Удалить",
+		"vsdv-dialog-cancelButton": "Отмена",
+		"vsdv-documentPasswordDialog-title": "Пароль к документу",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Аутентификация файла",
+		"vsdv-imageSelectionDialog-title": "Выберите изображения",
+		"vsdv-imageSelectionDialog-currentImageString": "Текущее изображение",
+		"vsdv-imageSelectionDialog-allImagesString": "Все изображения",
+		"vsdv-imageSelectionDialog-customImagesString": "Пользовательский",
+		"vsdv-printImagesDialog-title": "Распечатать изображения",
+		"vsdv-printImagesPanel-imagePrintingString": "Изображение печатается",
+		"vsdv-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
+		"vsdv-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Повернуть изображение с аннотациями",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Угол поворота должен быть не равен 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Выполняется поворот изображения с аннотациями"
 	}
 }

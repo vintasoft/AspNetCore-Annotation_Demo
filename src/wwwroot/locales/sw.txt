@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Faili Zilizopakiwa Hapo awali"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Pakia na ufungue faili ya picha kwa URL"
+		},
 		"printImagesButton": {
 			"title": "Chapisha picha"
 		},
 		"downloadFileButton": {
-			"title": "Pakua Faili ya Picha"
+			"title": "Pakua faili"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Hamisha na kupakua faili"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inafaa kwa upana"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Zungusha picha kinyume cha saa"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Zungusha mionekano yote kinyume cha saa"
 		},
 		"rotateAngleInput": {
 			"title": "Pembe"
 		},
-		"rotateClockwiseButton": {
-			"title": "Zungusha picha kisaa"
+		"rotateViewsClockwiseButton": {
+			"title": "Zungusha mionekano yote kisaa"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Mipangilio ya kitazamaji picha"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Mipangilio ya kitazamaji cha kijipicha"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Ufafanuzi, Urambazaji wa Hati, Uchaguzi wa maandishi"
 		},
 		"panToolButton": {
 			"title": "Panua"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Maelezo"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Uchaguzi wa maandishi"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Orodha ya maoni ya ufafanuzi"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Tafuta maandishi"
+		"showFillAndSignPanelButton": {
+			"title": "Jaza na utie saini"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Hali ya uteuzi:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Faili ya cheti:"
 			},
-			"rectangleOption": {
-				"text": "Mstatili"
+			"uploadCertificateFileButton": {
+				"title": "Pakia faili ya Cheti"
 			},
-			"fullLinesOption": {
-				"text": "Mistari kamili"
+			"certificatePasswordLabel": {
+				"text": "Nenosiri la cheti:"
 			},
-			"selectionColorLabel": {
-				"text": "Rangi ya uteuzi:"
+			"useTestCertificateLabel": {
+				"text": "Tumia cheti cha mtihani"
 			},
-			"selectedTextLabel": {
-				"text": "Maandishi yaliyochaguliwa:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Tafuta:"
+			"serverLabel": {
+				"text": "Seva:"
 			},
-			"whereLookLabel": {
-				"text": "Angalia ndani:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Ukurasa wa sasa"
+			"passwordLabel": {
+				"text": "Nenosiri:"
 			},
-			"allPagesOption": {
-				"text": "Kurasa zote"
-			},
-			"wholeWordLabel": {
-				"text": "Neno zima"
-			},
-			"caseSensitiveLabel": {
-				"text": "Nyeti kwa kesi"
-			},
-			"startSearchButton": {
-				"value": "Anza"
-			},
-			"stopSearchButton": {
-				"value": "Acha"
-			},
-			"textNotFoundLabel": {
-				"text": "Maandishi hayapatikani."
+			"fillAndSignButton": {
+				"value": "Jaza na Usaini"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Vuta karibu"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Mwandishi:"
+			},
+			"commentSubjectLabel": {
+				"text": "Mada:"
+			},
+			"commentMessageLabel": {
+				"text": "Ujumbe:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Tumia hali ya maoni"
+			},
+			"commentStatusLabel": {
+				"text": "Hali:"
+			},
+			"None": {
+				"text": "Hakuna"
+			},
+			"Accepted": {
+				"text": "Imekubaliwa"
+			},
+			"Completed": {
+				"text": "Imekamilika"
+			},
+			"Rejected": {
+				"text": "Imekataliwa"
+			},
+			"Cancelled": {
+				"text": "Imeghairiwa"
+			},
+			"showStateHistoryLabel": {
+				"text": "Onyesha Historia ya Jimbo katika majibu"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"deleteButton": {
+				"value": "Futa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Kawaida"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Sehemu kubwa za mwingiliano (Skrini ya kugusa)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Nakili ufafanuzi"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Bandika kidokezo"
-			},
-			"removeAnnotationLabel": {
-				"text": "Ondoa ufafanuzi"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Kuleta nyuma"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Leta mbele"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Panga vidokezo vyote"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Tenganisha ufafanuzi"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Sifa za ufafanuzi..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,7 +423,7 @@
 				"text": "Hali ya kuonyesha kurasa nyingi:"
 			},
 			"allImagesOption": {
-				"text": "Picha Zote"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
 				"text": "FixedImages"
@@ -565,16 +566,16 @@
 				"text": "Mtindo wa Mtiririko:"
 			},
 			"singleColumnOption": {
-				"text": "Safu Wima Moja"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Mstari Mmoja"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Safu zisizohamishika"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Mistari Iliyofungwa"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Hesabu ya safu wima:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Chaguo nyingi:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Inaweza Kuburuta Vijipicha:"
+			},
 			"okButton": {
 				"value": "sawa"
 			},
@@ -651,7 +655,7 @@
 				"text": "Aina ya rangi ya mpaka:"
 			},
 			"autoDetectOption": {
-				"text": "Tambua kiotomatiki"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Nyeusi"
@@ -677,24 +681,9 @@
 			"cancelButton": {
 				"value": "Ghairi"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Faili zilizopakiwa hapo awali"
 		},
-		"openButton": {
-			"text": "Fungua"
-		},
-		"closeButton": {
-			"text": "Funga"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Sifa za ufafanuzi"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Mipangilio ya ufafanuzi",
 			"Border": {
 				"text": "Mpaka:"
 			},
@@ -711,7 +700,7 @@
 				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Imetengenezwa na:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
 				"text": "CreationTime:"
@@ -732,7 +721,7 @@
 				"text": "Mzito:"
 			},
 			"FamilyName": {
-				"text": "Jina la ukoo:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Italiki:"
@@ -762,10 +751,10 @@
 				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Jengo:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Inaonekana:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
 				"text": "LineStyle:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "ImebadilishwaNa:"
-			},
-			"ModifiedTime": {
-				"text": "Muda uliobadilishwa:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Jina:"
@@ -831,16 +817,16 @@
 				"text": "+ ResizePointTemplate:"
 			},
 			"BorderColor": {
-				"text": "Rangi ya Mpaka:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
 				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "FillColour:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "MwingilianoRadi:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Radius:"
@@ -873,7 +859,7 @@
 				"text": "Maandishi:"
 			},
 			"TextAlign": {
-				"text": "Panga Maandishi:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Kisanduku cha maandishi:"
@@ -885,13 +871,13 @@
 				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Ukubwa wa Font:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
 				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Upana wa Kisanduku cha Maandishi:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Ufungaji wa maandishi:"
@@ -909,14 +895,25 @@
 				"text": "chini:"
 			},
 			"ToolTip": {
-				"text": "Kidokezo cha zana:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "sawa"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Faili zilizopakiwa hapo awali"
 		},
-		"okButton": {
-			"text": "sawa"
+		"openButton": {
+			"text": "Fungua"
+		},
+		"closeButton": {
+			"text": "Funga"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Ukurasa",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Sifa za Ufafanuzi",
-		"vssde-annotationListPanel-pageLabel": "Ukurasa",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Sifa za Ufafanuzi",
-		"vssde-textSearchPanel-pageLabel": "Ukurasa",
-		"vssde-documentPasswordDialog-title": "Nenosiri la hati",
-		"vssde-dialog-okButton": "sawa",
-		"vssde-dialog-cancelButton": "Ghairi",
-		"vssde-imageSelectionDialog-currentImageString": "Picha ya sasa",
-		"vssde-imageSelectionDialog-allImagesString": "Picha zote",
-		"vssde-imageSelectionDialog-customImagesString": "Desturi",
-		"vssde-imageSelectionDialog-title": "Chagua picha",
-		"vssde-printImagesDialog-withAnnotationsLabel": "yenye maelezo",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Picha tayari kuchapishwa",
-		"vssde-printImagesDialog-title": "Chapisha picha",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
-		"vssde-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Pembe ya mzunguko inapaswa kuwa zaidi ya sifuri.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Inazungusha picha na vidokezo",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Zungusha picha na vidokezo",
-		"vssde-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha"
+		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
+		"vsdv-openFile-addFileString": "Ongeza faili",
+		"vsdv-openFile-authenticateFileString": "Thibitisha faili",
+		"vsdv-downloadFile-actionMessage": "Pakua faili",
+		"vsdv-saveChanges-saveChangesInImages": "Hifadhi mabadiliko katika picha",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Hifadhi mabadiliko katika vidokezo",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Choma maelezo kwenye picha",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Choma maelezo",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Hifadhi maelezo",
+		"vsdv-annotationListPanel-pageLabel": "Ukurasa",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Sifa za Ufafanuzi",
+		"vsdv-annotationCommentSettingsDialog-title": "Hariri maoni ya ufafanuzi",
+		"vsdv-dialog-okButton": "sawa",
+		"vsdv-dialog-deleteButton": "Futa",
+		"vsdv-dialog-cancelButton": "Ghairi",
+		"vsdv-documentPasswordDialog-title": "Nenosiri la hati",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Thibitisha faili",
+		"vsdv-imageSelectionDialog-title": "Chagua picha",
+		"vsdv-imageSelectionDialog-currentImageString": "Picha ya sasa",
+		"vsdv-imageSelectionDialog-allImagesString": "Picha zote",
+		"vsdv-imageSelectionDialog-customImagesString": "Desturi",
+		"vsdv-printImagesDialog-title": "Chapisha picha",
+		"vsdv-printImagesPanel-imagePrintingString": "Picha inachapishwa",
+		"vsdv-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
+		"vsdv-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Zungusha picha na vidokezo",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Pembe ya mzunguko inapaswa kuwa zaidi ya sifuri.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Inazungusha picha na vidokezo"
 	}
 }

@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Se en liste over tidligere downloadede filer"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Upload og åbn billedfil ved URL"
+		},
 		"printImagesButton": {
 			"title": "Udskriv billeder"
 		},
 		"downloadFileButton": {
-			"title": "Download billedfil"
+			"title": "Download fil"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Eksporter og download fil"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Tilpas til bredde"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Rotér billedet mod uret"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Roter alle visninger mod uret"
 		},
 		"rotateAngleInput": {
 			"title": "Rotationsvinkel"
 		},
-		"rotateClockwiseButton": {
-			"title": "Rotér billedet med uret"
+		"rotateViewsClockwiseButton": {
+			"title": "Roter alle visninger med uret"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Indstillinger for billedfremviser"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Indstillinger for miniaturefremviser"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Annotationer, dokumentnavigation, tekstvalg"
 		},
 		"panToolButton": {
 			"title": "Panér"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Annoteringer"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Fremhæv tekst"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Anmærkningskommentarliste"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Søg efter tekst"
+		"showFillAndSignPanelButton": {
+			"title": "Udfyld og underskriv"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Tekstvalgstilstand:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Certifikatfil:"
 			},
-			"rectangleOption": {
-				"text": "Rektangel"
+			"uploadCertificateFileButton": {
+				"title": "Upload certifikatfil"
 			},
-			"fullLinesOption": {
-				"text": "Fuld linjer"
+			"certificatePasswordLabel": {
+				"text": "Certifikatadgangskode:"
 			},
-			"selectionColorLabel": {
-				"text": "Farve på valgt tekst:"
+			"useTestCertificateLabel": {
+				"text": "Brug testcertifikat"
 			},
-			"selectedTextLabel": {
-				"text": "Valgt tekst:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Find:"
+			"serverLabel": {
+				"text": "Server:"
 			},
-			"whereLookLabel": {
-				"text": "Søg på:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Aktuel side"
+			"passwordLabel": {
+				"text": "Adgangskode:"
 			},
-			"allPagesOption": {
-				"text": "Alle sider"
-			},
-			"wholeWordLabel": {
-				"text": "Søg hele ordet"
-			},
-			"caseSensitiveLabel": {
-				"text": "Stilling mellem store og små bogstaver"
-			},
-			"startSearchButton": {
-				"value": "Start søgning"
-			},
-			"stopSearchButton": {
-				"value": "Stop søgning"
-			},
-			"textNotFoundLabel": {
-				"text": "Tekst ikke fundet."
+			"fillAndSignButton": {
+				"value": "Udfyld og underskriv"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Zoom ind"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Forfatter:"
+			},
+			"commentSubjectLabel": {
+				"text": "Emne:"
+			},
+			"commentMessageLabel": {
+				"text": "Besked:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Brug kommentarstatus"
+			},
+			"commentStatusLabel": {
+				"text": "Status:"
+			},
+			"None": {
+				"text": "Nej"
+			},
+			"Accepted": {
+				"text": "Accepteret"
+			},
+			"Completed": {
+				"text": "Afsluttet"
+			},
+			"Rejected": {
+				"text": "Afvist"
+			},
+			"Cancelled": {
+				"text": "Aflyst"
+			},
+			"showStateHistoryLabel": {
+				"text": "Vis statens historie i svar"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Slet"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Store berøringspunkter (berøringsskærm)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Kopiér anmærkning"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Indsæt anmærkning"
-			},
-			"removeAnnotationLabel": {
-				"text": "Slet anmærkning"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Send til bagsiden"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Bring forrest"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Grupper alle annoteringer"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Ophæv gruppering af annotering"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Annoteringsegenskaber..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "Multi-side display mode:"
 			},
 			"allImagesOption": {
-				"text": "Alle billeder"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Fixede billeder"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Layoutretning:"
@@ -565,16 +566,16 @@
 				"text": "Miniatureplaceringsstil:"
 			},
 			"singleColumnOption": {
-				"text": "Enkelt kolonne"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "En linje"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Fast antal kolonner"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Flydende antal rækker"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Antal kolonner:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Tillad valg af flere miniaturebilleder:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Kan trække miniaturebilleder:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +655,7 @@
 				"text": "Kantfarvetype:"
 			},
 			"autoDetectOption": {
-				"text": "Automatisk registrering"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Sort"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "Annuller"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Tidligere downloadede filer"
 		},
-		"openButton": {
-			"text": "Åbn fil"
-		},
-		"closeButton": {
-			"text": "Luk"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Anmærkningsegenskaber"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Anmærkningsindstillinger",
 			"Border": {
 				"text": "Grænse:"
 			},
 			"CanMirror": {
-				"text": "Du kan spejle:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Kan flytte:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Kan ændres størrelse:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Kan roteres:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Forfatter:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Oprettelsestid:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Udfyld:"
@@ -732,7 +721,7 @@
 				"text": "Fed:"
 			},
 			"FamilyName": {
-				"text": "Familienavn:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Kursiv:"
@@ -753,25 +742,25 @@
 				"text": "+ Skriftbørste:"
 			},
 			"FontTransparent": {
-				"text": "Transparent skrifttype:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "Vendt vandret:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Annotering er bygget:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Annotation er synlig:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Linjestil:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Linjestilskabelonstørrelse:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Placering:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Ændret af:"
-			},
-			"ModifiedTime": {
-				"text": "Ændringstid:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Navn:"
@@ -795,10 +781,10 @@
 				"text": "+ Skema:"
 			},
 			"DashPattern": {
-				"text": "Stregmønster:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Dash Style:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Cap i slutningen af ​​linjen:"
@@ -816,10 +802,10 @@
 				"text": "Stil:"
 			},
 			"LineJoin": {
-				"text": "Linjeforbindelse:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "MitreLimit:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ Cap ved start af linje:"
@@ -831,16 +817,16 @@
 				"text": "+ Ændring af punktskabelon:"
 			},
 			"BorderColor": {
-				"text": "Kantfarve:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Kantbredde:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Fyldfarve:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Interaktionsområde radius:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Radius:"
@@ -858,7 +844,7 @@
 				"text": "+ Pivotpunkt:"
 			},
 			"RotationPointDistance": {
-				"text": "Afstand til omdrejningspunkt:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Skyggepensel:"
@@ -873,25 +859,25 @@
 				"text": "Tekst:"
 			},
 			"TextAlign": {
-				"text": "Tekstjustering:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Tekstfelt:"
 			},
 			"FontColor": {
-				"text": "Skriftfarve:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Skrifttypefamilie:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Skriftstørrelse:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Tekstfelts højde:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Tekstfeltbredde:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Tekstindrykning:"
@@ -909,14 +895,25 @@
 				"text": "Bund:"
 			},
 			"ToolTip": {
-				"text": "Tip:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Lodret spejling:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Tidligere downloadede filer"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Åbn fil"
+		},
+		"closeButton": {
+			"text": "Luk"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Side",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Annoteringsegenskaber",
-		"vssde-annotationListPanel-pageLabel": "Side",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaber",
-		"vssde-textSearchPanel-pageLabel": "Side",
-		"vssde-documentPasswordDialog-title": "Dokumentadgangskode",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Annuller",
-		"vssde-imageSelectionDialog-currentImageString": "Aktuelt billede",
-		"vssde-imageSelectionDialog-allImagesString": "Alle billeder",
-		"vssde-imageSelectionDialog-customImagesString": "Brugerdefineret",
-		"vssde-imageSelectionDialog-title": "Vælg billeder",
-		"vssde-printImagesDialog-withAnnotationsLabel": "med anmærkninger",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Billedet forberedes til udskrivning",
-		"vssde-printImagesDialog-title": "Udskriv billeder",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
-		"vssde-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinklen må ikke være 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenteret billede bliver roteret",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Roter kommenteret billede",
-		"vssde-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser"
+		"vsdv-uploadFileButton-uploadFileString": "Upload fil",
+		"vsdv-openFile-addFileString": "Tilføj fil",
+		"vsdv-openFile-authenticateFileString": "Godkend fil",
+		"vsdv-downloadFile-actionMessage": "Download fil",
+		"vsdv-saveChanges-saveChangesInImages": "Gem ændringer i billeder",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Gem ændringer i annoteringer",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Brænd annoteringer på billeder",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Gem ændringer i PDF-dokument",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Brænd annoteringer",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Gem annoteringer",
+		"vsdv-annotationListPanel-pageLabel": "Side",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaber",
+		"vsdv-annotationCommentSettingsDialog-title": "Rediger kommentarkommentaren",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-deleteButton": "Slet",
+		"vsdv-dialog-cancelButton": "Annuller",
+		"vsdv-documentPasswordDialog-title": "Dokumentadgangskode",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Godkend fil",
+		"vsdv-imageSelectionDialog-title": "Vælg billeder",
+		"vsdv-imageSelectionDialog-currentImageString": "Aktuelt billede",
+		"vsdv-imageSelectionDialog-allImagesString": "Alle billeder",
+		"vsdv-imageSelectionDialog-customImagesString": "Brugerdefineret",
+		"vsdv-printImagesDialog-title": "Udskriv billeder",
+		"vsdv-printImagesPanel-imagePrintingString": "Billedet udskrives",
+		"vsdv-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser",
+		"vsdv-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Roter kommenteret billede",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinklen må ikke være 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenteret billede bliver roteret"
 	}
 }

@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "הצג רשימה של קבצים שהורדו בעבר"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "העלה ופתח קובץ תמונה לפי כתובת אתר"
+		},
 		"printImagesButton": {
 			"title": "הדפס תמונות"
 		},
 		"downloadFileButton": {
-			"title": "הורד קובץ תמונה"
+			"title": "הורד קובץ"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "ייצא והורד קובץ"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "התאם לרוחב"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "סובב את התמונה נגד כיוון השעון"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "סובב את כל התצוגות נגד כיוון השעון"
 		},
 		"rotateAngleInput": {
 			"title": "זווית סיבוב"
 		},
-		"rotateClockwiseButton": {
-			"title": "סובב את התמונה בכיוון השעון"
+		"rotateViewsClockwiseButton": {
+			"title": "סובב את כל התצוגות בכיוון השעון"
 		},
 		"imageViewerSettingsButton": {
 			"title": "הגדרות מציג תמונות"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "הגדרות מציג תמונות ממוזערות"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "הערות, ניווט במסמכים, בחירת טקסט"
 		},
 		"panToolButton": {
 			"title": "פאן"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "הערות"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "הדגש טקסט"
+		"showAnnotationCommentListPanelButton": {
+			"title": "רשימת הערות"
 		},
-		"showTextSearchPanelButton": {
-			"title": "חפש טקסט"
+		"showFillAndSignPanelButton": {
+			"title": "ממלאים וחותמים"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "מצב בחירת טקסט:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "קובץ תעודה:"
 			},
-			"rectangleOption": {
-				"text": "מלבן"
+			"uploadCertificateFileButton": {
+				"title": "העלה קובץ אישור"
 			},
-			"fullLinesOption": {
-				"text": "שורות מלאות"
+			"certificatePasswordLabel": {
+				"text": "סיסמת אישור:"
 			},
-			"selectionColorLabel": {
-				"text": "צבע הטקסט שנבחר:"
+			"useTestCertificateLabel": {
+				"text": "השתמש בתעודת מבחן"
 			},
-			"selectedTextLabel": {
-				"text": "טקסט נבחר:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "מצא:"
+			"serverLabel": {
+				"text": "שרת:"
 			},
-			"whereLookLabel": {
-				"text": "חפש ב:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "דף נוכחי"
+			"passwordLabel": {
+				"text": "סיסמה:"
 			},
-			"allPagesOption": {
-				"text": "כל הדפים"
-			},
-			"wholeWordLabel": {
-				"text": "חפש מילה שלמה"
-			},
-			"caseSensitiveLabel": {
-				"text": "תלוי רישיות"
-			},
-			"startSearchButton": {
-				"value": "התחל חיפוש"
-			},
-			"stopSearchButton": {
-				"value": "הפסק לחפש"
-			},
-			"textNotFoundLabel": {
-				"text": "הטקסט לא נמצא."
+			"fillAndSignButton": {
+				"value": "מלא וחתום"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "התקרב"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "מְחַבֵּר:"
+			},
+			"commentSubjectLabel": {
+				"text": "נושא:"
+			},
+			"commentMessageLabel": {
+				"text": "הוֹדָעָה:"
+			},
+			"useCommentStatusLabel": {
+				"text": "השתמש בסטטוס תגובה"
+			},
+			"commentStatusLabel": {
+				"text": "סטָטוּס:"
+			},
+			"None": {
+				"text": "לא"
+			},
+			"Accepted": {
+				"text": "מְקוּבָּל"
+			},
+			"Completed": {
+				"text": "הושלם"
+			},
+			"Rejected": {
+				"text": "נִדחֶה"
+			},
+			"Cancelled": {
+				"text": "מבוטל"
+			},
+			"showStateHistoryLabel": {
+				"text": "הצג היסטוריית מדינה בתשובות"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"deleteButton": {
+				"value": "מחק"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "רגיל"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "נקודות מגע גדולות (מסך מגע)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "העתק הערה"
-			},
-			"pasteAnnotationLabel": {
-				"text": "הוסף הערה"
-			},
-			"removeAnnotationLabel": {
-				"text": "מחק הערה"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "שלח לגב"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "הבא לחזית"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "קבץ את כל ההערות"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "בטל קבוצה של הערות"
-			},
-			"annotationPropertiesLabel": {
-				"text": "מאפייני הערות..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "מצב תצוגה מרובה עמודים:"
 			},
 			"allImagesOption": {
-				"text": "כל התמונות"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "תמונות מתוקנות"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "כיוון פריסה:"
@@ -565,16 +566,16 @@
 				"text": "סגנון מיקום תמונות ממוזערות:"
 			},
 			"singleColumnOption": {
-				"text": "עמודה אחת"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "שורה אחת"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "מספר קבוע של עמודות"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "מספר צף של שורות"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "מספר עמודות:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "אפשר בחירת תמונות ממוזערות מרובות:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "יכול לגרור תמונות ממוזערות:"
+			},
 			"okButton": {
 				"value": "בסדר"
 			},
@@ -651,7 +655,7 @@
 				"text": "סוג צבע גבול:"
 			},
 			"autoDetectOption": {
-				"text": "זיהוי אוטומטי"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "שחור"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "בטל"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "קבצים שהורדו בעבר"
 		},
-		"openButton": {
-			"text": "פתח קובץ"
-		},
-		"closeButton": {
-			"text": "סגור"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "מאפייני הערה"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "הגדרות הערות",
 			"Border": {
 				"text": "גבול:"
 			},
 			"CanMirror": {
-				"text": "אתה יכול לשקף:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "יכול לזוז:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "ניתן לשנות את הגודל:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "ניתן לסובב:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "מחבר:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "זמן יצירה:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ מילוי:"
@@ -732,7 +721,7 @@
 				"text": "מודגש:"
 			},
 			"FamilyName": {
-				"text": "שם משפחה:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "נטוי:"
@@ -753,25 +742,25 @@
 				"text": "+ מברשת גופנים:"
 			},
 			"FontTransparent": {
-				"text": "גופן שקוף:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "היפוך אופקית:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "נבנה הערה:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "הביאור גלוי:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "סגנון קו:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "גודל תבנית סגנון קו:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ מיקום:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "שונה על ידי:"
-			},
-			"ModifiedTime": {
-				"text": "זמן שינוי:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "שם:"
@@ -795,10 +781,10 @@
 				"text": "+ סכימה:"
 			},
 			"DashPattern": {
-				"text": "דפוס מקף:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "סגנון מקף:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ מכסה בסוף השורה:"
@@ -816,7 +802,7 @@
 				"text": "סגנון:"
 			},
 			"LineJoin": {
-				"text": "חיבור קו:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
 				"text": "MiterLimit:"
@@ -831,16 +817,16 @@
 				"text": "+ תבנית שינוי גודל של נקודת:"
 			},
 			"BorderColor": {
-				"text": "צבע גבול:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "רוחב גבול:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "צבע מילוי:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "רדיוס אזור האינטראקציה:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "רדיוס:"
@@ -858,7 +844,7 @@
 				"text": "+ נקודת ציר:"
 			},
 			"RotationPointDistance": {
-				"text": "מרחק לנקודת ציר:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ מברשת צללים:"
@@ -873,25 +859,25 @@
 				"text": "טקסט:"
 			},
 			"TextAlign": {
-				"text": "יישור טקסט:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ שדה טקסט:"
 			},
 			"FontColor": {
-				"text": "צבע גופן:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "משפחת גופנים:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "גודל גופן:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "גובה שדה טקסט:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "רוחב שדה טקסט:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ הזחה של טקסט:"
@@ -909,14 +895,25 @@
 				"text": "למטה:"
 			},
 			"ToolTip": {
-				"text": "רמז:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "שיקוף אנכי:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "בסדר"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "קבצים שהורדו בעבר"
 		},
-		"okButton": {
-			"text": "בסדר"
+		"openButton": {
+			"text": "פתח קובץ"
+		},
+		"closeButton": {
+			"text": "סגור"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "דף",
-		"vssde-annotationPanel-annotationPropertiesLabel": "מאפייני הערה",
-		"vssde-annotationListPanel-pageLabel": "דף",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "מאפייני הערה",
-		"vssde-textSearchPanel-pageLabel": "דף",
-		"vssde-documentPasswordDialog-title": "סיסמת מסמך",
-		"vssde-dialog-okButton": "בסדר",
-		"vssde-dialog-cancelButton": "בטל",
-		"vssde-imageSelectionDialog-currentImageString": "תמונה נוכחית",
-		"vssde-imageSelectionDialog-allImagesString": "כל התמונות",
-		"vssde-imageSelectionDialog-customImagesString": "מותאם אישית",
-		"vssde-imageSelectionDialog-title": "בחר תמונות",
-		"vssde-printImagesDialog-withAnnotationsLabel": "עם הערות",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "התמונה מתכוננת להדפסה",
-		"vssde-printImagesDialog-title": "הדפס תמונות",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
-		"vssde-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "זווית הסיבוב לא יכולה להיות 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות",
-		"vssde-rotateImageWithAnnotationsDialog-title": "סובב תמונה מוערת",
-		"vssde-imageViewerSettingsDialog-title": "הגדרות מציג תמונות"
+		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
+		"vsdv-openFile-addFileString": "הוסף קובץ",
+		"vsdv-openFile-authenticateFileString": "אימות קובץ",
+		"vsdv-downloadFile-actionMessage": "הורד קובץ",
+		"vsdv-saveChanges-saveChangesInImages": "שמור שינויים בתמונות",
+		"vsdv-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
+		"vsdv-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "צריבת הערות",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "שמור הערות",
+		"vsdv-annotationListPanel-pageLabel": "דף",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "מאפייני הערה",
+		"vsdv-annotationCommentSettingsDialog-title": "ערוך את הערת ההערה",
+		"vsdv-dialog-okButton": "בסדר",
+		"vsdv-dialog-deleteButton": "מחק",
+		"vsdv-dialog-cancelButton": "בטל",
+		"vsdv-documentPasswordDialog-title": "סיסמת מסמך",
+		"vsdv-documentPasswordPanel-authenticateFileString": "אימות קובץ",
+		"vsdv-imageSelectionDialog-title": "בחר תמונות",
+		"vsdv-imageSelectionDialog-currentImageString": "תמונה נוכחית",
+		"vsdv-imageSelectionDialog-allImagesString": "כל התמונות",
+		"vsdv-imageSelectionDialog-customImagesString": "מותאם אישית",
+		"vsdv-printImagesDialog-title": "הדפס תמונות",
+		"vsdv-printImagesPanel-imagePrintingString": "התמונה מודפסת",
+		"vsdv-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
+		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "סובב תמונה מוערת",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "זווית הסיבוב לא יכולה להיות 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות"
 	}
 }

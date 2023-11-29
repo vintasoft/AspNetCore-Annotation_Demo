@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "이전에 다운로드한 파일 목록 보기"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "URL로 이미지 파일 업로드 및 열기"
+		},
 		"printImagesButton": {
 			"title": "이미지 인쇄"
 		},
 		"downloadFileButton": {
-			"title": "이미지 파일 다운로드"
+			"title": "파일 다운로드"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "파일 내보내기 및 다운로드"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "너비에 맞춤"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "이미지를 시계 반대 방향으로 회전"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "모든 뷰를 시계 반대 방향으로 회전"
 		},
 		"rotateAngleInput": {
 			"title": "회전 각도"
 		},
-		"rotateClockwiseButton": {
-			"title": "이미지를 시계방향으로 회전"
+		"rotateViewsClockwiseButton": {
+			"title": "모든 뷰를 시계 방향으로 회전"
 		},
 		"imageViewerSettingsButton": {
 			"title": "이미지 뷰어 설정"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "썸네일 뷰어 설정"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "주석, 문서 탐색, 텍스트 선택"
 		},
 		"panToolButton": {
 			"title": "팬"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "주석"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "텍스트 강조"
+		"showAnnotationCommentListPanelButton": {
+			"title": "주석 코멘트 목록"
 		},
-		"showTextSearchPanelButton": {
-			"title": "텍스트 검색"
+		"showFillAndSignPanelButton": {
+			"title": "작성 및 서명"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "텍스트 선택 모드:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "인증서 파일:"
 			},
-			"rectangleOption": {
-				"text": "직사각형"
+			"uploadCertificateFileButton": {
+				"title": "인증서 파일 업로드"
 			},
-			"fullLinesOption": {
-				"text": "전체 라인"
+			"certificatePasswordLabel": {
+				"text": "인증서 비밀번호:"
 			},
-			"selectionColorLabel": {
-				"text": "선택한 텍스트 색상:"
+			"useTestCertificateLabel": {
+				"text": "테스트 인증서 사용"
 			},
-			"selectedTextLabel": {
-				"text": "선택한 텍스트:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "찾기:"
+			"serverLabel": {
+				"text": "섬기는 사람:"
 			},
-			"whereLookLabel": {
-				"text": "검색 대상:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "현재 페이지"
+			"passwordLabel": {
+				"text": "암호:"
 			},
-			"allPagesOption": {
-				"text": "모든 페이지"
-			},
-			"wholeWordLabel": {
-				"text": "전체 단어 검색"
-			},
-			"caseSensitiveLabel": {
-				"text": "대소문자 구분"
-			},
-			"startSearchButton": {
-				"value": "검색 시작"
-			},
-			"stopSearchButton": {
-				"value": "검색 중지"
-			},
-			"textNotFoundLabel": {
-				"text": "텍스트를 찾을 수 없습니다."
+			"fillAndSignButton": {
+				"value": "작성 및 서명"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "확대"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "작가:"
+			},
+			"commentSubjectLabel": {
+				"text": "주제:"
+			},
+			"commentMessageLabel": {
+				"text": "메시지:"
+			},
+			"useCommentStatusLabel": {
+				"text": "댓글 상태 사용"
+			},
+			"commentStatusLabel": {
+				"text": "상태:"
+			},
+			"None": {
+				"text": "아니오"
+			},
+			"Accepted": {
+				"text": "수락됨"
+			},
+			"Completed": {
+				"text": "완전한"
+			},
+			"Rejected": {
+				"text": "거부됨"
+			},
+			"Cancelled": {
+				"text": "취소 된"
+			},
+			"showStateHistoryLabel": {
+				"text": "답글에 상태 기록 표시"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"deleteButton": {
+				"value": "삭제"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "정상"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "대형 터치포인트(터치스크린)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "주석 복사"
-			},
-			"pasteAnnotationLabel": {
-				"text": "주석 삽입"
-			},
-			"removeAnnotationLabel": {
-				"text": "주석 삭제"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "뒤로 보내기"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "앞으로 가져오기"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "모든 주석 그룹화"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "주석 그룹 해제"
-			},
-			"annotationPropertiesLabel": {
-				"text": "주석 속성..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "다중 페이지 표시 모드:"
 			},
 			"allImagesOption": {
-				"text": "모든 이미지"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "고정 이미지"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "레이아웃 방향:"
@@ -565,16 +566,16 @@
 				"text": "썸네일 배치 스타일:"
 			},
 			"singleColumnOption": {
-				"text": "단일 열"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "한 줄"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "고정 열 수"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "부동 행 수"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "열 수:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "여러 섬네일 선택 허용:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "썸네일 드래그 가능:"
+			},
 			"okButton": {
 				"value": "확인"
 			},
@@ -651,7 +655,7 @@
 				"text": "테두리 색상 유형:"
 			},
 			"autoDetectOption": {
-				"text": "자동 감지"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "검은색"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "취소"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "이전에 다운로드한 파일"
 		},
-		"openButton": {
-			"text": "파일 열기"
-		},
-		"closeButton": {
-			"text": "닫기"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "주석 속성"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "주석 설정",
 			"Border": {
 				"text": "경계:"
 			},
 			"CanMirror": {
-				"text": "미러링할 수 있습니다:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "이동 가능:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "크기 조정 가능:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "회전 가능:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "저자:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "생성 시간:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ 채우기:"
@@ -732,7 +721,7 @@
 				"text": "굵게:"
 			},
 			"FamilyName": {
-				"text": "성:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "기울임꼴:"
@@ -753,25 +742,25 @@
 				"text": "+ 글꼴 브러시:"
 			},
 			"FontTransparent": {
-				"text": "투명 글꼴:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "수평으로 뒤집기:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "주석 작성됨:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "주석이 보입니다:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "선 스타일:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "선 스타일 템플릿 크기:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ 위치:"
@@ -783,10 +772,7 @@
 				"text": "예:"
 			},
 			"ModifiedBy": {
-				"text": "변경자:"
-			},
-			"ModifiedTime": {
-				"text": "시간 변경:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "이름:"
@@ -795,10 +781,10 @@
 				"text": "+ 체계:"
 			},
 			"DashPattern": {
-				"text": "대시 패턴:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "대시 스타일:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ 줄 끝의 캡:"
@@ -816,10 +802,10 @@
 				"text": "스타일:"
 			},
 			"LineJoin": {
-				"text": "라인 연결:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "마이터리미트:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ 라인 시작 시 캡:"
@@ -831,16 +817,16 @@
 				"text": "+ 포인트 템플릿 크기 조정:"
 			},
 			"BorderColor": {
-				"text": "테두리 색상:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "테두리 너비:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "채우기 색상:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "상호작용 영역 반경:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "반지름:"
@@ -858,7 +844,7 @@
 				"text": "+ 피벗 포인트:"
 			},
 			"RotationPointDistance": {
-				"text": "피벗 포인트까지의 거리:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ 그림자 브러시:"
@@ -873,25 +859,25 @@
 				"text": "텍스트:"
 			},
 			"TextAlign": {
-				"text": "텍스트 정렬:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ 텍스트 필드:"
 			},
 			"FontColor": {
-				"text": "글꼴 색상:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "글꼴 모음:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "글꼴 크기:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "텍스트 필드 높이:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "텍스트 필드 너비:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ 텍스트 들여쓰기:"
@@ -909,14 +895,25 @@
 				"text": "하단:"
 			},
 			"ToolTip": {
-				"text": "힌트:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "수직 미러링:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "확인"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "이전에 다운로드한 파일"
 		},
-		"okButton": {
-			"text": "확인"
+		"openButton": {
+			"text": "파일 열기"
+		},
+		"closeButton": {
+			"text": "닫기"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "페이지",
-		"vssde-annotationPanel-annotationPropertiesLabel": "주석 속성",
-		"vssde-annotationListPanel-pageLabel": "페이지",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "주석 속성",
-		"vssde-textSearchPanel-pageLabel": "페이지",
-		"vssde-documentPasswordDialog-title": "문서 비밀번호",
-		"vssde-dialog-okButton": "확인",
-		"vssde-dialog-cancelButton": "취소",
-		"vssde-imageSelectionDialog-currentImageString": "현재 이미지",
-		"vssde-imageSelectionDialog-allImagesString": "모든 이미지",
-		"vssde-imageSelectionDialog-customImagesString": "사용자 정의",
-		"vssde-imageSelectionDialog-title": "이미지 선택",
-		"vssde-printImagesDialog-withAnnotationsLabel": "주석 포함",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "이미지 인쇄 준비 중",
-		"vssde-printImagesDialog-title": "이미지 인쇄",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
-		"vssde-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "회전 각도는 0이 아니어야 합니다.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "주석 이미지 회전 중",
-		"vssde-rotateImageWithAnnotationsDialog-title": "주석 이미지 회전",
-		"vssde-imageViewerSettingsDialog-title": "이미지 뷰어 설정"
+		"vsdv-uploadFileButton-uploadFileString": "파일 업로드",
+		"vsdv-openFile-addFileString": "파일 추가",
+		"vsdv-openFile-authenticateFileString": "파일 인증",
+		"vsdv-downloadFile-actionMessage": "파일 다운로드",
+		"vsdv-saveChanges-saveChangesInImages": "이미지 변경사항 저장",
+		"vsdv-saveChanges-saveChangesInAnnotations": "주석 변경사항 저장",
+		"vsdv-saveChanges-burnAnnotationsInImages": "이미지에 주석 굽기",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "주석 굽기",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "주석 저장",
+		"vsdv-annotationListPanel-pageLabel": "페이지",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "주석 속성",
+		"vsdv-annotationCommentSettingsDialog-title": "주석 댓글 편집",
+		"vsdv-dialog-okButton": "확인",
+		"vsdv-dialog-deleteButton": "삭제",
+		"vsdv-dialog-cancelButton": "취소",
+		"vsdv-documentPasswordDialog-title": "문서 비밀번호",
+		"vsdv-documentPasswordPanel-authenticateFileString": "파일 인증",
+		"vsdv-imageSelectionDialog-title": "이미지 선택",
+		"vsdv-imageSelectionDialog-currentImageString": "현재 이미지",
+		"vsdv-imageSelectionDialog-allImagesString": "모든 이미지",
+		"vsdv-imageSelectionDialog-customImagesString": "사용자 정의",
+		"vsdv-printImagesDialog-title": "이미지 인쇄",
+		"vsdv-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
+		"vsdv-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
+		"vsdv-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "주석 이미지 회전",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "회전 각도는 0이 아니어야 합니다.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "주석 이미지 회전 중"
 	}
 }

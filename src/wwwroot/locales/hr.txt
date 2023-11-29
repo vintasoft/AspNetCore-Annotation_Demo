@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Pogledajte popis prethodno preuzetih datoteka"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Prenesite i otvorite slikovnu datoteku prema URL-u"
+		},
 		"printImagesButton": {
 			"title": "Ispis slika"
 		},
 		"downloadFileButton": {
-			"title": "Preuzmite slikovnu datoteku"
+			"title": "Preuzmi datoteku"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Izvoz i preuzimanje datoteke"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prilagodi širini"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Zakreni sliku suprotno od kazaljke na satu"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Rotirajte sve prikaze u smjeru suprotnom od kazaljke na satu"
 		},
 		"rotateAngleInput": {
 			"title": "Kut rotacije"
 		},
-		"rotateClockwiseButton": {
-			"title": "Okreni sliku u smjeru kazaljke na satu"
+		"rotateViewsClockwiseButton": {
+			"title": "Rotirajte sve prikaze u smjeru kazaljke na satu"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Postavke preglednika slika"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Postavke pregledača sličica"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Bilješke, navigacija dokumentom, odabir teksta"
 		},
 		"panToolButton": {
 			"title": "Pan"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Bilješke"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Označi tekst"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Popis komentara komentara"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Traži tekst"
+		"showFillAndSignPanelButton": {
+			"title": "Ispuni i potpiši"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Način odabira teksta:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Datoteka certifikata:"
 			},
-			"rectangleOption": {
-				"text": "Pravokutnik"
+			"uploadCertificateFileButton": {
+				"title": "Prenesi datoteku s certifikatom"
 			},
-			"fullLinesOption": {
-				"text": "Puni redovi"
+			"certificatePasswordLabel": {
+				"text": "Lozinka certifikata:"
 			},
-			"selectionColorLabel": {
-				"text": "Boja odabranog teksta:"
+			"useTestCertificateLabel": {
+				"text": "Koristite potvrdu o testiranju"
 			},
-			"selectedTextLabel": {
-				"text": "Odabrani tekst:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Pronađi:"
+			"serverLabel": {
+				"text": "Server:"
 			},
-			"whereLookLabel": {
-				"text": "Traži na:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Trenutna stranica"
+			"passwordLabel": {
+				"text": "Lozinka:"
 			},
-			"allPagesOption": {
-				"text": "Sve stranice"
-			},
-			"wholeWordLabel": {
-				"text": "Traži cijelu riječ"
-			},
-			"caseSensitiveLabel": {
-				"text": "Razlikuje velika i mala slova"
-			},
-			"startSearchButton": {
-				"value": "Pokreni pretragu"
-			},
-			"stopSearchButton": {
-				"value": "Prekini pretragu"
-			},
-			"textNotFoundLabel": {
-				"text": "Tekst nije pronađen."
+			"fillAndSignButton": {
+				"value": "Ispuni i potpiši"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Uvećaj"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"commentSubjectLabel": {
+				"text": "Predmet:"
+			},
+			"commentMessageLabel": {
+				"text": "Poruka:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Koristite status komentara"
+			},
+			"commentStatusLabel": {
+				"text": "Status:"
+			},
+			"None": {
+				"text": "Ne"
+			},
+			"Accepted": {
+				"text": "Prihvaćeno"
+			},
+			"Completed": {
+				"text": "Završeno"
+			},
+			"Rejected": {
+				"text": "Odbijen"
+			},
+			"Cancelled": {
+				"text": "Otkazano"
+			},
+			"showStateHistoryLabel": {
+				"text": "Prikaži državnu povijest u odgovorima"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Izbriši"
+			},
+			"cancelButton": {
+				"value": "Odustani"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normalno"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Velike dodirne točke (zaslon osjetljiv na dodir)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Kopiraj komentar"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Umetni komentar"
-			},
-			"removeAnnotationLabel": {
-				"text": "Izbriši komentar"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Pošalji nazad"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Stavi naprijed"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Grupiraj sve bilješke"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Razgrupiraj komentar"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Svojstva komentara..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "Način prikaza s više stranica:"
 			},
 			"allImagesOption": {
-				"text": "Sve slike"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Fiksne slike"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Smjer izgleda:"
@@ -565,16 +566,16 @@
 				"text": "Stil postavljanja sličica:"
 			},
 			"singleColumnOption": {
-				"text": "Jedan stupac"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Jedan redak"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Fiksni broj stupaca"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Plutajući broj redaka"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Broj stupaca:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Dopusti odabir više sličica:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Mogu povlačiti sličice:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +655,7 @@
 				"text": "Vrsta boje obruba:"
 			},
 			"autoDetectOption": {
-				"text": "Automatsko otkrivanje"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Crna"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "Odustani"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Prethodno preuzete datoteke"
 		},
-		"openButton": {
-			"text": "Otvori datoteku"
-		},
-		"closeButton": {
-			"text": "Zatvori"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Svojstva zabilješki"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Postavke napomena",
 			"Border": {
 				"text": "Granica:"
 			},
 			"CanMirror": {
-				"text": "Možete zrcaliti:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Može se kretati:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Može se promijeniti veličina:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Može se rotirati:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Autor:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Vrijeme stvaranja:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Ispuni:"
@@ -732,7 +721,7 @@
 				"text": "Podebljano:"
 			},
 			"FamilyName": {
-				"text": "Prezime:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "kurziv:"
@@ -753,25 +742,25 @@
 				"text": "+ Kist fonta:"
 			},
 			"FontTransparent": {
-				"text": "Prozirni font:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "Okrenuto vodoravno:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Napomena je napravljena:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Napomena je vidljiva:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Stil linije:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Veličina predloška stila linije:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Lokacija:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Promijenio:"
-			},
-			"ModifiedTime": {
-				"text": "Vrijeme promjene:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Ime:"
@@ -795,10 +781,10 @@
 				"text": "+ Shema:"
 			},
 			"DashPattern": {
-				"text": "Uzorak crtice:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Stil crtice:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Kap na kraju retka:"
@@ -816,7 +802,7 @@
 				"text": "Stil:"
 			},
 			"LineJoin": {
-				"text": "Linijska veza:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
 				"text": "MiterLimit:"
@@ -831,16 +817,16 @@
 				"text": "+ Promjena veličine predloška točke:"
 			},
 			"BorderColor": {
-				"text": "Boja obruba:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Širina obruba:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Boja ispune:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Polumjer područja interakcije:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Radijus:"
@@ -858,7 +844,7 @@
 				"text": "+ Okretna točka:"
 			},
 			"RotationPointDistance": {
-				"text": "Udaljenost do točke zakretanja:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Kist za sjene:"
@@ -873,25 +859,25 @@
 				"text": "Tekst:"
 			},
 			"TextAlign": {
-				"text": "Poravnanje teksta:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Tekstualno polje:"
 			},
 			"FontColor": {
-				"text": "Boja fonta:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Obitelj fontova:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Veličina fonta:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Visina tekstualnog polja:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Širina tekstualnog polja:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Uvlačenje teksta:"
@@ -909,14 +895,25 @@
 				"text": "Dno:"
 			},
 			"ToolTip": {
-				"text": "Savjet:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Okomito zrcaljenje:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Prethodno preuzete datoteke"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Otvori datoteku"
+		},
+		"closeButton": {
+			"text": "Zatvori"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Stranica",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Svojstva zabilješki",
-		"vssde-annotationListPanel-pageLabel": "Stranica",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Svojstva zabilješki",
-		"vssde-textSearchPanel-pageLabel": "Stranica",
-		"vssde-documentPasswordDialog-title": "Lozinka dokumenta",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Odustani",
-		"vssde-imageSelectionDialog-currentImageString": "Trenutna slika",
-		"vssde-imageSelectionDialog-allImagesString": "Sve slike",
-		"vssde-imageSelectionDialog-customImagesString": "Prilagođeno",
-		"vssde-imageSelectionDialog-title": "Odaberite slike",
-		"vssde-printImagesDialog-withAnnotationsLabel": "s komentarima",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Slika se priprema za ispis",
-		"vssde-printImagesDialog-title": "Ispis slika",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
-		"vssde-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kut rotacije ne smije biti 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Označena slika se rotira",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Zakreni označenu sliku",
-		"vssde-imageViewerSettingsDialog-title": "Postavke preglednika slika"
+		"vsdv-uploadFileButton-uploadFileString": "Učitaj datoteku",
+		"vsdv-openFile-addFileString": "Dodaj datoteku",
+		"vsdv-openFile-authenticateFileString": "Ovjerite datoteku",
+		"vsdv-downloadFile-actionMessage": "Preuzmi datoteku",
+		"vsdv-saveChanges-saveChangesInImages": "Spremite promjene na slikama",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Spremi promjene u komentarima",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Snimite komentare na slike",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Spremi promjene u PDF dokumentu",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Snimite bilješke",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Spremi zabilješke",
+		"vsdv-annotationListPanel-pageLabel": "Stranica",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Svojstva zabilješki",
+		"vsdv-annotationCommentSettingsDialog-title": "Uredite komentar napomene",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-deleteButton": "Izbriši",
+		"vsdv-dialog-cancelButton": "Odustani",
+		"vsdv-documentPasswordDialog-title": "Lozinka dokumenta",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Ovjerite datoteku",
+		"vsdv-imageSelectionDialog-title": "Odaberite slike",
+		"vsdv-imageSelectionDialog-currentImageString": "Trenutna slika",
+		"vsdv-imageSelectionDialog-allImagesString": "Sve slike",
+		"vsdv-imageSelectionDialog-customImagesString": "Prilagođeno",
+		"vsdv-printImagesDialog-title": "Ispis slika",
+		"vsdv-printImagesPanel-imagePrintingString": "Slika se ispisuje",
+		"vsdv-imageViewerSettingsDialog-title": "Postavke preglednika slika",
+		"vsdv-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Zakreni označenu sliku",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kut rotacije ne smije biti 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Označena slika se rotira"
 	}
 }

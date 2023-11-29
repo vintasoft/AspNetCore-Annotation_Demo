@@ -13,15 +13,15 @@ namespace AspNetCoreAnnotationDemo.Controllers
     /// A Web API controller that handles HTTP requests from clients and
     /// allows to manipulate files on server.
     /// </summary>
-    public class MyVintasoftAnnotatedFileApiController : VintasoftFileApiController
+    public class MyVintasoftFileApiController : VintasoftFileApiController
     {
 
         #region Constructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="MyVintasoftAnnotatedFileApiController"/> class.
+        /// Initializes a new instance of the <see cref="MyVintasoftFileApiController"/> class.
         /// </summary>
-        public MyVintasoftAnnotatedFileApiController(IWebHostEnvironment hostingEnvironment)
+        public MyVintasoftFileApiController(IWebHostEnvironment hostingEnvironment)
             : base(hostingEnvironment)
         {
         }

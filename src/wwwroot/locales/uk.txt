@@ -1,0 +1,959 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"viewLabel": {
+			"text": "Переглянути"
+		},
+		"toolsLabel": {
+			"text": "Інструменти"
+		},
+		"annotationsLabel": {
+			"text": "Анотації"
+		},
+		"uploadFileButton": {
+			"title": "Завантажте та відкрийте файл"
+		},
+		"previousUploadFilesButton": {
+			"title": "Раніше завантажені файли"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Завантажте та відкрийте файл зображення за URL-адресою"
+		},
+		"printImagesButton": {
+			"title": "Друк зображень"
+		},
+		"downloadFileButton": {
+			"title": "Завантажити файл"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Експортуйте та завантажуйте файл"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Підгонка по ширині"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Поверніть усі види проти годинникової стрілки"
+		},
+		"rotateAngleInput": {
+			"title": "Кут"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Поверніть усі види за годинниковою стрілкою"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Налаштування програми перегляду зображень"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Налаштування перегляду мініатюр"
+		},
+		"panToolButton": {
+			"title": "Пан"
+		},
+		"magnifierToolButton": {
+			"title": "лупа"
+		},
+		"zoomToolButton": {
+			"title": "Збільшити"
+		},
+		"zoomSelectionToolButton": {
+			"title": "Вибір масштабу"
+		},
+		"addRectangleAnnotationButton": {
+			"title": "Прямокутник"
+		},
+		"addEllipseAnnotationButton": {
+			"title": "Еліпс"
+		},
+		"addHighlightAnnotationButton": {
+			"title": "Виділіть"
+		},
+		"addReferencedImageAnnotationButton": {
+			"title": "Посилання на зображення"
+		},
+		"addTextAnnotationButton": {
+			"title": "текст"
+		},
+		"addStampAnnotationButton": {
+			"title": "Штамп"
+		},
+		"addLinkAnnotationButton": {
+			"title": "Посилання"
+		},
+		"addArrowAnnotationButton": {
+			"title": "Стрілка"
+		},
+		"addLineAnnotationButton": {
+			"title": "Лінія"
+		},
+		"addLinesAnnotationButton": {
+			"title": "Лінії"
+		},
+		"addPolygonAnnotationButton": {
+			"title": "Багатокутник"
+		},
+		"addRulerAnnotationButton": {
+			"title": "Лінійка"
+		},
+		"addTriangleAnnotationButton": {
+			"title": "Трикутник"
+		},
+		"authorAnnotationInteractionMode": {
+			"title": "Режим взаємодії «Автор»"
+		},
+		"copyAnnotationButton": {
+			"title": "Копіювати виділену анотацію"
+		},
+		"pasteAnnotationButton": {
+			"title": "Вставити скопійовану анотацію"
+		},
+		"removeAnnotationButton": {
+			"title": "Видалити виділену анотацію"
+		},
+		"burnAnnotationsButton": {
+			"title": "Записати колекцію анотацій на зображення"
+		},
+		"saveAnnotationsButton": {
+			"title": "Збережіть зміни колекції анотацій на сервері"
+		},
+		"rotateImageWithAnnotationsButton": {
+			"title": "Обертання зображення з анотаціями"
+		},
+		"enableAnnotationHistoryButton": {
+			"title": "Увімкнути скасування/повторення"
+		},
+		"undoAnnotationHistoryButton": {
+			"title": "Скасувати"
+		},
+		"redoAnnotationHistoryButton": {
+			"title": "Повторити"
+		},
+		"mediumAnnotationInteractionPoints": {
+			"title": "Середні точки взаємодії"
+		},
+		"showMobileMenuButton": {
+			"title": "більше"
+		},
+		"sidePanelCloseButton": {
+			"title": "Показати бічну панель"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Мініатюри"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Анотації"
+		},
+		"showAnnotationCommentListPanelButton": {
+			"title": "Список коментарів до анотації"
+		},
+		"showFillAndSignPanelButton": {
+			"title": "Заповнити і підписати"
+		},
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Файл сертифіката:"
+			},
+			"uploadCertificateFileButton": {
+				"title": "Завантажте файл сертифіката"
+			},
+			"certificatePasswordLabel": {
+				"text": "Пароль сертифіката:"
+			},
+			"useTestCertificateLabel": {
+				"text": "Використовуйте сертифікат тесту"
+			},
+			"serverLabel": {
+				"text": "Сервер:"
+			},
+			"loginLabel": {
+				"text": "Login:"
+			},
+			"passwordLabel": {
+				"text": "Пароль:"
+			},
+			"fillAndSignButton": {
+				"value": "Заповніть і підпишіть"
+			}
+		},
+		"gotoFirstPageButton": {
+			"title": "Перейти до першого зображення"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Перейти до попереднього зображення"
+		},
+		"gotoPageInput": {
+			"title": "Сторінка"
+		},
+		"gotoNextPageButton": {
+			"title": "Перейти до наступного зображення"
+		},
+		"gotoLastPageButton": {
+			"title": "Перейти до останнього зображення"
+		},
+		"zoomOutButton": {
+			"title": "Зменшення"
+		},
+		"zoomValueInput": {
+			"title": "Збільшити"
+		},
+		"zoomInButton": {
+			"title": "Збільшувати"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"commentSubjectLabel": {
+				"text": "Тема:"
+			},
+			"commentMessageLabel": {
+				"text": "Повідомлення:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Використовуйте статус коментаря"
+			},
+			"commentStatusLabel": {
+				"text": "Статус:"
+			},
+			"None": {
+				"text": "Жодного"
+			},
+			"Accepted": {
+				"text": "прийнято"
+			},
+			"Completed": {
+				"text": "Виконано"
+			},
+			"Rejected": {
+				"text": "Відхилено"
+			},
+			"Cancelled": {
+				"text": "Скасовано"
+			},
+			"showStateHistoryLabel": {
+				"text": "Показати історію стану у відповідях"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"deleteButton": {
+				"value": "Видалити"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"normalSizeModeButton": {
+			"title": "нормальний"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Найкраще підходить"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Підходить по висоті"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Піксель до пікселя"
+		},
+		"zoomSizeModeButton": {
+			"title": "Збільшити"
+		},
+		"addArcAnnotationButton": {
+			"title": "Арк"
+		},
+		"addStickyNoteAnnotationButton": {
+			"title": "Наліпка"
+		},
+		"addFreeTextAnnotationButton": {
+			"title": "Вільний текст"
+		},
+		"addDoubleArrowAnnotationButton": {
+			"title": "Подвійна стрілка"
+		},
+		"addInterpolatedLinesAnnotationButton": {
+			"title": "Лінії з інтерполяцією"
+		},
+		"addFreehandLinesAnnotationButton": {
+			"title": "Лінії від руки"
+		},
+		"addInterpolatedPolygonAnnotationButton": {
+			"title": "Багатокутник з інтерполяцією"
+		},
+		"addFreehandPolygonAnnotationButton": {
+			"title": "Багатокутник від руки"
+		},
+		"addCloudPolygonAnnotationButton": {
+			"title": "Хмарний багатокутник"
+		},
+		"addRulersAnnotationButton": {
+			"title": "Лінійки"
+		},
+		"addAngleAnnotationButton": {
+			"title": "Кут"
+		},
+		"addMarkAnnotationButton": {
+			"title": "Марк"
+		},
+		"noneAnnotationInteractionMode": {
+			"title": "Режим взаємодії «Немає»"
+		},
+		"viewAnnotationInteractionMode": {
+			"title": "Режим взаємодії «Перегляд»"
+		},
+		"smallAnnotationInteractionPoints": {
+			"title": "Малі точки взаємодії"
+		},
+		"largeAnnotationInteractionPoints": {
+			"title": "Великі точки взаємодії (сенсорний екран)"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Цей документ захищено паролем. Будь ласка, введіть пароль."
+			},
+			"passwordLabel": {
+				"text": "Пароль:"
+			},
+			"showPasswordLabel": {
+				"text": "Показати пароль"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Невірний пароль"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"сancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Зображення:"
+			},
+			"currentImageOption": {
+				"text": "Поточне зображення"
+			},
+			"allImagesOption": {
+				"text": "Всі зображення"
+			},
+			"customImagesOption": {
+				"text": "Custom"
+			},
+			"imageRangeLabel": {
+				"text": "Діапазон зображення:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Недійсний діапазон сторінок. Приклад: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Індекс поза діапазоном колекції зображень."
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"сancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Зображення:"
+			},
+			"currentImageOption": {
+				"text": "Поточне зображення"
+			},
+			"allImagesOption": {
+				"text": "Всі зображення"
+			},
+			"customImagesOption": {
+				"text": "Custom"
+			},
+			"imageRangeLabel": {
+				"text": "Діапазон зображення:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Недійсний діапазон сторінок. Приклад: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Індекс поза діапазоном колекції зображень."
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Режим відображення зображення:"
+			},
+			"imageAnchorLabel": {
+				"text": "Якір зображення:"
+			},
+			"noneOption": {
+				"text": "Жодного"
+			},
+			"topLeftOption": {
+				"text": "Вгорі|Ліворуч"
+			},
+			"topOption": {
+				"text": "Топ"
+			},
+			"topRightOption": {
+				"text": "Вгорі|Праворуч"
+			},
+			"rightOption": {
+				"text": "правильно"
+			},
+			"bottomRightOption": {
+				"text": "Внизу|Праворуч"
+			},
+			"bottomOption": {
+				"text": "Дно"
+			},
+			"bottomLeftOption": {
+				"text": "Внизу|Ліворуч"
+			},
+			"leftOption": {
+				"text": "Ліворуч"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Багатосторінковий режим відображення:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Напрямок макета:"
+			},
+			"horizontalOption": {
+				"text": "Горизонтальний"
+			},
+			"verticalOption": {
+				"text": "Вертикальний"
+			},
+			"rowColumnCountLabel": {
+				"text": "Зображення в рядку/стовпці:"
+			},
+			"imagePaddingLabel": {
+				"text": "Заповнення зображень:"
+			},
+			"appearancesLabel": {
+				"text": "Поява"
+			},
+			"imageAppearanceLabel": {
+				"text": "Зовнішній вигляд зображення"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Колір спинки:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Колір рамки:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Ширина межі:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Поява сфокусованого зображення"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Колір спинки:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Колір рамки:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Ширина межі:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Використовуйте вигляд зображення в режимі однієї сторінки"
+			},
+			"renderingSettingsLabel": {
+				"text": "Налаштування візуалізації"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Налаштування за замовчуванням"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Горизонтальна роздільна здатність:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Вертикальна роздільна здатність:"
+			},
+			"smoothingModeLabel": {
+				"text": "Режим згладжування:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Жодного"
+			},
+			"interpolationModeLabel": {
+				"text": "Режим інтерполяції:"
+			},
+			"Bicubic": {
+				"text": "Бікубічний"
+			},
+			"Bilinear": {
+				"text": "Білінійний"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Інші налаштування"
+			},
+			"backgroundColorLabel": {
+				"text": "Колір фону переглядача:"
+			},
+			"centerImageLabel": {
+				"text": "Центральне зображення:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Час очікування зміни розміру:"
+			},
+			"tileSizeLabel": {
+				"text": "Розмір плитки:"
+			},
+			"colorManagementLabel": {
+				"text": "Увімкнути керування кольором:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Використовуйте векторну візуалізацію для документів:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Колір тла векторного вмісту:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"сancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "розмір:"
+			},
+			"scaleLabel": {
+				"text": "Масштаб:"
+			},
+			"smallestOption": {
+				"text": "Найменший"
+			},
+			"smallOption": {
+				"text": "Маленький"
+			},
+			"normalOption": {
+				"text": "нормальний"
+			},
+			"largeOption": {
+				"text": "Великий"
+			},
+			"flowStyleLabel": {
+				"text": "Стиль потоку:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Кількість стовпців:"
+			},
+			"marginLabel": {
+				"text": "Маржа:"
+			},
+			"paddingTopLabel": {
+				"text": "Верхня оббивка:"
+			},
+			"paddingRightLabel": {
+				"text": "Відступ справа:"
+			},
+			"paddingBottomLabel": {
+				"text": "Підкладка знизу:"
+			},
+			"paddingLeftLabel": {
+				"text": "Відступ ліворуч:"
+			},
+			"showCaptionLabel": {
+				"text": "Показати підписи:"
+			},
+			"captionFormatLabel": {
+				"text": "Формат підпису:"
+			},
+			"captionAnchorLabel": {
+				"text": "Якір підпису:"
+			},
+			"topLeftOption": {
+				"text": "Вгорі|Ліворуч"
+			},
+			"topOption": {
+				"text": "Топ"
+			},
+			"topRightOption": {
+				"text": "Вгорі|Праворуч"
+			},
+			"rightOption": {
+				"text": "правильно"
+			},
+			"bottomRightOption": {
+				"text": "Внизу|Праворуч"
+			},
+			"bottomOption": {
+				"text": "Дно"
+			},
+			"bottomLeftOption": {
+				"text": "Внизу|Ліворуч"
+			},
+			"leftOption": {
+				"text": "Ліворуч"
+			},
+			"centerOption": {
+				"text": "центр"
+			},
+			"focusOnHoverLabel": {
+				"text": "Фокус OnHover:"
+			},
+			"multiSelectLabel": {
+				"text": "Множинний вибір:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Можна перетягувати мініатюри:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"сancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"rotateImageWithAnnotationsDialog": {
+			"rotationAngleLabel": {
+				"text": "кут:"
+			},
+			"borderColorTypeLabel": {
+				"text": "Тип кольору рамки:"
+			},
+			"autoDetectOption": {
+				"text": "AutoDetect"
+			},
+			"blackOption": {
+				"text": "чорний"
+			},
+			"whiteOption": {
+				"text": "Білий"
+			},
+			"transparentOption": {
+				"text": "Прозорий"
+			},
+			"customOption": {
+				"text": "Custom"
+			},
+			"borderColorLabel": {
+				"text": "Колір рамки:"
+			},
+			"changeSourceLabel": {
+				"text": "Змінити джерело"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"annotationSettingsDialog": {
+			"title": "Налаштування анотації",
+			"Border": {
+				"text": "Кордон:"
+			},
+			"CanMirror": {
+				"text": "CanMirror:"
+			},
+			"CanMove": {
+				"text": "CanMove:"
+			},
+			"CanResize": {
+				"text": "CanResize:"
+			},
+			"CanRotate": {
+				"text": "CanRotate:"
+			},
+			"CreatedBy": {
+				"text": "CreatedBy:"
+			},
+			"CreationTime": {
+				"text": "CreationTime:"
+			},
+			"+ FillBrush": {
+				"text": "+ Кисть заповнення:"
+			},
+			"Color": {
+				"text": "колір:"
+			},
+			"Type": {
+				"text": "тип:"
+			},
+			"+ Font": {
+				"text": "+ Шрифт:"
+			},
+			"Bold": {
+				"text": "Жирний:"
+			},
+			"FamilyName": {
+				"text": "FamilyName:"
+			},
+			"Italic": {
+				"text": "Курсив:"
+			},
+			"Size": {
+				"text": "розмір:"
+			},
+			"Strikeout": {
+				"text": "Викреслити:"
+			},
+			"Underline": {
+				"text": "Підкреслити:"
+			},
+			"Unit": {
+				"text": "одиниця:"
+			},
+			"+ FontBrush": {
+				"text": "+ FontBrush:"
+			},
+			"FontTransparent": {
+				"text": "FontTransparent:"
+			},
+			"Guid": {
+				"text": "Гід:"
+			},
+			"HorizontalMirrored": {
+				"text": "HorizontalMirrored:"
+			},
+			"IsBuilding": {
+				"text": "IsBuilding:"
+			},
+			"IsVisible": {
+				"text": "IsVisible:"
+			},
+			"LineStyle": {
+				"text": "LineStyle:"
+			},
+			"LineStylePatternSize": {
+				"text": "LineStylePatternSize:"
+			},
+			"+ Location": {
+				"text": "+ Розташування:"
+			},
+			"x": {
+				"text": "x:"
+			},
+			"y": {
+				"text": "y:"
+			},
+			"ModifiedBy": {
+				"text": "ModifiedBy:"
+			},
+			"Name": {
+				"text": "Ім'я:"
+			},
+			"+ Outline": {
+				"text": "+ Схема:"
+			},
+			"DashPattern": {
+				"text": "DashPattern:"
+			},
+			"DashStyle": {
+				"text": "DashStyle:"
+			},
+			"+ EndCap": {
+				"text": "+ EndCap:"
+			},
+			"+ Size": {
+				"text": "+ Розмір:"
+			},
+			"width": {
+				"text": "ширина:"
+			},
+			"height": {
+				"text": "висота:"
+			},
+			"Style": {
+				"text": "Стиль:"
+			},
+			"LineJoin": {
+				"text": "LineJoin:"
+			},
+			"MiterLimit": {
+				"text": "MiterLimit:"
+			},
+			"+ StartCap": {
+				"text": "+ StartCap:"
+			},
+			"Width": {
+				"text": "Ширина:"
+			},
+			"+ ResizePointTemplate": {
+				"text": "+ ResizePointTemplate:"
+			},
+			"BorderColor": {
+				"text": "BorderColor:"
+			},
+			"BorderWidth": {
+				"text": "BorderWidth:"
+			},
+			"FillColor": {
+				"text": "FillColor:"
+			},
+			"InteractionRadius": {
+				"text": "InteractionRadius:"
+			},
+			"Radius": {
+				"text": "радіус:"
+			},
+			"Rotation": {
+				"text": "Обертання:"
+			},
+			"+ RotationCenterPoint": {
+				"text": "+ RotationCenterPoint:"
+			},
+			"Cursor": {
+				"text": "Курсор:"
+			},
+			"+ RotationPoint": {
+				"text": "+ RotationPoint:"
+			},
+			"RotationPointDistance": {
+				"text": "RotationPointDistance:"
+			},
+			"+ ShadowBrush": {
+				"text": "+ ShadowBrush:"
+			},
+			"+ ShadowOffset": {
+				"text": "+ ShadowOffset:"
+			},
+			"Symmetry": {
+				"text": "Симетрія:"
+			},
+			"Text": {
+				"text": "Текст:"
+			},
+			"TextAlign": {
+				"text": "TextAlign:"
+			},
+			"+ TextBox": {
+				"text": "+ Текстове поле:"
+			},
+			"FontColor": {
+				"text": "FontColor:"
+			},
+			"FontFamily": {
+				"text": "FontFamily:"
+			},
+			"FontSize": {
+				"text": "FontSize:"
+			},
+			"TextBoxHeight": {
+				"text": "TextBoxHeight:"
+			},
+			"TextBoxWidth": {
+				"text": "TextBoxWidth:"
+			},
+			"+ TextPadding": {
+				"text": "+ TextPadding:"
+			},
+			"left": {
+				"text": "зліва:"
+			},
+			"right": {
+				"text": "праворуч:"
+			},
+			"top": {
+				"text": "зверху:"
+			},
+			"bottom": {
+				"text": "внизу:"
+			},
+			"ToolTip": {
+				"text": "ToolTip:"
+			},
+			"VerticalMirrored": {
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Раніше завантажені файли"
+		},
+		"openButton": {
+			"text": "ВІДЧИНЕНО"
+		},
+		"closeButton": {
+			"text": "Закрити"
+		}
+	},
+	"errorMessageDialog": {
+		"title": {
+			"text": "Помилка"
+		},
+		"closeButton": {
+			"text": "Закрити"
+		}
+	},
+	"strings": {
+		"vsdv-uploadFileButton-uploadFileString": "Завантажити файл",
+		"vsdv-openFile-addFileString": "Додати файл",
+		"vsdv-openFile-authenticateFileString": "Автентифікувати файл",
+		"vsdv-downloadFile-actionMessage": "Завантажити файл",
+		"vsdv-saveChanges-saveChangesInImages": "Збережіть зміни в зображеннях",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Збережіть зміни в анотаціях",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Запис анотацій на зображеннях",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Записати анотації",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Зберегти анотації",
+		"vsdv-annotationListPanel-pageLabel": "Сторінка",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Властивості анотації",
+		"vsdv-annotationCommentSettingsDialog-title": "Відредагуйте коментар до анотації",
+		"vsdv-dialog-okButton": "В порядку",
+		"vsdv-dialog-deleteButton": "Видалити",
+		"vsdv-dialog-cancelButton": "Скасувати",
+		"vsdv-documentPasswordDialog-title": "Пароль документа",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
+		"vsdv-imageSelectionDialog-title": "Виберіть зображення",
+		"vsdv-imageSelectionDialog-currentImageString": "Поточне зображення",
+		"vsdv-imageSelectionDialog-allImagesString": "Всі зображення",
+		"vsdv-imageSelectionDialog-customImagesString": "Custom",
+		"vsdv-printImagesDialog-title": "Друк зображень",
+		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
+		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Обертання зображення з анотаціями",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут повороту повинен бути більше нуля.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Зображення, що обертається, з анотаціями"
+	}
+}

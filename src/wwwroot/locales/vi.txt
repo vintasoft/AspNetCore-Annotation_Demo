@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Xem danh sách các tệp đã tải xuống trước đó"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Tải lên và mở tệp hình ảnh bằng URL"
+		},
 		"printImagesButton": {
 			"title": "In ảnh"
 		},
 		"downloadFileButton": {
-			"title": "Tải xuống tệp hình ảnh"
+			"title": "Tải tập tin"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Xuất và tải xuống tệp"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Vừa với Chiều rộng"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Xoay ảnh ngược chiều kim đồng hồ"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Xoay tất cả các chế độ xem ngược chiều kim đồng hồ"
 		},
 		"rotateAngleInput": {
 			"title": "Góc xoay"
 		},
-		"rotateClockwiseButton": {
-			"title": "Xoay ảnh theo chiều kim đồng hồ"
+		"rotateViewsClockwiseButton": {
+			"title": "Xoay tất cả các chế độ xem theo chiều kim đồng hồ"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Cài đặt trình xem ảnh"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Cài đặt trình xem hình thu nhỏ"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Chú thích, Điều hướng tài liệu, Lựa chọn văn bản"
 		},
 		"panToolButton": {
 			"title": "Xoay"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Chú thích"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Đánh dấu văn bản"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Danh sách bình luận chú thích"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Tìm kiếm văn bản"
+		"showFillAndSignPanelButton": {
+			"title": "Điền và ký"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Chế độ chọn văn bản:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Tệp chứng chỉ:"
 			},
-			"rectangleOption": {
-				"text": "Hình chữ nhật"
+			"uploadCertificateFileButton": {
+				"title": "Tải lên tệp Chứng chỉ"
 			},
-			"fullLinesOption": {
-				"text": "Dòng đầy đủ"
+			"certificatePasswordLabel": {
+				"text": "Mật khẩu chứng chỉ:"
 			},
-			"selectionColorLabel": {
-				"text": "Màu của văn bản đã chọn:"
+			"useTestCertificateLabel": {
+				"text": "Sử dụng chứng chỉ kiểm tra"
 			},
-			"selectedTextLabel": {
-				"text": "Văn bản đã chọn:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Tìm:"
+			"serverLabel": {
+				"text": "Máy chủ:"
 			},
-			"whereLookLabel": {
-				"text": "Tìm kiếm trên:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Trang hiện tại"
+			"passwordLabel": {
+				"text": "Mật khẩu:"
 			},
-			"allPagesOption": {
-				"text": "Tất cả các trang"
-			},
-			"wholeWordLabel": {
-				"text": "Tìm kiếm toàn bộ từ"
-			},
-			"caseSensitiveLabel": {
-				"text": "Phân biệt chữ hoa chữ thường"
-			},
-			"startSearchButton": {
-				"value": "Bắt đầu tìm kiếm"
-			},
-			"stopSearchButton": {
-				"value": "Ngừng tìm kiếm"
-			},
-			"textNotFoundLabel": {
-				"text": "Không tìm thấy văn bản."
+			"fillAndSignButton": {
+				"value": "Điền và ký"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Phóng to"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Tác giả:"
+			},
+			"commentSubjectLabel": {
+				"text": "Chủ thể:"
+			},
+			"commentMessageLabel": {
+				"text": "Tin nhắn:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Sử dụng trạng thái bình luận"
+			},
+			"commentStatusLabel": {
+				"text": "Trạng thái:"
+			},
+			"None": {
+				"text": "Không"
+			},
+			"Accepted": {
+				"text": "Đã được chấp nhận"
+			},
+			"Completed": {
+				"text": "Hoàn thành"
+			},
+			"Rejected": {
+				"text": "Vật bị loại bỏ"
+			},
+			"Cancelled": {
+				"text": "Đã hủy"
+			},
+			"showStateHistoryLabel": {
+				"text": "Hiển thị Lịch sử Bang trong câu trả lời"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Xóa"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Bình thường"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Điểm tiếp xúc lớn (màn hình cảm ứng)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Sao chép Chú thích"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Chèn chú thích"
-			},
-			"removeAnnotationLabel": {
-				"text": "Xóa chú thích"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Gửi lại"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Đưa lên phía trước"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Nhóm tất cả các chú thích"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Hủy nhóm chú thích"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Thuộc tính chú thích..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "Chế độ hiển thị nhiều trang:"
 			},
 			"allImagesOption": {
-				"text": "Tất cả hình ảnh"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Hình ảnh đã sửa"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Hướng bố cục:"
@@ -565,16 +566,16 @@
 				"text": "Kiểu vị trí hình thu nhỏ:"
 			},
 			"singleColumnOption": {
-				"text": "Cột đơn"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Một dòng"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Số cột cố định"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Số hàng trôi nổi"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Số cột:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Cho phép lựa chọn nhiều hình thu nhỏ:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Có thể kéo hình thu nhỏ:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +655,7 @@
 				"text": "Loại màu đường viền:"
 			},
 			"autoDetectOption": {
-				"text": "Tự động phát hiện"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Đen"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "Hủy"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Các tệp đã tải xuống trước đó"
 		},
-		"openButton": {
-			"text": "Mở tệp"
-		},
-		"closeButton": {
-			"text": "Đóng"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Thuộc tính chú thích"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Cài đặt chú thích",
 			"Border": {
 				"text": "Ranh giới:"
 			},
 			"CanMirror": {
-				"text": "Bạn có thể sao chép:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Có thể di chuyển:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Có thể thay đổi kích thước:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Có thể xoay:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Tác giả:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Thời gian tạo:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Điền:"
@@ -732,7 +721,7 @@
 				"text": "Đậm:"
 			},
 			"FamilyName": {
-				"text": "Họ:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Chữ nghiêng:"
@@ -753,25 +742,25 @@
 				"text": "+ Cọ phông chữ:"
 			},
 			"FontTransparent": {
-				"text": "Phông chữ trong suốt:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "Lật theo chiều ngang:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Chú thích được tạo:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Chú thích hiển thị:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Kiểu đường kẻ:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Kích thước mẫu kiểu đường kẻ:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Vị trí:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Được thay đổi bởi:"
-			},
-			"ModifiedTime": {
-				"text": "Thời gian thay đổi:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Tên:"
@@ -795,10 +781,10 @@
 				"text": "+ Sơ đồ:"
 			},
 			"DashPattern": {
-				"text": "Mẫu dấu gạch ngang:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Kiểu dấu gạch ngang:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Cap ở cuối dòng:"
@@ -816,10 +802,10 @@
 				"text": "Kiểu:"
 			},
 			"LineJoin": {
-				"text": "Kết nối đường dây:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "MitreLimit:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ Giới hạn ở đầu dòng:"
@@ -831,16 +817,16 @@
 				"text": "+ Thay đổi kích thước mẫu điểm:"
 			},
 			"BorderColor": {
-				"text": "Màu viền:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Độ rộng đường viền:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Đổ màu:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Bán kính khu vực tương tác:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Bán kính:"
@@ -858,7 +844,7 @@
 				"text": "+ Điểm xoay:"
 			},
 			"RotationPointDistance": {
-				"text": "Khoảng cách đến điểm trục:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Bàn chải bóng:"
@@ -873,25 +859,25 @@
 				"text": "Văn bản:"
 			},
 			"TextAlign": {
-				"text": "Căn chỉnh văn bản:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Trường văn bản:"
 			},
 			"FontColor": {
-				"text": "Màu phông chữ:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Họ phông chữ:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Cỡ chữ:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Chiều cao trường văn bản:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Chiều rộng trường văn bản:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Văn bản thụt lề:"
@@ -909,14 +895,25 @@
 				"text": "Dưới cùng:"
 			},
 			"ToolTip": {
-				"text": "Gợi ý:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Phản chiếu dọc:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Các tệp đã tải xuống trước đó"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Mở tệp"
+		},
+		"closeButton": {
+			"text": "Đóng"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Trang",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Thuộc tính chú thích",
-		"vssde-annotationListPanel-pageLabel": "Trang",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Thuộc tính chú thích",
-		"vssde-textSearchPanel-pageLabel": "Trang",
-		"vssde-documentPasswordDialog-title": "Mật khẩu tài liệu",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Hủy",
-		"vssde-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
-		"vssde-imageSelectionDialog-allImagesString": "Tất cả hình ảnh",
-		"vssde-imageSelectionDialog-customImagesString": "Tùy chỉnh",
-		"vssde-imageSelectionDialog-title": "Chọn hình ảnh",
-		"vssde-printImagesDialog-withAnnotationsLabel": "có chú thích",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Hình ảnh đang được chuẩn bị để in",
-		"vssde-printImagesDialog-title": "In ảnh",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
-		"vssde-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Góc xoay không được bằng 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Hình ảnh được chú thích đang được xoay",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Xoay hình ảnh được chú thích",
-		"vssde-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh"
+		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
+		"vsdv-openFile-addFileString": "Thêm tập tin",
+		"vsdv-openFile-authenticateFileString": "Xác thực tập tin",
+		"vsdv-downloadFile-actionMessage": "Tải tập tin",
+		"vsdv-saveChanges-saveChangesInImages": "Lưu các thay đổi trong hình ảnh",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Lưu các thay đổi trong chú thích",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Ghi chú thích trên hình ảnh",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ghi chú thích",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Lưu chú thích",
+		"vsdv-annotationListPanel-pageLabel": "Trang",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Thuộc tính chú thích",
+		"vsdv-annotationCommentSettingsDialog-title": "Chỉnh sửa chú thích bình luận",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-deleteButton": "Xóa",
+		"vsdv-dialog-cancelButton": "Hủy",
+		"vsdv-documentPasswordDialog-title": "Mật khẩu tài liệu",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Xác thực tập tin",
+		"vsdv-imageSelectionDialog-title": "Chọn hình ảnh",
+		"vsdv-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
+		"vsdv-imageSelectionDialog-allImagesString": "Tất cả hình ảnh",
+		"vsdv-imageSelectionDialog-customImagesString": "Tùy chỉnh",
+		"vsdv-printImagesDialog-title": "In ảnh",
+		"vsdv-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
+		"vsdv-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
+		"vsdv-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Xoay hình ảnh được chú thích",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Góc xoay không được bằng 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Hình ảnh được chú thích đang được xoay"
 	}
 }

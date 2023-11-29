@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "عرض قائمة بالملفات التي تم تنزيلها مسبقًا"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "تحميل وفتح ملف الصورة عن طريق URL"
+		},
 		"printImagesButton": {
 			"title": "طباعة الصور"
 		},
 		"downloadFileButton": {
-			"title": "تحميل ملف الصورة"
+			"title": "تحميل الملف"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "تصدير وتنزيل الملف"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "ملائم للعرض"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "تدوير الصورة عكس اتجاه عقارب الساعة"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "قم بتدوير كافة طرق العرض عكس اتجاه عقارب الساعة"
 		},
 		"rotateAngleInput": {
 			"title": "زاوية الدوران"
 		},
-		"rotateClockwiseButton": {
-			"title": "تدوير الصورة باتجاه عقارب الساعة"
+		"rotateViewsClockwiseButton": {
+			"title": "تدوير كافة وجهات النظر في اتجاه عقارب الساعة"
 		},
 		"imageViewerSettingsButton": {
 			"title": "إعدادات عارض الصور"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "إعدادات عارض الصور المصغرة"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "التعليقات التوضيحية ، التنقل في المستند ، تحديد النص"
 		},
 		"panToolButton": {
 			"title": "عموم"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "التعليقات التوضيحية"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "تمييز النص"
+		"showAnnotationCommentListPanelButton": {
+			"title": "قائمة التعليقات التوضيحية"
 		},
-		"showTextSearchPanelButton": {
-			"title": "البحث عن نص"
+		"showFillAndSignPanelButton": {
+			"title": "املأ ووقع"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "وضع اختيار النص:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "ملف الشهادة:"
 			},
-			"rectangleOption": {
-				"text": "مستطيل"
+			"uploadCertificateFileButton": {
+				"title": "تحميل ملف الشهادة"
 			},
-			"fullLinesOption": {
-				"text": "أسطر كاملة"
+			"certificatePasswordLabel": {
+				"text": "كلمة مرور الشهادة:"
 			},
-			"selectionColorLabel": {
-				"text": "لون النص المحدد:"
+			"useTestCertificateLabel": {
+				"text": "استخدام شهادة الاختبار"
 			},
-			"selectedTextLabel": {
-				"text": "النص المحدد:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "بحث:"
+			"serverLabel": {
+				"text": "الخادم:"
 			},
-			"whereLookLabel": {
-				"text": "البحث في:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "الصفحة الحالية"
+			"passwordLabel": {
+				"text": "كلمة المرور:"
 			},
-			"allPagesOption": {
-				"text": "كافة الصفحات"
-			},
-			"wholeWordLabel": {
-				"text": "بحث عن كلمة كاملة"
-			},
-			"caseSensitiveLabel": {
-				"text": "تحسس حالة الأحرف"
-			},
-			"startSearchButton": {
-				"value": "بدء البحث"
-			},
-			"stopSearchButton": {
-				"value": "توقف عن البحث"
-			},
-			"textNotFoundLabel": {
-				"text": "النص غير موجود."
+			"fillAndSignButton": {
+				"value": "ملء وتوقيع"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "تكبير"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "مؤلف:"
+			},
+			"commentSubjectLabel": {
+				"text": "موضوع:"
+			},
+			"commentMessageLabel": {
+				"text": "رسالة:"
+			},
+			"useCommentStatusLabel": {
+				"text": "استخدم حالة التعليق"
+			},
+			"commentStatusLabel": {
+				"text": "حالة:"
+			},
+			"None": {
+				"text": "لا"
+			},
+			"Accepted": {
+				"text": "قبلت"
+			},
+			"Completed": {
+				"text": "مكتمل"
+			},
+			"Rejected": {
+				"text": "مرفوض"
+			},
+			"Cancelled": {
+				"text": "ألغيت"
+			},
+			"showStateHistoryLabel": {
+				"text": "إظهار تاريخ الولاية في الردود"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"deleteButton": {
+				"value": "حذف"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "عادي"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "نقاط اتصال كبيرة (شاشة تعمل باللمس)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "نسخ التعليق التوضيحي"
-			},
-			"pasteAnnotationLabel": {
-				"text": "أدخل تعليقًا توضيحيًا"
-			},
-			"removeAnnotationLabel": {
-				"text": "حذف التعليق التوضيحي"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "إرسال إلى الخلف"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "إحضار إلى الأمام"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "تجميع كافة التعليقات التوضيحية"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "فك تجميع التعليقات التوضيحية"
-			},
-			"annotationPropertiesLabel": {
-				"text": "خصائص التعليق ..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "وضع عرض متعدد الصفحات:"
 			},
 			"allImagesOption": {
-				"text": "كل الصور"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "صور ثابتة"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "اتجاه التخطيط:"
@@ -565,16 +566,16 @@
 				"text": "نمط وضع الصورة المصغرة:"
 			},
 			"singleColumnOption": {
-				"text": "عمود واحد"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "سطر واحد"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "عدد الأعمدة الثابت"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "عدد الصفوف العائم"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "عدد الأعمدة:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "السماح باختيار صور مصغرة متعددة:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "يمكن سحب الصور المصغرة:"
+			},
 			"okButton": {
 				"value": "موافق"
 			},
@@ -651,7 +655,7 @@
 				"text": "نوع لون الحد:"
 			},
 			"autoDetectOption": {
-				"text": "كشف تلقائي"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "أسود"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "إلغاء"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "الملفات التي تم تنزيلها مسبقًا"
 		},
-		"openButton": {
-			"text": "فتح ملف"
-		},
-		"closeButton": {
-			"text": "إغلاق"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "خصائص التعليق التوضيحي"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "إعدادات التعليقات التوضيحية",
 			"Border": {
 				"text": "الحدود:"
 			},
 			"CanMirror": {
-				"text": "يمكنك عكس:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "يستطيع التحرك:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "يمكن تغيير الحجم:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "يمكن تدويره:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "المؤلف:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "وقت الإنشاء:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ ملء:"
@@ -732,7 +721,7 @@
 				"text": "غامق:"
 			},
 			"FamilyName": {
-				"text": "اسم العائلة:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "مائل:"
@@ -753,25 +742,25 @@
 				"text": "+ فرشاة الخط:"
 			},
 			"FontTransparent": {
-				"text": "خط شفاف:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "المعرف:"
 			},
 			"HorizontalMirrored": {
-				"text": "مقلوب أفقيًا:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "تم إنشاء التعليق التوضيحي:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "التعليق التوضيحي مرئي:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "نمط الخط:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "حجم قالب نمط الخط:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ الموقع:"
@@ -783,10 +772,7 @@
 				"text": "ص:"
 			},
 			"ModifiedBy": {
-				"text": "تم التغيير بواسطة:"
-			},
-			"ModifiedTime": {
-				"text": "تغيير الوقت:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "الاسم:"
@@ -795,10 +781,10 @@
 				"text": "+ النظام:"
 			},
 			"DashPattern": {
-				"text": "نمط الشرطة:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "نمط اندفاعة:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ كاب في نهاية السطر:"
@@ -816,10 +802,10 @@
 				"text": "النمط:"
 			},
 			"LineJoin": {
-				"text": "اتصال الخط:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "ميتريليميت:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ كاب في بداية السطر:"
@@ -831,16 +817,16 @@
 				"text": "+ تغيير حجم قالب النقطة:"
 			},
 			"BorderColor": {
-				"text": "لون الحد:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "عرض الحد:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "لون التعبئة:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "نصف قطر منطقة التفاعل:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "نصف القطر:"
@@ -858,7 +844,7 @@
 				"text": "+ نقطة محورية:"
 			},
 			"RotationPointDistance": {
-				"text": "المسافة إلى النقطة المحورية:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ فرشاة الظل:"
@@ -873,25 +859,25 @@
 				"text": "نص:"
 			},
 			"TextAlign": {
-				"text": "محاذاة النص:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ حقل النص:"
 			},
 			"FontColor": {
-				"text": "لون الخط:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "مجموعة الخطوط:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "حجم الخط:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "ارتفاع حقل النص:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "عرض حقل النص:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ المسافة البادئة للنص:"
@@ -909,14 +895,25 @@
 				"text": "القاع:"
 			},
 			"ToolTip": {
-				"text": "تلميح:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "انعكاس عمودي:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "موافق"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "الملفات التي تم تنزيلها مسبقًا"
 		},
-		"okButton": {
-			"text": "موافق"
+		"openButton": {
+			"text": "فتح ملف"
+		},
+		"closeButton": {
+			"text": "إغلاق"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "الصفحة",
-		"vssde-annotationPanel-annotationPropertiesLabel": "خصائص التعليق التوضيحي",
-		"vssde-annotationListPanel-pageLabel": "الصفحة",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "خصائص التعليق التوضيحي",
-		"vssde-textSearchPanel-pageLabel": "الصفحة",
-		"vssde-documentPasswordDialog-title": "كلمة مرور المستند",
-		"vssde-dialog-okButton": "موافق",
-		"vssde-dialog-cancelButton": "إلغاء",
-		"vssde-imageSelectionDialog-currentImageString": "الصورة الحالية",
-		"vssde-imageSelectionDialog-allImagesString": "كل الصور",
-		"vssde-imageSelectionDialog-customImagesString": "مخصص",
-		"vssde-imageSelectionDialog-title": "اختر الصور",
-		"vssde-printImagesDialog-withAnnotationsLabel": "مع التعليقات التوضيحية",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "جاري تحضير الصورة للطباعة",
-		"vssde-printImagesDialog-title": "طباعة الصور",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
-		"vssde-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "زاوية الدوران يجب ألا تكون 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة",
-		"vssde-rotateImageWithAnnotationsDialog-title": "تدوير الصورة المشروحة",
-		"vssde-imageViewerSettingsDialog-title": "إعدادات عارض الصور"
+		"vsdv-uploadFileButton-uploadFileString": "رفع ملف",
+		"vsdv-openFile-addFileString": "اضف ملف",
+		"vsdv-openFile-authenticateFileString": "مصادقة الملف",
+		"vsdv-downloadFile-actionMessage": "تحميل الملف",
+		"vsdv-saveChanges-saveChangesInImages": "حفظ التغييرات في الصور",
+		"vsdv-saveChanges-saveChangesInAnnotations": "حفظ التغييرات في التعليقات التوضيحية",
+		"vsdv-saveChanges-burnAnnotationsInImages": "حرق التعليقات التوضيحية على الصور",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "حرق التعليقات التوضيحية",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "حفظ التعليقات التوضيحية",
+		"vsdv-annotationListPanel-pageLabel": "الصفحة",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "خصائص التعليق التوضيحي",
+		"vsdv-annotationCommentSettingsDialog-title": "تحرير التعليق التوضيحي",
+		"vsdv-dialog-okButton": "موافق",
+		"vsdv-dialog-deleteButton": "حذف",
+		"vsdv-dialog-cancelButton": "إلغاء",
+		"vsdv-documentPasswordDialog-title": "كلمة مرور المستند",
+		"vsdv-documentPasswordPanel-authenticateFileString": "مصادقة الملف",
+		"vsdv-imageSelectionDialog-title": "اختر الصور",
+		"vsdv-imageSelectionDialog-currentImageString": "الصورة الحالية",
+		"vsdv-imageSelectionDialog-allImagesString": "كل الصور",
+		"vsdv-imageSelectionDialog-customImagesString": "مخصص",
+		"vsdv-printImagesDialog-title": "طباعة الصور",
+		"vsdv-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
+		"vsdv-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
+		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "تدوير الصورة المشروحة",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "زاوية الدوران يجب ألا تكون 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة"
 	}
 }

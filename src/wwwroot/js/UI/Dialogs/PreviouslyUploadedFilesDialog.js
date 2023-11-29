@@ -20,8 +20,8 @@ PreviouslyUploadedFilesDialogJS = function (fileService, docViewer, openFileHelp
             // if file identifier exists
             if (fileId != null && fileId != '') {
                 try {
-                    // open file
-                    openFileHelper.openImageFile(fileId);
+                    // open file with authentication
+                    docViewer.openFileWithAuthentication(fileId);
                 }
                 catch (ex) {
                     showErrorMessage(ex.message);
@@ -49,7 +49,7 @@ PreviouslyUploadedFilesDialogJS = function (fileService, docViewer, openFileHelp
         var htmlMarkup = "";
         // if there is NO previously uploaded files
         if (files.length === 0) {
-            var uploadedFilesAreNotFoundString = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vssde-previouslyUploadedFilesDialog-uploadedFilesAreNotFoundString");
+            var uploadedFilesAreNotFoundString = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-previouslyUploadedFilesDialog-uploadedFilesAreNotFoundString");
             // add label with text "No uploaded files." to the dialog items
             htmlMarkup = htmlMarkup + '<label>' + uploadedFilesAreNotFoundString + '</label><br />';
         }
@@ -71,6 +71,6 @@ PreviouslyUploadedFilesDialogJS = function (fileService, docViewer, openFileHelp
 
 
 
-    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vssde-previouslyUploadedFilesDialog-uploadedFilesAreNotFoundString", "Uploaded files are not found.");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-previouslyUploadedFilesDialog-uploadedFilesAreNotFoundString", "Uploaded files are not found.");
 
 }

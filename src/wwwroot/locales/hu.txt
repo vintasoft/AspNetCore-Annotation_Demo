@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "A korábban letöltött fájlok listájának megtekintése"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Töltse fel és nyissa meg a képfájlt URL-cím szerint"
+		},
 		"printImagesButton": {
 			"title": "Képek nyomtatása"
 		},
 		"downloadFileButton": {
-			"title": "Képfájl letöltése"
+			"title": "Fájl letöltése"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Fájl exportálása és letöltése"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Szélességhez igazítás"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "A kép elforgatása az óramutató járásával ellentétes irányba"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Forgassa el az összes nézetet az óramutató járásával ellentétes irányba"
 		},
 		"rotateAngleInput": {
 			"title": "Elforgatási szög"
 		},
-		"rotateClockwiseButton": {
-			"title": "A kép elforgatása az óramutató járásával megegyező irányba"
+		"rotateViewsClockwiseButton": {
+			"title": "Forgassa el az összes nézetet az óramutató járásával megegyező irányba"
 		},
 		"imageViewerSettingsButton": {
 			"title": "A képnézegető beállításai"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Miniatűr-nézegető beállításai"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Jegyzetek, Dokumentumnavigáció, Szövegkijelölés"
 		},
 		"panToolButton": {
 			"title": "Pan"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Annotációk"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Szöveg kiemelése"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Megjegyzések listája"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Szöveg keresése"
+		"showFillAndSignPanelButton": {
+			"title": "Töltse ki és írja alá"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Szövegkiválasztási mód:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Tanúsítvány fájl:"
 			},
-			"rectangleOption": {
-				"text": "Téglalap"
+			"uploadCertificateFileButton": {
+				"title": "Tanúsítványfájl feltöltése"
 			},
-			"fullLinesOption": {
-				"text": "Teljes sorok"
+			"certificatePasswordLabel": {
+				"text": "Tanúsítvány jelszava:"
 			},
-			"selectionColorLabel": {
-				"text": "A kiválasztott szöveg színe:"
+			"useTestCertificateLabel": {
+				"text": "Használjon tesztbizonyítványt"
 			},
-			"selectedTextLabel": {
-				"text": "Kiválasztott szöveg:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Keresés:"
+			"serverLabel": {
+				"text": "Szerver:"
 			},
-			"whereLookLabel": {
-				"text": "Keresés itt:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Aktuális oldal"
+			"passwordLabel": {
+				"text": "Jelszó:"
 			},
-			"allPagesOption": {
-				"text": "Minden oldal"
-			},
-			"wholeWordLabel": {
-				"text": "A teljes szó keresése"
-			},
-			"caseSensitiveLabel": {
-				"text": "Kis- és nagybetűk megkülönböztetése"
-			},
-			"startSearchButton": {
-				"value": "Keresés indítása"
-			},
-			"stopSearchButton": {
-				"value": "Hagyja abba a keresést"
-			},
-			"textNotFoundLabel": {
-				"text": "A szöveg nem található."
+			"fillAndSignButton": {
+				"value": "Töltse ki és írja alá"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Nagyítás"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Szerző:"
+			},
+			"commentSubjectLabel": {
+				"text": "Tantárgy:"
+			},
+			"commentMessageLabel": {
+				"text": "Üzenet:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Megjegyzés állapot használata"
+			},
+			"commentStatusLabel": {
+				"text": "Állapot:"
+			},
+			"None": {
+				"text": "Nem"
+			},
+			"Accepted": {
+				"text": "Elfogadott"
+			},
+			"Completed": {
+				"text": "Befejezve"
+			},
+			"Rejected": {
+				"text": "Elutasítva"
+			},
+			"Cancelled": {
+				"text": "Törölve"
+			},
+			"showStateHistoryLabel": {
+				"text": "Államelőzmények megjelenítése a válaszokban"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"deleteButton": {
+				"value": "Törlés"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normál"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Nagy érintési pontok (érintőképernyő)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Jegyzet másolása"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Jegyzet beszúrása"
-			},
-			"removeAnnotationLabel": {
-				"text": "Jegyzet törlése"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Küldés vissza"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Előre hozza"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Az összes megjegyzés csoportosítása"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "A megjegyzés csoportosítása"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Annotáció tulajdonságai..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "Többoldalas megjelenítési mód:"
 			},
 			"allImagesOption": {
-				"text": "Minden kép"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Rögzített képek"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Elrendezés iránya:"
@@ -565,16 +566,16 @@
 				"text": "Miniatűr elhelyezési stílus:"
 			},
 			"singleColumnOption": {
-				"text": "Egy oszlop"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Egy sor"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Rögzített számú oszlop"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Lebegő sorok száma"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Oszlopok száma:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Több indexkép kiválasztásának engedélyezése:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Bélyegképek húzása:"
+			},
 			"okButton": {
 				"value": "Rendben"
 			},
@@ -651,7 +655,7 @@
 				"text": "Szegély színtípusa:"
 			},
 			"autoDetectOption": {
-				"text": "Automatikus felismerés"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Fekete"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "Mégse"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Korábban letöltött fájlok"
 		},
-		"openButton": {
-			"text": "Fájl megnyitása"
-		},
-		"closeButton": {
-			"text": "Bezárás"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Annotáció tulajdonságai"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Annotáció beállításai",
 			"Border": {
 				"text": "Határ:"
 			},
 			"CanMirror": {
-				"text": "Tükrözheti:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Mozgatható:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Átméretezhető:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Elforgatható:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Szerző:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Létrehozási idő:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Kitöltés:"
@@ -732,7 +721,7 @@
 				"text": "félkövér:"
 			},
 			"FamilyName": {
-				"text": "Családnév:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Dőlt:"
@@ -753,25 +742,25 @@
 				"text": "+ Betűkefe:"
 			},
 			"FontTransparent": {
-				"text": "Átlátszó betűtípus:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "Vízszintesen elfordítva:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "A kommentár elkészült:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "A kommentár látható:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Vonalstílus:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Vonalstílus-sablon mérete:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Helyszín:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Módosította:"
-			},
-			"ModifiedTime": {
-				"text": "Változási idő:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Név:"
@@ -795,10 +781,10 @@
 				"text": "+ Séma:"
 			},
 			"DashPattern": {
-				"text": "Szaggatott minta:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Stílus:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Cap a sor végén:"
@@ -816,10 +802,10 @@
 				"text": "Stílus:"
 			},
 			"LineJoin": {
-				"text": "Vonal kapcsolat:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "Mérhatár:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ sapka a sor elején:"
@@ -831,16 +817,16 @@
 				"text": "+ Pontsablon átméretezése:"
 			},
 			"BorderColor": {
-				"text": "Szegély színe:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Szegély szélessége:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Kitöltés színe:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Az interakciós terület sugara:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Sugár:"
@@ -858,7 +844,7 @@
 				"text": "+ Forgáspont:"
 			},
 			"RotationPointDistance": {
-				"text": "Távolság a forgásponttól:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Árnyakecset:"
@@ -873,25 +859,25 @@
 				"text": "Szöveg:"
 			},
 			"TextAlign": {
-				"text": "Szöveg igazítása:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Szövegmező:"
 			},
 			"FontColor": {
-				"text": "Betűszín:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Betűcsalád:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Betűméret:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Szövegmező magassága:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Szövegmező szélessége:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Szöveg behúzása:"
@@ -909,14 +895,25 @@
 				"text": "Alul:"
 			},
 			"ToolTip": {
-				"text": "Tipp:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Függőleges tükrözés:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "Rendben"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Korábban letöltött fájlok"
 		},
-		"okButton": {
-			"text": "Rendben"
+		"openButton": {
+			"text": "Fájl megnyitása"
+		},
+		"closeButton": {
+			"text": "Bezárás"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Oldal",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Annotáció tulajdonságai",
-		"vssde-annotationListPanel-pageLabel": "Oldal",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Annotáció tulajdonságai",
-		"vssde-textSearchPanel-pageLabel": "Oldal",
-		"vssde-documentPasswordDialog-title": "Dokumentum jelszava",
-		"vssde-dialog-okButton": "Rendben",
-		"vssde-dialog-cancelButton": "Mégse",
-		"vssde-imageSelectionDialog-currentImageString": "Aktuális kép",
-		"vssde-imageSelectionDialog-allImagesString": "Minden kép",
-		"vssde-imageSelectionDialog-customImagesString": "Egyedi",
-		"vssde-imageSelectionDialog-title": "Képek kiválasztása",
-		"vssde-printImagesDialog-withAnnotationsLabel": "jegyzetekkel",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "A kép nyomtatásra készül",
-		"vssde-printImagesDialog-title": "Képek nyomtatása",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
-		"vssde-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Az elforgatási szög nem lehet 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "A megjegyzésekkel ellátott kép elforgatása folyamatban van",
-		"vssde-rotateImageWithAnnotationsDialog-title": "A megjegyzésekkel ellátott kép elforgatása",
-		"vssde-imageViewerSettingsDialog-title": "A képnézegető beállításai"
+		"vsdv-uploadFileButton-uploadFileString": "Fájl feltöltés",
+		"vsdv-openFile-addFileString": "Fájl hozzáadása",
+		"vsdv-openFile-authenticateFileString": "Fájl hitelesítése",
+		"vsdv-downloadFile-actionMessage": "Fájl letöltése",
+		"vsdv-saveChanges-saveChangesInImages": "Mentse el a változásokat a képeken",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Mentse el a megjegyzések módosításait",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Írjon megjegyzéseket a képekre",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotációk írása",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Megjegyzések mentése",
+		"vsdv-annotationListPanel-pageLabel": "Oldal",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotáció tulajdonságai",
+		"vsdv-annotationCommentSettingsDialog-title": "Szerkessze a kommentár megjegyzését",
+		"vsdv-dialog-okButton": "Rendben",
+		"vsdv-dialog-deleteButton": "Törlés",
+		"vsdv-dialog-cancelButton": "Mégse",
+		"vsdv-documentPasswordDialog-title": "Dokumentum jelszava",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Fájl hitelesítése",
+		"vsdv-imageSelectionDialog-title": "Képek kiválasztása",
+		"vsdv-imageSelectionDialog-currentImageString": "Aktuális kép",
+		"vsdv-imageSelectionDialog-allImagesString": "Minden kép",
+		"vsdv-imageSelectionDialog-customImagesString": "Egyedi",
+		"vsdv-printImagesDialog-title": "Képek nyomtatása",
+		"vsdv-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
+		"vsdv-imageViewerSettingsDialog-title": "A képnézegető beállításai",
+		"vsdv-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "A megjegyzésekkel ellátott kép elforgatása",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Az elforgatási szög nem lehet 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "A megjegyzésekkel ellátott kép elforgatása folyamatban van"
 	}
 }

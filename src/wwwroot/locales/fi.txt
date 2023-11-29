@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Näytä luettelo aiemmin ladatuista tiedostoista"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Lataa ja avaa kuvatiedosto URL-osoitteen mukaan"
+		},
 		"printImagesButton": {
 			"title": "Tulosta kuvat"
 		},
 		"downloadFileButton": {
-			"title": "Lataa kuvatiedosto"
+			"title": "Lataa tiedosto"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Vie ja lataa tiedosto"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Sovita leveyteen"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Kierrä kuvaa vastapäivään"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Kierrä kaikkia näkymiä vastapäivään"
 		},
 		"rotateAngleInput": {
 			"title": "Kiertokulma"
 		},
-		"rotateClockwiseButton": {
-			"title": "Kierrä kuvaa myötäpäivään"
+		"rotateViewsClockwiseButton": {
+			"title": "Kierrä kaikkia näkymiä myötäpäivään"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Kuvankatseluohjelman asetukset"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Pikkukuvien katseluohjelman asetukset"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Merkinnät, asiakirjanavigointi, tekstin valinta"
 		},
 		"panToolButton": {
 			"title": "Pan"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Merkinnät"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Korosta teksti"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Huomautusten kommenttiluettelo"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Etsi tekstiä"
+		"showFillAndSignPanelButton": {
+			"title": "Täytä ja allekirjoita"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Tekstin valintatila:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Todistustiedosto:"
 			},
-			"rectangleOption": {
-				"text": "Suorakaide"
+			"uploadCertificateFileButton": {
+				"title": "Lataa sertifikaattitiedosto"
 			},
-			"fullLinesOption": {
-				"text": "Täydet rivit"
+			"certificatePasswordLabel": {
+				"text": "Varmenteen salasana:"
 			},
-			"selectionColorLabel": {
-				"text": "Valitun tekstin väri:"
+			"useTestCertificateLabel": {
+				"text": "Käytä testitodistusta"
 			},
-			"selectedTextLabel": {
-				"text": "Valittu teksti:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "Etsi:"
+			"serverLabel": {
+				"text": "Palvelin:"
 			},
-			"whereLookLabel": {
-				"text": "Haku:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Nykyinen sivu"
+			"passwordLabel": {
+				"text": "Salasana:"
 			},
-			"allPagesOption": {
-				"text": "Kaikki sivut"
-			},
-			"wholeWordLabel": {
-				"text": "Hae koko sana"
-			},
-			"caseSensitiveLabel": {
-				"text": "Kirjainkoolla on merkitystä"
-			},
-			"startSearchButton": {
-				"value": "Aloita haku"
-			},
-			"stopSearchButton": {
-				"value": "Lopeta haku"
-			},
-			"textNotFoundLabel": {
-				"text": "Tekstiä ei löydy."
+			"fillAndSignButton": {
+				"value": "Täytä ja allekirjoita"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Lähennä"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Tekijä:"
+			},
+			"commentSubjectLabel": {
+				"text": "Aihe:"
+			},
+			"commentMessageLabel": {
+				"text": "Viesti:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Käytä kommentin tilaa"
+			},
+			"commentStatusLabel": {
+				"text": "Tila:"
+			},
+			"None": {
+				"text": "Ei"
+			},
+			"Accepted": {
+				"text": "Hyväksytty"
+			},
+			"Completed": {
+				"text": "Valmis"
+			},
+			"Rejected": {
+				"text": "Hylätty"
+			},
+			"Cancelled": {
+				"text": "Peruutettu"
+			},
+			"showStateHistoryLabel": {
+				"text": "Näytä osavaltiohistoria vastauksissa"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Poista"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normaali"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Suuret kosketuspisteet (kosketusnäyttö)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Kopioi huomautus"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Lisää huomautus"
-			},
-			"removeAnnotationLabel": {
-				"text": "Poista huomautus"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Lähetä takaisin"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Tuo eteen"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Ryhmittele kaikki huomautukset"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Poista huomautus"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Merkintäominaisuudet..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,10 +423,10 @@
 				"text": "Monisivuinen näyttötila:"
 			},
 			"allImagesOption": {
-				"text": "Kaikki kuvat"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Kiinteät kuvat"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Asettelusuunta:"
@@ -565,16 +566,16 @@
 				"text": "Pikkukuvan sijoittelutyyli:"
 			},
 			"singleColumnOption": {
-				"text": "Yksi sarake"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Yksi rivi"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Kiinteä määrä sarakkeita"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Kelluva rivimäärä"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Sarakkeiden määrä:"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Salli useiden pikkukuvien valinta:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Voi vetää pikkukuvia:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +655,7 @@
 				"text": "Reunuksen värityyppi:"
 			},
 			"autoDetectOption": {
-				"text": "Automaattinen tunnistus"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Musta"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "Peruuta"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Aiemmin ladatut tiedostot"
 		},
-		"openButton": {
-			"text": "Avaa tiedosto"
-		},
-		"closeButton": {
-			"text": "Sulje"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Merkintäominaisuudet"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Merkintäasetukset",
 			"Border": {
 				"text": "Raja:"
 			},
 			"CanMirror": {
-				"text": "Voit peilata:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Voi liikkua:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Voidaan muuttaa kokoa:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Voidaan kääntää:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Kirjoittaja:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Luontiaika:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Täyttö:"
@@ -732,7 +721,7 @@
 				"text": "Lihavoitu:"
 			},
 			"FamilyName": {
-				"text": "Sukunimi:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Kursivoitu:"
@@ -753,25 +742,25 @@
 				"text": "+ Fonttisivellin:"
 			},
 			"FontTransparent": {
-				"text": "Läpinäkyvä fontti:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "Käännetty vaakasuunnassa:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Merkintä on rakennettu:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Merkintä on näkyvissä:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Viivan tyyli:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Viivityylimallin koko:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Sijainti:"
@@ -783,10 +772,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Muuttanut:"
-			},
-			"ModifiedTime": {
-				"text": "Muutosaika:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Nimi:"
@@ -795,10 +781,10 @@
 				"text": "+ Kaavio:"
 			},
 			"DashPattern": {
-				"text": "Katkova kuvio:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "viivatyyli:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Korkki rivin lopussa:"
@@ -816,7 +802,7 @@
 				"text": "Tyyli:"
 			},
 			"LineJoin": {
-				"text": "Linjayhteys:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
 				"text": "MiterLimit:"
@@ -831,16 +817,16 @@
 				"text": "+ Muuta pisteen kokoa:"
 			},
 			"BorderColor": {
-				"text": "Reunuksen väri:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Reunuksen leveys:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Täyttöväri:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Vuorovaikutusalueen säde:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Säde:"
@@ -858,7 +844,7 @@
 				"text": "+ Pivot point:"
 			},
 			"RotationPointDistance": {
-				"text": "Etäisyys kääntöpisteeseen:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Varjosivellin:"
@@ -873,25 +859,25 @@
 				"text": "Teksti:"
 			},
 			"TextAlign": {
-				"text": "Tekstin tasaus:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Tekstikenttä:"
 			},
 			"FontColor": {
-				"text": "Fontin väri:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Fonttiperhe:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Fonttikoko:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Tekstikentän korkeus:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Tekstikentän leveys:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Tekstin sisennys:"
@@ -909,14 +895,25 @@
 				"text": "Alhaalla:"
 			},
 			"ToolTip": {
-				"text": "Vihje:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Pystypeilaus:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Aiemmin ladatut tiedostot"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Avaa tiedosto"
+		},
+		"closeButton": {
+			"text": "Sulje"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Sivu",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Merkintäominaisuudet",
-		"vssde-annotationListPanel-pageLabel": "Sivu",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Merkintäominaisuudet",
-		"vssde-textSearchPanel-pageLabel": "Sivu",
-		"vssde-documentPasswordDialog-title": "Asiakirjan salasana",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Peruuta",
-		"vssde-imageSelectionDialog-currentImageString": "Nykyinen kuva",
-		"vssde-imageSelectionDialog-allImagesString": "Kaikki kuvat",
-		"vssde-imageSelectionDialog-customImagesString": "Mukautettu",
-		"vssde-imageSelectionDialog-title": "Valitse kuvat",
-		"vssde-printImagesDialog-withAnnotationsLabel": "huomautuksilla",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Kuvaa valmistellaan tulostusta varten",
-		"vssde-printImagesDialog-title": "Tulosta kuvat",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
-		"vssde-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kiertokulma ei saa olla 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotoitua kuvaa käännetään",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Kierrä huomautettua kuvaa",
-		"vssde-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset"
+		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
+		"vsdv-openFile-addFileString": "Lisää tiedosto",
+		"vsdv-openFile-authenticateFileString": "Todenna tiedosto",
+		"vsdv-downloadFile-actionMessage": "Lataa tiedosto",
+		"vsdv-saveChanges-saveChangesInImages": "Tallenna muutokset kuviin",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Tallenna muutokset huomautuksiin",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Polta kommentteja kuviin",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Polta huomautuksia",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Tallenna merkinnät",
+		"vsdv-annotationListPanel-pageLabel": "Sivu",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Merkintäominaisuudet",
+		"vsdv-annotationCommentSettingsDialog-title": "Muokkaa huomautuksen kommenttia",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-deleteButton": "Poista",
+		"vsdv-dialog-cancelButton": "Peruuta",
+		"vsdv-documentPasswordDialog-title": "Asiakirjan salasana",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Todenna tiedosto",
+		"vsdv-imageSelectionDialog-title": "Valitse kuvat",
+		"vsdv-imageSelectionDialog-currentImageString": "Nykyinen kuva",
+		"vsdv-imageSelectionDialog-allImagesString": "Kaikki kuvat",
+		"vsdv-imageSelectionDialog-customImagesString": "Mukautettu",
+		"vsdv-printImagesDialog-title": "Tulosta kuvat",
+		"vsdv-printImagesPanel-imagePrintingString": "Kuva tulostuu",
+		"vsdv-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
+		"vsdv-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Kierrä huomautettua kuvaa",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kiertokulma ei saa olla 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotoitua kuvaa käännetään"
 	}
 }

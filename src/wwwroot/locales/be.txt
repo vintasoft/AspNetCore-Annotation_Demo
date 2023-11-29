@@ -18,32 +18,35 @@
 		"previousUploadFilesButton": {
 			"title": "Раней загружаныя файлы"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Загрузіце і адкрыйце файл выявы па URL"
+		},
 		"printImagesButton": {
 			"title": "Друк малюнкаў"
 		},
 		"downloadFileButton": {
-			"title": "Спампаваць файл выявы"
+			"title": "Спампаваць файл"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Экспартаваць і спампаваць файл"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Падганяць па шырыні"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Павярнуць малюнак супраць гадзіннікавай стрэлкі"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Павярнуць усе віды супраць гадзіннікавай стрэлкі"
 		},
 		"rotateAngleInput": {
 			"title": "Вугал"
 		},
-		"rotateClockwiseButton": {
-			"title": "Павярнуць малюнак па гадзіннікавай стрэлцы"
+		"rotateViewsClockwiseButton": {
+			"title": "Павярнуць усе віды па гадзіннікавай стрэлцы"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Налады прагляду малюнкаў"
 		},
 		"thumbnailViewerSettingsButton": {
 			"title": "Налады прагляду эскізаў"
-		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Анатацыі, навігацыя па дакументах, выбар тэксту"
 		},
 		"panToolButton": {
 			"title": "Пан"
@@ -141,56 +144,36 @@
 		"showAnnotationsPanelButton": {
 			"title": "Анатацыі"
 		},
-		"showTextSelectionPanelButton": {
-			"title": "Вылучэнне тэксту"
+		"showAnnotationCommentListPanelButton": {
+			"title": "Спіс каментарыяў да анатацый"
 		},
-		"showTextSearchPanelButton": {
-			"title": "Знайсці тэкст"
+		"showFillAndSignPanelButton": {
+			"title": "Запоўніце і падпішыце"
 		},
-		"textSelectionPanel": {
-			"selectionModeLabel": {
-				"text": "Рэжым выбару:"
+		"fillAndSignPanel": {
+			"certificateFileLabel": {
+				"text": "Файл сертыфіката:"
 			},
-			"rectangleOption": {
-				"text": "Прастакутнік"
+			"uploadCertificateFileButton": {
+				"title": "Загрузіць файл сертыфіката"
 			},
-			"fullLinesOption": {
-				"text": "Поўныя радкі"
+			"certificatePasswordLabel": {
+				"text": "Пароль сертыфіката:"
 			},
-			"selectionColorLabel": {
-				"text": "Колер выбару:"
+			"useTestCertificateLabel": {
+				"text": "Выкарыстоўвайце тэставы сертыфікат"
 			},
-			"selectedTextLabel": {
-				"text": "Выдзелены тэкст:"
-			}
-		},
-		"textSearchPanel": {
-			"findLabel": {
-				"text": "знайсці:"
+			"serverLabel": {
+				"text": "Сервер:"
 			},
-			"whereLookLabel": {
-				"text": "Зазірнуць:"
+			"loginLabel": {
+				"text": "Login:"
 			},
-			"currentPageOption": {
-				"text": "Бягучая старонка"
+			"passwordLabel": {
+				"text": "Пароль:"
 			},
-			"allPagesOption": {
-				"text": "Усе старонкі"
-			},
-			"wholeWordLabel": {
-				"text": "Цэлае слова"
-			},
-			"caseSensitiveLabel": {
-				"text": "З улікам рэгістра"
-			},
-			"startSearchButton": {
-				"value": "Пачаць"
-			},
-			"stopSearchButton": {
-				"value": "Стоп"
-			},
-			"textNotFoundLabel": {
-				"text": "Тэкст не знойдзены."
+			"fillAndSignButton": {
+				"value": "Запоўніце і падпішыце"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -216,6 +199,50 @@
 		},
 		"zoomInButton": {
 			"title": "Павялічыць"
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Аўтар:"
+			},
+			"commentSubjectLabel": {
+				"text": "Тэма:"
+			},
+			"commentMessageLabel": {
+				"text": "паведамленне:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Выкарыстоўвайце статус каментара"
+			},
+			"commentStatusLabel": {
+				"text": "Статус:"
+			},
+			"None": {
+				"text": "Няма"
+			},
+			"Accepted": {
+				"text": "Прынята"
+			},
+			"Completed": {
+				"text": "Завершана"
+			},
+			"Rejected": {
+				"text": "Адхілена"
+			},
+			"Cancelled": {
+				"text": "Адменена"
+			},
+			"showStateHistoryLabel": {
+				"text": "Паказваць гісторыю дзяржавы ў адказах"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Выдаліць"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
 		},
 		"normalSizeModeButton": {
 			"title": "Нармальны"
@@ -279,32 +306,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Вялікія кропкі ўзаемадзеяння (сэнсарны экран)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Капіяваць анатацыю"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Уставіць анатацыю"
-			},
-			"removeAnnotationLabel": {
-				"text": "Выдаліць анатацыю"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Вярнуць назад"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Вывесці наперад"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Згрупуйце ўсе анатацыі"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Разгрупаваць анатацыю"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Уласцівасці анатацыі..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -422,7 +423,7 @@
 				"text": "Шматстаронкавы рэжым адлюстравання:"
 			},
 			"allImagesOption": {
-				"text": "Усе выявы"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
 				"text": "FixedImages"
@@ -565,13 +566,13 @@
 				"text": "Стыль плыні:"
 			},
 			"singleColumnOption": {
-				"text": "Аднакалонка"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Аднарадковы"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Фіксаваныя слупкі"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
 				"text": "WrappedRows"
@@ -636,6 +637,9 @@
 			"multiSelectLabel": {
 				"text": "Множны выбар:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Можна перацягваць эскізы:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +655,7 @@
 				"text": "Тып колеру мяжы:"
 			},
 			"autoDetectOption": {
-				"text": "Аўтавызначэнне"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Чорны"
@@ -677,44 +681,29 @@
 			"cancelButton": {
 				"value": "Адмяніць"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Раней запампаваныя файлы"
 		},
-		"openButton": {
-			"text": "Адкрыты"
-		},
-		"closeButton": {
-			"text": "Блізка"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Уласцівасці анатацыі"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Налады анатацый",
 			"Border": {
 				"text": "Мяжа:"
 			},
 			"CanMirror": {
-				"text": "Можна люстэрка:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Можа рухацца:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Можна змяніць памер:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Можа круціцца:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Створана:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Час стварэння:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Пэндзаль для запаўнення:"
@@ -732,7 +721,7 @@
 				"text": "Тлусты:"
 			},
 			"FamilyName": {
-				"text": "Прозвішча:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Курсіў:"
@@ -753,25 +742,25 @@
 				"text": "+ Пэндзаль шрыфта:"
 			},
 			"FontTransparent": {
-				"text": "Шрыфт празрысты:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "Гід:"
 			},
 			"HorizontalMirrored": {
-				"text": "Гарызантальна-люстрана:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Бачны:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Стыль лініі:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Стыль лініі Памер шаблону:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Размяшчэнне:"
@@ -783,10 +772,7 @@
 				"text": "у:"
 			},
 			"ModifiedBy": {
-				"text": "Зменена:"
-			},
-			"ModifiedTime": {
-				"text": "Час змены:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Імя:"
@@ -795,10 +781,10 @@
 				"text": "+ Схема:"
 			},
 			"DashPattern": {
-				"text": "Рысавая лінія:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Стыль працяжніка:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Заглушка:"
@@ -816,10 +802,10 @@
 				"text": "стыль:"
 			},
 			"LineJoin": {
-				"text": "Лінія злучэння:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "Ліміт скосу:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ Пачатак:"
@@ -831,16 +817,16 @@
 				"text": "+ Шаблон кропкі змены памеру:"
 			},
 			"BorderColor": {
-				"text": "Колер мяжы:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Шырыня мяжы:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Колер залівання:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Радыус узаемадзеяння:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Радыус:"
@@ -858,7 +844,7 @@
 				"text": "+ Кропка кручэння:"
 			},
 			"RotationPointDistance": {
-				"text": "Адлегласць кропкі кручэння:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Пэндзаль для ценяў:"
@@ -873,25 +859,25 @@
 				"text": "Тэкст:"
 			},
 			"TextAlign": {
-				"text": "Выраўноўванне тэксту:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Тэкставае поле:"
 			},
 			"FontColor": {
-				"text": "Колер шрыфта:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Сямейства шрыфтоў:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Памер шрыфта:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Вышыня тэкставага поля:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Шырыня тэкставага поля:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Запаўненне тэксту:"
@@ -909,14 +895,25 @@
 				"text": "унізе:"
 			},
 			"ToolTip": {
-				"text": "Падказка:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Вертыкальна-люстрана:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Раней запампаваныя файлы"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Адкрыты"
+		},
+		"closeButton": {
+			"text": "Блізка"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +925,35 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "старонка",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Уласцівасці анатацыі",
-		"vssde-annotationListPanel-pageLabel": "старонка",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Уласцівасці анатацыі",
-		"vssde-textSearchPanel-pageLabel": "старонка",
-		"vssde-documentPasswordDialog-title": "Пароль дакумента",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Адмяніць",
-		"vssde-imageSelectionDialog-currentImageString": "Актуальны малюнак",
-		"vssde-imageSelectionDialog-allImagesString": "Усе выявы",
-		"vssde-imageSelectionDialog-customImagesString": "Карыстацкі",
-		"vssde-imageSelectionDialog-title": "Выберыце выявы",
-		"vssde-printImagesDialog-withAnnotationsLabel": "з анатацыямі",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Выява падрыхтавана да друку",
-		"vssde-printImagesDialog-title": "Друк малюнкаў",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
-		"vssde-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут павароту павінен быць больш нуля.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Паварот малюнка з анатацыямі",
-		"vssde-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў"
+		"vsdv-uploadFileButton-uploadFileString": "Загрузіць файл",
+		"vsdv-openFile-addFileString": "Дадаць файл",
+		"vsdv-openFile-authenticateFileString": "Аўтэнтыфікаваць файл",
+		"vsdv-downloadFile-actionMessage": "Спампаваць файл",
+		"vsdv-saveChanges-saveChangesInImages": "Захаваць змены ў малюнках",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Захаваць змены ў анатацыях",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Запіс анатацый да малюнкаў",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Захаваць змены ў дакуменце PDF",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Запісаць анатацыі",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Захаваць анатацыі",
+		"vsdv-annotationListPanel-pageLabel": "старонка",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Уласцівасці анатацыі",
+		"vsdv-annotationCommentSettingsDialog-title": "Рэдагаваць каментар да анатацыі",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-deleteButton": "Выдаліць",
+		"vsdv-dialog-cancelButton": "Адмяніць",
+		"vsdv-documentPasswordDialog-title": "Пароль дакумента",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Аўтэнтыфікаваць файл",
+		"vsdv-imageSelectionDialog-title": "Выберыце выявы",
+		"vsdv-imageSelectionDialog-currentImageString": "Актуальны малюнак",
+		"vsdv-imageSelectionDialog-allImagesString": "Усе выявы",
+		"vsdv-imageSelectionDialog-customImagesString": "Карыстацкі",
+		"vsdv-printImagesDialog-title": "Друк малюнкаў",
+		"vsdv-printImagesPanel-imagePrintingString": "Выява друкуецца",
+		"vsdv-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
+		"vsdv-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Паварот малюнка з анатацыямі",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут павароту павінен быць больш нуля.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі"
 	}
 }
