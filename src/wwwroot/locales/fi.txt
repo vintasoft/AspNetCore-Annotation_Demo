@@ -151,26 +151,25 @@
 			"title": "Täytä ja allekirjoita"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Todistustiedosto:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Lataa sertifikaattitiedosto"
-			},
-			"certificatePasswordLabel": {
-				"text": "Varmenteen salasana:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Käytä testitodistusta"
-			},
-			"serverLabel": {
-				"text": "Palvelin:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Salasana:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Allekirjoitussertifikaatti"
+				},
+				"certificateFileLabel": {
+					"text": "Todistustiedosto:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Lataa sertifikaattitiedosto"
+				},
+				"certificatePasswordLabel": {
+					"text": "Varmenteen salasana:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Käytä testitodistusta"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Lisää aikaleima"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Täytä ja allekirjoita"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Lähennä"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Tekijä:"
-			},
-			"commentSubjectLabel": {
-				"text": "Aihe:"
-			},
-			"commentMessageLabel": {
-				"text": "Viesti:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Käytä kommentin tilaa"
-			},
-			"commentStatusLabel": {
-				"text": "Tila:"
-			},
-			"None": {
-				"text": "Ei"
-			},
-			"Accepted": {
-				"text": "Hyväksytty"
-			},
-			"Completed": {
-				"text": "Valmis"
-			},
-			"Rejected": {
-				"text": "Hylätty"
-			},
-			"Cancelled": {
-				"text": "Peruutettu"
-			},
-			"showStateHistoryLabel": {
-				"text": "Näytä osavaltiohistoria vastauksissa"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Poista"
-			},
-			"cancelButton": {
-				"value": "Peruuta"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normaali"
@@ -682,6 +637,115 @@
 				"value": "Peruuta"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Tiedoston nimi:"
+			},
+			"fileFormatLabel": {
+				"text": "Tiedosto muoto:"
+			},
+			"savePagesLabel": {
+				"text": "Tallenna sivut:"
+			},
+			"allPagesOption": {
+				"text": "Kaikki sivut"
+			},
+			"currentPageOption": {
+				"text": "Nykyinen sivu"
+			},
+			"pagesOption": {
+				"text": "Sivut"
+			},
+			"saveAnnoLabel": {
+				"text": "Tallenna merkinnät"
+			},
+			"burnAnnoLabel": {
+				"text": "Polta huomautuksia"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Tekijä:"
+			},
+			"commentSubjectLabel": {
+				"text": "Aihe:"
+			},
+			"commentMessageLabel": {
+				"text": "Viesti:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Käytä kommentin tilaa"
+			},
+			"commentStatusLabel": {
+				"text": "Tila:"
+			},
+			"None": {
+				"text": "Ei"
+			},
+			"Accepted": {
+				"text": "Hyväksytty"
+			},
+			"Completed": {
+				"text": "Valmis"
+			},
+			"Rejected": {
+				"text": "Hylätty"
+			},
+			"Cancelled": {
+				"text": "Peruutettu"
+			},
+			"showStateHistoryLabel": {
+				"text": "Näytä osavaltiohistoria vastauksissa"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Poista"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Kierrä näkymää myötäpäivään"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Kierrä näkymää vastapäivään"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopioi huomautus"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Lisää huomautus"
+		},
+		"removeAnnotationLabel": {
+			"text": "Poista huomautus"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Lähetä takaisin"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Tuo eteen"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Ryhmittele kaikki huomautukset"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Poista huomautus"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Lisää kommentti merkintään..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Merkintäominaisuudet..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Merkintäasetukset",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Tallenna merkinnät",
 		"vsdv-annotationListPanel-pageLabel": "Sivu",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Merkintäominaisuudet",
-		"vsdv-annotationCommentSettingsDialog-title": "Muokkaa huomautuksen kommenttia",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Poista",
-		"vsdv-dialog-cancelButton": "Peruuta",
 		"vsdv-documentPasswordDialog-title": "Asiakirjan salasana",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Peruuta",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Todenna tiedosto",
 		"vsdv-imageSelectionDialog-title": "Valitse kuvat",
 		"vsdv-imageSelectionDialog-currentImageString": "Nykyinen kuva",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Mukautettu",
 		"vsdv-printImagesDialog-title": "Tulosta kuvat",
 		"vsdv-printImagesPanel-imagePrintingString": "Kuva tulostuu",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "huomautuksilla",
 		"vsdv-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
 		"vsdv-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Kierrä huomautettua kuvaa",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kiertokulma ei saa olla 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotoitua kuvaa käännetään"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotoitua kuvaa käännetään",
+		"vsdv-exportFileSettingsDialog-title": "Vie tiedostoasetukset",
+		"vsdv-annotationCommentSettingsDialog-title": "Muokkaa huomautuksen kommenttia",
+		"vsdv-dialog-deleteButton": "Poista"
 	}
 }

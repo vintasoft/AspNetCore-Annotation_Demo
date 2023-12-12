@@ -151,26 +151,25 @@
 			"title": "Remplir et signer"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Fichier de certificat :"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Télécharger le fichier de certificat"
-			},
-			"certificatePasswordLabel": {
-				"text": "Mot de passe du certificat :"
-			},
-			"useTestCertificateLabel": {
-				"text": "Utiliser le certificat de test"
-			},
-			"serverLabel": {
-				"text": "Serveur:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Mot de passe :"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Le certificat de signature"
+				},
+				"certificateFileLabel": {
+					"text": "Fichier de certificat:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Télécharger le fichier de certificat"
+				},
+				"certificatePasswordLabel": {
+					"text": "Mot de passe du certificat:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Utiliser le certificat de test"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Ajouter un horodatage"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Remplir et signer"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zoomer"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Auteur:"
-			},
-			"commentSubjectLabel": {
-				"text": "Sujet:"
-			},
-			"commentMessageLabel": {
-				"text": "Message:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Utiliser le statut du commentaire"
-			},
-			"commentStatusLabel": {
-				"text": "Statut:"
-			},
-			"None": {
-				"text": "Non"
-			},
-			"Accepted": {
-				"text": "Accepté"
-			},
-			"Completed": {
-				"text": "Complété"
-			},
-			"Rejected": {
-				"text": "Rejeté"
-			},
-			"Cancelled": {
-				"text": "Annulé"
-			},
-			"showStateHistoryLabel": {
-				"text": "Afficher l'historique de l'état dans les réponses"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Supprimer"
-			},
-			"cancelButton": {
-				"value": "Annuler"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normale"
@@ -312,7 +267,7 @@
 				"text": "Ce document est protégé par un mot de passe. Veuillez entrer un mot de passe."
 			},
 			"passwordLabel": {
-				"text": "Mot de passe :"
+				"text": "Mot de passe:"
 			},
 			"showPasswordLabel": {
 				"text": "Afficher le mot de passe"
@@ -329,7 +284,7 @@
 		},
 		"selectImagesDialog": {
 			"imagesLabel": {
-				"text": "Images :"
+				"text": "Images:"
 			},
 			"currentImageOption": {
 				"text": "Image actuelle"
@@ -341,10 +296,10 @@
 				"text": "Personnalisé"
 			},
 			"imageRangeLabel": {
-				"text": "Plage d'images :"
+				"text": "Plage d'images:"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Plage de pages non valide. Exemple : 1-5, 8, 12-15."
+				"text": "Plage de pages non valide. Exemple: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "L'index n'est pas dans la plage d'index de la collection d'images."
@@ -358,7 +313,7 @@
 		},
 		"printImagesDialog": {
 			"imagesLabel": {
-				"text": "Images :"
+				"text": "Images:"
 			},
 			"currentImageOption": {
 				"text": "Image actuelle"
@@ -370,10 +325,10 @@
 				"text": "Personnalisé"
 			},
 			"imageRangeLabel": {
-				"text": "Plage d'images :"
+				"text": "Plage d'images:"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Plage de pages non valide. Exemple : 1-5, 8, 12-15."
+				"text": "Plage de pages non valide. Exemple: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "L'index n'est pas dans la plage d'index de la collection d'images."
@@ -387,10 +342,10 @@
 		},
 		"imageViewerSettingsDialog": {
 			"imageDisplayModeLabel": {
-				"text": "Mode d'affichage des images :"
+				"text": "Mode d'affichage des images:"
 			},
 			"imageAnchorLabel": {
-				"text": "Ancre d'image :"
+				"text": "Ancre d'image:"
 			},
 			"noneOption": {
 				"text": "Non"
@@ -420,7 +375,7 @@
 				"text": "Gauche"
 			},
 			"multipageDisplayModeLabel": {
-				"text": "Mode d'affichage multi-pages :"
+				"text": "Mode d'affichage multi-pages:"
 			},
 			"allImagesOption": {
 				"text": "AllImages"
@@ -429,7 +384,7 @@
 				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
-				"text": "Sens de mise en page :"
+				"text": "Sens de mise en page:"
 			},
 			"horizontalOption": {
 				"text": "Horizontale"
@@ -438,10 +393,10 @@
 				"text": "Verticale"
 			},
 			"rowColumnCountLabel": {
-				"text": "Images en ligne/colonne :"
+				"text": "Images en ligne/colonne:"
 			},
 			"imagePaddingLabel": {
-				"text": "Remplissage des images :"
+				"text": "Remplissage des images:"
 			},
 			"appearancesLabel": {
 				"text": "Apparitions"
@@ -450,25 +405,25 @@
 				"text": "Apparence de l'image"
 			},
 			"imageAppearanceBackColorLabel": {
-				"text": "Couleur de fond :"
+				"text": "Couleur de fond:"
 			},
 			"imageAppearanceBorderColorLabel": {
-				"text": "Couleur de bordure :"
+				"text": "Couleur de bordure:"
 			},
 			"imageAppearanceBorderWidthLabel": {
-				"text": "Largeur de la bordure :"
+				"text": "Largeur de la bordure:"
 			},
 			"focusedImageAppearanceLabel": {
 				"text": "Apparition de l'image mise au point"
 			},
 			"focusedImageAppearanceBackColorLabel": {
-				"text": "Couleur de fond :"
+				"text": "Couleur de fond:"
 			},
 			"focusedImageAppearanceBorderColorLabel": {
-				"text": "Couleur de bordure :"
+				"text": "Couleur de bordure:"
 			},
 			"focusedImageAppearanceBorderWidthLabel": {
-				"text": "Largeur de la bordure :"
+				"text": "Largeur de la bordure:"
 			},
 			"useAppearanceInSinglePageModeLabel": {
 				"text": "Utiliser l'apparence de l'image en mode page unique"
@@ -480,13 +435,13 @@
 				"text": "Paramètres par défaut"
 			},
 			"horizontalResolutionLabel": {
-				"text": "Résolution horizontale :"
+				"text": "Résolution horizontale:"
 			},
 			"verticalResolutionLabel ": {
-				"text": "Résolution verticale :"
+				"text": "Résolution verticale:"
 			},
 			"smoothingModeLabel": {
-				"text": "Mode fluide :"
+				"text": "Mode fluide:"
 			},
 			"AntiAlias": {
 				"text": "AntiAlias"
@@ -495,7 +450,7 @@
 				"text": "Non"
 			},
 			"interpolationModeLabel": {
-				"text": "Mode d'interpolation :"
+				"text": "Mode d'interpolation:"
 			},
 			"Bicubic": {
 				"text": "Bicubic"
@@ -516,25 +471,25 @@
 				"text": "Autres paramètres"
 			},
 			"backgroundColorLabel": {
-				"text": "Couleur d'arrière-plan de la visionneuse d'images :"
+				"text": "Couleur d'arrière-plan de la visionneuse d'images:"
 			},
 			"centerImageLabel": {
-				"text": "Centrer l'image :"
+				"text": "Centrer l'image:"
 			},
 			"resizeTimeoutLabel ": {
-				"text": "Délai de redimensionnement :"
+				"text": "Délai de redimensionnement:"
 			},
 			"tileSizeLabel": {
-				"text": "Taille de tuile :"
+				"text": "Taille de tuile:"
 			},
 			"colorManagementLabel": {
-				"text": "Activer la gestion des couleurs :"
+				"text": "Activer la gestion des couleurs:"
 			},
 			"useVectorRenderingLabel": {
-				"text": "Utiliser le rendu vectoriel pour les documents :"
+				"text": "Utiliser le rendu vectoriel pour les documents:"
 			},
 			"vectorContentBackgroundColorLabel": {
-				"text": "Couleur d'arrière-plan du contenu vectoriel :"
+				"text": "Couleur d'arrière-plan du contenu vectoriel:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -545,10 +500,10 @@
 		},
 		"thumbnailViewerSettingsDialog": {
 			"sizeLabel": {
-				"text": "Taille de la miniature :"
+				"text": "Taille de la miniature:"
 			},
 			"scaleLabel": {
-				"text": "Échelle des vignettes :"
+				"text": "Échelle des vignettes:"
 			},
 			"smallestOption": {
 				"text": "Moins"
@@ -563,7 +518,7 @@
 				"text": "Grand"
 			},
 			"flowStyleLabel": {
-				"text": "Style de placement des vignettes :"
+				"text": "Style de placement des vignettes:"
 			},
 			"singleColumnOption": {
 				"text": "SingleColumn"
@@ -578,31 +533,31 @@
 				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
-				"text": "Nombre de colonnes :"
+				"text": "Nombre de colonnes:"
 			},
 			"marginLabel": {
-				"text": "Rembourrage extérieur :"
+				"text": "Rembourrage extérieur:"
 			},
 			"paddingTopLabel": {
-				"text": "Rembourrage supérieur :"
+				"text": "Rembourrage supérieur:"
 			},
 			"paddingRightLabel": {
-				"text": "Retrait à droite :"
+				"text": "Retrait à droite:"
 			},
 			"paddingBottomLabel": {
-				"text": "Rembourrage inférieur :"
+				"text": "Rembourrage inférieur:"
 			},
 			"paddingLeftLabel": {
-				"text": "Retrait gauche :"
+				"text": "Retrait gauche:"
 			},
 			"showCaptionLabel": {
-				"text": "Afficher les légendes des miniatures :"
+				"text": "Afficher les légendes des miniatures:"
 			},
 			"captionFormatLabel": {
-				"text": "Format des signatures :"
+				"text": "Format des signatures:"
 			},
 			"captionAnchorLabel": {
-				"text": "Ancre de signature :"
+				"text": "Ancre de signature:"
 			},
 			"topLeftOption": {
 				"text": "Haut|Gauche"
@@ -632,13 +587,13 @@
 				"text": "Aligner au centre"
 			},
 			"focusOnHoverLabel": {
-				"text": "Survoler le focus :"
+				"text": "Survoler le focus:"
 			},
 			"multiSelectLabel": {
-				"text": "Autoriser la sélection de vignettes multiples :"
+				"text": "Autoriser la sélection de vignettes multiples:"
 			},
 			"canDragThumbnailsLabel": {
-				"text": "Peut faire glisser des vignettes :"
+				"text": "Peut faire glisser des vignettes:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -649,10 +604,10 @@
 		},
 		"rotateImageWithAnnotationsDialog": {
 			"rotationAngleLabel": {
-				"text": "Angle de rotation :"
+				"text": "Angle de rotation:"
 			},
 			"borderColorTypeLabel": {
-				"text": "Type de couleur de bordure :"
+				"text": "Type de couleur de bordure:"
 			},
 			"autoDetectOption": {
 				"text": "AutoDetect"
@@ -670,7 +625,7 @@
 				"text": "Personnalisé"
 			},
 			"borderColorLabel": {
-				"text": "Couleur de bordure :"
+				"text": "Couleur de bordure:"
 			},
 			"changeSourceLabel": {
 				"text": "Changer de source"
@@ -682,10 +637,119 @@
 				"value": "Annuler"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Nom de fichier:"
+			},
+			"fileFormatLabel": {
+				"text": "Format de fichier:"
+			},
+			"savePagesLabel": {
+				"text": "Enregistrer les pages:"
+			},
+			"allPagesOption": {
+				"text": "Toutes les pages"
+			},
+			"currentPageOption": {
+				"text": "Page actuelle"
+			},
+			"pagesOption": {
+				"text": "Pages"
+			},
+			"saveAnnoLabel": {
+				"text": "Enregistrer les annotations"
+			},
+			"burnAnnoLabel": {
+				"text": "Graver des annotations"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Auteur:"
+			},
+			"commentSubjectLabel": {
+				"text": "Sujet:"
+			},
+			"commentMessageLabel": {
+				"text": "Message:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Utiliser le statut du commentaire"
+			},
+			"commentStatusLabel": {
+				"text": "Statut:"
+			},
+			"None": {
+				"text": "Non"
+			},
+			"Accepted": {
+				"text": "Accepté"
+			},
+			"Completed": {
+				"text": "Complété"
+			},
+			"Rejected": {
+				"text": "Rejeté"
+			},
+			"Cancelled": {
+				"text": "Annulé"
+			},
+			"showStateHistoryLabel": {
+				"text": "Afficher l'historique de l'état dans les réponses"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Supprimer"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Faire pivoter la vue dans le sens des aiguilles d'une montre"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Faire pivoter la vue dans le sens inverse des aiguilles d'une montre"
+		},
+		"copyAnnotationLabel": {
+			"text": "Copier l'annotation"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Insérer une annotation"
+		},
+		"removeAnnotationLabel": {
+			"text": "Supprimer l'annotation"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Envoyer à l'arrière"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Mettre au premier plan"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Regrouper toutes les annotations"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Dissocier l'annotation"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Ajouter un commentaire à l'annotation..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Propriétés d'annotation..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Paramètres d'annotation",
 			"Border": {
-				"text": "Limite :"
+				"text": "Limite:"
 			},
 			"CanMirror": {
 				"text": "CanMirror:"
@@ -706,46 +770,46 @@
 				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
-				"text": "+ Remplir :"
+				"text": "+ Remplir:"
 			},
 			"Color": {
-				"text": "Couleur :"
+				"text": "Couleur:"
 			},
 			"Type": {
-				"text": "Tapez :"
+				"text": "Tapez:"
 			},
 			"+ Font": {
-				"text": "+ Police :"
+				"text": "+ Police:"
 			},
 			"Bold": {
-				"text": "Gras :"
+				"text": "Gras:"
 			},
 			"FamilyName": {
 				"text": "FamilyName:"
 			},
 			"Italic": {
-				"text": "Italique :"
+				"text": "Italique:"
 			},
 			"Size": {
-				"text": "Taille de la miniature :"
+				"text": "Taille de la miniature:"
 			},
 			"Strikeout": {
-				"text": "Barré :"
+				"text": "Barré:"
 			},
 			"Underline": {
-				"text": "Souligné :"
+				"text": "Souligné:"
 			},
 			"Unit": {
-				"text": "Unité :"
+				"text": "Unité:"
 			},
 			"+ FontBrush": {
-				"text": "+ Pinceau de police :"
+				"text": "+ Pinceau de police:"
 			},
 			"FontTransparent": {
 				"text": "FontTransparent:"
 			},
 			"Guid": {
-				"text": "ID :"
+				"text": "ID:"
 			},
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
@@ -763,13 +827,13 @@
 				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
-				"text": "+ Emplacement :"
+				"text": "+ Emplacement:"
 			},
 			"x": {
-				"text": "x :"
+				"text": "x:"
 			},
 			"y": {
-				"text": "y :"
+				"text": "y:"
 			},
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
@@ -778,7 +842,7 @@
 				"text": "Nom:"
 			},
 			"+ Outline": {
-				"text": "+ Schéma :"
+				"text": "+ Schéma:"
 			},
 			"DashPattern": {
 				"text": "DashPattern:"
@@ -787,19 +851,19 @@
 				"text": "DashStyle:"
 			},
 			"+ EndCap": {
-				"text": "+ Cap à la fin de la ligne :"
+				"text": "+ Cap à la fin de la ligne:"
 			},
 			"+ Size": {
-				"text": "+ Taille :"
+				"text": "+ Taille:"
 			},
 			"width": {
-				"text": "Largeur :"
+				"text": "Largeur:"
 			},
 			"height": {
-				"text": "Hauteur :"
+				"text": "Hauteur:"
 			},
 			"Style": {
-				"text": "Style :"
+				"text": "Style:"
 			},
 			"LineJoin": {
 				"text": "LineJoin:"
@@ -808,13 +872,13 @@
 				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
-				"text": "+ Cap en début de ligne :"
+				"text": "+ Cap en début de ligne:"
 			},
 			"Width": {
-				"text": "Largeur :"
+				"text": "Largeur:"
 			},
 			"+ ResizePointTemplate": {
-				"text": "+ Redimensionner le modèle de points :"
+				"text": "+ Redimensionner le modèle de points:"
 			},
 			"BorderColor": {
 				"text": "BorderColor:"
@@ -829,31 +893,31 @@
 				"text": "InteractionRadius:"
 			},
 			"Radius": {
-				"text": "Rayon :"
+				"text": "Rayon:"
 			},
 			"Rotation": {
-				"text": "Rotation :"
+				"text": "Rotation:"
 			},
 			"+ RotationCenterPoint": {
-				"text": "+ Point central de rotation :"
+				"text": "+ Point central de rotation:"
 			},
 			"Cursor": {
-				"text": "Curseur :"
+				"text": "Curseur:"
 			},
 			"+ RotationPoint": {
-				"text": "+ Point pivot :"
+				"text": "+ Point pivot:"
 			},
 			"RotationPointDistance": {
 				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
-				"text": "+ Pinceau Ombre :"
+				"text": "+ Pinceau Ombre:"
 			},
 			"+ ShadowOffset": {
-				"text": "+ Retrait pour dessiner l'ombre :"
+				"text": "+ Retrait pour dessiner l'ombre:"
 			},
 			"Symmetry": {
-				"text": "Symétrie :"
+				"text": "Symétrie:"
 			},
 			"Text": {
 				"text": "Texte:"
@@ -862,7 +926,7 @@
 				"text": "TextAlign:"
 			},
 			"+ TextBox": {
-				"text": "+ Champ de texte :"
+				"text": "+ Champ de texte:"
 			},
 			"FontColor": {
 				"text": "FontColor:"
@@ -880,19 +944,19 @@
 				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
-				"text": "+ Indentation du texte :"
+				"text": "+ Indentation du texte:"
 			},
 			"left": {
-				"text": "Gauche :"
+				"text": "Gauche:"
 			},
 			"right": {
-				"text": "Droit :"
+				"text": "Droit:"
 			},
 			"top": {
-				"text": "Haut :"
+				"text": "Haut:"
 			},
 			"bottom": {
-				"text": "En bas :"
+				"text": "En bas:"
 			},
 			"ToolTip": {
 				"text": "ToolTip:"
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Enregistrer les annotations",
 		"vsdv-annotationListPanel-pageLabel": "Page",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Propriétés d'annotation",
-		"vsdv-annotationCommentSettingsDialog-title": "Modifier le commentaire de l'annotation",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Supprimer",
-		"vsdv-dialog-cancelButton": "Annuler",
 		"vsdv-documentPasswordDialog-title": "Mot de passe du document",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Annuler",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Authentifier le fichier",
 		"vsdv-imageSelectionDialog-title": "Sélectionner des images",
 		"vsdv-imageSelectionDialog-currentImageString": "Image actuelle",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Personnalisé",
 		"vsdv-printImagesDialog-title": "Imprimer des images",
 		"vsdv-printImagesPanel-imagePrintingString": "L'image est en cours d'impression",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "avec annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Paramètres de la visionneuse d'images",
 		"vsdv-thumbnailViewerSettingDialog-title": "Paramètres de la visionneuse de miniatures",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afficher les annotations sur les vignettes :",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afficher les annotations sur les vignettes:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Faire pivoter l'image annotée",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "L'angle de rotation ne doit pas être égal à 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'image annotée est en cours de rotation"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'image annotée est en cours de rotation",
+		"vsdv-exportFileSettingsDialog-title": "Exporter les paramètres du fichier",
+		"vsdv-annotationCommentSettingsDialog-title": "Modifier le commentaire de l'annotation",
+		"vsdv-dialog-deleteButton": "Supprimer"
 	}
 }

@@ -100,7 +100,7 @@
 			"title": "Kolmnurk"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Interaktsioonirežiim "Autor""
+			"title": "Interaktsioonirežiim 'Autor'"
 		},
 		"copyAnnotationButton": {
 			"title": "Kopeeri fokuseeritud annotatsioon"
@@ -151,26 +151,25 @@
 			"title": "Täitke ja allkirjastage"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Sertifikaadi fail:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Laadige üles sertifikaadi fail"
-			},
-			"certificatePasswordLabel": {
-				"text": "Sertifikaadi parool:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Kasutage testsertifikaati"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Parool:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Allkirja sertifikaat"
+				},
+				"certificateFileLabel": {
+					"text": "Sertifikaadi fail:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Laadige üles sertifikaadi fail"
+				},
+				"certificatePasswordLabel": {
+					"text": "Sertifikaadi parool:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Kasutage testsertifikaati"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Lisage ajatempel"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Täitke ja allkirjastage"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Suurenda"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"commentSubjectLabel": {
-				"text": "Teema:"
-			},
-			"commentMessageLabel": {
-				"text": "Sõnum:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Kasutage kommentaari olekut"
-			},
-			"commentStatusLabel": {
-				"text": "Olek:"
-			},
-			"None": {
-				"text": "Mitte ühtegi"
-			},
-			"Accepted": {
-				"text": "Vastu võetud"
-			},
-			"Completed": {
-				"text": "Lõpetatud"
-			},
-			"Rejected": {
-				"text": "Tagasi lükatud"
-			},
-			"Cancelled": {
-				"text": "Tühistatud"
-			},
-			"showStateHistoryLabel": {
-				"text": "Kuva vastustes osariigi ajalugu"
-			},
-			"okButton": {
-				"value": "Okei"
-			},
-			"deleteButton": {
-				"value": "Kustuta"
-			},
-			"cancelButton": {
-				"value": "Tühista"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Tavaline"
@@ -296,10 +251,10 @@
 			"title": "Mark"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Interaktsioonirežiim "Puudub""
+			"title": "Interaktsioonirežiim 'Puudub'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Interaktsioonirežiim "Vaade""
+			"title": "Interaktsioonirežiim 'Vaade'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Väikesed interaktsioonipunktid"
@@ -682,6 +637,115 @@
 				"value": "Tühista"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faili nimi:"
+			},
+			"fileFormatLabel": {
+				"text": "Failiformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Salvesta lehed:"
+			},
+			"allPagesOption": {
+				"text": "Kõik lehed"
+			},
+			"currentPageOption": {
+				"text": "Käesolev lehekülg"
+			},
+			"pagesOption": {
+				"text": "Leheküljed"
+			},
+			"saveAnnoLabel": {
+				"text": "Salvestage märkused"
+			},
+			"burnAnnoLabel": {
+				"text": "Märkuste kirjutamine"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"commentSubjectLabel": {
+				"text": "Teema:"
+			},
+			"commentMessageLabel": {
+				"text": "Sõnum:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Kasutage kommentaari olekut"
+			},
+			"commentStatusLabel": {
+				"text": "Olek:"
+			},
+			"None": {
+				"text": "Mitte ühtegi"
+			},
+			"Accepted": {
+				"text": "Vastu võetud"
+			},
+			"Completed": {
+				"text": "Lõpetatud"
+			},
+			"Rejected": {
+				"text": "Tagasi lükatud"
+			},
+			"Cancelled": {
+				"text": "Tühistatud"
+			},
+			"showStateHistoryLabel": {
+				"text": "Kuva vastustes osariigi ajalugu"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"deleteButton": {
+				"value": "Kustuta"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Pöörake vaadet päripäeva"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pöörake vaadet vastupäeva"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopeeri annotatsioon"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Kleebi annotatsioon"
+		},
+		"removeAnnotationLabel": {
+			"text": "Eemalda märkus"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Too tagasi"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Too ette"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Rühmitage kõik märkused"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Lahutage annotatsiooni rühmitamine"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Lisa kommentaarile kommentaar..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Märkuste atribuudid..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Märkuste seaded",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salvestage märkused",
 		"vsdv-annotationListPanel-pageLabel": "Lehekülg",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotatsiooni omadused",
-		"vsdv-annotationCommentSettingsDialog-title": "Muutke annotatsiooni kommentaari",
-		"vsdv-dialog-okButton": "Okei",
-		"vsdv-dialog-deleteButton": "Kustuta",
-		"vsdv-dialog-cancelButton": "Tühista",
 		"vsdv-documentPasswordDialog-title": "Dokumendi parool",
+		"vsdv-dialog-okButton": "Okei",
+		"vsdv-dialog-cancelButton": "Tühista",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Autentige fail",
 		"vsdv-imageSelectionDialog-title": "Valige pildid",
 		"vsdv-imageSelectionDialog-currentImageString": "Praegune pilt",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
 		"vsdv-printImagesDialog-title": "Printige pilte",
 		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
 		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Pöörake pilti koos märkustega",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Pöörlemisnurk peaks olema suurem kui null.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Pööratav pilt koos märkustega"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Pööratav pilt koos märkustega",
+		"vsdv-exportFileSettingsDialog-title": "Ekspordi faili sätted",
+		"vsdv-annotationCommentSettingsDialog-title": "Muutke annotatsiooni kommentaari",
+		"vsdv-dialog-deleteButton": "Kustuta"
 	}
 }

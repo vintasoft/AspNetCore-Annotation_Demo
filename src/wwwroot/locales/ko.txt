@@ -151,26 +151,25 @@
 			"title": "작성 및 서명"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "인증서 파일:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "인증서 파일 업로드"
-			},
-			"certificatePasswordLabel": {
-				"text": "인증서 비밀번호:"
-			},
-			"useTestCertificateLabel": {
-				"text": "테스트 인증서 사용"
-			},
-			"serverLabel": {
-				"text": "섬기는 사람:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "암호:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "서명 인증서"
+				},
+				"certificateFileLabel": {
+					"text": "인증서 파일:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "인증서 파일 업로드"
+				},
+				"certificatePasswordLabel": {
+					"text": "인증서 비밀번호:"
+				},
+				"useTestCertificateLabel": {
+					"text": "테스트 인증서 사용"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "타임스탬프 추가"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "작성 및 서명"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "확대"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "작가:"
-			},
-			"commentSubjectLabel": {
-				"text": "주제:"
-			},
-			"commentMessageLabel": {
-				"text": "메시지:"
-			},
-			"useCommentStatusLabel": {
-				"text": "댓글 상태 사용"
-			},
-			"commentStatusLabel": {
-				"text": "상태:"
-			},
-			"None": {
-				"text": "아니오"
-			},
-			"Accepted": {
-				"text": "수락됨"
-			},
-			"Completed": {
-				"text": "완전한"
-			},
-			"Rejected": {
-				"text": "거부됨"
-			},
-			"Cancelled": {
-				"text": "취소 된"
-			},
-			"showStateHistoryLabel": {
-				"text": "답글에 상태 기록 표시"
-			},
-			"okButton": {
-				"value": "확인"
-			},
-			"deleteButton": {
-				"value": "삭제"
-			},
-			"cancelButton": {
-				"value": "취소"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "정상"
@@ -682,6 +637,115 @@
 				"value": "취소"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "파일 이름:"
+			},
+			"fileFormatLabel": {
+				"text": "파일 형식:"
+			},
+			"savePagesLabel": {
+				"text": "페이지 저장:"
+			},
+			"allPagesOption": {
+				"text": "모든 페이지"
+			},
+			"currentPageOption": {
+				"text": "현재 페이지"
+			},
+			"pagesOption": {
+				"text": "페이지"
+			},
+			"saveAnnoLabel": {
+				"text": "주석 저장"
+			},
+			"burnAnnoLabel": {
+				"text": "주석 굽기"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "작가:"
+			},
+			"commentSubjectLabel": {
+				"text": "주제:"
+			},
+			"commentMessageLabel": {
+				"text": "메시지:"
+			},
+			"useCommentStatusLabel": {
+				"text": "댓글 상태 사용"
+			},
+			"commentStatusLabel": {
+				"text": "상태:"
+			},
+			"None": {
+				"text": "아니오"
+			},
+			"Accepted": {
+				"text": "수락됨"
+			},
+			"Completed": {
+				"text": "완전한"
+			},
+			"Rejected": {
+				"text": "거부됨"
+			},
+			"Cancelled": {
+				"text": "취소 된"
+			},
+			"showStateHistoryLabel": {
+				"text": "답글에 상태 기록 표시"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"deleteButton": {
+				"value": "삭제"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "보기를 시계 방향으로 회전"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "시계 반대 방향으로 보기 회전"
+		},
+		"copyAnnotationLabel": {
+			"text": "주석 복사"
+		},
+		"pasteAnnotationLabel": {
+			"text": "주석 삽입"
+		},
+		"removeAnnotationLabel": {
+			"text": "주석 삭제"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "뒤로 보내기"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "앞으로 가져오기"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "모든 주석 그룹화"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "주석 그룹 해제"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "주석에 설명 추가..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "주석 속성..."
+		},
 		"annotationSettingsDialog": {
 			"title": "주석 설정",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "주석 저장",
 		"vsdv-annotationListPanel-pageLabel": "페이지",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "주석 속성",
-		"vsdv-annotationCommentSettingsDialog-title": "주석 댓글 편집",
-		"vsdv-dialog-okButton": "확인",
-		"vsdv-dialog-deleteButton": "삭제",
-		"vsdv-dialog-cancelButton": "취소",
 		"vsdv-documentPasswordDialog-title": "문서 비밀번호",
+		"vsdv-dialog-okButton": "확인",
+		"vsdv-dialog-cancelButton": "취소",
 		"vsdv-documentPasswordPanel-authenticateFileString": "파일 인증",
 		"vsdv-imageSelectionDialog-title": "이미지 선택",
 		"vsdv-imageSelectionDialog-currentImageString": "현재 이미지",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "사용자 정의",
 		"vsdv-printImagesDialog-title": "이미지 인쇄",
 		"vsdv-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "주석 포함",
 		"vsdv-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
 		"vsdv-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "주석 이미지 회전",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "회전 각도는 0이 아니어야 합니다.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "주석 이미지 회전 중"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "주석 이미지 회전 중",
+		"vsdv-exportFileSettingsDialog-title": "파일 설정 내보내기",
+		"vsdv-annotationCommentSettingsDialog-title": "주석 댓글 편집",
+		"vsdv-dialog-deleteButton": "삭제"
 	}
 }

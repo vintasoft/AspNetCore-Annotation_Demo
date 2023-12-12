@@ -262,7 +262,7 @@ namespace AspNetCoreAnnotationDemo.Controllers
         /// </summary>
         private X509Certificate2 GetTestCertificate()
         {
-            string certificatePath = @"wwwroot\Resources\TestCertificate.pfx";
+            string certificatePath = Path.Combine("wwwroot", "Resources", "TestCertificate.pfx");
             string certificatePassword = "test";
 
             return new X509Certificate2(certificatePath, certificatePassword);

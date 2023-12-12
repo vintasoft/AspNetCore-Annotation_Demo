@@ -100,7 +100,7 @@
 			"title": "Trojuholník"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Režim interakcie „Autor“"
+			"title": "Režim interakcie 'Autor'"
 		},
 		"copyAnnotationButton": {
 			"title": "Kopírovať zameranú anotáciu"
@@ -151,26 +151,25 @@
 			"title": "Vyplňte a podpíšte"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Súbor certifikátu:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Nahrajte súbor certifikátu"
-			},
-			"certificatePasswordLabel": {
-				"text": "Heslo certifikátu:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Použite testovací certifikát"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Heslo:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Podpisový certifikát"
+				},
+				"certificateFileLabel": {
+					"text": "Súbor certifikátu:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Nahrajte súbor certifikátu"
+				},
+				"certificatePasswordLabel": {
+					"text": "Heslo certifikátu:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Použite testovací certifikát"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Pridajte časovú pečiatku"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Vyplňte a podpíšte"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Priblížiť"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "autor:"
-			},
-			"commentSubjectLabel": {
-				"text": "Predmet:"
-			},
-			"commentMessageLabel": {
-				"text": "Správa:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Použite stav komentára"
-			},
-			"commentStatusLabel": {
-				"text": "Postavenie:"
-			},
-			"None": {
-				"text": "Ziadne"
-			},
-			"Accepted": {
-				"text": "Prijatý"
-			},
-			"Completed": {
-				"text": "Dokončené"
-			},
-			"Rejected": {
-				"text": "Odmietnuté"
-			},
-			"Cancelled": {
-				"text": "Zrušené"
-			},
-			"showStateHistoryLabel": {
-				"text": "Zobraziť históriu stavu v odpovediach"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Odstrániť"
-			},
-			"cancelButton": {
-				"value": "Zrušiť"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normálne"
@@ -296,10 +251,10 @@
 			"title": "Marka"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Režim interakcie „Žiadny“"
+			"title": "Režim interakcie 'Žiadny'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Režim interakcie „Zobraziť“"
+			"title": "Režim interakcie 'Zobraziť'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Malé interakčné body"
@@ -682,6 +637,115 @@
 				"value": "Zrušiť"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Názov súboru:"
+			},
+			"fileFormatLabel": {
+				"text": "Formát súboru:"
+			},
+			"savePagesLabel": {
+				"text": "Uložte si stránky:"
+			},
+			"allPagesOption": {
+				"text": "Všetky strany"
+			},
+			"currentPageOption": {
+				"text": "Aktuálna stránka"
+			},
+			"pagesOption": {
+				"text": "Stránky"
+			},
+			"saveAnnoLabel": {
+				"text": "Uložiť anotácie"
+			},
+			"burnAnnoLabel": {
+				"text": "Vypáliť anotácie"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušiť"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "autor:"
+			},
+			"commentSubjectLabel": {
+				"text": "Predmet:"
+			},
+			"commentMessageLabel": {
+				"text": "Správa:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Použite stav komentára"
+			},
+			"commentStatusLabel": {
+				"text": "Postavenie:"
+			},
+			"None": {
+				"text": "Ziadne"
+			},
+			"Accepted": {
+				"text": "Prijatý"
+			},
+			"Completed": {
+				"text": "Dokončené"
+			},
+			"Rejected": {
+				"text": "Odmietnuté"
+			},
+			"Cancelled": {
+				"text": "Zrušené"
+			},
+			"showStateHistoryLabel": {
+				"text": "Zobraziť históriu stavu v odpovediach"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Odstrániť"
+			},
+			"cancelButton": {
+				"value": "Zrušiť"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Otočiť pohľad v smere hodinových ručičiek"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Otočiť pohľad proti smeru hodinových ručičiek"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopírovať anotáciu"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Prilepiť anotáciu"
+		},
+		"removeAnnotationLabel": {
+			"text": "Odstrániť anotáciu"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Preniesť späť"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Priveďte dopredu"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Zoskupte všetky anotácie"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Zrušiť zoskupenie anotácie"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Pridať komentár k anotácii..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Vlastnosti anotácie..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Nastavenia anotácií",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Uložiť anotácie",
 		"vsdv-annotationListPanel-pageLabel": "Stránka",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Vlastnosti anotácie",
-		"vsdv-annotationCommentSettingsDialog-title": "Upravte komentár anotácie",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Odstrániť",
-		"vsdv-dialog-cancelButton": "Zrušiť",
 		"vsdv-documentPasswordDialog-title": "Heslo dokumentu",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Zrušiť",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Overiť súbor",
 		"vsdv-imageSelectionDialog-title": "Vyberte obrázky",
 		"vsdv-imageSelectionDialog-currentImageString": "Aktuálny obrázok",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Vlastné",
 		"vsdv-printImagesDialog-title": "Tlač obrázkov",
 		"vsdv-printImagesPanel-imagePrintingString": "Tlačí sa obrázok",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "s anotáciami",
 		"vsdv-imageViewerSettingsDialog-title": "Nastavenia prehliadača obrázkov",
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavenia prehliadača miniatúr",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobraziť anotácie:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Otočte obrázok s anotáciami",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Uhol natočenia by mal byť väčší ako nula.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Otočný obrázok s anotáciami"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Otočný obrázok s anotáciami",
+		"vsdv-exportFileSettingsDialog-title": "Exportujte nastavenia súboru",
+		"vsdv-annotationCommentSettingsDialog-title": "Upravte komentár anotácie",
+		"vsdv-dialog-deleteButton": "Odstrániť"
 	}
 }

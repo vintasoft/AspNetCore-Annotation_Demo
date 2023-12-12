@@ -100,7 +100,7 @@
 			"title": "Triunghi"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Modul de interacțiune „Autor”"
+			"title": "Modul de interacțiune 'Autor'"
 		},
 		"copyAnnotationButton": {
 			"title": "Copiați adnotarea focalizată"
@@ -151,26 +151,25 @@
 			"title": "Completați și semnați"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Fișierul certificatului:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Încărcați fișierul certificat"
-			},
-			"certificatePasswordLabel": {
-				"text": "Parola certificatului:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Utilizați certificatul de testare"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Parola:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Certificatul de semnătură"
+				},
+				"certificateFileLabel": {
+					"text": "Fișierul certificatului:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Încărcați fișierul certificat"
+				},
+				"certificatePasswordLabel": {
+					"text": "Parola certificatului:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Utilizați certificatul de testare"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Adăugați marca temporală"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Completați și semnați"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Măriți"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"commentSubjectLabel": {
-				"text": "Subiect:"
-			},
-			"commentMessageLabel": {
-				"text": "Mesaj:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Utilizați starea comentariului"
-			},
-			"commentStatusLabel": {
-				"text": "Stare:"
-			},
-			"None": {
-				"text": "Nu"
-			},
-			"Accepted": {
-				"text": "Admis"
-			},
-			"Completed": {
-				"text": "Efectuat"
-			},
-			"Rejected": {
-				"text": "Respins"
-			},
-			"Cancelled": {
-				"text": "Anulat"
-			},
-			"showStateHistoryLabel": {
-				"text": "Afișați istoricul statului în răspunsuri"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Șterge"
-			},
-			"cancelButton": {
-				"value": "Anulează"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -299,7 +254,7 @@
 			"title": "Fără interacțiune"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Modul de interacțiune „Vizualizare”"
+			"title": "Modul de interacțiune 'Vizualizare'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Puncte de interacțiune mici"
@@ -682,6 +637,115 @@
 				"value": "Anulează"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Nume de fișier:"
+			},
+			"fileFormatLabel": {
+				"text": "Tipul fisierului:"
+			},
+			"savePagesLabel": {
+				"text": "Salvați pagini:"
+			},
+			"allPagesOption": {
+				"text": "Toate paginile"
+			},
+			"currentPageOption": {
+				"text": "Pagina curentă"
+			},
+			"pagesOption": {
+				"text": "Pagini"
+			},
+			"saveAnnoLabel": {
+				"text": "Salvați adnotările"
+			},
+			"burnAnnoLabel": {
+				"text": "Ardeți adnotări"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"commentSubjectLabel": {
+				"text": "Subiect:"
+			},
+			"commentMessageLabel": {
+				"text": "Mesaj:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Utilizați starea comentariului"
+			},
+			"commentStatusLabel": {
+				"text": "Stare:"
+			},
+			"None": {
+				"text": "Nu"
+			},
+			"Accepted": {
+				"text": "Admis"
+			},
+			"Completed": {
+				"text": "Efectuat"
+			},
+			"Rejected": {
+				"text": "Respins"
+			},
+			"Cancelled": {
+				"text": "Anulat"
+			},
+			"showStateHistoryLabel": {
+				"text": "Afișați istoricul statului în răspunsuri"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Șterge"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Rotiți vizualizarea în sensul acelor de ceasornic"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Rotiți vizualizarea în sens invers acelor de ceasornic"
+		},
+		"copyAnnotationLabel": {
+			"text": "Copiați adnotarea"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Inserați adnotare"
+		},
+		"removeAnnotationLabel": {
+			"text": "Șterge adnotarea"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Trimite înapoi"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Aduceți în față"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Grupați toate adnotările"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Anuntarea adnotării"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Adăugați comentariu la adnotare..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Proprietățile adnotărilor..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Setări de adnotare",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salvați adnotările",
 		"vsdv-annotationListPanel-pageLabel": "Pagină",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Proprietăți de adnotare",
-		"vsdv-annotationCommentSettingsDialog-title": "Editați comentariul de adnotare",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Șterge",
-		"vsdv-dialog-cancelButton": "Anulează",
 		"vsdv-documentPasswordDialog-title": "Parola documentului",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Anulează",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
 		"vsdv-imageSelectionDialog-title": "Selectați imagini",
 		"vsdv-imageSelectionDialog-currentImageString": "Imaginea curentă",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Personalizat",
 		"vsdv-printImagesDialog-title": "Tipărește imagini",
 		"vsdv-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "cu adnotări",
 		"vsdv-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
 		"vsdv-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotire imaginea adnotată",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Unghiul de rotație nu trebuie să fie 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Imaginea adnotată este rotită"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Imaginea adnotată este rotită",
+		"vsdv-exportFileSettingsDialog-title": "Exportați setările fișierului",
+		"vsdv-annotationCommentSettingsDialog-title": "Editați comentariul de adnotare",
+		"vsdv-dialog-deleteButton": "Șterge"
 	}
 }

@@ -151,26 +151,25 @@
 			"title": "Jaza na utie saini"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Faili ya cheti:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Pakia faili ya Cheti"
-			},
-			"certificatePasswordLabel": {
-				"text": "Nenosiri la cheti:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Tumia cheti cha mtihani"
-			},
-			"serverLabel": {
-				"text": "Seva:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Nenosiri:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Cheti cha saini"
+				},
+				"certificateFileLabel": {
+					"text": "Faili ya cheti:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Pakia faili ya Cheti"
+				},
+				"certificatePasswordLabel": {
+					"text": "Nenosiri la cheti:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Tumia cheti cha mtihani"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Ongeza muhuri wa wakati"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Jaza na Usaini"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Vuta karibu"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Mwandishi:"
-			},
-			"commentSubjectLabel": {
-				"text": "Mada:"
-			},
-			"commentMessageLabel": {
-				"text": "Ujumbe:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Tumia hali ya maoni"
-			},
-			"commentStatusLabel": {
-				"text": "Hali:"
-			},
-			"None": {
-				"text": "Hakuna"
-			},
-			"Accepted": {
-				"text": "Imekubaliwa"
-			},
-			"Completed": {
-				"text": "Imekamilika"
-			},
-			"Rejected": {
-				"text": "Imekataliwa"
-			},
-			"Cancelled": {
-				"text": "Imeghairiwa"
-			},
-			"showStateHistoryLabel": {
-				"text": "Onyesha Historia ya Jimbo katika majibu"
-			},
-			"okButton": {
-				"value": "sawa"
-			},
-			"deleteButton": {
-				"value": "Futa"
-			},
-			"cancelButton": {
-				"value": "Ghairi"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Kawaida"
@@ -682,6 +637,115 @@
 				"value": "Ghairi"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Jina la faili:"
+			},
+			"fileFormatLabel": {
+				"text": "Umbizo la faili:"
+			},
+			"savePagesLabel": {
+				"text": "Hifadhi kurasa:"
+			},
+			"allPagesOption": {
+				"text": "Kurasa zote"
+			},
+			"currentPageOption": {
+				"text": "Ukurasa wa sasa"
+			},
+			"pagesOption": {
+				"text": "Kurasa"
+			},
+			"saveAnnoLabel": {
+				"text": "Hifadhi maelezo"
+			},
+			"burnAnnoLabel": {
+				"text": "Choma maelezo"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Mwandishi:"
+			},
+			"commentSubjectLabel": {
+				"text": "Mada:"
+			},
+			"commentMessageLabel": {
+				"text": "Ujumbe:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Tumia hali ya maoni"
+			},
+			"commentStatusLabel": {
+				"text": "Hali:"
+			},
+			"None": {
+				"text": "Hakuna"
+			},
+			"Accepted": {
+				"text": "Imekubaliwa"
+			},
+			"Completed": {
+				"text": "Imekamilika"
+			},
+			"Rejected": {
+				"text": "Imekataliwa"
+			},
+			"Cancelled": {
+				"text": "Imeghairiwa"
+			},
+			"showStateHistoryLabel": {
+				"text": "Onyesha Historia ya Jimbo katika majibu"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"deleteButton": {
+				"value": "Futa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zungusha mwonekano wa saa"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zungusha mwonekano kinyume cha saa"
+		},
+		"copyAnnotationLabel": {
+			"text": "Nakili ufafanuzi"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Bandika kidokezo"
+		},
+		"removeAnnotationLabel": {
+			"text": "Ondoa ufafanuzi"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Kuleta nyuma"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Leta mbele"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Panga vidokezo vyote"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Tenganisha ufafanuzi"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Ongeza maoni kwa ufafanuzi..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Sifa za ufafanuzi..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Mipangilio ya ufafanuzi",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Hifadhi maelezo",
 		"vsdv-annotationListPanel-pageLabel": "Ukurasa",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Sifa za Ufafanuzi",
-		"vsdv-annotationCommentSettingsDialog-title": "Hariri maoni ya ufafanuzi",
-		"vsdv-dialog-okButton": "sawa",
-		"vsdv-dialog-deleteButton": "Futa",
-		"vsdv-dialog-cancelButton": "Ghairi",
 		"vsdv-documentPasswordDialog-title": "Nenosiri la hati",
+		"vsdv-dialog-okButton": "sawa",
+		"vsdv-dialog-cancelButton": "Ghairi",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Thibitisha faili",
 		"vsdv-imageSelectionDialog-title": "Chagua picha",
 		"vsdv-imageSelectionDialog-currentImageString": "Picha ya sasa",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Desturi",
 		"vsdv-printImagesDialog-title": "Chapisha picha",
 		"vsdv-printImagesPanel-imagePrintingString": "Picha inachapishwa",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "yenye maelezo",
 		"vsdv-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
 		"vsdv-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Zungusha picha na vidokezo",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Pembe ya mzunguko inapaswa kuwa zaidi ya sifuri.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Inazungusha picha na vidokezo"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Inazungusha picha na vidokezo",
+		"vsdv-exportFileSettingsDialog-title": "Hamisha mipangilio ya faili",
+		"vsdv-annotationCommentSettingsDialog-title": "Hariri maoni ya ufafanuzi",
+		"vsdv-dialog-deleteButton": "Futa"
 	}
 }

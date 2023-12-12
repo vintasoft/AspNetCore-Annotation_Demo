@@ -151,26 +151,25 @@
 			"title": "املأ ووقع"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "ملف الشهادة:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "تحميل ملف الشهادة"
-			},
-			"certificatePasswordLabel": {
-				"text": "كلمة مرور الشهادة:"
-			},
-			"useTestCertificateLabel": {
-				"text": "استخدام شهادة الاختبار"
-			},
-			"serverLabel": {
-				"text": "الخادم:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "كلمة المرور:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "شهادة التوقيع"
+				},
+				"certificateFileLabel": {
+					"text": "ملف الشهادة:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "تحميل ملف الشهادة"
+				},
+				"certificatePasswordLabel": {
+					"text": "كلمة مرور الشهادة:"
+				},
+				"useTestCertificateLabel": {
+					"text": "استخدام شهادة الاختبار"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "إضافة الطابع الزمني"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "ملء وتوقيع"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "تكبير"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "مؤلف:"
-			},
-			"commentSubjectLabel": {
-				"text": "موضوع:"
-			},
-			"commentMessageLabel": {
-				"text": "رسالة:"
-			},
-			"useCommentStatusLabel": {
-				"text": "استخدم حالة التعليق"
-			},
-			"commentStatusLabel": {
-				"text": "حالة:"
-			},
-			"None": {
-				"text": "لا"
-			},
-			"Accepted": {
-				"text": "قبلت"
-			},
-			"Completed": {
-				"text": "مكتمل"
-			},
-			"Rejected": {
-				"text": "مرفوض"
-			},
-			"Cancelled": {
-				"text": "ألغيت"
-			},
-			"showStateHistoryLabel": {
-				"text": "إظهار تاريخ الولاية في الردود"
-			},
-			"okButton": {
-				"value": "موافق"
-			},
-			"deleteButton": {
-				"value": "حذف"
-			},
-			"cancelButton": {
-				"value": "إلغاء"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "عادي"
@@ -682,6 +637,115 @@
 				"value": "إلغاء"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "اسم الملف:"
+			},
+			"fileFormatLabel": {
+				"text": "تنسيق الملف:"
+			},
+			"savePagesLabel": {
+				"text": "حفظ الصفحات:"
+			},
+			"allPagesOption": {
+				"text": "كافة الصفحات"
+			},
+			"currentPageOption": {
+				"text": "الصفحة الحالية"
+			},
+			"pagesOption": {
+				"text": "الصفحات"
+			},
+			"saveAnnoLabel": {
+				"text": "حفظ التعليقات التوضيحية"
+			},
+			"burnAnnoLabel": {
+				"text": "حرق التعليقات التوضيحية"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "مؤلف:"
+			},
+			"commentSubjectLabel": {
+				"text": "موضوع:"
+			},
+			"commentMessageLabel": {
+				"text": "رسالة:"
+			},
+			"useCommentStatusLabel": {
+				"text": "استخدم حالة التعليق"
+			},
+			"commentStatusLabel": {
+				"text": "حالة:"
+			},
+			"None": {
+				"text": "لا"
+			},
+			"Accepted": {
+				"text": "قبلت"
+			},
+			"Completed": {
+				"text": "مكتمل"
+			},
+			"Rejected": {
+				"text": "مرفوض"
+			},
+			"Cancelled": {
+				"text": "ألغيت"
+			},
+			"showStateHistoryLabel": {
+				"text": "إظهار تاريخ الولاية في الردود"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"deleteButton": {
+				"value": "حذف"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "تدوير العرض في اتجاه عقارب الساعة"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "تدوير العرض عكس اتجاه عقارب الساعة"
+		},
+		"copyAnnotationLabel": {
+			"text": "نسخ التعليق التوضيحي"
+		},
+		"pasteAnnotationLabel": {
+			"text": "أدخل تعليقًا توضيحيًا"
+		},
+		"removeAnnotationLabel": {
+			"text": "حذف التعليق التوضيحي"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "إرسال إلى الخلف"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "إحضار إلى الأمام"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "تجميع كافة التعليقات التوضيحية"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "فك تجميع التعليقات التوضيحية"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "إضافة تعليق إلى التعليق التوضيحي..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "خصائص التعليق ..."
+		},
 		"annotationSettingsDialog": {
 			"title": "إعدادات التعليقات التوضيحية",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "حفظ التعليقات التوضيحية",
 		"vsdv-annotationListPanel-pageLabel": "الصفحة",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "خصائص التعليق التوضيحي",
-		"vsdv-annotationCommentSettingsDialog-title": "تحرير التعليق التوضيحي",
-		"vsdv-dialog-okButton": "موافق",
-		"vsdv-dialog-deleteButton": "حذف",
-		"vsdv-dialog-cancelButton": "إلغاء",
 		"vsdv-documentPasswordDialog-title": "كلمة مرور المستند",
+		"vsdv-dialog-okButton": "موافق",
+		"vsdv-dialog-cancelButton": "إلغاء",
 		"vsdv-documentPasswordPanel-authenticateFileString": "مصادقة الملف",
 		"vsdv-imageSelectionDialog-title": "اختر الصور",
 		"vsdv-imageSelectionDialog-currentImageString": "الصورة الحالية",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "مخصص",
 		"vsdv-printImagesDialog-title": "طباعة الصور",
 		"vsdv-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
 		"vsdv-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
 		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "تدوير الصورة المشروحة",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "زاوية الدوران يجب ألا تكون 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة",
+		"vsdv-exportFileSettingsDialog-title": "إعدادات ملف التصدير",
+		"vsdv-annotationCommentSettingsDialog-title": "تحرير التعليق التوضيحي",
+		"vsdv-dialog-deleteButton": "حذف"
 	}
 }

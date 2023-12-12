@@ -100,7 +100,7 @@
 			"title": "Трикутник"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Режим взаємодії «Автор»"
+			"title": "Режим взаємодії 'Автор'"
 		},
 		"copyAnnotationButton": {
 			"title": "Копіювати виділену анотацію"
@@ -151,26 +151,25 @@
 			"title": "Заповнити і підписати"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Файл сертифіката:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Завантажте файл сертифіката"
-			},
-			"certificatePasswordLabel": {
-				"text": "Пароль сертифіката:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Використовуйте сертифікат тесту"
-			},
-			"serverLabel": {
-				"text": "Сервер:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Пароль:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Сертифікат підпису"
+				},
+				"certificateFileLabel": {
+					"text": "Файл сертифіката:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Завантажте файл сертифіката"
+				},
+				"certificatePasswordLabel": {
+					"text": "Пароль сертифіката:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Використовуйте сертифікат тесту"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Додайте позначку часу"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Заповніть і підпишіть"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Збільшувати"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Автор:"
-			},
-			"commentSubjectLabel": {
-				"text": "Тема:"
-			},
-			"commentMessageLabel": {
-				"text": "Повідомлення:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Використовуйте статус коментаря"
-			},
-			"commentStatusLabel": {
-				"text": "Статус:"
-			},
-			"None": {
-				"text": "Жодного"
-			},
-			"Accepted": {
-				"text": "прийнято"
-			},
-			"Completed": {
-				"text": "Виконано"
-			},
-			"Rejected": {
-				"text": "Відхилено"
-			},
-			"Cancelled": {
-				"text": "Скасовано"
-			},
-			"showStateHistoryLabel": {
-				"text": "Показати історію стану у відповідях"
-			},
-			"okButton": {
-				"value": "В порядку"
-			},
-			"deleteButton": {
-				"value": "Видалити"
-			},
-			"cancelButton": {
-				"value": "Скасувати"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "нормальний"
@@ -296,10 +251,10 @@
 			"title": "Марк"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Режим взаємодії «Немає»"
+			"title": "Режим взаємодії 'Немає'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Режим взаємодії «Перегляд»"
+			"title": "Режим взаємодії 'Перегляд'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Малі точки взаємодії"
@@ -682,6 +637,115 @@
 				"value": "Скасувати"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ім'я файлу:"
+			},
+			"fileFormatLabel": {
+				"text": "Формат файлу:"
+			},
+			"savePagesLabel": {
+				"text": "Збережіть сторінки:"
+			},
+			"allPagesOption": {
+				"text": "Всі сторінки"
+			},
+			"currentPageOption": {
+				"text": "Поточна сторінка"
+			},
+			"pagesOption": {
+				"text": "сторінки"
+			},
+			"saveAnnoLabel": {
+				"text": "Зберегти анотації"
+			},
+			"burnAnnoLabel": {
+				"text": "Записати анотації"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"commentSubjectLabel": {
+				"text": "Тема:"
+			},
+			"commentMessageLabel": {
+				"text": "Повідомлення:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Використовуйте статус коментаря"
+			},
+			"commentStatusLabel": {
+				"text": "Статус:"
+			},
+			"None": {
+				"text": "Жодного"
+			},
+			"Accepted": {
+				"text": "прийнято"
+			},
+			"Completed": {
+				"text": "Виконано"
+			},
+			"Rejected": {
+				"text": "Відхилено"
+			},
+			"Cancelled": {
+				"text": "Скасовано"
+			},
+			"showStateHistoryLabel": {
+				"text": "Показати історію стану у відповідях"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"deleteButton": {
+				"value": "Видалити"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Повернути перегляд за годинниковою стрілкою"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Обернути вигляд проти годинникової стрілки"
+		},
+		"copyAnnotationLabel": {
+			"text": "Копіювати анотацію"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Вставити анотацію"
+		},
+		"removeAnnotationLabel": {
+			"text": "Видалити анотацію"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Віднесіть назад"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "На передній план"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Згрупуйте всі анотації"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Розгрупувати анотацію"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Додати коментар до анотації..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Властивості анотації..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Налаштування анотації",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Зберегти анотації",
 		"vsdv-annotationListPanel-pageLabel": "Сторінка",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Властивості анотації",
-		"vsdv-annotationCommentSettingsDialog-title": "Відредагуйте коментар до анотації",
-		"vsdv-dialog-okButton": "В порядку",
-		"vsdv-dialog-deleteButton": "Видалити",
-		"vsdv-dialog-cancelButton": "Скасувати",
 		"vsdv-documentPasswordDialog-title": "Пароль документа",
+		"vsdv-dialog-okButton": "В порядку",
+		"vsdv-dialog-cancelButton": "Скасувати",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
 		"vsdv-imageSelectionDialog-title": "Виберіть зображення",
 		"vsdv-imageSelectionDialog-currentImageString": "Поточне зображення",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Custom",
 		"vsdv-printImagesDialog-title": "Друк зображень",
 		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Обертання зображення з анотаціями",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут повороту повинен бути більше нуля.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Зображення, що обертається, з анотаціями"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Зображення, що обертається, з анотаціями",
+		"vsdv-exportFileSettingsDialog-title": "Експортуйте налаштування файлу",
+		"vsdv-annotationCommentSettingsDialog-title": "Відредагуйте коментар до анотації",
+		"vsdv-dialog-deleteButton": "Видалити"
 	}
 }

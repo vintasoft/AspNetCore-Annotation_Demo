@@ -290,7 +290,7 @@ WebFillAndSignPanelJS = function (settings, stateButton) {
                 useTestCertificateCheckbox, useTestCertificateLabel, 'br',
                 addTimestampToSignatureCheckbox, addTimestampToSignatureLabel
             ],
-            {});
+            { localizationId: "signatureCertificateGroupName" });
 
         return signatureCertificateGroupBox;
     }

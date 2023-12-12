@@ -100,7 +100,7 @@
 			"title": "Trikampis"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Sąveikos režimas „Autorius“"
+			"title": "Sąveikos režimas 'Autorius'"
 		},
 		"copyAnnotationButton": {
 			"title": "Nukopijuokite paryškintą anotaciją"
@@ -151,26 +151,25 @@
 			"title": "Užpildykite ir pasirašykite"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Sertifikato failas:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Įkelti sertifikato failą"
-			},
-			"certificatePasswordLabel": {
-				"text": "Sertifikato slaptažodis:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Naudokite bandymo sertifikatą"
-			},
-			"serverLabel": {
-				"text": "Serveris:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Slaptažodis:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Parašo sertifikatas"
+				},
+				"certificateFileLabel": {
+					"text": "Sertifikato failas:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Įkelti sertifikato failą"
+				},
+				"certificatePasswordLabel": {
+					"text": "Sertifikato slaptažodis:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Naudokite bandymo sertifikatą"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Pridėti laiko žymą"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Užpildykite ir pasirašykite"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Priartinti"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Autorius:"
-			},
-			"commentSubjectLabel": {
-				"text": "Tema:"
-			},
-			"commentMessageLabel": {
-				"text": "Pranešimas:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Naudokite komentaro būseną"
-			},
-			"commentStatusLabel": {
-				"text": "Būsena:"
-			},
-			"None": {
-				"text": "Nė vienas"
-			},
-			"Accepted": {
-				"text": "Priimta"
-			},
-			"Completed": {
-				"text": "Baigta"
-			},
-			"Rejected": {
-				"text": "Atstumtas"
-			},
-			"Cancelled": {
-				"text": "Atšauktas"
-			},
-			"showStateHistoryLabel": {
-				"text": "Rodyti valstybės istoriją atsakymuose"
-			},
-			"okButton": {
-				"value": "Gerai"
-			},
-			"deleteButton": {
-				"value": "Ištrinti"
-			},
-			"cancelButton": {
-				"value": "Atšaukti"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normalus"
@@ -296,10 +251,10 @@
 			"title": "ženklas"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Sąveikos režimas „Nėra“"
+			"title": "Sąveikos režimas 'Nėra'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Sąveikos režimas „Žiūrėti“"
+			"title": "Sąveikos režimas 'Žiūrėti'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Maži sąveikos taškai"
@@ -682,6 +637,115 @@
 				"value": "Atšaukti"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Failo pavadinimas:"
+			},
+			"fileFormatLabel": {
+				"text": "Dokumento formatas:"
+			},
+			"savePagesLabel": {
+				"text": "Išsaugoti puslapius:"
+			},
+			"allPagesOption": {
+				"text": "Visi puslapiai"
+			},
+			"currentPageOption": {
+				"text": "Dabartinis puslapis"
+			},
+			"pagesOption": {
+				"text": "Puslapiai"
+			},
+			"saveAnnoLabel": {
+				"text": "Išsaugoti komentarus"
+			},
+			"burnAnnoLabel": {
+				"text": "Įrašyti komentarus"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Autorius:"
+			},
+			"commentSubjectLabel": {
+				"text": "Tema:"
+			},
+			"commentMessageLabel": {
+				"text": "Pranešimas:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Naudokite komentaro būseną"
+			},
+			"commentStatusLabel": {
+				"text": "Būsena:"
+			},
+			"None": {
+				"text": "Nė vienas"
+			},
+			"Accepted": {
+				"text": "Priimta"
+			},
+			"Completed": {
+				"text": "Baigta"
+			},
+			"Rejected": {
+				"text": "Atstumtas"
+			},
+			"Cancelled": {
+				"text": "Atšauktas"
+			},
+			"showStateHistoryLabel": {
+				"text": "Rodyti valstybės istoriją atsakymuose"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"deleteButton": {
+				"value": "Ištrinti"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Sukti vaizdą pagal laikrodžio rodyklę"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pasukti vaizdą prieš laikrodžio rodyklę"
+		},
+		"copyAnnotationLabel": {
+			"text": "Nukopijuoti anotaciją"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Įklijuoti anotaciją"
+		},
+		"removeAnnotationLabel": {
+			"text": "Pašalinti anotaciją"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Atnešk atgal"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Atnešti į priekį"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Grupuokite visus komentarus"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Išgrupuoti anotaciją"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Pridėti komentarą prie anotacijos..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Komentarų ypatybės..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Anotacijos nustatymai",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Išsaugoti komentarus",
 		"vsdv-annotationListPanel-pageLabel": "Puslapis",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Anotacijos ypatybės",
-		"vsdv-annotationCommentSettingsDialog-title": "Redaguokite komentaro komentarą",
-		"vsdv-dialog-okButton": "Gerai",
-		"vsdv-dialog-deleteButton": "Ištrinti",
-		"vsdv-dialog-cancelButton": "Atšaukti",
 		"vsdv-documentPasswordDialog-title": "Dokumento slaptažodis",
+		"vsdv-dialog-okButton": "Gerai",
+		"vsdv-dialog-cancelButton": "Atšaukti",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Autentifikuoti failą",
 		"vsdv-imageSelectionDialog-title": "Pasirinkite vaizdus",
 		"vsdv-imageSelectionDialog-currentImageString": "Dabartinis vaizdas",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pasirinktinis",
 		"vsdv-printImagesDialog-title": "Spausdinti vaizdus",
 		"vsdv-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Pasukite vaizdą su komentarais",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Sukimosi kampas turi būti didesnis nei nulis.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Sukamasis vaizdas su komentarais"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Sukamasis vaizdas su komentarais",
+		"vsdv-exportFileSettingsDialog-title": "Eksportuoti failo nustatymus",
+		"vsdv-annotationCommentSettingsDialog-title": "Redaguokite komentaro komentarą",
+		"vsdv-dialog-deleteButton": "Ištrinti"
 	}
 }

@@ -151,26 +151,25 @@
 			"title": "Izpolni in podpiši"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Datoteka potrdila:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Naloži datoteko s potrdilom"
-			},
-			"certificatePasswordLabel": {
-				"text": "Geslo za potrdilo:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Uporabite testno potrdilo"
-			},
-			"serverLabel": {
-				"text": "strežnik:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Geslo:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Potrdilo o podpisu"
+				},
+				"certificateFileLabel": {
+					"text": "Datoteka potrdila:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Naloži datoteko s potrdilom"
+				},
+				"certificatePasswordLabel": {
+					"text": "Geslo za potrdilo:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Uporabite testno potrdilo"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Dodajte časovni žig"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Izpolni in podpiši"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Približaj"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Avtor:"
-			},
-			"commentSubjectLabel": {
-				"text": "Zadeva:"
-			},
-			"commentMessageLabel": {
-				"text": "Sporočilo:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Uporabi status komentarja"
-			},
-			"commentStatusLabel": {
-				"text": "Stanje:"
-			},
-			"None": {
-				"text": "Noben"
-			},
-			"Accepted": {
-				"text": "Sprejeto"
-			},
-			"Completed": {
-				"text": "Dokončano"
-			},
-			"Rejected": {
-				"text": "Zavrnjeno"
-			},
-			"Cancelled": {
-				"text": "Prekinjeno"
-			},
-			"showStateHistoryLabel": {
-				"text": "Prikaži zgodovino držav v odgovorih"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Izbriši"
-			},
-			"cancelButton": {
-				"value": "Prekliči"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "normalno"
@@ -682,6 +637,115 @@
 				"value": "Prekliči"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ime datoteke:"
+			},
+			"fileFormatLabel": {
+				"text": "Format datoteke:"
+			},
+			"savePagesLabel": {
+				"text": "Shrani strani:"
+			},
+			"allPagesOption": {
+				"text": "Vse strani"
+			},
+			"currentPageOption": {
+				"text": "Trenutna stran"
+			},
+			"pagesOption": {
+				"text": "Strani"
+			},
+			"saveAnnoLabel": {
+				"text": "Shranite opombe"
+			},
+			"burnAnnoLabel": {
+				"text": "Zapiši opombe"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Avtor:"
+			},
+			"commentSubjectLabel": {
+				"text": "Zadeva:"
+			},
+			"commentMessageLabel": {
+				"text": "Sporočilo:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Uporabi status komentarja"
+			},
+			"commentStatusLabel": {
+				"text": "Stanje:"
+			},
+			"None": {
+				"text": "Noben"
+			},
+			"Accepted": {
+				"text": "Sprejeto"
+			},
+			"Completed": {
+				"text": "Dokončano"
+			},
+			"Rejected": {
+				"text": "Zavrnjeno"
+			},
+			"Cancelled": {
+				"text": "Prekinjeno"
+			},
+			"showStateHistoryLabel": {
+				"text": "Prikaži zgodovino držav v odgovorih"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Izbriši"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zasukaj pogled v smeri urinega kazalca"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zasukaj pogled v nasprotni smeri urinega kazalca"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopiraj opombo"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Prilepi opombo"
+		},
+		"removeAnnotationLabel": {
+			"text": "Odstrani opombo"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Vrni nazaj"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Pripelji spredaj"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Združi vse opombe"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Razdruži opombo"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Dodaj komentar k opombi ..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Lastnosti pripisov ..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Nastavitve pripisov",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Shranite opombe",
 		"vsdv-annotationListPanel-pageLabel": "Stran",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Lastnosti pripisov",
-		"vsdv-annotationCommentSettingsDialog-title": "Uredite komentar opombe",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Izbriši",
-		"vsdv-dialog-cancelButton": "Prekliči",
 		"vsdv-documentPasswordDialog-title": "Geslo za dokument",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Prekliči",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Preveri pristnost datoteke",
 		"vsdv-imageSelectionDialog-title": "Izberite slike",
 		"vsdv-imageSelectionDialog-currentImageString": "Trenutna slika",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Po meri",
 		"vsdv-printImagesDialog-title": "Natisnite slike",
 		"vsdv-printImagesPanel-imagePrintingString": "Slika se tiska",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "z opombami",
 		"vsdv-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Zasukaj sliko z opombami",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kot vrtenja mora biti večji od nič.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Vrteča se slika z opombami"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Vrteča se slika z opombami",
+		"vsdv-exportFileSettingsDialog-title": "Izvozite nastavitve datoteke",
+		"vsdv-annotationCommentSettingsDialog-title": "Uredite komentar opombe",
+		"vsdv-dialog-deleteButton": "Izbriši"
 	}
 }

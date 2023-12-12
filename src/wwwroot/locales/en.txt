@@ -151,26 +151,25 @@
 			"title": "Fill and sign"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Certificate file:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Upload Certificate file"
-			},
-			"certificatePasswordLabel": {
-				"text": "Certificate password:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Use test certificate"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Password:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Signature certificate"
+				},
+				"certificateFileLabel": {
+					"text": "Certificate file:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Upload Certificate file"
+				},
+				"certificatePasswordLabel": {
+					"text": "Certificate password:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Use test certificate"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Add timestamp"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Fill and Sign"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zoom in"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Author:"
-			},
-			"commentSubjectLabel": {
-				"text": "Subject:"
-			},
-			"commentMessageLabel": {
-				"text": "Message:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Use comment status"
-			},
-			"commentStatusLabel": {
-				"text": "Status:"
-			},
-			"None": {
-				"text": "None"
-			},
-			"Accepted": {
-				"text": "Accepted"
-			},
-			"Completed": {
-				"text": "Completed"
-			},
-			"Rejected": {
-				"text": "Rejected"
-			},
-			"Cancelled": {
-				"text": "Cancelled"
-			},
-			"showStateHistoryLabel": {
-				"text": "Show State History in replies"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Delete"
-			},
-			"cancelButton": {
-				"value": "Cancel"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -682,6 +637,115 @@
 				"value": "Cancel"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "File name:"
+			},
+			"fileFormatLabel": {
+				"text": "File format:"
+			},
+			"savePagesLabel": {
+				"text": "Save pages:"
+			},
+			"allPagesOption": {
+				"text": "All pages"
+			},
+			"currentPageOption": {
+				"text": "Current page"
+			},
+			"pagesOption": {
+				"text": "Pages"
+			},
+			"saveAnnoLabel": {
+				"text": "Save annotations"
+			},
+			"burnAnnoLabel": {
+				"text": "Burn annotations"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Author:"
+			},
+			"commentSubjectLabel": {
+				"text": "Subject:"
+			},
+			"commentMessageLabel": {
+				"text": "Message:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Use comment status"
+			},
+			"commentStatusLabel": {
+				"text": "Status:"
+			},
+			"None": {
+				"text": "None"
+			},
+			"Accepted": {
+				"text": "Accepted"
+			},
+			"Completed": {
+				"text": "Completed"
+			},
+			"Rejected": {
+				"text": "Rejected"
+			},
+			"Cancelled": {
+				"text": "Cancelled"
+			},
+			"showStateHistoryLabel": {
+				"text": "Show State History in replies"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Delete"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Rotate view clockwise"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Rotate view counterclockwise"
+		},
+		"copyAnnotationLabel": {
+			"text": "Copy annotation"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Paste annotation"
+		},
+		"removeAnnotationLabel": {
+			"text": "Remove annotation"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Bring to back"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Bring to front"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Group all annotations"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Ungroup annotation"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Add annotation comment..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Annotation properties..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Annotation settings",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Save annotations",
 		"vsdv-annotationListPanel-pageLabel": "Page",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotation Properties",
-		"vsdv-annotationCommentSettingsDialog-title": "Edit the annotation comment",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Delete",
-		"vsdv-dialog-cancelButton": "Cancel",
 		"vsdv-documentPasswordDialog-title": "Document password",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Cancel",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Authenticate file",
 		"vsdv-imageSelectionDialog-title": "Select images",
 		"vsdv-imageSelectionDialog-currentImageString": "Current image",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Custom",
 		"vsdv-printImagesDialog-title": "Print images",
 		"vsdv-printImagesPanel-imagePrintingString": "Image is printing",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Image viewer settings",
 		"vsdv-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotate image with annotations",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotation angle should be more than zero.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotating image with annotations"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotating image with annotations",
+		"vsdv-exportFileSettingsDialog-title": "Export file settings",
+		"vsdv-annotationCommentSettingsDialog-title": "Edit the annotation comment",
+		"vsdv-dialog-deleteButton": "Delete"
 	}
 }

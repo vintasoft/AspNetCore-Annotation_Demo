@@ -151,26 +151,25 @@
 			"title": "Попълнете и подпишете"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Файл със сертификат:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Качване на файл със сертификат"
-			},
-			"certificatePasswordLabel": {
-				"text": "Парола за сертификат:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Използвайте тестов сертификат"
-			},
-			"serverLabel": {
-				"text": "сървър:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Парола:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Удостоверението за подпис"
+				},
+				"certificateFileLabel": {
+					"text": "Файл със сертификат:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Качване на файл със сертификат"
+				},
+				"certificatePasswordLabel": {
+					"text": "Парола за сертификат:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Използвайте тестов сертификат"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Добавете клеймо за време"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Попълнете и подпишете"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Увеличаване"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Автор:"
-			},
-			"commentSubjectLabel": {
-				"text": "Предмет:"
-			},
-			"commentMessageLabel": {
-				"text": "съобщение:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Използвайте статус на коментар"
-			},
-			"commentStatusLabel": {
-				"text": "Статус:"
-			},
-			"None": {
-				"text": "Не"
-			},
-			"Accepted": {
-				"text": "Прието"
-			},
-			"Completed": {
-				"text": "Завършено"
-			},
-			"Rejected": {
-				"text": "Отхвърлено"
-			},
-			"Cancelled": {
-				"text": "Отменен"
-			},
-			"showStateHistoryLabel": {
-				"text": "Показване на държавна история в отговорите"
-			},
-			"okButton": {
-				"value": "ОК"
-			},
-			"deleteButton": {
-				"value": "Изтриване"
-			},
-			"cancelButton": {
-				"value": "Отказ"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Нормално"
@@ -682,6 +637,115 @@
 				"value": "Отказ"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Име на файл:"
+			},
+			"fileFormatLabel": {
+				"text": "Файлов формат:"
+			},
+			"savePagesLabel": {
+				"text": "Запазване на страници:"
+			},
+			"allPagesOption": {
+				"text": "Всички страници"
+			},
+			"currentPageOption": {
+				"text": "Текуща страница"
+			},
+			"pagesOption": {
+				"text": "Страници"
+			},
+			"saveAnnoLabel": {
+				"text": "Запазете анотациите"
+			},
+			"burnAnnoLabel": {
+				"text": "Изгаряне на анотации"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"commentSubjectLabel": {
+				"text": "Предмет:"
+			},
+			"commentMessageLabel": {
+				"text": "съобщение:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Използвайте статус на коментар"
+			},
+			"commentStatusLabel": {
+				"text": "Статус:"
+			},
+			"None": {
+				"text": "Не"
+			},
+			"Accepted": {
+				"text": "Прието"
+			},
+			"Completed": {
+				"text": "Завършено"
+			},
+			"Rejected": {
+				"text": "Отхвърлено"
+			},
+			"Cancelled": {
+				"text": "Отменен"
+			},
+			"showStateHistoryLabel": {
+				"text": "Показване на държавна история в отговорите"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"deleteButton": {
+				"value": "Изтриване"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Завъртете изгледа по часовниковата стрелка"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Завъртете изгледа обратно на часовниковата стрелка"
+		},
+		"copyAnnotationLabel": {
+			"text": "Копиране на анотация"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Вмъкване на анотация"
+		},
+		"removeAnnotationLabel": {
+			"text": "Изтриване на анотация"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Изпращане назад"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Извеждане отпред"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Групиране на всички анотации"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Анотация за разгрупиране"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Добавете коментар към анотацията..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Свойства на анотацията..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Настройки за анотация",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Запазете анотациите",
 		"vsdv-annotationListPanel-pageLabel": "Страница",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Свойства на анотация",
-		"vsdv-annotationCommentSettingsDialog-title": "Редактирайте коментара на анотацията",
-		"vsdv-dialog-okButton": "ОК",
-		"vsdv-dialog-deleteButton": "Изтриване",
-		"vsdv-dialog-cancelButton": "Отказ",
 		"vsdv-documentPasswordDialog-title": "Парола за документ",
+		"vsdv-dialog-okButton": "ОК",
+		"vsdv-dialog-cancelButton": "Отказ",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Удостоверете файла",
 		"vsdv-imageSelectionDialog-title": "Изберете изображения",
 		"vsdv-imageSelectionDialog-currentImageString": "Текущо изображение",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "По избор",
 		"vsdv-printImagesDialog-title": "Печат на изображения",
 		"vsdv-printImagesPanel-imagePrintingString": "Изображението се отпечатва",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "с анотации",
 		"vsdv-imageViewerSettingsDialog-title": "Настройки за преглед на изображения",
 		"vsdv-thumbnailViewerSettingDialog-title": "Настройки за преглед на миниатюри",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Завъртане на анотираното изображение",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Ъгълът на въртене не трябва да е 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Коментираното изображение се завърта"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Коментираното изображение се завърта",
+		"vsdv-exportFileSettingsDialog-title": "Експортиране на настройките на файла",
+		"vsdv-annotationCommentSettingsDialog-title": "Редактирайте коментара на анотацията",
+		"vsdv-dialog-deleteButton": "Изтриване"
 	}
 }

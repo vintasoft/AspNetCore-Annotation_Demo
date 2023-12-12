@@ -100,7 +100,7 @@
 			"title": "Trīsstūris"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Mijiedarbības režīms "Autors""
+			"title": "Mijiedarbības režīms 'Autors'"
 		},
 		"copyAnnotationButton": {
 			"title": "Kopēt fokusēto anotāciju"
@@ -151,26 +151,25 @@
 			"title": "Aizpildiet un parakstiet"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Sertifikāta fails:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Augšupielādējiet sertifikāta failu"
-			},
-			"certificatePasswordLabel": {
-				"text": "Sertifikāta parole:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Izmantojiet testa sertifikātu"
-			},
-			"serverLabel": {
-				"text": "Serveris:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Parole:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Paraksta sertifikāts"
+				},
+				"certificateFileLabel": {
+					"text": "Sertifikāta fails:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Augšupielādējiet sertifikāta failu"
+				},
+				"certificatePasswordLabel": {
+					"text": "Sertifikāta parole:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Izmantojiet testa sertifikātu"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Pievienojiet laikspiedolu"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Aizpildiet un parakstiet"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Pietuvināt"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Autors:"
-			},
-			"commentSubjectLabel": {
-				"text": "Temats:"
-			},
-			"commentMessageLabel": {
-				"text": "Ziņa:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Izmantojiet komentāra statusu"
-			},
-			"commentStatusLabel": {
-				"text": "Statuss:"
-			},
-			"None": {
-				"text": "Nav"
-			},
-			"Accepted": {
-				"text": "Pieņemts"
-			},
-			"Completed": {
-				"text": "Pabeigts"
-			},
-			"Rejected": {
-				"text": "Noraidīts"
-			},
-			"Cancelled": {
-				"text": "Atcelts"
-			},
-			"showStateHistoryLabel": {
-				"text": "Rādīt atbildēs valsts vēsturi"
-			},
-			"okButton": {
-				"value": "labi"
-			},
-			"deleteButton": {
-				"value": "Dzēst"
-			},
-			"cancelButton": {
-				"value": "Atcelt"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normāls"
@@ -296,10 +251,10 @@
 			"title": "Atzīmēt"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Mijiedarbības režīms “Nav”"
+			"title": "Mijiedarbības režīms 'Nav'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Mijiedarbības režīms "Skatīt""
+			"title": "Mijiedarbības režīms 'Skatīt'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Mazie mijiedarbības punkti"
@@ -682,6 +637,115 @@
 				"value": "Atcelt"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faila nosaukums:"
+			},
+			"fileFormatLabel": {
+				"text": "Faila formāts:"
+			},
+			"savePagesLabel": {
+				"text": "Saglabāt lapas:"
+			},
+			"allPagesOption": {
+				"text": "Visas lapas"
+			},
+			"currentPageOption": {
+				"text": "Pašreizējā lapa"
+			},
+			"pagesOption": {
+				"text": "Lapas"
+			},
+			"saveAnnoLabel": {
+				"text": "Saglabājiet anotācijas"
+			},
+			"burnAnnoLabel": {
+				"text": "Ierakstīt anotācijas"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Autors:"
+			},
+			"commentSubjectLabel": {
+				"text": "Temats:"
+			},
+			"commentMessageLabel": {
+				"text": "Ziņa:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Izmantojiet komentāra statusu"
+			},
+			"commentStatusLabel": {
+				"text": "Statuss:"
+			},
+			"None": {
+				"text": "Nav"
+			},
+			"Accepted": {
+				"text": "Pieņemts"
+			},
+			"Completed": {
+				"text": "Pabeigts"
+			},
+			"Rejected": {
+				"text": "Noraidīts"
+			},
+			"Cancelled": {
+				"text": "Atcelts"
+			},
+			"showStateHistoryLabel": {
+				"text": "Rādīt atbildēs valsts vēsturi"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"deleteButton": {
+				"value": "Dzēst"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Pagriezt skatu pulksteņrādītāja virzienā"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pagriezt skatu pretēji pulksteņrādītāja virzienam"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopēt anotāciju"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Ielīmējiet anotāciju"
+		},
+		"removeAnnotationLabel": {
+			"text": "Noņemt anotāciju"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Atnest atpakaļ"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Novietot priekšā"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Grupējiet visas anotācijas"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Atgrupēt anotāciju"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Pievienot komentāru anotācijai..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Anotācijas rekvizīti..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Anotācijas iestatījumi",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Saglabājiet anotācijas",
 		"vsdv-annotationListPanel-pageLabel": "Lappuse",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Anotācijas īpašības",
-		"vsdv-annotationCommentSettingsDialog-title": "Rediģējiet anotācijas komentāru",
-		"vsdv-dialog-okButton": "labi",
-		"vsdv-dialog-deleteButton": "Dzēst",
-		"vsdv-dialog-cancelButton": "Atcelt",
 		"vsdv-documentPasswordDialog-title": "Dokumenta parole",
+		"vsdv-dialog-okButton": "labi",
+		"vsdv-dialog-cancelButton": "Atcelt",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificēt failu",
 		"vsdv-imageSelectionDialog-title": "Izvēlieties attēlus",
 		"vsdv-imageSelectionDialog-currentImageString": "Pašreizējais attēls",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
 		"vsdv-printImagesDialog-title": "Drukāt attēlus",
 		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Pagriezt attēlu ar anotācijām",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotācijas leņķim jābūt lielākam par nulli.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotējams attēls ar anotācijām"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotējams attēls ar anotācijām",
+		"vsdv-exportFileSettingsDialog-title": "Eksportēt faila iestatījumus",
+		"vsdv-annotationCommentSettingsDialog-title": "Rediģējiet anotācijas komentāru",
+		"vsdv-dialog-deleteButton": "Dzēst"
 	}
 }

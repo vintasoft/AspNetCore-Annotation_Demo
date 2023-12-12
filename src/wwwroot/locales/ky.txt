@@ -151,26 +151,25 @@
 			"title": "Толтуруңуз жана кол коюңуз"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Сертификат файлы:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Сертификат файлын жүктөө"
-			},
-			"certificatePasswordLabel": {
-				"text": "Сертификаттын сырсөзү:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Сыноо сертификатын колдонуңуз"
-			},
-			"serverLabel": {
-				"text": "Сервер:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Купуя сөз:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Кол коюу сертификаты"
+				},
+				"certificateFileLabel": {
+					"text": "Сертификат файлы:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Сертификат файлын жүктөө"
+				},
+				"certificatePasswordLabel": {
+					"text": "Сертификаттын сырсөзү:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Сыноо сертификатын колдонуңуз"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Убакыт белгисин кошуу"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Толтуруу жана кол коюу"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Чоңойтуу"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Author:"
-			},
-			"commentSubjectLabel": {
-				"text": "Темасы:"
-			},
-			"commentMessageLabel": {
-				"text": "Билдирүү:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Комментарий статусун колдонуңуз"
-			},
-			"commentStatusLabel": {
-				"text": "Статусу:"
-			},
-			"None": {
-				"text": "Жок"
-			},
-			"Accepted": {
-				"text": "Кабыл алынган"
-			},
-			"Completed": {
-				"text": "Аякталды"
-			},
-			"Rejected": {
-				"text": "Четке кагылды"
-			},
-			"Cancelled": {
-				"text": "Жокко чыгарылды"
-			},
-			"showStateHistoryLabel": {
-				"text": "Жооптордо Мамлекеттик тарыхты көрсөтүү"
-			},
-			"okButton": {
-				"value": "макул"
-			},
-			"deleteButton": {
-				"value": "Жок кылуу"
-			},
-			"cancelButton": {
-				"value": "Жокко чыгаруу"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Кадимки"
@@ -296,10 +251,10 @@
 			"title": "Марк"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Өз ара аракеттенүү режими "Жок""
+			"title": "Өз ара аракеттенүү режими 'Жок'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Өз ара аракеттенүү режими "Көрүү""
+			"title": "Өз ара аракеттенүү режими 'Көрүү'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Чакан өз ара аракеттенүү пункттары"
@@ -682,6 +637,115 @@
 				"value": "Жокко чыгаруу"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Шилтемелер аты:"
+			},
+			"fileFormatLabel": {
+				"text": "Файлдын форматы:"
+			},
+			"savePagesLabel": {
+				"text": "Барактарды сактоо:"
+			},
+			"allPagesOption": {
+				"text": "Бардык баракчалар"
+			},
+			"currentPageOption": {
+				"text": "Учурдагы бет"
+			},
+			"pagesOption": {
+				"text": "Барактар"
+			},
+			"saveAnnoLabel": {
+				"text": "Аннотацияларды сактоо"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияларды күйгүзүү"
+			},
+			"okButton": {
+				"value": "макул"
+			},
+			"cancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Author:"
+			},
+			"commentSubjectLabel": {
+				"text": "Темасы:"
+			},
+			"commentMessageLabel": {
+				"text": "Билдирүү:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Комментарий статусун колдонуңуз"
+			},
+			"commentStatusLabel": {
+				"text": "Статусу:"
+			},
+			"None": {
+				"text": "Жок"
+			},
+			"Accepted": {
+				"text": "Кабыл алынган"
+			},
+			"Completed": {
+				"text": "Аякталды"
+			},
+			"Rejected": {
+				"text": "Четке кагылды"
+			},
+			"Cancelled": {
+				"text": "Жокко чыгарылды"
+			},
+			"showStateHistoryLabel": {
+				"text": "Жооптордо Мамлекеттик тарыхты көрсөтүү"
+			},
+			"okButton": {
+				"value": "макул"
+			},
+			"deleteButton": {
+				"value": "Жок кылуу"
+			},
+			"cancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Көрүнүштү саат жебеси боюнча буруңуз"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Көрүнүштү саат жебесине каршы буруңуз"
+		},
+		"copyAnnotationLabel": {
+			"text": "Аннотацияны көчүрүү"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Аннотацияны чаптоо"
+		},
+		"removeAnnotationLabel": {
+			"text": "Аннотацияны алып салуу"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Артка алып кел"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Алдыңа алып кел"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Бардык аннотацияларды топтоо"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Аннотацияны жоюу"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Аннотацияга комментарий кошуу..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Аннотация касиеттери..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Аннотация орнотуулары",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Аннотацияларды сактоо",
 		"vsdv-annotationListPanel-pageLabel": "Page",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Аннотация касиеттери",
-		"vsdv-annotationCommentSettingsDialog-title": "Аннотация комментарийин түзөтүңүз",
-		"vsdv-dialog-okButton": "макул",
-		"vsdv-dialog-deleteButton": "Жок кылуу",
-		"vsdv-dialog-cancelButton": "Жокко чыгаруу",
 		"vsdv-documentPasswordDialog-title": "Документтин сырсөзү",
+		"vsdv-dialog-okButton": "макул",
+		"vsdv-dialog-cancelButton": "Жокко чыгаруу",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Файлдын аныктыгын текшерүү",
 		"vsdv-imageSelectionDialog-title": "Сүрөттөрдү тандаңыз",
 		"vsdv-imageSelectionDialog-currentImageString": "Учурдагы сүрөт",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
 		"vsdv-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
 		"vsdv-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
 		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Аннотациялар менен сүрөттү буруңуз",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Айлануу бурчу нөлдөн жогору болушу керек.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялар менен айлануучу сүрөт"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялар менен айлануучу сүрөт",
+		"vsdv-exportFileSettingsDialog-title": "Файл жөндөөлөрүн экспорттоо",
+		"vsdv-annotationCommentSettingsDialog-title": "Аннотация комментарийин түзөтүңүз",
+		"vsdv-dialog-deleteButton": "Жок кылуу"
 	}
 }

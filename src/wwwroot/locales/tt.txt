@@ -100,7 +100,7 @@
 			"title": "Өчпочмак"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": ""Автор" үзара бәйләнеш режимы."
+			"title": "'Автор' үзара бәйләнеш режимы."
 		},
 		"copyAnnotationButton": {
 			"title": "Фокуслы аннотацияне күчерегез"
@@ -151,26 +151,25 @@
 			"title": "Тотыр һәм имза куй"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Сертификат файлы:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Сертификат файлын йөкләү"
-			},
-			"certificatePasswordLabel": {
-				"text": "Сертификат серсүзе:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Тест сертификатын кулланыгыз"
-			},
-			"serverLabel": {
-				"text": "Сервер:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Серсүз:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Имза сертификаты"
+				},
+				"certificateFileLabel": {
+					"text": "Сертификат файлы:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Сертификат файлын йөкләү"
+				},
+				"certificatePasswordLabel": {
+					"text": "Сертификат серсүзе:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Тест сертификатын кулланыгыз"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Вакыт срокы өстәргә"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Тутыру һәм билге"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Зурайтырга"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Автор:"
-			},
-			"commentSubjectLabel": {
-				"text": "Тема:"
-			},
-			"commentMessageLabel": {
-				"text": "Хәбәр:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Аңлатма статусын кулланыгыз"
-			},
-			"commentStatusLabel": {
-				"text": "Статус:"
-			},
-			"None": {
-				"text": "Беркем дә юк"
-			},
-			"Accepted": {
-				"text": "Кабул ителде"
-			},
-			"Completed": {
-				"text": "Тәмамланды"
-			},
-			"Rejected": {
-				"text": "Кире кагылды"
-			},
-			"Cancelled": {
-				"text": "Беркетелде"
-			},
-			"showStateHistoryLabel": {
-				"text": "Stateавапларда дәүләт тарихын күрсәт"
-			},
-			"okButton": {
-				"value": "ЯРАРМЫ"
-			},
-			"deleteButton": {
-				"value": "Бетерү"
-			},
-			"cancelButton": {
-				"value": "Баш тарту"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Нормаль"
@@ -682,6 +637,115 @@
 				"value": "Баш тарту"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Файл исеме:"
+			},
+			"fileFormatLabel": {
+				"text": "Файл форматы:"
+			},
+			"savePagesLabel": {
+				"text": "Битләрне саклагыз:"
+			},
+			"allPagesOption": {
+				"text": "Барлык битләр"
+			},
+			"currentPageOption": {
+				"text": "Хәзерге бит"
+			},
+			"pagesOption": {
+				"text": "Битләр"
+			},
+			"saveAnnoLabel": {
+				"text": "Аннотацияләрне саклагыз"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияләрне яндырыгыз"
+			},
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"cancelButton": {
+				"value": "Баш тарту"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"commentSubjectLabel": {
+				"text": "Тема:"
+			},
+			"commentMessageLabel": {
+				"text": "Хәбәр:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Аңлатма статусын кулланыгыз"
+			},
+			"commentStatusLabel": {
+				"text": "Статус:"
+			},
+			"None": {
+				"text": "Беркем дә юк"
+			},
+			"Accepted": {
+				"text": "Кабул ителде"
+			},
+			"Completed": {
+				"text": "Тәмамланды"
+			},
+			"Rejected": {
+				"text": "Кире кагылды"
+			},
+			"Cancelled": {
+				"text": "Беркетелде"
+			},
+			"showStateHistoryLabel": {
+				"text": "Stateавапларда дәүләт тарихын күрсәт"
+			},
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"deleteButton": {
+				"value": "Бетерү"
+			},
+			"cancelButton": {
+				"value": "Баш тарту"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Күренешне сәгать юлы белән әйләндерегез"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Күренешне сәгатенә каршы әйләндерегез"
+		},
+		"copyAnnotationLabel": {
+			"text": "Аннотацияне күчерегез"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Аннотация куегыз"
+		},
+		"removeAnnotationLabel": {
+			"text": "Аннотацияне бетерегез"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Кире кайтар"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Фронтка китерегез"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Барлык аннотацияләрне төркемләгез"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Төркем аннотациясе"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Аннотациягә аңлатма өстәгез ..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Аннотация үзлекләре..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Аннотация көйләүләре",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Аннотацияләрне саклагыз",
 		"vsdv-annotationListPanel-pageLabel": "Бит",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Аннотация үзенчәлекләре",
-		"vsdv-annotationCommentSettingsDialog-title": "Аннотация аңлатмасын үзгәртү",
-		"vsdv-dialog-okButton": "ЯРАРМЫ",
-		"vsdv-dialog-deleteButton": "Бетерү",
-		"vsdv-dialog-cancelButton": "Баш тарту",
 		"vsdv-documentPasswordDialog-title": "Документ серсүзе",
+		"vsdv-dialog-okButton": "ЯРАРМЫ",
+		"vsdv-dialog-cancelButton": "Баш тарту",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Файлны раслау",
 		"vsdv-imageSelectionDialog-title": "Рәсемнәрне сайлагыз",
 		"vsdv-imageSelectionDialog-currentImageString": "Хәзерге рәсем",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Гадәт",
 		"vsdv-printImagesDialog-title": "Рәсемнәрне бастыру",
 		"vsdv-printImagesPanel-imagePrintingString": "Рәсем бастырыла",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Рәсем тамашачысы көйләүләре",
 		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз тамашачы көйләүләре",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Рәсемне аннотацияләр белән әйләндерегез",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Әйләнү почмагы нульдән артык булырга тиеш.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотацияләр белән рәсемне әйләндерү"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотацияләр белән рәсемне әйләндерү",
+		"vsdv-exportFileSettingsDialog-title": "Файл көйләүләрен экспортлагыз",
+		"vsdv-annotationCommentSettingsDialog-title": "Аннотация аңлатмасын үзгәртү",
+		"vsdv-dialog-deleteButton": "Бетерү"
 	}
 }

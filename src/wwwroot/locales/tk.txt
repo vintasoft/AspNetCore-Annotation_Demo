@@ -151,26 +151,25 @@
 			"title": "Doldur we gol çek"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Şahadatnama faýly:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Şahadatnama faýlyny ýükläň"
-			},
-			"certificatePasswordLabel": {
-				"text": "Şahadatnamanyň paroly:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Synag şahadatnamasyny ulanyň"
-			},
-			"serverLabel": {
-				"text": "Serwer:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Parol:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Gol şahadatnamasy"
+				},
+				"certificateFileLabel": {
+					"text": "Şahadatnama faýly:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Şahadatnama faýlyny ýükläň"
+				},
+				"certificatePasswordLabel": {
+					"text": "Şahadatnamanyň paroly:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Synag şahadatnamasyny ulanyň"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Wagt belgisini goşuň"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Doldur we gol çek"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Ýakynlaşdyrmak"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Awtory:"
-			},
-			"commentSubjectLabel": {
-				"text": "Mowzuk:"
-			},
-			"commentMessageLabel": {
-				"text": "Habar:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Teswirleriň ýagdaýyny ulanyň"
-			},
-			"commentStatusLabel": {
-				"text": ": Agdaýy:"
-			},
-			"None": {
-				"text": "Hiç"
-			},
-			"Accepted": {
-				"text": "Kabul edildi"
-			},
-			"Completed": {
-				"text": "Tamamlandy"
-			},
-			"Rejected": {
-				"text": "Ret edildi"
-			},
-			"Cancelled": {
-				"text": "Atyryldy"
-			},
-			"showStateHistoryLabel": {
-				"text": "Jogaplarda Döwlet taryhyny görkeziň"
-			},
-			"okButton": {
-				"value": "Bolýar"
-			},
-			"deleteButton": {
-				"value": "Öçür"
-			},
-			"cancelButton": {
-				"value": "Elatyr"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Adaty"
@@ -682,6 +637,115 @@
 				"value": "Elatyr"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faýlyň ady:"
+			},
+			"fileFormatLabel": {
+				"text": "Faýl formaty:"
+			},
+			"savePagesLabel": {
+				"text": "Sahypalary ýazdyryň:"
+			},
+			"allPagesOption": {
+				"text": "Allhli sahypalar"
+			},
+			"currentPageOption": {
+				"text": "Häzirki sahypa"
+			},
+			"pagesOption": {
+				"text": "Sahypalar"
+			},
+			"saveAnnoLabel": {
+				"text": "Bellikleri ýazdyryň"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotasiýalary ýakyň"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Awtory:"
+			},
+			"commentSubjectLabel": {
+				"text": "Mowzuk:"
+			},
+			"commentMessageLabel": {
+				"text": "Habar:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Teswirleriň ýagdaýyny ulanyň"
+			},
+			"commentStatusLabel": {
+				"text": ": Agdaýy:"
+			},
+			"None": {
+				"text": "Hiç"
+			},
+			"Accepted": {
+				"text": "Kabul edildi"
+			},
+			"Completed": {
+				"text": "Tamamlandy"
+			},
+			"Rejected": {
+				"text": "Ret edildi"
+			},
+			"Cancelled": {
+				"text": "Atyryldy"
+			},
+			"showStateHistoryLabel": {
+				"text": "Jogaplarda Döwlet taryhyny görkeziň"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"deleteButton": {
+				"value": "Öçür"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görnüşi sagat ugruna öwüriň"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görnüşi sagat tersine öwüriň"
+		},
+		"copyAnnotationLabel": {
+			"text": "Annotasiýa göçüriň"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Annotasiýa goýuň"
+		},
+		"removeAnnotationLabel": {
+			"text": "Annotasiýany aýyryň"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Yzyňa getir"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Öňe getir"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Anhli bellikleri toparlaň"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Toparlaýyn düşündiriş"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Annotasiýa teswir goşuň ..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Annotasiýa aýratynlyklary ..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Annotasiýa sazlamalary",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Bellikleri ýazdyryň",
 		"vsdv-annotationListPanel-pageLabel": "Sahypa",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotasiýa aýratynlyklary",
-		"vsdv-annotationCommentSettingsDialog-title": "Annotasiýa teswirini redaktirläň",
-		"vsdv-dialog-okButton": "Bolýar",
-		"vsdv-dialog-deleteButton": "Öçür",
-		"vsdv-dialog-cancelButton": "Elatyr",
 		"vsdv-documentPasswordDialog-title": "Resminamanyň paroly",
+		"vsdv-dialog-okButton": "Bolýar",
+		"vsdv-dialog-cancelButton": "Elatyr",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
 		"vsdv-imageSelectionDialog-title": "Suratlary saýlaň",
 		"vsdv-imageSelectionDialog-currentImageString": "Häzirki surat",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
 		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
 		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Suraty düşündirişler bilen aýlaň",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Aýlanma burçy noldan köp bolmaly.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiýa bilen şekili aýlamak"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiýa bilen şekili aýlamak",
+		"vsdv-exportFileSettingsDialog-title": "Faýl sazlamalaryny eksport ediň",
+		"vsdv-annotationCommentSettingsDialog-title": "Annotasiýa teswirini redaktirläň",
+		"vsdv-dialog-deleteButton": "Öçür"
 	}
 }

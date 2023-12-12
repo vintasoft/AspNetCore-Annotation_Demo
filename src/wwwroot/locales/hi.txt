@@ -151,26 +151,25 @@
 			"title": "भरकर हस्ताक्षर करें"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "प्रमाणपत्र फ़ाइल:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "प्रमाणपत्र फ़ाइल अपलोड करें"
-			},
-			"certificatePasswordLabel": {
-				"text": "प्रमाणपत्र पासवर्ड:"
-			},
-			"useTestCertificateLabel": {
-				"text": "परीक्षण प्रमाणपत्र का प्रयोग करें"
-			},
-			"serverLabel": {
-				"text": "सर्वर:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "पासवर्ड:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "हस्ताक्षर प्रमाण पत्र"
+				},
+				"certificateFileLabel": {
+					"text": "प्रमाणपत्र फ़ाइल:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "प्रमाणपत्र फ़ाइल अपलोड करें"
+				},
+				"certificatePasswordLabel": {
+					"text": "प्रमाणपत्र पासवर्ड:"
+				},
+				"useTestCertificateLabel": {
+					"text": "परीक्षण प्रमाणपत्र का प्रयोग करें"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "टाइमस्टैम्प जोड़ें"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "भरें और हस्ताक्षर करें"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "ज़ूम इन करें"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "लेखक:"
-			},
-			"commentSubjectLabel": {
-				"text": "विषय:"
-			},
-			"commentMessageLabel": {
-				"text": "संदेश:"
-			},
-			"useCommentStatusLabel": {
-				"text": "टिप्पणी स्थिति का प्रयोग करें"
-			},
-			"commentStatusLabel": {
-				"text": "स्थिति:"
-			},
-			"None": {
-				"text": "नहीं"
-			},
-			"Accepted": {
-				"text": "स्वीकृत"
-			},
-			"Completed": {
-				"text": "पुरा होना।"
-			},
-			"Rejected": {
-				"text": "अस्वीकार कर दिया"
-			},
-			"Cancelled": {
-				"text": "रद्द"
-			},
-			"showStateHistoryLabel": {
-				"text": "उत्तरों में राज्य का इतिहास दिखाएँ"
-			},
-			"okButton": {
-				"value": "ठीक है"
-			},
-			"deleteButton": {
-				"value": "हटाएं"
-			},
-			"cancelButton": {
-				"value": "रद्द करें"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "सामान्य"
@@ -682,6 +637,115 @@
 				"value": "रद्द करें"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "फ़ाइल का नाम:"
+			},
+			"fileFormatLabel": {
+				"text": "फ़ाइल फ़ारमैट:"
+			},
+			"savePagesLabel": {
+				"text": "पेज सहेजें:"
+			},
+			"allPagesOption": {
+				"text": "सभी पृष्ठ"
+			},
+			"currentPageOption": {
+				"text": "वर्तमान पृष्ठ"
+			},
+			"pagesOption": {
+				"text": "पृष्ठों"
+			},
+			"saveAnnoLabel": {
+				"text": "एनोटेशन सहेजें"
+			},
+			"burnAnnoLabel": {
+				"text": "टिप्पणियाँ जलाएँ"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "लेखक:"
+			},
+			"commentSubjectLabel": {
+				"text": "विषय:"
+			},
+			"commentMessageLabel": {
+				"text": "संदेश:"
+			},
+			"useCommentStatusLabel": {
+				"text": "टिप्पणी स्थिति का प्रयोग करें"
+			},
+			"commentStatusLabel": {
+				"text": "स्थिति:"
+			},
+			"None": {
+				"text": "नहीं"
+			},
+			"Accepted": {
+				"text": "स्वीकृत"
+			},
+			"Completed": {
+				"text": "पुरा होना।"
+			},
+			"Rejected": {
+				"text": "अस्वीकार कर दिया"
+			},
+			"Cancelled": {
+				"text": "रद्द"
+			},
+			"showStateHistoryLabel": {
+				"text": "उत्तरों में राज्य का इतिहास दिखाएँ"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"deleteButton": {
+				"value": "हटाएं"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "दृश्य को दक्षिणावर्त घुमाएँ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "दृश्य को वामावर्त घुमाएँ"
+		},
+		"copyAnnotationLabel": {
+			"text": "एनोटेशन कॉपी करें"
+		},
+		"pasteAnnotationLabel": {
+			"text": "एनोटेशन डालें"
+		},
+		"removeAnnotationLabel": {
+			"text": "एनोटेशन हटाएं"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "वापस भेजें"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "सामने लाओ"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "सभी एनोटेशन को समूहित करें"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "अनग्रुप एनोटेशन"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "एनोटेशन में टिप्पणी जोड़ें..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "एनोटेशन गुण..."
+		},
 		"annotationSettingsDialog": {
 			"title": "एनोटेशन सेटिंग्स",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "एनोटेशन सहेजें",
 		"vsdv-annotationListPanel-pageLabel": "पेज",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "एनोटेशन गुण",
-		"vsdv-annotationCommentSettingsDialog-title": "एनोटेशन टिप्पणी संपादित करें",
-		"vsdv-dialog-okButton": "ठीक है",
-		"vsdv-dialog-deleteButton": "हटाएं",
-		"vsdv-dialog-cancelButton": "रद्द करें",
 		"vsdv-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
+		"vsdv-dialog-okButton": "ठीक है",
+		"vsdv-dialog-cancelButton": "रद्द करें",
 		"vsdv-documentPasswordPanel-authenticateFileString": "फ़ाइल प्रमाणित करें",
 		"vsdv-imageSelectionDialog-title": "छवियां चुनें",
 		"vsdv-imageSelectionDialog-currentImageString": "वर्तमान छवि",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "कस्टम",
 		"vsdv-printImagesDialog-title": "छवियाँ मुद्रित करें",
 		"vsdv-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",
 		"vsdv-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
 		"vsdv-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "एनोटेटेड छवि घुमाएँ",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "घूर्णन कोण 0 नहीं होना चाहिए.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "एनोटेट छवि को घुमाया जा रहा है"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "एनोटेट छवि को घुमाया जा रहा है",
+		"vsdv-exportFileSettingsDialog-title": "फ़ाइल सेटिंग्स निर्यात करें",
+		"vsdv-annotationCommentSettingsDialog-title": "एनोटेशन टिप्पणी संपादित करें",
+		"vsdv-dialog-deleteButton": "हटाएं"
 	}
 }

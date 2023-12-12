@@ -151,26 +151,25 @@
 			"title": "Doldur ve imzala"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Sertifika dosyası:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Sertifika dosyasını yükle"
-			},
-			"certificatePasswordLabel": {
-				"text": "Sertifika şifresi:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Test sertifikasını kullan"
-			},
-			"serverLabel": {
-				"text": "Sunucu:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Şifre:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "İmza sertifikası"
+				},
+				"certificateFileLabel": {
+					"text": "Sertifika dosyası:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Sertifika dosyasını yükle"
+				},
+				"certificatePasswordLabel": {
+					"text": "Sertifika şifresi:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Test sertifikasını kullan"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Zaman damgası ekle"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Doldur ve İmzala"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Yakınlaştır"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Yazar:"
-			},
-			"commentSubjectLabel": {
-				"text": "Ders:"
-			},
-			"commentMessageLabel": {
-				"text": "İleti:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Yorum durumunu kullan"
-			},
-			"commentStatusLabel": {
-				"text": "Durum:"
-			},
-			"None": {
-				"text": "Hayır"
-			},
-			"Accepted": {
-				"text": "Kabul edilmiş"
-			},
-			"Completed": {
-				"text": "Tamamlanmış"
-			},
-			"Rejected": {
-				"text": "Reddedilmiş"
-			},
-			"Cancelled": {
-				"text": "İptal edildi"
-			},
-			"showStateHistoryLabel": {
-				"text": "Yanıtlarda Durum Geçmişini göster"
-			},
-			"okButton": {
-				"value": "Tamam"
-			},
-			"deleteButton": {
-				"value": "Sil"
-			},
-			"cancelButton": {
-				"value": "İptal"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -682,6 +637,115 @@
 				"value": "İptal"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Dosya adı:"
+			},
+			"fileFormatLabel": {
+				"text": "Dosya formatı:"
+			},
+			"savePagesLabel": {
+				"text": "Sayfaları kaydedin:"
+			},
+			"allPagesOption": {
+				"text": "Tüm Sayfalar"
+			},
+			"currentPageOption": {
+				"text": "Mevcut sayfa"
+			},
+			"pagesOption": {
+				"text": "Sayfalar"
+			},
+			"saveAnnoLabel": {
+				"text": "Ek açıklamaları kaydet"
+			},
+			"burnAnnoLabel": {
+				"text": "Ek açıklamaları yaz"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Yazar:"
+			},
+			"commentSubjectLabel": {
+				"text": "Ders:"
+			},
+			"commentMessageLabel": {
+				"text": "İleti:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Yorum durumunu kullan"
+			},
+			"commentStatusLabel": {
+				"text": "Durum:"
+			},
+			"None": {
+				"text": "Hayır"
+			},
+			"Accepted": {
+				"text": "Kabul edilmiş"
+			},
+			"Completed": {
+				"text": "Tamamlanmış"
+			},
+			"Rejected": {
+				"text": "Reddedilmiş"
+			},
+			"Cancelled": {
+				"text": "İptal edildi"
+			},
+			"showStateHistoryLabel": {
+				"text": "Yanıtlarda Durum Geçmişini göster"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"deleteButton": {
+				"value": "Sil"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görünümü saat yönünde döndür"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görünümü saat yönünün tersine döndür"
+		},
+		"copyAnnotationLabel": {
+			"text": "Açıklamayı Kopyala"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Açıklama Ekle"
+		},
+		"removeAnnotationLabel": {
+			"text": "Açıklamayı Sil"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Arkaya Gönder"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Öne Getir"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Tüm açıklamaları gruplandır"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Açıklamanın Grubunu Çöz"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Ek açıklamaya yorum ekle..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Açıklama özellikleri..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Ek açıklama ayarları",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Ek açıklamaları kaydet",
 		"vsdv-annotationListPanel-pageLabel": "Sayfa",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Açıklama özellikleri",
-		"vsdv-annotationCommentSettingsDialog-title": "Ek açıklama yorumunu düzenleyin",
-		"vsdv-dialog-okButton": "Tamam",
-		"vsdv-dialog-deleteButton": "Sil",
-		"vsdv-dialog-cancelButton": "İptal",
 		"vsdv-documentPasswordDialog-title": "Belge parolası",
+		"vsdv-dialog-okButton": "Tamam",
+		"vsdv-dialog-cancelButton": "İptal",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Dosyanın kimliğini doğrula",
 		"vsdv-imageSelectionDialog-title": "Görüntüleri Seçin",
 		"vsdv-imageSelectionDialog-currentImageString": "Geçerli Resim",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Özel",
 		"vsdv-printImagesDialog-title": "Görüntüleri Yazdır",
 		"vsdv-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "açıklamalarla",
 		"vsdv-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
 		"vsdv-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Açıklamalı Görüntüyü Döndür",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Dönme açısı 0 olmamalıdır.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Açıklamalı resim döndürülüyor"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Açıklamalı resim döndürülüyor",
+		"vsdv-exportFileSettingsDialog-title": "Dosya ayarlarını dışa aktar",
+		"vsdv-annotationCommentSettingsDialog-title": "Ek açıklama yorumunu düzenleyin",
+		"vsdv-dialog-deleteButton": "Sil"
 	}
 }

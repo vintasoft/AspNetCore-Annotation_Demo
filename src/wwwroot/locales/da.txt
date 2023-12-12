@@ -151,26 +151,25 @@
 			"title": "Udfyld og underskriv"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Certifikatfil:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Upload certifikatfil"
-			},
-			"certificatePasswordLabel": {
-				"text": "Certifikatadgangskode:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Brug testcertifikat"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Adgangskode:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Signaturcertifikatet"
+				},
+				"certificateFileLabel": {
+					"text": "Certifikatfil:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Upload certifikatfil"
+				},
+				"certificatePasswordLabel": {
+					"text": "Certifikatadgangskode:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Brug testcertifikat"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Tilføj tidsstempel"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Udfyld og underskriv"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zoom ind"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Forfatter:"
-			},
-			"commentSubjectLabel": {
-				"text": "Emne:"
-			},
-			"commentMessageLabel": {
-				"text": "Besked:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Brug kommentarstatus"
-			},
-			"commentStatusLabel": {
-				"text": "Status:"
-			},
-			"None": {
-				"text": "Nej"
-			},
-			"Accepted": {
-				"text": "Accepteret"
-			},
-			"Completed": {
-				"text": "Afsluttet"
-			},
-			"Rejected": {
-				"text": "Afvist"
-			},
-			"Cancelled": {
-				"text": "Aflyst"
-			},
-			"showStateHistoryLabel": {
-				"text": "Vis statens historie i svar"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Slet"
-			},
-			"cancelButton": {
-				"value": "Annuller"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -682,6 +637,115 @@
 				"value": "Annuller"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Filnavn:"
+			},
+			"fileFormatLabel": {
+				"text": "Filformat:"
+			},
+			"savePagesLabel": {
+				"text": "Gem sider:"
+			},
+			"allPagesOption": {
+				"text": "Alle sider"
+			},
+			"currentPageOption": {
+				"text": "Aktuel side"
+			},
+			"pagesOption": {
+				"text": "sider"
+			},
+			"saveAnnoLabel": {
+				"text": "Gem annoteringer"
+			},
+			"burnAnnoLabel": {
+				"text": "Brænd annoteringer"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Forfatter:"
+			},
+			"commentSubjectLabel": {
+				"text": "Emne:"
+			},
+			"commentMessageLabel": {
+				"text": "Besked:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Brug kommentarstatus"
+			},
+			"commentStatusLabel": {
+				"text": "Status:"
+			},
+			"None": {
+				"text": "Nej"
+			},
+			"Accepted": {
+				"text": "Accepteret"
+			},
+			"Completed": {
+				"text": "Afsluttet"
+			},
+			"Rejected": {
+				"text": "Afvist"
+			},
+			"Cancelled": {
+				"text": "Aflyst"
+			},
+			"showStateHistoryLabel": {
+				"text": "Vis statens historie i svar"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Slet"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Roter visningen med uret"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Roter visningen mod uret"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopiér anmærkning"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Indsæt anmærkning"
+		},
+		"removeAnnotationLabel": {
+			"text": "Slet anmærkning"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Send til bagsiden"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Bring forrest"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Grupper alle annoteringer"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Ophæv gruppering af annotering"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Tilføj kommentar til annotering..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Annoteringsegenskaber..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Anmærkningsindstillinger",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Gem annoteringer",
 		"vsdv-annotationListPanel-pageLabel": "Side",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaber",
-		"vsdv-annotationCommentSettingsDialog-title": "Rediger kommentarkommentaren",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Slet",
-		"vsdv-dialog-cancelButton": "Annuller",
 		"vsdv-documentPasswordDialog-title": "Dokumentadgangskode",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Annuller",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Godkend fil",
 		"vsdv-imageSelectionDialog-title": "Vælg billeder",
 		"vsdv-imageSelectionDialog-currentImageString": "Aktuelt billede",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Brugerdefineret",
 		"vsdv-printImagesDialog-title": "Udskriv billeder",
 		"vsdv-printImagesPanel-imagePrintingString": "Billedet udskrives",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "med anmærkninger",
 		"vsdv-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser",
 		"vsdv-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Roter kommenteret billede",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinklen må ikke være 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenteret billede bliver roteret"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenteret billede bliver roteret",
+		"vsdv-exportFileSettingsDialog-title": "Eksporter filindstillinger",
+		"vsdv-annotationCommentSettingsDialog-title": "Rediger kommentarkommentaren",
+		"vsdv-dialog-deleteButton": "Slet"
 	}
 }

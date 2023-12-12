@@ -151,26 +151,25 @@
 			"title": "Compila e firma"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "File del certificato:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Carica il file del certificato"
-			},
-			"certificatePasswordLabel": {
-				"text": "Password del certificato:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Utilizzare il certificato di prova"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Password:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Il certificato di firma"
+				},
+				"certificateFileLabel": {
+					"text": "File del certificato:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Carica il file del certificato"
+				},
+				"certificatePasswordLabel": {
+					"text": "Password del certificato:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Utilizzare il certificato di prova"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Aggiungi il timestamp"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Compila e firma"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Ingrandisci"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Autore:"
-			},
-			"commentSubjectLabel": {
-				"text": "Soggetto:"
-			},
-			"commentMessageLabel": {
-				"text": "Messaggio:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Utilizza lo stato dei commenti"
-			},
-			"commentStatusLabel": {
-				"text": "Stato:"
-			},
-			"None": {
-				"text": "No"
-			},
-			"Accepted": {
-				"text": "Accettato"
-			},
-			"Completed": {
-				"text": "Completato"
-			},
-			"Rejected": {
-				"text": "Respinto"
-			},
-			"Cancelled": {
-				"text": "Annullato"
-			},
-			"showStateHistoryLabel": {
-				"text": "Mostra la cronologia dello stato nelle risposte"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Elimina"
-			},
-			"cancelButton": {
-				"value": "Annulla"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normale"
@@ -682,6 +637,115 @@
 				"value": "Annulla"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Nome del file:"
+			},
+			"fileFormatLabel": {
+				"text": "Formato del file:"
+			},
+			"savePagesLabel": {
+				"text": "Salva pagine:"
+			},
+			"allPagesOption": {
+				"text": "Tutte le pagine"
+			},
+			"currentPageOption": {
+				"text": "Pagina corrente"
+			},
+			"pagesOption": {
+				"text": "Pagine"
+			},
+			"saveAnnoLabel": {
+				"text": "Salva annotazioni"
+			},
+			"burnAnnoLabel": {
+				"text": "Masterizza annotazioni"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annulla"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Autore:"
+			},
+			"commentSubjectLabel": {
+				"text": "Soggetto:"
+			},
+			"commentMessageLabel": {
+				"text": "Messaggio:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Utilizza lo stato dei commenti"
+			},
+			"commentStatusLabel": {
+				"text": "Stato:"
+			},
+			"None": {
+				"text": "No"
+			},
+			"Accepted": {
+				"text": "Accettato"
+			},
+			"Completed": {
+				"text": "Completato"
+			},
+			"Rejected": {
+				"text": "Respinto"
+			},
+			"Cancelled": {
+				"text": "Annullato"
+			},
+			"showStateHistoryLabel": {
+				"text": "Mostra la cronologia dello stato nelle risposte"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Elimina"
+			},
+			"cancelButton": {
+				"value": "Annulla"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Ruota la vista in senso orario"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Ruota la vista in senso antiorario"
+		},
+		"copyAnnotationLabel": {
+			"text": "Copia annotazione"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Inserisci annotazione"
+		},
+		"removeAnnotationLabel": {
+			"text": "Elimina annotazione"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Porta in secondo piano"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Porta in primo piano"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Raggruppa tutte le annotazioni"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Separa annotazione"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Aggiungi commento all'annotazione..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Proprietà annotazione..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Impostazioni di annotazione",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salva annotazioni",
 		"vsdv-annotationListPanel-pageLabel": "Pagina",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Proprietà annotazione",
-		"vsdv-annotationCommentSettingsDialog-title": "Modifica il commento dell'annotazione",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Elimina",
-		"vsdv-dialog-cancelButton": "Annulla",
 		"vsdv-documentPasswordDialog-title": "Password documento",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Annulla",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Autenticare il file",
 		"vsdv-imageSelectionDialog-title": "Seleziona immagini",
 		"vsdv-imageSelectionDialog-currentImageString": "Immagine corrente",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Personalizzato",
 		"vsdv-printImagesDialog-title": "Stampa immagini",
 		"vsdv-printImagesPanel-imagePrintingString": "L'immagine è in fase di stampa",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "con annotazioni",
 		"vsdv-imageViewerSettingsDialog-title": "Impostazioni del visualizzatore di immagini",
 		"vsdv-thumbnailViewerSettingDialog-title": "Impostazioni visualizzatore miniature",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visualizza le annotazioni sulle miniature:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Ruota immagine annotata",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "L'angolo di rotazione non deve essere 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'immagine annotata viene ruotata"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'immagine annotata viene ruotata",
+		"vsdv-exportFileSettingsDialog-title": "Esporta le impostazioni del file",
+		"vsdv-annotationCommentSettingsDialog-title": "Modifica il commento dell'annotazione",
+		"vsdv-dialog-deleteButton": "Elimina"
 	}
 }

@@ -151,26 +151,25 @@
 			"title": "記入して署名する"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "証明書ファイル:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "証明書ファイルのアップロード"
-			},
-			"certificatePasswordLabel": {
-				"text": "証明書のパスワード:"
-			},
-			"useTestCertificateLabel": {
-				"text": "テスト証明書を使用する"
-			},
-			"serverLabel": {
-				"text": "サーバ："
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "パスワード:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "署名証明書"
+				},
+				"certificateFileLabel": {
+					"text": "証明書ファイル:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "証明書ファイルのアップロード"
+				},
+				"certificatePasswordLabel": {
+					"text": "証明書のパスワード:"
+				},
+				"useTestCertificateLabel": {
+					"text": "テスト証明書を使用する"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "タイムスタンプを追加する"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "記入して署名する"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "ズームイン"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "著者："
-			},
-			"commentSubjectLabel": {
-				"text": "主題："
-			},
-			"commentMessageLabel": {
-				"text": "メッセージ："
-			},
-			"useCommentStatusLabel": {
-				"text": "コメントステータスを使用する"
-			},
-			"commentStatusLabel": {
-				"text": "状態："
-			},
-			"None": {
-				"text": "いいえ"
-			},
-			"Accepted": {
-				"text": "承認されました"
-			},
-			"Completed": {
-				"text": "完了"
-			},
-			"Rejected": {
-				"text": "拒否されました"
-			},
-			"Cancelled": {
-				"text": "キャンセル"
-			},
-			"showStateHistoryLabel": {
-				"text": "返信に状態履歴を表示する"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "削除"
-			},
-			"cancelButton": {
-				"value": "キャンセル"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "通常"
@@ -682,6 +637,115 @@
 				"value": "キャンセル"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "ファイル名："
+			},
+			"fileFormatLabel": {
+				"text": "ファイル形式:"
+			},
+			"savePagesLabel": {
+				"text": "ページを保存:"
+			},
+			"allPagesOption": {
+				"text": "すべてのページ"
+			},
+			"currentPageOption": {
+				"text": "現在のページ"
+			},
+			"pagesOption": {
+				"text": "ページ"
+			},
+			"saveAnnoLabel": {
+				"text": "注釈の保存"
+			},
+			"burnAnnoLabel": {
+				"text": "注釈を書き込む"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "著者："
+			},
+			"commentSubjectLabel": {
+				"text": "主題："
+			},
+			"commentMessageLabel": {
+				"text": "メッセージ："
+			},
+			"useCommentStatusLabel": {
+				"text": "コメントステータスを使用する"
+			},
+			"commentStatusLabel": {
+				"text": "状態："
+			},
+			"None": {
+				"text": "いいえ"
+			},
+			"Accepted": {
+				"text": "承認されました"
+			},
+			"Completed": {
+				"text": "完了"
+			},
+			"Rejected": {
+				"text": "拒否されました"
+			},
+			"Cancelled": {
+				"text": "キャンセル"
+			},
+			"showStateHistoryLabel": {
+				"text": "返信に状態履歴を表示する"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "削除"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "ビューを時計回りに回転"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "ビューを反時計回りに回転"
+		},
+		"copyAnnotationLabel": {
+			"text": "注釈をコピー"
+		},
+		"pasteAnnotationLabel": {
+			"text": "注釈を挿入"
+		},
+		"removeAnnotationLabel": {
+			"text": "注釈を削除"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "最後へ移動"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "前面に移動"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "すべての注釈をグループ化"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "注釈のグループ化を解除"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "注釈にコメントを追加..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "注釈のプロパティ..."
+		},
 		"annotationSettingsDialog": {
 			"title": "注釈設定",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "注釈の保存",
 		"vsdv-annotationListPanel-pageLabel": "ページ",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "注釈のプロパティ",
-		"vsdv-annotationCommentSettingsDialog-title": "注釈のコメントを編集する",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "削除",
-		"vsdv-dialog-cancelButton": "キャンセル",
 		"vsdv-documentPasswordDialog-title": "文書のパスワード",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "キャンセル",
 		"vsdv-documentPasswordPanel-authenticateFileString": "ファイルを認証する",
 		"vsdv-imageSelectionDialog-title": "画像を選択",
 		"vsdv-imageSelectionDialog-currentImageString": "現在の画像",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "カスタム",
 		"vsdv-printImagesDialog-title": "画像を印刷",
 		"vsdv-printImagesPanel-imagePrintingString": "画像を印刷中です",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "注釈あり",
 		"vsdv-imageViewerSettingsDialog-title": "画像ビューアの設定",
 		"vsdv-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "注釈付き画像を回転",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "回転角度は 0 であってはなりません。",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注釈付き画像は回転中です"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注釈付き画像は回転中です",
+		"vsdv-exportFileSettingsDialog-title": "エクスポートファイルの設定",
+		"vsdv-annotationCommentSettingsDialog-title": "注釈のコメントを編集する",
+		"vsdv-dialog-deleteButton": "削除"
 	}
 }

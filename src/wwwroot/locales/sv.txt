@@ -151,26 +151,25 @@
 			"title": "Fyll och signera"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Certifikatfil:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Ladda upp certifikatfil"
-			},
-			"certificatePasswordLabel": {
-				"text": "Certifikatlösenord:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Använd testcertifikat"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Lösenord:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Signaturcertifikatet"
+				},
+				"certificateFileLabel": {
+					"text": "Certifikatfil:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Ladda upp certifikatfil"
+				},
+				"certificatePasswordLabel": {
+					"text": "Certifikatlösenord:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Använd testcertifikat"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Lägg till tidsstämpel"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Fyll och signera"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zooma in"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Författare:"
-			},
-			"commentSubjectLabel": {
-				"text": "Ämne:"
-			},
-			"commentMessageLabel": {
-				"text": "Meddelande:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Använd kommentarsstatus"
-			},
-			"commentStatusLabel": {
-				"text": "Status:"
-			},
-			"None": {
-				"text": "Nej"
-			},
-			"Accepted": {
-				"text": "Accepterad"
-			},
-			"Completed": {
-				"text": "Avslutad"
-			},
-			"Rejected": {
-				"text": "avvisade"
-			},
-			"Cancelled": {
-				"text": "Inställt"
-			},
-			"showStateHistoryLabel": {
-				"text": "Visa State History i svar"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Ta bort"
-			},
-			"cancelButton": {
-				"value": "Avbryt"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -682,6 +637,115 @@
 				"value": "Avbryt"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Filnamn:"
+			},
+			"fileFormatLabel": {
+				"text": "Filformat:"
+			},
+			"savePagesLabel": {
+				"text": "Spara sidorna:"
+			},
+			"allPagesOption": {
+				"text": "Alla sidor"
+			},
+			"currentPageOption": {
+				"text": "Aktuell sida"
+			},
+			"pagesOption": {
+				"text": "Sidor"
+			},
+			"saveAnnoLabel": {
+				"text": "Spara kommentarer"
+			},
+			"burnAnnoLabel": {
+				"text": "Bränn anteckningar"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Författare:"
+			},
+			"commentSubjectLabel": {
+				"text": "Ämne:"
+			},
+			"commentMessageLabel": {
+				"text": "Meddelande:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Använd kommentarsstatus"
+			},
+			"commentStatusLabel": {
+				"text": "Status:"
+			},
+			"None": {
+				"text": "Nej"
+			},
+			"Accepted": {
+				"text": "Accepterad"
+			},
+			"Completed": {
+				"text": "Avslutad"
+			},
+			"Rejected": {
+				"text": "avvisade"
+			},
+			"Cancelled": {
+				"text": "Inställt"
+			},
+			"showStateHistoryLabel": {
+				"text": "Visa State History i svar"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Ta bort"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Rotera vyn medurs"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Rotera vyn moturs"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopiera anteckning"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Infoga anteckning"
+		},
+		"removeAnnotationLabel": {
+			"text": "Ta bort anteckning"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Skicka till baksidan"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Ta fram"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Gruppera alla kommentarer"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Avgruppera anteckning"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Lägg till kommentar till anteckning..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Anteckningsegenskaper..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Anteckningsinställningar",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Spara kommentarer",
 		"vsdv-annotationListPanel-pageLabel": "Sida",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Anteckningsegenskaper",
-		"vsdv-annotationCommentSettingsDialog-title": "Redigera kommentarkommentaren",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Ta bort",
-		"vsdv-dialog-cancelButton": "Avbryt",
 		"vsdv-documentPasswordDialog-title": "Dokumentlösenord",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Avbryt",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Autentisera fil",
 		"vsdv-imageSelectionDialog-title": "Välj bilder",
 		"vsdv-imageSelectionDialog-currentImageString": "Aktuell bild",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Anpassad",
 		"vsdv-printImagesDialog-title": "Skriv ut bilder",
 		"vsdv-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "med kommentarer",
 		"vsdv-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
 		"vsdv-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotera kommenterad bild",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinkeln får inte vara 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras",
+		"vsdv-exportFileSettingsDialog-title": "Exportera filinställningarna",
+		"vsdv-annotationCommentSettingsDialog-title": "Redigera kommentarkommentaren",
+		"vsdv-dialog-deleteButton": "Ta bort"
 	}
 }

@@ -151,26 +151,25 @@
 			"title": "Fyll og signer"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Sertifikatfil:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Last opp sertifikatfil"
-			},
-			"certificatePasswordLabel": {
-				"text": "Sertifikatpassord:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Bruk prøvesertifikat"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Passord:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Signatursertifikatet"
+				},
+				"certificateFileLabel": {
+					"text": "Sertifikatfil:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Last opp sertifikatfil"
+				},
+				"certificatePasswordLabel": {
+					"text": "Sertifikatpassord:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Bruk prøvesertifikat"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Legg til tidsstempel"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Fyll og signer"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zoom inn"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Forfatter:"
-			},
-			"commentSubjectLabel": {
-				"text": "Emne:"
-			},
-			"commentMessageLabel": {
-				"text": "Beskjed:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Bruk kommentarstatus"
-			},
-			"commentStatusLabel": {
-				"text": "Status:"
-			},
-			"None": {
-				"text": "Nei"
-			},
-			"Accepted": {
-				"text": "Akseptert"
-			},
-			"Completed": {
-				"text": "Fullført"
-			},
-			"Rejected": {
-				"text": "Avvist"
-			},
-			"Cancelled": {
-				"text": "avbrutt"
-			},
-			"showStateHistoryLabel": {
-				"text": "Vis State History i svar"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Slett"
-			},
-			"cancelButton": {
-				"value": "Avbryt"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -682,6 +637,115 @@
 				"value": "Avbryt"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Filnavn:"
+			},
+			"fileFormatLabel": {
+				"text": "Filformat:"
+			},
+			"savePagesLabel": {
+				"text": "Lagre sider:"
+			},
+			"allPagesOption": {
+				"text": "Alle sider"
+			},
+			"currentPageOption": {
+				"text": "Gjeldende side"
+			},
+			"pagesOption": {
+				"text": "Sider"
+			},
+			"saveAnnoLabel": {
+				"text": "Lagre merknader"
+			},
+			"burnAnnoLabel": {
+				"text": "Brenn merknader"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Forfatter:"
+			},
+			"commentSubjectLabel": {
+				"text": "Emne:"
+			},
+			"commentMessageLabel": {
+				"text": "Beskjed:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Bruk kommentarstatus"
+			},
+			"commentStatusLabel": {
+				"text": "Status:"
+			},
+			"None": {
+				"text": "Nei"
+			},
+			"Accepted": {
+				"text": "Akseptert"
+			},
+			"Completed": {
+				"text": "Fullført"
+			},
+			"Rejected": {
+				"text": "Avvist"
+			},
+			"Cancelled": {
+				"text": "avbrutt"
+			},
+			"showStateHistoryLabel": {
+				"text": "Vis State History i svar"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Slett"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Roter visningen med klokken"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Roter visningen mot klokken"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopier merknad"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Sett inn merknad"
+		},
+		"removeAnnotationLabel": {
+			"text": "Slett merknad"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Send til baksiden"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Bring frem"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Grupper alle merknader"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Opphev merknad i grupper"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Legg til kommentar i kommentaren..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Annoteringsegenskaper..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Annoteringsinnstillinger",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Lagre merknader",
 		"vsdv-annotationListPanel-pageLabel": "Side",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaper",
-		"vsdv-annotationCommentSettingsDialog-title": "Rediger kommentarkommentaren",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Slett",
-		"vsdv-dialog-cancelButton": "Avbryt",
 		"vsdv-documentPasswordDialog-title": "Dokumentpassord",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Avbryt",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Autentiser filen",
 		"vsdv-imageSelectionDialog-title": "Velg bilder",
 		"vsdv-imageSelectionDialog-currentImageString": "Gjeldende bilde",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Egendefinert",
 		"vsdv-printImagesDialog-title": "Skriv ut bilder",
 		"vsdv-printImagesPanel-imagePrintingString": "Bildet skrives ut",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "med merknader",
 		"vsdv-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
 		"vsdv-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Roter annotert bilde",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotasjonsvinkelen må ikke være 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommentert bilde blir rotert"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommentert bilde blir rotert",
+		"vsdv-exportFileSettingsDialog-title": "Eksporter filinnstillinger",
+		"vsdv-annotationCommentSettingsDialog-title": "Rediger kommentarkommentaren",
+		"vsdv-dialog-deleteButton": "Slett"
 	}
 }

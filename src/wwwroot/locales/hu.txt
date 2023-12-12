@@ -151,26 +151,25 @@
 			"title": "Töltse ki és írja alá"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Tanúsítvány fájl:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Tanúsítványfájl feltöltése"
-			},
-			"certificatePasswordLabel": {
-				"text": "Tanúsítvány jelszava:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Használjon tesztbizonyítványt"
-			},
-			"serverLabel": {
-				"text": "Szerver:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Jelszó:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Az aláírási tanúsítvány"
+				},
+				"certificateFileLabel": {
+					"text": "Tanúsítvány fájl:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Tanúsítványfájl feltöltése"
+				},
+				"certificatePasswordLabel": {
+					"text": "Tanúsítvány jelszava:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Használjon tesztbizonyítványt"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Időbélyeg hozzáadása"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Töltse ki és írja alá"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Nagyítás"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Szerző:"
-			},
-			"commentSubjectLabel": {
-				"text": "Tantárgy:"
-			},
-			"commentMessageLabel": {
-				"text": "Üzenet:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Megjegyzés állapot használata"
-			},
-			"commentStatusLabel": {
-				"text": "Állapot:"
-			},
-			"None": {
-				"text": "Nem"
-			},
-			"Accepted": {
-				"text": "Elfogadott"
-			},
-			"Completed": {
-				"text": "Befejezve"
-			},
-			"Rejected": {
-				"text": "Elutasítva"
-			},
-			"Cancelled": {
-				"text": "Törölve"
-			},
-			"showStateHistoryLabel": {
-				"text": "Államelőzmények megjelenítése a válaszokban"
-			},
-			"okButton": {
-				"value": "Rendben"
-			},
-			"deleteButton": {
-				"value": "Törlés"
-			},
-			"cancelButton": {
-				"value": "Mégse"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normál"
@@ -682,6 +637,115 @@
 				"value": "Mégse"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Fájl név:"
+			},
+			"fileFormatLabel": {
+				"text": "Fájlformátum:"
+			},
+			"savePagesLabel": {
+				"text": "Oldalak mentése:"
+			},
+			"allPagesOption": {
+				"text": "Minden oldal"
+			},
+			"currentPageOption": {
+				"text": "Aktuális oldal"
+			},
+			"pagesOption": {
+				"text": "Oldalak"
+			},
+			"saveAnnoLabel": {
+				"text": "Megjegyzések mentése"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotációk írása"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Szerző:"
+			},
+			"commentSubjectLabel": {
+				"text": "Tantárgy:"
+			},
+			"commentMessageLabel": {
+				"text": "Üzenet:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Megjegyzés állapot használata"
+			},
+			"commentStatusLabel": {
+				"text": "Állapot:"
+			},
+			"None": {
+				"text": "Nem"
+			},
+			"Accepted": {
+				"text": "Elfogadott"
+			},
+			"Completed": {
+				"text": "Befejezve"
+			},
+			"Rejected": {
+				"text": "Elutasítva"
+			},
+			"Cancelled": {
+				"text": "Törölve"
+			},
+			"showStateHistoryLabel": {
+				"text": "Államelőzmények megjelenítése a válaszokban"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"deleteButton": {
+				"value": "Törlés"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Nézet forgatása az óramutató járásával megegyező irányba"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Nézet elforgatása az óramutató járásával ellentétes irányba"
+		},
+		"copyAnnotationLabel": {
+			"text": "Jegyzet másolása"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Jegyzet beszúrása"
+		},
+		"removeAnnotationLabel": {
+			"text": "Jegyzet törlése"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Küldés vissza"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Előre hozza"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Az összes megjegyzés csoportosítása"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "A megjegyzés csoportosítása"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Megjegyzés hozzáadása a kommentárhoz..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Annotáció tulajdonságai..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Annotáció beállításai",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Megjegyzések mentése",
 		"vsdv-annotationListPanel-pageLabel": "Oldal",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotáció tulajdonságai",
-		"vsdv-annotationCommentSettingsDialog-title": "Szerkessze a kommentár megjegyzését",
-		"vsdv-dialog-okButton": "Rendben",
-		"vsdv-dialog-deleteButton": "Törlés",
-		"vsdv-dialog-cancelButton": "Mégse",
 		"vsdv-documentPasswordDialog-title": "Dokumentum jelszava",
+		"vsdv-dialog-okButton": "Rendben",
+		"vsdv-dialog-cancelButton": "Mégse",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Fájl hitelesítése",
 		"vsdv-imageSelectionDialog-title": "Képek kiválasztása",
 		"vsdv-imageSelectionDialog-currentImageString": "Aktuális kép",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Egyedi",
 		"vsdv-printImagesDialog-title": "Képek nyomtatása",
 		"vsdv-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
 		"vsdv-imageViewerSettingsDialog-title": "A képnézegető beállításai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "A megjegyzésekkel ellátott kép elforgatása",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Az elforgatási szög nem lehet 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "A megjegyzésekkel ellátott kép elforgatása folyamatban van"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "A megjegyzésekkel ellátott kép elforgatása folyamatban van",
+		"vsdv-exportFileSettingsDialog-title": "Fájlbeállítások exportálása",
+		"vsdv-annotationCommentSettingsDialog-title": "Szerkessze a kommentár megjegyzését",
+		"vsdv-dialog-deleteButton": "Törlés"
 	}
 }

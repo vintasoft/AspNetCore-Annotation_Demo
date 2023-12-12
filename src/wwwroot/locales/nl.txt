@@ -151,26 +151,25 @@
 			"title": "Invullen en ondertekenen"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Certificaatbestand:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Certificaatbestand uploaden"
-			},
-			"certificatePasswordLabel": {
-				"text": "Certificaatwachtwoord:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Gebruik testcertificaat"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Wachtwoord:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Het handtekeningcertificaat"
+				},
+				"certificateFileLabel": {
+					"text": "Certificaatbestand:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Certificaatbestand uploaden"
+				},
+				"certificatePasswordLabel": {
+					"text": "Certificaatwachtwoord:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Gebruik testcertificaat"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Tijdstempel toevoegen"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Invullen en ondertekenen"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Inzoomen"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Auteur:"
-			},
-			"commentSubjectLabel": {
-				"text": "Onderwerp:"
-			},
-			"commentMessageLabel": {
-				"text": "Bericht:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Gebruik de reactiestatus"
-			},
-			"commentStatusLabel": {
-				"text": "Toestand:"
-			},
-			"None": {
-				"text": "Nee"
-			},
-			"Accepted": {
-				"text": "Geaccepteerd"
-			},
-			"Completed": {
-				"text": "Voltooid"
-			},
-			"Rejected": {
-				"text": "Afgewezen"
-			},
-			"Cancelled": {
-				"text": "Geannuleerd"
-			},
-			"showStateHistoryLabel": {
-				"text": "Toon statusgeschiedenis in antwoorden"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Verwijderen"
-			},
-			"cancelButton": {
-				"value": "Annuleren"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normaal"
@@ -682,6 +637,115 @@
 				"value": "Annuleren"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Bestandsnaam:"
+			},
+			"fileFormatLabel": {
+				"text": "Bestandsformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Pagina's opslaan:"
+			},
+			"allPagesOption": {
+				"text": "Alle pagina's"
+			},
+			"currentPageOption": {
+				"text": "Huidige pagina"
+			},
+			"pagesOption": {
+				"text": "Pagina's"
+			},
+			"saveAnnoLabel": {
+				"text": "Bewaar annotaties"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotaties branden"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Auteur:"
+			},
+			"commentSubjectLabel": {
+				"text": "Onderwerp:"
+			},
+			"commentMessageLabel": {
+				"text": "Bericht:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Gebruik de reactiestatus"
+			},
+			"commentStatusLabel": {
+				"text": "Toestand:"
+			},
+			"None": {
+				"text": "Nee"
+			},
+			"Accepted": {
+				"text": "Geaccepteerd"
+			},
+			"Completed": {
+				"text": "Voltooid"
+			},
+			"Rejected": {
+				"text": "Afgewezen"
+			},
+			"Cancelled": {
+				"text": "Geannuleerd"
+			},
+			"showStateHistoryLabel": {
+				"text": "Toon statusgeschiedenis in antwoorden"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Verwijderen"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Roteer de weergave met de klok mee"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Draai de weergave tegen de klok in"
+		},
+		"copyAnnotationLabel": {
+			"text": "Annotatie kopiëren"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Annotatie invoegen"
+		},
+		"removeAnnotationLabel": {
+			"text": "Annotatie verwijderen"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Verzenden naar terug"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Naar voren brengen"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Groepeer alle annotaties"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Annotatie degroeperen"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Opmerking toevoegen aan annotatie..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Annotatie-eigenschappen..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Annotatie-instellingen",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Bewaar annotaties",
 		"vsdv-annotationListPanel-pageLabel": "Pagina",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotatie-eigenschappen",
-		"vsdv-annotationCommentSettingsDialog-title": "Bewerk de annotatieopmerking",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Verwijderen",
-		"vsdv-dialog-cancelButton": "Annuleren",
 		"vsdv-documentPasswordDialog-title": "Documentwachtwoord",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Annuleren",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Authenticeer bestand",
 		"vsdv-imageSelectionDialog-title": "Selecteer afbeeldingen",
 		"vsdv-imageSelectionDialog-currentImageString": "Huidige afbeelding",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Aangepast",
 		"vsdv-printImagesDialog-title": "Afbeeldingen afdrukken",
 		"vsdv-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "met annotaties",
 		"vsdv-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Geannoteerde afbeelding roteren",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotatiehoek mag niet 0 zijn.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd",
+		"vsdv-exportFileSettingsDialog-title": "Bestandsinstellingen exporteren",
+		"vsdv-annotationCommentSettingsDialog-title": "Bewerk de annotatieopmerking",
+		"vsdv-dialog-deleteButton": "Verwijderen"
 	}
 }

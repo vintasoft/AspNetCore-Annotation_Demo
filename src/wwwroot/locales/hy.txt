@@ -100,7 +100,7 @@
 			"title": "Եռանկյուն"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Փոխազդեցության ռեժիմ «Հեղինակ»"
+			"title": "Փոխազդեցության ռեժիմ 'Հեղինակ'"
 		},
 		"copyAnnotationButton": {
 			"title": "Պատճենել կենտրոնացված ծանոթագրությունը"
@@ -151,26 +151,25 @@
 			"title": "Լրացրեք և ստորագրեք"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Վկայագրի ֆայլ."
-			},
-			"uploadCertificateFileButton": {
-				"title": "Վերբեռնեք վկայագրի ֆայլը"
-			},
-			"certificatePasswordLabel": {
-				"text": "Վկայագրի գաղտնաբառը."
-			},
-			"useTestCertificateLabel": {
-				"text": "Օգտագործեք թեստի վկայական"
-			},
-			"serverLabel": {
-				"text": "Սերվեր:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Գաղտնաբառ:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Ստորագրության վկայականը"
+				},
+				"certificateFileLabel": {
+					"text": "Վկայագրի ֆայլ."
+				},
+				"uploadCertificateFileButton": {
+					"title": "Վերբեռնեք վկայագրի ֆայլը"
+				},
+				"certificatePasswordLabel": {
+					"text": "Վկայագրի գաղտնաբառը."
+				},
+				"useTestCertificateLabel": {
+					"text": "Օգտագործեք թեստի վկայական"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Ավելացնել ժամանակի դրոշմ"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Լրացրեք և ստորագրեք"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Խոշորացնել. մոտեցնել"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Հեղինակ:"
-			},
-			"commentSubjectLabel": {
-				"text": "Առարկա:"
-			},
-			"commentMessageLabel": {
-				"text": "Հաղորդագրություն:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Օգտագործեք մեկնաբանության կարգավիճակը"
-			},
-			"commentStatusLabel": {
-				"text": "Կարգավիճակը:"
-			},
-			"None": {
-				"text": "Ոչ ոք"
-			},
-			"Accepted": {
-				"text": "Ընդունված է"
-			},
-			"Completed": {
-				"text": "Ավարտված"
-			},
-			"Rejected": {
-				"text": "Մերժված է"
-			},
-			"Cancelled": {
-				"text": "Չեղարկված է"
-			},
-			"showStateHistoryLabel": {
-				"text": "Պատասխաններում ցույց տվեք պետության պատմությունը"
-			},
-			"okButton": {
-				"value": "լավ"
-			},
-			"deleteButton": {
-				"value": "Ջնջել"
-			},
-			"cancelButton": {
-				"value": "Չեղարկել"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Նորմալ"
@@ -296,10 +251,10 @@
 			"title": "նշագծել"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Փոխազդեցության ռեժիմ «Ոչ մի»"
+			"title": "Փոխազդեցության ռեժիմ 'Ոչ մի'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Փոխազդեցության ռեժիմ «Դիտել»"
+			"title": "Փոխազդեցության ռեժիմ 'Դիտել'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Փոխազդեցության փոքր կետեր"
@@ -682,6 +637,115 @@
 				"value": "Չեղարկել"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ֆայլի անունը."
+			},
+			"fileFormatLabel": {
+				"text": "Ֆայլի ձևաչափ."
+			},
+			"savePagesLabel": {
+				"text": "Պահպանել էջերը."
+			},
+			"allPagesOption": {
+				"text": "Բոլոր էջերը"
+			},
+			"currentPageOption": {
+				"text": "Ընթացիկ էջ"
+			},
+			"pagesOption": {
+				"text": "Էջեր"
+			},
+			"saveAnnoLabel": {
+				"text": "Պահպանեք ծանոթագրությունները"
+			},
+			"burnAnnoLabel": {
+				"text": "Այրել ծանոթագրությունները"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Հեղինակ:"
+			},
+			"commentSubjectLabel": {
+				"text": "Առարկա:"
+			},
+			"commentMessageLabel": {
+				"text": "Հաղորդագրություն:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Օգտագործեք մեկնաբանության կարգավիճակը"
+			},
+			"commentStatusLabel": {
+				"text": "Կարգավիճակը:"
+			},
+			"None": {
+				"text": "Ոչ ոք"
+			},
+			"Accepted": {
+				"text": "Ընդունված է"
+			},
+			"Completed": {
+				"text": "Ավարտված"
+			},
+			"Rejected": {
+				"text": "Մերժված է"
+			},
+			"Cancelled": {
+				"text": "Չեղարկված է"
+			},
+			"showStateHistoryLabel": {
+				"text": "Պատասխաններում ցույց տվեք պետության պատմությունը"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"deleteButton": {
+				"value": "Ջնջել"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Պտտեցնել դիտումը ժամացույցի սլաքի ուղղությամբ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Պտտեցնել տեսքը ժամացույցի սլաքի հակառակ ուղղությամբ"
+		},
+		"copyAnnotationLabel": {
+			"text": "Պատճենել ծանոթագրությունը"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Կպցնել անոտացիա"
+		},
+		"removeAnnotationLabel": {
+			"text": "Հեռացնել ծանոթագրությունը"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Հետ բերել"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Առաջ բերել"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Խմբավորել բոլոր ծանոթագրությունները"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Ապախմբավորել ծանոթագրությունը"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Ավելացնել մեկնաբանություն անոտացիային..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Անոտացիայի հատկությունները..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Անոտացիայի կարգավորումներ",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Պահպանեք ծանոթագրությունները",
 		"vsdv-annotationListPanel-pageLabel": "Էջ",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Անոտացիայի հատկություններ",
-		"vsdv-annotationCommentSettingsDialog-title": "Խմբագրել անոտացիայի մեկնաբանությունը",
-		"vsdv-dialog-okButton": "լավ",
-		"vsdv-dialog-deleteButton": "Ջնջել",
-		"vsdv-dialog-cancelButton": "Չեղարկել",
 		"vsdv-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",
+		"vsdv-dialog-okButton": "լավ",
+		"vsdv-dialog-cancelButton": "Չեղարկել",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Նույնականացնել ֆայլը",
 		"vsdv-imageSelectionDialog-title": "Ընտրեք պատկերներ",
 		"vsdv-imageSelectionDialog-currentImageString": "Ընթացիկ պատկեր",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
 		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
 		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Պտտեցնել պատկերը ծանոթագրություններով",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Պտտման անկյունը պետք է լինի զրոյից ավելի:",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Պտտվող պատկեր՝ ծանոթագրություններով"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Պտտվող պատկեր՝ ծանոթագրություններով",
+		"vsdv-exportFileSettingsDialog-title": "Արտահանել ֆայլի կարգավորումները",
+		"vsdv-annotationCommentSettingsDialog-title": "Խմբագրել անոտացիայի մեկնաբանությունը",
+		"vsdv-dialog-deleteButton": "Ջնջել"
 	}
 }

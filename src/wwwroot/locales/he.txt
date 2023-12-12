@@ -151,26 +151,25 @@
 			"title": "ממלאים וחותמים"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "קובץ תעודה:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "העלה קובץ אישור"
-			},
-			"certificatePasswordLabel": {
-				"text": "סיסמת אישור:"
-			},
-			"useTestCertificateLabel": {
-				"text": "השתמש בתעודת מבחן"
-			},
-			"serverLabel": {
-				"text": "שרת:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "סיסמה:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "תעודת החתימה"
+				},
+				"certificateFileLabel": {
+					"text": "קובץ תעודה:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "העלה קובץ אישור"
+				},
+				"certificatePasswordLabel": {
+					"text": "סיסמת אישור:"
+				},
+				"useTestCertificateLabel": {
+					"text": "השתמש בתעודת מבחן"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "הוסף חותמת זמן"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "מלא וחתום"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "התקרב"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "מְחַבֵּר:"
-			},
-			"commentSubjectLabel": {
-				"text": "נושא:"
-			},
-			"commentMessageLabel": {
-				"text": "הוֹדָעָה:"
-			},
-			"useCommentStatusLabel": {
-				"text": "השתמש בסטטוס תגובה"
-			},
-			"commentStatusLabel": {
-				"text": "סטָטוּס:"
-			},
-			"None": {
-				"text": "לא"
-			},
-			"Accepted": {
-				"text": "מְקוּבָּל"
-			},
-			"Completed": {
-				"text": "הושלם"
-			},
-			"Rejected": {
-				"text": "נִדחֶה"
-			},
-			"Cancelled": {
-				"text": "מבוטל"
-			},
-			"showStateHistoryLabel": {
-				"text": "הצג היסטוריית מדינה בתשובות"
-			},
-			"okButton": {
-				"value": "בסדר"
-			},
-			"deleteButton": {
-				"value": "מחק"
-			},
-			"cancelButton": {
-				"value": "בטל"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "רגיל"
@@ -682,6 +637,115 @@
 				"value": "בטל"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "שם קובץ:"
+			},
+			"fileFormatLabel": {
+				"text": "פורמט קובץ:"
+			},
+			"savePagesLabel": {
+				"text": "שמור דפים:"
+			},
+			"allPagesOption": {
+				"text": "כל הדפים"
+			},
+			"currentPageOption": {
+				"text": "דף נוכחי"
+			},
+			"pagesOption": {
+				"text": "דפים"
+			},
+			"saveAnnoLabel": {
+				"text": "שמור הערות"
+			},
+			"burnAnnoLabel": {
+				"text": "צריבת הערות"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "מְחַבֵּר:"
+			},
+			"commentSubjectLabel": {
+				"text": "נושא:"
+			},
+			"commentMessageLabel": {
+				"text": "הוֹדָעָה:"
+			},
+			"useCommentStatusLabel": {
+				"text": "השתמש בסטטוס תגובה"
+			},
+			"commentStatusLabel": {
+				"text": "סטָטוּס:"
+			},
+			"None": {
+				"text": "לא"
+			},
+			"Accepted": {
+				"text": "מְקוּבָּל"
+			},
+			"Completed": {
+				"text": "הושלם"
+			},
+			"Rejected": {
+				"text": "נִדחֶה"
+			},
+			"Cancelled": {
+				"text": "מבוטל"
+			},
+			"showStateHistoryLabel": {
+				"text": "הצג היסטוריית מדינה בתשובות"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"deleteButton": {
+				"value": "מחק"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "סובב את התצוגה בכיוון השעון"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "סובב את התצוגה נגד כיוון השעון"
+		},
+		"copyAnnotationLabel": {
+			"text": "העתק הערה"
+		},
+		"pasteAnnotationLabel": {
+			"text": "הוסף הערה"
+		},
+		"removeAnnotationLabel": {
+			"text": "מחק הערה"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "שלח לגב"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "הבא לחזית"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "קבץ את כל ההערות"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "בטל קבוצה של הערות"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "הוסף תגובה להערה..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "מאפייני הערות..."
+		},
 		"annotationSettingsDialog": {
 			"title": "הגדרות הערות",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "שמור הערות",
 		"vsdv-annotationListPanel-pageLabel": "דף",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "מאפייני הערה",
-		"vsdv-annotationCommentSettingsDialog-title": "ערוך את הערת ההערה",
-		"vsdv-dialog-okButton": "בסדר",
-		"vsdv-dialog-deleteButton": "מחק",
-		"vsdv-dialog-cancelButton": "בטל",
 		"vsdv-documentPasswordDialog-title": "סיסמת מסמך",
+		"vsdv-dialog-okButton": "בסדר",
+		"vsdv-dialog-cancelButton": "בטל",
 		"vsdv-documentPasswordPanel-authenticateFileString": "אימות קובץ",
 		"vsdv-imageSelectionDialog-title": "בחר תמונות",
 		"vsdv-imageSelectionDialog-currentImageString": "תמונה נוכחית",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "מותאם אישית",
 		"vsdv-printImagesDialog-title": "הדפס תמונות",
 		"vsdv-printImagesPanel-imagePrintingString": "התמונה מודפסת",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "עם הערות",
 		"vsdv-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
 		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "סובב תמונה מוערת",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "זווית הסיבוב לא יכולה להיות 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות",
+		"vsdv-exportFileSettingsDialog-title": "ייצוא הגדרות קובץ",
+		"vsdv-annotationCommentSettingsDialog-title": "ערוך את הערת ההערה",
+		"vsdv-dialog-deleteButton": "מחק"
 	}
 }

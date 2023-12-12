@@ -151,26 +151,25 @@
 			"title": "Συμπληρώστε και υπογράψτε"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Αρχείο πιστοποιητικού:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Μεταφόρτωση αρχείου πιστοποιητικού"
-			},
-			"certificatePasswordLabel": {
-				"text": "Κωδικός πρόσβασης πιστοποιητικού:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Χρησιμοποιήστε πιστοποιητικό δοκιμής"
-			},
-			"serverLabel": {
-				"text": "Υπηρέτης:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Κωδικός πρόσβασης:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Το πιστοποιητικό υπογραφής"
+				},
+				"certificateFileLabel": {
+					"text": "Αρχείο πιστοποιητικού:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Μεταφόρτωση αρχείου πιστοποιητικού"
+				},
+				"certificatePasswordLabel": {
+					"text": "Κωδικός πρόσβασης πιστοποιητικού:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Χρησιμοποιήστε πιστοποιητικό δοκιμής"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Προσθήκη χρονικής σφραγίδας"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Συμπληρώστε και υπογράψτε"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Μεγέθυνση"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Συγγραφέας:"
-			},
-			"commentSubjectLabel": {
-				"text": "Θέμα:"
-			},
-			"commentMessageLabel": {
-				"text": "Μήνυμα:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Χρησιμοποιήστε την κατάσταση σχολίου"
-			},
-			"commentStatusLabel": {
-				"text": "Κατάσταση:"
-			},
-			"None": {
-				"text": "Όχι"
-			},
-			"Accepted": {
-				"text": "Αποδεκτό"
-			},
-			"Completed": {
-				"text": "Ολοκληρώθηκε το"
-			},
-			"Rejected": {
-				"text": "Απορρίφθηκε"
-			},
-			"Cancelled": {
-				"text": "Ακυρώθηκε"
-			},
-			"showStateHistoryLabel": {
-				"text": "Εμφάνιση ιστορικού κράτους στις απαντήσεις"
-			},
-			"okButton": {
-				"value": "ΟΚ"
-			},
-			"deleteButton": {
-				"value": "Διαγραφή"
-			},
-			"cancelButton": {
-				"value": "Ακύρωση"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Κανονικό"
@@ -682,6 +637,115 @@
 				"value": "Ακύρωση"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ονομα αρχείου:"
+			},
+			"fileFormatLabel": {
+				"text": "Μορφή αρχείου:"
+			},
+			"savePagesLabel": {
+				"text": "Αποθήκευση σελίδων:"
+			},
+			"allPagesOption": {
+				"text": "Όλες οι σελίδες"
+			},
+			"currentPageOption": {
+				"text": "Τρέχουσα σελίδα"
+			},
+			"pagesOption": {
+				"text": "Σελίδες"
+			},
+			"saveAnnoLabel": {
+				"text": "Αποθήκευση σχολιασμών"
+			},
+			"burnAnnoLabel": {
+				"text": "Κάψτε σχολιασμούς"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Συγγραφέας:"
+			},
+			"commentSubjectLabel": {
+				"text": "Θέμα:"
+			},
+			"commentMessageLabel": {
+				"text": "Μήνυμα:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Χρησιμοποιήστε την κατάσταση σχολίου"
+			},
+			"commentStatusLabel": {
+				"text": "Κατάσταση:"
+			},
+			"None": {
+				"text": "Όχι"
+			},
+			"Accepted": {
+				"text": "Αποδεκτό"
+			},
+			"Completed": {
+				"text": "Ολοκληρώθηκε το"
+			},
+			"Rejected": {
+				"text": "Απορρίφθηκε"
+			},
+			"Cancelled": {
+				"text": "Ακυρώθηκε"
+			},
+			"showStateHistoryLabel": {
+				"text": "Εμφάνιση ιστορικού κράτους στις απαντήσεις"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"deleteButton": {
+				"value": "Διαγραφή"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Περιστρέψτε την προβολή δεξιόστροφα"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Περιστρέψτε την προβολή αριστερόστροφα"
+		},
+		"copyAnnotationLabel": {
+			"text": "Αντιγραφή σχολιασμού"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Εισαγωγή σχολιασμού"
+		},
+		"removeAnnotationLabel": {
+			"text": "Διαγραφή σχολιασμού"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Αποστολή στην Πίσω"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Μεταφορά στο μπροστινό μέρος"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Ομαδοποιήστε όλους τους σχολιασμούς"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Κατάργηση ομαδοποίησης σχολιασμού"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Προσθήκη σχολίου στον σχολιασμό..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Ιδιότητες σχολιασμού..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Ρυθμίσεις σχολιασμού",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Αποθήκευση σχολιασμών",
 		"vsdv-annotationListPanel-pageLabel": "Σελίδα",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Ιδιότητες σχολιασμού",
-		"vsdv-annotationCommentSettingsDialog-title": "Επεξεργαστείτε το σχόλιο του σχολιασμού",
-		"vsdv-dialog-okButton": "ΟΚ",
-		"vsdv-dialog-deleteButton": "Διαγραφή",
-		"vsdv-dialog-cancelButton": "Ακύρωση",
 		"vsdv-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
+		"vsdv-dialog-okButton": "ΟΚ",
+		"vsdv-dialog-cancelButton": "Ακύρωση",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
 		"vsdv-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
 		"vsdv-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
 		"vsdv-printImagesDialog-title": "Εκτύπωση εικόνων",
 		"vsdv-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
 		"vsdv-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
 		"vsdv-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Περιστροφή σχολιασμένης εικόνας",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Η γωνία περιστροφής δεν πρέπει να είναι 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται",
+		"vsdv-exportFileSettingsDialog-title": "Εξαγωγή ρυθμίσεων αρχείου",
+		"vsdv-annotationCommentSettingsDialog-title": "Επεξεργαστείτε το σχόλιο του σχολιασμού",
+		"vsdv-dialog-deleteButton": "Διαγραφή"
 	}
 }

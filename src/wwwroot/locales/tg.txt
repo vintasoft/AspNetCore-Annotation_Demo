@@ -151,26 +151,25 @@
 			"title": "Пур кунед ва имзо кунед"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Файли шаҳодатнома:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Файли сертификатро бор кунед"
-			},
-			"certificatePasswordLabel": {
-				"text": "Пароли сертификат:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Шаҳодатномаи санҷишро истифода баред"
-			},
-			"serverLabel": {
-				"text": "Сервер:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Рамз:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Шаҳодатномаи имзо"
+				},
+				"certificateFileLabel": {
+					"text": "Файли шаҳодатнома:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Файли сертификатро бор кунед"
+				},
+				"certificatePasswordLabel": {
+					"text": "Пароли сертификат:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Шаҳодатномаи санҷишро истифода баред"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Тамғаи вақтро илова кунед"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Пур кунед ва имзо кунед"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Масштаб кардан"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Муаллиф:"
-			},
-			"commentSubjectLabel": {
-				"text": "Мавзӯъ:"
-			},
-			"commentMessageLabel": {
-				"text": "Паём:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Ҳолати шарҳро истифода баред"
-			},
-			"commentStatusLabel": {
-				"text": "Статус:"
-			},
-			"None": {
-				"text": "Ҳеҷ"
-			},
-			"Accepted": {
-				"text": "Қабул карда шудааст"
-			},
-			"Completed": {
-				"text": "Ба итмом расид"
-			},
-			"Rejected": {
-				"text": "Рад карда шуд"
-			},
-			"Cancelled": {
-				"text": "Бекор карда шуд"
-			},
-			"showStateHistoryLabel": {
-				"text": "Дар ҷавобҳо таърихи давлатро нишон диҳед"
-			},
-			"okButton": {
-				"value": "ДУРУСТ"
-			},
-			"deleteButton": {
-				"value": "Нобуд кунед"
-			},
-			"cancelButton": {
-				"value": "Бекор кардан"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Муқаррарӣ"
@@ -682,6 +637,115 @@
 				"value": "Бекор кардан"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Номи парванда:"
+			},
+			"fileFormatLabel": {
+				"text": "Формати файл:"
+			},
+			"savePagesLabel": {
+				"text": "Саҳифаҳоро захира кунед:"
+			},
+			"allPagesOption": {
+				"text": "Ҳама саҳифаҳо"
+			},
+			"currentPageOption": {
+				"text": "Саҳифаи ҷорӣ"
+			},
+			"pagesOption": {
+				"text": "Саҳифаҳо"
+			},
+			"saveAnnoLabel": {
+				"text": "Эзоҳҳоро захира кунед"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияҳоро сӯзондан"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Муаллиф:"
+			},
+			"commentSubjectLabel": {
+				"text": "Мавзӯъ:"
+			},
+			"commentMessageLabel": {
+				"text": "Паём:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Ҳолати шарҳро истифода баред"
+			},
+			"commentStatusLabel": {
+				"text": "Статус:"
+			},
+			"None": {
+				"text": "Ҳеҷ"
+			},
+			"Accepted": {
+				"text": "Қабул карда шудааст"
+			},
+			"Completed": {
+				"text": "Ба итмом расид"
+			},
+			"Rejected": {
+				"text": "Рад карда шуд"
+			},
+			"Cancelled": {
+				"text": "Бекор карда шуд"
+			},
+			"showStateHistoryLabel": {
+				"text": "Дар ҷавобҳо таърихи давлатро нишон диҳед"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"deleteButton": {
+				"value": "Нобуд кунед"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Намоишро бо ақрабаки соат гардонед"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Намоишро ба муқобили ақрабаки соат гардонед"
+		},
+		"copyAnnotationLabel": {
+			"text": "Аннотацияро нусхабардорӣ кунед"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Аннотацияро часбонед"
+		},
+		"removeAnnotationLabel": {
+			"text": "Аннотацияро хориҷ кунед"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Ба пас оваред"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Ба пеш оваред"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Ҳама эзоҳҳоро гурӯҳбандӣ кунед"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Аннотацияро ҷудо кунед"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Илова кардани шарҳ ба эзоҳ..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Хусусиятҳои эзоҳ..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Танзимоти эзоҳ",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Эзоҳҳоро захира кунед",
 		"vsdv-annotationListPanel-pageLabel": "Саҳифа",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Хусусиятҳои эзоҳ",
-		"vsdv-annotationCommentSettingsDialog-title": "Тафсири эзоҳро таҳрир кунед",
-		"vsdv-dialog-okButton": "ДУРУСТ",
-		"vsdv-dialog-deleteButton": "Нобуд кунед",
-		"vsdv-dialog-cancelButton": "Бекор кардан",
 		"vsdv-documentPasswordDialog-title": "Пароли ҳуҷҷат",
+		"vsdv-dialog-okButton": "ДУРУСТ",
+		"vsdv-dialog-cancelButton": "Бекор кардан",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
 		"vsdv-imageSelectionDialog-title": "Тасвирҳоро интихоб кунед",
 		"vsdv-imageSelectionDialog-currentImageString": "Тасвири ҷорӣ",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
 		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
 		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
 		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Тасвирро бо эзоҳҳо гардиш кунед",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кунҷи гардиш бояд аз сифр зиёд бошад.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Тасвирро даврзананда бо эзоҳҳо"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Тасвирро даврзананда бо эзоҳҳо",
+		"vsdv-exportFileSettingsDialog-title": "Танзимоти файлро содир кунед",
+		"vsdv-annotationCommentSettingsDialog-title": "Тафсири эзоҳро таҳрир кунед",
+		"vsdv-dialog-deleteButton": "Нобуд кунед"
 	}
 }

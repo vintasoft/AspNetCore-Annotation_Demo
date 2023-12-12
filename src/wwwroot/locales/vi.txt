@@ -151,26 +151,25 @@
 			"title": "Điền và ký"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Tệp chứng chỉ:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Tải lên tệp Chứng chỉ"
-			},
-			"certificatePasswordLabel": {
-				"text": "Mật khẩu chứng chỉ:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Sử dụng chứng chỉ kiểm tra"
-			},
-			"serverLabel": {
-				"text": "Máy chủ:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Mật khẩu:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Giấy chứng nhận chữ ký"
+				},
+				"certificateFileLabel": {
+					"text": "Tệp chứng chỉ:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Tải lên tệp Chứng chỉ"
+				},
+				"certificatePasswordLabel": {
+					"text": "Mật khẩu chứng chỉ:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Sử dụng chứng chỉ kiểm tra"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Thêm dấu thời gian"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Điền và ký"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Phóng to"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Tác giả:"
-			},
-			"commentSubjectLabel": {
-				"text": "Chủ thể:"
-			},
-			"commentMessageLabel": {
-				"text": "Tin nhắn:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Sử dụng trạng thái bình luận"
-			},
-			"commentStatusLabel": {
-				"text": "Trạng thái:"
-			},
-			"None": {
-				"text": "Không"
-			},
-			"Accepted": {
-				"text": "Đã được chấp nhận"
-			},
-			"Completed": {
-				"text": "Hoàn thành"
-			},
-			"Rejected": {
-				"text": "Vật bị loại bỏ"
-			},
-			"Cancelled": {
-				"text": "Đã hủy"
-			},
-			"showStateHistoryLabel": {
-				"text": "Hiển thị Lịch sử Bang trong câu trả lời"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Xóa"
-			},
-			"cancelButton": {
-				"value": "Hủy"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Bình thường"
@@ -682,6 +637,115 @@
 				"value": "Hủy"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Tên tập tin:"
+			},
+			"fileFormatLabel": {
+				"text": "Định dạng tập tin:"
+			},
+			"savePagesLabel": {
+				"text": "Lưu các trang:"
+			},
+			"allPagesOption": {
+				"text": "Tất cả các trang"
+			},
+			"currentPageOption": {
+				"text": "Trang hiện tại"
+			},
+			"pagesOption": {
+				"text": "Trang"
+			},
+			"saveAnnoLabel": {
+				"text": "Lưu chú thích"
+			},
+			"burnAnnoLabel": {
+				"text": "Ghi chú thích"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Tác giả:"
+			},
+			"commentSubjectLabel": {
+				"text": "Chủ thể:"
+			},
+			"commentMessageLabel": {
+				"text": "Tin nhắn:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Sử dụng trạng thái bình luận"
+			},
+			"commentStatusLabel": {
+				"text": "Trạng thái:"
+			},
+			"None": {
+				"text": "Không"
+			},
+			"Accepted": {
+				"text": "Đã được chấp nhận"
+			},
+			"Completed": {
+				"text": "Hoàn thành"
+			},
+			"Rejected": {
+				"text": "Vật bị loại bỏ"
+			},
+			"Cancelled": {
+				"text": "Đã hủy"
+			},
+			"showStateHistoryLabel": {
+				"text": "Hiển thị Lịch sử Bang trong câu trả lời"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Xóa"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Xoay chế độ xem theo chiều kim đồng hồ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Xoay chế độ xem ngược chiều kim đồng hồ"
+		},
+		"copyAnnotationLabel": {
+			"text": "Sao chép Chú thích"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Chèn chú thích"
+		},
+		"removeAnnotationLabel": {
+			"text": "Xóa chú thích"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Gửi lại"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Đưa lên phía trước"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Nhóm tất cả các chú thích"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Hủy nhóm chú thích"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Thêm nhận xét vào chú thích..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Thuộc tính chú thích..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Cài đặt chú thích",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Lưu chú thích",
 		"vsdv-annotationListPanel-pageLabel": "Trang",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Thuộc tính chú thích",
-		"vsdv-annotationCommentSettingsDialog-title": "Chỉnh sửa chú thích bình luận",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Xóa",
-		"vsdv-dialog-cancelButton": "Hủy",
 		"vsdv-documentPasswordDialog-title": "Mật khẩu tài liệu",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Hủy",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Xác thực tập tin",
 		"vsdv-imageSelectionDialog-title": "Chọn hình ảnh",
 		"vsdv-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Tùy chỉnh",
 		"vsdv-printImagesDialog-title": "In ảnh",
 		"vsdv-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "có chú thích",
 		"vsdv-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
 		"vsdv-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Xoay hình ảnh được chú thích",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Góc xoay không được bằng 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Hình ảnh được chú thích đang được xoay"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Hình ảnh được chú thích đang được xoay",
+		"vsdv-exportFileSettingsDialog-title": "Xuất cài đặt tập tin",
+		"vsdv-annotationCommentSettingsDialog-title": "Chỉnh sửa chú thích bình luận",
+		"vsdv-dialog-deleteButton": "Xóa"
 	}
 }

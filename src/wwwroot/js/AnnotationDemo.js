@@ -392,10 +392,10 @@ function __annotationCommentListPanel_commentSettingsDialogShown(event, eventArg
     // get document viewer
     var documentViewer = annotationCommentListPanel.get_RootControl();
 
-    // get comment
-    var comment = eventArgs.comment;
     // get dialog
     var dialog = eventArgs.dialog;
+    // get comment
+    var comment = dialog.get_Comment();
 
     // if comment user name and current user name are different
     if (comment.get_UserName() != documentViewer.get_CurrentUser()) {
@@ -500,6 +500,20 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var rotateImageWithAnnotationsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebRotateImageWithAnnotationsDialogJS();
     rotateImageWithAnnotationsDialog.render(floatingContainer);
     tempDialogs.push(rotateImageWithAnnotationsDialog);
+
+    var exportFileSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebExportFileSettingsDialogJS();
+    exportFileSettingsDialog.render(floatingContainer);
+    tempDialogs.push(exportFileSettingsDialog);
+    
+    var annotationCommentSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiAnnotationCommentSettingsDialogJS();
+    annotationCommentSettingsDialog.render(floatingContainer);
+    tempDialogs.push(annotationCommentSettingsDialog);
+
+
+    // create context menu panel
+    var contextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebAnnotationViewerContextMenuJS();
+    contextMenu.render(floatingContainer);
+    tempDialogs.push(contextMenu);
 }
 
 /**
@@ -544,6 +558,11 @@ function __enableUiLocalization() {
 
     // subscribe to the "dialogShown" event of document viewer
     Vintasoft.Shared.subscribeToEvent(_docViewer, "dialogShown", function (event, data) {
+        _localizer.localizeDocument();
+    });
+
+    // subscribe to the "contextMenuShown" event of document viewer
+    Vintasoft.Shared.subscribeToEvent(_docViewer, "contextMenuShown", function (event, data) {
         _localizer.localizeDocument();
     });
 }

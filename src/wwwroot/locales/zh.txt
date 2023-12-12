@@ -100,7 +100,7 @@
 			"title": "三角形"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "交互模式“作者”"
+			"title": "交互模式'作者'"
 		},
 		"copyAnnotationButton": {
 			"title": "复制焦点注释"
@@ -151,26 +151,25 @@
 			"title": "填写并签字"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "证书文件："
-			},
-			"uploadCertificateFileButton": {
-				"title": "上传证书文件"
-			},
-			"certificatePasswordLabel": {
-				"text": "证书密码："
-			},
-			"useTestCertificateLabel": {
-				"text": "使用测试证书"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "密码："
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "签名证书"
+				},
+				"certificateFileLabel": {
+					"text": "证书文件："
+				},
+				"uploadCertificateFileButton": {
+					"title": "上传证书文件"
+				},
+				"certificatePasswordLabel": {
+					"text": "证书密码："
+				},
+				"useTestCertificateLabel": {
+					"text": "使用测试证书"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "添加时间戳"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "填写并签名"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "放大"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "作者："
-			},
-			"commentSubjectLabel": {
-				"text": "主题："
-			},
-			"commentMessageLabel": {
-				"text": "信息："
-			},
-			"useCommentStatusLabel": {
-				"text": "使用评论状态"
-			},
-			"commentStatusLabel": {
-				"text": "地位："
-			},
-			"None": {
-				"text": "没有任何"
-			},
-			"Accepted": {
-				"text": "公认"
-			},
-			"Completed": {
-				"text": "完全的"
-			},
-			"Rejected": {
-				"text": "拒绝"
-			},
-			"Cancelled": {
-				"text": "取消"
-			},
-			"showStateHistoryLabel": {
-				"text": "在回复中显示状态历史记录"
-			},
-			"okButton": {
-				"value": "好的"
-			},
-			"deleteButton": {
-				"value": "删除"
-			},
-			"cancelButton": {
-				"value": "取消"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "普通的"
@@ -296,10 +251,10 @@
 			"title": "标记"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "交互模式“无”"
+			"title": "交互模式'无'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "交互模式“查看”"
+			"title": "交互模式'查看'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "小互动点"
@@ -682,6 +637,115 @@
 				"value": "取消"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "文件名："
+			},
+			"fileFormatLabel": {
+				"text": "文件格式："
+			},
+			"savePagesLabel": {
+				"text": "保存页面："
+			},
+			"allPagesOption": {
+				"text": "所有页面"
+			},
+			"currentPageOption": {
+				"text": "当前页面"
+			},
+			"pagesOption": {
+				"text": "页数"
+			},
+			"saveAnnoLabel": {
+				"text": "保存注释"
+			},
+			"burnAnnoLabel": {
+				"text": "刻录注释"
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "作者："
+			},
+			"commentSubjectLabel": {
+				"text": "主题："
+			},
+			"commentMessageLabel": {
+				"text": "信息："
+			},
+			"useCommentStatusLabel": {
+				"text": "使用评论状态"
+			},
+			"commentStatusLabel": {
+				"text": "地位："
+			},
+			"None": {
+				"text": "没有任何"
+			},
+			"Accepted": {
+				"text": "公认"
+			},
+			"Completed": {
+				"text": "完全的"
+			},
+			"Rejected": {
+				"text": "拒绝"
+			},
+			"Cancelled": {
+				"text": "取消"
+			},
+			"showStateHistoryLabel": {
+				"text": "在回复中显示状态历史记录"
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"deleteButton": {
+				"value": "删除"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "顺时针旋转视图"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "逆时针旋转视图"
+		},
+		"copyAnnotationLabel": {
+			"text": "复制注释"
+		},
+		"pasteAnnotationLabel": {
+			"text": "粘贴注释"
+		},
+		"removeAnnotationLabel": {
+			"text": "删除注释"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "带到后面"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "带到前面"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "将所有注释分组"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "取消注释分组"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "添加注释到注释..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "注释属性..."
+		},
 		"annotationSettingsDialog": {
 			"title": "注释设置",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "保存注释",
 		"vsdv-annotationListPanel-pageLabel": "页",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "注释属性",
-		"vsdv-annotationCommentSettingsDialog-title": "编辑注释注释",
-		"vsdv-dialog-okButton": "好的",
-		"vsdv-dialog-deleteButton": "删除",
-		"vsdv-dialog-cancelButton": "取消",
 		"vsdv-documentPasswordDialog-title": "文档密码",
+		"vsdv-dialog-okButton": "好的",
+		"vsdv-dialog-cancelButton": "取消",
 		"vsdv-documentPasswordPanel-authenticateFileString": "验证文件",
 		"vsdv-imageSelectionDialog-title": "选择图像",
 		"vsdv-imageSelectionDialog-currentImageString": "当前图像",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "风俗",
 		"vsdv-printImagesDialog-title": "打印图像",
 		"vsdv-printImagesPanel-imagePrintingString": "图像正在打印",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "带注释",
 		"vsdv-imageViewerSettingsDialog-title": "图像查看器设置",
 		"vsdv-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "旋转带有注释的图像",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "旋转角度应大于零。",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "带注释旋转图像"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "带注释旋转图像",
+		"vsdv-exportFileSettingsDialog-title": "导出文件设置",
+		"vsdv-annotationCommentSettingsDialog-title": "编辑注释注释",
+		"vsdv-dialog-deleteButton": "删除"
 	}
 }

@@ -100,7 +100,7 @@
 			"title": "Трохвугольнік"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Рэжым узаемадзеяння "Аўтар""
+			"title": "Рэжым узаемадзеяння 'Аўтар'"
 		},
 		"copyAnnotationButton": {
 			"title": "Скапіруйце сфакусаваную анатацыю"
@@ -151,26 +151,25 @@
 			"title": "Запоўніце і падпішыце"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Файл сертыфіката:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Загрузіць файл сертыфіката"
-			},
-			"certificatePasswordLabel": {
-				"text": "Пароль сертыфіката:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Выкарыстоўвайце тэставы сертыфікат"
-			},
-			"serverLabel": {
-				"text": "Сервер:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Пароль:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Сертыфікат подпісы"
+				},
+				"certificateFileLabel": {
+					"text": "Файл сертыфіката:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Загрузіць файл сертыфіката"
+				},
+				"certificatePasswordLabel": {
+					"text": "Пароль сертыфіката:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Выкарыстоўвайце тэставы сертыфікат"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Дадаць пазнаку часу"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Запоўніце і падпішыце"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Павялічыць"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Аўтар:"
-			},
-			"commentSubjectLabel": {
-				"text": "Тэма:"
-			},
-			"commentMessageLabel": {
-				"text": "паведамленне:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Выкарыстоўвайце статус каментара"
-			},
-			"commentStatusLabel": {
-				"text": "Статус:"
-			},
-			"None": {
-				"text": "Няма"
-			},
-			"Accepted": {
-				"text": "Прынята"
-			},
-			"Completed": {
-				"text": "Завершана"
-			},
-			"Rejected": {
-				"text": "Адхілена"
-			},
-			"Cancelled": {
-				"text": "Адменена"
-			},
-			"showStateHistoryLabel": {
-				"text": "Паказваць гісторыю дзяржавы ў адказах"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"deleteButton": {
-				"value": "Выдаліць"
-			},
-			"cancelButton": {
-				"value": "Адмяніць"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Нармальны"
@@ -296,10 +251,10 @@
 			"title": "Марк"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Рэжым узаемадзеяння "Няма""
+			"title": "Рэжым узаемадзеяння 'Няма'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Рэжым узаемадзеяння "Прагляд""
+			"title": "Рэжым узаемадзеяння 'Прагляд'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Малыя кропкі ўзаемадзеяння"
@@ -682,6 +637,115 @@
 				"value": "Адмяніць"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Імя файла:"
+			},
+			"fileFormatLabel": {
+				"text": "Фармат файла:"
+			},
+			"savePagesLabel": {
+				"text": "Захаваць старонкі:"
+			},
+			"allPagesOption": {
+				"text": "Усе старонкі"
+			},
+			"currentPageOption": {
+				"text": "Бягучая старонка"
+			},
+			"pagesOption": {
+				"text": "старонкі"
+			},
+			"saveAnnoLabel": {
+				"text": "Захаваць анатацыі"
+			},
+			"burnAnnoLabel": {
+				"text": "Запісаць анатацыі"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Аўтар:"
+			},
+			"commentSubjectLabel": {
+				"text": "Тэма:"
+			},
+			"commentMessageLabel": {
+				"text": "паведамленне:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Выкарыстоўвайце статус каментара"
+			},
+			"commentStatusLabel": {
+				"text": "Статус:"
+			},
+			"None": {
+				"text": "Няма"
+			},
+			"Accepted": {
+				"text": "Прынята"
+			},
+			"Completed": {
+				"text": "Завершана"
+			},
+			"Rejected": {
+				"text": "Адхілена"
+			},
+			"Cancelled": {
+				"text": "Адменена"
+			},
+			"showStateHistoryLabel": {
+				"text": "Паказваць гісторыю дзяржавы ў адказах"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"deleteButton": {
+				"value": "Выдаліць"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Павярнуць выгляд па гадзіннікавай стрэлцы"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Павярнуць выгляд супраць гадзіннікавай стрэлкі"
+		},
+		"copyAnnotationLabel": {
+			"text": "Капіяваць анатацыю"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Уставіць анатацыю"
+		},
+		"removeAnnotationLabel": {
+			"text": "Выдаліць анатацыю"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Вярнуць назад"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Вывесці наперад"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Згрупуйце ўсе анатацыі"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Разгрупаваць анатацыю"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Дадаць каментарый да анатацыі..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Уласцівасці анатацыі..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Налады анатацый",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Захаваць анатацыі",
 		"vsdv-annotationListPanel-pageLabel": "старонка",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Уласцівасці анатацыі",
-		"vsdv-annotationCommentSettingsDialog-title": "Рэдагаваць каментар да анатацыі",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-deleteButton": "Выдаліць",
-		"vsdv-dialog-cancelButton": "Адмяніць",
 		"vsdv-documentPasswordDialog-title": "Пароль дакумента",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Адмяніць",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Аўтэнтыфікаваць файл",
 		"vsdv-imageSelectionDialog-title": "Выберыце выявы",
 		"vsdv-imageSelectionDialog-currentImageString": "Актуальны малюнак",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Карыстацкі",
 		"vsdv-printImagesDialog-title": "Друк малюнкаў",
 		"vsdv-printImagesPanel-imagePrintingString": "Выява друкуецца",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
 		"vsdv-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Паварот малюнка з анатацыямі",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут павароту павінен быць больш нуля.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі",
+		"vsdv-exportFileSettingsDialog-title": "Экспарт налад файла",
+		"vsdv-annotationCommentSettingsDialog-title": "Рэдагаваць каментар да анатацыі",
+		"vsdv-dialog-deleteButton": "Выдаліць"
 	}
 }

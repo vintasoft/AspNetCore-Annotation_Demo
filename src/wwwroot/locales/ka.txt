@@ -100,7 +100,7 @@
 			"title": "სამკუთხედი"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "ინტერაქციის რეჟიმი "ავტორი""
+			"title": "ინტერაქციის რეჟიმი 'ავტორი'"
 		},
 		"copyAnnotationButton": {
 			"title": "დააკოპირეთ ორიენტირებული ანოტაცია"
@@ -151,26 +151,25 @@
 			"title": "შეავსეთ და მოაწერეთ ხელი"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "სერთიფიკატის ფაილი:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "ატვირთეთ სერთიფიკატის ფაილი"
-			},
-			"certificatePasswordLabel": {
-				"text": "სერთიფიკატის პაროლი:"
-			},
-			"useTestCertificateLabel": {
-				"text": "გამოიყენეთ ტესტის სერთიფიკატი"
-			},
-			"serverLabel": {
-				"text": "სერვერი:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "პაროლი:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "ხელმოწერის მოწმობა"
+				},
+				"certificateFileLabel": {
+					"text": "სერთიფიკატის ფაილი:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "ატვირთეთ სერთიფიკატის ფაილი"
+				},
+				"certificatePasswordLabel": {
+					"text": "სერთიფიკატის პაროლი:"
+				},
+				"useTestCertificateLabel": {
+					"text": "გამოიყენეთ ტესტის სერთიფიკატი"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "დაამატეთ დროის ანაბეჭდი"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "შეავსეთ და მოაწერეთ ხელი"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Მიახლოება"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "ავტორი:"
-			},
-			"commentSubjectLabel": {
-				"text": "თემა:"
-			},
-			"commentMessageLabel": {
-				"text": "შეტყობინება:"
-			},
-			"useCommentStatusLabel": {
-				"text": "გამოიყენეთ კომენტარის სტატუსი"
-			},
-			"commentStatusLabel": {
-				"text": "სტატუსი:"
-			},
-			"None": {
-				"text": "არცერთი"
-			},
-			"Accepted": {
-				"text": "მიღებულია"
-			},
-			"Completed": {
-				"text": "დასრულებული"
-			},
-			"Rejected": {
-				"text": "უარყოფილია"
-			},
-			"Cancelled": {
-				"text": "გაუქმდა"
-			},
-			"showStateHistoryLabel": {
-				"text": "აჩვენეთ სახელმწიფო ისტორია პასუხებში"
-			},
-			"okButton": {
-				"value": "კარგი"
-			},
-			"deleteButton": {
-				"value": "წაშლა"
-			},
-			"cancelButton": {
-				"value": "გაუქმება"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "ნორმალური"
@@ -296,10 +251,10 @@
 			"title": "მარკო"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "ურთიერთქმედების რეჟიმი "არცერთი""
+			"title": "ურთიერთქმედების რეჟიმი 'არცერთი'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "ურთიერთქმედების რეჟიმი "ნახვა""
+			"title": "ურთიერთქმედების რეჟიმი 'ნახვა'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "ურთიერთქმედების მცირე წერტილები"
@@ -682,6 +637,115 @@
 				"value": "გაუქმება"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ფაილის სახელი:"
+			},
+			"fileFormatLabel": {
+				"text": "Ფაილის ფორმატი:"
+			},
+			"savePagesLabel": {
+				"text": "გვერდების შენახვა:"
+			},
+			"allPagesOption": {
+				"text": "ყველა გვერდი"
+			},
+			"currentPageOption": {
+				"text": "Ამჟამინდელი გვერდი"
+			},
+			"pagesOption": {
+				"text": "გვერდები"
+			},
+			"saveAnnoLabel": {
+				"text": "შეინახეთ ანოტაციები"
+			},
+			"burnAnnoLabel": {
+				"text": "ანოტაციების დაწვა"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "ავტორი:"
+			},
+			"commentSubjectLabel": {
+				"text": "თემა:"
+			},
+			"commentMessageLabel": {
+				"text": "შეტყობინება:"
+			},
+			"useCommentStatusLabel": {
+				"text": "გამოიყენეთ კომენტარის სტატუსი"
+			},
+			"commentStatusLabel": {
+				"text": "სტატუსი:"
+			},
+			"None": {
+				"text": "არცერთი"
+			},
+			"Accepted": {
+				"text": "მიღებულია"
+			},
+			"Completed": {
+				"text": "დასრულებული"
+			},
+			"Rejected": {
+				"text": "უარყოფილია"
+			},
+			"Cancelled": {
+				"text": "გაუქმდა"
+			},
+			"showStateHistoryLabel": {
+				"text": "აჩვენეთ სახელმწიფო ისტორია პასუხებში"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"deleteButton": {
+				"value": "წაშლა"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "ხედის როტაცია საათის ისრის მიმართულებით"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "ხედის როტაცია საათის ისრის საწინააღმდეგოდ"
+		},
+		"copyAnnotationLabel": {
+			"text": "დააკოპირეთ ანოტაცია"
+		},
+		"pasteAnnotationLabel": {
+			"text": "ჩასვით ანოტაცია"
+		},
+		"removeAnnotationLabel": {
+			"text": "ანოტაციის წაშლა"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "დააბრუნეთ"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Წინა პლანზე წამოწევა"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "დაჯგუფება ყველა ანოტაცია"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "ანოტაციის გაუჯგუფება"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "კომენტარის დამატება ანოტაციას..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "ანოტაციის თვისებები..."
+		},
 		"annotationSettingsDialog": {
 			"title": "ანოტაციის პარამეტრები",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "შეინახეთ ანოტაციები",
 		"vsdv-annotationListPanel-pageLabel": "გვერდი",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "ანოტაციის თვისებები",
-		"vsdv-annotationCommentSettingsDialog-title": "ანოტაციის კომენტარის რედაქტირება",
-		"vsdv-dialog-okButton": "კარგი",
-		"vsdv-dialog-deleteButton": "წაშლა",
-		"vsdv-dialog-cancelButton": "გაუქმება",
 		"vsdv-documentPasswordDialog-title": "დოკუმენტის პაროლი",
+		"vsdv-dialog-okButton": "კარგი",
+		"vsdv-dialog-cancelButton": "გაუქმება",
 		"vsdv-documentPasswordPanel-authenticateFileString": "ფაილის ავთენტიფიკაცია",
 		"vsdv-imageSelectionDialog-title": "აირჩიეთ სურათები",
 		"vsdv-imageSelectionDialog-currentImageString": "მიმდინარე სურათი",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "საბაჟო",
 		"vsdv-printImagesDialog-title": "სურათების დაბეჭდვა",
 		"vsdv-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
 		"vsdv-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "სურათის როტაცია ანოტაციებით",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "ბრუნვის კუთხე უნდა იყოს ნულზე მეტი.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "მბრუნავი სურათი ანოტაციებით"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "მბრუნავი სურათი ანოტაციებით",
+		"vsdv-exportFileSettingsDialog-title": "ფაილის პარამეტრების ექსპორტი",
+		"vsdv-annotationCommentSettingsDialog-title": "ანოტაციის კომენტარის რედაქტირება",
+		"vsdv-dialog-deleteButton": "წაშლა"
 	}
 }

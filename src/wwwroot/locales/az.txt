@@ -100,7 +100,7 @@
 			"title": "Üçbucaq"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Qarşılıqlı əlaqə rejimi "Müəllif""
+			"title": "Qarşılıqlı əlaqə rejimi 'Müəllif'"
 		},
 		"copyAnnotationButton": {
 			"title": "Fokuslanmış annotasiyanı kopyalayın"
@@ -151,26 +151,25 @@
 			"title": "Doldurun və imzalayın"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Sertifikat faylı:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Sertifikat faylını yükləyin"
-			},
-			"certificatePasswordLabel": {
-				"text": "Sertifikat parolu:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Test sertifikatından istifadə edin"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Şifrə:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "İmza sertifikatı"
+				},
+				"certificateFileLabel": {
+					"text": "Sertifikat faylı:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Sertifikat faylını yükləyin"
+				},
+				"certificatePasswordLabel": {
+					"text": "Sertifikat parolu:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Test sertifikatından istifadə edin"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Vaxt möhürü əlavə edin"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Doldurun və imzalayın"
@@ -199,50 +198,6 @@
 		},
 		"zoomInButton": {
 			"title": "Yaxınlaşdırma"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Müəllif:"
-			},
-			"commentSubjectLabel": {
-				"text": "Mövzu:"
-			},
-			"commentMessageLabel": {
-				"text": "Mesaj:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Şərh statusundan istifadə edin"
-			},
-			"commentStatusLabel": {
-				"text": "Vəziyyət:"
-			},
-			"None": {
-				"text": "Heç biri"
-			},
-			"Accepted": {
-				"text": "Qəbul edildi"
-			},
-			"Completed": {
-				"text": "Tamamlandı"
-			},
-			"Rejected": {
-				"text": "Rədd edildi"
-			},
-			"Cancelled": {
-				"text": "Ləğv edildi"
-			},
-			"showStateHistoryLabel": {
-				"text": "Cavablarda Dövlət Tarixini göstərin"
-			},
-			"okButton": {
-				"value": "tamam"
-			},
-			"deleteButton": {
-				"value": "Sil"
-			},
-			"cancelButton": {
-				"value": "Ləğv et"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Normal"
@@ -299,7 +254,7 @@
 			"title": "Qarşılıqlı əlaqə rejimi 'Yox'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Qarşılıqlı əlaqə rejimi "Görünüş""
+			"title": "Qarşılıqlı əlaqə rejimi 'Görünüş'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kiçik qarşılıqlı əlaqə nöqtələri"
@@ -682,6 +637,115 @@
 				"value": "Ləğv et"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Fayl adı:"
+			},
+			"fileFormatLabel": {
+				"text": "Fayl formatı:"
+			},
+			"savePagesLabel": {
+				"text": "Səhifələri yadda saxla:"
+			},
+			"allPagesOption": {
+				"text": "Bütün səhifələr"
+			},
+			"currentPageOption": {
+				"text": "Cari səhifə"
+			},
+			"pagesOption": {
+				"text": "Səhifələr"
+			},
+			"saveAnnoLabel": {
+				"text": "Annotasiyaları yadda saxlayın"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotasiyaları yandırın"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Müəllif:"
+			},
+			"commentSubjectLabel": {
+				"text": "Mövzu:"
+			},
+			"commentMessageLabel": {
+				"text": "Mesaj:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Şərh statusundan istifadə edin"
+			},
+			"commentStatusLabel": {
+				"text": "Vəziyyət:"
+			},
+			"None": {
+				"text": "Heç biri"
+			},
+			"Accepted": {
+				"text": "Qəbul edildi"
+			},
+			"Completed": {
+				"text": "Tamamlandı"
+			},
+			"Rejected": {
+				"text": "Rədd edildi"
+			},
+			"Cancelled": {
+				"text": "Ləğv edildi"
+			},
+			"showStateHistoryLabel": {
+				"text": "Cavablarda Dövlət Tarixini göstərin"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"deleteButton": {
+				"value": "Sil"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görünüşü saat yönünde çevirin"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görünüşü saat yönünün əksinə çevirin"
+		},
+		"copyAnnotationLabel": {
+			"text": "Annotasiyanı kopyalayın"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Annotasiya yapışdırın"
+		},
+		"removeAnnotationLabel": {
+			"text": "Annotasiyanı silin"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Geri gətirin"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Önə gətirin"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Bütün annotasiyaları qruplaşdırın"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Annotasiyanı qrupdan çıxarın"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Annotasiyaya şərh əlavə edin..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Annotasiya xüsusiyyətləri..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Annotasiya parametrləri",
 			"Border": {
@@ -937,11 +1001,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Annotasiyaları yadda saxlayın",
 		"vsdv-annotationListPanel-pageLabel": "Səhifə",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotasiya Xüsusiyyətləri",
-		"vsdv-annotationCommentSettingsDialog-title": "Annotasiya şərhini redaktə edin",
-		"vsdv-dialog-okButton": "tamam",
-		"vsdv-dialog-deleteButton": "Sil",
-		"vsdv-dialog-cancelButton": "Ləğv et",
 		"vsdv-documentPasswordDialog-title": "Sənəd parolu",
+		"vsdv-dialog-okButton": "tamam",
+		"vsdv-dialog-cancelButton": "Ləğv et",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Faylı doğrulayın",
 		"vsdv-imageSelectionDialog-title": "Şəkilləri seçin",
 		"vsdv-imageSelectionDialog-currentImageString": "Cari şəkil",
@@ -949,11 +1011,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Xüsusi",
 		"vsdv-printImagesDialog-title": "Şəkilləri çap edin",
 		"vsdv-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Annotasiyalarla şəkli fırladın",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Fırlanma bucağı sıfırdan çox olmalıdır.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiyalarla fırlanan şəkil"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiyalarla fırlanan şəkil",
+		"vsdv-exportFileSettingsDialog-title": "Fayl parametrlərini ixrac edin",
+		"vsdv-annotationCommentSettingsDialog-title": "Annotasiya şərhini redaktə edin",
+		"vsdv-dialog-deleteButton": "Sil"
 	}
 }
