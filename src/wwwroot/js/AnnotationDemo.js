@@ -477,7 +477,7 @@ function __createUiLocalizationDictionary() {
 function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var floatingContainer = document.getElementById("documentViewerContainer");
 
-    var documentPasswordDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiDocumentPasswordDialogJS();
+    var documentPasswordDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiDocumentPasswordDialogJS();
     documentPasswordDialog.render(floatingContainer);
     tempDialogs.push(documentPasswordDialog);
 
@@ -528,7 +528,7 @@ function __createDemoDialogsForLocalization(tempDialogs) {
     var propertyGrid = new Vintasoft.Shared.WebPropertyGridJS(textAnnotation);
 
     // create the image processing dialog
-    var annotationSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPropertyGridDialogJS(
+    var annotationSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiPropertyGridDialogJS(
         propertyGrid,
         {
             title: "Annotation settings",
