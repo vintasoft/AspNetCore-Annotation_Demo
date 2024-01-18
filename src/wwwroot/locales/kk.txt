@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Аннотациялар"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Файлды жүктеп алыңыз және ашыңыз"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Файлды жүктеп салыңыз және қосыңыз"
 		},
 		"previousUploadFilesButton": {
 			"title": "Бұрын жүктелген файлдар"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Сурет файлын URL мекенжайы бойынша жүктеп салыңыз және ашыңыз"
+		"openFileFromUrlButton": {
+			"title": "URL мекенжайынан файлды ашыңыз"
 		},
 		"printImagesButton": {
 			"title": "Суреттерді басып шығару"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Файлды экспорттау және жүктеп алу"
+		},
+		"clearSessionCacheButton": {
+			"title": "Сеанс кэшін тазалау"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Енге сәйкес"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Көп таңдау:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Нобай үшін құсбелгілерді пайдаланыңыз:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Нобай үшін әрекеттер тақтасын пайдаланыңыз:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Нобайларды сүйреп апара алады:"
 			},
@@ -645,7 +657,7 @@
 				"text": "Файл пішімі:"
 			},
 			"savePagesLabel": {
-				"text": "Беттерді сақтау:"
+				"text": "Беттерді сақтаңыз:"
 			},
 			"allPagesOption": {
 				"text": "Барлық беттер"
@@ -723,13 +735,13 @@
 			"text": "Аннотацияны көшіру"
 		},
 		"pasteAnnotationLabel": {
-			"text": "Аннотацияны қою"
+			"text": "Аннотация қою"
 		},
 		"removeAnnotationLabel": {
 			"text": "Аннотацияны жою"
 		},
 		"bringAnnotationToBackLabel": {
-			"text": "Артқа әкел"
+			"text": "Артқа апарыңыз"
 		},
 		"bringAnnotationToFrontLabel": {
 			"text": "Алдыңа әкел"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Аннотация сипаттары..."
+		},
+		"removeImagesButton": {
+			"text": "Суреттерді жою"
+		},
+		"moveImageUpButton": {
+			"text": "Кескінді жоғары жылжытыңыз"
+		},
+		"moveImageDownButton": {
+			"text": "Кескінді төмен жылжытыңыз"
 		},
 		"annotationSettingsDialog": {
 			"title": "Аннотация параметрлері",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктеп салу",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлды жүктеп алыңыз және ашыңыз",
+		"vsdv-uploadAndAddFileButton-addFileString": "Файлды жүктеп салыңыз және қосыңыз",
 		"vsdv-openFile-addFileString": "Файл қосу",
 		"vsdv-openFile-authenticateFileString": "Файлдың аутентификациясы",
 		"vsdv-downloadFile-actionMessage": "Файлды жүктеп алу",
@@ -1011,14 +1033,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Арнаулы",
 		"vsdv-printImagesDialog-title": "Суреттерді басып шығару",
 		"vsdv-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялармен",
 		"vsdv-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Аннотациялары бар кескінді бұрыңыз",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Айналу бұрышы нөлден жоғары болуы керек.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялары бар бұрылатын кескін",
-		"vsdv-exportFileSettingsDialog-title": "Файл параметрлерін экспорттау",
+		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттауға арналған параметрлер",
 		"vsdv-annotationCommentSettingsDialog-title": "Аннотация түсініктемесін өңдеңіз",
 		"vsdv-dialog-deleteButton": "Жою"
 	}

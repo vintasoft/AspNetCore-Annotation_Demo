@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Opombe"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Naloži in odpri datoteko"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Naložite in dodajte datoteko"
 		},
 		"previousUploadFilesButton": {
 			"title": "Prej naložene datoteke"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Naložite in odprite slikovno datoteko po URL-ju"
+		"openFileFromUrlButton": {
+			"title": "Odpri datoteko z naslova URL"
 		},
 		"printImagesButton": {
 			"title": "Natisnite slike"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Izvozi in prenesi datoteko"
+		},
+		"clearSessionCacheButton": {
+			"title": "Počisti predpomnilnik seje"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prilagodi širini"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Večkratna izbira:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Uporabite potrditvena polja za sličico:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Uporabi ploščo z dejanji za sličico:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Lahko povlečete sličice:"
 			},
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Lastnosti pripisov ..."
+		},
+		"removeImagesButton": {
+			"text": "Odstranite slike"
+		},
+		"moveImageUpButton": {
+			"text": "Premakni sliko navzgor"
+		},
+		"moveImageDownButton": {
+			"text": "Premakni sliko navzdol"
 		},
 		"annotationSettingsDialog": {
 			"title": "Nastavitve pripisov",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Naloži in odpri datoteko",
+		"vsdv-uploadAndAddFileButton-addFileString": "Naložite in dodajte datoteko",
 		"vsdv-openFile-addFileString": "Dodaj datoteko",
 		"vsdv-openFile-authenticateFileString": "Preveri pristnost datoteke",
 		"vsdv-downloadFile-actionMessage": "Prenesi datoteko",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Zasukaj sliko z opombami",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kot vrtenja mora biti večji od nič.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Vrteča se slika z opombami",
-		"vsdv-exportFileSettingsDialog-title": "Izvozite nastavitve datoteke",
+		"vsdv-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke",
 		"vsdv-annotationCommentSettingsDialog-title": "Uredite komentar opombe",
 		"vsdv-dialog-deleteButton": "Izbriši"
 	}

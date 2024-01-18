@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Anotácie"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Nahrajte a otvorte súbor"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Nahrajte a pridajte súbor"
 		},
 		"previousUploadFilesButton": {
 			"title": "Predtým nahrané súbory"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Nahrajte a otvorte súbor obrázka podľa adresy URL"
+		"openFileFromUrlButton": {
+			"title": "Otvorte súbor z adresy URL"
 		},
 		"printImagesButton": {
 			"title": "Tlač obrázkov"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportujte a stiahnite súbor"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vymazať vyrovnávaciu pamäť relácie"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prispôsobiť na šírku"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Viacnásobný výber:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Použite začiarkavacie políčka pre miniatúry:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Použiť panel akcií pre miniatúru:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Môže presúvať miniatúry:"
 			},
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Vlastnosti anotácie..."
+		},
+		"removeImagesButton": {
+			"text": "Odstráňte obrázky"
+		},
+		"moveImageUpButton": {
+			"text": "Posunúť obrázok nahor"
+		},
+		"moveImageDownButton": {
+			"text": "Posunúť obrázok nadol"
 		},
 		"annotationSettingsDialog": {
 			"title": "Nastavenia anotácií",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Nahrajte súbor",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Nahrajte a otvorte súbor",
+		"vsdv-uploadAndAddFileButton-addFileString": "Nahrajte a pridajte súbor",
 		"vsdv-openFile-addFileString": "Pridať súbor",
 		"vsdv-openFile-authenticateFileString": "Overiť súbor",
 		"vsdv-downloadFile-actionMessage": "Stiahnuť súbor",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Otočte obrázok s anotáciami",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Uhol natočenia by mal byť väčší ako nula.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Otočný obrázok s anotáciami",
-		"vsdv-exportFileSettingsDialog-title": "Exportujte nastavenia súboru",
+		"vsdv-exportFileSettingsDialog-title": "Nastavenia exportu súboru",
 		"vsdv-annotationCommentSettingsDialog-title": "Upravte komentár anotácie",
 		"vsdv-dialog-deleteButton": "Odstrániť"
 	}

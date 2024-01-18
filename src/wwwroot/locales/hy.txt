@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Անոտացիաներ"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Վերբեռնեք և բացեք ֆայլը"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Վերբեռնեք և ավելացրեք ֆայլ"
 		},
 		"previousUploadFilesButton": {
 			"title": "Նախկինում բեռնված ֆայլեր"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Վերբեռնեք և բացեք պատկերի ֆայլը URL-ով"
+		"openFileFromUrlButton": {
+			"title": "Բացեք ֆայլը URL-ից"
 		},
 		"printImagesButton": {
 			"title": "Տպել պատկերներ"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Արտահանել և ներբեռնել ֆայլը"
+		},
+		"clearSessionCacheButton": {
+			"title": "Մաքրել նստաշրջանի քեշը"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Հարմարեցրեք լայնությանը"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "Ստորագրության վկայականը"
+					"text": "Ստորագրության վկայագիր"
 				},
 				"certificateFileLabel": {
 					"text": "Վկայագրի ֆայլ."
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Բազմակի ընտրություն."
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Օգտագործեք վանդակները մանրապատկերների համար."
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Օգտագործեք գործողությունների վահանակը մանրապատկերների համար."
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Կարող է քաշել մանրապատկերները՝"
 			},
@@ -645,7 +657,7 @@
 				"text": "Ֆայլի ձևաչափ."
 			},
 			"savePagesLabel": {
-				"text": "Պահպանել էջերը."
+				"text": "Պահպանեք էջերը."
 			},
 			"allPagesOption": {
 				"text": "Բոլոր էջերը"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Անոտացիայի հատկությունները..."
+		},
+		"removeImagesButton": {
+			"text": "Հեռացնել պատկերները"
+		},
+		"moveImageUpButton": {
+			"text": "Տեղափոխեք պատկերը վերև"
+		},
+		"moveImageDownButton": {
+			"text": "Տեղափոխեք պատկերը ներքև"
 		},
 		"annotationSettingsDialog": {
 			"title": "Անոտացիայի կարգավորումներ",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Ներբեռնել ֆայլ",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Վերբեռնեք և բացեք ֆայլը",
+		"vsdv-uploadAndAddFileButton-addFileString": "Վերբեռնեք և ավելացրեք ֆայլ",
 		"vsdv-openFile-addFileString": "Ավելացնել ֆայլ",
 		"vsdv-openFile-authenticateFileString": "Նույնականացնել ֆայլը",
 		"vsdv-downloadFile-actionMessage": "Ներբեռնել ֆայլը",
@@ -1011,14 +1033,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
 		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
 		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ծանոթագրություններով",
 		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Պտտեցնել պատկերը ծանոթագրություններով",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Պտտման անկյունը պետք է լինի զրոյից ավելի:",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Պտտվող պատկեր՝ ծանոթագրություններով",
-		"vsdv-exportFileSettingsDialog-title": "Արտահանել ֆայլի կարգավորումները",
+		"vsdv-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները",
 		"vsdv-annotationCommentSettingsDialog-title": "Խմբագրել անոտացիայի մեկնաբանությունը",
 		"vsdv-dialog-deleteButton": "Ջնջել"
 	}

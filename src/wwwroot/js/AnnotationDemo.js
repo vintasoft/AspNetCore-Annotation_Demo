@@ -129,7 +129,7 @@ function __initMenu(docViewerSettings) {
 
     var uploadFileButton = items.getItemByRegisteredId("uploadFileButton");
     if (uploadFileButton != null)
-        uploadFileButton.set_FileExtensionFilter(".bmp, .emf, .gif, .ico, .cur, .jpg, .jpeg, .jls, .pcx, .png, .tif, .tiff, .wmf, .jb2, .jbig2, .jp2, .j2k, .j2c, .jpc, .pdf");
+        uploadFileButton.set_FileExtensionFilter(".bmp, .cur, .gif, .ico, .j2c, .j2k, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff");
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");
@@ -139,7 +139,7 @@ function __initMenu(docViewerSettings) {
         var fileMenuPanelItems = fileMenuPanel.get_Items();
 
         // add the "Previous uploaded files" button to the menu panel
-        fileMenuPanelItems.insertItem(1, "previousUploadFilesButton");
+        fileMenuPanelItems.insertItem(2, "previousUploadFilesButton");
     }
 
     // get the "Tools" menu panel
@@ -167,9 +167,17 @@ function __initSidePanel(docViewerSettings) {
     // get the thumbnail viewer panel of document viewer
     var thumbnailViewerPanel = items.getItemByRegisteredId("thumbnailViewerPanel");
     // if panel is found
-    if (thumbnailViewerPanel != null)
+    if (thumbnailViewerPanel != null) {
         // subscribe to the "actived" event of the thumbnail viewer panel of document viewer
         Vintasoft.Shared.subscribeToEvent(thumbnailViewerPanel, "activated", __thumbnailsPanelActivated);
+        // enable ability to delete thumbnails
+        thumbnailViewerPanel.set_CanDeleteThumbnailsUsingContextMenu(true);
+        // enable ability to set custom thumbnail rotation
+        thumbnailViewerPanel.set_CanSetCustomViewRotationUsingContextMenu(true);
+        // enable ability to move thumbnail
+        thumbnailViewerPanel.set_CanMoveThumbnailUsingContextMenu(true);
+    }
+
 }
 
 /**
@@ -510,10 +518,15 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     tempDialogs.push(annotationCommentSettingsDialog);
 
 
-    // create context menu panel
-    var contextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebAnnotationViewerContextMenuJS();
-    contextMenu.render(floatingContainer);
-    tempDialogs.push(contextMenu);
+    // create annotation viewer context menu panel
+    var annoViewerContextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebAnnotationViewerContextMenuJS();
+    annoViewerContextMenu.render(floatingContainer);
+    tempDialogs.push(annoViewerContextMenu);
+
+    // create thumbnail viewer context menu panel
+    var thumbnailViewerContextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebThumbnailViewerContextMenuJS(_docViewer._thumbnailViewer, {});
+    thumbnailViewerContextMenu.render(floatingContainer);
+    tempDialogs.push(thumbnailViewerContextMenu);
 }
 
 /**
@@ -605,6 +618,8 @@ function __main() {
     // specify that document viewer should show "Export and download file" button instead of "Download file" button
     docViewerSettings.set_CanExportAndDownloadFile(true);
     docViewerSettings.set_CanDownloadFile(false);
+    docViewerSettings.set_CanAddFile(true);
+    docViewerSettings.set_CanClearSessionCache(true);
 
     // initialize main menu of document viewer
     __initMenu(docViewerSettings);

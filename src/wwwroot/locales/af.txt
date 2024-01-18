@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Annotasies"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Laai lêer af en maak oop"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Laai op en voeg lêer by"
 		},
 		"previousUploadFilesButton": {
 			"title": "Bekyk 'n lys van voorheen afgelaaide lêers"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Laai prentlêer op en maak oop volgens URL"
+		"openFileFromUrlButton": {
+			"title": "Maak lêer oop vanaf URL"
 		},
 		"printImagesButton": {
 			"title": "Druk prente"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Voer en laai lêer af"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vee sessiekas uit"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Pas by breedte"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "Die handtekeningsertifikaat"
+					"text": "Handtekening sertifikaat"
 				},
 				"certificateFileLabel": {
 					"text": "Sertifikaatlêer:"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Laat meervoudige kleinkiekies toe:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Gebruik merkblokkies vir kleinkiekie:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Gebruik handelingepaneel vir kleinkiekie:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan duimnaels sleep:"
 			},
@@ -645,7 +657,7 @@
 				"text": "Lêerformaat:"
 			},
 			"savePagesLabel": {
-				"text": "Stoor bladsye:"
+				"text": "Stoor die bladsye:"
 			},
 			"allPagesOption": {
 				"text": "Alle bladsye"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Annotasie-eienskappe..."
+		},
+		"removeImagesButton": {
+			"text": "Verwyder beelde"
+		},
+		"moveImageUpButton": {
+			"text": "Skuif prent op"
+		},
+		"moveImageDownButton": {
+			"text": "Skuif prent af"
 		},
 		"annotationSettingsDialog": {
 			"title": "Aantekening-instellings",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Laai leêr op",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laai lêer af en maak oop",
+		"vsdv-uploadAndAddFileButton-addFileString": "Laai op en voeg lêer by",
 		"vsdv-openFile-addFileString": "Voeg lêer by",
 		"vsdv-openFile-authenticateFileString": "Bevestig lêer",
 		"vsdv-downloadFile-actionMessage": "Aflaai leêr",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Draai geannoteerde prent",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotasiehoek moet nie 0 wees nie.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde prent word gedraai",
-		"vsdv-exportFileSettingsDialog-title": "Voer lêerinstellings uit",
+		"vsdv-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer",
 		"vsdv-annotationCommentSettingsDialog-title": "Wysig die aantekeningopmerking",
 		"vsdv-dialog-deleteButton": "Vee uit"
 	}

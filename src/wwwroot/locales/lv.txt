@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Anotācijas"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Augšupielādējiet un atveriet failu"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Augšupielādējiet un pievienojiet failu"
 		},
 		"previousUploadFilesButton": {
 			"title": "Iepriekš augšupielādētie faili"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Augšupielādējiet un atveriet attēla failu pēc URL"
+		"openFileFromUrlButton": {
+			"title": "Atveriet failu no URL"
 		},
 		"printImagesButton": {
 			"title": "Drukāt attēlus"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Eksportēt un lejupielādēt failu"
+		},
+		"clearSessionCacheButton": {
+			"title": "Notīrīt sesijas kešatmiņu"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Piemērots platumam"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Vairāku atlase:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Izmantojiet izvēles rūtiņas sīktēlam:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Izmantojiet darbību paneli sīktēlam:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Var vilkt sīktēlus:"
 			},
@@ -645,7 +657,7 @@
 				"text": "Faila formāts:"
 			},
 			"savePagesLabel": {
-				"text": "Saglabāt lapas:"
+				"text": "Saglabājiet lapas:"
 			},
 			"allPagesOption": {
 				"text": "Visas lapas"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Anotācijas rekvizīti..."
+		},
+		"removeImagesButton": {
+			"text": "Noņemiet attēlus"
+		},
+		"moveImageUpButton": {
+			"text": "Pārvietot attēlu uz augšu"
+		},
+		"moveImageDownButton": {
+			"text": "Pārvietot attēlu uz leju"
 		},
 		"annotationSettingsDialog": {
 			"title": "Anotācijas iestatījumi",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Augšupielādējiet un atveriet failu",
+		"vsdv-uploadAndAddFileButton-addFileString": "Augšupielādējiet un pievienojiet failu",
 		"vsdv-openFile-addFileString": "Pievienot failu",
 		"vsdv-openFile-authenticateFileString": "Autentificēt failu",
 		"vsdv-downloadFile-actionMessage": "Lejupielādēt failu",
@@ -1011,14 +1033,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
 		"vsdv-printImagesDialog-title": "Drukāt attēlus",
 		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
 		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Pagriezt attēlu ar anotācijām",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotācijas leņķim jābūt lielākam par nulli.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotējams attēls ar anotācijām",
-		"vsdv-exportFileSettingsDialog-title": "Eksportēt faila iestatījumus",
+		"vsdv-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi",
 		"vsdv-annotationCommentSettingsDialog-title": "Rediģējiet anotācijas komentāru",
 		"vsdv-dialog-deleteButton": "Dzēst"
 	}

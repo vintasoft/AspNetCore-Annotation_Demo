@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Anmerkninger"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Last ned og åpne filen"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Last opp og legg til fil"
 		},
 		"previousUploadFilesButton": {
 			"title": "Vis en liste over tidligere nedlastede filer"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Last opp og åpne bildefilen med URL"
+		"openFileFromUrlButton": {
+			"title": "Åpne filen fra URL"
 		},
 		"printImagesButton": {
 			"title": "Skriv ut bilder"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Eksporter og last ned fil"
+		},
+		"clearSessionCacheButton": {
+			"title": "Tøm øktbufferen"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Tilpass til bredde"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "Signatursertifikatet"
+					"text": "Signatursertifikat"
 				},
 				"certificateFileLabel": {
 					"text": "Sertifikatfil:"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Tillat valg av flere miniatyrbilder:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Bruk avmerkingsbokser for miniatyrbilde:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Bruk handlingspanelet for miniatyrbilde:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan dra miniatyrbilder:"
 			},
@@ -645,7 +657,7 @@
 				"text": "Filformat:"
 			},
 			"savePagesLabel": {
-				"text": "Lagre sider:"
+				"text": "Lagre sidene:"
 			},
 			"allPagesOption": {
 				"text": "Alle sider"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Annoteringsegenskaper..."
+		},
+		"removeImagesButton": {
+			"text": "Fjern bilder"
+		},
+		"moveImageUpButton": {
+			"text": "Flytt bildet opp"
+		},
+		"moveImageDownButton": {
+			"text": "Flytt bildet ned"
 		},
 		"annotationSettingsDialog": {
 			"title": "Annoteringsinnstillinger",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Last opp fil",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Last ned og åpne filen",
+		"vsdv-uploadAndAddFileButton-addFileString": "Last opp og legg til fil",
 		"vsdv-openFile-addFileString": "Legg til fil",
 		"vsdv-openFile-authenticateFileString": "Autentiser filen",
 		"vsdv-downloadFile-actionMessage": "Last ned fil",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Roter annotert bilde",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotasjonsvinkelen må ikke være 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommentert bilde blir rotert",
-		"vsdv-exportFileSettingsDialog-title": "Eksporter filinnstillinger",
+		"vsdv-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen",
 		"vsdv-annotationCommentSettingsDialog-title": "Rediger kommentarkommentaren",
 		"vsdv-dialog-deleteButton": "Slett"
 	}

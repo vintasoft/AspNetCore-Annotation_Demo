@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Annotációk"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Fájl letöltése és megnyitása"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Fájl feltöltése és hozzáadása"
 		},
 		"previousUploadFilesButton": {
 			"title": "A korábban letöltött fájlok listájának megtekintése"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Töltse fel és nyissa meg a képfájlt URL-cím szerint"
+		"openFileFromUrlButton": {
+			"title": "Fájl megnyitása az URL-ből"
 		},
 		"printImagesButton": {
 			"title": "Képek nyomtatása"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Fájl exportálása és letöltése"
+		},
+		"clearSessionCacheButton": {
+			"title": "A munkamenet gyorsítótárának törlése"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Szélességhez igazítás"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "Az aláírási tanúsítvány"
+					"text": "Aláírási tanúsítvány"
 				},
 				"certificateFileLabel": {
 					"text": "Tanúsítvány fájl:"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Több indexkép kiválasztásának engedélyezése:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Használjon jelölőnégyzeteket az indexképhez:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "A műveletek panel használata indexképhez:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Bélyegképek húzása:"
 			},
@@ -645,7 +657,7 @@
 				"text": "Fájlformátum:"
 			},
 			"savePagesLabel": {
-				"text": "Oldalak mentése:"
+				"text": "Mentse el az oldalakat:"
 			},
 			"allPagesOption": {
 				"text": "Minden oldal"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Annotáció tulajdonságai..."
+		},
+		"removeImagesButton": {
+			"text": "Képek eltávolítása"
+		},
+		"moveImageUpButton": {
+			"text": "Kép mozgatása felfelé"
+		},
+		"moveImageDownButton": {
+			"text": "Kép mozgatása lefelé"
 		},
 		"annotationSettingsDialog": {
 			"title": "Annotáció beállításai",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Fájl feltöltés",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Fájl letöltése és megnyitása",
+		"vsdv-uploadAndAddFileButton-addFileString": "Fájl feltöltése és hozzáadása",
 		"vsdv-openFile-addFileString": "Fájl hozzáadása",
 		"vsdv-openFile-authenticateFileString": "Fájl hitelesítése",
 		"vsdv-downloadFile-actionMessage": "Fájl letöltése",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "A megjegyzésekkel ellátott kép elforgatása",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Az elforgatási szög nem lehet 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "A megjegyzésekkel ellátott kép elforgatása folyamatban van",
-		"vsdv-exportFileSettingsDialog-title": "Fájlbeállítások exportálása",
+		"vsdv-exportFileSettingsDialog-title": "A fájl exportálásának beállításai",
 		"vsdv-annotationCommentSettingsDialog-title": "Szerkessze a kommentár megjegyzését",
 		"vsdv-dialog-deleteButton": "Törlés"
 	}

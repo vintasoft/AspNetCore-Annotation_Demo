@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Annotazioni"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Scarica e apri file"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Carica e aggiungi file"
 		},
 		"previousUploadFilesButton": {
 			"title": "Visualizza un elenco di file precedentemente scaricati"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Carica e apri il file immagine tramite URL"
+		"openFileFromUrlButton": {
+			"title": "Apri il file dall'URL"
 		},
 		"printImagesButton": {
 			"title": "Stampa immagini"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Esporta e scarica il file"
+		},
+		"clearSessionCacheButton": {
+			"title": "Cancella la cache della sessione"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Adatta alla larghezza"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "Il certificato di firma"
+					"text": "Certificato di firma"
 				},
 				"certificateFileLabel": {
 					"text": "File del certificato:"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Consenti la selezione di più miniature:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Utilizza le caselle di controllo per la miniatura:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Utilizza il pannello azioni per la miniatura:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Puoi trascinare le miniature:"
 			},
@@ -645,7 +657,7 @@
 				"text": "Formato del file:"
 			},
 			"savePagesLabel": {
-				"text": "Salva pagine:"
+				"text": "Salva le pagine:"
 			},
 			"allPagesOption": {
 				"text": "Tutte le pagine"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Proprietà annotazione..."
+		},
+		"removeImagesButton": {
+			"text": "Rimuovi immagini"
+		},
+		"moveImageUpButton": {
+			"text": "Sposta l'immagine in alto"
+		},
+		"moveImageDownButton": {
+			"text": "Sposta l'immagine verso il basso"
 		},
 		"annotationSettingsDialog": {
 			"title": "Impostazioni di annotazione",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Caricare un file",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Scarica e apri file",
+		"vsdv-uploadAndAddFileButton-addFileString": "Carica e aggiungi file",
 		"vsdv-openFile-addFileString": "Aggiungi file",
 		"vsdv-openFile-authenticateFileString": "Autenticare il file",
 		"vsdv-downloadFile-actionMessage": "Download file",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Ruota immagine annotata",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "L'angolo di rotazione non deve essere 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'immagine annotata viene ruotata",
-		"vsdv-exportFileSettingsDialog-title": "Esporta le impostazioni del file",
+		"vsdv-exportFileSettingsDialog-title": "Le impostazioni per esportare il file",
 		"vsdv-annotationCommentSettingsDialog-title": "Modifica il commento dell'annotazione",
 		"vsdv-dialog-deleteButton": "Elimina"
 	}

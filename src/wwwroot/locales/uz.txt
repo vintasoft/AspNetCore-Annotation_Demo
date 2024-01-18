@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Izohlar"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Faylni yuklang va oching"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Faylni yuklang va qo'shing"
 		},
 		"previousUploadFilesButton": {
 			"title": "Oldin yuklangan fayllar"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Rasm faylini URL orqali yuklang va oching"
+		"openFileFromUrlButton": {
+			"title": "URL manzilidan faylni oching"
 		},
 		"printImagesButton": {
 			"title": "Rasmlarni chop etish"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Faylni eksport qilish va yuklab olish"
+		},
+		"clearSessionCacheButton": {
+			"title": "Seans keshini tozalash"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Kenglikka moslash"
@@ -168,7 +174,7 @@
 					"text": "Sinov sertifikatidan foydalaning"
 				},
 				"addTimestampToSignatureLabel": {
-					"text": "Vaqt tamg'asini qo'shing"
+					"text": "Vaqt tamg'asi qo'shing"
 				}
 			},
 			"fillAndSignButton": {
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Ko'p tanlov:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Eskiz uchun belgilash katakchalaridan foydalaning:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Eskiz uchun harakatlar panelidan foydalaning:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Eskizlarni tortib olish mumkin:"
 			},
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Izoh xususiyatlari..."
+		},
+		"removeImagesButton": {
+			"text": "Rasmlarni olib tashlang"
+		},
+		"moveImageUpButton": {
+			"text": "Rasmni yuqoriga siljiting"
+		},
+		"moveImageDownButton": {
+			"text": "Rasmni pastga siljiting"
 		},
 		"annotationSettingsDialog": {
 			"title": "Annotatsiya sozlamalari",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Faylni yuklash",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faylni yuklang va oching",
+		"vsdv-uploadAndAddFileButton-addFileString": "Faylni yuklang va qo'shing",
 		"vsdv-openFile-addFileString": "Fayl qo'shish",
 		"vsdv-openFile-authenticateFileString": "Faylni autentifikatsiya qilish",
 		"vsdv-downloadFile-actionMessage": "Faylni yuklab oling",
@@ -1011,14 +1033,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Maxsus",
 		"vsdv-printImagesDialog-title": "Rasmlarni chop etish",
 		"vsdv-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "izohlar bilan",
 		"vsdv-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
 		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Tasvirni izohlar bilan aylantiring",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Burilish burchagi noldan ortiq bo'lishi kerak.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izohlar bilan aylantiriladigan rasm",
-		"vsdv-exportFileSettingsDialog-title": "Fayl sozlamalarini eksport qiling",
+		"vsdv-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar",
 		"vsdv-annotationCommentSettingsDialog-title": "Izoh sharhini tahrirlang",
 		"vsdv-dialog-deleteButton": "Oʻchirish"
 	}

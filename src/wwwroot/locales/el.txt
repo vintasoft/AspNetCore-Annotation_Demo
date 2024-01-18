@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Σχολιασμοί"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Λήψη και άνοιγμα αρχείου"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Μεταφόρτωση και προσθήκη αρχείου"
 		},
 		"previousUploadFilesButton": {
 			"title": "Προβολή λίστας αρχείων που έχετε λάβει προηγουμένως"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Μεταφόρτωση και άνοιγμα αρχείου εικόνας κατά διεύθυνση URL"
+		"openFileFromUrlButton": {
+			"title": "Άνοιγμα αρχείου από τη διεύθυνση URL"
 		},
 		"printImagesButton": {
 			"title": "Εκτύπωση εικόνων"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Εξαγωγή και λήψη αρχείου"
+		},
+		"clearSessionCacheButton": {
+			"title": "Εκκαθάριση προσωρινής μνήμης περιόδου λειτουργίας"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Προσαρμογή στο πλάτος"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "Το πιστοποιητικό υπογραφής"
+					"text": "Πιστοποιητικό υπογραφής"
 				},
 				"certificateFileLabel": {
 					"text": "Αρχείο πιστοποιητικού:"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Να επιτρέπεται η επιλογή πολλαπλών μικρογραφιών:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Χρησιμοποιήστε πλαίσια ελέγχου για μικρογραφία:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Χρησιμοποιήστε το πλαίσιο ενεργειών για μικρογραφία:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Μπορεί να σύρει μικρογραφίες:"
 			},
@@ -645,7 +657,7 @@
 				"text": "Μορφή αρχείου:"
 			},
 			"savePagesLabel": {
-				"text": "Αποθήκευση σελίδων:"
+				"text": "Αποθηκεύστε τις σελίδες:"
 			},
 			"allPagesOption": {
 				"text": "Όλες οι σελίδες"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Ιδιότητες σχολιασμού..."
+		},
+		"removeImagesButton": {
+			"text": "Αφαίρεση εικόνων"
+		},
+		"moveImageUpButton": {
+			"text": "Μετακίνηση εικόνας προς τα πάνω"
+		},
+		"moveImageDownButton": {
+			"text": "Μετακίνηση εικόνας προς τα κάτω"
 		},
 		"annotationSettingsDialog": {
 			"title": "Ρυθμίσεις σχολιασμού",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Λήψη και άνοιγμα αρχείου",
+		"vsdv-uploadAndAddFileButton-addFileString": "Μεταφόρτωση και προσθήκη αρχείου",
 		"vsdv-openFile-addFileString": "Προσθήκη αρχείου",
 		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
 		"vsdv-downloadFile-actionMessage": "Λήψη αρχείου",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Περιστροφή σχολιασμένης εικόνας",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Η γωνία περιστροφής δεν πρέπει να είναι 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται",
-		"vsdv-exportFileSettingsDialog-title": "Εξαγωγή ρυθμίσεων αρχείου",
+		"vsdv-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου",
 		"vsdv-annotationCommentSettingsDialog-title": "Επεξεργαστείτε το σχόλιο του σχολιασμού",
 		"vsdv-dialog-deleteButton": "Διαγραφή"
 	}

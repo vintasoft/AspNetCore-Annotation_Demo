@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Annotasiyalar"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Faylı yükləyin və açın"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Fayl yükləyin və əlavə edin"
 		},
 		"previousUploadFilesButton": {
 			"title": "Əvvəllər yüklənmiş fayllar"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "URL ilə şəkil faylını yükləyin və açın"
+		"openFileFromUrlButton": {
+			"title": "URL-dən faylı açın"
 		},
 		"printImagesButton": {
 			"title": "Şəkilləri çap edin"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Faylı ixrac edin və yükləyin"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sessiya önbelleğini təmizləyin"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Genişliyə uyğun"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Çoxseçim:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Miniatür üçün qeyd xanalarından istifadə edin:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Miniatür üçün əməliyyatlar panelindən istifadə edin:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Miniatürləri sürükləyə bilər:"
 			},
@@ -645,7 +657,7 @@
 				"text": "Fayl formatı:"
 			},
 			"savePagesLabel": {
-				"text": "Səhifələri yadda saxla:"
+				"text": "Səhifələri yadda saxlayın:"
 			},
 			"allPagesOption": {
 				"text": "Bütün səhifələr"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Annotasiya xüsusiyyətləri..."
+		},
+		"removeImagesButton": {
+			"text": "Şəkilləri silin"
+		},
+		"moveImageUpButton": {
+			"text": "Şəkli yuxarı köçürün"
+		},
+		"moveImageDownButton": {
+			"text": "Şəkli aşağı köçürün"
 		},
 		"annotationSettingsDialog": {
 			"title": "Annotasiya parametrləri",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Fayl yükləyin",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faylı yükləyin və açın",
+		"vsdv-uploadAndAddFileButton-addFileString": "Fayl yükləyin və əlavə edin",
 		"vsdv-openFile-addFileString": "Fayl əlavə edin",
 		"vsdv-openFile-authenticateFileString": "Faylı doğrulayın",
 		"vsdv-downloadFile-actionMessage": "Faylı yüklə",
@@ -1011,14 +1033,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Xüsusi",
 		"vsdv-printImagesDialog-title": "Şəkilləri çap edin",
 		"vsdv-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "annotasiyalarla",
 		"vsdv-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Annotasiyalarla şəkli fırladın",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Fırlanma bucağı sıfırdan çox olmalıdır.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiyalarla fırlanan şəkil",
-		"vsdv-exportFileSettingsDialog-title": "Fayl parametrlərini ixrac edin",
+		"vsdv-exportFileSettingsDialog-title": "Faylı ixrac etmək üçün parametrlər",
 		"vsdv-annotationCommentSettingsDialog-title": "Annotasiya şərhini redaktə edin",
 		"vsdv-dialog-deleteButton": "Sil"
 	}

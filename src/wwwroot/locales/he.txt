@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "הערות"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "הורד ופתח את הקובץ"
+		},
+		"uploadAndAddFileButton": {
+			"title": "העלה והוסף קובץ"
 		},
 		"previousUploadFilesButton": {
 			"title": "הצג רשימה של קבצים שהורדו בעבר"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "העלה ופתח קובץ תמונה לפי כתובת אתר"
+		"openFileFromUrlButton": {
+			"title": "פתח קובץ מ-URL"
 		},
 		"printImagesButton": {
 			"title": "הדפס תמונות"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "ייצא והורד קובץ"
+		},
+		"clearSessionCacheButton": {
+			"title": "נקה את מטמון ההפעלה"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "התאם לרוחב"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "תעודת החתימה"
+					"text": "תעודת חתימה"
 				},
 				"certificateFileLabel": {
 					"text": "קובץ תעודה:"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "אפשר בחירת תמונות ממוזערות מרובות:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "השתמש בתיבות סימון עבור תמונה ממוזערת:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "השתמש בחלונית פעולות לתמונה ממוזערת:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "יכול לגרור תמונות ממוזערות:"
 			},
@@ -645,7 +657,7 @@
 				"text": "פורמט קובץ:"
 			},
 			"savePagesLabel": {
-				"text": "שמור דפים:"
+				"text": "שמור את הדפים:"
 			},
 			"allPagesOption": {
 				"text": "כל הדפים"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "מאפייני הערות..."
+		},
+		"removeImagesButton": {
+			"text": "הסר תמונות"
+		},
+		"moveImageUpButton": {
+			"text": "הזז את התמונה למעלה"
+		},
+		"moveImageDownButton": {
+			"text": "הזז את התמונה למטה"
 		},
 		"annotationSettingsDialog": {
 			"title": "הגדרות הערות",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "הורד ופתח את הקובץ",
+		"vsdv-uploadAndAddFileButton-addFileString": "העלה והוסף קובץ",
 		"vsdv-openFile-addFileString": "הוסף קובץ",
 		"vsdv-openFile-authenticateFileString": "אימות קובץ",
 		"vsdv-downloadFile-actionMessage": "הורד קובץ",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "סובב תמונה מוערת",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "זווית הסיבוב לא יכולה להיות 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות",
-		"vsdv-exportFileSettingsDialog-title": "ייצוא הגדרות קובץ",
+		"vsdv-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ",
 		"vsdv-annotationCommentSettingsDialog-title": "ערוך את הערת ההערה",
 		"vsdv-dialog-deleteButton": "מחק"
 	}

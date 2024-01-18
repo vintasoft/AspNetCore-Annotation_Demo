@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Annotations"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Upload and open file"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Upload and add file"
 		},
 		"previousUploadFilesButton": {
 			"title": "Previously Uploaded Files"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Upload and open image file by URL"
+		"openFileFromUrlButton": {
+			"title": "Open file from URL"
 		},
 		"printImagesButton": {
 			"title": "Print images"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Export and download file"
+		},
+		"clearSessionCacheButton": {
+			"title": "Clear session cache"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Fit to width"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Multiselect:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Use Thumbnail Checkboxes:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Use Thumbnail Actions Panel:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Can Drag Thumbnails:"
 			},
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Annotation properties..."
+		},
+		"removeImagesButton": {
+			"text": "Remove images"
+		},
+		"moveImageUpButton": {
+			"text": "Move image up"
+		},
+		"moveImageDownButton": {
+			"text": "Move image down"
 		},
 		"annotationSettingsDialog": {
 			"title": "Annotation settings",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Upload file",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Upload and open file",
+		"vsdv-uploadAndAddFileButton-addFileString": "Upload and add file",
 		"vsdv-openFile-addFileString": "Add file",
 		"vsdv-openFile-authenticateFileString": "Authenticate file",
 		"vsdv-downloadFile-actionMessage": "Download file",

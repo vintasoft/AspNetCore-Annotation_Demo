@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Maelezo"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Pakia na ufungue faili"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Pakia na uongeze faili"
 		},
 		"previousUploadFilesButton": {
 			"title": "Faili Zilizopakiwa Hapo awali"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Pakia na ufungue faili ya picha kwa URL"
+		"openFileFromUrlButton": {
+			"title": "Fungua faili kutoka kwa URL"
 		},
 		"printImagesButton": {
 			"title": "Chapisha picha"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Hamisha na kupakua faili"
+		},
+		"clearSessionCacheButton": {
+			"title": "Futa akiba ya kipindi"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inafaa kwa upana"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Chaguo nyingi:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Tumia visanduku vya kuteua kwa kijipicha:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Tumia paneli ya vitendo kwa kijipicha:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Inaweza Kuburuta Vijipicha:"
 			},
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Sifa za ufafanuzi..."
+		},
+		"removeImagesButton": {
+			"text": "Ondoa picha"
+		},
+		"moveImageUpButton": {
+			"text": "Sogeza picha juu"
+		},
+		"moveImageDownButton": {
+			"text": "Sogeza picha chini"
 		},
 		"annotationSettingsDialog": {
 			"title": "Mipangilio ya ufafanuzi",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Pakia na ufungue faili",
+		"vsdv-uploadAndAddFileButton-addFileString": "Pakia na uongeze faili",
 		"vsdv-openFile-addFileString": "Ongeza faili",
 		"vsdv-openFile-authenticateFileString": "Thibitisha faili",
 		"vsdv-downloadFile-actionMessage": "Pakua faili",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Zungusha picha na vidokezo",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Pembe ya mzunguko inapaswa kuwa zaidi ya sifuri.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Inazungusha picha na vidokezo",
-		"vsdv-exportFileSettingsDialog-title": "Hamisha mipangilio ya faili",
+		"vsdv-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili",
 		"vsdv-annotationCommentSettingsDialog-title": "Hariri maoni ya ufafanuzi",
 		"vsdv-dialog-deleteButton": "Futa"
 	}

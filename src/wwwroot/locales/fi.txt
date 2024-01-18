@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Merkinnät"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Lataa ja avaa tiedosto"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Lataa ja lisää tiedosto"
 		},
 		"previousUploadFilesButton": {
 			"title": "Näytä luettelo aiemmin ladatuista tiedostoista"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Lataa ja avaa kuvatiedosto URL-osoitteen mukaan"
+		"openFileFromUrlButton": {
+			"title": "Avaa tiedosto URL-osoitteesta"
 		},
 		"printImagesButton": {
 			"title": "Tulosta kuvat"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Vie ja lataa tiedosto"
+		},
+		"clearSessionCacheButton": {
+			"title": "Tyhjennä istunnon välimuisti"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Sovita leveyteen"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "Allekirjoitussertifikaatti"
+					"text": "Allekirjoitustodistus"
 				},
 				"certificateFileLabel": {
 					"text": "Todistustiedosto:"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Salli useiden pikkukuvien valinta:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Käytä pikkukuvien valintaruutuja:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Käytä toimintopaneelia pikkukuvalle:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Voi vetää pikkukuvia:"
 			},
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Merkintäominaisuudet..."
+		},
+		"removeImagesButton": {
+			"text": "Poista kuvat"
+		},
+		"moveImageUpButton": {
+			"text": "Siirrä kuvaa ylöspäin"
+		},
+		"moveImageDownButton": {
+			"text": "Siirrä kuvaa alas"
 		},
 		"annotationSettingsDialog": {
 			"title": "Merkintäasetukset",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Lataa ja avaa tiedosto",
+		"vsdv-uploadAndAddFileButton-addFileString": "Lataa ja lisää tiedosto",
 		"vsdv-openFile-addFileString": "Lisää tiedosto",
 		"vsdv-openFile-authenticateFileString": "Todenna tiedosto",
 		"vsdv-downloadFile-actionMessage": "Lataa tiedosto",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Kierrä huomautettua kuvaa",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kiertokulma ei saa olla 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotoitua kuvaa käännetään",
-		"vsdv-exportFileSettingsDialog-title": "Vie tiedostoasetukset",
+		"vsdv-exportFileSettingsDialog-title": "Tiedoston vientiasetukset",
 		"vsdv-annotationCommentSettingsDialog-title": "Muokkaa huomautuksen kommenttia",
 		"vsdv-dialog-deleteButton": "Poista"
 	}

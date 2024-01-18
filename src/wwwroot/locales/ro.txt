@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Adnotări"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Descărcați și deschideți fișierul"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Încărcați și adăugați fișier"
 		},
 		"previousUploadFilesButton": {
 			"title": "Vedeți o listă de fișiere descărcate anterior"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Încărcați și deschideți fișierul imagine după adresa URL"
+		"openFileFromUrlButton": {
+			"title": "Deschideți fișierul de la URL"
 		},
 		"printImagesButton": {
 			"title": "Tipărește imagini"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportați și descărcați fișierul"
+		},
+		"clearSessionCacheButton": {
+			"title": "Goliți memoria cache a sesiunii"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Potrivire la lățime"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "Certificatul de semnătură"
+					"text": "Certificat de semnătură"
 				},
 				"certificateFileLabel": {
 					"text": "Fișierul certificatului:"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Permite selecția mai multor miniaturi:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Utilizați casetele de selectare pentru miniatură:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Utilizați panoul de acțiuni pentru miniatură:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Poate trage miniaturi:"
 			},
@@ -645,7 +657,7 @@
 				"text": "Tipul fisierului:"
 			},
 			"savePagesLabel": {
-				"text": "Salvați pagini:"
+				"text": "Salvați paginile:"
 			},
 			"allPagesOption": {
 				"text": "Toate paginile"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Proprietățile adnotărilor..."
+		},
+		"removeImagesButton": {
+			"text": "Eliminați imaginile"
+		},
+		"moveImageUpButton": {
+			"text": "Mutați imaginea în sus"
+		},
+		"moveImageDownButton": {
+			"text": "Mutați imaginea în jos"
 		},
 		"annotationSettingsDialog": {
 			"title": "Setări de adnotare",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descărcați și deschideți fișierul",
+		"vsdv-uploadAndAddFileButton-addFileString": "Încărcați și adăugați fișier",
 		"vsdv-openFile-addFileString": "Adauga fisier",
 		"vsdv-openFile-authenticateFileString": "Autentificați fișierul",
 		"vsdv-downloadFile-actionMessage": "Descărcare fișier",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotire imaginea adnotată",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Unghiul de rotație nu trebuie să fie 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Imaginea adnotată este rotită",
-		"vsdv-exportFileSettingsDialog-title": "Exportați setările fișierului",
+		"vsdv-exportFileSettingsDialog-title": "Setările pentru exportul fișierului",
 		"vsdv-annotationCommentSettingsDialog-title": "Editați comentariul de adnotare",
 		"vsdv-dialog-deleteButton": "Șterge"
 	}

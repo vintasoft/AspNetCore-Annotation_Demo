@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Izichasiselo"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Layisha futhi uvule ifayela"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Layisha futhi wengeze ifayela"
 		},
 		"previousUploadFilesButton": {
 			"title": "Amafayela Alayishwe Ngokudlule"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Layisha futhi uvule ifayela lesithombe nge-URL"
+		"openFileFromUrlButton": {
+			"title": "Vula ifayela ku-URL"
 		},
 		"printImagesButton": {
 			"title": "Phrinta izithombe"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Khipha futhi ulande ifayela"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sula inqolobane yeseshini"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Linganisa ububanzi"
@@ -151,26 +157,25 @@
 			"title": "Gcwalisa futhi usayine"
 		},
 		"fillAndSignPanel": {
-			"certificateFileLabel": {
-				"text": "Ifayela lesitifiketi:"
-			},
-			"uploadCertificateFileButton": {
-				"title": "Layisha ifayela lesitifiketi"
-			},
-			"certificatePasswordLabel": {
-				"text": "Iphasiwedi yesitifiketi:"
-			},
-			"useTestCertificateLabel": {
-				"text": "Sebenzisa isitifiketi sokuhlola"
-			},
-			"serverLabel": {
-				"text": "Server:"
-			},
-			"loginLabel": {
-				"text": "Login:"
-			},
-			"passwordLabel": {
-				"text": "Iphasiwedi:"
+			"signatureCertificateGroupName": {
+				"signatureCertificateGroupName": {
+					"text": "Isitifiketi sesiginesha"
+				},
+				"certificateFileLabel": {
+					"text": "Ifayela lesitifiketi:"
+				},
+				"uploadCertificateFileButton": {
+					"title": "Layisha ifayela lesitifiketi"
+				},
+				"certificatePasswordLabel": {
+					"text": "Iphasiwedi yesitifiketi:"
+				},
+				"useTestCertificateLabel": {
+					"text": "Sebenzisa isitifiketi sokuhlola"
+				},
+				"addTimestampToSignatureLabel": {
+					"text": "Engeza isitembu sesikhathi"
+				}
 			},
 			"fillAndSignButton": {
 				"value": "Gcwalisa futhi Usayine"
@@ -199,50 +204,6 @@
 		},
 		"zoomInButton": {
 			"title": "Sondeza isithombe"
-		},
-		"commentSettingsDialog": {
-			"authorLabel": {
-				"text": "Umbhali:"
-			},
-			"commentSubjectLabel": {
-				"text": "Isihloko:"
-			},
-			"commentMessageLabel": {
-				"text": "Umlayezo:"
-			},
-			"useCommentStatusLabel": {
-				"text": "Sebenzisa isimo samazwana"
-			},
-			"commentStatusLabel": {
-				"text": "Isimo:"
-			},
-			"None": {
-				"text": "Lutho"
-			},
-			"Accepted": {
-				"text": "Kwamukelwe"
-			},
-			"Completed": {
-				"text": "Kuqediwe"
-			},
-			"Rejected": {
-				"text": "Kwaliwe"
-			},
-			"Cancelled": {
-				"text": "Kukhanseliwe"
-			},
-			"showStateHistoryLabel": {
-				"text": "Bonisa Umlando Wesifunda ezimpendulweni"
-			},
-			"okButton": {
-				"value": "KULUNGILE"
-			},
-			"deleteButton": {
-				"value": "Susa"
-			},
-			"cancelButton": {
-				"value": "Khansela"
-			}
 		},
 		"normalSizeModeButton": {
 			"title": "Okuvamile"
@@ -637,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Ukukhetha okuningi:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Sebenzisa amabhokisi okuhlola ukuze uthole isithonjana:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Sebenzisa iphaneli yezenzo ukuze uthole isithonjana:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Ingakwazi Ukuhudula Izithonjana:"
 			},
@@ -681,6 +648,124 @@
 			"cancelButton": {
 				"value": "Khansela"
 			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Igama lefayela:"
+			},
+			"fileFormatLabel": {
+				"text": "Ifomethi yefayela:"
+			},
+			"savePagesLabel": {
+				"text": "Londoloza amakhasi:"
+			},
+			"allPagesOption": {
+				"text": "Wonke amakhasi"
+			},
+			"currentPageOption": {
+				"text": "Ikhasi lamanje"
+			},
+			"pagesOption": {
+				"text": "Amakhasi"
+			},
+			"saveAnnoLabel": {
+				"text": "Londoloza izichasiselo"
+			},
+			"burnAnnoLabel": {
+				"text": "Shisa izichasiselo"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"commentSettingsDialog": {
+			"authorLabel": {
+				"text": "Umbhali:"
+			},
+			"commentSubjectLabel": {
+				"text": "Isihloko:"
+			},
+			"commentMessageLabel": {
+				"text": "Umlayezo:"
+			},
+			"useCommentStatusLabel": {
+				"text": "Sebenzisa isimo samazwana"
+			},
+			"commentStatusLabel": {
+				"text": "Isimo:"
+			},
+			"None": {
+				"text": "Lutho"
+			},
+			"Accepted": {
+				"text": "Kwamukelwe"
+			},
+			"Completed": {
+				"text": "Kuqediwe"
+			},
+			"Rejected": {
+				"text": "Kwaliwe"
+			},
+			"Cancelled": {
+				"text": "Kukhanseliwe"
+			},
+			"showStateHistoryLabel": {
+				"text": "Bonisa Umlando Wesifunda ezimpendulweni"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"deleteButton": {
+				"value": "Susa"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zungezisa ukubuka ngokwewashi"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zungezisa ukubuka ngokuphikisana newashi"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopisha isichasiselo"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Namathisela isichasiselo"
+		},
+		"removeAnnotationLabel": {
+			"text": "Susa isichasiselo"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Buyisa emuva"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Letha phambili"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Qoqa zonke izichasiselo"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Hlukanisa isichasiselo seqembu"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Engeza amazwana esichasiselweni..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Izakhiwo zesichasiselo..."
+		},
+		"removeImagesButton": {
+			"text": "Susa izithombe"
+		},
+		"moveImageUpButton": {
+			"text": "Hambisa isithombe phezulu"
+		},
+		"moveImageDownButton": {
+			"text": "Hambisa isithombe phansi"
 		},
 		"annotationSettingsDialog": {
 			"title": "Izilungiselelo zesichasiselo",
@@ -925,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Layisha futhi uvule ifayela",
+		"vsdv-uploadAndAddFileButton-addFileString": "Layisha futhi wengeze ifayela",
 		"vsdv-openFile-addFileString": "Engeza ifayela",
 		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
 		"vsdv-downloadFile-actionMessage": "Landa ifayela",
@@ -937,11 +1023,9 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Londoloza izichasiselo",
 		"vsdv-annotationListPanel-pageLabel": "Ikhasi",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Izici zesichasiselo",
-		"vsdv-annotationCommentSettingsDialog-title": "Hlela amazwana esichasiselo",
-		"vsdv-dialog-okButton": "KULUNGILE",
-		"vsdv-dialog-deleteButton": "Susa",
-		"vsdv-dialog-cancelButton": "Khansela",
 		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
+		"vsdv-dialog-okButton": "KULUNGILE",
+		"vsdv-dialog-cancelButton": "Khansela",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
 		"vsdv-imageSelectionDialog-title": "Khetha izithombe",
 		"vsdv-imageSelectionDialog-currentImageString": "Isithombe samanje",
@@ -949,11 +1033,15 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
 		"vsdv-printImagesDialog-title": "Phrinta izithombe",
 		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
 		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
 		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Zungezisa isithombe ngezichasiselo",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "I-engeli yokuzungezisa kufanele ibe ngaphezu kukaziro.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izungezisa isithombe ngezichasiselo"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izungezisa isithombe ngezichasiselo",
+		"vsdv-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela",
+		"vsdv-annotationCommentSettingsDialog-title": "Hlela amazwana esichasiselo",
+		"vsdv-dialog-deleteButton": "Susa"
 	}
 }

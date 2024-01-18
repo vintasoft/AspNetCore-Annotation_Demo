@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "注释"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "上传并打开文件"
+		},
+		"uploadAndAddFileButton": {
+			"title": "上傳並新增文件"
 		},
 		"previousUploadFilesButton": {
 			"title": "之前上传的文件"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "通过URL上传并打开图像文件"
+		"openFileFromUrlButton": {
+			"title": "從 URL 開啟文件"
 		},
 		"printImagesButton": {
 			"title": "打印图像"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "导出和下载文件"
+		},
+		"clearSessionCacheButton": {
+			"title": "清除會話快取"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "适合宽度"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "签名证书"
+					"text": "簽署證書"
 				},
 				"certificateFileLabel": {
 					"text": "证书文件："
@@ -168,7 +174,7 @@
 					"text": "使用测试证书"
 				},
 				"addTimestampToSignatureLabel": {
-					"text": "添加时间戳"
+					"text": "新增時間戳"
 				}
 			},
 			"fillAndSignButton": {
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "多选："
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "使用縮圖複選框："
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "使用縮圖的操作面板："
+			},
 			"canDragThumbnailsLabel": {
 				"text": "可以拖动缩略图："
 			},
@@ -639,13 +651,13 @@
 		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
-				"text": "文件名："
+				"text": "檔案名稱："
 			},
 			"fileFormatLabel": {
 				"text": "文件格式："
 			},
 			"savePagesLabel": {
-				"text": "保存页面："
+				"text": "儲存頁面："
 			},
 			"allPagesOption": {
 				"text": "所有页面"
@@ -654,7 +666,7 @@
 				"text": "当前页面"
 			},
 			"pagesOption": {
-				"text": "页数"
+				"text": "頁數"
 			},
 			"saveAnnoLabel": {
 				"text": "保存注释"
@@ -714,10 +726,10 @@
 			}
 		},
 		"rotateViewClockwiseButton": {
-			"text": "顺时针旋转视图"
+			"text": "順時針旋轉視圖"
 		},
 		"rotateViewCounterClockwiseButton": {
-			"text": "逆时针旋转视图"
+			"text": "逆時針旋轉視圖"
 		},
 		"copyAnnotationLabel": {
 			"text": "复制注释"
@@ -741,10 +753,19 @@
 			"text": "取消注释分组"
 		},
 		"addAnnotationCommentLabel": {
-			"text": "添加注释到注释..."
+			"text": "新增註釋到註釋..."
 		},
 		"annotationPropertiesLabel": {
 			"text": "注释属性..."
+		},
+		"removeImagesButton": {
+			"text": "刪除影像"
+		},
+		"moveImageUpButton": {
+			"text": "向上移動影像"
+		},
+		"moveImageDownButton": {
+			"text": "向下移動影像"
 		},
 		"annotationSettingsDialog": {
 			"title": "注释设置",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "上传文件",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "上传并打开文件",
+		"vsdv-uploadAndAddFileButton-addFileString": "上傳並新增文件",
 		"vsdv-openFile-addFileString": "添加文件",
 		"vsdv-openFile-authenticateFileString": "验证文件",
 		"vsdv-downloadFile-actionMessage": "下载文件",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "旋转带有注释的图像",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "旋转角度应大于零。",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "带注释旋转图像",
-		"vsdv-exportFileSettingsDialog-title": "导出文件设置",
+		"vsdv-exportFileSettingsDialog-title": "匯出文件的設置",
 		"vsdv-annotationCommentSettingsDialog-title": "编辑注释注释",
 		"vsdv-dialog-deleteButton": "删除"
 	}

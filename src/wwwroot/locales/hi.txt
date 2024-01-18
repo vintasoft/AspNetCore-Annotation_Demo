@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "टिप्पणियाँ"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "फ़ाइल डाउनलोड करें और खोलें"
+		},
+		"uploadAndAddFileButton": {
+			"title": "फ़ाइल अपलोड करें और जोड़ें"
 		},
 		"previousUploadFilesButton": {
 			"title": "पहले डाउनलोड की गई फ़ाइलों की सूची देखें"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "URL द्वारा छवि फ़ाइल अपलोड करें और खोलें"
+		"openFileFromUrlButton": {
+			"title": "URL से फ़ाइल खोलें"
 		},
 		"printImagesButton": {
 			"title": "छवियाँ मुद्रित करें"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "फ़ाइल निर्यात करें और डाउनलोड करें"
+		},
+		"clearSessionCacheButton": {
+			"title": "सत्र कैश साफ़ करें"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "चौड़ाई के अनुरूप"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "हस्ताक्षर प्रमाण पत्र"
+					"text": "हस्ताक्षर प्रमाणपत्र"
 				},
 				"certificateFileLabel": {
 					"text": "प्रमाणपत्र फ़ाइल:"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "एकाधिक थंबनेल चयन की अनुमति दें:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "थंबनेल के लिए चेकबॉक्स का उपयोग करें:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "थंबनेल के लिए क्रिया पैनल का उपयोग करें:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "थंबनेल खींच सकते हैं:"
 			},
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "एनोटेशन गुण..."
+		},
+		"removeImagesButton": {
+			"text": "छवियाँ हटाएँ"
+		},
+		"moveImageUpButton": {
+			"text": "छवि को ऊपर ले जाएं"
+		},
+		"moveImageDownButton": {
+			"text": "छवि को नीचे ले जाएँ"
 		},
 		"annotationSettingsDialog": {
 			"title": "एनोटेशन सेटिंग्स",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "फ़ाइल अपलोड करें",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "फ़ाइल डाउनलोड करें और खोलें",
+		"vsdv-uploadAndAddFileButton-addFileString": "फ़ाइल अपलोड करें और जोड़ें",
 		"vsdv-openFile-addFileString": "फ़ाइल जोड़ें",
 		"vsdv-openFile-authenticateFileString": "फ़ाइल प्रमाणित करें",
 		"vsdv-downloadFile-actionMessage": "डाउनलोड फ़ाइल",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "एनोटेटेड छवि घुमाएँ",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "घूर्णन कोण 0 नहीं होना चाहिए.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "एनोटेट छवि को घुमाया जा रहा है",
-		"vsdv-exportFileSettingsDialog-title": "फ़ाइल सेटिंग्स निर्यात करें",
+		"vsdv-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग",
 		"vsdv-annotationCommentSettingsDialog-title": "एनोटेशन टिप्पणी संपादित करें",
 		"vsdv-dialog-deleteButton": "हटाएं"
 	}

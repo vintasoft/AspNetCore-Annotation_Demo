@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Açıklamalar"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Dosyayı indir ve aç"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Dosya yükleyin ve ekleyin"
 		},
 		"previousUploadFilesButton": {
 			"title": "Önceden indirilen dosyaların listesini görüntüleyin"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Resim dosyasını URL'ye göre yükleyin ve açın"
+		"openFileFromUrlButton": {
+			"title": "Dosyayı URL'den aç"
 		},
 		"printImagesButton": {
 			"title": "Görüntüleri Yazdır"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Dosyayı dışa aktarın ve indirin"
+		},
+		"clearSessionCacheButton": {
+			"title": "Oturum önbelleğini temizle"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Genişliğe Sığdır"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Birden çok küçük resim seçimine izin ver:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Küçük resim için onay kutularını kullanın:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Küçük resim için eylemler panelini kullanın:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Küçük Resimleri Sürükleyebilir:"
 			},
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Açıklama özellikleri..."
+		},
+		"removeImagesButton": {
+			"text": "Resimleri kaldır"
+		},
+		"moveImageUpButton": {
+			"text": "Resmi yukarı taşı"
+		},
+		"moveImageDownButton": {
+			"text": "Resmi aşağı taşı"
 		},
 		"annotationSettingsDialog": {
 			"title": "Ek açıklama ayarları",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Dosya yükleme",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Dosyayı indir ve aç",
+		"vsdv-uploadAndAddFileButton-addFileString": "Dosya yükleyin ve ekleyin",
 		"vsdv-openFile-addFileString": "Dosya Ekle",
 		"vsdv-openFile-authenticateFileString": "Dosyanın kimliğini doğrula",
 		"vsdv-downloadFile-actionMessage": "Dosyayı indir",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Açıklamalı Görüntüyü Döndür",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Dönme açısı 0 olmamalıdır.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Açıklamalı resim döndürülüyor",
-		"vsdv-exportFileSettingsDialog-title": "Dosya ayarlarını dışa aktar",
+		"vsdv-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları",
 		"vsdv-annotationCommentSettingsDialog-title": "Ek açıklama yorumunu düzenleyin",
 		"vsdv-dialog-deleteButton": "Sil"
 	}

@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Annotasiýa"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Faýly ýükläň we açyň"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Faýl ýükläň we goşuň"
 		},
 		"previousUploadFilesButton": {
 			"title": "Öň ýüklenen faýllar"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Surat faýlyny URL boýunça ýükläň we açyň"
+		"openFileFromUrlButton": {
+			"title": "URL-den faýl açyň"
 		},
 		"printImagesButton": {
 			"title": "Suratlary çap ediň"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Faýly eksport ediň we göçürip alyň"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sessiýa keşini arassalaň"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inine laýyk"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Köp saýlaw:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Eskiz üçin bellik gutularyny ulanyň:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Eskiz üçin hereketler panelini ulanyň:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Suratlary süýräp biler:"
 			},
@@ -744,7 +756,16 @@
 			"text": "Annotasiýa teswir goşuň ..."
 		},
 		"annotationPropertiesLabel": {
-			"text": "Annotasiýa aýratynlyklary ..."
+			"text": "Annotasiýa aýratynlyklary..."
+		},
+		"removeImagesButton": {
+			"text": "Suratlary aýyryň"
+		},
+		"moveImageUpButton": {
+			"text": "Suraty ýokaryk galdyryň"
+		},
+		"moveImageDownButton": {
+			"text": "Suraty aşak süýşüriň"
 		},
 		"annotationSettingsDialog": {
 			"title": "Annotasiýa sazlamalary",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faýly ýükläň we açyň",
+		"vsdv-uploadAndAddFileButton-addFileString": "Faýl ýükläň we goşuň",
 		"vsdv-openFile-addFileString": "Faýl goşuň",
 		"vsdv-openFile-authenticateFileString": "Faýly tassyklamak",
 		"vsdv-downloadFile-actionMessage": "Faýly göçürip al",
@@ -1011,14 +1033,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
 		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
 		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
 		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Suraty düşündirişler bilen aýlaň",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Aýlanma burçy noldan köp bolmaly.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiýa bilen şekili aýlamak",
-		"vsdv-exportFileSettingsDialog-title": "Faýl sazlamalaryny eksport ediň",
+		"vsdv-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar",
 		"vsdv-annotationCommentSettingsDialog-title": "Annotasiýa teswirini redaktirläň",
 		"vsdv-dialog-deleteButton": "Öçür"
 	}

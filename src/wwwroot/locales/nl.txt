@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Annotaties"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Bestand downloaden en openen"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Bestand uploaden en toevoegen"
 		},
 		"previousUploadFilesButton": {
 			"title": "Bekijk een lijst met eerder gedownloade bestanden"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Upload en open het afbeeldingsbestand via URL"
+		"openFileFromUrlButton": {
+			"title": "Bestand openen vanaf URL"
 		},
 		"printImagesButton": {
 			"title": "Afbeeldingen afdrukken"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Bestand exporteren en downloaden"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sessiecache wissen"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Aanpassen aan breedte"
@@ -153,7 +159,7 @@
 		"fillAndSignPanel": {
 			"signatureCertificateGroupName": {
 				"signatureCertificateGroupName": {
-					"text": "Het handtekeningcertificaat"
+					"text": "Handtekening certificaat"
 				},
 				"certificateFileLabel": {
 					"text": "Certificaatbestand:"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "Sta meerdere miniatuurselectie toe:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Gebruik selectievakjes voor miniatuur:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Gebruik het actiepaneel voor miniatuur:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan miniaturen slepen:"
 			},
@@ -645,7 +657,7 @@
 				"text": "Bestandsformaat:"
 			},
 			"savePagesLabel": {
-				"text": "Pagina's opslaan:"
+				"text": "Bewaar de pagina's:"
 			},
 			"allPagesOption": {
 				"text": "Alle pagina's"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "Annotatie-eigenschappen..."
+		},
+		"removeImagesButton": {
+			"text": "Afbeeldingen verwijderen"
+		},
+		"moveImageUpButton": {
+			"text": "Verplaats afbeelding omhoog"
+		},
+		"moveImageDownButton": {
+			"text": "Verplaats afbeelding naar beneden"
 		},
 		"annotationSettingsDialog": {
 			"title": "Annotatie-instellingen",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Upload bestand",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Bestand downloaden en openen",
+		"vsdv-uploadAndAddFileButton-addFileString": "Bestand uploaden en toevoegen",
 		"vsdv-openFile-addFileString": "Bestand toevoegen",
 		"vsdv-openFile-authenticateFileString": "Authenticeer bestand",
 		"vsdv-downloadFile-actionMessage": "Download bestand",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Geannoteerde afbeelding roteren",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotatiehoek mag niet 0 zijn.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd",
-		"vsdv-exportFileSettingsDialog-title": "Bestandsinstellingen exporteren",
+		"vsdv-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren",
 		"vsdv-annotationCommentSettingsDialog-title": "Bewerk de annotatieopmerking",
 		"vsdv-dialog-deleteButton": "Verwijderen"
 	}

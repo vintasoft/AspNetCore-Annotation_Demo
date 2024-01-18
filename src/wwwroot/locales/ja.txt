@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "注釈"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "ファイルをダウンロードして開きます"
+		},
+		"uploadAndAddFileButton": {
+			"title": "ファイルをアップロードして追加する"
 		},
 		"previousUploadFilesButton": {
 			"title": "以前にダウンロードしたファイルのリストを表示する"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "URLで画像ファイルをアップロードして開く"
+		"openFileFromUrlButton": {
+			"title": "URLからファイルを開く"
 		},
 		"printImagesButton": {
 			"title": "画像を印刷"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "ファイルのエクスポートとダウンロード"
+		},
+		"clearSessionCacheButton": {
+			"title": "セッションキャッシュをクリアする"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "幅に合わせる"
@@ -592,6 +598,12 @@
 			"multiSelectLabel": {
 				"text": "複数のサムネイルの選択を許可します:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "サムネイルにチェックボックスを使用します。"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "サムネイルにアクション パネルを使用します。"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "サムネイルをドラッグできます:"
 			},
@@ -645,7 +657,7 @@
 				"text": "ファイル形式:"
 			},
 			"savePagesLabel": {
-				"text": "ページを保存:"
+				"text": "ページを保存します。"
 			},
 			"allPagesOption": {
 				"text": "すべてのページ"
@@ -745,6 +757,15 @@
 		},
 		"annotationPropertiesLabel": {
 			"text": "注釈のプロパティ..."
+		},
+		"removeImagesButton": {
+			"text": "画像を削除する"
+		},
+		"moveImageUpButton": {
+			"text": "画像を上に移動"
+		},
+		"moveImageDownButton": {
+			"text": "画像を下に移動"
 		},
 		"annotationSettingsDialog": {
 			"title": "注釈設定",
@@ -989,7 +1010,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "ファイルをアップロードする",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "ファイルをダウンロードして開きます",
+		"vsdv-uploadAndAddFileButton-addFileString": "ファイルをアップロードして追加する",
 		"vsdv-openFile-addFileString": "ファイルを追加",
 		"vsdv-openFile-authenticateFileString": "ファイルを認証する",
 		"vsdv-downloadFile-actionMessage": "ダウンロードファイル",
@@ -1018,7 +1040,7 @@
 		"vsdv-rotateImageWithAnnotationsDialog-title": "注釈付き画像を回転",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "回転角度は 0 であってはなりません。",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注釈付き画像は回転中です",
-		"vsdv-exportFileSettingsDialog-title": "エクスポートファイルの設定",
+		"vsdv-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定",
 		"vsdv-annotationCommentSettingsDialog-title": "注釈のコメントを編集する",
 		"vsdv-dialog-deleteButton": "削除"
 	}
