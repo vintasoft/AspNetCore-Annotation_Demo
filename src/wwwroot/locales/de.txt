@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Anmerkungseigenschaften..."
 		},
-		"removeImagesButton": {
-			"text": "Bilder entfernen"
-		},
-		"moveImageUpButton": {
-			"text": "Bild nach oben verschieben"
-		},
-		"moveImageDownButton": {
-			"text": "Bild nach unten verschieben"
-		},
 		"annotationSettingsDialog": {
 			"title": "Anmerkungseinstellungen",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Anmerkungen speichern",
 		"vsdv-annotationListPanel-pageLabel": "Seite",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Anmerkungseigenschaften",
+		"vsdv-uploadFileButton-uploadFileString": "Datei hochladen",
 		"vsdv-documentPasswordDialog-title": "Dokumentpasswort",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Abbrechen",

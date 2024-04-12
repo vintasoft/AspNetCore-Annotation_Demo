@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Annoteringsegenskaper..."
 		},
-		"removeImagesButton": {
-			"text": "Fjern bilder"
-		},
-		"moveImageUpButton": {
-			"text": "Flytt bildet opp"
-		},
-		"moveImageDownButton": {
-			"text": "Flytt bildet ned"
-		},
 		"annotationSettingsDialog": {
 			"title": "Annoteringsinnstillinger",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Lagre merknader",
 		"vsdv-annotationListPanel-pageLabel": "Side",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaper",
+		"vsdv-uploadFileButton-uploadFileString": "Last opp fil",
 		"vsdv-documentPasswordDialog-title": "Dokumentpassord",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Avbryt",

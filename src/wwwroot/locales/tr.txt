@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Açıklama özellikleri..."
 		},
-		"removeImagesButton": {
-			"text": "Resimleri kaldır"
-		},
-		"moveImageUpButton": {
-			"text": "Resmi yukarı taşı"
-		},
-		"moveImageDownButton": {
-			"text": "Resmi aşağı taşı"
-		},
 		"annotationSettingsDialog": {
 			"title": "Ek açıklama ayarları",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Ek açıklamaları kaydet",
 		"vsdv-annotationListPanel-pageLabel": "Sayfa",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Açıklama özellikleri",
+		"vsdv-uploadFileButton-uploadFileString": "Dosya yükleme",
 		"vsdv-documentPasswordDialog-title": "Belge parolası",
 		"vsdv-dialog-okButton": "Tamam",
 		"vsdv-dialog-cancelButton": "İptal",

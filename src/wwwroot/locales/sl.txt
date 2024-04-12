@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Lastnosti pripisov ..."
 		},
-		"removeImagesButton": {
-			"text": "Odstranite slike"
-		},
-		"moveImageUpButton": {
-			"text": "Premakni sliko navzgor"
-		},
-		"moveImageDownButton": {
-			"text": "Premakni sliko navzdol"
-		},
 		"annotationSettingsDialog": {
 			"title": "Nastavitve pripisov",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Shranite opombe",
 		"vsdv-annotationListPanel-pageLabel": "Stran",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Lastnosti pripisov",
+		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
 		"vsdv-documentPasswordDialog-title": "Geslo za dokument",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Prekliči",

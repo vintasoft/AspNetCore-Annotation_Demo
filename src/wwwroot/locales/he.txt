@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "מאפייני הערות..."
 		},
-		"removeImagesButton": {
-			"text": "הסר תמונות"
-		},
-		"moveImageUpButton": {
-			"text": "הזז את התמונה למעלה"
-		},
-		"moveImageDownButton": {
-			"text": "הזז את התמונה למטה"
-		},
 		"annotationSettingsDialog": {
 			"title": "הגדרות הערות",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "שמור הערות",
 		"vsdv-annotationListPanel-pageLabel": "דף",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "מאפייני הערה",
+		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
 		"vsdv-documentPasswordDialog-title": "סיסמת מסמך",
 		"vsdv-dialog-okButton": "בסדר",
 		"vsdv-dialog-cancelButton": "בטל",

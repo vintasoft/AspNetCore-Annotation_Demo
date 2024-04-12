@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Thuộc tính chú thích..."
 		},
-		"removeImagesButton": {
-			"text": "Xóa hình ảnh"
-		},
-		"moveImageUpButton": {
-			"text": "Di chuyển hình ảnh lên"
-		},
-		"moveImageDownButton": {
-			"text": "Di chuyển hình ảnh xuống"
-		},
 		"annotationSettingsDialog": {
 			"title": "Cài đặt chú thích",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Lưu chú thích",
 		"vsdv-annotationListPanel-pageLabel": "Trang",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Thuộc tính chú thích",
+		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
 		"vsdv-documentPasswordDialog-title": "Mật khẩu tài liệu",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Hủy",

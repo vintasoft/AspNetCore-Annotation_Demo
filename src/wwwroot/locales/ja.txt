@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "注釈のプロパティ..."
 		},
-		"removeImagesButton": {
-			"text": "画像を削除する"
-		},
-		"moveImageUpButton": {
-			"text": "画像を上に移動"
-		},
-		"moveImageDownButton": {
-			"text": "画像を下に移動"
-		},
 		"annotationSettingsDialog": {
 			"title": "注釈設定",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "注釈の保存",
 		"vsdv-annotationListPanel-pageLabel": "ページ",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "注釈のプロパティ",
+		"vsdv-uploadFileButton-uploadFileString": "ファイルをアップロードする",
 		"vsdv-documentPasswordDialog-title": "文書のパスワード",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "キャンセル",

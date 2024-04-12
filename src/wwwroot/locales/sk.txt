@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Vlastnosti anotácie..."
 		},
-		"removeImagesButton": {
-			"text": "Odstráňte obrázky"
-		},
-		"moveImageUpButton": {
-			"text": "Posunúť obrázok nahor"
-		},
-		"moveImageDownButton": {
-			"text": "Posunúť obrázok nadol"
-		},
 		"annotationSettingsDialog": {
 			"title": "Nastavenia anotácií",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Uložiť anotácie",
 		"vsdv-annotationListPanel-pageLabel": "Stránka",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Vlastnosti anotácie",
+		"vsdv-uploadFileButton-uploadFileString": "Nahrajte súbor",
 		"vsdv-documentPasswordDialog-title": "Heslo dokumentu",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Zrušiť",

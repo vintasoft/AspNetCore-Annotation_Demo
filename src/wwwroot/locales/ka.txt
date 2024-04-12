@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "ანოტაციის თვისებები..."
 		},
-		"removeImagesButton": {
-			"text": "სურათების წაშლა"
-		},
-		"moveImageUpButton": {
-			"text": "სურათის გადატანა ზემოთ"
-		},
-		"moveImageDownButton": {
-			"text": "სურათის გადატანა ქვემოთ"
-		},
 		"annotationSettingsDialog": {
 			"title": "ანოტაციის პარამეტრები",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "შეინახეთ ანოტაციები",
 		"vsdv-annotationListPanel-pageLabel": "გვერდი",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "ანოტაციის თვისებები",
+		"vsdv-uploadFileButton-uploadFileString": "Ატვირთე ფაილი",
 		"vsdv-documentPasswordDialog-title": "დოკუმენტის პაროლი",
 		"vsdv-dialog-okButton": "კარგი",
 		"vsdv-dialog-cancelButton": "გაუქმება",

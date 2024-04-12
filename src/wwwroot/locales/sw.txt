@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Sifa za ufafanuzi..."
 		},
-		"removeImagesButton": {
-			"text": "Ondoa picha"
-		},
-		"moveImageUpButton": {
-			"text": "Sogeza picha juu"
-		},
-		"moveImageDownButton": {
-			"text": "Sogeza picha chini"
-		},
 		"annotationSettingsDialog": {
 			"title": "Mipangilio ya ufafanuzi",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Hifadhi maelezo",
 		"vsdv-annotationListPanel-pageLabel": "Ukurasa",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Sifa za Ufafanuzi",
+		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
 		"vsdv-documentPasswordDialog-title": "Nenosiri la hati",
 		"vsdv-dialog-okButton": "sawa",
 		"vsdv-dialog-cancelButton": "Ghairi",

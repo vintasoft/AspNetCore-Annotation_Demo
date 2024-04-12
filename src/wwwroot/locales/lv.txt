@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Anotācijas rekvizīti..."
 		},
-		"removeImagesButton": {
-			"text": "Noņemiet attēlus"
-		},
-		"moveImageUpButton": {
-			"text": "Pārvietot attēlu uz augšu"
-		},
-		"moveImageDownButton": {
-			"text": "Pārvietot attēlu uz leju"
-		},
 		"annotationSettingsDialog": {
 			"title": "Anotācijas iestatījumi",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Saglabājiet anotācijas",
 		"vsdv-annotationListPanel-pageLabel": "Lappuse",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Anotācijas īpašības",
+		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
 		"vsdv-documentPasswordDialog-title": "Dokumenta parole",
 		"vsdv-dialog-okButton": "labi",
 		"vsdv-dialog-cancelButton": "Atcelt",

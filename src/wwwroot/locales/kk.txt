@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Аннотация сипаттары..."
 		},
-		"removeImagesButton": {
-			"text": "Суреттерді жою"
-		},
-		"moveImageUpButton": {
-			"text": "Кескінді жоғары жылжытыңыз"
-		},
-		"moveImageDownButton": {
-			"text": "Кескінді төмен жылжытыңыз"
-		},
 		"annotationSettingsDialog": {
 			"title": "Аннотация параметрлері",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Аннотацияларды сақтаңыз",
 		"vsdv-annotationListPanel-pageLabel": "Бет",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Аннотация сипаттары",
+		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктеп салу",
 		"vsdv-documentPasswordDialog-title": "Құжат құпия сөзі",
 		"vsdv-dialog-okButton": "ЖАРАЙДЫ МА",
 		"vsdv-dialog-cancelButton": "Болдырмау",

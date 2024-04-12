@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "خصائص التعليق ..."
 		},
-		"removeImagesButton": {
-			"text": "إزالة الصور"
-		},
-		"moveImageUpButton": {
-			"text": "حرك الصورة لأعلى"
-		},
-		"moveImageDownButton": {
-			"text": "نقل الصورة إلى أسفل"
-		},
 		"annotationSettingsDialog": {
 			"title": "إعدادات التعليقات التوضيحية",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "حفظ التعليقات التوضيحية",
 		"vsdv-annotationListPanel-pageLabel": "الصفحة",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "خصائص التعليق التوضيحي",
+		"vsdv-uploadFileButton-uploadFileString": "رفع ملف",
 		"vsdv-documentPasswordDialog-title": "كلمة مرور المستند",
 		"vsdv-dialog-okButton": "موافق",
 		"vsdv-dialog-cancelButton": "إلغاء",

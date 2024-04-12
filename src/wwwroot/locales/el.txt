@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Ιδιότητες σχολιασμού..."
 		},
-		"removeImagesButton": {
-			"text": "Αφαίρεση εικόνων"
-		},
-		"moveImageUpButton": {
-			"text": "Μετακίνηση εικόνας προς τα πάνω"
-		},
-		"moveImageDownButton": {
-			"text": "Μετακίνηση εικόνας προς τα κάτω"
-		},
 		"annotationSettingsDialog": {
 			"title": "Ρυθμίσεις σχολιασμού",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Αποθήκευση σχολιασμών",
 		"vsdv-annotationListPanel-pageLabel": "Σελίδα",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Ιδιότητες σχολιασμού",
+		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
 		"vsdv-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
 		"vsdv-dialog-okButton": "ΟΚ",
 		"vsdv-dialog-cancelButton": "Ακύρωση",

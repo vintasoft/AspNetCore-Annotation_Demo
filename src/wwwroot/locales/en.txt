@@ -1023,6 +1023,8 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Save annotations",
 		"vsdv-annotationListPanel-pageLabel": "Page",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotation Properties",
+		"vsdv-annotationCommentListPanel-review": "Review",
+		"vsdv-annotationCommentListPanel-arg0IsSetByArg1": "{0} is set by {1}",
 		"vsdv-documentPasswordDialog-title": "Document password",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Cancel",

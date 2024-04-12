@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Аннотация касиеттери..."
 		},
-		"removeImagesButton": {
-			"text": "Сүрөттөрдү алып салуу"
-		},
-		"moveImageUpButton": {
-			"text": "Сүрөттү өйдө жылдырыңыз"
-		},
-		"moveImageDownButton": {
-			"text": "Сүрөттү ылдый жылдырыңыз"
-		},
 		"annotationSettingsDialog": {
 			"title": "Аннотация орнотуулары",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Аннотацияларды сактоо",
 		"vsdv-annotationListPanel-pageLabel": "Page",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Аннотация касиеттери",
+		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктөө",
 		"vsdv-documentPasswordDialog-title": "Документтин сырсөзү",
 		"vsdv-dialog-okButton": "макул",
 		"vsdv-dialog-cancelButton": "Жокко чыгаруу",

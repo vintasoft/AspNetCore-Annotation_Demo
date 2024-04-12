@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Proprietățile adnotărilor..."
 		},
-		"removeImagesButton": {
-			"text": "Eliminați imaginile"
-		},
-		"moveImageUpButton": {
-			"text": "Mutați imaginea în sus"
-		},
-		"moveImageDownButton": {
-			"text": "Mutați imaginea în jos"
-		},
 		"annotationSettingsDialog": {
 			"title": "Setări de adnotare",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salvați adnotările",
 		"vsdv-annotationListPanel-pageLabel": "Pagină",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Proprietăți de adnotare",
+		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
 		"vsdv-documentPasswordDialog-title": "Parola documentului",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Anulează",

@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Annotasiya xüsusiyyətləri..."
 		},
-		"removeImagesButton": {
-			"text": "Şəkilləri silin"
-		},
-		"moveImageUpButton": {
-			"text": "Şəkli yuxarı köçürün"
-		},
-		"moveImageDownButton": {
-			"text": "Şəkli aşağı köçürün"
-		},
 		"annotationSettingsDialog": {
 			"title": "Annotasiya parametrləri",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Annotasiyaları yadda saxlayın",
 		"vsdv-annotationListPanel-pageLabel": "Səhifə",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotasiya Xüsusiyyətləri",
+		"vsdv-uploadFileButton-uploadFileString": "Fayl yükləyin",
 		"vsdv-documentPasswordDialog-title": "Sənəd parolu",
 		"vsdv-dialog-okButton": "tamam",
 		"vsdv-dialog-cancelButton": "Ləğv et",

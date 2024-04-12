@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Annotáció tulajdonságai..."
 		},
-		"removeImagesButton": {
-			"text": "Képek eltávolítása"
-		},
-		"moveImageUpButton": {
-			"text": "Kép mozgatása felfelé"
-		},
-		"moveImageDownButton": {
-			"text": "Kép mozgatása lefelé"
-		},
 		"annotationSettingsDialog": {
 			"title": "Annotáció beállításai",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Megjegyzések mentése",
 		"vsdv-annotationListPanel-pageLabel": "Oldal",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotáció tulajdonságai",
+		"vsdv-uploadFileButton-uploadFileString": "Fájl feltöltés",
 		"vsdv-documentPasswordDialog-title": "Dokumentum jelszava",
 		"vsdv-dialog-okButton": "Rendben",
 		"vsdv-dialog-cancelButton": "Mégse",

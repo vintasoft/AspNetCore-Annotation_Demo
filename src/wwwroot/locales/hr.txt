@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Svojstva komentara..."
 		},
-		"removeImagesButton": {
-			"text": "Ukloni slike"
-		},
-		"moveImageUpButton": {
-			"text": "Pomakni sliku gore"
-		},
-		"moveImageDownButton": {
-			"text": "Pomakni sliku prema dolje"
-		},
 		"annotationSettingsDialog": {
 			"title": "Postavke napomena",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Spremi zabilješke",
 		"vsdv-annotationListPanel-pageLabel": "Stranica",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Svojstva zabilješki",
+		"vsdv-uploadFileButton-uploadFileString": "Učitaj datoteku",
 		"vsdv-documentPasswordDialog-title": "Lozinka dokumenta",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Odustani",

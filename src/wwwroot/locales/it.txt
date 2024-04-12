@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Proprietà annotazione..."
 		},
-		"removeImagesButton": {
-			"text": "Rimuovi immagini"
-		},
-		"moveImageUpButton": {
-			"text": "Sposta l'immagine in alto"
-		},
-		"moveImageDownButton": {
-			"text": "Sposta l'immagine verso il basso"
-		},
 		"annotationSettingsDialog": {
 			"title": "Impostazioni di annotazione",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salva annotazioni",
 		"vsdv-annotationListPanel-pageLabel": "Pagina",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Proprietà annotazione",
+		"vsdv-uploadFileButton-uploadFileString": "Caricare un file",
 		"vsdv-documentPasswordDialog-title": "Password documento",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Annulla",

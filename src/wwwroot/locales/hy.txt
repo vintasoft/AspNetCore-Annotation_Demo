@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Անոտացիայի հատկությունները..."
 		},
-		"removeImagesButton": {
-			"text": "Հեռացնել պատկերները"
-		},
-		"moveImageUpButton": {
-			"text": "Տեղափոխեք պատկերը վերև"
-		},
-		"moveImageDownButton": {
-			"text": "Տեղափոխեք պատկերը ներքև"
-		},
 		"annotationSettingsDialog": {
 			"title": "Անոտացիայի կարգավորումներ",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Պահպանեք ծանոթագրությունները",
 		"vsdv-annotationListPanel-pageLabel": "Էջ",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Անոտացիայի հատկություններ",
+		"vsdv-uploadFileButton-uploadFileString": "Ներբեռնել ֆայլ",
 		"vsdv-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",
 		"vsdv-dialog-okButton": "լավ",
 		"vsdv-dialog-cancelButton": "Չեղարկել",

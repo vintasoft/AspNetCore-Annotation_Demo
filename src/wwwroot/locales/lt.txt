@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Komentarų ypatybės..."
 		},
-		"removeImagesButton": {
-			"text": "Pašalinti vaizdus"
-		},
-		"moveImageUpButton": {
-			"text": "Perkelti vaizdą aukštyn"
-		},
-		"moveImageDownButton": {
-			"text": "Perkelti vaizdą žemyn"
-		},
 		"annotationSettingsDialog": {
 			"title": "Anotacijos nustatymai",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Išsaugoti komentarus",
 		"vsdv-annotationListPanel-pageLabel": "Puslapis",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Anotacijos ypatybės",
+		"vsdv-uploadFileButton-uploadFileString": "Įkelti failą",
 		"vsdv-documentPasswordDialog-title": "Dokumento slaptažodis",
 		"vsdv-dialog-okButton": "Gerai",
 		"vsdv-dialog-cancelButton": "Atšaukti",

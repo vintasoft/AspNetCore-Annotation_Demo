@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "注释属性..."
 		},
-		"removeImagesButton": {
-			"text": "刪除影像"
-		},
-		"moveImageUpButton": {
-			"text": "向上移動影像"
-		},
-		"moveImageDownButton": {
-			"text": "向下移動影像"
-		},
 		"annotationSettingsDialog": {
 			"title": "注释设置",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "保存注释",
 		"vsdv-annotationListPanel-pageLabel": "页",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "注释属性",
+		"vsdv-uploadFileButton-uploadFileString": "上传文件",
 		"vsdv-documentPasswordDialog-title": "文档密码",
 		"vsdv-dialog-okButton": "好的",
 		"vsdv-dialog-cancelButton": "取消",

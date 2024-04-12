@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Märkuste atribuudid..."
 		},
-		"removeImagesButton": {
-			"text": "Eemaldage pildid"
-		},
-		"moveImageUpButton": {
-			"text": "Liigutage pilti üles"
-		},
-		"moveImageDownButton": {
-			"text": "Liigutage pilti alla"
-		},
 		"annotationSettingsDialog": {
 			"title": "Märkuste seaded",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salvestage märkused",
 		"vsdv-annotationListPanel-pageLabel": "Lehekülg",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotatsiooni omadused",
+		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
 		"vsdv-documentPasswordDialog-title": "Dokumendi parool",
 		"vsdv-dialog-okButton": "Okei",
 		"vsdv-dialog-cancelButton": "Tühista",

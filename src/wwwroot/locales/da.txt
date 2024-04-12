@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Annoteringsegenskaber..."
 		},
-		"removeImagesButton": {
-			"text": "Fjern billeder"
-		},
-		"moveImageUpButton": {
-			"text": "Flyt billedet op"
-		},
-		"moveImageDownButton": {
-			"text": "Flyt billedet ned"
-		},
 		"annotationSettingsDialog": {
 			"title": "Anmærkningsindstillinger",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Gem annoteringer",
 		"vsdv-annotationListPanel-pageLabel": "Side",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaber",
+		"vsdv-uploadFileButton-uploadFileString": "Upload fil",
 		"vsdv-documentPasswordDialog-title": "Dokumentadgangskode",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Annuller",

@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Merkintäominaisuudet..."
 		},
-		"removeImagesButton": {
-			"text": "Poista kuvat"
-		},
-		"moveImageUpButton": {
-			"text": "Siirrä kuvaa ylöspäin"
-		},
-		"moveImageDownButton": {
-			"text": "Siirrä kuvaa alas"
-		},
 		"annotationSettingsDialog": {
 			"title": "Merkintäasetukset",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Tallenna merkinnät",
 		"vsdv-annotationListPanel-pageLabel": "Sivu",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Merkintäominaisuudet",
+		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
 		"vsdv-documentPasswordDialog-title": "Asiakirjan salasana",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Peruuta",

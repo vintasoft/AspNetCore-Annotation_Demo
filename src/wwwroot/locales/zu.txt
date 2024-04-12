@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Izakhiwo zesichasiselo..."
 		},
-		"removeImagesButton": {
-			"text": "Susa izithombe"
-		},
-		"moveImageUpButton": {
-			"text": "Hambisa isithombe phezulu"
-		},
-		"moveImageDownButton": {
-			"text": "Hambisa isithombe phansi"
-		},
 		"annotationSettingsDialog": {
 			"title": "Izilungiselelo zesichasiselo",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Londoloza izichasiselo",
 		"vsdv-annotationListPanel-pageLabel": "Ikhasi",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Izici zesichasiselo",
+		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
 		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
 		"vsdv-dialog-okButton": "KULUNGILE",
 		"vsdv-dialog-cancelButton": "Khansela",

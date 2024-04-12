@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Аннотация үзлекләре..."
 		},
-		"removeImagesButton": {
-			"text": "Рәсемнәрне бетерегез"
-		},
-		"moveImageUpButton": {
-			"text": "Рәсемне өскә күчерегез"
-		},
-		"moveImageDownButton": {
-			"text": "Рәсемне аска күчерегез"
-		},
 		"annotationSettingsDialog": {
 			"title": "Аннотация көйләүләре",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Аннотацияләрне саклагыз",
 		"vsdv-annotationListPanel-pageLabel": "Бит",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Аннотация үзенчәлекләре",
+		"vsdv-uploadFileButton-uploadFileString": "Файлны йөкләү",
 		"vsdv-documentPasswordDialog-title": "Документ серсүзе",
 		"vsdv-dialog-okButton": "ЯРАРМЫ",
 		"vsdv-dialog-cancelButton": "Баш тарту",

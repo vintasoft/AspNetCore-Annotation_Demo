@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Свойства на анотацията..."
 		},
-		"removeImagesButton": {
-			"text": "Премахване на изображения"
-		},
-		"moveImageUpButton": {
-			"text": "Преместване на изображението нагоре"
-		},
-		"moveImageDownButton": {
-			"text": "Преместете изображението надолу"
-		},
 		"annotationSettingsDialog": {
 			"title": "Настройки за анотация",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Запазете анотациите",
 		"vsdv-annotationListPanel-pageLabel": "Страница",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Свойства на анотация",
+		"vsdv-uploadFileButton-uploadFileString": "Качи файл",
 		"vsdv-documentPasswordDialog-title": "Парола за документ",
 		"vsdv-dialog-okButton": "ОК",
 		"vsdv-dialog-cancelButton": "Отказ",

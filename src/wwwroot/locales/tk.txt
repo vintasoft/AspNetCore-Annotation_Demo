@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Annotasiýa aýratynlyklary..."
 		},
-		"removeImagesButton": {
-			"text": "Suratlary aýyryň"
-		},
-		"moveImageUpButton": {
-			"text": "Suraty ýokaryk galdyryň"
-		},
-		"moveImageDownButton": {
-			"text": "Suraty aşak süýşüriň"
-		},
 		"annotationSettingsDialog": {
 			"title": "Annotasiýa sazlamalary",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Bellikleri ýazdyryň",
 		"vsdv-annotationListPanel-pageLabel": "Sahypa",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotasiýa aýratynlyklary",
+		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
 		"vsdv-documentPasswordDialog-title": "Resminamanyň paroly",
 		"vsdv-dialog-okButton": "Bolýar",
 		"vsdv-dialog-cancelButton": "Elatyr",

@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "एनोटेशन गुण..."
 		},
-		"removeImagesButton": {
-			"text": "छवियाँ हटाएँ"
-		},
-		"moveImageUpButton": {
-			"text": "छवि को ऊपर ले जाएं"
-		},
-		"moveImageDownButton": {
-			"text": "छवि को नीचे ले जाएँ"
-		},
 		"annotationSettingsDialog": {
 			"title": "एनोटेशन सेटिंग्स",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "एनोटेशन सहेजें",
 		"vsdv-annotationListPanel-pageLabel": "पेज",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "एनोटेशन गुण",
+		"vsdv-uploadFileButton-uploadFileString": "फ़ाइल अपलोड करें",
 		"vsdv-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
 		"vsdv-dialog-okButton": "ठीक है",
 		"vsdv-dialog-cancelButton": "रद्द करें",

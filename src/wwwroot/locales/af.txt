@@ -758,15 +758,6 @@
 		"annotationPropertiesLabel": {
 			"text": "Annotasie-eienskappe..."
 		},
-		"removeImagesButton": {
-			"text": "Verwyder beelde"
-		},
-		"moveImageUpButton": {
-			"text": "Skuif prent op"
-		},
-		"moveImageDownButton": {
-			"text": "Skuif prent af"
-		},
 		"annotationSettingsDialog": {
 			"title": "Aantekening-instellings",
 			"Border": {
@@ -1023,6 +1014,7 @@
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Stoor aantekeninge",
 		"vsdv-annotationListPanel-pageLabel": "Bladsy",
 		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotasie-eienskappe",
+		"vsdv-uploadFileButton-uploadFileString": "Laai leêr op",
 		"vsdv-documentPasswordDialog-title": "Dokumentwagwoord",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Kanselleer",
