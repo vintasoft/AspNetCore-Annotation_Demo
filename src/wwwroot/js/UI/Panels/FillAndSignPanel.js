@@ -216,8 +216,7 @@ WebFillAndSignPanelJS = function (settings, stateButton) {
 
         var uploadDiv = new Vintasoft.Imaging.UI.UIElements.WebUiElementContainerJS(
             [uploadCertificateFileTextarea, uploadCertificateFileButton],
-            { css: { 'display': "flex", 'align-items': "center" } });
-
+            { css: { 'display': "flex", 'align-items': "center", 'flex-direction': "row", 'flex-wrap': "nowrap" } });
 
         var certificatePasswordLabel = new Vintasoft.Imaging.UI.UIElements.WebUiLabelElementJS(
             {
