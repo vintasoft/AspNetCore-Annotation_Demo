@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "تحديد الحجم"
 		},
+		"showMobileMenuButton": {
+			"title": "المزيد"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "مستطيل"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "نقاط التفاعل المتوسطة"
-		},
-		"showMobileMenuButton": {
-			"title": "المزيد"
 		},
 		"sidePanelCloseButton": {
 			"title": "إظهار الشريط الجانبي"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "يمكن سحب الصور المصغرة:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن التنقل بين الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن تحديد الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن حذف الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
 			"okButton": {
 				"value": "موافق"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "تغيير المصدر"
-			},
-			"okButton": {
-				"value": "موافق"
-			},
-			"cancelButton": {
-				"value": "إلغاء"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "اسم الملف:"
-			},
-			"fileFormatLabel": {
-				"text": "تنسيق الملف:"
-			},
-			"savePagesLabel": {
-				"text": "حفظ الصفحات:"
-			},
-			"allPagesOption": {
-				"text": "كافة الصفحات"
-			},
-			"currentPageOption": {
-				"text": "الصفحة الحالية"
-			},
-			"pagesOption": {
-				"text": "الصفحات"
-			},
-			"saveAnnoLabel": {
-				"text": "حفظ التعليقات التوضيحية"
-			},
-			"burnAnnoLabel": {
-				"text": "حرق التعليقات التوضيحية"
 			},
 			"okButton": {
 				"value": "موافق"
@@ -725,6 +702,38 @@
 				"value": "إلغاء"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "اسم الملف:"
+			},
+			"fileFormatLabel": {
+				"text": "تنسيق الملف:"
+			},
+			"savePagesLabel": {
+				"text": "حفظ الصفحات:"
+			},
+			"allPagesOption": {
+				"text": "كافة الصفحات"
+			},
+			"currentPageOption": {
+				"text": "الصفحة الحالية"
+			},
+			"pagesOption": {
+				"text": "الصفحات"
+			},
+			"saveAnnoLabel": {
+				"text": "حفظ التعليقات التوضيحية"
+			},
+			"burnAnnoLabel": {
+				"text": "حرق التعليقات التوضيحية"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "تدوير العرض في اتجاه عقارب الساعة"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "خصائص التعليق ..."
 		},
+		"removeImagesButton": {
+			"text": "إزالة الصور"
+		},
+		"moveImageUpButton": {
+			"text": "حرك الصورة لأعلى"
+		},
+		"moveImageDownButton": {
+			"text": "نقل الصورة إلى أسفل"
+		},
 		"annotationSettingsDialog": {
 			"title": "إعدادات التعليقات التوضيحية",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "الحدود:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "تحميل وفتح الملف",
 		"vsdv-uploadAndAddFileButton-addFileString": "تحميل وإضافة الملف",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "حرق التعليقات التوضيحية",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "حفظ التعليقات التوضيحية",
+		"vsui-annotationListPanel-pageLabel": "الصفحة",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "خصائص التعليق التوضيحي",
+		"vsui-annotationCommentListPanel-review": "تعليقات",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "تم إنشاء {0} بواسطة {1}",
 		"vsdv-openFile-addFileString": "اضف ملف",
 		"vsdv-openFile-authenticateFileString": "مصادقة الملف",
 		"vsdv-downloadFile-actionMessage": "تحميل الملف",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "حفظ التغييرات في التعليقات التوضيحية",
 		"vsdv-saveChanges-burnAnnotationsInImages": "حرق التعليقات التوضيحية على الصور",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "حرق التعليقات التوضيحية",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "حفظ التعليقات التوضيحية",
-		"vsdv-annotationListPanel-pageLabel": "الصفحة",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "خصائص التعليق التوضيحي",
-		"vsdv-uploadFileButton-uploadFileString": "رفع ملف",
-		"vsdv-documentPasswordDialog-title": "كلمة مرور المستند",
+		"vsui-documentPasswordDialog-title": "كلمة مرور المستند",
+		"vsui-dialog-okButton": "موافق",
+		"vsui-dialog-cancelButton": "إلغاء",
+		"vsui-documentPasswordPanel-authenticateFileString": "مصادقة الملف",
+		"vsui-imageSelectionDialog-title": "اختر الصور",
+		"vsui-imageSelectionDialog-currentImageString": "الصورة الحالية",
+		"vsui-imageSelectionDialog-allImagesString": "كل الصور",
+		"vsui-imageSelectionDialog-customImagesString": "مخصص",
+		"vsui-printImagesDialog-title": "طباعة الصور",
+		"vsui-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
+		"vsui-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
+		"vsui-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
+		"vsui-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "تدوير الصورة المشروحة",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "زاوية الدوران يجب ألا تكون 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة",
+		"vsui-annotationCommentSettingsDialog-title": "تحرير التعليق التوضيحي",
+		"vsui-dialog-deleteButton": "حذف",
+		"vsui-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف",
 		"vsdv-dialog-okButton": "موافق",
-		"vsdv-dialog-cancelButton": "إلغاء",
-		"vsdv-documentPasswordPanel-authenticateFileString": "مصادقة الملف",
-		"vsdv-imageSelectionDialog-title": "اختر الصور",
-		"vsdv-imageSelectionDialog-currentImageString": "الصورة الحالية",
-		"vsdv-imageSelectionDialog-allImagesString": "كل الصور",
-		"vsdv-imageSelectionDialog-customImagesString": "مخصص",
-		"vsdv-printImagesDialog-title": "طباعة الصور",
-		"vsdv-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
-		"vsdv-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
-		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "تدوير الصورة المشروحة",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "زاوية الدوران يجب ألا تكون 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة",
-		"vsdv-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف",
-		"vsdv-annotationCommentSettingsDialog-title": "تحرير التعليق التوضيحي",
-		"vsdv-dialog-deleteButton": "حذف"
+		"vsdv-dialog-cancelButton": "إلغاء"
 	}
 }

@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "スケールの選択"
 		},
+		"showMobileMenuButton": {
+			"title": "詳細"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "長方形"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "中間のインタラクション ポイント"
-		},
-		"showMobileMenuButton": {
-			"title": "詳細"
 		},
 		"sidePanelCloseButton": {
 			"title": "サイドバーを表示"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "サムネイルをドラッグできます:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "キーボードを使用してサムネイルをナビゲートできます:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "キーボードを使用してサムネイルを選択できます:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "キーボードを使用してサムネイルを削除できます:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "ソースを変更"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "キャンセル"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "ファイル名："
-			},
-			"fileFormatLabel": {
-				"text": "ファイル形式:"
-			},
-			"savePagesLabel": {
-				"text": "ページを保存します。"
-			},
-			"allPagesOption": {
-				"text": "すべてのページ"
-			},
-			"currentPageOption": {
-				"text": "現在のページ"
-			},
-			"pagesOption": {
-				"text": "ページ"
-			},
-			"saveAnnoLabel": {
-				"text": "注釈の保存"
-			},
-			"burnAnnoLabel": {
-				"text": "注釈を書き込む"
 			},
 			"okButton": {
 				"value": "OK"
@@ -725,6 +702,38 @@
 				"value": "キャンセル"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "ファイル名："
+			},
+			"fileFormatLabel": {
+				"text": "ファイル形式:"
+			},
+			"savePagesLabel": {
+				"text": "ページを保存します。"
+			},
+			"allPagesOption": {
+				"text": "すべてのページ"
+			},
+			"currentPageOption": {
+				"text": "現在のページ"
+			},
+			"pagesOption": {
+				"text": "ページ"
+			},
+			"saveAnnoLabel": {
+				"text": "注釈の保存"
+			},
+			"burnAnnoLabel": {
+				"text": "注釈を書き込む"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "ビューを時計回りに回転"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "注釈のプロパティ..."
 		},
+		"removeImagesButton": {
+			"text": "画像を削除する"
+		},
+		"moveImageUpButton": {
+			"text": "画像を上に移動"
+		},
+		"moveImageDownButton": {
+			"text": "画像を下に移動"
+		},
 		"annotationSettingsDialog": {
 			"title": "注釈設定",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "境界:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "ファイルをダウンロードして開きます",
 		"vsdv-uploadAndAddFileButton-addFileString": "ファイルをアップロードして追加する",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "注釈を書き込む",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "注釈の保存",
+		"vsui-annotationListPanel-pageLabel": "ページ",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "注釈のプロパティ",
+		"vsui-annotationCommentListPanel-review": "コメント",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} は {1} によって作成されました",
 		"vsdv-openFile-addFileString": "ファイルを追加",
 		"vsdv-openFile-authenticateFileString": "ファイルを認証する",
 		"vsdv-downloadFile-actionMessage": "ダウンロードファイル",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "注釈の変更を保存する",
 		"vsdv-saveChanges-burnAnnotationsInImages": "画像に注釈を書き込む",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "注釈を書き込む",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "注釈の保存",
-		"vsdv-annotationListPanel-pageLabel": "ページ",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "注釈のプロパティ",
-		"vsdv-uploadFileButton-uploadFileString": "ファイルをアップロードする",
-		"vsdv-documentPasswordDialog-title": "文書のパスワード",
+		"vsui-documentPasswordDialog-title": "文書のパスワード",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "キャンセル",
+		"vsui-documentPasswordPanel-authenticateFileString": "ファイルを認証する",
+		"vsui-imageSelectionDialog-title": "画像を選択",
+		"vsui-imageSelectionDialog-currentImageString": "現在の画像",
+		"vsui-imageSelectionDialog-allImagesString": "すべての画像",
+		"vsui-imageSelectionDialog-customImagesString": "カスタム",
+		"vsui-printImagesDialog-title": "画像を印刷",
+		"vsui-printImagesPanel-imagePrintingString": "画像を印刷中です",
+		"vsui-printImagesPanel-withAnnotationsLabel": "注釈あり",
+		"vsui-imageViewerSettingsDialog-title": "画像ビューアの設定",
+		"vsui-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "注釈付き画像を回転",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "回転角度は 0 であってはなりません。",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注釈付き画像は回転中です",
+		"vsui-annotationCommentSettingsDialog-title": "注釈のコメントを編集する",
+		"vsui-dialog-deleteButton": "削除",
+		"vsui-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "キャンセル",
-		"vsdv-documentPasswordPanel-authenticateFileString": "ファイルを認証する",
-		"vsdv-imageSelectionDialog-title": "画像を選択",
-		"vsdv-imageSelectionDialog-currentImageString": "現在の画像",
-		"vsdv-imageSelectionDialog-allImagesString": "すべての画像",
-		"vsdv-imageSelectionDialog-customImagesString": "カスタム",
-		"vsdv-printImagesDialog-title": "画像を印刷",
-		"vsdv-printImagesPanel-imagePrintingString": "画像を印刷中です",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "注釈あり",
-		"vsdv-imageViewerSettingsDialog-title": "画像ビューアの設定",
-		"vsdv-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "注釈付き画像を回転",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "回転角度は 0 であってはなりません。",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注釈付き画像は回転中です",
-		"vsdv-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定",
-		"vsdv-annotationCommentSettingsDialog-title": "注釈のコメントを編集する",
-		"vsdv-dialog-deleteButton": "削除"
+		"vsdv-dialog-cancelButton": "キャンセル"
 	}
 }

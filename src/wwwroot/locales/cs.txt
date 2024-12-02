@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Výběr měřítka"
 		},
+		"showMobileMenuButton": {
+			"title": "Více"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Obdélník"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Střední body interakce"
-		},
-		"showMobileMenuButton": {
-			"title": "Více"
 		},
 		"sidePanelCloseButton": {
 			"title": "Zobrazit postranní panel"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Může přetahovat miniatury:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Může procházet miniaturami pomocí klávesnice:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Lze vybrat miniatury pomocí klávesnice:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Může mazat miniatury pomocí klávesnice:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Změnit zdroj"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Zrušit"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Název souboru:"
-			},
-			"fileFormatLabel": {
-				"text": "Formát souboru:"
-			},
-			"savePagesLabel": {
-				"text": "Uložte stránky:"
-			},
-			"allPagesOption": {
-				"text": "Všechny stránky"
-			},
-			"currentPageOption": {
-				"text": "Aktuální stránka"
-			},
-			"pagesOption": {
-				"text": "Stránky"
-			},
-			"saveAnnoLabel": {
-				"text": "Uložit anotace"
-			},
-			"burnAnnoLabel": {
-				"text": "Vypálit anotace"
 			},
 			"okButton": {
 				"value": "OK"
@@ -725,6 +702,38 @@
 				"value": "Zrušit"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Název souboru:"
+			},
+			"fileFormatLabel": {
+				"text": "Formát souboru:"
+			},
+			"savePagesLabel": {
+				"text": "Uložte stránky:"
+			},
+			"allPagesOption": {
+				"text": "Všechny stránky"
+			},
+			"currentPageOption": {
+				"text": "Aktuální stránka"
+			},
+			"pagesOption": {
+				"text": "Stránky"
+			},
+			"saveAnnoLabel": {
+				"text": "Uložit anotace"
+			},
+			"burnAnnoLabel": {
+				"text": "Vypálit anotace"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Otočit pohled ve směru hodinových ručiček"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Vlastnosti anotace..."
 		},
+		"removeImagesButton": {
+			"text": "Odebrat obrázky"
+		},
+		"moveImageUpButton": {
+			"text": "Posuňte obrázek nahoru"
+		},
+		"moveImageDownButton": {
+			"text": "Posuňte obrázek dolů"
+		},
 		"annotationSettingsDialog": {
 			"title": "Nastavení anotace",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Hranice:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Stáhněte a otevřete soubor",
 		"vsdv-uploadAndAddFileButton-addFileString": "Nahrajte a přidejte soubor",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Vypálit anotace",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Uložit anotace",
+		"vsui-annotationListPanel-pageLabel": "Stránka",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Vlastnosti anotace",
+		"vsui-annotationCommentListPanel-review": "Komentáře",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} vytvořil {1}",
 		"vsdv-openFile-addFileString": "Přidat soubor",
 		"vsdv-openFile-authenticateFileString": "Ověření souboru",
 		"vsdv-downloadFile-actionMessage": "Stáhnout soubor",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Uložte změny v anotacích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Vypálit poznámky na obrázky",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Uložte změny do dokumentu PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Vypálit anotace",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Uložit anotace",
-		"vsdv-annotationListPanel-pageLabel": "Stránka",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Vlastnosti anotace",
-		"vsdv-uploadFileButton-uploadFileString": "Nahrát soubor",
-		"vsdv-documentPasswordDialog-title": "Heslo dokumentu",
+		"vsui-documentPasswordDialog-title": "Heslo dokumentu",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Zrušit",
+		"vsui-documentPasswordPanel-authenticateFileString": "Ověření souboru",
+		"vsui-imageSelectionDialog-title": "Vyberte obrázky",
+		"vsui-imageSelectionDialog-currentImageString": "Aktuální obrázek",
+		"vsui-imageSelectionDialog-allImagesString": "Všechny obrázky",
+		"vsui-imageSelectionDialog-customImagesString": "Vlastní",
+		"vsui-printImagesDialog-title": "Tisk obrázků",
+		"vsui-printImagesPanel-imagePrintingString": "Obrázek se tiskne",
+		"vsui-printImagesPanel-withAnnotationsLabel": "s poznámkami",
+		"vsui-imageViewerSettingsDialog-title": "Nastavení prohlížeče obrázků",
+		"vsui-thumbnailViewerSettingDialog-title": "Nastavení prohlížeče miniatur",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobrazení poznámek na miniaturách:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Otočit anotovaný obrázek",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Úhel otočení nesmí být 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Anotovaný obrázek se otáčí",
+		"vsui-annotationCommentSettingsDialog-title": "Upravte komentář anotace",
+		"vsui-dialog-deleteButton": "Smazat",
+		"vsui-exportFileSettingsDialog-title": "Nastavení pro export souboru",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Zrušit",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Ověření souboru",
-		"vsdv-imageSelectionDialog-title": "Vyberte obrázky",
-		"vsdv-imageSelectionDialog-currentImageString": "Aktuální obrázek",
-		"vsdv-imageSelectionDialog-allImagesString": "Všechny obrázky",
-		"vsdv-imageSelectionDialog-customImagesString": "Vlastní",
-		"vsdv-printImagesDialog-title": "Tisk obrázků",
-		"vsdv-printImagesPanel-imagePrintingString": "Obrázek se tiskne",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "s poznámkami",
-		"vsdv-imageViewerSettingsDialog-title": "Nastavení prohlížeče obrázků",
-		"vsdv-thumbnailViewerSettingDialog-title": "Nastavení prohlížeče miniatur",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobrazení poznámek na miniaturách:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Otočit anotovaný obrázek",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Úhel otočení nesmí být 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Anotovaný obrázek se otáčí",
-		"vsdv-exportFileSettingsDialog-title": "Nastavení pro export souboru",
-		"vsdv-annotationCommentSettingsDialog-title": "Upravte komentář anotace",
-		"vsdv-dialog-deleteButton": "Smazat"
+		"vsdv-dialog-cancelButton": "Zrušit"
 	}
 }

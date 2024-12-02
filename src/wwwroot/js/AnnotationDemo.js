@@ -48,7 +48,7 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
  Creates UI button for activating the visual tool, which allows to annotate and pan images in image viewer.
 */
 function __createAnnotationAndPanToolButton() {
-    return new Vintasoft.Imaging.DocumentViewer.UIElements.WebUiVisualToolButtonJS({
+    return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
         cssClass: "vsdv-tools-panButton",
         title: "Pan",
         localizationId: "panToolButton"
@@ -127,9 +127,13 @@ function __initMenu(docViewerSettings) {
     // get items of document viewer
     var items = docViewerSettings.get_Items();
 
-    var uploadFileButton = items.getItemByRegisteredId("uploadFileButton");
-    if (uploadFileButton != null)
-        uploadFileButton.set_FileExtensionFilter(".bmp, .cur, .gif, .ico, .j2c, .j2k, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff");
+    var uploadAndOpenFileButton = items.getItemByRegisteredId("uploadAndOpenFileButton");
+    if (uploadAndOpenFileButton != null)
+        uploadAndOpenFileButton.set_FileExtensionFilter(".bmp, .cur, .gif, .ico, .j2c, .j2k, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff");
+
+    var uploadAndAddFileButton = items.getItemByRegisteredId("uploadAndAddFileButton");
+    if (uploadAndAddFileButton != null)
+        uploadAndAddFileButton.set_FileExtensionFilter(".bmp, .cur, .gif, .ico, .j2c, .j2k, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff");
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");
@@ -489,42 +493,42 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     documentPasswordDialog.render(floatingContainer);
     tempDialogs.push(documentPasswordDialog);
 
-    var imageSelectionDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageSelectionDialogJS();
+    var imageSelectionDialog = new Vintasoft.Imaging.UI.Dialogs.WebImageSelectionDialogJS();
     imageSelectionDialog.render(floatingContainer);
     tempDialogs.push(imageSelectionDialog);
 
-    var printImagesDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebPrintImagesDialogJS();
+    var printImagesDialog = new Vintasoft.Imaging.UI.Dialogs.WebPrintImagesDialogJS();
     printImagesDialog.render(floatingContainer);
     tempDialogs.push(printImagesDialog);
 
-    var imageViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageViewerSettingsDialogJS();
+    var imageViewerSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebImageViewerSettingsDialogJS();
     imageViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(imageViewerSettingsDialog);
 
-    var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebThumbnailViewerSettingsDialogJS();
+    var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebThumbnailViewerSettingsDialogJS();
     thumbnailViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(thumbnailViewerSettingsDialog);
 
-    var rotateImageWithAnnotationsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebRotateImageWithAnnotationsDialogJS();
+    var rotateImageWithAnnotationsDialog = new Vintasoft.Imaging.Annotation.UI.Dialogs.WebRotateImageWithAnnotationsDialogJS();
     rotateImageWithAnnotationsDialog.render(floatingContainer);
     tempDialogs.push(rotateImageWithAnnotationsDialog);
-
-    var exportFileSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebExportFileSettingsDialogJS();
-    exportFileSettingsDialog.render(floatingContainer);
-    tempDialogs.push(exportFileSettingsDialog);
-    
-    var annotationCommentSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiAnnotationCommentSettingsDialogJS();
+   
+    var annotationCommentSettingsDialog = new Vintasoft.Imaging.Annotation.UI.Dialogs.WebUiAnnotationCommentSettingsDialogJS();
     annotationCommentSettingsDialog.render(floatingContainer);
     tempDialogs.push(annotationCommentSettingsDialog);
 
+    var exportFileSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebExportFileSettingsDialogJS();
+    exportFileSettingsDialog.render(floatingContainer);
+    tempDialogs.push(exportFileSettingsDialog);
+
 
     // create annotation viewer context menu panel
-    var annoViewerContextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebAnnotationViewerContextMenuJS();
+    var annoViewerContextMenu = new Vintasoft.Imaging.Annotation.UI.UIElements.WebAnnotationViewerContextMenuJS();
     annoViewerContextMenu.render(floatingContainer);
     tempDialogs.push(annoViewerContextMenu);
 
     // create thumbnail viewer context menu panel
-    var thumbnailViewerContextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebThumbnailViewerContextMenuJS(_docViewer._thumbnailViewer, {});
+    var thumbnailViewerContextMenu = new Vintasoft.Imaging.UI.UIElements.WebThumbnailViewerContextMenuJS(_docViewer.get_ThumbnailViewer(), {});
     thumbnailViewerContextMenu.render(floatingContainer);
     tempDialogs.push(thumbnailViewerContextMenu);
 }

@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Skalavalg"
 		},
+		"showMobileMenuButton": {
+			"title": "Mer"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Rektangel"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middels interaksjonspunkter"
-		},
-		"showMobileMenuButton": {
-			"title": "Mer"
 		},
 		"sidePanelCloseButton": {
 			"title": "Vis sidefelt"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan dra miniatyrbilder:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan navigere miniatyrbilder ved hjelp av tastatur:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan velge miniatyrbilder ved hjelp av tastaturet:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan slette miniatyrbilder ved hjelp av tastatur:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Endre kilde"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Avbryt"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Filnavn:"
-			},
-			"fileFormatLabel": {
-				"text": "Filformat:"
-			},
-			"savePagesLabel": {
-				"text": "Lagre sidene:"
-			},
-			"allPagesOption": {
-				"text": "Alle sider"
-			},
-			"currentPageOption": {
-				"text": "Gjeldende side"
-			},
-			"pagesOption": {
-				"text": "Sider"
-			},
-			"saveAnnoLabel": {
-				"text": "Lagre merknader"
-			},
-			"burnAnnoLabel": {
-				"text": "Brenn merknader"
 			},
 			"okButton": {
 				"value": "OK"
@@ -725,6 +702,38 @@
 				"value": "Avbryt"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Filnavn:"
+			},
+			"fileFormatLabel": {
+				"text": "Filformat:"
+			},
+			"savePagesLabel": {
+				"text": "Lagre sidene:"
+			},
+			"allPagesOption": {
+				"text": "Alle sider"
+			},
+			"currentPageOption": {
+				"text": "Gjeldende side"
+			},
+			"pagesOption": {
+				"text": "Sider"
+			},
+			"saveAnnoLabel": {
+				"text": "Lagre merknader"
+			},
+			"burnAnnoLabel": {
+				"text": "Brenn merknader"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Roter visningen med klokken"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Annoteringsegenskaper..."
 		},
+		"removeImagesButton": {
+			"text": "Fjern bilder"
+		},
+		"moveImageUpButton": {
+			"text": "Flytt bildet opp"
+		},
+		"moveImageDownButton": {
+			"text": "Flytt bildet ned"
+		},
 		"annotationSettingsDialog": {
 			"title": "Annoteringsinnstillinger",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "Autofontstørrelse:"
+			},
 			"Border": {
 				"text": "Grense:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Last ned og åpne filen",
 		"vsdv-uploadAndAddFileButton-addFileString": "Last opp og legg til fil",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Brenn merknader",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Lagre merknader",
+		"vsui-annotationListPanel-pageLabel": "Side",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaper",
+		"vsui-annotationCommentListPanel-review": "Kommentarer",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} er opprettet av {1}",
 		"vsdv-openFile-addFileString": "Legg til fil",
 		"vsdv-openFile-authenticateFileString": "Autentiser filen",
 		"vsdv-downloadFile-actionMessage": "Last ned fil",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lagre endringer i merknader",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brenn merknader på bilder",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Lagre endringer i PDF-dokument",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Brenn merknader",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Lagre merknader",
-		"vsdv-annotationListPanel-pageLabel": "Side",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaper",
-		"vsdv-uploadFileButton-uploadFileString": "Last opp fil",
-		"vsdv-documentPasswordDialog-title": "Dokumentpassord",
+		"vsui-documentPasswordDialog-title": "Dokumentpassord",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Avbryt",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentiser filen",
+		"vsui-imageSelectionDialog-title": "Velg bilder",
+		"vsui-imageSelectionDialog-currentImageString": "Gjeldende bilde",
+		"vsui-imageSelectionDialog-allImagesString": "Alle bilder",
+		"vsui-imageSelectionDialog-customImagesString": "Egendefinert",
+		"vsui-printImagesDialog-title": "Skriv ut bilder",
+		"vsui-printImagesPanel-imagePrintingString": "Bildet skrives ut",
+		"vsui-printImagesPanel-withAnnotationsLabel": "med merknader",
+		"vsui-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
+		"vsui-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Roter annotert bilde",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotasjonsvinkelen må ikke være 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommentert bilde blir rotert",
+		"vsui-annotationCommentSettingsDialog-title": "Rediger kommentarkommentaren",
+		"vsui-dialog-deleteButton": "Slett",
+		"vsui-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Avbryt",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentiser filen",
-		"vsdv-imageSelectionDialog-title": "Velg bilder",
-		"vsdv-imageSelectionDialog-currentImageString": "Gjeldende bilde",
-		"vsdv-imageSelectionDialog-allImagesString": "Alle bilder",
-		"vsdv-imageSelectionDialog-customImagesString": "Egendefinert",
-		"vsdv-printImagesDialog-title": "Skriv ut bilder",
-		"vsdv-printImagesPanel-imagePrintingString": "Bildet skrives ut",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "med merknader",
-		"vsdv-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
-		"vsdv-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Roter annotert bilde",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotasjonsvinkelen må ikke være 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommentert bilde blir rotert",
-		"vsdv-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen",
-		"vsdv-annotationCommentSettingsDialog-title": "Rediger kommentarkommentaren",
-		"vsdv-dialog-deleteButton": "Slett"
+		"vsdv-dialog-cancelButton": "Avbryt"
 	}
 }

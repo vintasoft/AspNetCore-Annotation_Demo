@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Izbira povečave"
 		},
+		"showMobileMenuButton": {
+			"title": "Več"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Pravokotnik"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Srednje interakcijske točke"
-		},
-		"showMobileMenuButton": {
-			"title": "Več"
 		},
 		"sidePanelCloseButton": {
 			"title": "Pokaži stransko ploščo"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Lahko povlečete sličice:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Lahko krmarite po sličicah s tipkovnico:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Lahko izberete sličice s tipkovnico:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Lahko izbrišete sličice s tipkovnico:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Spremeni vir"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Prekliči"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Ime datoteke:"
-			},
-			"fileFormatLabel": {
-				"text": "Format datoteke:"
-			},
-			"savePagesLabel": {
-				"text": "Shrani strani:"
-			},
-			"allPagesOption": {
-				"text": "Vse strani"
-			},
-			"currentPageOption": {
-				"text": "Trenutna stran"
-			},
-			"pagesOption": {
-				"text": "Strani"
-			},
-			"saveAnnoLabel": {
-				"text": "Shranite opombe"
-			},
-			"burnAnnoLabel": {
-				"text": "Zapiši opombe"
 			},
 			"okButton": {
 				"value": "OK"
@@ -725,6 +702,38 @@
 				"value": "Prekliči"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ime datoteke:"
+			},
+			"fileFormatLabel": {
+				"text": "Format datoteke:"
+			},
+			"savePagesLabel": {
+				"text": "Shrani strani:"
+			},
+			"allPagesOption": {
+				"text": "Vse strani"
+			},
+			"currentPageOption": {
+				"text": "Trenutna stran"
+			},
+			"pagesOption": {
+				"text": "Strani"
+			},
+			"saveAnnoLabel": {
+				"text": "Shranite opombe"
+			},
+			"burnAnnoLabel": {
+				"text": "Zapiši opombe"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Zasukaj pogled v smeri urinega kazalca"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Lastnosti pripisov ..."
 		},
+		"removeImagesButton": {
+			"text": "Odstranite slike"
+		},
+		"moveImageUpButton": {
+			"text": "Premakni sliko navzgor"
+		},
+		"moveImageDownButton": {
+			"text": "Premakni sliko navzdol"
+		},
 		"annotationSettingsDialog": {
 			"title": "Nastavitve pripisov",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "Samodejna velikost pisave:"
+			},
 			"Border": {
 				"text": "Meja:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Naloži in odpri datoteko",
 		"vsdv-uploadAndAddFileButton-addFileString": "Naložite in dodajte datoteko",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Zapiši opombe",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Shranite opombe",
+		"vsui-annotationListPanel-pageLabel": "Stran",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Lastnosti pripisov",
+		"vsui-annotationCommentListPanel-review": "Pregled",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} je ustvaril {1}",
 		"vsdv-openFile-addFileString": "Dodaj datoteko",
 		"vsdv-openFile-authenticateFileString": "Preveri pristnost datoteke",
 		"vsdv-downloadFile-actionMessage": "Prenesi datoteko",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Shranite spremembe v opombah",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Zapiši opombe na slike",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Shranite spremembe v dokument PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Zapiši opombe",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Shranite opombe",
-		"vsdv-annotationListPanel-pageLabel": "Stran",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Lastnosti pripisov",
-		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
-		"vsdv-documentPasswordDialog-title": "Geslo za dokument",
+		"vsui-documentPasswordDialog-title": "Geslo za dokument",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Prekliči",
+		"vsui-documentPasswordPanel-authenticateFileString": "Preveri pristnost datoteke",
+		"vsui-imageSelectionDialog-title": "Izberite slike",
+		"vsui-imageSelectionDialog-currentImageString": "Trenutna slika",
+		"vsui-imageSelectionDialog-allImagesString": "Vse slike",
+		"vsui-imageSelectionDialog-customImagesString": "Po meri",
+		"vsui-printImagesDialog-title": "Natisnite slike",
+		"vsui-printImagesPanel-imagePrintingString": "Slika se tiska",
+		"vsui-printImagesPanel-withAnnotationsLabel": "z opombami",
+		"vsui-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
+		"vsui-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Zasukaj sliko z opombami",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kot vrtenja mora biti večji od nič.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Vrteča se slika z opombami",
+		"vsui-annotationCommentSettingsDialog-title": "Uredite komentar opombe",
+		"vsui-dialog-deleteButton": "Izbriši",
+		"vsui-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Prekliči",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Preveri pristnost datoteke",
-		"vsdv-imageSelectionDialog-title": "Izberite slike",
-		"vsdv-imageSelectionDialog-currentImageString": "Trenutna slika",
-		"vsdv-imageSelectionDialog-allImagesString": "Vse slike",
-		"vsdv-imageSelectionDialog-customImagesString": "Po meri",
-		"vsdv-printImagesDialog-title": "Natisnite slike",
-		"vsdv-printImagesPanel-imagePrintingString": "Slika se tiska",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "z opombami",
-		"vsdv-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
-		"vsdv-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Zasukaj sliko z opombami",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kot vrtenja mora biti večji od nič.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Vrteča se slika z opombami",
-		"vsdv-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke",
-		"vsdv-annotationCommentSettingsDialog-title": "Uredite komentar opombe",
-		"vsdv-dialog-deleteButton": "Izbriši"
+		"vsdv-dialog-cancelButton": "Prekliči"
 	}
 }

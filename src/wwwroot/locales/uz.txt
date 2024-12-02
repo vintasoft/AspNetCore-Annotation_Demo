@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Kattalashtirish tanlovi"
 		},
+		"showMobileMenuButton": {
+			"title": "Ko'proq"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "To'rtburchak"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "O'rta o'zaro ta'sir nuqtalari"
-		},
-		"showMobileMenuButton": {
-			"title": "Ko'proq"
 		},
 		"sidePanelCloseButton": {
 			"title": "Yon panelni ko'rsatish"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Eskizlarni tortib olish mumkin:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviatura yordamida eskizlarni navigatsiya qilish mumkin:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviatura yordamida eskizlarni tanlash mumkin:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviatura yordamida eskizlarni o'chirish mumkin:"
+			},
 			"okButton": {
 				"value": "KELISHDIKMI"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Manbani o'zgartirish"
-			},
-			"okButton": {
-				"value": "KELISHDIKMI"
-			},
-			"cancelButton": {
-				"value": "Bekor qilish"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Fayl nomi:"
-			},
-			"fileFormatLabel": {
-				"text": "Fayl formati:"
-			},
-			"savePagesLabel": {
-				"text": "Sahifalarni saqlang:"
-			},
-			"allPagesOption": {
-				"text": "Barcha sahifalar"
-			},
-			"currentPageOption": {
-				"text": "Joriy sahifa"
-			},
-			"pagesOption": {
-				"text": "Sahifalar"
-			},
-			"saveAnnoLabel": {
-				"text": "Izohlarni saqlang"
-			},
-			"burnAnnoLabel": {
-				"text": "Izohlarni yoqish"
 			},
 			"okButton": {
 				"value": "KELISHDIKMI"
@@ -725,6 +702,38 @@
 				"value": "Bekor qilish"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Fayl nomi:"
+			},
+			"fileFormatLabel": {
+				"text": "Fayl formati:"
+			},
+			"savePagesLabel": {
+				"text": "Sahifalarni saqlang:"
+			},
+			"allPagesOption": {
+				"text": "Barcha sahifalar"
+			},
+			"currentPageOption": {
+				"text": "Joriy sahifa"
+			},
+			"pagesOption": {
+				"text": "Sahifalar"
+			},
+			"saveAnnoLabel": {
+				"text": "Izohlarni saqlang"
+			},
+			"burnAnnoLabel": {
+				"text": "Izohlarni yoqish"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Ko'rinishni soat yo'nalishi bo'yicha aylantiring"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Izoh xususiyatlari..."
 		},
+		"removeImagesButton": {
+			"text": "Rasmlarni olib tashlang"
+		},
+		"moveImageUpButton": {
+			"text": "Rasmni yuqoriga siljiting"
+		},
+		"moveImageDownButton": {
+			"text": "Rasmni pastga siljiting"
+		},
 		"annotationSettingsDialog": {
 			"title": "Annotatsiya sozlamalari",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Chegarasi:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faylni yuklang va oching",
 		"vsdv-uploadAndAddFileButton-addFileString": "Faylni yuklang va qo'shing",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Izohlarni yoqish",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Izohlarni saqlang",
+		"vsui-annotationListPanel-pageLabel": "Sahifa",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Izoh xususiyatlari",
+		"vsui-annotationCommentListPanel-review": "Ko‘rib chiqish",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} {1} tomonidan yaratilgan",
 		"vsdv-openFile-addFileString": "Fayl qo'shish",
 		"vsdv-openFile-authenticateFileString": "Faylni autentifikatsiya qilish",
 		"vsdv-downloadFile-actionMessage": "Faylni yuklab oling",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Izohlardagi o'zgarishlarni saqlang",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Rasmlarga izohlarni yozish",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "O'zgarishlarni PDF hujjatida saqlang",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Izohlarni yoqish",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Izohlarni saqlang",
-		"vsdv-annotationListPanel-pageLabel": "Sahifa",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Izoh xususiyatlari",
-		"vsdv-uploadFileButton-uploadFileString": "Faylni yuklash",
-		"vsdv-documentPasswordDialog-title": "Hujjat uchun parol",
+		"vsui-documentPasswordDialog-title": "Hujjat uchun parol",
+		"vsui-dialog-okButton": "KELISHDIKMI",
+		"vsui-dialog-cancelButton": "Bekor qilish",
+		"vsui-documentPasswordPanel-authenticateFileString": "Faylni autentifikatsiya qilish",
+		"vsui-imageSelectionDialog-title": "Rasmlarni tanlang",
+		"vsui-imageSelectionDialog-currentImageString": "Joriy rasm",
+		"vsui-imageSelectionDialog-allImagesString": "Barcha rasmlar",
+		"vsui-imageSelectionDialog-customImagesString": "Maxsus",
+		"vsui-printImagesDialog-title": "Rasmlarni chop etish",
+		"vsui-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
+		"vsui-printImagesPanel-withAnnotationsLabel": "izohlar bilan",
+		"vsui-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
+		"vsui-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Tasvirni izohlar bilan aylantiring",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Burilish burchagi noldan ortiq bo'lishi kerak.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izohlar bilan aylantiriladigan rasm",
+		"vsui-annotationCommentSettingsDialog-title": "Izoh sharhini tahrirlang",
+		"vsui-dialog-deleteButton": "Oʻchirish",
+		"vsui-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar",
 		"vsdv-dialog-okButton": "KELISHDIKMI",
-		"vsdv-dialog-cancelButton": "Bekor qilish",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Faylni autentifikatsiya qilish",
-		"vsdv-imageSelectionDialog-title": "Rasmlarni tanlang",
-		"vsdv-imageSelectionDialog-currentImageString": "Joriy rasm",
-		"vsdv-imageSelectionDialog-allImagesString": "Barcha rasmlar",
-		"vsdv-imageSelectionDialog-customImagesString": "Maxsus",
-		"vsdv-printImagesDialog-title": "Rasmlarni chop etish",
-		"vsdv-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "izohlar bilan",
-		"vsdv-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
-		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Tasvirni izohlar bilan aylantiring",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Burilish burchagi noldan ortiq bo'lishi kerak.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izohlar bilan aylantiriladigan rasm",
-		"vsdv-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar",
-		"vsdv-annotationCommentSettingsDialog-title": "Izoh sharhini tahrirlang",
-		"vsdv-dialog-deleteButton": "Oʻchirish"
+		"vsdv-dialog-cancelButton": "Bekor qilish"
 	}
 }

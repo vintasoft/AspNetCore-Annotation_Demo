@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Чоңойтуу тандоо"
 		},
+		"showMobileMenuButton": {
+			"title": "Дагы"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Төрт бурчтук"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Орточо өз ара аракеттенүү пункттары"
-		},
-		"showMobileMenuButton": {
-			"title": "Дагы"
 		},
 		"sidePanelCloseButton": {
 			"title": "Каптал панелди көрсөтүү"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Эскиздерди сүйрө алат:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди башкара алат:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди тандай алат:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди жок кыла алат:"
+			},
 			"okButton": {
 				"value": "макул"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Булакты өзгөртүү"
-			},
-			"okButton": {
-				"value": "макул"
-			},
-			"cancelButton": {
-				"value": "Жокко чыгаруу"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Шилтемелер аты:"
-			},
-			"fileFormatLabel": {
-				"text": "Файлдын форматы:"
-			},
-			"savePagesLabel": {
-				"text": "Барактарды сактоо:"
-			},
-			"allPagesOption": {
-				"text": "Бардык баракчалар"
-			},
-			"currentPageOption": {
-				"text": "Учурдагы бет"
-			},
-			"pagesOption": {
-				"text": "Барактар"
-			},
-			"saveAnnoLabel": {
-				"text": "Аннотацияларды сактоо"
-			},
-			"burnAnnoLabel": {
-				"text": "Аннотацияларды күйгүзүү"
 			},
 			"okButton": {
 				"value": "макул"
@@ -725,6 +702,38 @@
 				"value": "Жокко чыгаруу"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Шилтемелер аты:"
+			},
+			"fileFormatLabel": {
+				"text": "Файлдын форматы:"
+			},
+			"savePagesLabel": {
+				"text": "Барактарды сактоо:"
+			},
+			"allPagesOption": {
+				"text": "Бардык баракчалар"
+			},
+			"currentPageOption": {
+				"text": "Учурдагы бет"
+			},
+			"pagesOption": {
+				"text": "Барактар"
+			},
+			"saveAnnoLabel": {
+				"text": "Аннотацияларды сактоо"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияларды күйгүзүү"
+			},
+			"okButton": {
+				"value": "макул"
+			},
+			"cancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Көрүнүштү саат жебеси боюнча буруңуз"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Аннотация касиеттери..."
 		},
+		"removeImagesButton": {
+			"text": "Сүрөттөрдү алып салуу"
+		},
+		"moveImageUpButton": {
+			"text": "Сүрөттү өйдө жылдырыңыз"
+		},
+		"moveImageDownButton": {
+			"text": "Сүрөттү ылдый жылдырыңыз"
+		},
 		"annotationSettingsDialog": {
 			"title": "Аннотация орнотуулары",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Чек ара:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Жүктөө жана файлды ачуу",
 		"vsdv-uploadAndAddFileButton-addFileString": "Жүктөө жана файлды кошуу",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Аннотацияларды күйгүзүү",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Аннотацияларды сактоо",
+		"vsui-annotationListPanel-pageLabel": "Page",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Аннотация касиеттери",
+		"vsui-annotationCommentListPanel-review": "карап чыгуу",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} {1} тарабынан түзүлгөн",
 		"vsdv-openFile-addFileString": "Файл кошуу",
 		"vsdv-openFile-authenticateFileString": "Файлдын аныктыгын текшерүү",
 		"vsdv-downloadFile-actionMessage": "Файлды жүктөп алыңыз",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияларга өзгөртүүлөрдү сактоо",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Сүрөттөргө аннотацияларды жазыңыз",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF документине өзгөртүүлөрдү сактоо",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Аннотацияларды күйгүзүү",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Аннотацияларды сактоо",
-		"vsdv-annotationListPanel-pageLabel": "Page",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Аннотация касиеттери",
-		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктөө",
-		"vsdv-documentPasswordDialog-title": "Документтин сырсөзү",
+		"vsui-documentPasswordDialog-title": "Документтин сырсөзү",
+		"vsui-dialog-okButton": "макул",
+		"vsui-dialog-cancelButton": "Жокко чыгаруу",
+		"vsui-documentPasswordPanel-authenticateFileString": "Файлдын аныктыгын текшерүү",
+		"vsui-imageSelectionDialog-title": "Сүрөттөрдү тандаңыз",
+		"vsui-imageSelectionDialog-currentImageString": "Учурдагы сүрөт",
+		"vsui-imageSelectionDialog-allImagesString": "Бардык сүрөттөр",
+		"vsui-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
+		"vsui-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
+		"vsui-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
+		"vsui-printImagesPanel-withAnnotationsLabel": "аннотациялар менен",
+		"vsui-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
+		"vsui-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Аннотациялар менен сүрөттү буруңуз",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Айлануу бурчу нөлдөн жогору болушу керек.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялар менен айлануучу сүрөт",
+		"vsui-annotationCommentSettingsDialog-title": "Аннотация комментарийин түзөтүңүз",
+		"vsui-dialog-deleteButton": "Жок кылуу",
+		"vsui-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар",
 		"vsdv-dialog-okButton": "макул",
-		"vsdv-dialog-cancelButton": "Жокко чыгаруу",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Файлдын аныктыгын текшерүү",
-		"vsdv-imageSelectionDialog-title": "Сүрөттөрдү тандаңыз",
-		"vsdv-imageSelectionDialog-currentImageString": "Учурдагы сүрөт",
-		"vsdv-imageSelectionDialog-allImagesString": "Бардык сүрөттөр",
-		"vsdv-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
-		"vsdv-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
-		"vsdv-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялар менен",
-		"vsdv-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
-		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Аннотациялар менен сүрөттү буруңуз",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Айлануу бурчу нөлдөн жогору болушу керек.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялар менен айлануучу сүрөт",
-		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар",
-		"vsdv-annotationCommentSettingsDialog-title": "Аннотация комментарийин түзөтүңүз",
-		"vsdv-dialog-deleteButton": "Жок кылуу"
+		"vsdv-dialog-cancelButton": "Жокко чыгаруу"
 	}
 }

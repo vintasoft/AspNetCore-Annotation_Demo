@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Selezione scala"
 		},
+		"showMobileMenuButton": {
+			"title": "Altro"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Rettangolo"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Punti di interazione intermedi"
-		},
-		"showMobileMenuButton": {
-			"title": "Altro"
 		},
 		"sidePanelCloseButton": {
 			"title": "Mostra barra laterale"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Puoi trascinare le miniature:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Puoi navigare tra le miniature usando la tastiera:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Puoi selezionare le miniature usando la tastiera:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Puoi eliminare le miniature usando la tastiera:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Cambia sorgente"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Annulla"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Nome del file:"
-			},
-			"fileFormatLabel": {
-				"text": "Formato del file:"
-			},
-			"savePagesLabel": {
-				"text": "Salva le pagine:"
-			},
-			"allPagesOption": {
-				"text": "Tutte le pagine"
-			},
-			"currentPageOption": {
-				"text": "Pagina corrente"
-			},
-			"pagesOption": {
-				"text": "Pagine"
-			},
-			"saveAnnoLabel": {
-				"text": "Salva annotazioni"
-			},
-			"burnAnnoLabel": {
-				"text": "Masterizza annotazioni"
 			},
 			"okButton": {
 				"value": "OK"
@@ -725,6 +702,38 @@
 				"value": "Annulla"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Nome del file:"
+			},
+			"fileFormatLabel": {
+				"text": "Formato del file:"
+			},
+			"savePagesLabel": {
+				"text": "Salva le pagine:"
+			},
+			"allPagesOption": {
+				"text": "Tutte le pagine"
+			},
+			"currentPageOption": {
+				"text": "Pagina corrente"
+			},
+			"pagesOption": {
+				"text": "Pagine"
+			},
+			"saveAnnoLabel": {
+				"text": "Salva annotazioni"
+			},
+			"burnAnnoLabel": {
+				"text": "Masterizza annotazioni"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annulla"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Ruota la vista in senso orario"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Proprietà annotazione..."
 		},
+		"removeImagesButton": {
+			"text": "Rimuovi immagini"
+		},
+		"moveImageUpButton": {
+			"text": "Sposta l'immagine in alto"
+		},
+		"moveImageDownButton": {
+			"text": "Sposta l'immagine verso il basso"
+		},
 		"annotationSettingsDialog": {
 			"title": "Impostazioni di annotazione",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Confine:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Scarica e apri file",
 		"vsdv-uploadAndAddFileButton-addFileString": "Carica e aggiungi file",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Masterizza annotazioni",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salva annotazioni",
+		"vsui-annotationListPanel-pageLabel": "Pagina",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Proprietà annotazione",
+		"vsui-annotationCommentListPanel-review": "Commenti",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} è creato da {1}",
 		"vsdv-openFile-addFileString": "Aggiungi file",
 		"vsdv-openFile-authenticateFileString": "Autenticare il file",
 		"vsdv-downloadFile-actionMessage": "Download file",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salva le modifiche nelle annotazioni",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Masterizza annotazioni sulle immagini",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salva le modifiche nel documento PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Masterizza annotazioni",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salva annotazioni",
-		"vsdv-annotationListPanel-pageLabel": "Pagina",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Proprietà annotazione",
-		"vsdv-uploadFileButton-uploadFileString": "Caricare un file",
-		"vsdv-documentPasswordDialog-title": "Password documento",
+		"vsui-documentPasswordDialog-title": "Password documento",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Annulla",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autenticare il file",
+		"vsui-imageSelectionDialog-title": "Seleziona immagini",
+		"vsui-imageSelectionDialog-currentImageString": "Immagine corrente",
+		"vsui-imageSelectionDialog-allImagesString": "Tutte le immagini",
+		"vsui-imageSelectionDialog-customImagesString": "Personalizzato",
+		"vsui-printImagesDialog-title": "Stampa immagini",
+		"vsui-printImagesPanel-imagePrintingString": "L'immagine è in fase di stampa",
+		"vsui-printImagesPanel-withAnnotationsLabel": "con annotazioni",
+		"vsui-imageViewerSettingsDialog-title": "Impostazioni del visualizzatore di immagini",
+		"vsui-thumbnailViewerSettingDialog-title": "Impostazioni visualizzatore miniature",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visualizza le annotazioni sulle miniature:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Ruota immagine annotata",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "L'angolo di rotazione non deve essere 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'immagine annotata viene ruotata",
+		"vsui-annotationCommentSettingsDialog-title": "Modifica il commento dell'annotazione",
+		"vsui-dialog-deleteButton": "Elimina",
+		"vsui-exportFileSettingsDialog-title": "Le impostazioni per esportare il file",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Annulla",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autenticare il file",
-		"vsdv-imageSelectionDialog-title": "Seleziona immagini",
-		"vsdv-imageSelectionDialog-currentImageString": "Immagine corrente",
-		"vsdv-imageSelectionDialog-allImagesString": "Tutte le immagini",
-		"vsdv-imageSelectionDialog-customImagesString": "Personalizzato",
-		"vsdv-printImagesDialog-title": "Stampa immagini",
-		"vsdv-printImagesPanel-imagePrintingString": "L'immagine è in fase di stampa",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "con annotazioni",
-		"vsdv-imageViewerSettingsDialog-title": "Impostazioni del visualizzatore di immagini",
-		"vsdv-thumbnailViewerSettingDialog-title": "Impostazioni visualizzatore miniature",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visualizza le annotazioni sulle miniature:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Ruota immagine annotata",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "L'angolo di rotazione non deve essere 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'immagine annotata viene ruotata",
-		"vsdv-exportFileSettingsDialog-title": "Le impostazioni per esportare il file",
-		"vsdv-annotationCommentSettingsDialog-title": "Modifica il commento dell'annotazione",
-		"vsdv-dialog-deleteButton": "Elimina"
+		"vsdv-dialog-cancelButton": "Annulla"
 	}
 }

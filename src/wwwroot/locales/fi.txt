@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Skaalan valinta"
 		},
+		"showMobileMenuButton": {
+			"title": "Lisää"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Suorakaide"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Keskitason vuorovaikutuspisteet"
-		},
-		"showMobileMenuButton": {
-			"title": "Lisää"
 		},
 		"sidePanelCloseButton": {
 			"title": "Näytä sivupalkki"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Voi vetää pikkukuvia:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Pystyy navigoimaan pikkukuvissa näppäimistöllä:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Voi valita pikkukuvia näppäimistöllä:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Voiko pikkukuvia poistaa näppäimistöllä:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Vaihda lähdettä"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Peruuta"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Tiedoston nimi:"
-			},
-			"fileFormatLabel": {
-				"text": "Tiedosto muoto:"
-			},
-			"savePagesLabel": {
-				"text": "Tallenna sivut:"
-			},
-			"allPagesOption": {
-				"text": "Kaikki sivut"
-			},
-			"currentPageOption": {
-				"text": "Nykyinen sivu"
-			},
-			"pagesOption": {
-				"text": "Sivut"
-			},
-			"saveAnnoLabel": {
-				"text": "Tallenna merkinnät"
-			},
-			"burnAnnoLabel": {
-				"text": "Polta huomautuksia"
 			},
 			"okButton": {
 				"value": "OK"
@@ -725,6 +702,38 @@
 				"value": "Peruuta"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Tiedoston nimi:"
+			},
+			"fileFormatLabel": {
+				"text": "Tiedosto muoto:"
+			},
+			"savePagesLabel": {
+				"text": "Tallenna sivut:"
+			},
+			"allPagesOption": {
+				"text": "Kaikki sivut"
+			},
+			"currentPageOption": {
+				"text": "Nykyinen sivu"
+			},
+			"pagesOption": {
+				"text": "Sivut"
+			},
+			"saveAnnoLabel": {
+				"text": "Tallenna merkinnät"
+			},
+			"burnAnnoLabel": {
+				"text": "Polta huomautuksia"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Kierrä näkymää myötäpäivään"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Merkintäominaisuudet..."
 		},
+		"removeImagesButton": {
+			"text": "Poista kuvat"
+		},
+		"moveImageUpButton": {
+			"text": "Siirrä kuvaa ylöspäin"
+		},
+		"moveImageDownButton": {
+			"text": "Siirrä kuvaa alas"
+		},
 		"annotationSettingsDialog": {
 			"title": "Merkintäasetukset",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "Automaattinen fonttikoko:"
+			},
 			"Border": {
 				"text": "Raja:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Lataa ja avaa tiedosto",
 		"vsdv-uploadAndAddFileButton-addFileString": "Lataa ja lisää tiedosto",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Polta huomautuksia",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Tallenna merkinnät",
+		"vsui-annotationListPanel-pageLabel": "Sivu",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Merkintäominaisuudet",
+		"vsui-annotationCommentListPanel-review": "Kommentit",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} on luonut {1}",
 		"vsdv-openFile-addFileString": "Lisää tiedosto",
 		"vsdv-openFile-authenticateFileString": "Todenna tiedosto",
 		"vsdv-downloadFile-actionMessage": "Lataa tiedosto",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Tallenna muutokset huomautuksiin",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Polta kommentteja kuviin",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Polta huomautuksia",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Tallenna merkinnät",
-		"vsdv-annotationListPanel-pageLabel": "Sivu",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Merkintäominaisuudet",
-		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
-		"vsdv-documentPasswordDialog-title": "Asiakirjan salasana",
+		"vsui-documentPasswordDialog-title": "Asiakirjan salasana",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Peruuta",
+		"vsui-documentPasswordPanel-authenticateFileString": "Todenna tiedosto",
+		"vsui-imageSelectionDialog-title": "Valitse kuvat",
+		"vsui-imageSelectionDialog-currentImageString": "Nykyinen kuva",
+		"vsui-imageSelectionDialog-allImagesString": "Kaikki kuvat",
+		"vsui-imageSelectionDialog-customImagesString": "Mukautettu",
+		"vsui-printImagesDialog-title": "Tulosta kuvat",
+		"vsui-printImagesPanel-imagePrintingString": "Kuva tulostuu",
+		"vsui-printImagesPanel-withAnnotationsLabel": "huomautuksilla",
+		"vsui-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
+		"vsui-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Kierrä huomautettua kuvaa",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kiertokulma ei saa olla 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotoitua kuvaa käännetään",
+		"vsui-annotationCommentSettingsDialog-title": "Muokkaa huomautuksen kommenttia",
+		"vsui-dialog-deleteButton": "Poista",
+		"vsui-exportFileSettingsDialog-title": "Tiedoston vientiasetukset",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Peruuta",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Todenna tiedosto",
-		"vsdv-imageSelectionDialog-title": "Valitse kuvat",
-		"vsdv-imageSelectionDialog-currentImageString": "Nykyinen kuva",
-		"vsdv-imageSelectionDialog-allImagesString": "Kaikki kuvat",
-		"vsdv-imageSelectionDialog-customImagesString": "Mukautettu",
-		"vsdv-printImagesDialog-title": "Tulosta kuvat",
-		"vsdv-printImagesPanel-imagePrintingString": "Kuva tulostuu",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "huomautuksilla",
-		"vsdv-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
-		"vsdv-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Kierrä huomautettua kuvaa",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kiertokulma ei saa olla 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotoitua kuvaa käännetään",
-		"vsdv-exportFileSettingsDialog-title": "Tiedoston vientiasetukset",
-		"vsdv-annotationCommentSettingsDialog-title": "Muokkaa huomautuksen kommenttia",
-		"vsdv-dialog-deleteButton": "Poista"
+		"vsdv-dialog-cancelButton": "Peruuta"
 	}
 }

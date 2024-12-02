@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Lựa chọn tỷ lệ"
 		},
+		"showMobileMenuButton": {
+			"title": "Thêm"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Hình chữ nhật"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Điểm tương tác trung bình"
-		},
-		"showMobileMenuButton": {
-			"title": "Thêm"
 		},
 		"sidePanelCloseButton": {
 			"title": "Hiển thị thanh bên"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Có thể kéo hình thu nhỏ:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Có thể điều hướng hình thu nhỏ bằng bàn phím:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Có thể chọn hình thu nhỏ bằng bàn phím:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Có thể xóa hình thu nhỏ bằng bàn phím:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Thay đổi nguồn"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Hủy"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Tên tập tin:"
-			},
-			"fileFormatLabel": {
-				"text": "Định dạng tập tin:"
-			},
-			"savePagesLabel": {
-				"text": "Lưu các trang:"
-			},
-			"allPagesOption": {
-				"text": "Tất cả các trang"
-			},
-			"currentPageOption": {
-				"text": "Trang hiện tại"
-			},
-			"pagesOption": {
-				"text": "Trang"
-			},
-			"saveAnnoLabel": {
-				"text": "Lưu chú thích"
-			},
-			"burnAnnoLabel": {
-				"text": "Ghi chú thích"
 			},
 			"okButton": {
 				"value": "OK"
@@ -725,6 +702,38 @@
 				"value": "Hủy"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Tên tập tin:"
+			},
+			"fileFormatLabel": {
+				"text": "Định dạng tập tin:"
+			},
+			"savePagesLabel": {
+				"text": "Lưu các trang:"
+			},
+			"allPagesOption": {
+				"text": "Tất cả các trang"
+			},
+			"currentPageOption": {
+				"text": "Trang hiện tại"
+			},
+			"pagesOption": {
+				"text": "Trang"
+			},
+			"saveAnnoLabel": {
+				"text": "Lưu chú thích"
+			},
+			"burnAnnoLabel": {
+				"text": "Ghi chú thích"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Xoay chế độ xem theo chiều kim đồng hồ"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Thuộc tính chú thích..."
 		},
+		"removeImagesButton": {
+			"text": "Xóa hình ảnh"
+		},
+		"moveImageUpButton": {
+			"text": "Di chuyển hình ảnh lên"
+		},
+		"moveImageDownButton": {
+			"text": "Di chuyển hình ảnh xuống"
+		},
 		"annotationSettingsDialog": {
 			"title": "Cài đặt chú thích",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Ranh giới:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Tải xuống và mở tệp",
 		"vsdv-uploadAndAddFileButton-addFileString": "Tải lên và thêm tập tin",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ghi chú thích",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Lưu chú thích",
+		"vsui-annotationListPanel-pageLabel": "Trang",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Thuộc tính chú thích",
+		"vsui-annotationCommentListPanel-review": "Nhận xét",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} được tạo bởi {1}",
 		"vsdv-openFile-addFileString": "Thêm tập tin",
 		"vsdv-openFile-authenticateFileString": "Xác thực tập tin",
 		"vsdv-downloadFile-actionMessage": "Tải tập tin",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lưu các thay đổi trong chú thích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ghi chú thích trên hình ảnh",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ghi chú thích",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Lưu chú thích",
-		"vsdv-annotationListPanel-pageLabel": "Trang",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Thuộc tính chú thích",
-		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
-		"vsdv-documentPasswordDialog-title": "Mật khẩu tài liệu",
+		"vsui-documentPasswordDialog-title": "Mật khẩu tài liệu",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Hủy",
+		"vsui-documentPasswordPanel-authenticateFileString": "Xác thực tập tin",
+		"vsui-imageSelectionDialog-title": "Chọn hình ảnh",
+		"vsui-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
+		"vsui-imageSelectionDialog-allImagesString": "Tất cả hình ảnh",
+		"vsui-imageSelectionDialog-customImagesString": "Tùy chỉnh",
+		"vsui-printImagesDialog-title": "In ảnh",
+		"vsui-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
+		"vsui-printImagesPanel-withAnnotationsLabel": "có chú thích",
+		"vsui-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
+		"vsui-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Xoay hình ảnh được chú thích",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Góc xoay không được bằng 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Hình ảnh được chú thích đang được xoay",
+		"vsui-annotationCommentSettingsDialog-title": "Chỉnh sửa chú thích bình luận",
+		"vsui-dialog-deleteButton": "Xóa",
+		"vsui-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Hủy",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Xác thực tập tin",
-		"vsdv-imageSelectionDialog-title": "Chọn hình ảnh",
-		"vsdv-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
-		"vsdv-imageSelectionDialog-allImagesString": "Tất cả hình ảnh",
-		"vsdv-imageSelectionDialog-customImagesString": "Tùy chỉnh",
-		"vsdv-printImagesDialog-title": "In ảnh",
-		"vsdv-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "có chú thích",
-		"vsdv-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
-		"vsdv-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Xoay hình ảnh được chú thích",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Góc xoay không được bằng 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Hình ảnh được chú thích đang được xoay",
-		"vsdv-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin",
-		"vsdv-annotationCommentSettingsDialog-title": "Chỉnh sửa chú thích bình luận",
-		"vsdv-dialog-deleteButton": "Xóa"
+		"vsdv-dialog-cancelButton": "Hủy"
 	}
 }

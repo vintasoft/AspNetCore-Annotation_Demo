@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Schaalselectie"
 		},
+		"showMobileMenuButton": {
+			"title": "Meer"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Rechthoek"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middelste interactiepunten"
-		},
-		"showMobileMenuButton": {
-			"title": "Meer"
 		},
 		"sidePanelCloseButton": {
 			"title": "Toon zijbalk"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan miniaturen slepen:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan miniaturen navigeren met toetsenbord:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan miniaturen selecteren met toetsenbord:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan miniaturen verwijderen met toetsenbord:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Wijzig bron"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Annuleren"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Bestandsnaam:"
-			},
-			"fileFormatLabel": {
-				"text": "Bestandsformaat:"
-			},
-			"savePagesLabel": {
-				"text": "Bewaar de pagina's:"
-			},
-			"allPagesOption": {
-				"text": "Alle pagina's"
-			},
-			"currentPageOption": {
-				"text": "Huidige pagina"
-			},
-			"pagesOption": {
-				"text": "Pagina's"
-			},
-			"saveAnnoLabel": {
-				"text": "Bewaar annotaties"
-			},
-			"burnAnnoLabel": {
-				"text": "Annotaties branden"
 			},
 			"okButton": {
 				"value": "OK"
@@ -725,6 +702,38 @@
 				"value": "Annuleren"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Bestandsnaam:"
+			},
+			"fileFormatLabel": {
+				"text": "Bestandsformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Bewaar de pagina's:"
+			},
+			"allPagesOption": {
+				"text": "Alle pagina's"
+			},
+			"currentPageOption": {
+				"text": "Huidige pagina"
+			},
+			"pagesOption": {
+				"text": "Pagina's"
+			},
+			"saveAnnoLabel": {
+				"text": "Bewaar annotaties"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotaties branden"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Roteer de weergave met de klok mee"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Annotatie-eigenschappen..."
 		},
+		"removeImagesButton": {
+			"text": "Afbeeldingen verwijderen"
+		},
+		"moveImageUpButton": {
+			"text": "Verplaats afbeelding omhoog"
+		},
+		"moveImageDownButton": {
+			"text": "Verplaats afbeelding naar beneden"
+		},
 		"annotationSettingsDialog": {
 			"title": "Annotatie-instellingen",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Grens:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Bestand downloaden en openen",
 		"vsdv-uploadAndAddFileButton-addFileString": "Bestand uploaden en toevoegen",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotaties branden",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Bewaar annotaties",
+		"vsui-annotationListPanel-pageLabel": "Pagina",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Annotatie-eigenschappen",
+		"vsui-annotationCommentListPanel-review": "Opmerkingen",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} is gemaakt door {1}",
 		"vsdv-openFile-addFileString": "Bestand toevoegen",
 		"vsdv-openFile-authenticateFileString": "Authenticeer bestand",
 		"vsdv-downloadFile-actionMessage": "Download bestand",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Sla wijzigingen in annotaties op",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand annotaties op afbeeldingen",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Wijzigingen opslaan in PDF-document",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotaties branden",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Bewaar annotaties",
-		"vsdv-annotationListPanel-pageLabel": "Pagina",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotatie-eigenschappen",
-		"vsdv-uploadFileButton-uploadFileString": "Upload bestand",
-		"vsdv-documentPasswordDialog-title": "Documentwachtwoord",
+		"vsui-documentPasswordDialog-title": "Documentwachtwoord",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Annuleren",
+		"vsui-documentPasswordPanel-authenticateFileString": "Authenticeer bestand",
+		"vsui-imageSelectionDialog-title": "Selecteer afbeeldingen",
+		"vsui-imageSelectionDialog-currentImageString": "Huidige afbeelding",
+		"vsui-imageSelectionDialog-allImagesString": "Alle afbeeldingen",
+		"vsui-imageSelectionDialog-customImagesString": "Aangepast",
+		"vsui-printImagesDialog-title": "Afbeeldingen afdrukken",
+		"vsui-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
+		"vsui-printImagesPanel-withAnnotationsLabel": "met annotaties",
+		"vsui-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer",
+		"vsui-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Geannoteerde afbeelding roteren",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotatiehoek mag niet 0 zijn.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd",
+		"vsui-annotationCommentSettingsDialog-title": "Bewerk de annotatieopmerking",
+		"vsui-dialog-deleteButton": "Verwijderen",
+		"vsui-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Annuleren",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Authenticeer bestand",
-		"vsdv-imageSelectionDialog-title": "Selecteer afbeeldingen",
-		"vsdv-imageSelectionDialog-currentImageString": "Huidige afbeelding",
-		"vsdv-imageSelectionDialog-allImagesString": "Alle afbeeldingen",
-		"vsdv-imageSelectionDialog-customImagesString": "Aangepast",
-		"vsdv-printImagesDialog-title": "Afbeeldingen afdrukken",
-		"vsdv-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "met annotaties",
-		"vsdv-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer",
-		"vsdv-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Geannoteerde afbeelding roteren",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotatiehoek mag niet 0 zijn.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd",
-		"vsdv-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren",
-		"vsdv-annotationCommentSettingsDialog-title": "Bewerk de annotatieopmerking",
-		"vsdv-dialog-deleteButton": "Verwijderen"
+		"vsdv-dialog-cancelButton": "Annuleren"
 	}
 }

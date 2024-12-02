@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Вибір масштабу"
 		},
+		"showMobileMenuButton": {
+			"title": "більше"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Прямокутник"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Середні точки взаємодії"
-		},
-		"showMobileMenuButton": {
-			"title": "більше"
 		},
 		"sidePanelCloseButton": {
 			"title": "Показати бічну панель"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Можна перетягувати мініатюри:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Можна переміщатися мініатюрами за допомогою клавіатури:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Можна вибрати мініатюри за допомогою клавіатури:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Можна видалити мініатюри за допомогою клавіатури:"
+			},
 			"okButton": {
 				"value": "В порядку"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Змінити джерело"
-			},
-			"okButton": {
-				"value": "В порядку"
-			},
-			"cancelButton": {
-				"value": "Скасувати"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Ім'я файлу:"
-			},
-			"fileFormatLabel": {
-				"text": "Формат файлу:"
-			},
-			"savePagesLabel": {
-				"text": "Збережіть сторінки:"
-			},
-			"allPagesOption": {
-				"text": "Всі сторінки"
-			},
-			"currentPageOption": {
-				"text": "Поточна сторінка"
-			},
-			"pagesOption": {
-				"text": "сторінки"
-			},
-			"saveAnnoLabel": {
-				"text": "Зберегти анотації"
-			},
-			"burnAnnoLabel": {
-				"text": "Записати анотації"
 			},
 			"okButton": {
 				"value": "В порядку"
@@ -725,6 +702,38 @@
 				"value": "Скасувати"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ім'я файлу:"
+			},
+			"fileFormatLabel": {
+				"text": "Формат файлу:"
+			},
+			"savePagesLabel": {
+				"text": "Збережіть сторінки:"
+			},
+			"allPagesOption": {
+				"text": "Всі сторінки"
+			},
+			"currentPageOption": {
+				"text": "Поточна сторінка"
+			},
+			"pagesOption": {
+				"text": "сторінки"
+			},
+			"saveAnnoLabel": {
+				"text": "Зберегти анотації"
+			},
+			"burnAnnoLabel": {
+				"text": "Записати анотації"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Повернути перегляд за годинниковою стрілкою"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Властивості анотації..."
 		},
+		"removeImagesButton": {
+			"text": "Видаліть зображення"
+		},
+		"moveImageUpButton": {
+			"text": "Перемістити зображення вгору"
+		},
+		"moveImageDownButton": {
+			"text": "Перемістити зображення вниз"
+		},
 		"annotationSettingsDialog": {
 			"title": "Налаштування анотації",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Кордон:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Завантажте та відкрийте файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Завантажити та додати файл",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Записати анотації",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Зберегти анотації",
+		"vsui-annotationListPanel-pageLabel": "Сторінка",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Властивості анотації",
+		"vsui-annotationCommentListPanel-review": "огляд",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} створює {1}",
 		"vsdv-openFile-addFileString": "Додати файл",
 		"vsdv-openFile-authenticateFileString": "Автентифікувати файл",
 		"vsdv-downloadFile-actionMessage": "Завантажити файл",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Збережіть зміни в анотаціях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запис анотацій на зображеннях",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Записати анотації",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Зберегти анотації",
-		"vsdv-annotationListPanel-pageLabel": "Сторінка",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Властивості анотації",
-		"vsdv-uploadFileButton-uploadFileString": "Завантажити файл",
-		"vsdv-documentPasswordDialog-title": "Пароль документа",
+		"vsui-documentPasswordDialog-title": "Пароль документа",
+		"vsui-dialog-okButton": "В порядку",
+		"vsui-dialog-cancelButton": "Скасувати",
+		"vsui-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
+		"vsui-imageSelectionDialog-title": "Виберіть зображення",
+		"vsui-imageSelectionDialog-currentImageString": "Поточне зображення",
+		"vsui-imageSelectionDialog-allImagesString": "Всі зображення",
+		"vsui-imageSelectionDialog-customImagesString": "Custom",
+		"vsui-printImagesDialog-title": "Друк зображень",
+		"vsui-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsui-printImagesPanel-withAnnotationsLabel": "з анотаціями",
+		"vsui-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
+		"vsui-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Обертання зображення з анотаціями",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут повороту повинен бути більше нуля.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Зображення, що обертається, з анотаціями",
+		"vsui-annotationCommentSettingsDialog-title": "Відредагуйте коментар до анотації",
+		"vsui-dialog-deleteButton": "Видалити",
+		"vsui-exportFileSettingsDialog-title": "Параметри експорту файлу",
 		"vsdv-dialog-okButton": "В порядку",
-		"vsdv-dialog-cancelButton": "Скасувати",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
-		"vsdv-imageSelectionDialog-title": "Виберіть зображення",
-		"vsdv-imageSelectionDialog-currentImageString": "Поточне зображення",
-		"vsdv-imageSelectionDialog-allImagesString": "Всі зображення",
-		"vsdv-imageSelectionDialog-customImagesString": "Custom",
-		"vsdv-printImagesDialog-title": "Друк зображень",
-		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "з анотаціями",
-		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
-		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Обертання зображення з анотаціями",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут повороту повинен бути більше нуля.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Зображення, що обертається, з анотаціями",
-		"vsdv-exportFileSettingsDialog-title": "Параметри експорту файлу",
-		"vsdv-annotationCommentSettingsDialog-title": "Відредагуйте коментар до анотації",
-		"vsdv-dialog-deleteButton": "Видалити"
+		"vsdv-dialog-cancelButton": "Скасувати"
 	}
 }

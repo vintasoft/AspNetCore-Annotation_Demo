@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Odabir mjerila"
 		},
+		"showMobileMenuButton": {
+			"title": "Više"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Pravokutnik"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Srednje točke interakcije"
-		},
-		"showMobileMenuButton": {
-			"title": "Više"
 		},
 		"sidePanelCloseButton": {
 			"title": "Prikaži bočnu traku"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Mogu povlačiti sličice:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Može se kretati sličicama pomoću tipkovnice:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Možete odabrati sličice pomoću tipkovnice:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Moguće brisanje sličica pomoću tipkovnice:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Promijeni izvor"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Odustani"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Naziv datoteke:"
-			},
-			"fileFormatLabel": {
-				"text": "Format datoteke:"
-			},
-			"savePagesLabel": {
-				"text": "Spremite stranice:"
-			},
-			"allPagesOption": {
-				"text": "Sve stranice"
-			},
-			"currentPageOption": {
-				"text": "Trenutna stranica"
-			},
-			"pagesOption": {
-				"text": "Stranice"
-			},
-			"saveAnnoLabel": {
-				"text": "Spremi zabilješke"
-			},
-			"burnAnnoLabel": {
-				"text": "Snimite bilješke"
 			},
 			"okButton": {
 				"value": "OK"
@@ -725,6 +702,38 @@
 				"value": "Odustani"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Naziv datoteke:"
+			},
+			"fileFormatLabel": {
+				"text": "Format datoteke:"
+			},
+			"savePagesLabel": {
+				"text": "Spremite stranice:"
+			},
+			"allPagesOption": {
+				"text": "Sve stranice"
+			},
+			"currentPageOption": {
+				"text": "Trenutna stranica"
+			},
+			"pagesOption": {
+				"text": "Stranice"
+			},
+			"saveAnnoLabel": {
+				"text": "Spremi zabilješke"
+			},
+			"burnAnnoLabel": {
+				"text": "Snimite bilješke"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Odustani"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Zakreni pogled u smjeru kazaljke na satu"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Svojstva komentara..."
 		},
+		"removeImagesButton": {
+			"text": "Ukloni slike"
+		},
+		"moveImageUpButton": {
+			"text": "Pomakni sliku gore"
+		},
+		"moveImageDownButton": {
+			"text": "Pomakni sliku prema dolje"
+		},
 		"annotationSettingsDialog": {
 			"title": "Postavke napomena",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Granica:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Preuzmi i otvori datoteku",
 		"vsdv-uploadAndAddFileButton-addFileString": "Prenesi i dodaj datoteku",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Snimite bilješke",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Spremi zabilješke",
+		"vsui-annotationListPanel-pageLabel": "Stranica",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Svojstva zabilješki",
+		"vsui-annotationCommentListPanel-review": "Komentari",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} je stvorio {1}",
 		"vsdv-openFile-addFileString": "Dodaj datoteku",
 		"vsdv-openFile-authenticateFileString": "Ovjerite datoteku",
 		"vsdv-downloadFile-actionMessage": "Preuzmi datoteku",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Spremi promjene u komentarima",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Snimite komentare na slike",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Spremi promjene u PDF dokumentu",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Snimite bilješke",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Spremi zabilješke",
-		"vsdv-annotationListPanel-pageLabel": "Stranica",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Svojstva zabilješki",
-		"vsdv-uploadFileButton-uploadFileString": "Učitaj datoteku",
-		"vsdv-documentPasswordDialog-title": "Lozinka dokumenta",
+		"vsui-documentPasswordDialog-title": "Lozinka dokumenta",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Odustani",
+		"vsui-documentPasswordPanel-authenticateFileString": "Ovjerite datoteku",
+		"vsui-imageSelectionDialog-title": "Odaberite slike",
+		"vsui-imageSelectionDialog-currentImageString": "Trenutna slika",
+		"vsui-imageSelectionDialog-allImagesString": "Sve slike",
+		"vsui-imageSelectionDialog-customImagesString": "Prilagođeno",
+		"vsui-printImagesDialog-title": "Ispis slika",
+		"vsui-printImagesPanel-imagePrintingString": "Slika se ispisuje",
+		"vsui-printImagesPanel-withAnnotationsLabel": "s komentarima",
+		"vsui-imageViewerSettingsDialog-title": "Postavke preglednika slika",
+		"vsui-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Zakreni označenu sliku",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kut rotacije ne smije biti 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Označena slika se rotira",
+		"vsui-annotationCommentSettingsDialog-title": "Uredite komentar napomene",
+		"vsui-dialog-deleteButton": "Izbriši",
+		"vsui-exportFileSettingsDialog-title": "Postavke za izvoz datoteke",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Odustani",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Ovjerite datoteku",
-		"vsdv-imageSelectionDialog-title": "Odaberite slike",
-		"vsdv-imageSelectionDialog-currentImageString": "Trenutna slika",
-		"vsdv-imageSelectionDialog-allImagesString": "Sve slike",
-		"vsdv-imageSelectionDialog-customImagesString": "Prilagođeno",
-		"vsdv-printImagesDialog-title": "Ispis slika",
-		"vsdv-printImagesPanel-imagePrintingString": "Slika se ispisuje",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "s komentarima",
-		"vsdv-imageViewerSettingsDialog-title": "Postavke preglednika slika",
-		"vsdv-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Zakreni označenu sliku",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kut rotacije ne smije biti 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Označena slika se rotira",
-		"vsdv-exportFileSettingsDialog-title": "Postavke za izvoz datoteke",
-		"vsdv-annotationCommentSettingsDialog-title": "Uredite komentar napomene",
-		"vsdv-dialog-deleteButton": "Izbriši"
+		"vsdv-dialog-cancelButton": "Odustani"
 	}
 }

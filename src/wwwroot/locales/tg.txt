@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Интихоби масштаб"
 		},
+		"showMobileMenuButton": {
+			"title": "Бештар"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Росткунҷа"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Нуқтаҳои мутақобилаи миёна"
-		},
-		"showMobileMenuButton": {
-			"title": "Бештар"
 		},
 		"sidePanelCloseButton": {
 			"title": "Намоиши панели паҳлӯ"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Метавонад эскизҳоро кашад:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Метавонед бо истифода аз клавиатура эскизҳоро паймоиш кунед:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Бо истифода аз клавиатура метавонад эскизҳоро интихоб кунад:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Метавонед эскизҳоро бо клавиатура тоза кунед:"
+			},
 			"okButton": {
 				"value": "ДУРУСТ"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Тағйир додани манбаъ"
-			},
-			"okButton": {
-				"value": "ДУРУСТ"
-			},
-			"cancelButton": {
-				"value": "Бекор кардан"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Номи парванда:"
-			},
-			"fileFormatLabel": {
-				"text": "Формати файл:"
-			},
-			"savePagesLabel": {
-				"text": "Саҳифаҳоро захира кунед:"
-			},
-			"allPagesOption": {
-				"text": "Ҳама саҳифаҳо"
-			},
-			"currentPageOption": {
-				"text": "Саҳифаи ҷорӣ"
-			},
-			"pagesOption": {
-				"text": "Саҳифаҳо"
-			},
-			"saveAnnoLabel": {
-				"text": "Эзоҳҳоро захира кунед"
-			},
-			"burnAnnoLabel": {
-				"text": "Аннотацияҳоро сӯзондан"
 			},
 			"okButton": {
 				"value": "ДУРУСТ"
@@ -725,6 +702,38 @@
 				"value": "Бекор кардан"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Номи парванда:"
+			},
+			"fileFormatLabel": {
+				"text": "Формати файл:"
+			},
+			"savePagesLabel": {
+				"text": "Саҳифаҳоро захира кунед:"
+			},
+			"allPagesOption": {
+				"text": "Ҳама саҳифаҳо"
+			},
+			"currentPageOption": {
+				"text": "Саҳифаи ҷорӣ"
+			},
+			"pagesOption": {
+				"text": "Саҳифаҳо"
+			},
+			"saveAnnoLabel": {
+				"text": "Эзоҳҳоро захира кунед"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияҳоро сӯзондан"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Намоишро бо ақрабаки соат гардонед"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Хусусиятҳои эзоҳ..."
 		},
+		"removeImagesButton": {
+			"text": "Тасвирҳоро нест кунед"
+		},
+		"moveImageUpButton": {
+			"text": "Тасвирро ба боло ҳаракат кунед"
+		},
+		"moveImageDownButton": {
+			"text": "Тасвирро ба поён ҳаракат кунед"
+		},
 		"annotationSettingsDialog": {
 			"title": "Танзимоти эзоҳ",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Сарҳад:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлро бор кунед ва кушоед",
 		"vsdv-uploadAndAddFileButton-addFileString": "Файлро бор кунед ва илова кунед",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Аннотацияҳоро сӯзондан",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Эзоҳҳоро захира кунед",
+		"vsui-annotationListPanel-pageLabel": "Саҳифа",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Хусусиятҳои эзоҳ",
+		"vsui-annotationCommentListPanel-review": "Барраси",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} аз ҷониби {1} сохта шудааст",
 		"vsdv-openFile-addFileString": "Илова кардани файл",
 		"vsdv-openFile-authenticateFileString": "Файлро тасдиқ кунед",
 		"vsdv-downloadFile-actionMessage": "Файлро зеркашӣ кунед",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Тағиротро дар шарҳҳо захира кунед",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Аннотацияҳоро дар тасвирҳо сӯзонед",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Аннотацияҳоро сӯзондан",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Эзоҳҳоро захира кунед",
-		"vsdv-annotationListPanel-pageLabel": "Саҳифа",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Хусусиятҳои эзоҳ",
-		"vsdv-uploadFileButton-uploadFileString": "Файлро бор кунед",
-		"vsdv-documentPasswordDialog-title": "Пароли ҳуҷҷат",
+		"vsui-documentPasswordDialog-title": "Пароли ҳуҷҷат",
+		"vsui-dialog-okButton": "ДУРУСТ",
+		"vsui-dialog-cancelButton": "Бекор кардан",
+		"vsui-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
+		"vsui-imageSelectionDialog-title": "Тасвирҳоро интихоб кунед",
+		"vsui-imageSelectionDialog-currentImageString": "Тасвири ҷорӣ",
+		"vsui-imageSelectionDialog-allImagesString": "Ҳама тасвирҳо",
+		"vsui-imageSelectionDialog-customImagesString": "Фармоишгар",
+		"vsui-printImagesDialog-title": "Тасвирҳоро чоп кунед",
+		"vsui-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
+		"vsui-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
+		"vsui-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
+		"vsui-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Тасвирро бо эзоҳҳо гардиш кунед",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кунҷи гардиш бояд аз сифр зиёд бошад.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Тасвирро даврзананда бо эзоҳҳо",
+		"vsui-annotationCommentSettingsDialog-title": "Тафсири эзоҳро таҳрир кунед",
+		"vsui-dialog-deleteButton": "Нобуд кунед",
+		"vsui-exportFileSettingsDialog-title": "Танзимот барои содироти файл",
 		"vsdv-dialog-okButton": "ДУРУСТ",
-		"vsdv-dialog-cancelButton": "Бекор кардан",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
-		"vsdv-imageSelectionDialog-title": "Тасвирҳоро интихоб кунед",
-		"vsdv-imageSelectionDialog-currentImageString": "Тасвири ҷорӣ",
-		"vsdv-imageSelectionDialog-allImagesString": "Ҳама тасвирҳо",
-		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
-		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
-		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
-		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
-		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Тасвирро бо эзоҳҳо гардиш кунед",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кунҷи гардиш бояд аз сифр зиёд бошад.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Тасвирро даврзананда бо эзоҳҳо",
-		"vsdv-exportFileSettingsDialog-title": "Танзимот барои содироти файл",
-		"vsdv-annotationCommentSettingsDialog-title": "Тафсири эзоҳро таҳрир кунед",
-		"vsdv-dialog-deleteButton": "Нобуд кунед"
+		"vsdv-dialog-cancelButton": "Бекор кардан"
 	}
 }

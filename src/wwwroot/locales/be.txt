@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Выбар маштабу"
 		},
+		"showMobileMenuButton": {
+			"title": "Яшчэ"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Прастакутнік"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Сярэднія кропкі ўзаемадзеяння"
-		},
-		"showMobileMenuButton": {
-			"title": "Яшчэ"
 		},
 		"sidePanelCloseButton": {
 			"title": "Паказаць бакавую панэль"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Можна перацягваць эскізы:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Можна перамяшчацца па мініяцюрах з дапамогай клавіятуры:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Можна выбраць эскізы з дапамогай клавіятуры:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Можна выдаліць эскізы з дапамогай клавіятуры:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Змяніць крыніцу"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Адмяніць"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Імя файла:"
-			},
-			"fileFormatLabel": {
-				"text": "Фармат файла:"
-			},
-			"savePagesLabel": {
-				"text": "Захаваць старонкі:"
-			},
-			"allPagesOption": {
-				"text": "Усе старонкі"
-			},
-			"currentPageOption": {
-				"text": "Бягучая старонка"
-			},
-			"pagesOption": {
-				"text": "старонкі"
-			},
-			"saveAnnoLabel": {
-				"text": "Захаваць анатацыі"
-			},
-			"burnAnnoLabel": {
-				"text": "Запісаць анатацыі"
 			},
 			"okButton": {
 				"value": "OK"
@@ -725,6 +702,38 @@
 				"value": "Адмяніць"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Імя файла:"
+			},
+			"fileFormatLabel": {
+				"text": "Фармат файла:"
+			},
+			"savePagesLabel": {
+				"text": "Захаваць старонкі:"
+			},
+			"allPagesOption": {
+				"text": "Усе старонкі"
+			},
+			"currentPageOption": {
+				"text": "Бягучая старонка"
+			},
+			"pagesOption": {
+				"text": "старонкі"
+			},
+			"saveAnnoLabel": {
+				"text": "Захаваць анатацыі"
+			},
+			"burnAnnoLabel": {
+				"text": "Запісаць анатацыі"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Павярнуць выгляд па гадзіннікавай стрэлцы"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Уласцівасці анатацыі..."
 		},
+		"removeImagesButton": {
+			"text": "Выдаліць выявы"
+		},
+		"moveImageUpButton": {
+			"text": "Перамясціць малюнак уверх"
+		},
+		"moveImageDownButton": {
+			"text": "Перамясціць выяву ўніз"
+		},
 		"annotationSettingsDialog": {
 			"title": "Налады анатацый",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Мяжа:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузіць і адкрыць файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Загрузіць і дадаць файл",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Запісаць анатацыі",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Захаваць анатацыі",
+		"vsui-annotationListPanel-pageLabel": "старонка",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Уласцівасці анатацыі",
+		"vsui-annotationCommentListPanel-review": "Каментары",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} створаны {1}",
 		"vsdv-openFile-addFileString": "Дадаць файл",
 		"vsdv-openFile-authenticateFileString": "Аўтэнтыфікаваць файл",
 		"vsdv-downloadFile-actionMessage": "Спампаваць файл",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Захаваць змены ў анатацыях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запіс анатацый да малюнкаў",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Захаваць змены ў дакуменце PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Запісаць анатацыі",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Захаваць анатацыі",
-		"vsdv-annotationListPanel-pageLabel": "старонка",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Уласцівасці анатацыі",
-		"vsdv-uploadFileButton-uploadFileString": "Загрузіць файл",
-		"vsdv-documentPasswordDialog-title": "Пароль дакумента",
+		"vsui-documentPasswordDialog-title": "Пароль дакумента",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Адмяніць",
+		"vsui-documentPasswordPanel-authenticateFileString": "Аўтэнтыфікаваць файл",
+		"vsui-imageSelectionDialog-title": "Выберыце выявы",
+		"vsui-imageSelectionDialog-currentImageString": "Актуальны малюнак",
+		"vsui-imageSelectionDialog-allImagesString": "Усе выявы",
+		"vsui-imageSelectionDialog-customImagesString": "Карыстацкі",
+		"vsui-printImagesDialog-title": "Друк малюнкаў",
+		"vsui-printImagesPanel-imagePrintingString": "Выява друкуецца",
+		"vsui-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
+		"vsui-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
+		"vsui-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Паварот малюнка з анатацыямі",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут павароту павінен быць больш нуля.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі",
+		"vsui-annotationCommentSettingsDialog-title": "Рэдагаваць каментар да анатацыі",
+		"vsui-dialog-deleteButton": "Выдаліць",
+		"vsui-exportFileSettingsDialog-title": "Налады для экспарту файла",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Адмяніць",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Аўтэнтыфікаваць файл",
-		"vsdv-imageSelectionDialog-title": "Выберыце выявы",
-		"vsdv-imageSelectionDialog-currentImageString": "Актуальны малюнак",
-		"vsdv-imageSelectionDialog-allImagesString": "Усе выявы",
-		"vsdv-imageSelectionDialog-customImagesString": "Карыстацкі",
-		"vsdv-printImagesDialog-title": "Друк малюнкаў",
-		"vsdv-printImagesPanel-imagePrintingString": "Выява друкуецца",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
-		"vsdv-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
-		"vsdv-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Паварот малюнка з анатацыямі",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут павароту павінен быць больш нуля.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі",
-		"vsdv-exportFileSettingsDialog-title": "Налады для экспарту файла",
-		"vsdv-annotationCommentSettingsDialog-title": "Рэдагаваць каментар да анатацыі",
-		"vsdv-dialog-deleteButton": "Выдаліць"
+		"vsdv-dialog-cancelButton": "Адмяніць"
 	}
 }

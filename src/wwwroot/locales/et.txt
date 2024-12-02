@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Suumi valik"
 		},
+		"showMobileMenuButton": {
+			"title": "Rohkem"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Ristkülik"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Keskmised interaktsioonipunktid"
-		},
-		"showMobileMenuButton": {
-			"title": "Rohkem"
 		},
 		"sidePanelCloseButton": {
 			"title": "Näita külgpaneeli"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Pisipilte saab lohistada:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Oskab klaviatuuri abil pisipiltides navigeerida:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Pisipilte saab valida klaviatuuri abil:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Pisipilte saab klaviatuuri abil kustutada:"
+			},
 			"okButton": {
 				"value": "Okei"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "Muuda allikat"
-			},
-			"okButton": {
-				"value": "Okei"
-			},
-			"cancelButton": {
-				"value": "Tühista"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "Faili nimi:"
-			},
-			"fileFormatLabel": {
-				"text": "Failiformaat:"
-			},
-			"savePagesLabel": {
-				"text": "Salvestage lehed:"
-			},
-			"allPagesOption": {
-				"text": "Kõik lehed"
-			},
-			"currentPageOption": {
-				"text": "Käesolev lehekülg"
-			},
-			"pagesOption": {
-				"text": "Leheküljed"
-			},
-			"saveAnnoLabel": {
-				"text": "Salvestage märkused"
-			},
-			"burnAnnoLabel": {
-				"text": "Märkuste kirjutamine"
 			},
 			"okButton": {
 				"value": "Okei"
@@ -725,6 +702,38 @@
 				"value": "Tühista"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faili nimi:"
+			},
+			"fileFormatLabel": {
+				"text": "Failiformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Salvestage lehed:"
+			},
+			"allPagesOption": {
+				"text": "Kõik lehed"
+			},
+			"currentPageOption": {
+				"text": "Käesolev lehekülg"
+			},
+			"pagesOption": {
+				"text": "Leheküljed"
+			},
+			"saveAnnoLabel": {
+				"text": "Salvestage märkused"
+			},
+			"burnAnnoLabel": {
+				"text": "Märkuste kirjutamine"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "Pöörake vaadet päripäeva"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "Märkuste atribuudid..."
 		},
+		"removeImagesButton": {
+			"text": "Eemaldage pildid"
+		},
+		"moveImageUpButton": {
+			"text": "Liigutage pilti üles"
+		},
+		"moveImageDownButton": {
+			"text": "Liigutage pilti alla"
+		},
 		"annotationSettingsDialog": {
 			"title": "Märkuste seaded",
+			"AutoFontMaxSize": {
+				"text": "Automaatne fondi maksimaalne suurus:"
+			},
+			"AutoFontMinSize": {
+				"text": "Automaatne fondi minisuurus:"
+			},
+			"AutoFontSize": {
+				"text": "Automaatne fondi suurus:"
+			},
 			"Border": {
 				"text": "Ääris:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laadige üles ja avage fail",
 		"vsdv-uploadAndAddFileButton-addFileString": "Laadige üles ja lisage fail",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Märkuste kirjutamine",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salvestage märkused",
+		"vsui-annotationListPanel-pageLabel": "Lehekülg",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Annotatsiooni omadused",
+		"vsui-annotationCommentListPanel-review": "Ülevaade",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} on loonud {1}",
 		"vsdv-openFile-addFileString": "Lisa fail",
 		"vsdv-openFile-authenticateFileString": "Autentige fail",
 		"vsdv-downloadFile-actionMessage": "Laadige fail alla",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvestage muudatused märkustes",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Kirjutage piltidele märkused",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Märkuste kirjutamine",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salvestage märkused",
-		"vsdv-annotationListPanel-pageLabel": "Lehekülg",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotatsiooni omadused",
-		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
-		"vsdv-documentPasswordDialog-title": "Dokumendi parool",
+		"vsui-documentPasswordDialog-title": "Dokumendi parool",
+		"vsui-dialog-okButton": "Okei",
+		"vsui-dialog-cancelButton": "Tühista",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentige fail",
+		"vsui-imageSelectionDialog-title": "Valige pildid",
+		"vsui-imageSelectionDialog-currentImageString": "Praegune pilt",
+		"vsui-imageSelectionDialog-allImagesString": "Kõik pildid",
+		"vsui-imageSelectionDialog-customImagesString": "Kohandatud",
+		"vsui-printImagesDialog-title": "Printige pilte",
+		"vsui-printImagesPanel-imagePrintingString": "Pilt prinditakse",
+		"vsui-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
+		"vsui-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
+		"vsui-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Pöörake pilti koos märkustega",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Pöörlemisnurk peaks olema suurem kui null.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Pööratav pilt koos märkustega",
+		"vsui-annotationCommentSettingsDialog-title": "Muutke annotatsiooni kommentaari",
+		"vsui-dialog-deleteButton": "Kustuta",
+		"vsui-exportFileSettingsDialog-title": "Faili eksportimise sätted",
 		"vsdv-dialog-okButton": "Okei",
-		"vsdv-dialog-cancelButton": "Tühista",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentige fail",
-		"vsdv-imageSelectionDialog-title": "Valige pildid",
-		"vsdv-imageSelectionDialog-currentImageString": "Praegune pilt",
-		"vsdv-imageSelectionDialog-allImagesString": "Kõik pildid",
-		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
-		"vsdv-printImagesDialog-title": "Printige pilte",
-		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
-		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
-		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Pöörake pilti koos märkustega",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Pöörlemisnurk peaks olema suurem kui null.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Pööratav pilt koos märkustega",
-		"vsdv-exportFileSettingsDialog-title": "Faili eksportimise sätted",
-		"vsdv-annotationCommentSettingsDialog-title": "Muutke annotatsiooni kommentaari",
-		"vsdv-dialog-deleteButton": "Kustuta"
+		"vsdv-dialog-cancelButton": "Tühista"
 	}
 }

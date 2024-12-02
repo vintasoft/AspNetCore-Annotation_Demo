@@ -66,6 +66,9 @@
 		"zoomSelectionToolButton": {
 			"title": "पैमाने का चयन"
 		},
+		"showMobileMenuButton": {
+			"title": "अधिक"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "आयत"
 		},
@@ -137,9 +140,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "मध्य इंटरेक्शन बिंदु"
-		},
-		"showMobileMenuButton": {
-			"title": "अधिक"
 		},
 		"sidePanelCloseButton": {
 			"title": "साइडबार दिखाएँ"
@@ -607,6 +607,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "थंबनेल खींच सकते हैं:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "कीबोर्ड का उपयोग करके थंबनेल नेविगेट कर सकते हैं:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "कीबोर्ड का उपयोग करके थंबनेल चुन सकते हैं:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "कीबोर्ड का उपयोग करके थंबनेल हटा सकते हैं:"
+			},
 			"okButton": {
 				"value": "ठीक है"
 			},
@@ -641,38 +650,6 @@
 			},
 			"changeSourceLabel": {
 				"text": "स्रोत बदलें"
-			},
-			"okButton": {
-				"value": "ठीक है"
-			},
-			"cancelButton": {
-				"value": "रद्द करें"
-			}
-		},
-		"exportFileSettingsDialog": {
-			"fileNameLabel": {
-				"text": "फ़ाइल का नाम:"
-			},
-			"fileFormatLabel": {
-				"text": "फ़ाइल फ़ारमैट:"
-			},
-			"savePagesLabel": {
-				"text": "पेज सहेजें:"
-			},
-			"allPagesOption": {
-				"text": "सभी पृष्ठ"
-			},
-			"currentPageOption": {
-				"text": "वर्तमान पृष्ठ"
-			},
-			"pagesOption": {
-				"text": "पृष्ठों"
-			},
-			"saveAnnoLabel": {
-				"text": "एनोटेशन सहेजें"
-			},
-			"burnAnnoLabel": {
-				"text": "टिप्पणियाँ जलाएँ"
 			},
 			"okButton": {
 				"value": "ठीक है"
@@ -725,6 +702,38 @@
 				"value": "रद्द करें"
 			}
 		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "फ़ाइल का नाम:"
+			},
+			"fileFormatLabel": {
+				"text": "फ़ाइल फ़ारमैट:"
+			},
+			"savePagesLabel": {
+				"text": "पेज सहेजें:"
+			},
+			"allPagesOption": {
+				"text": "सभी पृष्ठ"
+			},
+			"currentPageOption": {
+				"text": "वर्तमान पृष्ठ"
+			},
+			"pagesOption": {
+				"text": "पृष्ठों"
+			},
+			"saveAnnoLabel": {
+				"text": "एनोटेशन सहेजें"
+			},
+			"burnAnnoLabel": {
+				"text": "टिप्पणियाँ जलाएँ"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
 		"rotateViewClockwiseButton": {
 			"text": "दृश्य को दक्षिणावर्त घुमाएँ"
 		},
@@ -758,8 +767,26 @@
 		"annotationPropertiesLabel": {
 			"text": "एनोटेशन गुण..."
 		},
+		"removeImagesButton": {
+			"text": "छवियाँ हटाएँ"
+		},
+		"moveImageUpButton": {
+			"text": "छवि को ऊपर ले जाएं"
+		},
+		"moveImageDownButton": {
+			"text": "छवि को नीचे ले जाएँ"
+		},
 		"annotationSettingsDialog": {
 			"title": "एनोटेशन सेटिंग्स",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "सीमा:"
 			},
@@ -1003,6 +1030,12 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "फ़ाइल डाउनलोड करें और खोलें",
 		"vsdv-uploadAndAddFileButton-addFileString": "फ़ाइल अपलोड करें और जोड़ें",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "टिप्पणियाँ जलाएँ",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "एनोटेशन सहेजें",
+		"vsui-annotationListPanel-pageLabel": "पेज",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "एनोटेशन गुण",
+		"vsui-annotationCommentListPanel-review": "टिप्पणियाँ",
+		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} को {1} ने बनाया है",
 		"vsdv-openFile-addFileString": "फ़ाइल जोड़ें",
 		"vsdv-openFile-authenticateFileString": "फ़ाइल प्रमाणित करें",
 		"vsdv-downloadFile-actionMessage": "डाउनलोड फ़ाइल",
@@ -1010,30 +1043,27 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "एनोटेशन में परिवर्तन सहेजें",
 		"vsdv-saveChanges-burnAnnotationsInImages": "छवियों पर एनोटेशन जलाएँ",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "टिप्पणियाँ जलाएँ",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "एनोटेशन सहेजें",
-		"vsdv-annotationListPanel-pageLabel": "पेज",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "एनोटेशन गुण",
-		"vsdv-uploadFileButton-uploadFileString": "फ़ाइल अपलोड करें",
-		"vsdv-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
+		"vsui-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
+		"vsui-dialog-okButton": "ठीक है",
+		"vsui-dialog-cancelButton": "रद्द करें",
+		"vsui-documentPasswordPanel-authenticateFileString": "फ़ाइल प्रमाणित करें",
+		"vsui-imageSelectionDialog-title": "छवियां चुनें",
+		"vsui-imageSelectionDialog-currentImageString": "वर्तमान छवि",
+		"vsui-imageSelectionDialog-allImagesString": "सभी छवियाँ",
+		"vsui-imageSelectionDialog-customImagesString": "कस्टम",
+		"vsui-printImagesDialog-title": "छवियाँ मुद्रित करें",
+		"vsui-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
+		"vsui-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",
+		"vsui-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
+		"vsui-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "एनोटेटेड छवि घुमाएँ",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "घूर्णन कोण 0 नहीं होना चाहिए.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "एनोटेट छवि को घुमाया जा रहा है",
+		"vsui-annotationCommentSettingsDialog-title": "एनोटेशन टिप्पणी संपादित करें",
+		"vsui-dialog-deleteButton": "हटाएं",
+		"vsui-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग",
 		"vsdv-dialog-okButton": "ठीक है",
-		"vsdv-dialog-cancelButton": "रद्द करें",
-		"vsdv-documentPasswordPanel-authenticateFileString": "फ़ाइल प्रमाणित करें",
-		"vsdv-imageSelectionDialog-title": "छवियां चुनें",
-		"vsdv-imageSelectionDialog-currentImageString": "वर्तमान छवि",
-		"vsdv-imageSelectionDialog-allImagesString": "सभी छवियाँ",
-		"vsdv-imageSelectionDialog-customImagesString": "कस्टम",
-		"vsdv-printImagesDialog-title": "छवियाँ मुद्रित करें",
-		"vsdv-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",
-		"vsdv-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
-		"vsdv-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "एनोटेटेड छवि घुमाएँ",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "घूर्णन कोण 0 नहीं होना चाहिए.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "एनोटेट छवि को घुमाया जा रहा है",
-		"vsdv-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग",
-		"vsdv-annotationCommentSettingsDialog-title": "एनोटेशन टिप्पणी संपादित करें",
-		"vsdv-dialog-deleteButton": "हटाएं"
+		"vsdv-dialog-cancelButton": "रद्द करें"
 	}
 }
