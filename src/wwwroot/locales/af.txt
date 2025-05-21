@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyline"
 		},
+		"addInkAnnotationButton": {
+			"title": "Ink"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Veelhoek"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Herhaal"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Aktiveer 'Annotasie-uitveër'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middelinteraksiepunte"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaksiemodus 'Bekyk'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaksiemodus 'Annotasie-uitveër'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaksiemodus 'Potlooduitveër'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Klein interaksiepunte"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Laai op en voeg lêer by",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Brand aantekeninge",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Stoor aantekeninge",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Aktiveer veranderingsgeskiedenis",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Deaktiveer ontdoen/herdoen",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Aktiveer 'Annotasie-uitveër'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Deaktiveer 'Annotasie-uitveër'",
 		"vsui-annotationListPanel-pageLabel": "Bladsy",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Annotasie-eienskappe",
 		"vsui-annotationCommentListPanel-review": "Kommentaar",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Stoor veranderinge in beelde",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Stoor veranderinge in aantekeninge",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand aantekeninge op beelde",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Stoor veranderinge in PDF-dokument",
 		"vsui-documentPasswordDialog-title": "Dokumentwagwoord",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Kanselleer",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde prent word gedraai",
 		"vsui-annotationCommentSettingsDialog-title": "Wysig die aantekeningopmerking",
 		"vsui-dialog-deleteButton": "Vee uit",
-		"vsui-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Kanselleer"
+		"vsui-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer"
 	}
 }

@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Ломаная линия"
 		},
+		"addInkAnnotationButton": {
+			"title": "Чернила"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Многоугольник"
 		},
@@ -138,6 +141,9 @@
 		"redoAnnotationHistoryButton": {
 			"title": "Повторить"
 		},
+		"enableAnnotationEraserButton": {
+			"title": "Включить 'Ластик аннотаций'"
+		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Средние точки взаимодействия"
 		},
@@ -151,7 +157,7 @@
 			"title": "Аннотации"
 		},
 		"showAnnotationCommentListPanelButton": {
-			"title": "Список комментариев к аннотации"
+			"title": "Комментарии к аннотациям"
 		},
 		"showFillAndSignPanelButton": {
 			"title": "Заполните и подпишите"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Режим взаимодействия 'Просмотр'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Режим взаимодействия 'Ластик аннотаций'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Режим взаимодействия 'Ластик карандаша'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Маленькие точки взаимодействия"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Прожечь аннотации",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Сохранить аннотации",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Включить ведение истории изменений",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Отключить ведение истории изменений",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Включить 'Ластик аннотаций'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Отключить 'Ластик аннотаций'",
 		"vsui-annotationListPanel-pageLabel": "Страница",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Свойства аннотации",
 		"vsui-annotationCommentListPanel-review": "Комментарии",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
 		"vsui-documentPasswordDialog-title": "Пароль к документу",
 		"vsui-dialog-okButton": "ОК",
 		"vsui-dialog-cancelButton": "Отмена",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Выполняется поворот изображения с аннотациями",
 		"vsui-annotationCommentSettingsDialog-title": "Редактировать комментарий аннотации",
 		"vsui-dialog-deleteButton": "Удалить",
-		"vsui-exportFileSettingsDialog-title": "Настройки для экспорта файла",
-		"vsdv-dialog-okButton": "ОК",
-		"vsdv-dialog-cancelButton": "Отмена"
+		"vsui-exportFileSettingsDialog-title": "Настройки для экспорта файла"
 	}
 }

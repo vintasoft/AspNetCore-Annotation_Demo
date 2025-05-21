@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polilinija"
 		},
+		"addInkAnnotationButton": {
+			"title": "Tinta"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poligon"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Ponovi"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Omogući način rada 'Brisač za bilješke'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Srednje točke interakcije"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Način interakcije 'Pogled'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Način interakcije 'Brisač za bilješke'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Način interakcije 'Gumica za olovku'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Male interakcijske točke"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Prenesi i dodaj datoteku",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Snimite bilješke",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Spremi zabilješke",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Omogući povijest promjena",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Onemogući poništi/ponovi",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Omogući način rada 'Brisač za bilješke'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Onemogući 'Brisač zabilješki'",
 		"vsui-annotationListPanel-pageLabel": "Stranica",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Svojstva zabilješki",
 		"vsui-annotationCommentListPanel-review": "Komentari",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Spremite promjene na slikama",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Spremi promjene u komentarima",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Snimite komentare na slike",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Spremi promjene u PDF dokumentu",
 		"vsui-documentPasswordDialog-title": "Lozinka dokumenta",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Odustani",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Označena slika se rotira",
 		"vsui-annotationCommentSettingsDialog-title": "Uredite komentar napomene",
 		"vsui-dialog-deleteButton": "Izbriši",
-		"vsui-exportFileSettingsDialog-title": "Postavke za izvoz datoteke",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Odustani"
+		"vsui-exportFileSettingsDialog-title": "Postavke za izvoz datoteke"
 	}
 }

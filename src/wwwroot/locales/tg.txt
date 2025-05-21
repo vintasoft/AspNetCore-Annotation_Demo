@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Хатҳо"
 		},
+		"addInkAnnotationButton": {
+			"title": "Сиёҳ"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Бисёркунҷа"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Такрор кунед"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Ҳолати мутақобиларо фаъол созед 'Расзер барои эзоҳҳо'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Нуқтаҳои мутақобилаи миёна"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Ҳолати ҳамкорӣ 'Намоиш'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Ҳолати мутақобила 'Расзер барои эзоҳҳо'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Ҳолати мутақобила 'Расзер барои қалам'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Нуқтаҳои хурди мутақобила"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Файлро бор кунед ва илова кунед",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Аннотацияҳоро сӯзондан",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Эзоҳҳоро захира кунед",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Барқарор/бозкоркуниро фаъол созед",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Бекор кардан/бозор карданро хомӯш кунед",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Ҳолати мутақобиларо фаъол созед 'Расзер барои эзоҳҳо'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Хомӯш кардани 'Хафкунаки эзоҳ'",
 		"vsui-annotationListPanel-pageLabel": "Саҳифа",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Хусусиятҳои эзоҳ",
 		"vsui-annotationCommentListPanel-review": "Барраси",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Тағиротро дар тасвирҳо захира кунед",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Тағиротро дар шарҳҳо захира кунед",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Аннотацияҳоро дар тасвирҳо сӯзонед",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
 		"vsui-documentPasswordDialog-title": "Пароли ҳуҷҷат",
 		"vsui-dialog-okButton": "ДУРУСТ",
 		"vsui-dialog-cancelButton": "Бекор кардан",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Тасвирро даврзананда бо эзоҳҳо",
 		"vsui-annotationCommentSettingsDialog-title": "Тафсири эзоҳро таҳрир кунед",
 		"vsui-dialog-deleteButton": "Нобуд кунед",
-		"vsui-exportFileSettingsDialog-title": "Танзимот барои содироти файл",
-		"vsdv-dialog-okButton": "ДУРУСТ",
-		"vsdv-dialog-cancelButton": "Бекор кардан"
+		"vsui-exportFileSettingsDialog-title": "Танзимот барои содироти файл"
 	}
 }

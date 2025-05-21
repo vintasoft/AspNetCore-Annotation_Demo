@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polylijn"
 		},
+		"addInkAnnotationButton": {
+			"title": "Inkt"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Veelhoek"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Herhalen"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Modus 'Gum voor aantekeningen' inschakelen"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middelste interactiepunten"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interactiemodus 'Weergeven'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interactiemodus 'Gum voor aantekeningen'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interactiemodus 'Gum voor potlood'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kleine interactiepunten"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Bestand uploaden en toevoegen",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotaties branden",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Bewaar annotaties",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Wijzigingsgeschiedenis inschakelen",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Ongedaan maken/opnieuw uitvoeren uitschakelen",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Modus 'Gum voor aantekeningen' inschakelen",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Annotatie-gum' uitschakelen",
 		"vsui-annotationListPanel-pageLabel": "Pagina",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Annotatie-eigenschappen",
 		"vsui-annotationCommentListPanel-review": "Opmerkingen",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Wijzigingen in afbeeldingen opslaan",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Sla wijzigingen in annotaties op",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand annotaties op afbeeldingen",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Wijzigingen opslaan in PDF-document",
 		"vsui-documentPasswordDialog-title": "Documentwachtwoord",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Annuleren",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd",
 		"vsui-annotationCommentSettingsDialog-title": "Bewerk de annotatieopmerking",
 		"vsui-dialog-deleteButton": "Verwijderen",
-		"vsui-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Annuleren"
+		"vsui-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren"
 	}
 }

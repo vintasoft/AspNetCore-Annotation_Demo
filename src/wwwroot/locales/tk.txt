@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Setirler"
 		},
+		"addInkAnnotationButton": {
+			"title": "Syýa"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Köpburçluk"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Gaýtadan işlediň"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Özara täsir ediş tertibini işjeňleşdiriň 'Bellikler üçin pozujy'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Orta täsir nokatlary"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Özara täsir tertibi 'Görmek'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Özara täsir ediş tertibi 'Bellikler üçin pozujy'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Özara täsir tertibi 'Bellikler üçin öçüriji'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kiçijik täsir ediş nokatlary"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Faýl ýükläň we goşuň",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotasiýalary ýakyň",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Bellikleri ýazdyryň",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Yzyna / yzyna gaýtarmaga mümkinçilik beriň",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Yzyna / yzyna gaýtarmagy öçüriň",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Özara täsir ediş tertibini işjeňleşdiriň 'Bellikler üçin pozujy'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Annotasiýa öçürijini' öçüriň",
 		"vsui-annotationListPanel-pageLabel": "Sahypa",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Annotasiýa aýratynlyklary",
 		"vsui-annotationCommentListPanel-review": "Syn",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Suratlardaky üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
 		"vsui-documentPasswordDialog-title": "Resminamanyň paroly",
 		"vsui-dialog-okButton": "Bolýar",
 		"vsui-dialog-cancelButton": "Elatyr",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiýa bilen şekili aýlamak",
 		"vsui-annotationCommentSettingsDialog-title": "Annotasiýa teswirini redaktirläň",
 		"vsui-dialog-deleteButton": "Öçür",
-		"vsui-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar",
-		"vsdv-dialog-okButton": "Bolýar",
-		"vsdv-dialog-cancelButton": "Elatyr"
+		"vsui-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar"
 	}
 }

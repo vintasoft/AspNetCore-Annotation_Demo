@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Vonallánc"
 		},
+		"addInkAnnotationButton": {
+			"title": "Tinta"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Sokszög"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Ismétlés"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Engedélyezze a 'Jegyzetek radírja' módot"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Közepes interakciós pontok"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interakciós mód 'View'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interakciós mód 'Jegyzetek radírja'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interakciós mód 'Eraser for ceruza'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kis interakciós pontok"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Fájl feltöltése és hozzáadása",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotációk írása",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Megjegyzések mentése",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Változástörténet engedélyezése",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "A visszavonás/újrakészítés letiltása",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Engedélyezze a 'Jegyzetek radírja' módot",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "A 'Jegyzetradír' letiltása",
 		"vsui-annotationListPanel-pageLabel": "Oldal",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Annotáció tulajdonságai",
 		"vsui-annotationCommentListPanel-review": "Megjegyzések",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Mentse el a változásokat a képeken",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Mentse el a megjegyzések módosításait",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Írjon megjegyzéseket a képekre",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
 		"vsui-documentPasswordDialog-title": "Dokumentum jelszava",
 		"vsui-dialog-okButton": "Rendben",
 		"vsui-dialog-cancelButton": "Mégse",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "A megjegyzésekkel ellátott kép elforgatása folyamatban van",
 		"vsui-annotationCommentSettingsDialog-title": "Szerkessze a kommentár megjegyzését",
 		"vsui-dialog-deleteButton": "Törlés",
-		"vsui-exportFileSettingsDialog-title": "A fájl exportálásának beállításai",
-		"vsdv-dialog-okButton": "Rendben",
-		"vsdv-dialog-cancelButton": "Mégse"
+		"vsui-exportFileSettingsDialog-title": "A fájl exportálásának beállításai"
 	}
 }

@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Mistari"
 		},
+		"addInkAnnotationButton": {
+			"title": "Wino"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poligoni"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Rudia"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Washa hali ya 'Eraser kwa maelezo'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Pointi za mwingiliano wa kati"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Hali ya mwingiliano 'Tazama'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Hali ya mwingiliano 'Eraser kwa maelezo'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Njia ya mwingiliano 'Eraser kwa penseli'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Pointi ndogo za mwingiliano"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Pakia na uongeze faili",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Choma maelezo",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Hifadhi maelezo",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Washa kutendua/rudia",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Lemaza kutendua/rudia",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Washa hali ya 'Eraser kwa maelezo'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Lemaza 'Kifutio cha Dokezo'",
 		"vsui-annotationListPanel-pageLabel": "Ukurasa",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Sifa za Ufafanuzi",
 		"vsui-annotationCommentListPanel-review": "Kagua",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Hifadhi mabadiliko katika picha",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Hifadhi mabadiliko katika vidokezo",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Choma maelezo kwenye picha",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
 		"vsui-documentPasswordDialog-title": "Nenosiri la hati",
 		"vsui-dialog-okButton": "sawa",
 		"vsui-dialog-cancelButton": "Ghairi",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Inazungusha picha na vidokezo",
 		"vsui-annotationCommentSettingsDialog-title": "Hariri maoni ya ufafanuzi",
 		"vsui-dialog-deleteButton": "Futa",
-		"vsui-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili",
-		"vsdv-dialog-okButton": "sawa",
-		"vsdv-dialog-cancelButton": "Ghairi"
+		"vsui-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili"
 	}
 }

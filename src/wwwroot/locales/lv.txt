@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Līnijas"
 		},
+		"addInkAnnotationButton": {
+			"title": "Tinte"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Daudzstūris"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Atkārtoti"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Iespējot režīmu 'Dzēšgumija anotācijām'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Vidēji mijiedarbības punkti"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Mijiedarbības režīms 'Skatīt'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Mijiedarbības režīms 'Dzēšgumija anotācijām'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Mijiedarbības režīms 'Dzēšgumija zīmulim'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Mazie mijiedarbības punkti"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Augšupielādējiet un pievienojiet failu",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ierakstīt anotācijas",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Saglabājiet anotācijas",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Iespējot atsaukšanu/atcelšanu",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Atspējot atsaukšanu/atcelšanu",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Iespējot režīmu 'Dzēšgumija anotācijām'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Atspējot anotācijas dzēšgumiju",
 		"vsui-annotationListPanel-pageLabel": "Lappuse",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Anotācijas īpašības",
 		"vsui-annotationCommentListPanel-review": "Pārskats",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Saglabājiet izmaiņas attēlos",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Saglabājiet izmaiņas anotācijās",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ierakstiet anotācijas uz attēliem",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
 		"vsui-documentPasswordDialog-title": "Dokumenta parole",
 		"vsui-dialog-okButton": "labi",
 		"vsui-dialog-cancelButton": "Atcelt",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotējams attēls ar anotācijām",
 		"vsui-annotationCommentSettingsDialog-title": "Rediģējiet anotācijas komentāru",
 		"vsui-dialog-deleteButton": "Dzēst",
-		"vsui-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi",
-		"vsdv-dialog-okButton": "labi",
-		"vsdv-dialog-cancelButton": "Atcelt"
+		"vsui-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi"
 	}
 }

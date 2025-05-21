@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Саптар"
 		},
+		"addInkAnnotationButton": {
+			"title": "сыя"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Полигон"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Redo"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "'Аннотациялар үчүн өчүргүч' режимин иштетүү"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Орточо өз ара аракеттенүү пункттары"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Өз ара аракеттенүү режими 'Көрүү'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Өз ара аракеттенүү режими 'Аннотациялар үчүн өчүргүч'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Өз ара аракеттенүү режими 'Карандаш үчүн өчүргүч'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Чакан өз ара аракеттенүү пункттары"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Жүктөө жана файлды кошуу",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Аннотацияларды күйгүзүү",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Аннотацияларды сактоо",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Артка кайтаруу/кайталоону иштетүү",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Артка кайтаруу/кайталоону өчүрүү",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Аннотациялар үчүн өчүргүч' режимин иштетүү",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Аннотация өчүргүчтү' өчүрүү",
 		"vsui-annotationListPanel-pageLabel": "Page",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Аннотация касиеттери",
 		"vsui-annotationCommentListPanel-review": "карап чыгуу",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Сүрөттөрдөгү өзгөртүүлөрдү сактоо",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияларга өзгөртүүлөрдү сактоо",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Сүрөттөргө аннотацияларды жазыңыз",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF документине өзгөртүүлөрдү сактоо",
 		"vsui-documentPasswordDialog-title": "Документтин сырсөзү",
 		"vsui-dialog-okButton": "макул",
 		"vsui-dialog-cancelButton": "Жокко чыгаруу",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялар менен айлануучу сүрөт",
 		"vsui-annotationCommentSettingsDialog-title": "Аннотация комментарийин түзөтүңүз",
 		"vsui-dialog-deleteButton": "Жок кылуу",
-		"vsui-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар",
-		"vsdv-dialog-okButton": "макул",
-		"vsdv-dialog-cancelButton": "Жокко чыгаруу"
+		"vsui-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар"
 	}
 }

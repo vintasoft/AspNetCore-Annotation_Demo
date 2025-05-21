@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polilinie"
 		},
+		"addInkAnnotationButton": {
+			"title": "Cerneală"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poligon"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Repetă"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Activați modul 'Goma de șters pentru adnotări'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Puncte de interacțiune din mijloc"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Modul de interacțiune 'Vizualizare'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Modul de interacțiune 'Germă pentru adnotări'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Modul de interacțiune 'Goma de șters pentru creion'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Puncte de interacțiune mici"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Încărcați și adăugați fișier",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ardeți adnotări",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salvați adnotările",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Activați istoricul modificărilor",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Dezactivează anularea/refacerea",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Activați modul 'Goma de șters pentru adnotări'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Dezactivați 'Ștergerea adnotărilor'",
 		"vsui-annotationListPanel-pageLabel": "Pagină",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Proprietăți de adnotare",
 		"vsui-annotationCommentListPanel-review": "Comentarii",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Salvați modificările în imagini",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
 		"vsui-documentPasswordDialog-title": "Parola documentului",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Anulează",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Imaginea adnotată este rotită",
 		"vsui-annotationCommentSettingsDialog-title": "Editați comentariul de adnotare",
 		"vsui-dialog-deleteButton": "Șterge",
-		"vsui-exportFileSettingsDialog-title": "Setările pentru exportul fișierului",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Anulează"
+		"vsui-exportFileSettingsDialog-title": "Setările pentru exportul fișierului"
 	}
 }

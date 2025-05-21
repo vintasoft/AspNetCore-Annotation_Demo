@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polylinie"
 		},
+		"addInkAnnotationButton": {
+			"title": "Freihandeingabe"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polygon"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Wiederholen"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "'Radiergummi für Anmerkungen' aktivieren"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mittlere Interaktionspunkte"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaktionsmodus 'Ansicht'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaktionsmodus 'Radiergummi für Anmerkungen'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaktionsmodus 'Radiergummi für Bleistift'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kleine Interaktionspunkte"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Datei hochladen und hinzufügen",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Anmerkungen brennen",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Anmerkungen speichern",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Änderungsverlauf aktivieren",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Rückgängig/Wiederholen deaktivieren",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Radiergummi für Anmerkungen' aktivieren",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Anmerkungsradierer deaktivieren",
 		"vsui-annotationListPanel-pageLabel": "Seite",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Anmerkungseigenschaften",
 		"vsui-annotationCommentListPanel-review": "Kommentare",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Änderungen in Bildern speichern",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Speichern Sie Änderungen in Anmerkungen",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brennen Sie Anmerkungen zu Bildern",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Änderungen im PDF-Dokument speichern",
 		"vsui-documentPasswordDialog-title": "Dokumentpasswort",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Abbrechen",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Das mit Anmerkungen versehene Bild wird gedreht",
 		"vsui-annotationCommentSettingsDialog-title": "Bearbeiten Sie den Anmerkungskommentar",
 		"vsui-dialog-deleteButton": "Löschen",
-		"vsui-exportFileSettingsDialog-title": "Die Einstellungen zum Exportieren der Datei",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Abbrechen"
+		"vsui-exportFileSettingsDialog-title": "Die Einstellungen zum Exportieren der Datei"
 	}
 }

@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyligne"
 		},
+		"addInkAnnotationButton": {
+			"title": "Encre"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polygone"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Répéter"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Activer le mode 'Gomme pour les annotations'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Points d'interaction intermédiaires"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Mode d'interaction 'Afficher'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Mode d'interaction 'Gomme pour les annotations'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Mode d'interaction 'Gomme pour le crayon'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Petits points d'interaction"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Télécharger et ajouter un fichier",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Graver des annotations",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Enregistrer les annotations",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Activer l'historique des modifications",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Désactiver l'annulation/le rétablissement",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Activer le mode 'Gomme pour les annotations'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Désactiver la 'gomme d'annotation'",
 		"vsui-annotationListPanel-pageLabel": "Page",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Propriétés d'annotation",
 		"vsui-annotationCommentListPanel-review": "Commentaires",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Enregistrer les modifications dans les images",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Enregistrer les modifications dans les annotations",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Graver des annotations sur les images",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Enregistrer les modifications dans le document PDF",
 		"vsui-documentPasswordDialog-title": "Mot de passe du document",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Annuler",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'image annotée est en cours de rotation",
 		"vsui-annotationCommentSettingsDialog-title": "Modifier le commentaire de l'annotation",
 		"vsui-dialog-deleteButton": "Supprimer",
-		"vsui-exportFileSettingsDialog-title": "Les paramètres pour exporter le fichier",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Annuler"
+		"vsui-exportFileSettingsDialog-title": "Les paramètres pour exporter le fichier"
 	}
 }

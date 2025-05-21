@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyline"
 		},
+		"addInkAnnotationButton": {
+			"title": "Tinta"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polígono"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Repetir"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Habilitar modo 'Borracha para anotações'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Pontos de Interação Intermediários"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Modo de Interação 'Visualizar'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Modo de interação 'Borracha para anotações'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Modo de interação 'Borracha para lápis'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Pequenos pontos de interação"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Carregar e adicionar arquivo",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Gravar anotações",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salvar anotações",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Ativar histórico de alterações",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Desativar desfazer/refazer",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Habilitar modo 'Borracha para anotações'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Desativar 'Apagador de anotações'",
 		"vsui-annotationListPanel-pageLabel": "Página",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Propriedades de anotação",
 		"vsui-annotationCommentListPanel-review": "Comentários",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Salvar alterações nas imagens",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvar alterações nas anotações",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Gravar anotações em imagens",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvar alterações no documento PDF",
 		"vsui-documentPasswordDialog-title": "Senha do documento",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Cancelar",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "A imagem anotada está sendo girada",
 		"vsui-annotationCommentSettingsDialog-title": "Editar o comentário da anotação",
 		"vsui-dialog-deleteButton": "Excluir",
-		"vsui-exportFileSettingsDialog-title": "As configurações para exportar arquivo",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Cancelar"
+		"vsui-exportFileSettingsDialog-title": "As configurações para exportar arquivo"
 	}
 }

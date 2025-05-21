@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Lines"
 		},
+		"addInkAnnotationButton": {
+			"title": "Ink"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polygon"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Redo"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Enable annotation eraser"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Medium interaction points"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaction mode 'View'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaction mode 'Annotation eraser'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaction mode 'Pencil eraser'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Small interaction points"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Upload and add file",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Burn annotations",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Save annotations",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Enable undo/redo",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Disable undo/redo",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Enable annotation eraser",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Disable annotation eraser",
 		"vsui-annotationListPanel-pageLabel": "Page",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Annotation Properties",
 		"vsui-annotationCommentListPanel-review": "Review",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Save changes in images",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Save changes in annotations",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Burn annotations on images",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Save changes in PDF document",
 		"vsui-documentPasswordDialog-title": "Document password",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Cancel",
@@ -1063,7 +1078,6 @@
 		"vsui-annotationCommentSettingsDialog-title": "Edit the annotation comment",
 		"vsui-dialog-deleteButton": "Delete",
 		"vsui-exportFileSettingsDialog-title": "Export file settings",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Cancel"
+		"vsui-documentNavigationTool-getActions": "Get actions"
 	}
 }

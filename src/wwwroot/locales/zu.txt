@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Imigqa"
 		},
+		"addInkAnnotationButton": {
+			"title": "Uyinki"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Ipholigoni"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Yenza futhi"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Nika amandla imodi 'Isisuli sezichasiselo'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Amaphoyinti okusebenzelana amaphakathi"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Imodi yokusebenzisana 'Buka'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Imodi yokusebenzisana 'Isisuli sezichasiselo'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Imodi yokusebenzisana 'Isisuli sepensela'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Amaphuzu amancane okusebenzisana"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Layisha futhi wengeze ifayela",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Shisa izichasiselo",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Londoloza izichasiselo",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Nika amandla ukuhlehlisa/ukwenza futhi",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Khubaza ukuhlehlisa/ukwenza futhi",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Nika amandla imodi 'Isisuli sezichasiselo'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Khubaza 'isisuli sesichasiselo'",
 		"vsui-annotationListPanel-pageLabel": "Ikhasi",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Izici zesichasiselo",
 		"vsui-annotationCommentListPanel-review": "Buyekeza",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
 		"vsui-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
 		"vsui-dialog-okButton": "KULUNGILE",
 		"vsui-dialog-cancelButton": "Khansela",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izungezisa isithombe ngezichasiselo",
 		"vsui-annotationCommentSettingsDialog-title": "Hlela amazwana esichasiselo",
 		"vsui-dialog-deleteButton": "Susa",
-		"vsui-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela",
-		"vsdv-dialog-okButton": "KULUNGILE",
-		"vsdv-dialog-cancelButton": "Khansela"
+		"vsui-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela"
 	}
 }

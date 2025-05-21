@@ -512,7 +512,7 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var rotateImageWithAnnotationsDialog = new Vintasoft.Imaging.Annotation.UI.Dialogs.WebRotateImageWithAnnotationsDialogJS();
     rotateImageWithAnnotationsDialog.render(floatingContainer);
     tempDialogs.push(rotateImageWithAnnotationsDialog);
-   
+
     var annotationCommentSettingsDialog = new Vintasoft.Imaging.Annotation.UI.Dialogs.WebUiAnnotationCommentSettingsDialogJS();
     annotationCommentSettingsDialog.render(floatingContainer);
     tempDialogs.push(annotationCommentSettingsDialog);
@@ -560,18 +560,8 @@ function __createDemoDialogsForLocalization(tempDialogs) {
  Enables the localization of application UI.
 */
 function __enableUiLocalization() {
-    // if localizer is ready (localizer loaded localization dictionary)
-    if (_localizer.get_IsReady()) {
-        // localize DOM-elements of web page
-        _localizer.localizeDocument();
-    }
-    // if localizer is NOT ready
-    else
-        // wait when localizer will be ready
-        Vintasoft.Shared.subscribeToEvent(_localizer, "ready", function () {
-            // localize DOM-elements of web page
-            _localizer.localizeDocument();
-        });
+    // localize DOM-elements of web page
+    _localizer.localizeDocument();
 
     // subscribe to the "dialogShown" event of document viewer
     Vintasoft.Shared.subscribeToEvent(_docViewer, "dialogShown", function (event, data) {
@@ -589,7 +579,7 @@ function __enableUiLocalization() {
 // === Main ===
 
 /**
- Main function.
+ Main function (first part).
 */
 function __main() {
     // set the session identifier
@@ -607,7 +597,26 @@ function __main() {
 
     // create UI localizer
     _localizer = new Vintasoft.Shared.VintasoftLocalizationJS();
+    // if localizer is ready (localizer loaded localization dictionary)
+    if (_localizer.get_IsReady()) {
+        // execute the second part of main function
+        __main2();
+    }
+    // if localizer is NOT ready
+    else {
+        // wait when localizer will be ready
+        Vintasoft.Shared.subscribeToEvent(_localizer, "ready", function () {
+            // execute the second part of main function
+            __main2();
+        });
+    }
+}
 
+/**
+ Main function (second part).
+ This function must be executed when UI localizer is ready.
+*/
+function __main2() {
     // register new UI elements
     __registerNewUiElements();
 
@@ -684,7 +693,7 @@ function __main() {
     _openFileHelper.openDefaultImageFile("VintasoftAnnotationDemo.tif");
 
     $(document).ready(function () {
-        // create the dictionary for localization of application UI
+        //// create the dictionary for localization of application UI
         //__createUiLocalizationDictionary();
 
         // enable the localization of application UI

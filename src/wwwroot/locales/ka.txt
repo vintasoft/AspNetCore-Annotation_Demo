@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "ხაზები"
 		},
+		"addInkAnnotationButton": {
+			"title": "მელანი"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "მრავალკუთხედი"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "ხელახლა"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "ჩართეთ რეჟიმი 'საშლელი ანოტაციებისთვის'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "საშუალო ურთიერთქმედების წერტილები"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "ურთიერთქმედების რეჟიმი 'ნახვა'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "ურთიერთქმედების რეჟიმი 'საშლელი ანოტაციებისთვის'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "ურთიერთქმედების რეჟიმი 'საშლელი ფანქრისთვის'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "ურთიერთქმედების მცირე წერტილები"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "ატვირთეთ და დაამატეთ ფაილი",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "ანოტაციების დაწვა",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "შეინახეთ ანოტაციები",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "ჩართეთ გაუქმება/გამეორება",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "გამორთეთ გაუქმება/გამეორება",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "ჩართეთ რეჟიმი 'საშლელი ანოტაციებისთვის'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "გამორთეთ 'ანოტაციის საშლელი'",
 		"vsui-annotationListPanel-pageLabel": "გვერდი",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "ანოტაციის თვისებები",
 		"vsui-annotationCommentListPanel-review": "Მიმოხილვა",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "შეინახეთ ცვლილებები სურათებში",
 		"vsdv-saveChanges-saveChangesInAnnotations": "შეინახეთ ცვლილებები ანოტაციებში",
 		"vsdv-saveChanges-burnAnnotationsInImages": "ჩაწერეთ ანოტაციები სურათებზე",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "შეინახეთ ცვლილებები PDF დოკუმენტში",
 		"vsui-documentPasswordDialog-title": "დოკუმენტის პაროლი",
 		"vsui-dialog-okButton": "კარგი",
 		"vsui-dialog-cancelButton": "გაუქმება",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "მბრუნავი სურათი ანოტაციებით",
 		"vsui-annotationCommentSettingsDialog-title": "ანოტაციის კომენტარის რედაქტირება",
 		"vsui-dialog-deleteButton": "წაშლა",
-		"vsui-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის",
-		"vsdv-dialog-okButton": "კარგი",
-		"vsdv-dialog-cancelButton": "გაუქმება"
+		"vsui-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის"
 	}
 }

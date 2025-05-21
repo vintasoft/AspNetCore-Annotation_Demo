@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyline"
 		},
+		"addInkAnnotationButton": {
+			"title": "Blekk"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polygon"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Gjenta"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Aktiver modus 'Viskelær for merknader'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middels interaksjonspunkter"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaksjonsmodus 'Vis'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaksjonsmodus 'Viskelær for merknader'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaksjonsmodus 'Viskelær for blyant'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Små interaksjonspunkter"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Last opp og legg til fil",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Brenn merknader",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Lagre merknader",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Aktiver endringshistorikk",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Deaktiver angre/gjør om",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Aktiver modus 'Viskelær for merknader'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Deaktiver 'merknadsviskere'",
 		"vsui-annotationListPanel-pageLabel": "Side",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaper",
 		"vsui-annotationCommentListPanel-review": "Kommentarer",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Lagre endringer i bilder",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lagre endringer i merknader",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brenn merknader på bilder",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Lagre endringer i PDF-dokument",
 		"vsui-documentPasswordDialog-title": "Dokumentpassord",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Avbryt",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommentert bilde blir rotert",
 		"vsui-annotationCommentSettingsDialog-title": "Rediger kommentarkommentaren",
 		"vsui-dialog-deleteButton": "Slett",
-		"vsui-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Avbryt"
+		"vsui-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen"
 	}
 }

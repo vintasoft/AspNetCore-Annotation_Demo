@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Сызықтар"
 		},
+		"addInkAnnotationButton": {
+			"title": "Сия"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Көпбұрыш"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Қайталау"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "'Аннотациялар үшін өшіргіш' режимін қосу"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Орташа әрекеттесу нүктелері"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "'Көру' әрекеттесу режимі"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "'Аннотациялар үшін өшіргіш' өзара әрекеттесу режимі"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "'Қарындаш үшін өшіргіш' әрекеттесу режимі"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Шағын өзара әрекеттесу нүктелері"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Файлды жүктеп салыңыз және қосыңыз",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Аннотацияларды жазу",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Аннотацияларды сақтаңыз",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Болдырмау/қайталау мүмкіндігін қосыңыз",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Болдырмауды/қайталауды өшіріңіз",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Аннотациялар үшін өшіргіш' режимін қосу",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Аннотация өшіргішін' өшіру",
 		"vsui-annotationListPanel-pageLabel": "Бет",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Аннотация сипаттары",
 		"vsui-annotationCommentListPanel-review": "Қарау",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Суреттердегі өзгерістерді сақтаңыз",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотациялардағы өзгерістерді сақтаңыз",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Суреттерге аннотацияларды жазу",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Өзгерістерді PDF құжатында сақтаңыз",
 		"vsui-documentPasswordDialog-title": "Құжат құпия сөзі",
 		"vsui-dialog-okButton": "ЖАРАЙДЫ МА",
 		"vsui-dialog-cancelButton": "Болдырмау",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялары бар бұрылатын кескін",
 		"vsui-annotationCommentSettingsDialog-title": "Аннотация түсініктемесін өңдеңіз",
 		"vsui-dialog-deleteButton": "Жою",
-		"vsui-exportFileSettingsDialog-title": "Файлды экспорттауға арналған параметрлер",
-		"vsdv-dialog-okButton": "ЖАРАЙДЫ МА",
-		"vsdv-dialog-cancelButton": "Болдырмау"
+		"vsui-exportFileSettingsDialog-title": "Файлды экспорттауға арналған параметрлер"
 	}
 }

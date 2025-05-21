@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Đa tuyến"
 		},
+		"addInkAnnotationButton": {
+			"title": "Mực"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Đa giác"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Lặp lại"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Bật chế độ 'Tẩy cho chú thích'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Điểm tương tác trung bình"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Chế độ tương tác 'Xem'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Chế độ tương tác 'Tẩy cho chú thích'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Chế độ tương tác 'Tẩy cho bút chì'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Điểm tương tác nhỏ"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Tải lên và thêm tập tin",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ghi chú thích",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Lưu chú thích",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Bật lịch sử thay đổi",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Vô hiệu hóa hoàn tác/làm lại",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Bật chế độ 'Tẩy cho chú thích'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Vô hiệu hóa 'Công cụ xóa chú thích'",
 		"vsui-annotationListPanel-pageLabel": "Trang",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Thuộc tính chú thích",
 		"vsui-annotationCommentListPanel-review": "Nhận xét",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Lưu các thay đổi trong hình ảnh",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lưu các thay đổi trong chú thích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ghi chú thích trên hình ảnh",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
 		"vsui-documentPasswordDialog-title": "Mật khẩu tài liệu",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Hủy",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Hình ảnh được chú thích đang được xoay",
 		"vsui-annotationCommentSettingsDialog-title": "Chỉnh sửa chú thích bình luận",
 		"vsui-dialog-deleteButton": "Xóa",
-		"vsui-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Hủy"
+		"vsui-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin"
 	}
 }

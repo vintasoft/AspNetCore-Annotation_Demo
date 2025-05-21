@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "متعدد الخطوط"
 		},
+		"addInkAnnotationButton": {
+			"title": "حبر"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "مضلع"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "كرر"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "تفعيل 'ممحاة التعليقات التوضيحية'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "نقاط التفاعل المتوسطة"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "وضع التفاعل 'عرض'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "وضع التفاعل 'ممحاة التعليقات التوضيحية'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "وضع التفاعل 'ممحاة قلم رصاص'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "نقاط تفاعل صغيرة"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "تحميل وإضافة الملف",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "حرق التعليقات التوضيحية",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "حفظ التعليقات التوضيحية",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "تمكين محفوظات التغيير",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "تعطيل التراجع/الإعادة",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "تفعيل 'ممحاة التعليقات التوضيحية'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "تعطيل 'ممحاة التعليقات التوضيحية'",
 		"vsui-annotationListPanel-pageLabel": "الصفحة",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "خصائص التعليق التوضيحي",
 		"vsui-annotationCommentListPanel-review": "تعليقات",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "حفظ التغييرات في الصور",
 		"vsdv-saveChanges-saveChangesInAnnotations": "حفظ التغييرات في التعليقات التوضيحية",
 		"vsdv-saveChanges-burnAnnotationsInImages": "حرق التعليقات التوضيحية على الصور",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
 		"vsui-documentPasswordDialog-title": "كلمة مرور المستند",
 		"vsui-dialog-okButton": "موافق",
 		"vsui-dialog-cancelButton": "إلغاء",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة",
 		"vsui-annotationCommentSettingsDialog-title": "تحرير التعليق التوضيحي",
 		"vsui-dialog-deleteButton": "حذف",
-		"vsui-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف",
-		"vsdv-dialog-okButton": "موافق",
-		"vsdv-dialog-cancelButton": "إلغاء"
+		"vsui-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف"
 	}
 }

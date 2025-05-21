@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Křivka"
 		},
+		"addInkAnnotationButton": {
+			"title": "Inkoust"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Mnohoúhelník"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Opakujte"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Povolit 'Guma pro anotace'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Střední body interakce"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Režim interakce 'Zobrazit'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Režim interakce 'Guma pro anotace'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Režim interakce 'Guma pro tužku'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Malé interakční body"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Nahrajte a přidejte soubor",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Vypálit anotace",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Uložit anotace",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Povolit historii změn",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Zakázat vrácení/znovu",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Povolit 'Guma pro anotace'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Zakázat 'gumu anotací'",
 		"vsui-annotationListPanel-pageLabel": "Stránka",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Vlastnosti anotace",
 		"vsui-annotationCommentListPanel-review": "Komentáře",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Uložte změny v obrázcích",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Uložte změny v anotacích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Vypálit poznámky na obrázky",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Uložte změny do dokumentu PDF",
 		"vsui-documentPasswordDialog-title": "Heslo dokumentu",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Zrušit",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Anotovaný obrázek se otáčí",
 		"vsui-annotationCommentSettingsDialog-title": "Upravte komentář anotace",
 		"vsui-dialog-deleteButton": "Smazat",
-		"vsui-exportFileSettingsDialog-title": "Nastavení pro export souboru",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Zrušit"
+		"vsui-exportFileSettingsDialog-title": "Nastavení pro export souboru"
 	}
 }

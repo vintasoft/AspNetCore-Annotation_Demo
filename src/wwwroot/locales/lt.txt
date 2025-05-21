@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Linijos"
 		},
+		"addInkAnnotationButton": {
+			"title": "Rašalas"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poligonas"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Perdaryti"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Įjungti režimą 'Komentarų trintukas'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Vidutinės sąveikos taškai"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Sąveikos režimas 'Žiūrėti'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Sąveikos režimas 'Komentarų trintukas'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Sąveikos režimas 'Pieštuko trintukas'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Maži sąveikos taškai"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Įkelti ir pridėti failą",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Įrašyti komentarus",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Išsaugoti komentarus",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Įgalinti anuliuoti / perdaryti",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Išjungti anuliavimą / perdarymą",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Įjungti režimą 'Komentarų trintukas'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Išjungti 'Komentarų trintuką'",
 		"vsui-annotationListPanel-pageLabel": "Puslapis",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Anotacijos ypatybės",
 		"vsui-annotationCommentListPanel-review": "Apžvalga",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Išsaugokite vaizdų pakeitimus",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Išsaugokite komentarų pakeitimus",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Įrašykite komentarus ant vaizdų",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
 		"vsui-documentPasswordDialog-title": "Dokumento slaptažodis",
 		"vsui-dialog-okButton": "Gerai",
 		"vsui-dialog-cancelButton": "Atšaukti",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Sukamasis vaizdas su komentarais",
 		"vsui-annotationCommentSettingsDialog-title": "Redaguokite komentaro komentarą",
 		"vsui-dialog-deleteButton": "Ištrinti",
-		"vsui-exportFileSettingsDialog-title": "Failo eksporto nustatymai",
-		"vsdv-dialog-okButton": "Gerai",
-		"vsdv-dialog-cancelButton": "Atšaukti"
+		"vsui-exportFileSettingsDialog-title": "Failo eksporto nustatymai"
 	}
 }

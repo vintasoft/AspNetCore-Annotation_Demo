@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "פוליליין"
 		},
+		"addInkAnnotationButton": {
+			"title": "דְיוֹ"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "מצולע"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "חזור"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "הפעל מצב 'מחק להערות'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "נקודות אינטראקציה בינוניות"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "מצב אינטראקציה 'תצוגה'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "מצב אינטראקציה 'מחק להערות'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "מצב אינטראקציה 'מחק לעיפרון'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "נקודות אינטראקציה קטנות"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "העלה והוסף קובץ",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "צריבת הערות",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "שמור הערות",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "אפשר היסטוריית שינויים",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "השבת את ביטול/בצע מחדש",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "הפעל מצב 'מחק להערות'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "השבת את 'מחק הערות'",
 		"vsui-annotationListPanel-pageLabel": "דף",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "מאפייני הערה",
 		"vsui-annotationCommentListPanel-review": "הערות",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "שמור שינויים בתמונות",
 		"vsdv-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
 		"vsdv-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
 		"vsui-documentPasswordDialog-title": "סיסמת מסמך",
 		"vsui-dialog-okButton": "בסדר",
 		"vsui-dialog-cancelButton": "בטל",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות",
 		"vsui-annotationCommentSettingsDialog-title": "ערוך את הערת ההערה",
 		"vsui-dialog-deleteButton": "מחק",
-		"vsui-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ",
-		"vsdv-dialog-okButton": "בסדר",
-		"vsdv-dialog-cancelButton": "בטל"
+		"vsui-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ"
 	}
 }

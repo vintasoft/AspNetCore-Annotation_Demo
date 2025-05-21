@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Полилиния"
 		},
+		"addInkAnnotationButton": {
+			"title": "Мастило"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Многоъгълник"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Повторете"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Активирайте 'Гумичка за анотации'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Средни точки на взаимодействие"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Режим на взаимодействие 'Преглед'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Режим на взаимодействие 'Гумичка за анотации'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Режим на взаимодействие 'Гумичка за молив'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Малки точки на взаимодействие"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Качете и добавете файл",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Изгаряне на анотации",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Запазете анотациите",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Активиране на историята на промените",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Деактивиране на отмяна/възстановяване",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Активирайте 'Гумичка за анотации'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Деактивирайте 'Изтриване на пояснения'",
 		"vsui-annotationListPanel-pageLabel": "Страница",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Свойства на анотация",
 		"vsui-annotationCommentListPanel-review": "Коментари",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Запазете промените в изображенията",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Запазете промените в анотациите",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Записване на анотации върху изображения",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Запазете промените в PDF документ",
 		"vsui-documentPasswordDialog-title": "Парола за документ",
 		"vsui-dialog-okButton": "ОК",
 		"vsui-dialog-cancelButton": "Отказ",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Коментираното изображение се завърта",
 		"vsui-annotationCommentSettingsDialog-title": "Редактирайте коментара на анотацията",
 		"vsui-dialog-deleteButton": "Изтриване",
-		"vsui-exportFileSettingsDialog-title": "Настройки за експортиране на файл",
-		"vsdv-dialog-okButton": "ОК",
-		"vsdv-dialog-cancelButton": "Отказ"
+		"vsui-exportFileSettingsDialog-title": "Настройки за експортиране на файл"
 	}
 }

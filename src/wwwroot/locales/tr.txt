@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Poliline"
 		},
+		"addInkAnnotationButton": {
+			"title": "Mürekkep"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Çokgen"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Tekrarla"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "'Açıklamalar için silgi' modunu etkinleştir"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Orta Etkileşim Noktaları"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Etkileşim Modu 'Görüntüle'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "'Açıklamalar için silgi' etkileşim modu"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "'Kalem için silgi' etkileşim modu"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Küçük etkileşim noktaları"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Dosya yükleyin ve ekleyin",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ek açıklamaları yaz",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Ek açıklamaları kaydet",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Değişiklik geçmişini etkinleştir",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Geri al/yeniden yap'ı devre dışı bırak",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Açıklamalar için silgi' modunu etkinleştir",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Açıklama silgisi'ni devre dışı bırak",
 		"vsui-annotationListPanel-pageLabel": "Sayfa",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Açıklama özellikleri",
 		"vsui-annotationCommentListPanel-review": "Yorumlar",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Resimlerdeki değişiklikleri kaydet",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Ek açıklamalardaki değişiklikleri kaydet",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Görüntülere ek açıklamalar yazın",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
 		"vsui-documentPasswordDialog-title": "Belge parolası",
 		"vsui-dialog-okButton": "Tamam",
 		"vsui-dialog-cancelButton": "İptal",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Açıklamalı resim döndürülüyor",
 		"vsui-annotationCommentSettingsDialog-title": "Ek açıklama yorumunu düzenleyin",
 		"vsui-dialog-deleteButton": "Sil",
-		"vsui-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları",
-		"vsdv-dialog-okButton": "Tamam",
-		"vsdv-dialog-cancelButton": "İptal"
+		"vsui-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları"
 	}
 }

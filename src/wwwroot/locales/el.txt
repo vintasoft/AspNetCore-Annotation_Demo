@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Πολυγραμμή"
 		},
+		"addInkAnnotationButton": {
+			"title": "Μελάνι"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Πολύγωνο"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Επανάληψη"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Ενεργοποίηση 'Γόμα για σχολιασμούς'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Μεσαία σημεία αλληλεπίδρασης"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Λειτουργία αλληλεπίδρασης 'Προβολή'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Λειτουργία αλληλεπίδρασης 'Γόμα για σχολιασμούς'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Λειτουργία αλληλεπίδρασης 'Γόμα για μολύβι'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Μικρά σημεία αλληλεπίδρασης"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Μεταφόρτωση και προσθήκη αρχείου",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Κάψτε σχολιασμούς",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Αποθήκευση σχολιασμών",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Ενεργοποίηση ιστορικού αλλαγών",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Απενεργοποίηση αναίρεσης/εκ νέου",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Ενεργοποίηση 'Γόμα για σχολιασμούς'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Απενεργοποίηση 'Γόμα σχολίων'",
 		"vsui-annotationListPanel-pageLabel": "Σελίδα",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Ιδιότητες σχολιασμού",
 		"vsui-annotationCommentListPanel-review": "Σχόλια",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Αποθηκεύστε τις αλλαγές στις εικόνες",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
 		"vsui-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
 		"vsui-dialog-okButton": "ΟΚ",
 		"vsui-dialog-cancelButton": "Ακύρωση",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται",
 		"vsui-annotationCommentSettingsDialog-title": "Επεξεργαστείτε το σχόλιο του σχολιασμού",
 		"vsui-dialog-deleteButton": "Διαγραφή",
-		"vsui-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου",
-		"vsdv-dialog-okButton": "ΟΚ",
-		"vsdv-dialog-cancelButton": "Ακύρωση"
+		"vsui-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου"
 	}
 }

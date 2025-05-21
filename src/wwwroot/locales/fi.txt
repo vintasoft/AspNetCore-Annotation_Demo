@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyviiva"
 		},
+		"addInkAnnotationButton": {
+			"title": "Muste"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Monikulmio"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Toista"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Ota käyttöön tila 'Pyyheen merkintöjä varten'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Keskitason vuorovaikutuspisteet"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Vuorovaikutustilan 'View'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Vuorovaikutustila 'Pyykki merkintöjä varten'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Vuorovaikutustila 'Pyyhekynälle'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Pienet vuorovaikutuskohdat"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Lataa ja lisää tiedosto",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Polta huomautuksia",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Tallenna merkinnät",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Ota muutoshistoria käyttöön",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Poista kumoa/toista käytöstä",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Ota käyttöön tila 'Pyyheen merkintöjä varten'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Poista merkintöjen pyyhekumi käytöstä",
 		"vsui-annotationListPanel-pageLabel": "Sivu",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Merkintäominaisuudet",
 		"vsui-annotationCommentListPanel-review": "Kommentit",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Tallenna muutokset kuviin",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Tallenna muutokset huomautuksiin",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Polta kommentteja kuviin",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
 		"vsui-documentPasswordDialog-title": "Asiakirjan salasana",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Peruuta",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotoitua kuvaa käännetään",
 		"vsui-annotationCommentSettingsDialog-title": "Muokkaa huomautuksen kommenttia",
 		"vsui-dialog-deleteButton": "Poista",
-		"vsui-exportFileSettingsDialog-title": "Tiedoston vientiasetukset",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Peruuta"
+		"vsui-exportFileSettingsDialog-title": "Tiedoston vientiasetukset"
 	}
 }

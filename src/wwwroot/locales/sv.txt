@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyline"
 		},
+		"addInkAnnotationButton": {
+			"title": "Bläck"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polygon"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Upprepa"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Aktivera läget 'Radergummi för kommentarer'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mellan interaktionspunkter"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaktionsläge 'Visa'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaktionsläge 'Radergummi för kommentarer'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaktionsläge 'Suddgummi för penna'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Små interaktionspunkter"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Ladda upp och lägg till fil",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Bränn anteckningar",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Spara kommentarer",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Aktivera ändringshistorik",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Inaktivera ångra/gör om",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Aktivera läget 'Radergummi för kommentarer'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Inaktivera 'Annotationsraderare'",
 		"vsui-annotationListPanel-pageLabel": "Sida",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Anteckningsegenskaper",
 		"vsui-annotationCommentListPanel-review": "Kommentarer",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Spara ändringar i bilder",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Spara ändringar i kommentarer",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Bränn kommentarer på bilder",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Spara ändringar i PDF-dokument",
 		"vsui-documentPasswordDialog-title": "Dokumentlösenord",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Avbryt",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras",
 		"vsui-annotationCommentSettingsDialog-title": "Redigera kommentarkommentaren",
 		"vsui-dialog-deleteButton": "Ta bort",
-		"vsui-exportFileSettingsDialog-title": "Inställningarna för att exportera filen",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Avbryt"
+		"vsui-exportFileSettingsDialog-title": "Inställningarna för att exportera filen"
 	}
 }

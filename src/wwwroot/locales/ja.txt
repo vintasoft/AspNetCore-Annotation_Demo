@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "ポリライン"
 		},
+		"addInkAnnotationButton": {
+			"title": "インク"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "多角形"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "繰り返し"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "「注釈用消しゴム」モードを有効にする"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "中間のインタラクション ポイント"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "インタラクション モード「表示」"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "「注釈用消しゴム」インタラクション モード"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "「鉛筆用消しゴム」インタラクション モード"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "小さな相互作用ポイント"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "ファイルをアップロードして追加する",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "注釈を書き込む",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "注釈の保存",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "変更履歴を有効にする",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "元に戻す/やり直しを無効にする",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "「注釈用消しゴム」モードを有効にする",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "「注釈消しゴム」を無効にする",
 		"vsui-annotationListPanel-pageLabel": "ページ",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "注釈のプロパティ",
 		"vsui-annotationCommentListPanel-review": "コメント",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "画像の変更を保存する",
 		"vsdv-saveChanges-saveChangesInAnnotations": "注釈の変更を保存する",
 		"vsdv-saveChanges-burnAnnotationsInImages": "画像に注釈を書き込む",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
 		"vsui-documentPasswordDialog-title": "文書のパスワード",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "キャンセル",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注釈付き画像は回転中です",
 		"vsui-annotationCommentSettingsDialog-title": "注釈のコメントを編集する",
 		"vsui-dialog-deleteButton": "削除",
-		"vsui-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "キャンセル"
+		"vsui-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定"
 	}
 }

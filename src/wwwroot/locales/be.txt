@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Радкі"
 		},
+		"addInkAnnotationButton": {
+			"title": "чарніла"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Шматкутнік"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Паўтарыць"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Уключыць 'Ласцік анатацый'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Сярэднія кропкі ўзаемадзеяння"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Рэжым узаемадзеяння 'Прагляд'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Рэжым узаемадзеяння 'Ласцік анатацый'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Рэжым узаемадзеяння 'Ласцік алоўка'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Малыя кропкі ўзаемадзеяння"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "Загрузіць і дадаць файл",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Запісаць анатацыі",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Захаваць анатацыі",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Уключыць адмену/паўтарэнне",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Адключыць адмену/паўтарэнне",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Уключыць 'Ласцік анатацый'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Адключыць 'Сціральнік анатацый'",
 		"vsui-annotationListPanel-pageLabel": "старонка",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Уласцівасці анатацыі",
 		"vsui-annotationCommentListPanel-review": "Каментары",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "Захаваць змены ў малюнках",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Захаваць змены ў анатацыях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запіс анатацый да малюнкаў",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Захаваць змены ў дакуменце PDF",
 		"vsui-documentPasswordDialog-title": "Пароль дакумента",
 		"vsui-dialog-okButton": "OK",
 		"vsui-dialog-cancelButton": "Адмяніць",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі",
 		"vsui-annotationCommentSettingsDialog-title": "Рэдагаваць каментар да анатацыі",
 		"vsui-dialog-deleteButton": "Выдаліць",
-		"vsui-exportFileSettingsDialog-title": "Налады для экспарту файла",
-		"vsdv-dialog-okButton": "OK",
-		"vsdv-dialog-cancelButton": "Адмяніць"
+		"vsui-exportFileSettingsDialog-title": "Налады для экспарту файла"
 	}
 }

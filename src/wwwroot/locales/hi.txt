@@ -99,6 +99,9 @@
 		"addLinesAnnotationButton": {
 			"title": "पॉलीलाइन"
 		},
+		"addInkAnnotationButton": {
+			"title": "इंक"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "बहुभुज"
 		},
@@ -137,6 +140,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "दोहराएँ"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "सक्षम मोड 'एनोटेशन के लिए इरेज़र'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "मध्य इंटरेक्शन बिंदु"
@@ -261,6 +267,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "इंटरैक्शन मोड 'देखें'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "इंटरैक्शन मोड 'एनोटेशन के लिए इरेज़र'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "इंटरैक्शन मोड 'पेंसिल के लिए इरेज़र'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "छोटे इंटरेक्शन बिंदु"
@@ -1032,6 +1044,10 @@
 		"vsdv-uploadAndAddFileButton-addFileString": "फ़ाइल अपलोड करें और जोड़ें",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "टिप्पणियाँ जलाएँ",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "एनोटेशन सहेजें",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "परिवर्तन इतिहास सक्षम करें",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "पूर्ववत/पुनः करें अक्षम करें",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "सक्षम मोड 'एनोटेशन के लिए इरेज़र'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'एनोटेशन इरेज़र' अक्षम करें",
 		"vsui-annotationListPanel-pageLabel": "पेज",
 		"vsui-annotationListPanel-annotationPropertiesLabel": "एनोटेशन गुण",
 		"vsui-annotationCommentListPanel-review": "टिप्पणियाँ",
@@ -1042,7 +1058,6 @@
 		"vsdv-saveChanges-saveChangesInImages": "छवियों में परिवर्तन सहेजें",
 		"vsdv-saveChanges-saveChangesInAnnotations": "एनोटेशन में परिवर्तन सहेजें",
 		"vsdv-saveChanges-burnAnnotationsInImages": "छवियों पर एनोटेशन जलाएँ",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
 		"vsui-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
 		"vsui-dialog-okButton": "ठीक है",
 		"vsui-dialog-cancelButton": "रद्द करें",
@@ -1062,8 +1077,6 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "एनोटेट छवि को घुमाया जा रहा है",
 		"vsui-annotationCommentSettingsDialog-title": "एनोटेशन टिप्पणी संपादित करें",
 		"vsui-dialog-deleteButton": "हटाएं",
-		"vsui-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग",
-		"vsdv-dialog-okButton": "ठीक है",
-		"vsdv-dialog-cancelButton": "रद्द करें"
+		"vsui-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग"
 	}
 }
