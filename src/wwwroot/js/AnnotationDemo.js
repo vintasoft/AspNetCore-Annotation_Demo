@@ -45,12 +45,23 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
 // === "Tools" toolbar ===
 
 /**
+ Creates UI button for activating the visual tool, which allows to annotate, pan and zoom images in image viewer.
+*/
+function __createAnnotationAndPanAndZoomToolButton() {
+    return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
+        cssClass: "vsdv-tools-panAndZoomButton",
+        title: "Annotation, Pan, Zoom",
+        localizationId: "panAndZoomToolButton"
+    }, "AnnotationVisualTool,PanTool,ZoomTool");
+}
+
+/**
  Creates UI button for activating the visual tool, which allows to annotate and pan images in image viewer.
 */
 function __createAnnotationAndPanToolButton() {
     return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
         cssClass: "vsdv-tools-panButton",
-        title: "Pan",
+        title: "Annotation, Pan",
         localizationId: "panToolButton"
     }, "AnnotationVisualTool,PanTool");
 }
@@ -112,7 +123,9 @@ function __registerNewUiElements() {
     // register the "Previously uploaded files" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("previousUploadFilesButton", __createPreviousUploadFilesButton);
 
-    // register the "Pan" button in web UI elements factory
+    // register the "Pan and Zoom" button in web UI elements factory
+    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("panAndZoomToolButton", __createAnnotationAndPanAndZoomToolButton);
+      // register the "Pan" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("panToolButton", __createAnnotationAndPanToolButton);
 
     // register the "Fill and sign" panel in web UI elements factory
@@ -683,8 +696,8 @@ function __main2() {
     // specify that the image viewer must use the progress image for indicating the image loading progress
     imageViewer1.set_ProgressImage(progressImage);
 
-    // get the visual tool, which allows to annotate and pan images in image viewer
-    var annotationPanTool = _docViewer.getVisualToolById("AnnotationVisualTool,PanTool");
+    // get the visual tool, which allows to annotate, pan and zoom images in image viewer
+    var annotationPanTool = _docViewer.getVisualToolById("AnnotationVisualTool,PanTool,ZoomTool");
     _docViewer.set_MandatoryVisualTool(annotationPanTool);
     _docViewer.set_CurrentVisualTool(annotationPanTool);
 
