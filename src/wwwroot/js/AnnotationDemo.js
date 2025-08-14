@@ -45,25 +45,24 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
 // === "Tools" toolbar ===
 
 /**
- Creates UI button for activating the visual tool, which allows to annotate, pan and zoom images in image viewer.
-*/
-function __createAnnotationAndPanAndZoomToolButton() {
-    return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
-        cssClass: "vsdv-tools-panAndZoomButton",
-        title: "Annotation, Pan, Zoom",
-        localizationId: "panAndZoomToolButton"
-    }, "AnnotationVisualTool,PanTool,ZoomTool");
-}
-
-/**
  Creates UI button for activating the visual tool, which allows to annotate and pan images in image viewer.
 */
 function __createAnnotationAndPanToolButton() {
-    return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
-        cssClass: "vsdv-tools-panButton",
-        title: "Annotation, Pan",
-        localizationId: "panToolButton"
-    }, "AnnotationVisualTool,PanTool");
+    // if touch device is used
+    if (__isTouchDevice()) {
+        return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
+            cssClass: "vsdv-tools-panButton",
+            title: "Annotation, Pan, Zoom",
+            localizationId: "panToolButton"
+        }, "AnnotationVisualTool,PanTool,ZoomTool");
+    }
+    else {
+        return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
+            cssClass: "vsdv-tools-panButton",
+            title: "Annotation, Pan",
+            localizationId: "panToolButton"
+        }, "AnnotationVisualTool,PanTool");
+    }
 }
 
 
@@ -123,8 +122,6 @@ function __registerNewUiElements() {
     // register the "Previously uploaded files" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("previousUploadFilesButton", __createPreviousUploadFilesButton);
 
-    // register the "Pan and Zoom" button in web UI elements factory
-    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("panAndZoomToolButton", __createAnnotationAndPanAndZoomToolButton);
       // register the "Pan" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("panToolButton", __createAnnotationAndPanToolButton);
 
@@ -239,17 +236,19 @@ function __thumbnailsPanelActivated() {
  @param {object} docViewer The document viewer.
 */
 function __initializeVisualTools(docViewer) {
-    var rectangularSelectionTool = docViewer.getVisualToolById("RectangularSelectionTool");
-    rectangularSelectionTool.set_DisableContextMenu(true);
+    if (!__isTouchDevice()) {
+        var rectangularSelectionTool = docViewer.getVisualToolById("RectangularSelectionTool");
+        rectangularSelectionTool.set_DisableContextMenu(true);
 
-    var magnifierTool = docViewer.getVisualToolById("MagnifierTool");
-    magnifierTool.set_DisableContextMenu(true);
+        var magnifierTool = docViewer.getVisualToolById("MagnifierTool");
+        magnifierTool.set_DisableContextMenu(true);
 
-    var zoomTool = docViewer.getVisualToolById("ZoomTool");
-    zoomTool.set_DisableContextMenu(true);
+        var zoomTool = docViewer.getVisualToolById("ZoomTool");
+        zoomTool.set_DisableContextMenu(true);
 
-    var zoomSelectionTool = docViewer.getVisualToolById("ZoomSelectionTool");
-    zoomSelectionTool.set_DisableContextMenu(true);
+        var zoomSelectionTool = docViewer.getVisualToolById("ZoomSelectionTool");
+        zoomSelectionTool.set_DisableContextMenu(true);
+    }
 
     // initialize the annotation visual tool
     AnnotationUiHelperJS.initializeAnnotationVisualTool(docViewer);
@@ -587,6 +586,13 @@ function __enableUiLocalization() {
     });
 }
 
+/**
+ Returns a value indicating whether touch device is used.
+*/
+function __isTouchDevice() {
+    return (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
+}
+
 
 
 // === Main ===
@@ -696,8 +702,20 @@ function __main2() {
     // specify that the image viewer must use the progress image for indicating the image loading progress
     imageViewer1.set_ProgressImage(progressImage);
 
-    // get the visual tool, which allows to annotate, pan and zoom images in image viewer
-    var annotationPanTool = _docViewer.getVisualToolById("AnnotationVisualTool,PanTool,ZoomTool");
+    // names of visual tools in composite visual tool
+    var visualToolNames = "AnnotationVisualTool,PanTool";
+    // if touch device is used
+    if (__isTouchDevice()) {
+        // get zoom tool from document viewer
+        var zoomTool = _docViewer.getVisualToolById("ZoomTool");
+        // specify that zoom tool should not disable context menu
+        zoomTool.set_DisableContextMenu(false);
+
+        // add name of zoom tool to the names of visual tools of composite visual tool
+        visualToolNames = visualToolNames + ",ZoomTool";
+    }
+    // get the visual tool, which allows to annotate and pan images in image viewer
+    var annotationPanTool = _docViewer.getVisualToolById(visualToolNames);
     _docViewer.set_MandatoryVisualTool(annotationPanTool);
     _docViewer.set_CurrentVisualTool(annotationPanTool);
 
