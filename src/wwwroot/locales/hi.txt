@@ -55,16 +55,16 @@
 			"title": "थंबनेल व्यूअर सेटिंग्स"
 		},
 		"panToolButton": {
-			"title": "पैन"
-		},
-		"magnifierToolButton": {
-			"title": "आवर्धक"
+			"title": "एनोटेशन, पैन"
 		},
 		"zoomToolButton": {
 			"title": "पैमाना"
 		},
 		"zoomSelectionToolButton": {
 			"title": "पैमाने का चयन"
+		},
+		"magnifierToolButton": {
+			"title": "आवर्धक"
 		},
 		"showMobileMenuButton": {
 			"title": "अधिक"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "एनोटेटेड छवि घुमाएँ"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "परिवर्तन इतिहास सक्षम करें"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "रद्द करें"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "दोहराएँ"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "सक्षम मोड 'एनोटेशन के लिए इरेज़र'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "मध्य इंटरेक्शन बिंदु"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "पूर्ववत/पुनः करें इतिहास सक्षम करें"
 		},
 		"sidePanelCloseButton": {
 			"title": "साइडबार दिखाएँ"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "एनोटेट छवि को घुमाया जा रहा है",
 		"vsui-annotationCommentSettingsDialog-title": "एनोटेशन टिप्पणी संपादित करें",
 		"vsui-dialog-deleteButton": "हटाएं",
-		"vsui-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग"
+		"vsui-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग",
+		"vsui-documentNavigationTool-getActions": "कार्रवाई पाएँ",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "पूर्ववत/पुनः करें इतिहास सक्षम करें",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "पूर्ववत/पुनः करें इतिहास अक्षम करें",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "कार्रवाई पूर्ववत करें",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "कार्रवाई पुनः करें",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "सम्मिलित करें",
+		"vsui-annotationViewCollectionUndoAction-remove": "हटाएँ",
+		"vsui-annotationViewCollectionUndoAction-move": "ले जाएँ",
+		"vsui-annotationViewCollectionUndoAction-swap": "बदलें",
+		"vsui-annotationViewCollectionUndoAction-set": "सेट करें",
+		"vsui-annotationViewerUndoMonitor-moved": "ले जाएँ",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "ले जाएँ एनोटेशन:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "जोड़ें",
+		"vsui-undoAction-original": "(ओरिजिनल)",
+		"vsui-annotationViewer-pasteAnnotation": "एनोटेशन पेस्ट करें",
+		"vsui-annotationViewer-groupAllAnnotations": "सभी एनोटेशन को ग्रुप करें",
+		"vsui-annotationViewer-ungroupAnnotation": "एनोटेशन को अनग्रुप करें"
 	}
 }

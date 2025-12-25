@@ -55,16 +55,16 @@
 			"title": "Настройки за преглед на миниатюри"
 		},
 		"panToolButton": {
-			"title": "Панорамиране"
-		},
-		"magnifierToolButton": {
-			"title": "Лупа"
+			"title": "Анотация, Панорамиране"
 		},
 		"zoomToolButton": {
 			"title": "Мащаб"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Избор на мащаб"
+		},
+		"magnifierToolButton": {
+			"title": "Лупа"
 		},
 		"showMobileMenuButton": {
 			"title": "Още"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Завъртане на анотираното изображение"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Активиране на историята на промените"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Отказ"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Повторете"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Активирайте 'Гумичка за анотации'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Средни точки на взаимодействие"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Активиране на историята на отмяната/повтарянето"
 		},
 		"sidePanelCloseButton": {
 			"title": "Показване на страничната лента"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Коментираното изображение се завърта",
 		"vsui-annotationCommentSettingsDialog-title": "Редактирайте коментара на анотацията",
 		"vsui-dialog-deleteButton": "Изтриване",
-		"vsui-exportFileSettingsDialog-title": "Настройки за експортиране на файл"
+		"vsui-exportFileSettingsDialog-title": "Настройки за експортиране на файл",
+		"vsui-documentNavigationTool-getActions": "Вземете действия",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Активиране на историята на отмяната/повтарянето",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Деактивиране на историята на отмяната/повтарянето",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Отмяна на действието",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Повторно действие",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Вмъкване",
+		"vsui-annotationViewCollectionUndoAction-remove": "Премахване",
+		"vsui-annotationViewCollectionUndoAction-move": "Преместване",
+		"vsui-annotationViewCollectionUndoAction-swap": "Размяна",
+		"vsui-annotationViewCollectionUndoAction-set": "Задаване",
+		"vsui-annotationViewerUndoMonitor-moved": "Преместване",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Преместени анотации:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Добавяне",
+		"vsui-undoAction-original": "(оригинално)",
+		"vsui-annotationViewer-pasteAnnotation": "Поставяне на анотация",
+		"vsui-annotationViewer-groupAllAnnotations": "Групиране на всички анотации",
+		"vsui-annotationViewer-ungroupAnnotation": "Разгрупиране на анотацията"
 	}
 }

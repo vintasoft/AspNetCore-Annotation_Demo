@@ -55,16 +55,16 @@
 			"title": "Налаштування перегляду мініатюр"
 		},
 		"panToolButton": {
-			"title": "Пан"
-		},
-		"magnifierToolButton": {
-			"title": "лупа"
+			"title": "Анотація, Панорамування"
 		},
 		"zoomToolButton": {
 			"title": "Збільшити"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Вибір масштабу"
+		},
+		"magnifierToolButton": {
+			"title": "лупа"
 		},
 		"showMobileMenuButton": {
 			"title": "більше"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Обертання зображення з анотаціями"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Увімкнути скасування/повторення"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Скасувати"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Повторити"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Увімкнути режим «Гумка для анотацій»"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Середні точки взаємодії"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Увімкнути історію скасування/повторення"
 		},
 		"sidePanelCloseButton": {
 			"title": "Показати бічну панель"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Зображення, що обертається, з анотаціями",
 		"vsui-annotationCommentSettingsDialog-title": "Відредагуйте коментар до анотації",
 		"vsui-dialog-deleteButton": "Видалити",
-		"vsui-exportFileSettingsDialog-title": "Параметри експорту файлу"
+		"vsui-exportFileSettingsDialog-title": "Параметри експорту файлу",
+		"vsui-documentNavigationTool-getActions": "Отримати дії",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Увімкнути історію скасування/повторення",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Вимкнути історію скасування/повторення",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Скасувати дію",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Повторити дію",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Вставка",
+		"vsui-annotationViewCollectionUndoAction-remove": "Видалити",
+		"vsui-annotationViewCollectionUndoAction-move": "Перемістити",
+		"vsui-annotationViewCollectionUndoAction-swap": "Поміняти місцями",
+		"vsui-annotationViewCollectionUndoAction-set": "Встановити",
+		"vsui-annotationViewerUndoMonitor-moved": "Переміщено",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Переміщені анотації:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Додати",
+		"vsui-undoAction-original": "(оригінал)",
+		"vsui-annotationViewer-pasteAnnotation": "Вставити анотацію",
+		"vsui-annotationViewer-groupAllAnnotations": "Згрупувати всі анотації",
+		"vsui-annotationViewer-ungroupAnnotation": "Розгрупувати анотацію"
 	}
 }

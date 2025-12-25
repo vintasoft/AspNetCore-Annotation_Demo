@@ -55,16 +55,16 @@
 			"title": "缩略图查看器设置"
 		},
 		"panToolButton": {
-			"title": "平底锅"
-		},
-		"magnifierToolButton": {
-			"title": "放大镜"
+			"title": "注释，平移"
 		},
 		"zoomToolButton": {
 			"title": "飞涨"
 		},
 		"zoomSelectionToolButton": {
 			"title": "缩放选择"
+		},
+		"magnifierToolButton": {
+			"title": "放大镜"
 		},
 		"showMobileMenuButton": {
 			"title": "更多的"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "旋转带有注释的图像"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "启用撤消/重做"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "撤消"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "重做"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "启用'注释橡皮擦'模式"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "中等交互点"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "启用撤消/重做历史记录"
 		},
 		"sidePanelCloseButton": {
 			"title": "显示侧面板"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "带注释旋转图像",
 		"vsui-annotationCommentSettingsDialog-title": "编辑注释注释",
 		"vsui-dialog-deleteButton": "删除",
-		"vsui-exportFileSettingsDialog-title": "匯出文件的設置"
+		"vsui-exportFileSettingsDialog-title": "匯出文件的設置",
+		"vsui-documentNavigationTool-getActions": "获取操作",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "启用撤消/重做历史记录",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "禁用撤消/重做历史记录",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "撤消操作",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "重做操作",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "插入",
+		"vsui-annotationViewCollectionUndoAction-remove": "移除",
+		"vsui-annotationViewCollectionUndoAction-move": "移动",
+		"vsui-annotationViewCollectionUndoAction-swap": "交换",
+		"vsui-annotationViewCollectionUndoAction-set": "设置",
+		"vsui-annotationViewerUndoMonitor-moved": "已移动",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "已移动的注释：",
+		"vsui-annotationViewCollectionUndoMonitor-add": "添加",
+		"vsui-undoAction-original": "（原始）",
+		"vsui-annotationViewer-pasteAnnotation": "粘贴注释",
+		"vsui-annotationViewer-groupAllAnnotations": "将所有注释组合",
+		"vsui-annotationViewer-ungroupAnnotation": "取消注释组合"
 	}
 }

@@ -55,16 +55,16 @@
 			"title": "Ρυθμίσεις προβολής μικρογραφιών"
 		},
 		"panToolButton": {
-			"title": "Παν"
-		},
-		"magnifierToolButton": {
-			"title": "Μεγεθυντικός φακός"
+			"title": "Σχόλιο, Μετατόπιση"
 		},
 		"zoomToolButton": {
 			"title": "Κλίμακα"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Επιλογή κλίμακας"
+		},
+		"magnifierToolButton": {
+			"title": "Μεγεθυντικός φακός"
 		},
 		"showMobileMenuButton": {
 			"title": "Περισσότερα"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Περιστροφή σχολιασμένης εικόνας"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Ενεργοποίηση ιστορικού αλλαγών"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Ακύρωση"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Επανάληψη"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Ενεργοποίηση 'Γόμα για σχολιασμούς'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Μεσαία σημεία αλληλεπίδρασης"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Ενεργοποίηση ιστορικού αναίρεσης/επανάληψης"
 		},
 		"sidePanelCloseButton": {
 			"title": "Εμφάνιση πλαϊνής γραμμής"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται",
 		"vsui-annotationCommentSettingsDialog-title": "Επεξεργαστείτε το σχόλιο του σχολιασμού",
 		"vsui-dialog-deleteButton": "Διαγραφή",
-		"vsui-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου"
+		"vsui-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου",
+		"vsui-documentNavigationTool-getActions": "Λάβετε ενέργειες",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Ενεργοποίηση ιστορικού αναίρεσης/επανάληψης",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Απενεργοποίηση ιστορικού αναίρεσης/επανάληψης",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Αναίρεση της ενέργειας",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Επανάληψη της ενέργειας",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Εισαγωγή",
+		"vsui-annotationViewCollectionUndoAction-remove": "Αφαίρεση",
+		"vsui-annotationViewCollectionUndoAction-move": "Μετακίνηση",
+		"vsui-annotationViewCollectionUndoAction-swap": "Ανταλλαγή",
+		"vsui-annotationViewCollectionUndoAction-set": "Ορισμός",
+		"vsui-annotationViewerUndoMonitor-moved": "Μετακινήθηκε",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Μετακινημένες Σχολιασμοί:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Προσθήκη",
+		"vsui-undoAction-original": "(πρωτότυπο)",
+		"vsui-annotationViewer-pasteAnnotation": "Επικόλληση Σχολιασμού",
+		"vsui-annotationViewer-groupAllAnnotations": "Ομαδοποίηση όλων των Σχολιασμών",
+		"vsui-annotationViewer-ungroupAnnotation": "Κατάργηση ομαδοποίησης Σχολιασμού"
 	}
 }

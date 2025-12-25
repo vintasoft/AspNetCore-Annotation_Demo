@@ -55,16 +55,16 @@
 			"title": "Kleinkiekie-kyker-instellings"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Vergroter"
+			"title": "Annotasie, Pan"
 		},
 		"zoomToolButton": {
 			"title": "Skaal"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skaalseleksie"
+		},
+		"magnifierToolButton": {
+			"title": "Vergroter"
 		},
 		"showMobileMenuButton": {
 			"title": "Meer"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Draai geannoteerde prent"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Aktiveer veranderingsgeskiedenis"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Kanselleer"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Herhaal"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Aktiveer 'Annotasie-uitveër'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middelinteraksiepunte"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Aktiveer die ongedaan maak/herdoen geskiedenis"
 		},
 		"sidePanelCloseButton": {
 			"title": "Wys sybalk"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde prent word gedraai",
 		"vsui-annotationCommentSettingsDialog-title": "Wysig die aantekeningopmerking",
 		"vsui-dialog-deleteButton": "Vee uit",
-		"vsui-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer"
+		"vsui-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer",
+		"vsui-documentNavigationTool-getActions": "Kry aksies",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Aktiveer die ongedaan maak/herdoen geskiedenis",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Deaktiveer die ongedaan maak/herdoen geskiedenis",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Ontdoen die aksie",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Herdoen die aksie",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Voeg in",
+		"vsui-annotationViewCollectionUndoAction-remove": "Verwyder",
+		"vsui-annotationViewCollectionUndoAction-move": "Skuif",
+		"vsui-annotationViewCollectionUndoAction-swap": "Ruil",
+		"vsui-annotationViewCollectionUndoAction-set": "Stel",
+		"vsui-annotationViewerUndoMonitor-moved": "Verskuif",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Verskuif Annotasies:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Voeg by",
+		"vsui-undoAction-original": "(oorspronklik)",
+		"vsui-annotationViewer-pasteAnnotation": "Plak Annotasie",
+		"vsui-annotationViewer-groupAllAnnotations": "Groepeer Alle Annotasies",
+		"vsui-annotationViewer-ungroupAnnotation": "Ontgroepeer Annotasie"
 	}
 }

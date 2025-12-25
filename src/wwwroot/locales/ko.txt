@@ -55,16 +55,16 @@
 			"title": "썸네일 뷰어 설정"
 		},
 		"panToolButton": {
-			"title": "팬"
-		},
-		"magnifierToolButton": {
-			"title": "돋보기"
+			"title": "주석, 이동"
 		},
 		"zoomToolButton": {
 			"title": "축척"
 		},
 		"zoomSelectionToolButton": {
 			"title": "축척 선택"
+		},
+		"magnifierToolButton": {
+			"title": "돋보기"
 		},
 		"showMobileMenuButton": {
 			"title": "더보기"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "주석 이미지 회전"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "변경 내역 활성화"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "취소"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "반복"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "'주석 지우개' 모드 활성화"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "중간 상호 작용 지점"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "실행 취소/다시 실행 기록 활성화"
 		},
 		"sidePanelCloseButton": {
 			"title": "사이드바 보기"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "주석 이미지 회전 중",
 		"vsui-annotationCommentSettingsDialog-title": "주석 댓글 편집",
 		"vsui-dialog-deleteButton": "삭제",
-		"vsui-exportFileSettingsDialog-title": "파일을 내보내는 설정"
+		"vsui-exportFileSettingsDialog-title": "파일을 내보내는 설정",
+		"vsui-documentNavigationTool-getActions": "작업 가져오기",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "실행 취소/다시 실행 기록 활성화",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "실행 취소/다시 실행 기록 비활성화",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "작업 실행 취소",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "작업 다시 실행",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "삽입",
+		"vsui-annotationViewCollectionUndoAction-remove": "제거",
+		"vsui-annotationViewCollectionUndoAction-move": "이동",
+		"vsui-annotationViewCollectionUndoAction-swap": "교환",
+		"vsui-annotationViewCollectionUndoAction-set": "설정",
+		"vsui-annotationViewerUndoMonitor-moved": "이동됨",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "이동된 주석:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "추가",
+		"vsui-undoAction-original": "(원본)",
+		"vsui-annotationViewer-pasteAnnotation": "주석 붙여넣기",
+		"vsui-annotationViewer-groupAllAnnotations": "모든 주석 그룹화",
+		"vsui-annotationViewer-ungroupAnnotation": "주석 그룹 해제"
 	}
 }

@@ -55,16 +55,16 @@
 			"title": "Setări pentru vizualizatorul de miniaturi"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Lupă"
+			"title": "Adnotare, Panoramare"
 		},
 		"zoomToolButton": {
 			"title": "Scală"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Selectare scară"
+		},
+		"magnifierToolButton": {
+			"title": "Lupă"
 		},
 		"showMobileMenuButton": {
 			"title": "Mai multe"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Rotire imaginea adnotată"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Activați istoricul modificărilor"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Anulează"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Repetă"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Activați modul 'Goma de șters pentru adnotări'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Puncte de interacțiune din mijloc"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Activare istoric anulări/refacere"
 		},
 		"sidePanelCloseButton": {
 			"title": "Afișează bara laterală"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Imaginea adnotată este rotită",
 		"vsui-annotationCommentSettingsDialog-title": "Editați comentariul de adnotare",
 		"vsui-dialog-deleteButton": "Șterge",
-		"vsui-exportFileSettingsDialog-title": "Setările pentru exportul fișierului"
+		"vsui-exportFileSettingsDialog-title": "Setările pentru exportul fișierului",
+		"vsui-documentNavigationTool-getActions": "Obțineți acțiuni",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Activare istoric anulări/refacere",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Dezactivare istoric anulări/refacere",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Anulare acțiune",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Refacere acțiune",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Inserare",
+		"vsui-annotationViewCollectionUndoAction-remove": "Eliminare",
+		"vsui-annotationViewCollectionUndoAction-move": "Mutare",
+		"vsui-annotationViewCollectionUndoAction-swap": "Schimbare",
+		"vsui-annotationViewCollectionUndoAction-set": "Setare",
+		"vsui-annotationViewerUndoMonitor-moved": "Mutat",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Adnotări mutate:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Adăugare",
+		"vsui-undoAction-original": "(original)",
+		"vsui-annotationViewer-pasteAnnotation": "Lipire adnotare",
+		"vsui-annotationViewer-groupAllAnnotations": "Grupare toate adnotările",
+		"vsui-annotationViewer-ungroupAnnotation": "Degrupare adnotare"
 	}
 }

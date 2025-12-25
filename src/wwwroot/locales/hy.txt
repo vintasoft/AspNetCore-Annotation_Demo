@@ -55,16 +55,16 @@
 			"title": "Մանրապատկերների դիտման կարգավորումներ"
 		},
 		"panToolButton": {
-			"title": "Պան"
-		},
-		"magnifierToolButton": {
-			"title": "Խոշորացույց"
+			"title": "Նշում, Պանել"
 		},
 		"zoomToolButton": {
 			"title": "Մեծացնել"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Մեծացնելու ընտրություն"
+		},
+		"magnifierToolButton": {
+			"title": "Խոշորացույց"
 		},
 		"showMobileMenuButton": {
 			"title": "Ավելին"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Պտտեցնել պատկերը ծանոթագրություններով"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Միացնել հետարկել/վերագործարկել"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Հետարկել"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Կրկնել"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Միացնել 'Ջնջիչ ծանոթագրությունների համար' ռեժիմը"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Միջին փոխազդեցության կետեր"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Միացնել չեղարկման/վերադարձման պատմությունը"
 		},
 		"sidePanelCloseButton": {
 			"title": "Ցույց տալ կողային վահանակը"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Պտտվող պատկեր՝ ծանոթագրություններով",
 		"vsui-annotationCommentSettingsDialog-title": "Խմբագրել անոտացիայի մեկնաբանությունը",
 		"vsui-dialog-deleteButton": "Ջնջել",
-		"vsui-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները"
+		"vsui-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները",
+		"vsui-documentNavigationTool-getActions": "Ստացեք գործողություններ",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Միացնել չեղարկման/վերադարձման պատմությունը",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Անջատել չեղարկման/վերադարձման պատմությունը",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Չեղարկել գործողությունը",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Կրկնել գործողությունը",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Տեղադրեք",
+		"vsui-annotationViewCollectionUndoAction-remove": "Հեռացնել",
+		"vsui-annotationViewCollectionUndoAction-move": "Տեղափոխել",
+		"vsui-annotationViewCollectionUndoAction-swap": "Փոխանակել",
+		"vsui-annotationViewCollectionUndoAction-set": "Սահմանել",
+		"vsui-annotationViewerUndoMonitor-moved": "Տեղափոխված",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Տեղափոխված նշումներ՝",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Ավելացնել",
+		"vsui-undoAction-original": "(բնօրինակ)",
+		"vsui-annotationViewer-pasteAnnotation": "Տեղադրել նշումը",
+		"vsui-annotationViewer-groupAllAnnotations": "Խմբավորել բոլոր նշումները",
+		"vsui-annotationViewer-ungroupAnnotation": "Անխմբավորել նշումը"
 	}
 }

@@ -55,16 +55,16 @@
 			"title": "Inställningar för miniatyrvisning"
 		},
 		"panToolButton": {
-			"title": "Panera"
-		},
-		"magnifierToolButton": {
-			"title": "Förstoringsglas"
+			"title": "Annotering, Panorering"
 		},
 		"zoomToolButton": {
 			"title": "Skala"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skalval"
+		},
+		"magnifierToolButton": {
+			"title": "Förstoringsglas"
 		},
 		"showMobileMenuButton": {
 			"title": "Mer"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Rotera kommenterad bild"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Aktivera ändringshistorik"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Avbryt"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Upprepa"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Aktivera läget 'Radergummi för kommentarer'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mellan interaktionspunkter"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Aktivera ångra-/gör om-historiken"
 		},
 		"sidePanelCloseButton": {
 			"title": "Visa sidofältet"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras",
 		"vsui-annotationCommentSettingsDialog-title": "Redigera kommentarkommentaren",
 		"vsui-dialog-deleteButton": "Ta bort",
-		"vsui-exportFileSettingsDialog-title": "Inställningarna för att exportera filen"
+		"vsui-exportFileSettingsDialog-title": "Inställningarna för att exportera filen",
+		"vsui-documentNavigationTool-getActions": "Få åtgärder",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Aktivera ångra-/gör om-historiken",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Inaktivera ångra-/gör om-historiken",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Ångra åtgärden",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Gör om åtgärden",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Infoga",
+		"vsui-annotationViewCollectionUndoAction-remove": "Ta bort",
+		"vsui-annotationViewCollectionUndoAction-move": "Flytta",
+		"vsui-annotationViewCollectionUndoAction-swap": "Byt",
+		"vsui-annotationViewCollectionUndoAction-set": "Ange",
+		"vsui-annotationViewerUndoMonitor-moved": "Flyttade",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Flyttade anteckningar:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Lägg till",
+		"vsui-undoAction-original": "(original)",
+		"vsui-annotationViewer-pasteAnnotation": "Klistra in anteckning",
+		"vsui-annotationViewer-groupAllAnnotations": "Gruppera alla anteckningar",
+		"vsui-annotationViewer-ungroupAnnotation": "Dela upp anteckning"
 	}
 }

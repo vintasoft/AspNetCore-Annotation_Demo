@@ -55,16 +55,16 @@
 			"title": "Mipangilio ya kitazamaji cha kijipicha"
 		},
 		"panToolButton": {
-			"title": "Panua"
-		},
-		"magnifierToolButton": {
-			"title": "Kikuzalishi"
+			"title": "Ufafanuzi, Pan"
 		},
 		"zoomToolButton": {
 			"title": "Kuza"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Uchaguzi wa kukuza"
+		},
+		"magnifierToolButton": {
+			"title": "Kikuzalishi"
 		},
 		"showMobileMenuButton": {
 			"title": "Zaidi"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Zungusha picha na vidokezo"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Washa kutendua/rudia"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Tendua"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Rudia"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Washa hali ya 'Eraser kwa maelezo'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Pointi za mwingiliano wa kati"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Washa historia ya kutendua/rudia"
 		},
 		"sidePanelCloseButton": {
 			"title": "Onyesha Paneli ya Upande"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Inazungusha picha na vidokezo",
 		"vsui-annotationCommentSettingsDialog-title": "Hariri maoni ya ufafanuzi",
 		"vsui-dialog-deleteButton": "Futa",
-		"vsui-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili"
+		"vsui-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili",
+		"vsui-documentNavigationTool-getActions": "Pata vitendo",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Washa historia ya kutendua/rudia",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Lemaza kutendua/fanya upya historia",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Tendua kitendo",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Rudia kitendo",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Ingiza",
+		"vsui-annotationViewCollectionUndoAction-remove": "Ondoa",
+		"vsui-annotationViewCollectionUndoAction-move": "Hamisha",
+		"vsui-annotationViewCollectionUndoAction-swap": "Badilisha",
+		"vsui-annotationViewCollectionUndoAction-set": "Weka",
+		"vsui-annotationViewerUndoMonitor-moved": "Imehamishwa",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Maelezo Yaliyohamishwa:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Ongeza",
+		"vsui-undoAction-original": "(asili)",
+		"vsui-annotationViewer-pasteAnnotation": "Bandika Maelezo",
+		"vsui-annotationViewer-groupAllAnnotations": "Panga Maelezo Yote",
+		"vsui-annotationViewer-ungroupAnnotation": "Tenganisha Maelezo ya Kikundi"
 	}
 }

@@ -55,16 +55,16 @@
 			"title": "إعدادات عارض الصور المصغرة"
 		},
 		"panToolButton": {
-			"title": "عموم"
-		},
-		"magnifierToolButton": {
-			"title": "المكبر"
+			"title": "تعليق توضيحي، تحريك"
 		},
 		"zoomToolButton": {
 			"title": "مقياس"
 		},
 		"zoomSelectionToolButton": {
 			"title": "تحديد الحجم"
+		},
+		"magnifierToolButton": {
+			"title": "المكبر"
 		},
 		"showMobileMenuButton": {
 			"title": "المزيد"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "تدوير الصورة المشروحة"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "تمكين محفوظات التغيير"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "إلغاء"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "كرر"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "تفعيل 'ممحاة التعليقات التوضيحية'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "نقاط التفاعل المتوسطة"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "تفعيل سجل التراجع/الإعادة"
 		},
 		"sidePanelCloseButton": {
 			"title": "إظهار الشريط الجانبي"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة",
 		"vsui-annotationCommentSettingsDialog-title": "تحرير التعليق التوضيحي",
 		"vsui-dialog-deleteButton": "حذف",
-		"vsui-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف"
+		"vsui-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف",
+		"vsui-documentNavigationTool-getActions": "الحصول على الإجراءات",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "تفعيل سجل التراجع/الإعادة",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "تعطيل سجل التراجع/الإعادة",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "التراجع عن الإجراء",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "إعادة الإجراء",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "إدراج",
+		"vsui-annotationViewCollectionUndoAction-remove": "إزالة",
+		"vsui-annotationViewCollectionUndoAction-move": "نقل",
+		"vsui-annotationViewCollectionUndoAction-swap": "تبديل",
+		"vsui-annotationViewCollectionUndoAction-set": "تعيين",
+		"vsui-annotationViewerUndoMonitor-moved": "تم النقل",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "تم نقل التعليقات التوضيحية:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "إضافة",
+		"vsui-undoAction-original": "(الأصلية)",
+		"vsui-annotationViewer-pasteAnnotation": "لصق التعليق التوضيحي",
+		"vsui-annotationViewer-groupAllAnnotations": "تجميع جميع التعليقات التوضيحية",
+		"vsui-annotationViewer-ungroupAnnotation": "فك تجميع التعليق التوضيحي"
 	}
 }

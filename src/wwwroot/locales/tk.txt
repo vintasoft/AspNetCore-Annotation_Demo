@@ -55,16 +55,16 @@
 			"title": "Kiçijik tomaşaçy sazlamalary"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Ulaldyjy"
+			"title": "Annotasiýa, Pan"
 		},
 		"zoomToolButton": {
 			"title": "Ulaltmak"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Ulaltmak"
+		},
+		"magnifierToolButton": {
+			"title": "Ulaldyjy"
 		},
 		"showMobileMenuButton": {
 			"title": "Has köp"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Suraty düşündirişler bilen aýlaň"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Yzyna / yzyna gaýtarmaga mümkinçilik beriň"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Yza gaýtar"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Gaýtadan işlediň"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Özara täsir ediş tertibini işjeňleşdiriň 'Bellikler üçin pozujy'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Orta täsir nokatlary"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Taryhy yzyna gaýtarmak / täzeden açmak mümkinçiligini beriň"
 		},
 		"sidePanelCloseButton": {
 			"title": "Tarap paneli görkez"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiýa bilen şekili aýlamak",
 		"vsui-annotationCommentSettingsDialog-title": "Annotasiýa teswirini redaktirläň",
 		"vsui-dialog-deleteButton": "Öçür",
-		"vsui-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar"
+		"vsui-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar",
+		"vsui-documentNavigationTool-getActions": "Hereket ediň",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Taryhy yzyna gaýtarmak / täzeden açmak mümkinçiligini beriň",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Taryhy yzyna gaýtarmak / yzyna gaýtarmak",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Hereketi yzyna al",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Hereketi yzyna gaýtaryň",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Goýmak",
+		"vsui-annotationViewCollectionUndoAction-remove": "Aýyrmak",
+		"vsui-annotationViewCollectionUndoAction-move": "Göçürmek",
+		"vsui-annotationViewCollectionUndoAction-swap": "Çalşyrmak",
+		"vsui-annotationViewCollectionUndoAction-set": "Gurmak",
+		"vsui-annotationViewerUndoMonitor-moved": "Göçürildi",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Göçürilen Annotasiýalar:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Goşmak",
+		"vsui-undoAction-original": "(asyl)",
+		"vsui-annotationViewer-pasteAnnotation": "Annotasiýany goýmak",
+		"vsui-annotationViewer-groupAllAnnotations": "Ähli Annotasiýalary toparlamak",
+		"vsui-annotationViewer-ungroupAnnotation": "Annotasiýany aýyrmak"
 	}
 }

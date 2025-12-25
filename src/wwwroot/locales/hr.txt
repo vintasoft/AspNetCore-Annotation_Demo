@@ -55,16 +55,16 @@
 			"title": "Postavke pregledača sličica"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Povećalo"
+			"title": "Napomena, Pomicanje"
 		},
 		"zoomToolButton": {
 			"title": "Razmjer"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Odabir mjerila"
+		},
+		"magnifierToolButton": {
+			"title": "Povećalo"
 		},
 		"showMobileMenuButton": {
 			"title": "Više"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Zakreni označenu sliku"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Omogući povijest promjena"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Odustani"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Ponovi"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Omogući način rada 'Brisač za bilješke'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Srednje točke interakcije"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Omogući povijest poništavanja/ponovljavanja"
 		},
 		"sidePanelCloseButton": {
 			"title": "Prikaži bočnu traku"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Označena slika se rotira",
 		"vsui-annotationCommentSettingsDialog-title": "Uredite komentar napomene",
 		"vsui-dialog-deleteButton": "Izbriši",
-		"vsui-exportFileSettingsDialog-title": "Postavke za izvoz datoteke"
+		"vsui-exportFileSettingsDialog-title": "Postavke za izvoz datoteke",
+		"vsui-documentNavigationTool-getActions": "Zauzmite radnje",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Omogući povijest poništavanja/ponovljavanja",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Onemogući povijest poništavanja/ponovljavanja",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Poništi radnju",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Ponovi radnju",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Umetni",
+		"vsui-annotationViewCollectionUndoAction-remove": "Ukloni",
+		"vsui-annotationViewCollectionUndoAction-move": "Premjesti",
+		"vsui-annotationViewCollectionUndoAction-swap": "Zamijeni",
+		"vsui-annotationViewCollectionUndoAction-set": "Postavi",
+		"vsui-annotationViewerUndoMonitor-moved": "Premješteno",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Premještene napomene:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Dodaj",
+		"vsui-undoAction-original": "(izvorno)",
+		"vsui-annotationViewer-pasteAnnotation": "Zalijepi napomenu",
+		"vsui-annotationViewer-groupAllAnnotations": "Grupiraj sve napomene",
+		"vsui-annotationViewer-ungroupAnnotation": "Razgrupiraj napomenu"
 	}
 }

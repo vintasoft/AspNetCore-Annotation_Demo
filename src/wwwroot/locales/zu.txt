@@ -55,16 +55,16 @@
 			"title": "Izilungiselelo zesibukeli sesithonjana"
 		},
 		"panToolButton": {
-			"title": "Ipani"
-		},
-		"magnifierToolButton": {
-			"title": "Isikhulisi"
+			"title": "Isichasiselo, i-Pan"
 		},
 		"zoomToolButton": {
 			"title": "Sondeza"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Ukukhetha kokusondeza"
+		},
+		"magnifierToolButton": {
+			"title": "Isikhulisi"
 		},
 		"showMobileMenuButton": {
 			"title": "Okuningi"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Zungezisa isithombe ngezichasiselo"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Nika amandla ukuhlehlisa/ukwenza futhi"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Hlehlisa"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Yenza futhi"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Nika amandla imodi 'Isisuli sezichasiselo'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Amaphoyinti okusebenzelana amaphakathi"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Nika amandla ukuhlehlisa/ukwenza kabusha umlando"
 		},
 		"sidePanelCloseButton": {
 			"title": "Bonisa Iphaneli Eseceleni"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izungezisa isithombe ngezichasiselo",
 		"vsui-annotationCommentSettingsDialog-title": "Hlela amazwana esichasiselo",
 		"vsui-dialog-deleteButton": "Susa",
-		"vsui-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela"
+		"vsui-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela",
+		"vsui-documentNavigationTool-getActions": "Thola izenzo",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Nika amandla ukuhlehlisa/ukwenza kabusha umlando",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Khubaza ukuhlehlisa/ukwenza kabusha umlando",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Hlehlisa isenzo",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Phinda wenze isenzo",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Faka",
+		"vsui-annotationViewCollectionUndoAction-remove": "Susa",
+		"vsui-annotationViewCollectionUndoAction-move": "Hambisa",
+		"vsui-annotationViewCollectionUndoAction-swap": "Shintsha",
+		"vsui-annotationViewCollectionUndoAction-set": "Setha",
+		"vsui-annotationViewerUndoMonitor-moved": "Kuthuthiwe",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Kuthuthwe Amazwana:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Engeza",
+		"vsui-undoAction-original": "(okwangempela)",
+		"vsui-annotationViewer-pasteAnnotation": "Namathisela Amazwana",
+		"vsui-annotationViewer-groupAllAnnotations": "Qoqa Wonke Amazwana",
+		"vsui-annotationViewer-ungroupAnnotation": "Hlukanisa Amazwana"
 	}
 }

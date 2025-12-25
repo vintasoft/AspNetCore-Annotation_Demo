@@ -55,16 +55,16 @@
 			"title": "Einstellungen für die Miniaturansichtsansicht"
 		},
 		"panToolButton": {
-			"title": "Schwenken"
-		},
-		"magnifierToolButton": {
-			"title": "Lupe"
+			"title": "Anmerkung, Schwenken"
 		},
 		"zoomToolButton": {
 			"title": "Skalierung"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skalenauswahl"
+		},
+		"magnifierToolButton": {
+			"title": "Lupe"
 		},
 		"showMobileMenuButton": {
 			"title": "Mehr"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Kommentiertes Bild drehen"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Änderungsverlauf aktivieren"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Abbrechen"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Wiederholen"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "'Radiergummi für Anmerkungen' aktivieren"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mittlere Interaktionspunkte"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Rückgängig/Wiederholen-Verlauf aktivieren"
 		},
 		"sidePanelCloseButton": {
 			"title": "Seitenleiste anzeigen"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Das mit Anmerkungen versehene Bild wird gedreht",
 		"vsui-annotationCommentSettingsDialog-title": "Bearbeiten Sie den Anmerkungskommentar",
 		"vsui-dialog-deleteButton": "Löschen",
-		"vsui-exportFileSettingsDialog-title": "Die Einstellungen zum Exportieren der Datei"
+		"vsui-exportFileSettingsDialog-title": "Die Einstellungen zum Exportieren der Datei",
+		"vsui-documentNavigationTool-getActions": "Aktionen abrufen",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Rückgängig/Wiederholen-Verlauf aktivieren",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Rückgängig/Wiederholen-Verlauf deaktivieren",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Aktion rückgängig machen",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Aktion wiederherstellen",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Einfügen",
+		"vsui-annotationViewCollectionUndoAction-remove": "Entfernen",
+		"vsui-annotationViewCollectionUndoAction-move": "Verschieben",
+		"vsui-annotationViewCollectionUndoAction-swap": "Tauschen",
+		"vsui-annotationViewCollectionUndoAction-set": "Festlegen",
+		"vsui-annotationViewerUndoMonitor-moved": "Verschoben",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Verschobene Anmerkungen:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Hinzufügen",
+		"vsui-undoAction-original": "(Original)",
+		"vsui-annotationViewer-pasteAnnotation": "Anmerkung einfügen",
+		"vsui-annotationViewer-groupAllAnnotations": "Alle Anmerkungen gruppieren",
+		"vsui-annotationViewer-ungroupAnnotation": "Anmerkung gruppieren aufheben"
 	}
 }

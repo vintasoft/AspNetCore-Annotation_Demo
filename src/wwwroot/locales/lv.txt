@@ -55,16 +55,16 @@
 			"title": "Sīktēlu skatītāja iestatījumi"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Lupa"
+			"title": "Anotācija, Panoramēšana"
 		},
 		"zoomToolButton": {
 			"title": "Tālummaiņa"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Tālummaiņas izvēle"
+		},
+		"magnifierToolButton": {
+			"title": "Lupa"
 		},
 		"showMobileMenuButton": {
 			"title": "Vairāk"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Pagriezt attēlu ar anotācijām"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Iespējot atsaukšanu/atcelšanu"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Atsaukt"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Atkārtoti"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Iespējot režīmu 'Dzēšgumija anotācijām'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Vidēji mijiedarbības punkti"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Iespējot atsaukšanas/atkārtošanas vēsturi"
 		},
 		"sidePanelCloseButton": {
 			"title": "Rādīt sānu paneli"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotējams attēls ar anotācijām",
 		"vsui-annotationCommentSettingsDialog-title": "Rediģējiet anotācijas komentāru",
 		"vsui-dialog-deleteButton": "Dzēst",
-		"vsui-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi"
+		"vsui-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi",
+		"vsui-documentNavigationTool-getActions": "Iegūstiet darbības",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Iespējot atsaukšanas/atkārtošanas vēsturi",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Atspējot atsaukšanas/atkārtošanas vēsturi",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Atsaukt darbību",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Atkārtot darbību",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Ievietot",
+		"vsui-annotationViewCollectionUndoAction-remove": "Noņemt",
+		"vsui-annotationViewCollectionUndoAction-move": "Pārvietot",
+		"vsui-annotationViewCollectionUndoAction-swap": "Apmainīt",
+		"vsui-annotationViewCollectionUndoAction-set": "Iestatīt",
+		"vsui-annotationViewerUndoMonitor-moved": "Pārvietots",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Pārvietotās anotācijas:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Pievienot",
+		"vsui-undoAction-original": "(oriģināls)",
+		"vsui-annotationViewer-pasteAnnotation": "Ielīmēt anotāciju",
+		"vsui-annotationViewer-groupAllAnnotations": "Grupēt visas anotācijas",
+		"vsui-annotationViewer-ungroupAnnotation": "Atgrupēt anotāciju"
 	}
 }

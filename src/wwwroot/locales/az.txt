@@ -55,16 +55,16 @@
 			"title": "Miniatür baxıcı parametrləri"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "böyüdücü"
+			"title": "Annotasiya, Pan"
 		},
 		"zoomToolButton": {
 			"title": "Zoom"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Zoom seçimi"
+		},
+		"magnifierToolButton": {
+			"title": "böyüdücü"
 		},
 		"showMobileMenuButton": {
 			"title": "Daha çox"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Annotasiyalarla şəkli fırladın"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Geri al/təkrar et"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Geri al"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Yenidən edin"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "'Annotasiya silgisini' aktivləşdirin"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Orta qarşılıqlı əlaqə nöqtələri"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Geri alma/təkrar tarixçəsini aktivləşdirin"
 		},
 		"sidePanelCloseButton": {
 			"title": "Yan Paneli göstərin"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiyalarla fırlanan şəkil",
 		"vsui-annotationCommentSettingsDialog-title": "Annotasiya şərhini redaktə edin",
 		"vsui-dialog-deleteButton": "Sil",
-		"vsui-exportFileSettingsDialog-title": "Faylı ixrac etmək üçün parametrlər"
+		"vsui-exportFileSettingsDialog-title": "Faylı ixrac etmək üçün parametrlər",
+		"vsui-documentNavigationTool-getActions": "Tədbirlər alın",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Geri alma/təkrar tarixçəsini aktivləşdirin",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Geri alma/təkrar tarixçəsini deaktiv edin",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Fəaliyyəti ləğv edin",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Hərəkəti yenidən edin",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Daxil et",
+		"vsui-annotationViewCollectionUndoAction-remove": "Sil",
+		"vsui-annotationViewCollectionUndoAction-move": "Köçür",
+		"vsui-annotationViewCollectionUndoAction-swap": "Dəyişdir",
+		"vsui-annotationViewCollectionUndoAction-set": "Təyin et",
+		"vsui-annotationViewerUndoMonitor-moved": "Köçürüldü",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Köçürüldü Annotasiyalar:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Əlavə et",
+		"vsui-undoAction-original": "(orijinal)",
+		"vsui-annotationViewer-pasteAnnotation": "Annotasiyanı Yapışdır",
+		"vsui-annotationViewer-groupAllAnnotations": "Bütün Annotasiyaları Qruplaşdır",
+		"vsui-annotationViewer-ungroupAnnotation": "Annotasiyanı Qrupdan Çıxar"
 	}
 }

@@ -55,16 +55,16 @@
 			"title": "Nastavenia prehliadača miniatúr"
 		},
 		"panToolButton": {
-			"title": "Panvica"
-		},
-		"magnifierToolButton": {
-			"title": "Lupa"
+			"title": "Anotácia, Posunutie"
 		},
 		"zoomToolButton": {
 			"title": "Zoom"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Výber priblíženia"
+		},
+		"magnifierToolButton": {
+			"title": "Lupa"
 		},
 		"showMobileMenuButton": {
 			"title": "Viac"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Otočte obrázok s anotáciami"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Povoliť vrátenie/znova"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Vrátenie späť"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Znovu"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Povoliť režim 'Guma pre anotácie'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Stredné interakčné body"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Povoliť históriu vrátenia/opakovania"
 		},
 		"sidePanelCloseButton": {
 			"title": "Zobraziť bočný panel"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Otočný obrázok s anotáciami",
 		"vsui-annotationCommentSettingsDialog-title": "Upravte komentár anotácie",
 		"vsui-dialog-deleteButton": "Odstrániť",
-		"vsui-exportFileSettingsDialog-title": "Nastavenia exportu súboru"
+		"vsui-exportFileSettingsDialog-title": "Nastavenia exportu súboru",
+		"vsui-documentNavigationTool-getActions": "Získajte akcie",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Povoliť históriu vrátenia/opakovania",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Zakázať históriu vrátenia/opakovania",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Vrátiť akciu späť",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Znovu vykonať akciu",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Vložiť",
+		"vsui-annotationViewCollectionUndoAction-remove": "Odstrániť",
+		"vsui-annotationViewCollectionUndoAction-move": "Presunúť",
+		"vsui-annotationViewCollectionUndoAction-swap": "Vymeniť",
+		"vsui-annotationViewCollectionUndoAction-set": "Nastaviť",
+		"vsui-annotationViewerUndoMonitor-moved": "Presunuté",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Presunuté anotácie:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Pridať",
+		"vsui-undoAction-original": "(pôvodné)",
+		"vsui-annotationViewer-pasteAnnotation": "Vložiť anotáciu",
+		"vsui-annotationViewer-groupAllAnnotations": "Zoskupiť všetky anotácie",
+		"vsui-annotationViewer-ungroupAnnotation": "Rozdeliť anotáciu"
 	}
 }

@@ -55,16 +55,16 @@
 			"title": "Эскиз көрүүчүнүн жөндөөлөрү"
 		},
 		"panToolButton": {
-			"title": "Пан"
-		},
-		"magnifierToolButton": {
-			"title": "лупа"
+			"title": "Аннотация, Пан"
 		},
 		"zoomToolButton": {
 			"title": "Чоңойтуу"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Чоңойтуу тандоо"
+		},
+		"magnifierToolButton": {
+			"title": "лупа"
 		},
 		"showMobileMenuButton": {
 			"title": "Дагы"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Аннотациялар менен сүрөттү буруңуз"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Артка кайтаруу/кайталоону иштетүү"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Жок кылуу"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Redo"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "'Аннотациялар үчүн өчүргүч' режимин иштетүү"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Орточо өз ара аракеттенүү пункттары"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Артка кайтаруу/кайталоо таржымалын иштетүү"
 		},
 		"sidePanelCloseButton": {
 			"title": "Каптал панелди көрсөтүү"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялар менен айлануучу сүрөт",
 		"vsui-annotationCommentSettingsDialog-title": "Аннотация комментарийин түзөтүңүз",
 		"vsui-dialog-deleteButton": "Жок кылуу",
-		"vsui-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар"
+		"vsui-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар",
+		"vsui-documentNavigationTool-getActions": "Аракеттерди алыңыз",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Артка кайтаруу/кайталоо таржымалын иштетүү",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Артка кайтаруу/кайталоо таржымалын өчүрүү",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Аракетти жокко чыгаруу",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Аракетти кайталаңыз",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Insert",
+		"vsui-annotationViewCollectionUndoAction-remove": "Алып салуу",
+		"vsui-annotationViewCollectionUndoAction-move": "Жылдыруу",
+		"vsui-annotationViewCollectionUndoAction-swap": "Алмаштыруу",
+		"vsui-annotationViewCollectionUndoAction-set": "Орнотуу",
+		"vsui-annotationViewerUndoMonitor-moved": "Жылдыруу",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Жылдыруу Аннотациялар:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Кошуу",
+		"vsui-undoAction-original": "(түп нуска)",
+		"vsui-annotationViewer-pasteAnnotation": "Аннотацияны чаптоо",
+		"vsui-annotationViewer-groupAllAnnotations": "Бардык аннотацияларды топтоо",
+		"vsui-annotationViewer-ungroupAnnotation": "Аннотацияны алып салуу"
 	}
 }

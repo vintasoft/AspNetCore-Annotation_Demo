@@ -55,16 +55,16 @@
 			"title": "Pisipiltide vaataja seaded"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Luup"
+			"title": "Märkus, panoraamimine"
 		},
 		"zoomToolButton": {
 			"title": "Suumi"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Suumi valik"
+		},
+		"magnifierToolButton": {
+			"title": "Luup"
 		},
 		"showMobileMenuButton": {
 			"title": "Rohkem"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Pöörake pilti koos märkustega"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Luba tagasivõtmine/teha uuesti"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Võta tagasi"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Tee uuesti"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Luba režiim 'Märkuste kustutuskumm'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Keskmised interaktsioonipunktid"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Luba tagasivõtmise/uuesti tegemise ajalugu"
 		},
 		"sidePanelCloseButton": {
 			"title": "Näita külgpaneeli"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Pööratav pilt koos märkustega",
 		"vsui-annotationCommentSettingsDialog-title": "Muutke annotatsiooni kommentaari",
 		"vsui-dialog-deleteButton": "Kustuta",
-		"vsui-exportFileSettingsDialog-title": "Faili eksportimise sätted"
+		"vsui-exportFileSettingsDialog-title": "Faili eksportimise sätted",
+		"vsui-documentNavigationTool-getActions": "Hankige toiminguid",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Luba tagasivõtmise/uuesti tegemise ajalugu",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Keela tagasivõtmise/uuesti tegemise ajalugu",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Tühista toiming",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Tee toiming uuesti",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Sisesta",
+		"vsui-annotationViewCollectionUndoAction-remove": "Eemalda",
+		"vsui-annotationViewCollectionUndoAction-move": "Teisalda",
+		"vsui-annotationViewCollectionUndoAction-swap": "Vaheta",
+		"vsui-annotationViewCollectionUndoAction-set": "Määra",
+		"vsui-annotationViewerUndoMonitor-moved": "Teisaldatud",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Teisaldatud märkused:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Lisa",
+		"vsui-undoAction-original": "(originaal)",
+		"vsui-annotationViewer-pasteAnnotation": "Kleebi märkus",
+		"vsui-annotationViewer-groupAllAnnotations": "Grupeeri kõik märkused",
+		"vsui-annotationViewer-ungroupAnnotation": "Märkuse rühmituse tühistamine"
 	}
 }

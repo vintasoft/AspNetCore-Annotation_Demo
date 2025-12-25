@@ -55,16 +55,16 @@
 			"title": "Miniatuurweergave-instellingen"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Vergrootglas"
+			"title": "Annotatie, Pan"
 		},
 		"zoomToolButton": {
 			"title": "Schaal"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Schaalselectie"
+		},
+		"magnifierToolButton": {
+			"title": "Vergrootglas"
 		},
 		"showMobileMenuButton": {
 			"title": "Meer"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Geannoteerde afbeelding roteren"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Wijzigingsgeschiedenis inschakelen"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Annuleren"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Herhalen"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Modus 'Gum voor aantekeningen' inschakelen"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middelste interactiepunten"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "De geschiedenis van ongedaan maken/opnieuw uitvoeren inschakelen"
 		},
 		"sidePanelCloseButton": {
 			"title": "Toon zijbalk"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd",
 		"vsui-annotationCommentSettingsDialog-title": "Bewerk de annotatieopmerking",
 		"vsui-dialog-deleteButton": "Verwijderen",
-		"vsui-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren"
+		"vsui-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren",
+		"vsui-documentNavigationTool-getActions": "Acties ophalen",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "De geschiedenis van ongedaan maken/opnieuw uitvoeren inschakelen",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "De geschiedenis van ongedaan maken/opnieuw uitvoeren uitschakelen",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "De actie ongedaan maken",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "De actie opnieuw uitvoeren",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Invoegen",
+		"vsui-annotationViewCollectionUndoAction-remove": "Verwijderen",
+		"vsui-annotationViewCollectionUndoAction-move": "Verplaatsen",
+		"vsui-annotationViewCollectionUndoAction-swap": "Wisselen",
+		"vsui-annotationViewCollectionUndoAction-set": "Instellen",
+		"vsui-annotationViewerUndoMonitor-moved": "Verplaatst",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Verplaatste annotaties:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Toevoegen",
+		"vsui-undoAction-original": "(origineel)",
+		"vsui-annotationViewer-pasteAnnotation": "Annotatie plakken",
+		"vsui-annotationViewer-groupAllAnnotations": "Alle annotaties groeperen",
+		"vsui-annotationViewer-ungroupAnnotation": "Annotatie degroeperen"
 	}
 }

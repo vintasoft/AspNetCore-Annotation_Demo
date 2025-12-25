@@ -55,16 +55,16 @@
 			"title": "サムネイル ビューアの設定"
 		},
 		"panToolButton": {
-			"title": "パン"
-		},
-		"magnifierToolButton": {
-			"title": "拡大鏡"
+			"title": "注釈、パン"
 		},
 		"zoomToolButton": {
 			"title": "スケール"
 		},
 		"zoomSelectionToolButton": {
 			"title": "スケールの選択"
+		},
+		"magnifierToolButton": {
+			"title": "拡大鏡"
 		},
 		"showMobileMenuButton": {
 			"title": "詳細"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "注釈付き画像を回転"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "変更履歴を有効にする"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "キャンセル"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "繰り返し"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "「注釈用消しゴム」モードを有効にする"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "中間のインタラクション ポイント"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "元に戻す/やり直し履歴を有効にする"
 		},
 		"sidePanelCloseButton": {
 			"title": "サイドバーを表示"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "注釈付き画像は回転中です",
 		"vsui-annotationCommentSettingsDialog-title": "注釈のコメントを編集する",
 		"vsui-dialog-deleteButton": "削除",
-		"vsui-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定"
+		"vsui-exportFileSettingsDialog-title": "ファイルをエクスポートするための設定",
+		"vsui-documentNavigationTool-getActions": "アクションを取得",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "元に戻す/やり直し履歴を有効にする",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "元に戻す/やり直し履歴を無効にする",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "操作を元に戻す",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "操作をやり直す",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "挿入",
+		"vsui-annotationViewCollectionUndoAction-remove": "削除",
+		"vsui-annotationViewCollectionUndoAction-move": "移動",
+		"vsui-annotationViewCollectionUndoAction-swap": "入れ替え",
+		"vsui-annotationViewCollectionUndoAction-set": "設定",
+		"vsui-annotationViewerUndoMonitor-moved": "移動",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "移動した注釈:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "追加",
+		"vsui-undoAction-original": "(元の注釈)",
+		"vsui-annotationViewer-pasteAnnotation": "注釈を貼り付け",
+		"vsui-annotationViewer-groupAllAnnotations": "すべての注釈をグループ化",
+		"vsui-annotationViewer-ungroupAnnotation": "注釈のグループ解除"
 	}
 }

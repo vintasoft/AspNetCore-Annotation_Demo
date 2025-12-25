@@ -55,16 +55,16 @@
 			"title": "הגדרות מציג תמונות ממוזערות"
 		},
 		"panToolButton": {
-			"title": "פאן"
-		},
-		"magnifierToolButton": {
-			"title": "מגדיל"
+			"title": "ביאור, מעבר תנועה"
 		},
 		"zoomToolButton": {
 			"title": "קנה מידה"
 		},
 		"zoomSelectionToolButton": {
 			"title": "בחירת קנה מידה"
+		},
+		"magnifierToolButton": {
+			"title": "מגדיל"
 		},
 		"showMobileMenuButton": {
 			"title": "עוד"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "סובב תמונה מוערת"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "אפשר היסטוריית שינויים"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "בטל"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "חזור"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "הפעל מצב 'מחק להערות'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "נקודות אינטראקציה בינוניות"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "הפעל את היסטוריית הביטול/הביצוע החוזר"
 		},
 		"sidePanelCloseButton": {
 			"title": "הצג סרגל צד"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות",
 		"vsui-annotationCommentSettingsDialog-title": "ערוך את הערת ההערה",
 		"vsui-dialog-deleteButton": "מחק",
-		"vsui-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ"
+		"vsui-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ",
+		"vsui-documentNavigationTool-getActions": "קבל פעולות",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "הפעל את היסטוריית הביטול/הביצוע החוזר",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "השבת את היסטוריית הביטול/הביצוע החוזר",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "בטל את הפעולה",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "בצע שוב את הפעולה",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "הוסף",
+		"vsui-annotationViewCollectionUndoAction-remove": "הסר",
+		"vsui-annotationViewCollectionUndoAction-move": "העבר",
+		"vsui-annotationViewCollectionUndoAction-swap": "החלף",
+		"vsui-annotationViewCollectionUndoAction-set": "הגדר",
+		"vsui-annotationViewerUndoMonitor-moved": "הועבר",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "הועבר הערות:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "הוסף",
+		"vsui-undoAction-original": "(מקורי)",
+		"vsui-annotationViewer-pasteAnnotation": "הדבק הערות",
+		"vsui-annotationViewer-groupAllAnnotations": "קבץ את כל ההערות",
+		"vsui-annotationViewer-ungroupAnnotation": "בטל קבוצת הערות"
 	}
 }

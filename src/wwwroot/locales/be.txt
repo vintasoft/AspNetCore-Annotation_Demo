@@ -55,16 +55,16 @@
 			"title": "Налады прагляду эскізаў"
 		},
 		"panToolButton": {
-			"title": "Пан"
-		},
-		"magnifierToolButton": {
-			"title": "Лупа"
+			"title": "Анатацыя, Панарамаванне"
 		},
 		"zoomToolButton": {
 			"title": "Маштабаванне"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Выбар маштабу"
+		},
+		"magnifierToolButton": {
+			"title": "Лупа"
 		},
 		"showMobileMenuButton": {
 			"title": "Яшчэ"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Паварот малюнка з анатацыямі"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Уключыць адмену/паўтарэнне"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Адмяніць"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Паўтарыць"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Уключыць 'Ласцік анатацый'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Сярэднія кропкі ўзаемадзеяння"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Уключыць гісторыю адмены/паўтору"
 		},
 		"sidePanelCloseButton": {
 			"title": "Паказаць бакавую панэль"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі",
 		"vsui-annotationCommentSettingsDialog-title": "Рэдагаваць каментар да анатацыі",
 		"vsui-dialog-deleteButton": "Выдаліць",
-		"vsui-exportFileSettingsDialog-title": "Налады для экспарту файла"
+		"vsui-exportFileSettingsDialog-title": "Налады для экспарту файла",
+		"vsui-documentNavigationTool-getActions": "Атрымаць дзеянні",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Уключыць гісторыю адмены/паўтору",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Адключыць гісторыю адмены/паўтору",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Адмяніць дзеянне",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Паўтарыць дзеянне",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Устаўка",
+		"vsui-annotationViewCollectionUndoAction-remove": "Выдаліць",
+		"vsui-annotationViewCollectionUndoAction-move": "Перамясціць",
+		"vsui-annotationViewCollectionUndoAction-swap": "Памяняць месцамі",
+		"vsui-annotationViewCollectionUndoAction-set": "Устанавіць",
+		"vsui-annotationViewerUndoMonitor-moved": "Перамясціць",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Перамешчаны анатацыі:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Дадаць",
+		"vsui-undoAction-original": "(арыгінал)",
+		"vsui-annotationViewer-pasteAnnotation": "Уставіць анатацыю",
+		"vsui-annotationViewer-groupAllAnnotations": "Згрупаваць усе анатацыі",
+		"vsui-annotationViewer-ungroupAnnotation": "Разгрупаваць анатацыю"
 	}
 }

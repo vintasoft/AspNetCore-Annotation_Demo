@@ -16,7 +16,7 @@
 			"title": "Загрузить и открыть файл"
 		},
 		"uploadAndAddFileButton": {
-			"title": "Загрузите и добавьте файл"
+			"title": "Загрузить и добавить файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Посмотреть список ранее загруженных файлов"
@@ -28,7 +28,7 @@
 			"title": "Распечатать изображения"
 		},
 		"downloadFileButton": {
-			"title": "Загрузить файл"
+			"title": "Скачать файл"
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Экспортировать и скачать файл"
@@ -55,16 +55,16 @@
 			"title": "Настройки просмотрщика миниатюр"
 		},
 		"panToolButton": {
-			"title": "Панорамирование"
-		},
-		"magnifierToolButton": {
-			"title": "Лупа"
+			"title": "Аннотирование, Панорамирование"
 		},
 		"zoomToolButton": {
 			"title": "Масштаб"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Масштабирование выделения"
+		},
+		"magnifierToolButton": {
+			"title": "Лупа"
 		},
 		"showMobileMenuButton": {
 			"title": "Еще"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Повернуть изображение с аннотациями"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Включить ведение истории изменений"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Отменить"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Повторить"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Включить 'Ластик аннотаций'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Средние точки взаимодействия"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Включить историю отмен/повторов"
 		},
 		"sidePanelCloseButton": {
 			"title": "Показать боковую панель"
@@ -1041,7 +1035,7 @@
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузить и открыть файл",
-		"vsdv-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Загрузить и добавить файл",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Прожечь аннотации",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Сохранить аннотации",
 		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Включить ведение истории изменений",
@@ -1054,7 +1048,7 @@
 		"vsui-annotationCommentListPanel-arg0IsSetByArg1": "{0} создан {1}",
 		"vsdv-openFile-addFileString": "Добавить файл",
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
-		"vsdv-downloadFile-actionMessage": "Загрузить файл",
+		"vsdv-downloadFile-actionMessage": "Скачать файл",
 		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Выполняется поворот изображения с аннотациями",
 		"vsui-annotationCommentSettingsDialog-title": "Редактировать комментарий аннотации",
 		"vsui-dialog-deleteButton": "Удалить",
-		"vsui-exportFileSettingsDialog-title": "Настройки для экспорта файла"
+		"vsui-exportFileSettingsDialog-title": "Настройки для экспорта файла",
+		"vsui-documentNavigationTool-getActions": "Получить действия",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Включить историю отмен/повторов",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Отключить историю отмен/повторов",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Отменить действие",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Повторить действие",
+		"vsui-annotationViewCollectionUndoAction-clear": "Очистить",
+		"vsui-annotationViewCollectionUndoAction-insert": "Вставка",
+		"vsui-annotationViewCollectionUndoAction-remove": "Удалить",
+		"vsui-annotationViewCollectionUndoAction-move": "Переместить",
+		"vsui-annotationViewCollectionUndoAction-swap": "Поменять местами",
+		"vsui-annotationViewCollectionUndoAction-set": "Установить",
+		"vsui-annotationViewerUndoMonitor-moved": "Перемещено",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Перемещенные аннотации:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Добавить",
+		"vsui-undoAction-original": "(оригинал)",
+		"vsui-annotationViewer-pasteAnnotation": "Вставить аннотацию",
+		"vsui-annotationViewer-groupAllAnnotations": "Сгруппировать все аннотации",
+		"vsui-annotationViewer-ungroupAnnotation": "Разгруппировать аннотацию"
 	}
 }

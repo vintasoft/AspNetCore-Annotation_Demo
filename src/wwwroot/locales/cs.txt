@@ -55,16 +55,16 @@
 			"title": "Nastavení prohlížeče miniatur"
 		},
 		"panToolButton": {
-			"title": "Pán"
-		},
-		"magnifierToolButton": {
-			"title": "Lupa"
+			"title": "Anotace, Posun"
 		},
 		"zoomToolButton": {
 			"title": "Měřítko"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Výběr měřítka"
+		},
+		"magnifierToolButton": {
+			"title": "Lupa"
 		},
 		"showMobileMenuButton": {
 			"title": "Více"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Otočit anotovaný obrázek"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Povolit historii změn"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Zrušit"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Opakujte"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Povolit 'Guma pro anotace'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Střední body interakce"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Povolit historii vrácení/opakování"
 		},
 		"sidePanelCloseButton": {
 			"title": "Zobrazit postranní panel"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Anotovaný obrázek se otáčí",
 		"vsui-annotationCommentSettingsDialog-title": "Upravte komentář anotace",
 		"vsui-dialog-deleteButton": "Smazat",
-		"vsui-exportFileSettingsDialog-title": "Nastavení pro export souboru"
+		"vsui-exportFileSettingsDialog-title": "Nastavení pro export souboru",
+		"vsui-documentNavigationTool-getActions": "Získejte akce",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Povolit historii vrácení/opakování",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Zakázat historii vrácení/opakování",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Vrátit akci zpět",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Znovu provést akci",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Vložit",
+		"vsui-annotationViewCollectionUndoAction-remove": "Odebrat",
+		"vsui-annotationViewCollectionUndoAction-move": "Přesunout",
+		"vsui-annotationViewCollectionUndoAction-swap": "Vyměnit",
+		"vsui-annotationViewCollectionUndoAction-set": "Nastavit",
+		"vsui-annotationViewerUndoMonitor-moved": "Přesunuto",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Přesunuté anotace:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Přidat",
+		"vsui-undoAction-original": "(původní)",
+		"vsui-annotationViewer-pasteAnnotation": "Vložit anotaci",
+		"vsui-annotationViewer-groupAllAnnotations": "Seskupit všechny anotace",
+		"vsui-annotationViewer-ungroupAnnotation": "Rozdělit anotaci"
 	}
 }

@@ -55,16 +55,16 @@
 			"title": "Pikkukuvien katseluohjelman asetukset"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Suurennuslasi"
+			"title": "Merkintä, Panorointi"
 		},
 		"zoomToolButton": {
 			"title": "Asteikko"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skaalan valinta"
+		},
+		"magnifierToolButton": {
+			"title": "Suurennuslasi"
 		},
 		"showMobileMenuButton": {
 			"title": "Lisää"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Kierrä huomautettua kuvaa"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Ota muutoshistoria käyttöön"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Peruuta"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Toista"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Ota käyttöön tila 'Pyyheen merkintöjä varten'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Keskitason vuorovaikutuspisteet"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Ota käyttöön kumoa/tee uudelleen -historia"
 		},
 		"sidePanelCloseButton": {
 			"title": "Näytä sivupalkki"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotoitua kuvaa käännetään",
 		"vsui-annotationCommentSettingsDialog-title": "Muokkaa huomautuksen kommenttia",
 		"vsui-dialog-deleteButton": "Poista",
-		"vsui-exportFileSettingsDialog-title": "Tiedoston vientiasetukset"
+		"vsui-exportFileSettingsDialog-title": "Tiedoston vientiasetukset",
+		"vsui-documentNavigationTool-getActions": "Hanki toimia",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Ota käyttöön kumoa/tee uudelleen -historia",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Poista käytöstä kumoa/tee uudelleen -historia",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Kumoa toiminto",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Tee toiminto uudelleen",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Lisää",
+		"vsui-annotationViewCollectionUndoAction-remove": "Poista",
+		"vsui-annotationViewCollectionUndoAction-move": "Siirrä",
+		"vsui-annotationViewCollectionUndoAction-swap": "Vaihda",
+		"vsui-annotationViewCollectionUndoAction-set": "Aseta",
+		"vsui-annotationViewerUndoMonitor-moved": "Siirretty",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Siirretyt merkinnät:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Lisää",
+		"vsui-undoAction-original": "(alkuperäinen)",
+		"vsui-annotationViewer-pasteAnnotation": "Liitä merkinnät",
+		"vsui-annotationViewer-groupAllAnnotations": "Ryhmittele kaikki merkinnät",
+		"vsui-annotationViewer-ungroupAnnotation": "Pura merkintöjen ryhmittely"
 	}
 }

@@ -55,16 +55,16 @@
 			"title": "Thumbnail viewer settings"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Magnifier"
+			"title": "Annotation, Pan"
 		},
 		"zoomToolButton": {
 			"title": "Zoom"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Zoom selection"
+		},
+		"magnifierToolButton": {
+			"title": "Magnifier"
 		},
 		"showMobileMenuButton": {
 			"title": "More"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Rotate image with annotations"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Enable undo/redo"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Undo"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Redo"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Enable annotation eraser"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Medium interaction points"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Enable the undo/redo history"
 		},
 		"sidePanelCloseButton": {
 			"title": "Show Side Panel"
@@ -1078,6 +1072,23 @@
 		"vsui-annotationCommentSettingsDialog-title": "Edit the annotation comment",
 		"vsui-dialog-deleteButton": "Delete",
 		"vsui-exportFileSettingsDialog-title": "Export file settings",
-		"vsui-documentNavigationTool-getActions": "Get actions"
+		"vsui-documentNavigationTool-getActions": "Get actions",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Enable the undo/redo history",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Disable the undo/redo history",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Undo the action",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Redo the action",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Insert",
+		"vsui-annotationViewCollectionUndoAction-remove": "Remove",
+		"vsui-annotationViewCollectionUndoAction-move": "Move",
+		"vsui-annotationViewCollectionUndoAction-swap": "Swap",
+		"vsui-annotationViewCollectionUndoAction-set": "Set",
+		"vsui-annotationViewerUndoMonitor-moved": "Moved",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Moved Annotations:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Add",
+		"vsui-undoAction-original": "(original)",
+		"vsui-annotationViewer-pasteAnnotation": "Paste Annotation",
+		"vsui-annotationViewer-groupAllAnnotations": "Group All Annotations",
+		"vsui-annotationViewer-ungroupAnnotation": "Ungroup Annotation"
 	}
 }

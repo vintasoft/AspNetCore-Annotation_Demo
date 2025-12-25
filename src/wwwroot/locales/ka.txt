@@ -55,16 +55,16 @@
 			"title": "მინიატურების მაყურებლის პარამეტრები"
 		},
 		"panToolButton": {
-			"title": "პან"
-		},
-		"magnifierToolButton": {
-			"title": "ლუპა"
+			"title": "ანოტაცია, პანორამირება"
 		},
 		"zoomToolButton": {
 			"title": "მასშტაბირება"
 		},
 		"zoomSelectionToolButton": {
 			"title": "მასშტაბირების შერჩევა"
+		},
+		"magnifierToolButton": {
+			"title": "ლუპა"
 		},
 		"showMobileMenuButton": {
 			"title": "მეტი"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "სურათის როტაცია ანოტაციებით"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "ჩართეთ გაუქმება/გამეორება"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "გაუქმება"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "ხელახლა"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "ჩართეთ რეჟიმი 'საშლელი ანოტაციებისთვის'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "საშუალო ურთიერთქმედების წერტილები"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "გაუქმების/განმეორების ისტორიის ჩართვა"
 		},
 		"sidePanelCloseButton": {
 			"title": "გვერდითი პანელის ჩვენება"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "მბრუნავი სურათი ანოტაციებით",
 		"vsui-annotationCommentSettingsDialog-title": "ანოტაციის კომენტარის რედაქტირება",
 		"vsui-dialog-deleteButton": "წაშლა",
-		"vsui-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის"
+		"vsui-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის",
+		"vsui-documentNavigationTool-getActions": "მიიღეთ მოქმედებები",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "გაუქმების/განმეორების ისტორიის ჩართვა",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "გაუქმების/განმეორების ისტორიის გამორთვა",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "მოქმედების გაუქმება",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "მოქმედების ხელახლა შესრულება",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "ჩასმა",
+		"vsui-annotationViewCollectionUndoAction-remove": "წაშლა",
+		"vsui-annotationViewCollectionUndoAction-move": "გადატანა",
+		"vsui-annotationViewCollectionUndoAction-swap": "ჩანაცვლება",
+		"vsui-annotationViewCollectionUndoAction-set": "დაყენება",
+		"vsui-annotationViewerUndoMonitor-moved": "გადატანილი",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "გადატანილი ანოტაციები:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "დამატება",
+		"vsui-undoAction-original": "(ორიგინალი)",
+		"vsui-annotationViewer-pasteAnnotation": "ანოტაციის ჩასმა",
+		"vsui-annotationViewer-groupAllAnnotations": "ყველა ანოტაციის დაჯგუფება",
+		"vsui-annotationViewer-ungroupAnnotation": "ანოტაციის განჯგუფება"
 	}
 }

@@ -55,16 +55,16 @@
 			"title": "Innstillinger for miniatyrbildevisning"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Forstørrelsesglass"
+			"title": "Annotering, Panorering"
 		},
 		"zoomToolButton": {
 			"title": "Skala"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skalavalg"
+		},
+		"magnifierToolButton": {
+			"title": "Forstørrelsesglass"
 		},
 		"showMobileMenuButton": {
 			"title": "Mer"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Roter annotert bilde"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Aktiver endringshistorikk"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Avbryt"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Gjenta"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Aktiver modus 'Viskelær for merknader'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middels interaksjonspunkter"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Aktiver angre-/gjenta-historikk"
 		},
 		"sidePanelCloseButton": {
 			"title": "Vis sidefelt"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommentert bilde blir rotert",
 		"vsui-annotationCommentSettingsDialog-title": "Rediger kommentarkommentaren",
 		"vsui-dialog-deleteButton": "Slett",
-		"vsui-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen"
+		"vsui-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen",
+		"vsui-documentNavigationTool-getActions": "Få handlinger",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Aktiver angre-/gjenta-historikk",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Deaktiver angre-/gjenta-historikk",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Angre handlingen",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Gjenta handlingen",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Sett inn",
+		"vsui-annotationViewCollectionUndoAction-remove": "Fjern",
+		"vsui-annotationViewCollectionUndoAction-move": "Flytt",
+		"vsui-annotationViewCollectionUndoAction-swap": "Bytt",
+		"vsui-annotationViewCollectionUndoAction-set": "Angi",
+		"vsui-annotationViewerUndoMonitor-moved": "Flyttet",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Flyttet Annoteringer:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Legg til",
+		"vsui-undoAction-original": "(original)",
+		"vsui-annotationViewer-pasteAnnotation": "Lim inn annotering",
+		"vsui-annotationViewer-groupAllAnnotations": "Gruppér alle annoteringer",
+		"vsui-annotationViewer-ungroupAnnotation": "Fjern gruppe annotering"
 	}
 }

@@ -55,16 +55,16 @@
 			"title": "Cài đặt trình xem hình thu nhỏ"
 		},
 		"panToolButton": {
-			"title": "Xoay"
-		},
-		"magnifierToolButton": {
-			"title": "Kính lúp"
+			"title": "Chú thích, Pan"
 		},
 		"zoomToolButton": {
 			"title": "Tỷ lệ"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Lựa chọn tỷ lệ"
+		},
+		"magnifierToolButton": {
+			"title": "Kính lúp"
 		},
 		"showMobileMenuButton": {
 			"title": "Thêm"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Xoay hình ảnh được chú thích"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Bật lịch sử thay đổi"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Hủy bỏ"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Lặp lại"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Bật chế độ 'Tẩy cho chú thích'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Điểm tương tác trung bình"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Bật lịch sử hoàn tác/làm lại"
 		},
 		"sidePanelCloseButton": {
 			"title": "Hiển thị thanh bên"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Hình ảnh được chú thích đang được xoay",
 		"vsui-annotationCommentSettingsDialog-title": "Chỉnh sửa chú thích bình luận",
 		"vsui-dialog-deleteButton": "Xóa",
-		"vsui-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin"
+		"vsui-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin",
+		"vsui-documentNavigationTool-getActions": "Nhận hành động",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Bật lịch sử hoàn tác/làm lại",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Tắt lịch sử hoàn tác/làm lại",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Hoàn tác hành động",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Làm lại hành động",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Chèn",
+		"vsui-annotationViewCollectionUndoAction-remove": "Xóa",
+		"vsui-annotationViewCollectionUndoAction-move": "Di chuyển",
+		"vsui-annotationViewCollectionUndoAction-swap": "Hoán đổi",
+		"vsui-annotationViewCollectionUndoAction-set": "Đặt",
+		"vsui-annotationViewerUndoMonitor-moved": "Đã di chuyển",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Chú thích đã di chuyển:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Thêm",
+		"vsui-undoAction-original": "(ban đầu)",
+		"vsui-annotationViewer-pasteAnnotation": "Dán chú thích",
+		"vsui-annotationViewer-groupAllAnnotations": "Nhóm tất cả chú thích",
+		"vsui-annotationViewer-ungroupAnnotation": "Bỏ nhóm chú thích"
 	}
 }

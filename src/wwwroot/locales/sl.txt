@@ -55,16 +55,16 @@
 			"title": "Nastavitve pregledovalnika sličic"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Povečevalno steklo"
+			"title": "Opomba, Pomikanje"
 		},
 		"zoomToolButton": {
 			"title": "Zoom"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Izbira povečave"
+		},
+		"magnifierToolButton": {
+			"title": "Povečevalno steklo"
 		},
 		"showMobileMenuButton": {
 			"title": "Več"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Zasukaj sliko z opombami"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Omogoči razveljavitev/ponovitev"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Razveljavi"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Ponovi"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Omogoči način 'Radirka za opombe'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Srednje interakcijske točke"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Omogoči zgodovino razveljavitev/ponovitev"
 		},
 		"sidePanelCloseButton": {
 			"title": "Pokaži stransko ploščo"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Vrteča se slika z opombami",
 		"vsui-annotationCommentSettingsDialog-title": "Uredite komentar opombe",
 		"vsui-dialog-deleteButton": "Izbriši",
-		"vsui-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke"
+		"vsui-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke",
+		"vsui-documentNavigationTool-getActions": "Pridobite dejanja",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Omogoči zgodovino razveljavitev/ponovitev",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Onemogoči zgodovino razveljavitev/ponovitev",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Razveljavi dejanje",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Ponovi dejanje",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Vstavi",
+		"vsui-annotationViewCollectionUndoAction-remove": "Odstrani",
+		"vsui-annotationViewCollectionUndoAction-move": "Premakni",
+		"vsui-annotationViewCollectionUndoAction-swap": "Zamenjaj",
+		"vsui-annotationViewCollectionUndoAction-set": "Nastavi",
+		"vsui-annotationViewerUndoMonitor-moved": "Premaknjeno",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Premaknjene opombe:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Dodaj",
+		"vsui-undoAction-original": "(izvirnik)",
+		"vsui-annotationViewer-pasteAnnotation": "Prilepi opombo",
+		"vsui-annotationViewer-groupAllAnnotations": "Združi vse opombe",
+		"vsui-annotationViewer-ungroupAnnotation": "Razdruži opombo"
 	}
 }

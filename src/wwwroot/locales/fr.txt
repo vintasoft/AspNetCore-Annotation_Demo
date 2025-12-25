@@ -55,16 +55,16 @@
 			"title": "Paramètres de la visionneuse de miniatures"
 		},
 		"panToolButton": {
-			"title": "Poêle"
-		},
-		"magnifierToolButton": {
-			"title": "Loupe"
+			"title": "Annotation, Panoramique"
 		},
 		"zoomToolButton": {
 			"title": "Échelle"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Sélection d'échelle"
+		},
+		"magnifierToolButton": {
+			"title": "Loupe"
 		},
 		"showMobileMenuButton": {
 			"title": "Plus"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Faire pivoter l'image annotée"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Activer l'historique des modifications"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Annuler"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Répéter"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Activer le mode 'Gomme pour les annotations'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Points d'interaction intermédiaires"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Activer l'historique des annulations/rétablissements"
 		},
 		"sidePanelCloseButton": {
 			"title": "Afficher la barre latérale"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'image annotée est en cours de rotation",
 		"vsui-annotationCommentSettingsDialog-title": "Modifier le commentaire de l'annotation",
 		"vsui-dialog-deleteButton": "Supprimer",
-		"vsui-exportFileSettingsDialog-title": "Les paramètres pour exporter le fichier"
+		"vsui-exportFileSettingsDialog-title": "Les paramètres pour exporter le fichier",
+		"vsui-documentNavigationTool-getActions": "Obtenir les actions",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Activer l'historique des annulations/rétablissements",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Désactiver l'historique des annulations/rétablissements",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Annuler l'action",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Rétablir l'action",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Insérer",
+		"vsui-annotationViewCollectionUndoAction-remove": "Supprimer",
+		"vsui-annotationViewCollectionUndoAction-move": "Déplacer",
+		"vsui-annotationViewCollectionUndoAction-swap": "Échanger",
+		"vsui-annotationViewCollectionUndoAction-set": "Définir",
+		"vsui-annotationViewerUndoMonitor-moved": "Déplacé",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Annotations déplacées:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Ajouter",
+		"vsui-undoAction-original": "(original)",
+		"vsui-annotationViewer-pasteAnnotation": "Coller l'annotation",
+		"vsui-annotationViewer-groupAllAnnotations": "Grouper toutes les annotations",
+		"vsui-annotationViewer-ungroupAnnotation": "Dissocier l'annotation"
 	}
 }

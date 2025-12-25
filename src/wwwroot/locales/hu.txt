@@ -55,16 +55,16 @@
 			"title": "Miniatűr-nézegető beállításai"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Nagyító"
+			"title": "Jegyzet, Pásztázás"
 		},
 		"zoomToolButton": {
 			"title": "Skála"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skála kiválasztása"
+		},
+		"magnifierToolButton": {
+			"title": "Nagyító"
 		},
 		"showMobileMenuButton": {
 			"title": "Továbbiak"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "A megjegyzésekkel ellátott kép elforgatása"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Változástörténet engedélyezése"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Mégse"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Ismétlés"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Engedélyezze a 'Jegyzetek radírja' módot"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Közepes interakciós pontok"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Visszavonás/ismétlés előzmények engedélyezése"
 		},
 		"sidePanelCloseButton": {
 			"title": "Oldalsáv megjelenítése"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "A megjegyzésekkel ellátott kép elforgatása folyamatban van",
 		"vsui-annotationCommentSettingsDialog-title": "Szerkessze a kommentár megjegyzését",
 		"vsui-dialog-deleteButton": "Törlés",
-		"vsui-exportFileSettingsDialog-title": "A fájl exportálásának beállításai"
+		"vsui-exportFileSettingsDialog-title": "A fájl exportálásának beállításai",
+		"vsui-documentNavigationTool-getActions": "Szerezzen akciókat",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Visszavonás/ismétlés előzmények engedélyezése",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Visszavonás/ismétlés előzmények letiltása",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Művelet visszavonása",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Művelet újravégzése",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Beszúrás",
+		"vsui-annotationViewCollectionUndoAction-remove": "Eltávolítás",
+		"vsui-annotationViewCollectionUndoAction-move": "Áthelyezés",
+		"vsui-annotationViewCollectionUndoAction-swap": "Csere",
+		"vsui-annotationViewCollectionUndoAction-set": "Beállítás",
+		"vsui-annotationViewerUndoMonitor-moved": "Áthelyezve",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Áthelyezve jegyzetek:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Hozzáadás",
+		"vsui-undoAction-original": "(eredeti)",
+		"vsui-annotationViewer-pasteAnnotation": "Jegyzet beillesztése",
+		"vsui-annotationViewer-groupAllAnnotations": "Összes jegyzet csoportosítása",
+		"vsui-annotationViewer-ungroupAnnotation": "Jegyzet csoportosításának felbontása"
 	}
 }

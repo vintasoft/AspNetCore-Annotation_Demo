@@ -55,16 +55,16 @@
 			"title": "Miniatiūrų peržiūros priemonės nustatymai"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Didintuvas"
+			"title": "Anotacija, panoraminimas"
 		},
 		"zoomToolButton": {
 			"title": "Padidinti"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Priartinimo pasirinkimas"
+		},
+		"magnifierToolButton": {
+			"title": "Didintuvas"
 		},
 		"showMobileMenuButton": {
 			"title": "Daugiau"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Pasukite vaizdą su komentarais"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Įgalinti anuliuoti / perdaryti"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Anuliuoti"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Perdaryti"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Įjungti režimą 'Komentarų trintukas'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Vidutinės sąveikos taškai"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Įjungti anuliavimo/atlikimo istoriją"
 		},
 		"sidePanelCloseButton": {
 			"title": "Rodyti šoninį skydelį"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Sukamasis vaizdas su komentarais",
 		"vsui-annotationCommentSettingsDialog-title": "Redaguokite komentaro komentarą",
 		"vsui-dialog-deleteButton": "Ištrinti",
-		"vsui-exportFileSettingsDialog-title": "Failo eksporto nustatymai"
+		"vsui-exportFileSettingsDialog-title": "Failo eksporto nustatymai",
+		"vsui-documentNavigationTool-getActions": "Gaukite veiksmų",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Įjungti anuliavimo/atlikimo istoriją",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Išjungti anuliavimo/atlikimo istoriją",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Anuliuoti veiksmą",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Pakartoti veiksmą",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Įdėti",
+		"vsui-annotationViewCollectionUndoAction-remove": "Pašalinti",
+		"vsui-annotationViewCollectionUndoAction-move": "Perkelti",
+		"vsui-annotationViewCollectionUndoAction-swap": "Sukeisti",
+		"vsui-annotationViewCollectionUndoAction-set": "Nustatyti",
+		"vsui-annotationViewerUndoMonitor-moved": "Perkelti",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Perkelta Anotacijos:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Pridėti",
+		"vsui-undoAction-original": "(originali)",
+		"vsui-annotationViewer-pasteAnnotation": "Įklijuoti Anotaciją",
+		"vsui-annotationViewer-groupAllAnnotations": "Grupuoti visas anotacijas",
+		"vsui-annotationViewer-ungroupAnnotation": "Išgrupuoti Anotaciją"
 	}
 }

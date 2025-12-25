@@ -55,16 +55,16 @@
 			"title": "Eskizni ko'rish sozlamalari"
 		},
 		"panToolButton": {
-			"title": "Pan"
-		},
-		"magnifierToolButton": {
-			"title": "Kattalashtiruvchi"
+			"title": "Izoh, Pan"
 		},
 		"zoomToolButton": {
 			"title": "Kattalashtirish"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Kattalashtirish tanlovi"
+		},
+		"magnifierToolButton": {
+			"title": "Kattalashtiruvchi"
 		},
 		"showMobileMenuButton": {
 			"title": "Ko'proq"
@@ -132,20 +132,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Tasvirni izohlar bilan aylantiring"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Bekor qilish/qayta qilishni yoqish"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Bekor qilish"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Qayta qiling"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "'Izohlar uchun o'chirgich' rejimini yoqish"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "O'rta o'zaro ta'sir nuqtalari"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Bekor qilish/qayta tiklash tarixini yoqing"
 		},
 		"sidePanelCloseButton": {
 			"title": "Yon panelni ko'rsatish"
@@ -1077,6 +1071,24 @@
 		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izohlar bilan aylantiriladigan rasm",
 		"vsui-annotationCommentSettingsDialog-title": "Izoh sharhini tahrirlang",
 		"vsui-dialog-deleteButton": "Oʻchirish",
-		"vsui-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar"
+		"vsui-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar",
+		"vsui-documentNavigationTool-getActions": "Amallarni oling",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Bekor qilish/qayta tiklash tarixini yoqing",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Bekor qilish/qayta tiklash tarixini o'chiring",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Amalni bekor qiling",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Amalni qayta bajaring",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Kiritmoq",
+		"vsui-annotationViewCollectionUndoAction-remove": "Olib tashlash",
+		"vsui-annotationViewCollectionUndoAction-move": "Ko'chirish",
+		"vsui-annotationViewCollectionUndoAction-swap": "Almashtirish",
+		"vsui-annotationViewCollectionUndoAction-set": "O'rnatish",
+		"vsui-annotationViewerUndoMonitor-moved": "Ko'chirildi",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Ko'chirilgan izohlar:",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Qo'shish",
+		"vsui-undoAction-original": "(asl nusxasi)",
+		"vsui-annotationViewer-pasteAnnotation": "Izohni joylashtirish",
+		"vsui-annotationViewer-groupAllAnnotations": "Barcha izohlarni guruhlash",
+		"vsui-annotationViewer-ungroupAnnotation": "Izohlarni guruhdan chiqarish"
 	}
 }
