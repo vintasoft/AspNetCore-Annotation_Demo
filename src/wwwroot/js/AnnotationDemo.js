@@ -663,9 +663,9 @@ function __main2() {
     // specify that the meain menu should contain the annotation menu
     docViewerSettings.set_ShowAnnotationMenuInMainMenu(true);
     // specify that the side panel should contain the annotation list panel
-    docViewerSettings.set_ShowAnnotationListPanelInSidePanel(true);
+    docViewerSettings.set_ShowAnnotationListSidePanel(true);
     // specify that the side panel should contain the annotation comment list panel
-    docViewerSettings.set_ShowAnnotationCommentListPanelInSidePanel(true);
+    docViewerSettings.set_ShowAnnotationCommentListSidePanel(true);
     // specify that document viewer should show "Export and download file" button instead of "Download file" button
     docViewerSettings.set_CanExportAndDownloadFile(true);
     docViewerSettings.set_CanDownloadFile(false);
