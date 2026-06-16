@@ -122,7 +122,7 @@ function __registerNewUiElements() {
     // register the "Previously uploaded files" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("previousUploadFilesButton", __createPreviousUploadFilesButton);
 
-      // register the "Pan" button in web UI elements factory
+    // register the "Pan" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("panToolButton", __createAnnotationAndPanToolButton);
 
     // register the "Fill and sign" panel in web UI elements factory
