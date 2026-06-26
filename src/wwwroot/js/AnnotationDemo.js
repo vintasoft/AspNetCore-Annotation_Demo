@@ -127,6 +127,30 @@ function __registerNewUiElements() {
 
     // register the "Fill and sign" panel in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("fillAndSignPanel", __createFillAndSignPanel);
+
+    // register the "Add triangle annotation" button
+    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("addTriangleAnnotationButton", function () {
+        return new Vintasoft.Imaging.Annotation.UI.UIElements.WebUiAnnotationButtonJS({
+            cssClass: "vsui-annotations-addTriangleButton",
+            title: "Triangle",
+            localizationId: "addTriangleAnnotationButton"
+        }, "TriangleAnnotation");
+    });
+    // register the "Add mark annotation" button
+    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("addMarkAnnotationButton", function () {
+        return new Vintasoft.Imaging.Annotation.UI.UIElements.WebUiAnnotationButtonJS({
+            cssClass: "vsui-annotations-addMarkButton",
+            title: "Mark",
+            localizationId: "addMarkAnnotationButton"
+        }, "MarkAnnotation");
+    });
+    // register the "Add custom annotations" toggle button "addAnnotationToolbarPanel"
+    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("addCustomAnnotationsToggleButton", function () {
+        return new Vintasoft.Imaging.UI.UIElements.WebUiToggleButtonJS(
+            { raiseClickEventWhenTogglePanelOpening: false },
+            ["addTriangleAnnotationButton", "addMarkAnnotationButton"],
+            { cssClass: "vsui-togglePanel" });
+    });
 }
 
 /**
@@ -167,6 +191,16 @@ function __initMenu(docViewerSettings) {
         if (rectangularSelectionToolButton != null)
             // remove the "Rectangular Selection Tool" button from the menu panel
             toolsMenuPanelItems.removeItem(rectangularSelectionToolButton);
+    }
+
+    // get the "Annotations" menu
+    var annotationsMenuPanel = items.getItemByRegisteredId("annotationsMenuPanel");
+    // if menu panel is found
+    if (annotationsMenuPanel != null) {
+        // get items of "Annotations" menu
+        var annotationsMenuPanelItems = annotationsMenuPanel.get_Items();
+        // add "addCustomRectanleAnnotationButton" button to the "addAnnotationToolbar" panel
+        annotationsMenuPanelItems.insertItem(13, "addCustomAnnotationsToggleButton");
     }
 }
 
@@ -428,6 +462,26 @@ function __annotationCommentListPanel_commentSettingsDialogShown(event, eventArg
 
         // show the error message
         __showErrorMessage("Wrong user name.");
+    }
+}
+
+/**
+ The interaction area appearance manager applies the points style to an annotation.
+*/
+function __interactionAreaAppearanceManager_applyInteractionPointsStyle(event, eventArgs) {
+    // get the interaction area appearance manager
+    var interactionAreaAppearanceManager = event.target;
+    // get the annotation
+    var annotation = eventArgs.annotation;
+    // if annotation is traiangle annotation
+    if (annotation instanceof Vintasoft.Imaging.Annotation.UI.WebTriangleAnnotationViewJS) {
+        // get the template of polygon points from annotation
+        var annotationPolygonTemplate = annotation.get_PolygonPointTemplate();
+        // change the template
+        annotationPolygonTemplate.set_Style(new Vintasoft.Imaging.UI.VisualTools.WebInteractionPointTypeEnumJS("circle"));
+        annotationPolygonTemplate.set_Radius(8);
+        annotationPolygonTemplate.set_InteractionRadius(8);
+        annotationPolygonTemplate.set_FillColor("rgba(255,0,0,0.36)");
     }
 }
 
@@ -709,6 +763,20 @@ function __main2() {
 
     // initialize visual tools
     __initializeVisualTools(_docViewer);
+
+    // register the triangle annotation
+    Vintasoft.Imaging.Annotation.UI.WebAnnotationViewFabricJS.registerAnnotation("TriangleAnnotation", function () {
+        return new Vintasoft.Imaging.Annotation.UI.WebTriangleAnnotationViewJS();
+    });
+    // register the mark annotation
+    Vintasoft.Imaging.Annotation.UI.WebAnnotationViewFabricJS.registerAnnotation("MarkAnnotation", function () {
+        return new Vintasoft.Imaging.Annotation.UI.WebMarkAnnotationViewJS();
+    });
+
+    // get the interaction area appearance manager from the document viewer
+    var interactionAreaAppearanceManager = _docViewer.getInteractionAreaAppearanceManager();
+    // subscribe to the "applyInteractionPointsStyle" event in the interaction area appearance manager
+    Vintasoft.Shared.subscribeToEvent(interactionAreaAppearanceManager, "applyInteractionPointsStyle", __interactionAreaAppearanceManager_applyInteractionPointsStyle);
 
     // get the thumbnail viewer of document viewer
     var thumbnailViewer1 = _docViewer.get_ThumbnailViewer();

@@ -2,29 +2,29 @@
 
 	<PropertyGroup>
 		<TargetFramework>net10.0</TargetFramework>
-		<Version>15.1.0.1</Version>
+		<Version>15.1.1.1</Version>
 		<EnableDefaultItems>false</EnableDefaultItems>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.0" />
-		<PackageReference Include="SkiaSharp" Version="3.119.0" />
+		<PackageReference Include="SkiaSharp" Version="3.119.4" />
 	</ItemGroup>
 
 	<ItemGroup>
-    <PackageReference Include="Vintasoft.Shared" Version="4.6.1.1" />
-    <PackageReference Include="Vintasoft.Imaging" Version="15.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="15.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="15.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.Pdf" Version="15.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="12.1.0.1" />
+    <PackageReference Include="Vintasoft.Shared" Version="4.6.2.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="15.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="15.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="15.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.Pdf" Version="15.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="12.1.1.1" />
     <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="10.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="12.1.0.1" />
-    <PackageReference Include="Vintasoft.Shared.Web" Version="4.6.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="15.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="15.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.Web.Services" Version="15.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.AspNetCore.ApiControllers" Version="15.1.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="12.1.1.1" />
+    <PackageReference Include="Vintasoft.Shared.Web" Version="4.6.2.1" />
+    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="15.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="15.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.Web.Services" Version="15.1.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.AspNetCore.ApiControllers" Version="15.1.1.1" />
 	</ItemGroup>
 <ItemGroup>
   <Compile Include="Controllers\API\Annotations\CustomAnnotations\AnnotationsMath.cs" />
@@ -68,7 +68,6 @@
   <Content Include="wwwroot\locales\el.txt" />
   <Content Include="wwwroot\locales\en.txt" />
   <Content Include="wwwroot\locales\es.txt" />
-  <Content Include="wwwroot\locales\et.txt" />
   <Content Include="wwwroot\locales\fi.txt" />
   <Content Include="wwwroot\locales\fr.txt" />
   <Content Include="wwwroot\locales\he.txt" />
@@ -82,8 +81,6 @@
   <Content Include="wwwroot\locales\kk.txt" />
   <Content Include="wwwroot\locales\ko.txt" />
   <Content Include="wwwroot\locales\ky.txt" />
-  <Content Include="wwwroot\locales\lt.txt" />
-  <Content Include="wwwroot\locales\lv.txt" />
   <Content Include="wwwroot\locales\nb.txt" />
   <Content Include="wwwroot\locales\nl.txt" />
   <Content Include="wwwroot\locales\pt.txt" />
@@ -112,6 +109,8 @@
   <Content Include="Views\Shared\UI\Dialogs\PreviouslyUploadedFilesDialog.cshtml" />
   <None Include="wwwroot\js\AnnotationDemo.js" />
   <None Include="wwwroot\js\AnnotationUiHelper.js" />
+  <None Include="wwwroot\js\CustomAnnotations\WebMarkAnnotationView.js" />
+  <None Include="wwwroot\js\CustomAnnotations\WebTriangleAnnotationView.js" />
   <None Include="wwwroot\js\UI\Panels\FillAndSignPanel.js" />
   <None Include="wwwroot\js\OpenFileHelper.js" />
   <None Include="wwwroot\js\UI\Dialogs\BlockUiDialog.js" />
