@@ -854,4 +854,4 @@ Vintasoft.Imaging.Annotation.UI.WebMarkAnnotationViewJS = function () {
     // ==================== END CONSTRUCTOR ==========================
 
 }
-Vintasoft.Shared.extend(Vintasoft.Imaging.Annotation.UI.WebMarkAnnotationViewJS, Vintasoft.Imaging.Annotation.UI.WebAnnotationViewJS);
+Vintasoft.Shared.extend(Vintasoft.Imaging.Annotation.UI.WebMarkAnnotationViewJS, Vintasoft.Imaging.Annotation.UI.WebRectangleAnnotationViewJS);
