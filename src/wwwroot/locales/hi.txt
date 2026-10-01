@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "आवर्धक"
 		},
-		"showMobileMenuButton": {
-			"title": "अधिक"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "आयत"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "दृश्य को वामावर्त घुमाएँ"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "चुने हुए टेक्स्ट को क्लिपबोर्ड पर कॉपी करें"
+		},
+		"selectAllTextButton": {
+			"text": "सभी टेक्स्ट चुनें"
+		},
 		"copyAnnotationLabel": {
 			"text": "एनोटेशन कॉपी करें"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "सीमा:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "चौड़ाई:"
+			},
+			"height": {
+				"text": "ऊंचाई:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "नाम:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ आकार:"
-			},
-			"width": {
-				"text": "चौड़ाई:"
-			},
-			"height": {
-				"text": "ऊंचाई:"
 			},
 			"Style": {
 				"text": "शैली:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ टेक्स्ट फ़ील्ड:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ टेक्स्ट इंडेंटेशन:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "नीचे:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(ओरिजिनल)",
 		"vsui-annotationViewer-pasteAnnotation": "एनोटेशन पेस्ट करें",
 		"vsui-annotationViewer-groupAllAnnotations": "सभी एनोटेशन को ग्रुप करें",
-		"vsui-annotationViewer-ungroupAnnotation": "एनोटेशन को अनग्रुप करें"
+		"vsui-annotationViewer-ungroupAnnotation": "एनोटेशन को अनग्रुप करें",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "दृश्य को दक्षिणावर्त घुमाएँ",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "दृश्य को वामावर्त घुमाएँ",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "चुने हुए टेक्स्ट को क्लिपबोर्ड पर कॉपी करें",
+		"vsui-imageViewerContextMenu-selectAllText": "सभी टेक्स्ट चुनें"
 	}
 }

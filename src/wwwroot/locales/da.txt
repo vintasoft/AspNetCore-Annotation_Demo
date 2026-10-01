@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Forstørrelsesglas"
 		},
-		"showMobileMenuButton": {
-			"title": "Mere"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Rektangel"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Roter visningen mod uret"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopier markeret tekst til udklipsholder"
+		},
+		"selectAllTextButton": {
+			"text": "Marker al tekst"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopiér anmærkning"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Grænse:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "Bredde:"
+			},
+			"height": {
+				"text": "Højde:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Navn:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Størrelse:"
-			},
-			"width": {
-				"text": "Bredde:"
-			},
-			"height": {
-				"text": "Højde:"
 			},
 			"Style": {
 				"text": "Stil:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ Tekstfelt:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ Tekstindrykning:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "Bund:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(original)",
 		"vsui-annotationViewer-pasteAnnotation": "Indsæt annotation",
 		"vsui-annotationViewer-groupAllAnnotations": "Gruppér alle annotationer",
-		"vsui-annotationViewer-ungroupAnnotation": "Ophæv gruppe af annotation"
+		"vsui-annotationViewer-ungroupAnnotation": "Ophæv gruppe af annotation",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Roter visningen med uret",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Roter visningen mod uret",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopier markeret tekst til udklipsholder",
+		"vsui-imageViewerContextMenu-selectAllText": "Marker al tekst"
 	}
 }

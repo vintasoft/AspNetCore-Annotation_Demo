@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Խոշորացույց"
 		},
-		"showMobileMenuButton": {
-			"title": "Ավելին"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Ուղղանկյուն"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Պտտեցնել տեսքը ժամացույցի սլաքի հակառակ ուղղությամբ"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Ընտրված տեքստի պատճենում սեղմատախտակին"
+		},
+		"selectAllTextButton": {
+			"text": "Ընտրել ամբողջ տեքստը"
+		},
 		"copyAnnotationLabel": {
 			"text": "Պատճենել ծանոթագրությունը"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Սահման:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "լայնությունը:"
+			},
+			"height": {
+				"text": "բարձրություն:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Անուն:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Չափ:"
-			},
-			"width": {
-				"text": "լայնությունը:"
-			},
-			"height": {
-				"text": "բարձրություն:"
 			},
 			"Style": {
 				"text": "Ոճը:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ TextBox:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ TextPadding."
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "ներքեւ:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(բնօրինակ)",
 		"vsui-annotationViewer-pasteAnnotation": "Տեղադրել նշումը",
 		"vsui-annotationViewer-groupAllAnnotations": "Խմբավորել բոլոր նշումները",
-		"vsui-annotationViewer-ungroupAnnotation": "Անխմբավորել նշումը"
+		"vsui-annotationViewer-ungroupAnnotation": "Անխմբավորել նշումը",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Պտտեցնել դիտումը ժամացույցի սլաքի ուղղությամբ",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Պտտեցնել տեսքը ժամացույցի սլաքի հակառակ ուղղությամբ",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Ընտրված տեքստի պատճենում սեղմատախտակին",
+		"vsui-imageViewerContextMenu-selectAllText": "Ընտրել ամբողջ տեքստը"
 	}
 }

@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "拡大鏡"
 		},
-		"showMobileMenuButton": {
-			"title": "詳細"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "長方形"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "ビューを反時計回りに回転"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "選択したテキストをクリップボードにコピー"
+		},
+		"selectAllTextButton": {
+			"text": "すべてのテキストを選択"
+		},
 		"copyAnnotationLabel": {
 			"text": "注釈をコピー"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "境界:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "幅:"
+			},
+			"height": {
+				"text": "高さ:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "名前:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ サイズ:"
-			},
-			"width": {
-				"text": "幅:"
-			},
-			"height": {
-				"text": "高さ:"
 			},
 			"Style": {
 				"text": "スタイル:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ テキストフィールド:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ テキストのインデント:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "下:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(元の注釈)",
 		"vsui-annotationViewer-pasteAnnotation": "注釈を貼り付け",
 		"vsui-annotationViewer-groupAllAnnotations": "すべての注釈をグループ化",
-		"vsui-annotationViewer-ungroupAnnotation": "注釈のグループ解除"
+		"vsui-annotationViewer-ungroupAnnotation": "注釈のグループ解除",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "ビューを時計回りに回転",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "ビューを反時計回りに回転",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "選択したテキストをクリップボードにコピー",
+		"vsui-imageViewerContextMenu-selectAllText": "すべてのテキストを選択"
 	}
 }

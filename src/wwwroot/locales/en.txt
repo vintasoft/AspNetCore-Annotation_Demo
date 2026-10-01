@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Magnifier"
 		},
-		"showMobileMenuButton": {
-			"title": "More"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Rectangle"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Rotate view counterclockwise"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Copy selected text to the clipboard"
+		},
+		"selectAllTextButton": {
+			"text": "Select all text"
+		},
 		"copyAnnotationLabel": {
 			"text": "Copy annotation"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Border:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "width:"
+			},
+			"height": {
+				"text": "height:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Name:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Size:"
-			},
-			"width": {
-				"text": "width:"
-			},
-			"height": {
-				"text": "height:"
 			},
 			"Style": {
 				"text": "Style:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ TextBox:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ TextPadding:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "bottom:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(original)",
 		"vsui-annotationViewer-pasteAnnotation": "Paste Annotation",
 		"vsui-annotationViewer-groupAllAnnotations": "Group All Annotations",
-		"vsui-annotationViewer-ungroupAnnotation": "Ungroup Annotation"
+		"vsui-annotationViewer-ungroupAnnotation": "Ungroup Annotation",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Rotate view clockwise",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Rotate view counterclockwise",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Copy selected text to the clipboard",
+		"vsui-imageViewerContextMenu-selectAllText": "Select all text"
 	}
 }

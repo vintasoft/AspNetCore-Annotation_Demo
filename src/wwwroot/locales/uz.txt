@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Kattalashtiruvchi"
 		},
-		"showMobileMenuButton": {
-			"title": "Ko'proq"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "To'rtburchak"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Ko'rinishni soat sohasi farqli ravishda aylantiring"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Tanlangan matnni buferga nusxalash"
+		},
+		"selectAllTextButton": {
+			"text": "Barcha matnni tanlash"
+		},
 		"copyAnnotationLabel": {
 			"text": "Izohni nusxalash"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Chegarasi:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "kengligi:"
+			},
+			"height": {
+				"text": "balandligi:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Nomi:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Hajmi:"
-			},
-			"width": {
-				"text": "kengligi:"
-			},
-			"height": {
-				"text": "balandligi:"
 			},
 			"Style": {
 				"text": "Uslub:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ TextBox:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ TextPadding:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "pastki:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(asl nusxasi)",
 		"vsui-annotationViewer-pasteAnnotation": "Izohni joylashtirish",
 		"vsui-annotationViewer-groupAllAnnotations": "Barcha izohlarni guruhlash",
-		"vsui-annotationViewer-ungroupAnnotation": "Izohlarni guruhdan chiqarish"
+		"vsui-annotationViewer-ungroupAnnotation": "Izohlarni guruhdan chiqarish",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Ko'rinishni soat yo'nalishi bo'yicha aylantiring",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Ko'rinishni soat sohasi farqli ravishda aylantiring",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Tanlangan matnni buferga nusxalash",
+		"vsui-imageViewerContextMenu-selectAllText": "Barcha matnni tanlash"
 	}
 }

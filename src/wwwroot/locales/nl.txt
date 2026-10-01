@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Vergrootglas"
 		},
-		"showMobileMenuButton": {
-			"title": "Meer"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Rechthoek"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Draai de weergave tegen de klok in"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Geselecteerde tekst naar het klembord kopiëren"
+		},
+		"selectAllTextButton": {
+			"text": "Alle tekst selecteren"
+		},
 		"copyAnnotationLabel": {
 			"text": "Annotatie kopiëren"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Grens:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "Breedte:"
+			},
+			"height": {
+				"text": "Hoogte:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Naam:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Maat:"
-			},
-			"width": {
-				"text": "Breedte:"
-			},
-			"height": {
-				"text": "Hoogte:"
 			},
 			"Style": {
 				"text": "Stijl:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ Tekstveld:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ Tekst inspringen:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "Onder:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(origineel)",
 		"vsui-annotationViewer-pasteAnnotation": "Annotatie plakken",
 		"vsui-annotationViewer-groupAllAnnotations": "Alle annotaties groeperen",
-		"vsui-annotationViewer-ungroupAnnotation": "Annotatie degroeperen"
+		"vsui-annotationViewer-ungroupAnnotation": "Annotatie degroeperen",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Roteer de weergave met de klok mee",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Draai de weergave tegen de klok in",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Geselecteerde tekst naar het klembord kopiëren",
+		"vsui-imageViewerContextMenu-selectAllText": "Alle tekst selecteren"
 	}
 }

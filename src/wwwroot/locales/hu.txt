@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Nagyító"
 		},
-		"showMobileMenuButton": {
-			"title": "Továbbiak"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Téglalap"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Nézet elforgatása az óramutató járásával ellentétes irányba"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kijelölt szöveg másolása a vágólapra"
+		},
+		"selectAllTextButton": {
+			"text": "Összes szöveg kijelölése"
+		},
 		"copyAnnotationLabel": {
 			"text": "Jegyzet másolása"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Határ:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "Szélesség:"
+			},
+			"height": {
+				"text": "Magasság:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Név:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Méret:"
-			},
-			"width": {
-				"text": "Szélesség:"
-			},
-			"height": {
-				"text": "Magasság:"
 			},
 			"Style": {
 				"text": "Stílus:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ Szövegmező:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ Szöveg behúzása:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "Alul:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(eredeti)",
 		"vsui-annotationViewer-pasteAnnotation": "Jegyzet beillesztése",
 		"vsui-annotationViewer-groupAllAnnotations": "Összes jegyzet csoportosítása",
-		"vsui-annotationViewer-ungroupAnnotation": "Jegyzet csoportosításának felbontása"
+		"vsui-annotationViewer-ungroupAnnotation": "Jegyzet csoportosításának felbontása",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Nézet forgatása az óramutató járásával megegyező irányba",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Nézet elforgatása az óramutató járásával ellentétes irányba",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kijelölt szöveg másolása a vágólapra",
+		"vsui-imageViewerContextMenu-selectAllText": "Összes szöveg kijelölése"
 	}
 }

@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "المكبر"
 		},
-		"showMobileMenuButton": {
-			"title": "المزيد"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "مستطيل"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "تدوير العرض عكس اتجاه عقارب الساعة"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "نسخ النص المحدد إلى الحافظة"
+		},
+		"selectAllTextButton": {
+			"text": "تحديد كل النص"
+		},
 		"copyAnnotationLabel": {
 			"text": "نسخ التعليق التوضيحي"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "الحدود:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "العرض:"
+			},
+			"height": {
+				"text": "الارتفاع:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "الاسم:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ الحجم:"
-			},
-			"width": {
-				"text": "العرض:"
-			},
-			"height": {
-				"text": "الارتفاع:"
 			},
 			"Style": {
 				"text": "النمط:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ حقل النص:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ المسافة البادئة للنص:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "القاع:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(الأصلية)",
 		"vsui-annotationViewer-pasteAnnotation": "لصق التعليق التوضيحي",
 		"vsui-annotationViewer-groupAllAnnotations": "تجميع جميع التعليقات التوضيحية",
-		"vsui-annotationViewer-ungroupAnnotation": "فك تجميع التعليق التوضيحي"
+		"vsui-annotationViewer-ungroupAnnotation": "فك تجميع التعليق التوضيحي",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "تدوير العرض في اتجاه عقارب الساعة",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "تدوير العرض عكس اتجاه عقارب الساعة",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "نسخ النص المحدد إلى الحافظة",
+		"vsui-imageViewerContextMenu-selectAllText": "تحديد كل النص"
 	}
 }

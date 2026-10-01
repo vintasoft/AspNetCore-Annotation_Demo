@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Ulaldyjy"
 		},
-		"showMobileMenuButton": {
-			"title": "Has köp"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Gönüburçluk"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Görnüşi sagat tersine öwüriň"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Saýlanan teksti bufere göçüriň"
+		},
+		"selectAllTextButton": {
+			"text": "Ähli teksti saýlaň"
+		},
 		"copyAnnotationLabel": {
 			"text": "Annotasiýa göçüriň"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Serhet:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "ini:"
+			},
+			"height": {
+				"text": "beýikligi:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Ady:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Ölçegi:"
-			},
-			"width": {
-				"text": "ini:"
-			},
-			"height": {
-				"text": "beýikligi:"
 			},
 			"Style": {
 				"text": "Stil:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ TextBox:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ TextPadding:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "aşagy:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(asyl)",
 		"vsui-annotationViewer-pasteAnnotation": "Annotasiýany goýmak",
 		"vsui-annotationViewer-groupAllAnnotations": "Ähli Annotasiýalary toparlamak",
-		"vsui-annotationViewer-ungroupAnnotation": "Annotasiýany aýyrmak"
+		"vsui-annotationViewer-ungroupAnnotation": "Annotasiýany aýyrmak",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Görnüşi sagat ugruna öwüriň",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Görnüşi sagat tersine öwüriň",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Saýlanan teksti bufere göçüriň",
+		"vsui-imageViewerContextMenu-selectAllText": "Ähli teksti saýlaň"
 	}
 }

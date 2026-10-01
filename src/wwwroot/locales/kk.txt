@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Үлкейткіш"
 		},
-		"showMobileMenuButton": {
-			"title": "Көбірек"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Тіктөртбұрыш"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Көріністі сағат тіліне қарсы бұраңыз"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Таңдалған мәтінді буферге көшіру"
+		},
+		"selectAllTextButton": {
+			"text": "Барлық мәтінді таңдау"
+		},
 		"copyAnnotationLabel": {
 			"text": "Аннотацияны көшіру"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Шекара:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "ені:"
+			},
+			"height": {
+				"text": "биіктігі:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Аты:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Өлшемі:"
-			},
-			"width": {
-				"text": "ені:"
-			},
-			"height": {
-				"text": "биіктігі:"
 			},
 			"Style": {
 				"text": "Стиль:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ TextBox:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ Мәтіндік толтыру:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "төменгі:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(түпнұсқа)",
 		"vsui-annotationViewer-pasteAnnotation": "Аңдатпаны қою",
 		"vsui-annotationViewer-groupAllAnnotations": "Барлық аннотацияларды топтастыру",
-		"vsui-annotationViewer-ungroupAnnotation": "Аңдатпаны топтан шығару"
+		"vsui-annotationViewer-ungroupAnnotation": "Аңдатпаны топтан шығару",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Көріністі сағат тілімен бұрыңыз",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Көріністі сағат тіліне қарсы бұраңыз",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Таңдалған мәтінді буферге көшіру",
+		"vsui-imageViewerContextMenu-selectAllText": "Барлық мәтінді таңдау"
 	}
 }

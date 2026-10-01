@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "ლუპა"
 		},
-		"showMobileMenuButton": {
-			"title": "მეტი"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "მართკუთხედი"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "ხედის როტაცია საათის ისრის საწინააღმდეგოდ"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "არჩეული ტექსტის კოპირება ბუფერში"
+		},
+		"selectAllTextButton": {
+			"text": "მთელი ტექსტის არჩევა"
+		},
 		"copyAnnotationLabel": {
 			"text": "დააკოპირეთ ანოტაცია"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "საზღვარი:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "სიგანე:"
+			},
+			"height": {
+				"text": "სიმაღლე:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "სახელი:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ ზომა:"
-			},
-			"width": {
-				"text": "სიგანე:"
-			},
-			"height": {
-				"text": "სიმაღლე:"
 			},
 			"Style": {
 				"text": "სტილი:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ ტექსტური ყუთი:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ ტექსტის დაფარვა:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "ქვედა:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(ორიგინალი)",
 		"vsui-annotationViewer-pasteAnnotation": "ანოტაციის ჩასმა",
 		"vsui-annotationViewer-groupAllAnnotations": "ყველა ანოტაციის დაჯგუფება",
-		"vsui-annotationViewer-ungroupAnnotation": "ანოტაციის განჯგუფება"
+		"vsui-annotationViewer-ungroupAnnotation": "ანოტაციის განჯგუფება",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "ხედის როტაცია საათის ისრის მიმართულებით",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "ხედის როტაცია საათის ისრის საწინააღმდეგოდ",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "არჩეული ტექსტის კოპირება ბუფერში",
+		"vsui-imageViewerContextMenu-selectAllText": "მთელი ტექსტის არჩევა"
 	}
 }

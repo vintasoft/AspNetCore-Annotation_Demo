@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "돋보기"
 		},
-		"showMobileMenuButton": {
-			"title": "더보기"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "직사각형"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "시계 반대 방향으로 보기 회전"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "선택한 텍스트를 클립보드에 복사"
+		},
+		"selectAllTextButton": {
+			"text": "전체 텍스트 선택"
+		},
 		"copyAnnotationLabel": {
 			"text": "주석 복사"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "경계:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "너비:"
+			},
+			"height": {
+				"text": "높이:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "이름:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ 크기:"
-			},
-			"width": {
-				"text": "너비:"
-			},
-			"height": {
-				"text": "높이:"
 			},
 			"Style": {
 				"text": "스타일:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ 텍스트 필드:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ 텍스트 들여쓰기:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "하단:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(원본)",
 		"vsui-annotationViewer-pasteAnnotation": "주석 붙여넣기",
 		"vsui-annotationViewer-groupAllAnnotations": "모든 주석 그룹화",
-		"vsui-annotationViewer-ungroupAnnotation": "주석 그룹 해제"
+		"vsui-annotationViewer-ungroupAnnotation": "주석 그룹 해제",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "보기를 시계 방향으로 회전",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "시계 반대 방향으로 보기 회전",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "선택한 텍스트를 클립보드에 복사",
+		"vsui-imageViewerContextMenu-selectAllText": "전체 텍스트 선택"
 	}
 }

@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Бузургкунанда"
 		},
-		"showMobileMenuButton": {
-			"title": "Бештар"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Росткунҷа"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Намоишро ба муқобили ақрабаки соат гардонед"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Нусхабардории матни интихобшуда ба буфер"
+		},
+		"selectAllTextButton": {
+			"text": "Интихоби ҳамаи матн"
+		},
 		"copyAnnotationLabel": {
 			"text": "Аннотацияро нусхабардорӣ кунед"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Сарҳад:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "паҳнои:"
+			},
+			"height": {
+				"text": "баландӣ:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Ном:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Андоза:"
-			},
-			"width": {
-				"text": "паҳнои:"
-			},
-			"height": {
-				"text": "баландӣ:"
 			},
 			"Style": {
 				"text": "Услуб:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ Қуттии матн:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ TextPadding:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "поён:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(аслӣ)",
 		"vsui-annotationViewer-pasteAnnotation": "Часондани аннотатсия",
 		"vsui-annotationViewer-groupAllAnnotations": "Гурӯҳбандии ҳамаи аннотатсияҳо",
-		"vsui-annotationViewer-ungroupAnnotation": "Гузариш додани аннотатсияҳо"
+		"vsui-annotationViewer-ungroupAnnotation": "Гузариш додани аннотатсияҳо",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Намоишро бо ақрабаки соат гардонед",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Намоишро ба муқобили ақрабаки соат гардонед",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Нусхабардории матни интихобшуда ба буфер",
+		"vsui-imageViewerContextMenu-selectAllText": "Интихоби ҳамаи матн"
 	}
 }

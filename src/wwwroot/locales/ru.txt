@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Лупа"
 		},
-		"showMobileMenuButton": {
-			"title": "Еще"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Прямоугольник"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Повернуть вид против часовой стрелки"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Скопировать выделенный текст в буфер обмена"
+		},
+		"selectAllTextButton": {
+			"text": "Выделить весь текст"
+		},
 		"copyAnnotationLabel": {
 			"text": "Копировать аннотацию"
 		},
@@ -803,34 +806,49 @@
 		"annotationSettingsDialog": {
 			"title": "Настройки аннотаций",
 			"AutoFontMaxSize": {
-				"text": "AutoFontMaxSize:"
+				"text": "Макс.размер авто шрифта:"
 			},
 			"AutoFontMinSize": {
-				"text": "AutoFontMinSize:"
+				"text": "Мин.размер авто шрифта:"
 			},
 			"AutoFontSize": {
-				"text": "AutoFontSize:"
+				"text": "Автоматически рассчитать размер шрифта:"
 			},
 			"Border": {
 				"text": "Граница:"
 			},
+			"+ Builder": {
+				"text": "+ Построитель:"
+			},
+			"+ DefaultSize": {
+				"text": "+ Размер по умолчанию:"
+			},
+			"width": {
+				"text": "Ширина:"
+			},
+			"height": {
+				"text": "Высота:"
+			},
 			"CanMirror": {
-				"text": "CanMirror:"
+				"text": "Можно зеркалировать:"
 			},
 			"CanMove": {
-				"text": "CanMove:"
+				"text": "Можно переместить:"
 			},
 			"CanResize": {
-				"text": "CanResize:"
+				"text": "Можно изменить размер:"
 			},
 			"CanRotate": {
-				"text": "CanRotate:"
+				"text": "Можно вращать:"
+			},
+			"CanSelect": {
+				"text": "Можно выбрать:"
 			},
 			"CreatedBy": {
-				"text": "CreatedBy:"
+				"text": "Создано пользователем:"
 			},
 			"CreationTime": {
-				"text": "CreationTime:"
+				"text": "Время создания:"
 			},
 			"+ FillBrush": {
 				"text": "+ Заливка:"
@@ -848,7 +866,7 @@
 				"text": "Жирный шрифт:"
 			},
 			"FamilyName": {
-				"text": "FamilyName:"
+				"text": "Имя семейства:"
 			},
 			"Italic": {
 				"text": "Курсив:"
@@ -857,10 +875,10 @@
 				"text": "Размер миниатюры:"
 			},
 			"Strikeout": {
-				"text": "Зачеркнуть:"
+				"text": "Зачеркнутый:"
 			},
 			"Underline": {
-				"text": "Подчеркнуть:"
+				"text": "Подчеркнутый:"
 			},
 			"Unit": {
 				"text": "Единица измерения:"
@@ -869,25 +887,43 @@
 				"text": "+ Кисть шрифта:"
 			},
 			"FontTransparent": {
-				"text": "FontTransparent:"
+				"text": "Прозрачный шрифт:"
 			},
 			"Guid": {
 				"text": "Идентификатор:"
 			},
 			"HorizontalMirrored": {
-				"text": "HorizontalMirrored:"
+				"text": "Горизонтальное зеркалирование:"
+			},
+			"+ InteractionController": {
+				"text": "+ Интерактивный контроллер:"
 			},
 			"IsBuilding": {
-				"text": "IsBuilding:"
+				"text": "Выполняется построение:"
+			},
+			"IsDrawn": {
+				"text": "Нарисован:"
+			},
+			"IsInitiliazed": {
+				"text": "Инициализирован:"
+			},
+			"IsReadyForDrawing": {
+				"text": "Готово к рисованию:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "Трансформер текстового поля включен:"
+			},
+			"IsTextOverflowed": {
+				"text": "Переполнение текста:"
 			},
 			"IsVisible": {
-				"text": "IsVisible:"
+				"text": "Является видимым:"
 			},
 			"LineStyle": {
-				"text": "LineStyle:"
+				"text": "Стиль линии:"
 			},
 			"LineStylePatternSize": {
-				"text": "LineStylePatternSize:"
+				"text": "Размер узора в стиле линии:"
 			},
 			"+ Location": {
 				"text": "+ Местоположение:"
@@ -899,43 +935,40 @@
 				"text": "у:"
 			},
 			"ModifiedBy": {
-				"text": "ModifiedBy:"
+				"text": "Изменено пользователем:"
+			},
+			"ModifiedTime": {
+				"text": "Время модификации:"
 			},
 			"Name": {
 				"text": "Имя:"
 			},
 			"+ Outline": {
-				"text": "+ Схема:"
+				"text": "+ Контур:"
 			},
 			"DashPattern": {
-				"text": "DashPattern:"
+				"text": "Пунктирный узор:"
 			},
 			"DashStyle": {
-				"text": "DashStyle:"
+				"text": "Стиль Dash:"
 			},
 			"+ EndCap": {
-				"text": "+ Колпачок на конце линии:"
+				"text": "+ Наконечник на конце линии:"
 			},
 			"+ Size": {
 				"text": "+ Размер:"
-			},
-			"width": {
-				"text": "Ширина:"
-			},
-			"height": {
-				"text": "Высота:"
 			},
 			"Style": {
 				"text": "Стиль:"
 			},
 			"LineJoin": {
-				"text": "LineJoin:"
+				"text": "Соединение линий:"
 			},
 			"MiterLimit": {
-				"text": "MiterLimit:"
+				"text": "Предел косого среза:"
 			},
 			"+ StartCap": {
-				"text": "+ Колпачок в начале линии:"
+				"text": "+ Наконечник в начале линии:"
 			},
 			"Width": {
 				"text": "Ширина:"
@@ -944,16 +977,16 @@
 				"text": "+ Шаблон точки изменения размера:"
 			},
 			"BorderColor": {
-				"text": "BorderColor:"
+				"text": "Цвет границы:"
 			},
 			"BorderWidth": {
-				"text": "BorderWidth:"
+				"text": "Ширина границы:"
 			},
 			"FillColor": {
-				"text": "FillColor:"
+				"text": "Цвет заливки:"
 			},
 			"InteractionRadius": {
-				"text": "InteractionRadius:"
+				"text": "Радиус взаимодействия:"
 			},
 			"Radius": {
 				"text": "Радиус:"
@@ -971,7 +1004,7 @@
 				"text": "+ Точка вращения:"
 			},
 			"RotationPointDistance": {
-				"text": "RotationPointDistance:"
+				"text": "Расстояние до точки вращения:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Кисть для рисования тени:"
@@ -986,25 +1019,7 @@
 				"text": "Текст:"
 			},
 			"TextAlign": {
-				"text": "TextAlign:"
-			},
-			"+ TextBox": {
-				"text": "+ Текстовое поле:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
+				"text": "Выравнивание текста:"
 			},
 			"+ TextPadding": {
 				"text": "+ Отступ текста:"
@@ -1021,11 +1036,26 @@
 			"bottom": {
 				"text": "Снизу:"
 			},
+			"+ TextProperties": {
+				"text": "+ Свойства текста:"
+			},
+			"AutoSize": {
+				"text": "Авто размер:"
+			},
 			"ToolTip": {
-				"text": "ToolTip:"
+				"text": "Всплывающая подсказка:"
+			},
+			"+ Transformer": {
+				"text": "+ Трансформер:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "Прятать точки при перемещении:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "Симметричный интерактивный объект:"
 			},
 			"VerticalMirrored": {
-				"text": "VerticalMirrored:"
+				"text": "Вертикальное зеркалирование:"
 			},
 			"okButton": {
 				"value": "ОК"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(оригинал)",
 		"vsui-annotationViewer-pasteAnnotation": "Вставить аннотацию",
 		"vsui-annotationViewer-groupAllAnnotations": "Сгруппировать все аннотации",
-		"vsui-annotationViewer-ungroupAnnotation": "Разгруппировать аннотацию"
+		"vsui-annotationViewer-ungroupAnnotation": "Разгруппировать аннотацию",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Повернуть вид по часовой стрелке",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Повернуть вид против часовой стрелки",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Скопировать выделенный текст в буфер обмена",
+		"vsui-imageViewerContextMenu-selectAllText": "Выделить весь текст"
 	}
 }

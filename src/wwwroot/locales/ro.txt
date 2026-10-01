@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Lupă"
 		},
-		"showMobileMenuButton": {
-			"title": "Mai multe"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Dreptunghi"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Rotiți vizualizarea în sens invers acelor de ceasornic"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Copiere text selectat în clipboard"
+		},
+		"selectAllTextButton": {
+			"text": "Selectare tot textul"
+		},
 		"copyAnnotationLabel": {
 			"text": "Copiați adnotarea"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Delimitare:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "Latime:"
+			},
+			"height": {
+				"text": "Înălțime:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Nume:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Dimensiune:"
-			},
-			"width": {
-				"text": "Latime:"
-			},
-			"height": {
-				"text": "Înălțime:"
 			},
 			"Style": {
 				"text": "Stil:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ Câmp text:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ Indentare text:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "De jos:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(original)",
 		"vsui-annotationViewer-pasteAnnotation": "Lipire adnotare",
 		"vsui-annotationViewer-groupAllAnnotations": "Grupare toate adnotările",
-		"vsui-annotationViewer-ungroupAnnotation": "Degrupare adnotare"
+		"vsui-annotationViewer-ungroupAnnotation": "Degrupare adnotare",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Rotiți vizualizarea în sensul acelor de ceasornic",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Rotiți vizualizarea în sens invers acelor de ceasornic",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Copiere text selectat în clipboard",
+		"vsui-imageViewerContextMenu-selectAllText": "Selectare tot textul"
 	}
 }

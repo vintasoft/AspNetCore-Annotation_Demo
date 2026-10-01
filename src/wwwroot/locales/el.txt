@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Μεγεθυντικός φακός"
 		},
-		"showMobileMenuButton": {
-			"title": "Περισσότερα"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Ορθογώνιο"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Περιστρέψτε την προβολή αριστερόστροφα"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Αντιγραφή επιλεγμένου κειμένου στο πρόχειρο"
+		},
+		"selectAllTextButton": {
+			"text": "Επιλογή όλου του κειμένου"
+		},
 		"copyAnnotationLabel": {
 			"text": "Αντιγραφή σχολιασμού"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Όριο:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "Πλάτος:"
+			},
+			"height": {
+				"text": "Ύψος:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Όνομα:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Μέγεθος:"
-			},
-			"width": {
-				"text": "Πλάτος:"
-			},
-			"height": {
-				"text": "Ύψος:"
 			},
 			"Style": {
 				"text": "Στυλ:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ Πεδίο κειμένου:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ Εσοχή κειμένου:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "Κάτω:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(πρωτότυπο)",
 		"vsui-annotationViewer-pasteAnnotation": "Επικόλληση Σχολιασμού",
 		"vsui-annotationViewer-groupAllAnnotations": "Ομαδοποίηση όλων των Σχολιασμών",
-		"vsui-annotationViewer-ungroupAnnotation": "Κατάργηση ομαδοποίησης Σχολιασμού"
+		"vsui-annotationViewer-ungroupAnnotation": "Κατάργηση ομαδοποίησης Σχολιασμού",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Περιστρέψτε την προβολή δεξιόστροφα",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Περιστρέψτε την προβολή αριστερόστροφα",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Αντιγραφή επιλεγμένου κειμένου στο πρόχειρο",
+		"vsui-imageViewerContextMenu-selectAllText": "Επιλογή όλου του κειμένου"
 	}
 }

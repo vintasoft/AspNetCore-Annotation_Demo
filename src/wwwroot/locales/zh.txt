@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "放大镜"
 		},
-		"showMobileMenuButton": {
-			"title": "更多的"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "长方形"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "逆時針旋轉視圖"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "将选定文本复制到剪贴板"
+		},
+		"selectAllTextButton": {
+			"text": "选择所有文本"
+		},
 		"copyAnnotationLabel": {
 			"text": "复制注释"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "边界："
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "宽度："
+			},
+			"height": {
+				"text": "高度："
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "姓名："
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ 尺寸："
-			},
-			"width": {
-				"text": "宽度："
-			},
-			"height": {
-				"text": "高度："
 			},
 			"Style": {
 				"text": "风格："
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ 文本框："
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ 文本填充："
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "底部："
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "（原始）",
 		"vsui-annotationViewer-pasteAnnotation": "粘贴注释",
 		"vsui-annotationViewer-groupAllAnnotations": "将所有注释组合",
-		"vsui-annotationViewer-ungroupAnnotation": "取消注释组合"
+		"vsui-annotationViewer-ungroupAnnotation": "取消注释组合",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "順時針旋轉視圖",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "逆時針旋轉視圖",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "将选定文本复制到剪贴板",
+		"vsui-imageViewerContextMenu-selectAllText": "选择所有文本"
 	}
 }

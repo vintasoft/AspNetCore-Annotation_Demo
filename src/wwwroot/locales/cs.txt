@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Lupa"
 		},
-		"showMobileMenuButton": {
-			"title": "Více"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Obdélník"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Otočit pohled proti směru hodinových ručiček"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopírovat vybraný text do schránky"
+		},
+		"selectAllTextButton": {
+			"text": "Vybrat veškerý text"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopírovat anotaci"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Hranice:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "Šířka:"
+			},
+			"height": {
+				"text": "Výška:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Jméno:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Velikost:"
-			},
-			"width": {
-				"text": "Šířka:"
-			},
-			"height": {
-				"text": "Výška:"
 			},
 			"Style": {
 				"text": "Styl:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ Textové pole:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ Odsazení textu:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "Dole:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(původní)",
 		"vsui-annotationViewer-pasteAnnotation": "Vložit anotaci",
 		"vsui-annotationViewer-groupAllAnnotations": "Seskupit všechny anotace",
-		"vsui-annotationViewer-ungroupAnnotation": "Rozdělit anotaci"
+		"vsui-annotationViewer-ungroupAnnotation": "Rozdělit anotaci",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Otočit pohled ve směru hodinových ručiček",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Otočit pohled proti směru hodinových ručiček",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopírovat vybraný text do schránky",
+		"vsui-imageViewerContextMenu-selectAllText": "Vybrat veškerý text"
 	}
 }

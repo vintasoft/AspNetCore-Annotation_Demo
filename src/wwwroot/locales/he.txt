@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "מגדיל"
 		},
-		"showMobileMenuButton": {
-			"title": "עוד"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "מלבן"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "סובב את התצוגה נגד כיוון השעון"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "העתקת טקסט נבחר ללוח"
+		},
+		"selectAllTextButton": {
+			"text": "בחירת כל הטקסט"
+		},
 		"copyAnnotationLabel": {
 			"text": "העתק הערה"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "גבול:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "רוחב:"
+			},
+			"height": {
+				"text": "גובה:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "שם:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ גודל:"
-			},
-			"width": {
-				"text": "רוחב:"
-			},
-			"height": {
-				"text": "גובה:"
 			},
 			"Style": {
 				"text": "סגנון:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ שדה טקסט:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ הזחה של טקסט:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "למטה:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(מקורי)",
 		"vsui-annotationViewer-pasteAnnotation": "הדבק הערות",
 		"vsui-annotationViewer-groupAllAnnotations": "קבץ את כל ההערות",
-		"vsui-annotationViewer-ungroupAnnotation": "בטל קבוצת הערות"
+		"vsui-annotationViewer-ungroupAnnotation": "בטל קבוצת הערות",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "סובב את התצוגה בכיוון השעון",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "סובב את התצוגה נגד כיוון השעון",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "העתקת טקסט נבחר ללוח",
+		"vsui-imageViewerContextMenu-selectAllText": "בחירת כל הטקסט"
 	}
 }

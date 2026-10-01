@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Лупа"
 		},
-		"showMobileMenuButton": {
-			"title": "Яшчэ"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Прастакутнік"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Павярнуць выгляд супраць гадзіннікавай стрэлкі"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Капіраваць вылучаны тэкст у буфер абмену"
+		},
+		"selectAllTextButton": {
+			"text": "Вылучыць увесь тэкст"
+		},
 		"copyAnnotationLabel": {
 			"text": "Капіяваць анатацыю"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Мяжа:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "шырыня:"
+			},
+			"height": {
+				"text": "вышыня:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Імя:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Памер:"
-			},
-			"width": {
-				"text": "шырыня:"
-			},
-			"height": {
-				"text": "вышыня:"
 			},
 			"Style": {
 				"text": "стыль:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ Тэкставае поле:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ Запаўненне тэксту:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "унізе:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(арыгінал)",
 		"vsui-annotationViewer-pasteAnnotation": "Уставіць анатацыю",
 		"vsui-annotationViewer-groupAllAnnotations": "Згрупаваць усе анатацыі",
-		"vsui-annotationViewer-ungroupAnnotation": "Разгрупаваць анатацыю"
+		"vsui-annotationViewer-ungroupAnnotation": "Разгрупаваць анатацыю",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Павярнуць выгляд па гадзіннікавай стрэлцы",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Павярнуць выгляд супраць гадзіннікавай стрэлкі",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Капіраваць вылучаны тэкст у буфер абмену",
+		"vsui-imageViewerContextMenu-selectAllText": "Вылучыць увесь тэкст"
 	}
 }

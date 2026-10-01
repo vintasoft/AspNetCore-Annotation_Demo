@@ -66,9 +66,6 @@
 		"magnifierToolButton": {
 			"title": "Povećalo"
 		},
-		"showMobileMenuButton": {
-			"title": "Više"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Pravokutnik"
 		},
@@ -764,6 +761,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Zakreni prikaz u smjeru suprotnom od kazaljke na satu"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopiraj odabrani tekst u međuspremnik"
+		},
+		"selectAllTextButton": {
+			"text": "Odaberi sav tekst"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopiraj komentar"
 		},
@@ -814,6 +817,18 @@
 			"Border": {
 				"text": "Granica:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "Širina:"
+			},
+			"height": {
+				"text": "Visina:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -825,6 +840,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -877,8 +895,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -901,6 +937,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Ime:"
 			},
@@ -918,12 +957,6 @@
 			},
 			"+ Size": {
 				"text": "+ Veličina:"
-			},
-			"width": {
-				"text": "Širina:"
-			},
-			"height": {
-				"text": "Visina:"
 			},
 			"Style": {
 				"text": "Stil:"
@@ -988,24 +1021,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ Tekstualno polje:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ Uvlačenje teksta:"
 			},
@@ -1021,8 +1036,23 @@
 			"bottom": {
 				"text": "Dno:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
@@ -1106,6 +1136,10 @@
 		"vsui-undoAction-original": "(izvorno)",
 		"vsui-annotationViewer-pasteAnnotation": "Zalijepi napomenu",
 		"vsui-annotationViewer-groupAllAnnotations": "Grupiraj sve napomene",
-		"vsui-annotationViewer-ungroupAnnotation": "Razgrupiraj napomenu"
+		"vsui-annotationViewer-ungroupAnnotation": "Razgrupiraj napomenu",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Zakreni pogled u smjeru kazaljke na satu",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Zakreni prikaz u smjeru suprotnom od kazaljke na satu",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopiraj odabrani tekst u međuspremnik",
+		"vsui-imageViewerContextMenu-selectAllText": "Odaberi sav tekst"
 	}
 }

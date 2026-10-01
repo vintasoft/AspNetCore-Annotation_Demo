@@ -161,13 +161,15 @@ function __initMenu(docViewerSettings) {
     // get items of document viewer
     var items = docViewerSettings.get_Items();
 
+    var supportedFileExtensions = ".bmp, .cur, .gif, .ico, .j2c, .j2k, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff";
+
     var uploadAndOpenFileButton = items.getItemByRegisteredId("uploadAndOpenFileButton");
     if (uploadAndOpenFileButton != null)
-        uploadAndOpenFileButton.set_FileExtensionFilter(".bmp, .cur, .gif, .ico, .j2c, .j2k, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff");
+        uploadAndOpenFileButton.set_FileExtensionFilter(supportedFileExtensions);
 
     var uploadAndAddFileButton = items.getItemByRegisteredId("uploadAndAddFileButton");
     if (uploadAndAddFileButton != null)
-        uploadAndAddFileButton.set_FileExtensionFilter(".bmp, .cur, .gif, .ico, .j2c, .j2k, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff");
+        uploadAndAddFileButton.set_FileExtensionFilter(supportedFileExtensions);
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");
